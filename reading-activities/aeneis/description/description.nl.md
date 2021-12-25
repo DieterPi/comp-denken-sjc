@@ -15,7 +15,7 @@ insignem pietate virum, tot adire labores
 impulerit. Tantaene animis caelestibus irae?
 ```
 
-Ofwel, in het Nederlands:
+Ofwel, in het Nederlands 'testje':
 
 ```
 Ik bezing de wapenfeiten en de man, 
