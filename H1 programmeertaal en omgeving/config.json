@@ -1,11 +1,13 @@
 {
   "description": {
     "names": {
-      "nl": "Programeertaal en omgeving"
+      "nl": "Programeertaal en -omgeving"
     }
   },
   "type": "content",
-  "labels": ["Sint-Jozefscollege Aalst"],
+  "labels": [
+    "Sint-Jozefscollege Aalst"
+  ],
   "access": "public",
   "internals": {
     "token": "449jrUU8g9J2dBRJfFfDqDyXQiAvjNNCtsypazwyBzDQJb_FYBcbpZv5QayiTGPI",
