@@ -1,5 +1,9 @@
 ## Opgave
-Tijdens de lessen fysica behandelde je het begrip **massadichtheid**. Schrijf een programma dat voor een vloeistof vraagt naar de massa $$m$$ in kilogram en het volume $$V$$ in liter. Vervolgens berekent het programma de massadichtheid $$\rho$$ in $$\frac{\text{g}}{\text{cm}^3}$$
+Tijdens de lessen fysica behandelde je het begrip **massadichtheid**. Zo heb je geleerd dat stoffen met een lagere massadichtheid drijven ten opzichte van stoffen met een hoge massadichtheid.
+
+![variabele](media/cocktail.jpg "variabele"){:data-caption="Een cocktail opgebouwd uit lagen van verschillende massadichtheden." width="35%"}
+
+Schrijf een programma dat voor een vloeistof vraagt naar de massa $$m$$ in kilogram en het volume $$V$$ in liter. Vervolgens berekent het programma de massadichtheid $$\rho$$ in $$\frac{\text{g}}{\text{cm}^3}$$
 
 Rond het resultaat af op 1 cijfer na de komma.
 
