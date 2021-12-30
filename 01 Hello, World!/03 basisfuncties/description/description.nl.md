@@ -4,7 +4,7 @@ Functies vormen een essentieel onderdeel van het programmeren. Je hebt in de vor
 Later zullen we zelf eigen functies gaan samenstellen, maar eerst zal het handig zijn om kennis te maken met enkele functies die Python reeds voor ons klaar heeft.
 
 ### Functies en argumenten
-De functie `print()` accepteert **meerdere** argumenten, probeer bijvoorbeeld de volgende code uit:
+De functie `print()` accepteert meerdere **argumenten**, probeer bijvoorbeeld de volgende code uit:
 
 ```python
 pi = 3.14158
@@ -42,4 +42,13 @@ print( 'round( z, 1 ):', round( z, 1 ) )
 
 ## Opgave
 Schrijf een programma dat drie **gehele** getallen vraagt en dan het maximum, minimum en het gemiddelde van drie getallen weergeeft.
+
 Zorg dat het gemiddelde afgerond wordt op 2 cijfers na de komma.
+
+#### Voorbeeld
+Voor de achtereenvolgende invoer `12`, `5`, `8` verschijnt:
+```
+maximum: 12
+minimum: 5
+gemiddelde: 8.33
+```
