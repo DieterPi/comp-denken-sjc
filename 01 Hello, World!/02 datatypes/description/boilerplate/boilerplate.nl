@@ -1,5 +1,5 @@
 # gegevens
-boekprijs = 20.34
+boekprijs = 
 aantal = 
 verzending = 15.3
 
