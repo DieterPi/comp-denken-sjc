@@ -1,9 +1,12 @@
 ## Soorten getallen en tekst
-Een computer heeft heel wat verschillende manieren om gegevens op te slaan. Python heeft verschillende datatypes om deze gegevens op te slaan.
-Naast getallen zullen we allereerst met Booleaanse waarden en tekst.
+Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we met deze gegevens binnen Python, dan zal Python zelf bepalen wat welke soort gegevens het zijn, bijvoorbeeld een getal of een stukje tekst. Toch is het zeer nuttig om enkele **datatypes** beter te leren kennen.
 
 ### Gehele getallen
-Het meest eenvoudige zijn de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of variable is. Probeer bijvoorbeeld het volgende stukje code uit:
+Het belangrijkste datatype zijn ongetwijfeld de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of *variable* is. In het onderstaande codevoorbeeld wordt het getal 5 opgeslagen in de variabele `x`. In Minecraft zou je dit als volgt doen:
+
+![variabele](media/minecraft_new_variable.png "variabele"){:data-caption="Een variabele definiëren in Minecraft Education Edition" width="100%"}
+
+Maak nu een nieuwe Repl aan en probeer het volgende stukje code uit:
 
 ```python
 x = 5
