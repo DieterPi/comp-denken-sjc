@@ -23,8 +23,11 @@ print( type( x ) )
 ```
 Je merkt dat `x` van het type `float` is.
 
+Merk op dat ook indien een deling geheel is, Python dit toch als een kommagetal behandelt. Beschouw het volgende voorbeeld:
+
 ```python
 x = 18/3
+print( x )
 print( type( x ) )
 ```
 
@@ -50,7 +53,7 @@ print( x > 0 )
 ```
 
 ### Tekst
-Een reeks tekens of tekst noemt men in het Engels een **string**. Werk je met tekst dan moet je die tekens steeds tussen aanhalingstekens `'` plaatsen.
+Een reeks tekens of tekst noemt men in het Engels een **string**. Werk je met tekst dan moet je de tekens steeds tussen aanhalingstekens `'` plaatsen.
 
 ```python
 x = 'Expecto patronum!'
