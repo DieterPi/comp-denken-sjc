@@ -83,6 +83,6 @@ Indien je 5 boeken bestelt van € 20,34 en hier € 15,3 verzendingskosten voor
 
 Vul het onderstaande programma aan. Zorg ervoor dat de kostprijs uiteindelijk weergegeven wordt. Welk datatype heeft `kostprijs`?
 
-{: .callout.callout-success}
+{: .callout.callout-info}
 > #### Tip
 > Gebruik de standaard bewerkingen binnen Python, `+` voor optelling, `-` voor aftrekking, `*` voor vermenigvuldiging en `/` voor deling.
