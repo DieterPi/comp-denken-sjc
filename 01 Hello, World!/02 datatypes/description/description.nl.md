@@ -1,5 +1,5 @@
 ## Soorten getallen en tekst
-Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we met deze gegevens binnen Python, dan zal Python zelf bepalen wat welke soort gegevens het zijn, bijvoorbeeld een getal of een stukje tekst. Toch is het zeer nuttig om enkele **datatypes** beter te leren kennen.
+Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we met gegevens binnen Python, dan zal Python zelf bepalen welke soort gegevens het zijn, bijvoorbeeld een getal of een stukje tekst. Toch is het zeer nuttig om enkele **datatypes** beter te leren kennen.
 
 ### Gehele getallen
 Het belangrijkste datatype zijn ongetwijfeld de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of *variable* is. In het onderstaande codevoorbeeld wordt het getal 5 opgeslagen in de variabele `x`. In Minecraft zou je dit als volgt doen:
@@ -38,6 +38,12 @@ print( type( x ) )
 ```
 Je merkt dat `x` van het type `bool` is.
 
+Dit type is vooral belangrijk indien we bepaalde *voorwaarden* willen controleren.
+```python
+x = 5
+print( x > 0 )
+```
+
 ### Tekst
 Een reeks tekens of tekst noemt men in het Engels een **string**. Werk je met tekst dan moet je die tekens steeds tussen aanhalingstekens `'` plaatsen.
 
@@ -52,6 +58,16 @@ Een getal hoeft niet altijd van het type integer zijn. Zo heeft het bijvoorbeeld
 ```python
 huisnummer = '7'
 print( type( huisnummer ) )
+```
+
+## Datatypes casten
+
+Het kan nuttig zijn om gegevens naar een ander datatype om te zetten. Daarvoor bestaan de *functies* `int()`, `float()` en `str()`. Beschouw bijvoorbeeld:
+
+```python
+x = int( (431 / 100) * 100 )
+print( x )
+print( type(x) )
 ```
 
 ## Opgave
