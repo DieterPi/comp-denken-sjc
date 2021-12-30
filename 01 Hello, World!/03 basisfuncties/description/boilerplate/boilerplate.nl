@@ -4,5 +4,5 @@ getal2 =
 getal3 = 
 
 # vul hieronder de andere uitvoer aan
-print('maximum:', ) )
+print('maximum:', )
 
