@@ -80,3 +80,7 @@ print( type(x) )
 
 ## Opgave
 d
+
+{: .callout.callout-success}
+> #### Tip
+> Gebruik de standaard bewerkingen binnen Python, `+` voor optelling, `-` voor aftrekking, `*` voor vermenigvuldiging en `/` voor deling.
