@@ -9,9 +9,11 @@
       "nl": "Basisfuncties"
     }
   },
-  "labels": [ ],
+  "labels": [
+
+  ],
   "internals": {
-    "token": "R3Aisr4ZxC_rZhWtiH-mC_Wp6BMUSVdJ-C3HIfK8Fi8ru4GRqfstcqcAqUkhCxeg",
+    "token": "IF9II3ahWkX8a_MbAkcByJjwrkJHzHMZTGUaxB-kkR9WYW5_jfySZtIQGp_i3BmS",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   },
   "access": "public"
