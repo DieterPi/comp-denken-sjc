@@ -30,10 +30,6 @@ maximum: 53
 minimum: -94
 gemiddelde: -24.0
 
-maximum: 56
-minimum: -94
-gemiddelde: -30.33
-
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
