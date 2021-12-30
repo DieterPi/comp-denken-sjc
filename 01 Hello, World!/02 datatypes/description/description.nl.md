@@ -4,7 +4,7 @@ Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we m
 ### Gehele getallen
 Het belangrijkste datatype zijn ongetwijfeld de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of *variable* is. In het onderstaande codevoorbeeld wordt het getal 5 opgeslagen in de variabele `x`. In Minecraft zou je dit als volgt doen:
 
-![variabele](media/minecraft_new_variable.png "variabele"){:data-caption="Een variabele definiëren in Minecraft Education Edition" width="35%"}
+![variabele](media/minecraft_new_variable.png "variabele"){:data-caption="Een variabele definiëren in Minecraft Education Edition" width="191px"}
 
 Maak nu een nieuwe Repl aan en probeer het volgende stukje code uit:
 
@@ -22,6 +22,11 @@ x = 3.5
 print( type( x ) )
 ```
 Je merkt dat `x` van het type `float` is.
+
+```python
+x = 18/3
+print( type( x ) )
+```
 
 Door de manier waarop Python floats opslaat, kunnen bepaalde getallen niet precies vastgelegd worden. Probeer bijvoorbeeld eens:
 ```python
@@ -65,7 +70,7 @@ print( type( huisnummer ) )
 Het kan nuttig zijn om gegevens naar een ander datatype om te zetten. Daarvoor bestaan de *functies* `int()`, `float()` en `str()`. Beschouw bijvoorbeeld:
 
 ```python
-x = int( (431 / 100) * 100 )
+x = int( 18/3 )
 print( x )
 print( type(x) )
 ```
