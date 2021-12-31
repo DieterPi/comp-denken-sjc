@@ -1,8 +1,12 @@
-5
+oppervlakte: 201.06 cm²
+volume: 268.08 cm³
+
+oppervlakte: 314.16 cm²
+volume: 523.6 cm³
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
 block count: multi
-input block size: ends with
+input block size: 1
 output block size: ends with
 comparison: exact match
