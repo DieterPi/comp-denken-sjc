@@ -1,7 +1,8 @@
+5
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
 block count: multi
-input block size: 1
+input block size: ends with
 output block size: ends with
 comparison: exact match
