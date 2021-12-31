@@ -17,5 +17,5 @@ munt 1: 0
 > Gebruik voor deze oefening de volgende bewerkingen de **gehele deling** `//` en **modulo** `%`. Controleer eerst wat `10 // 7` en `10 // 3` oplevert.
 
 
-![variabele](media/euro.jpg "variabele"){:data-caption="Kassa met verschillende eurobiljetten" width="35%"}
+![euro](media/euro.jpg "variabele"){:data-caption="Kassa met verschillende eurobiljetten" width="35%"}
 
