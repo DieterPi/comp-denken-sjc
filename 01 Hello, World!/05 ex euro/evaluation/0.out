@@ -1,3 +1,9 @@
+biljet 50: 4
+biljet 20: 1
+biljet 10: 0
+biljet 5: 1
+munt 2: 1
+munt 1: 0
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
