@@ -78,6 +78,6 @@ munt 1: 0
 tab name: feedback
 python input without prompt: true
 block count: multi
-input block size: ends with
+input block size: 1
 output block size: ends with
 comparison: exact match
