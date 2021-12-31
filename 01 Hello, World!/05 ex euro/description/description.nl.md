@@ -14,7 +14,7 @@ munt 1: 0
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik voor deze oefening de wiskundige bewerking `%`, ook wel gekend als de gehele deling. Probeer eerst even uit wat `10 % 7` en `10 % 3` oplevert.
+> Gebruik voor deze oefening de volgende bewerkingen: de **gehele deling** `//` en **modulo** `%`. Controleer eerst even wat `10 // 7`, `10 % 7` en `10 // 3`, `10 % 3` oplevert.
 
 
 ![variabele](media/euro.jpg "variabele"){:data-caption="Kassa met verschillende eurobiljetten" width="35%"}
