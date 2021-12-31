@@ -4,6 +4,76 @@ biljet 10: 0
 biljet 5: 1
 munt 2: 1
 munt 1: 0
+
+biljet 50: 13
+biljet 20: 0
+biljet 10: 0
+biljet 5: 1
+munt 2: 1
+munt 1: 0
+
+biljet 50: 9
+biljet 20: 0
+biljet 10: 0
+biljet 5: 0
+munt 2: 1
+munt 1: 1
+
+biljet 50: 11
+biljet 20: 0
+biljet 10: 0
+biljet 5: 1
+munt 2: 0
+munt 1: 1
+
+biljet 50: 14
+biljet 20: 1
+biljet 10: 0
+biljet 5: 1
+munt 2: 1
+munt 1: 0
+
+biljet 50: 18
+biljet 20: 1
+biljet 10: 0
+biljet 5: 1
+munt 2: 0
+munt 1: 0
+
+biljet 50: 17
+biljet 20: 0
+biljet 10: 1
+biljet 5: 0
+munt 2: 2
+munt 1: 0
+
+biljet 50: 18
+biljet 20: 2
+biljet 10: 0
+biljet 5: 0
+munt 2: 0
+munt 1: 0
+
+biljet 50: 16
+biljet 20: 1
+biljet 10: 1
+biljet 5: 0
+munt 2: 1
+munt 1: 0
+
+biljet 50: 12
+biljet 20: 0
+biljet 10: 1
+biljet 5: 1
+munt 2: 1
+munt 1: 0
+
+biljet 50: 0
+biljet 20: 1
+biljet 10: 0
+biljet 5: 0
+munt 2: 0
+munt 1: 0
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
