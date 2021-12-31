@@ -1,14 +1,14 @@
 ## Opgave
-Vaak wordt aan een overschrijving een gestructureerde medeling (ogm) toegevoegd. Met behulp van deze medeling kan de ontvangende partij gemakkelijk controleren of de het correcte bedrag werd overgeschreven. De mededeling vind je onderaan een overschrijvingsformulier:
+Vaak wordt aan een overschrijving een gestructureerde medeling (ogm) toegevoegd. Met behulp van deze medeling kan de ontvangende partij gemakkelijk controleren of het correcte bedrag werd overgeschreven. De mededeling vind je onderaan een overschrijvingsformulier:
 
 ![variabele](media/ogm.jpg "variabele"){:data-caption="Een overschrijvingsformulier met onderaan de gestructureerde mededeling" width="45%"}
 
 Deze bestaat steeds uit drie getallen van achtereenvolgens 3, 4 en 5 cijfers.
-\[
+$$
 +++016/1780/000{\color{green}05}+++
-\]
+$$
 
-Er is een mechanisme in dit getal ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat $$0\,161\,780\,000$$ rest 5 heeft bij een deling door 97.
+Er is een mechanisme in dit getal ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 0 161 780 000 rest 5 heeft bij een deling door 97.
 
 {: .callout.callout-info}
 > #### Tip
@@ -22,8 +22,8 @@ Voor het bovenstaande voorbeeld zouden de getallen `016`, `1780` en `00` dus lei
 controlegetal: 5
 ```
 
-{: .callout.callout-info}
-> #### Tip
+{: .callout.callout-warning}
+> #### Opmerking
 > Indien de deling geen rest heeft, dan wordt 97 gebruikt als controlegetal (in plaats van 00). Daar hoef je in deze oefening geen rekening mee te houden.
 
 
