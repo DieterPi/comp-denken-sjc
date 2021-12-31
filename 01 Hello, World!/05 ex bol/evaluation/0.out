@@ -1,9 +1,8 @@
-oppervlakte: 201.06 cm
-volume: 268.08 cm
+5
 ----------------------------------------
 tab name: feedback
 python input without prompt: true
 block count: multi
 input block size: ends with
-output block size: 2
+output block size: ends with
 comparison: exact match
