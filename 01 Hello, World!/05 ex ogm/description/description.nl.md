@@ -9,7 +9,7 @@ $$
 016/1780/000\mathbf{05}
 $$
 
-Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 0 161 780 000 rest 5 heeft bij een deling door 97.
+Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 016 1780 000 rest 5 heeft bij een deling door 97.
 
 {: .callout.callout-info}
 > #### Tip
@@ -18,7 +18,7 @@ Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen
 Maak nu een programma dat achtereenvolgens een getal van 3, 4 en tot slot opnieuw 3 cijfers vraagt en met behulp van deze cijfers het controlegetal berekent zodat er een geldige ogm bekomen wordt.
 
 #### Voorbeeld
-Voor het bovenstaande voorbeeld zouden de getallen `016`, `1780` en `00` dus leiden tot:
+Voor het bovenstaande voorbeeld zouden de getallen `016`, `1780` en `000` dus leiden tot:
 ```
 controlegetal: 5
 ```
