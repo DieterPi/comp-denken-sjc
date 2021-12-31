@@ -4,8 +4,9 @@ Vaak wordt aan een overschrijving een gestructureerde medeling (ogm) toegevoegd.
 ![variabele](media/ogm.jpg "variabele"){:data-caption="Een overschrijvingsformulier met onderaan de gestructureerde mededeling" width="45%"}
 
 Deze bestaat steeds uit drie getallen van achtereenvolgens 3, 4 en 5 cijfers.
+
 $$
-+++016/1780/000{\color{green}05}+++
+016/1780/000{\color{green}05}
 $$
 
 Er is een mechanisme in dit getal ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 0 161 780 000 rest 5 heeft bij een deling door 97.
