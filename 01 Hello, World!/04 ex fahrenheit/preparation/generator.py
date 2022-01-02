@@ -31,7 +31,7 @@ comparison: exact match
 ntests= 20
 cases = [(0,),(100,)]
 while len(cases) < ntests:
-    cases.append( tuple( random.randint(0, 200) for _ in range(1)) )
+    cases.append( tuple( random.randint(-100, 100) for _ in range(1)) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
