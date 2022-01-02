@@ -1,0 +1,16 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Grenswaarden (oefening)"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public"
+}
