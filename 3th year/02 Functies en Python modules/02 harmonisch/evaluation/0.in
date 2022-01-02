@@ -1,0 +1,40 @@
+>>> harmonisch_gemiddelde(100,120) # doctest: +STDOUT
+109.09
+>>> harmonisch_gemiddelde(128,26) # doctest: +STDOUT
+43.22
+>>> harmonisch_gemiddelde(77,163) # doctest: +STDOUT
+104.59
+>>> harmonisch_gemiddelde(108,3) # doctest: +STDOUT
+5.84
+>>> harmonisch_gemiddelde(-45,152) # doctest: +STDOUT
+-127.85
+>>> harmonisch_gemiddelde(38,3) # doctest: +STDOUT
+5.56
+>>> harmonisch_gemiddelde(73,-21) # doctest: +STDOUT
+-58.96
+>>> harmonisch_gemiddelde(4,25) # doctest: +STDOUT
+6.9
+>>> harmonisch_gemiddelde(79,152) # doctest: +STDOUT
+103.97
+>>> harmonisch_gemiddelde(-94,145) # doctest: +STDOUT
+-534.51
+>>> harmonisch_gemiddelde(107,-188) # doctest: +STDOUT
+496.69
+>>> harmonisch_gemiddelde(-62,113) # doctest: +STDOUT
+-274.75
+>>> harmonisch_gemiddelde(-106,-187) # doctest: +STDOUT
+-135.3
+>>> harmonisch_gemiddelde(178,117) # doctest: +STDOUT
+141.19
+>>> harmonisch_gemiddelde(-127,178) # doctest: +STDOUT
+-886.51
+>>> harmonisch_gemiddelde(-40,147) # doctest: +STDOUT
+-109.91
+>>> harmonisch_gemiddelde(37,102) # doctest: +STDOUT
+54.3
+>>> harmonisch_gemiddelde(-45,124) # doctest: +STDOUT
+-141.27
+>>> harmonisch_gemiddelde(-155,-55) # doctest: +STDOUT
+-81.19
+>>> harmonisch_gemiddelde(-40,-8) # doctest: +STDOUT
+-13.33
