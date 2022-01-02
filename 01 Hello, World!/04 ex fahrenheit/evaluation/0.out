@@ -1,0 +1,46 @@
+temperatuur: 32.0 °F
+
+temperatuur: 212.0 °F
+
+temperatuur: 327.2 °F
+
+temperatuur: 235.4 °F
+
+temperatuur: 280.4 °F
+
+temperatuur: 357.8 °F
+
+temperatuur: 309.2 °F
+
+temperatuur: 213.8 °F
+
+temperatuur: 170.6 °F
+
+temperatuur: 348.8 °F
+
+temperatuur: 246.2 °F
+
+temperatuur: 213.8 °F
+
+temperatuur: 276.8 °F
+
+temperatuur: 192.2 °F
+
+temperatuur: 215.6 °F
+
+temperatuur: 233.6 °F
+
+temperatuur: 282.2 °F
+
+temperatuur: 348.8 °F
+
+temperatuur: 127.4 °F
+
+temperatuur: 341.6 °F
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: ends with
+comparison: exact match
