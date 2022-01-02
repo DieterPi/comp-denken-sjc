@@ -1,0 +1,60 @@
+>>> meetkundig_gemiddelde(4,25)
+10.0
+
+>>> meetkundig_gemiddelde(165,114)
+137.15
+
+>>> meetkundig_gemiddelde(139,182)
+159.05
+
+>>> meetkundig_gemiddelde(155,102)
+125.74
+
+>>> meetkundig_gemiddelde(78,177)
+117.5
+
+>>> meetkundig_gemiddelde(120,102)
+110.63
+
+>>> meetkundig_gemiddelde(137,90)
+111.04
+
+>>> meetkundig_gemiddelde(103,113)
+107.88
+
+>>> meetkundig_gemiddelde(140,177)
+157.42
+
+>>> meetkundig_gemiddelde(54,173)
+96.65
+
+>>> meetkundig_gemiddelde(154,7)
+32.83
+
+>>> meetkundig_gemiddelde(70,157)
+104.83
+
+>>> meetkundig_gemiddelde(48,7)
+18.33
+
+>>> meetkundig_gemiddelde(190,159)
+173.81
+
+>>> meetkundig_gemiddelde(37,190)
+83.85
+
+>>> meetkundig_gemiddelde(81,174)
+118.72
+
+>>> meetkundig_gemiddelde(119,152)
+134.49
+
+>>> meetkundig_gemiddelde(78,163)
+112.76
+
+>>> meetkundig_gemiddelde(23,73)
+40.98
+
+>>> meetkundig_gemiddelde(81,97)
+88.64
+
