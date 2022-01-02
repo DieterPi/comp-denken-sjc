@@ -1,10 +1,65 @@
 oppervlakte: 201.06 cm²
-volume: 268.08 cm³
+volume: 201.06 cm³
 
-oppervlakte: 314.16 cm²
-volume: 523.6 cm³
-----------------------------------------
-tab name: feedback
+oppervlakte: 575.95 cm²
+volume: 974.8 cm³
+
+oppervlakte: 434.47 cm²
+volume: 638.68 cm³
+
+oppervlakte: 1241.6 cm²
+volume: 3085.38 cm³
+
+oppervlakte: 927.25 cm²
+volume: 1991.27 cm³
+
+oppervlakte: 867.78 cm²
+volume: 1802.82 cm³
+
+oppervlakte: 262.45 cm²
+volume: 299.85 cm³
+
+oppervlakte: 1117.46 cm²
+volume: 2634.42 cm³
+
+oppervlakte: 651.44 cm²
+volume: 1172.59 cm³
+
+oppervlakte: 262.45 cm²
+volume: 299.85 cm³
+
+oppervlakte: 217.47 cm²
+volume: 226.17 cm³
+
+oppervlakte: 265.9 cm²
+volume: 305.79 cm³
+
+oppervlakte: 438.92 cm²
+volume: 648.5 cm³
+
+oppervlakte: 103.51 cm²
+volume: 74.27 cm³
+
+oppervlakte: 514.72 cm²
+volume: 823.55 cm³
+
+oppervlakte: 18.4 cm²
+volume: 5.57 cm³
+
+oppervlakte: 530.93 cm²
+volume: 862.76 cm³
+
+oppervlakte: 19.32 cm²
+volume: 5.99 cm³
+
+oppervlakte: 544.08 cm²
+volume: 895.01 cm³
+
+oppervlakte: 737.34 cm²
+volume: 1412.0 cm³
+
+-----------------------------------------
+tab name: Feedback
 python input without prompt: true
 block count: multi
 input block size: 1
