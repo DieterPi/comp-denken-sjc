@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Functies"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "EfBK7KzfIHFKIIuXxRSsmvHeaBWyt4M9-N5USP8TknT3xjZn4S4F9MZg3hPKexPH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
