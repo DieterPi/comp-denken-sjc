@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-bedrag = int( input( ' Geef een bedrag in: ' ) )
+bedrag = int( input( 'Geef een bedrag in: ' ) )
 
 biljet50 = bedrag // 50
 rest50 = bedrag % 50
@@ -14,6 +14,7 @@ rest5 = rest10 % 5
 munt2 = rest5 // 2
 rest2 = rest5 % 2
 
+print() # generator.py hack
 print( 'biljet 50:', biljet50 )
 print( 'biljet 20:', biljet20 )
 print( 'biljet 10:', biljet10 )
