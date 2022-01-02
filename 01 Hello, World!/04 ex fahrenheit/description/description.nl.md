@@ -1,7 +1,7 @@
 ## Opgave
-In Europa gebruikt men voornamelijk de Celsius temperatuurschaal. Deze werd ca. 1742 door de Zweed Anders Celsius geïntroduceerd. Wat vroeger, in 1724, introduceerde de Duitse natuurkundige Gabriel Fahrenheit zijn eigen temperatuurschaal. Deze wordt nog in verschillende landen (waaronder de Verenigde Staten) nog steeds gebruikt.
+In Europa gebruikt men voornamelijk de Celsius temperatuurschaal. Deze werd ca. 1742 door de Zweed Anders Celsius geïntroduceerd. Wat vroeger, in 1724, introduceerde de Duitse natuurkundige Gabriel Fahrenheit zijn eigen temperatuurschaal. Deze wordt in verschillende landen (waaronder de Verenigde Staten) nog steeds gebruikt.
 
-![fahrenheit](media/fahrenheit.png "fahrenheit"){:data-caption="De Fahrenheit schaal." width="30%"}
+![fahrenheit](media/fahrenheit.png "fahrenheit"){:data-caption="De Fahrenheit schaal." width="25%"}
 
 Om een temperatuur in graden Celsius $$T_C$$ naar gaden Fahrenheit $$T_F$$ om te rekenen kan men onderstaande formule gebruiken:
 
