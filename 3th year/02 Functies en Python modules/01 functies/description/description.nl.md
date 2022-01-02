@@ -64,11 +64,26 @@ print( valafstand( 4 ) > 88 )
 ```
 Zoals je in de laatste regel kan zien zorgt `return` ervoor dat je gemakkelijk kan controleren of een object na 4 seconden meer dan 88 meter heeft afgelegd. We kunnen verder *rekenen* met de *uitvoer* van deze functie.
 
-De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$1,625 \frac{\text{m}}{\text{s}^2}$$ wat nu gemakkelijk te berekenen valt. $$g$$ was bij deze functie een *optionele* parameter.
+De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$1,625 \frac{\text{m}}{\text{s}^2}$$ wat nu gemakkelijk te berekenen valt. $$g$$ was bij deze functie dus een *optionele* parameter.
 ```python
 print( valafstand( 3, 1.625 ) )
 print( valafstand( 4, 1.625) > 88 )
 ```
+
+#### return of print?
+Heel belangrijk is het verschil tussen `print` en `return`. Beschouw de volgende stukjes code:
+```python
+def plus3( a ):
+    print( a+3 )
+plus3( 5 )
+```
+
+```python
+def plus3( a ):
+    return a+3 
+print( plus3( 5 ) )
+```
+Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de functies **fundamenteel** verschillend!
 
 ## Opgave
 Beschouw onderstaande code, deze bevat een kleine **fout**. 
