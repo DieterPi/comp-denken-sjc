@@ -9,3 +9,7 @@ Schrijf een functie `harmonisch_gemiddelde( a, b )` die het harmonisch gemiddeld
 
 #### Voorbeelden
 Het harmonisch gemiddelde van 100 en 120 is 109.09 (afgerond op 2 cijfers)
+
+{: .callout.callout-warning}
+> #### Verduidelijking
+> Het is niet de bedoeling dat je een functie schrijft die de waarde *afdrukt*, enkel retourneert (met behulp van `return`). Om te testen kan je de waarde natuurlijk wel afdrukken.
