@@ -9,7 +9,7 @@ In de vorige hoofdstukken heb je al verschillende functies gebruikt. Denk maar a
 
 -   ...
 
-#### Definitie
+### Definitie
 ```python
 def <functienaam>( <parameter_lijst>) :
     <acties>
@@ -42,7 +42,7 @@ vermenigvuldig( 2020 , 5278238 )
 vermenigvuldig( 2, 3 )
 ```
 
-#### return
+### return
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
 In de vorige functies werd de uiteindelijke uitkomst gewoon afgedrukt, maar wat als je ermee zou willen verder rekenen?

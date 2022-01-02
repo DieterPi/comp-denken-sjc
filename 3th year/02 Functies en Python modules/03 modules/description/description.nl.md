@@ -5,7 +5,7 @@ Om een module te kunnen gebruiken zet men bovenaan de code
 ```python
 import <modulenaam>
 ```
-#### Math
+### Math
 De `math` module zal ons het leven veel eenvoudiger maker.
 
 Beschouw de volgende functies die dan meteen te gebruiken vallen.
@@ -18,7 +18,7 @@ print( math.ceil(4.3) )
 print( math.floor(4.3) )
 ```
 
-#### Random
+### Random
 De `random` module laat ons toe willekeur toe te voegen aan programma's, de functies `randint()` en `uniform()` zullen we het vaakst gebruiken.
 
 ```python
