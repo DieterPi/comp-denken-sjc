@@ -56,6 +56,7 @@ for stdin in cases:
     result_lines = process.stdout.split("\n")
     for line in result_lines:
         if not(line.startswith( 'Geef' )):
+            print(line)
             print(line, file=outfile, end='\n')
 
     # add stdout to output file
