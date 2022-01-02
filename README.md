@@ -1,2 +1,2 @@
-# comp-denken-ict3
-Computationeel denken - ICT 3ejaar
+# comp-denken-SJC
+Computationeel denken - Sint-Jozefscollege Aalst
