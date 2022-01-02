@@ -47,7 +47,7 @@ for stdin in cases:
     # generate output to output file
     script = os.path.join(solutiondir, 'solution.nl.py')
     process= subprocess.run(
-        ['python', script],
+        ['python3', script],
         input=stdin,
         encoding='utf-8',
         capture_output=True
