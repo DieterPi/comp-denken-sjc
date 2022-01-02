@@ -37,10 +37,10 @@ while len(cases) < ntests:
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> harmonisch_gemiddelde({test[0]},{test[1]}) # doctest: +STDOUT')
+    print(f'>>> harmonisch_gemiddelde({test[0]},{test[1]})')
 
     # generate return value
     try:
-        print(module.harmonisch_gemiddelde(test[0],test[1]))
+        print('{}\n'.format(module.harmonisch_gemiddelde(test[0],test[1])))
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
