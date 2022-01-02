@@ -1,12 +1,46 @@
-massadichtheid: 1024.2
+massadichtheid: 1.02
 
-massadichtheid: 1021.2
+massadichtheid: 1.18
 
-massadichtheid: 790.0
-----------------------------------------
-tab name: feedback
+massadichtheid: 1.18
+
+massadichtheid: 2.04
+
+massadichtheid: 1.36
+
+massadichtheid: 1.13
+
+massadichtheid: 0.73
+
+massadichtheid: 0.35
+
+massadichtheid: 0.04
+
+massadichtheid: 0.04
+
+massadichtheid: 2.35
+
+massadichtheid: 1.15
+
+massadichtheid: 7.1
+
+massadichtheid: 0.47
+
+massadichtheid: 2.83
+
+massadichtheid: 1.16
+
+massadichtheid: 0.04
+
+massadichtheid: 1.12
+
+massadichtheid: 0.79
+
+massadichtheid: 1.06
+-----------------------------------------
+tab name: Feedback
 python input without prompt: true
 block count: multi
-input block size: ends with
+input block size: 2
 output block size: ends with
 comparison: exact match
