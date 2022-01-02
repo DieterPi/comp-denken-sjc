@@ -32,7 +32,7 @@ print( random.uniform(0,10) )
 ```
 
 ## Opgave
-Het geometrisch of meetkundig gemiddelde $$x_g$$ van 2 getallen $$a$$ en $$b$$ is gedefinieerd als:
+Het *geometrisch* of *meetkundig* gemiddelde $$x_g$$ van 2 getallen $$a$$ en $$b$$ is gedefinieerd als:
 
 $$
 x_g = \sqrt{a\cdot b}
