@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 # gegevens
 boekprijs = 20.34
 aantal = 5

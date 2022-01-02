@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 PI = 3.141592
 straal = float(input( 'Geef de straal van de bol in (in cm): ' ))
 

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 # vul de juiste invoer in
 getal1 = int( input( 'Geef het eerste getal in: ' ) )
 getal2 = int( input( 'Geef het tweede getal in: ' ) )

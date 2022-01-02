@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 bedrag = int( input( ' Geef een bedrag in: ' ) )
 
 biljet50 = bedrag // 50

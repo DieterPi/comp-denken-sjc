@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 getal1 = int( input( 'Geef een getal van 3 cijfers in: ' ) )
 getal2 = int( input( 'Geef een getal van 4 cijfers in: ' ) )
 getal3 = int( input( 'Geef een getal van 3 cijfers in: ' ) )
