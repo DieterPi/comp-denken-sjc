@@ -4,5 +4,5 @@ import math
 
 getal = float( input( 'Geef een getal in: ') )
 
-lijst = [ math.floor(getal), getal, math.ceil(getal) ]
+lijst = [math.floor(getal), getal, math.floor(getal)+1 ]
 print('\n{}'.format(lijst))
