@@ -22,7 +22,7 @@ settings = f'''
 tab name: {tab_name}
 python input without prompt: true
 block count: multi
-input block size: 3
+input block size: 1
 output block size: ends with
 comparison: exact match
 '''
