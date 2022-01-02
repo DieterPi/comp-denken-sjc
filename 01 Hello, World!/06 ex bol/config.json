@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Bol (oefening)"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "cd--V7bsEd_k2CGXeIGaZt5aSAB3PxdWQHb8hpui82JMjYJABEg5etiNq63fPEkV",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
