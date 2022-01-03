@@ -3,7 +3,7 @@ Een [lichtjaar](https://nl.wikipedia.org/wiki/Lichtjaar) is een **lengtemaat** g
 
 De lichtsnelheid $$c$$ in vacuüm is bepaald als:
 $$
-c = 299\,792\,458 \dfrac{\tex{m}}{\text{s}}
+c = 299\,792\,458 \dfrac{\text{m}}{\text{s}}
 $$
 
 Vraag nu aan de gebruiker naar een aantal **km** en bereken met hoeveel lichtjaar dit overeenkomt.
