@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-lengte = float( input( 'Geef een lengte in m in ' ) )
+lengte = float( input( 'Geef een lengte in m in: ' ) )
 
 inch = 2.54 / 100
 foot = 12 * inch
