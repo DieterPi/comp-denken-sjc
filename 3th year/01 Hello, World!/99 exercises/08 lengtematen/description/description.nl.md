@@ -3,11 +3,15 @@ Het [Imperial (Standard) System](https://nl.wikipedia.org/wiki/Brits-Amerikaans_
 
 Het verband tussen *inch*, *foot* en *yard* is als volgt.
 
+|-----------+-------------+---------------|
 | Imperial  | Grootte     | in SI-eenheid |
 | --------- |-------------|:-------------:|
 | 1 inch    |             | 2.54 cm       |
 | 1 foot    | 12 inch     |               |
 | 1 yard    | 3 feet      |               |
+|-----------+-------------+---------------|
+{: .table}
+
 
 Schrijf een programma dat voor een gegeven aantal meter uitrekent met hoeveel *yard*, *feet* en *inch* dit overeenkomt.
 
