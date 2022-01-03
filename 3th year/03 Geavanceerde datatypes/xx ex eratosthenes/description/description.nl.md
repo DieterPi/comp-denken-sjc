@@ -5,7 +5,8 @@ De methode werkt als volgt. Je begint met een **lijst** te maken die bestaat uit
 veelvouden van 2 zijn dat niet. Dus zet alle veelvouden van 2 op 0. Zoek dan naar het volgende nummer dat geen nul is, en dat is 3. Zet alle veelvouden van 3 op nul. Zoek dan naar het volgende nummer dat geen nul is, en dat is 5. Zet alle veelvouden van 5 op nul. Verwerk zo de hele list. Als je klaar bent, zijn alleen nog de getallen over die priemgetallen zijn. Gebruik deze methode om alle priemgetallen tussen 1 en 100 te bepalen.
 
 Hieronder zie je de methode uitgevoerd op een lijst met getallen tot 120.
-![Sieve of Eratosthenes](media/sieve.gif "Sieve of Eratosthenes"){:data-caption="De zeef van Eratosthenes" width="445px"}
+
+![Sieve of Eratosthenes](media/Sieve.gif "Sieve of Eratosthenes"){:data-caption="De zeef van Eratosthenes" width="445px"}
 
 #### Voorbeelden
 Voor de invoer `50` verschijnt:
