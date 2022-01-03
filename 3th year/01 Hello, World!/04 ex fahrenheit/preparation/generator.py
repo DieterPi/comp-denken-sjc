@@ -28,7 +28,7 @@ comparison: exact match
 '''
 
 # generate test data
-ntests= 20
+ntests= 50
 cases = [(0,),(100,)]
 while len(cases) < ntests:
     cases.append( tuple( random.randint(-100, 100) for _ in range(1)) )
