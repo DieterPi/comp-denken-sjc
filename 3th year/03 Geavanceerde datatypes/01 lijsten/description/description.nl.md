@@ -65,7 +65,7 @@ Beschouw onderstaande lijst van jongensnamen. Schrijf een programma dat drie kee
 De uiteindelijke score is de **som** van al deze aantallen.
 
 #### Voorbeeld
-Voor de achtereenvolgense invoer `Louis`, `Jarr`, `Bram` verschijnt:
+Voor de achtereenvolgense invoer `Louis`, `Jarre`, `Bram` verschijnt:
 ```
 8
 ```
