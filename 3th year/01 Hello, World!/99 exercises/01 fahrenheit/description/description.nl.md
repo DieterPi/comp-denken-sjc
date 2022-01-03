@@ -3,7 +3,7 @@ In Europa gebruikt men voornamelijk de Celsius temperatuurschaal. Deze werd ca. 
 
 ![fahrenheit](media/fahrenheit.png "fahrenheit"){:data-caption="De Fahrenheit schaal." width="25%"}
 
-Om een temperatuur in graden Celsius $$T_C$$ naar gaden Fahrenheit $$T_F$$ om te rekenen kan men onderstaande formule gebruiken:
+Om een temperatuur in graden Celsius $$T_C$$ naar graden Fahrenheit $$T_F$$ om te rekenen kan men onderstaande formule gebruiken:
 
 $$
     T_F = \dfrac{9}{5} T_C + 32
