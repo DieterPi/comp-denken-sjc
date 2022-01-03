@@ -1,14 +1,15 @@
-## Tuples
-Een tuple is ook een **geordend** datatype dat meerdere elementen kan bevatten van een ander datatype. Dit datatype wordt gedefinieerd met behulp van `( )` en kommas tussen de elementen. Via `len()` bepaal je de lengte van de tuple. 
+## Tupels
+Een tupel is ook een **geordend** datatype dat meerdere elementen kan bevatten van een ander datatype. Dit datatype wordt gedefinieerd met behulp van `( )` en kommas tussen de elementen. Via `len()` bepaal je de lengte van de tupel. 
 
 ```python
-tuple = ( -5, 6, 8 )
-print( tuple )
-print( len( tuple ) )
+tupel = ( -5, 6, 8 )
+print( tupel )
+print( type( tupel ) )
+print( len( tupel ) )
 ```
 Hier zie je een lijst met drie elementen, telkens van het datatype `int`. Je kan opnieuw de elementen apart raadplegen met behulp van de rangnummers.
 ```python
-tuple = ( -5, 6, 8 )
+tupel = ( -5, 6, 8 )
 print( lijst[1] )
 ```
 
@@ -21,9 +22,9 @@ print( lijst )
 ```
 
 ```python
-tuple = ( -5, 6, 8 )
-tuple[1] = 7
-print( tuple )
+tupel = ( -5, 6, 8 )
+tupel[1] = 7
+print( tupel )
 ```
 
 Je kan aan een tuple dus ook geen waarden toevoegen via `append()` of verwijderen via `remove()`. Tuples worden vooral gebruikt om met coördinaten te werken.

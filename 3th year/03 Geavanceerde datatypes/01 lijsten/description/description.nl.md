@@ -4,6 +4,7 @@ Een lijst is een **geordend** datatype dat meerdere elementen kan bevatten van e
 ```python
 lijst = [ 'banaan', 'appel', 'peer' ]
 print( lijst )
+print( type( lijst ) )
 print( len( lijst ) )
 ```
 Hier zie je een lijst met drie elementen, telkens van het datatype `string`. Je kan gemakkelijk de elementen van deze lijst apart bewerken, dat doe je met behulp van de rangnummers. In Minecraft zou je als volgt werken:
