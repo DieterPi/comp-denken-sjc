@@ -5,7 +5,8 @@ d_1 = |x_1-x_2| + |y_1-y_2|
 $$
 
 Deze afstandsmaat is geïnspireerd op de route die een taxi aflegt in Manhattan. Zoals je op onderstaande afbeelding kan zien is de rode, blauwe en gele route exact hetzelfde. De groene afstand, is de vertrouwde *Euclidische* afstand.
-![manhattan](media/manhattan.png "manhattan"){:data-caption="De rode, blauwe en gele (taxi)routes hebben exact dezelfde afstand, de Manhattan-afstand." width="35%"}
+
+![manhattan](media/manhattan.png "manhattan"){:data-caption="De rode, blauwe en gele (taxi)routes hebben exact dezelfde afstand, de Manhattan-afstand." width="300px"}
 
 
 ## Opgave
