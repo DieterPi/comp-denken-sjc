@@ -2,13 +2,13 @@
 Een tuple is ook een **geordend** datatype dat meerdere elementen kan bevatten van een ander datatype. Dit datatype wordt gedefinieerd met behulp van `( )` en kommas tussen de elementen. Via `len()` bepaal je de lengte van de tuple. 
 
 ```python
-tuple = ( -5, 6, 8)
+tuple = ( -5, 6, 8 )
 print( tuple )
 print( len( tuple ) )
 ```
 Hier zie je een lijst met drie elementen, telkens van het datatype `int`. Je kan opnieuw de elementen apart raadplegen met behulp van de rangnummers.
 ```python
-tuple = ( -5, 6, 8)
+tuple = ( -5, 6, 8 )
 print( lijst[1] )
 ```
 
