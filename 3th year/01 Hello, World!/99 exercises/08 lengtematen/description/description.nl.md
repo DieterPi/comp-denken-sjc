@@ -1,7 +1,6 @@
-## Opgave
 Het [Imperial (Standard) System](https://nl.wikipedia.org/wiki/Brits-Amerikaans_maatsysteem) is een **niet**-standaard systeem van maten en gewichten.
 
-Het verband tussen *inch*, *foot* en *yard* is als volgt.
+Het verband tussen de lengtematen *inch*, *foot* en *yard* is als volgt.
 
 |-----------+-------------+---------------|
 | Imperial  | Grootte     | in SI-eenheid |
@@ -12,6 +11,7 @@ Het verband tussen *inch*, *foot* en *yard* is als volgt.
 |-----------+-------------+---------------|
 {: .table}
 
+## Opgave
 
 Schrijf een programma dat voor een gegeven aantal meter uitrekent met hoeveel *yard*, *feet* en *inch* dit overeenkomt.
 
