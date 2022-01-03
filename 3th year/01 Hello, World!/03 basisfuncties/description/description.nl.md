@@ -7,7 +7,7 @@ Later zullen we zelf eigen functies gaan samenstellen, maar eerst zal het handig
 De functie `print()` accepteert meerdere **argumenten**, probeer bijvoorbeeld de volgende code uit:
 
 ```python
-pi = 3.14158
+pi = 3.14159
 print( 'Het getal pi is afgerond op 5 cijfers:', pi )
 ```
 
