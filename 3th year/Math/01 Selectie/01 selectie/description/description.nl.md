@@ -1,5 +1,5 @@
 ## De selectie
-Elke dag maak je beslissingen. Ga je bijvoorbeeld naar buiten, dan redeneer je '*als het regent, dan doe ik een jas aan*'. We noemen dit een **selectie** of **keuze**structuur. Op 4 januari 2022 kon je op VRT.NWS het nieuwe testbeleid aflezen. Ook hier zie je een keuzestructuur visueel vorm gegeven.
+Elke dag maak je beslissingen. Wil je bijvoorbeeld naar buiten gaan, dan beslis je '*als het regent, dan doe ik een jas aan*'. We noemen dit een **selectie** of **keuze**structuur. Op 4 januari 2022 kon je op VRT.NWS het nieuwe testbeleid aflezen. Ook hier zie je een keuzestructuur visueel vorm gegeven.
 
 ![corona testbeleid](media/testbeleid_04-01-2022.png "corona testbeleid"){:data-caption="Corona testbeleid, VRT.NWS 04-01-2022" width="35%"}
 
@@ -15,14 +15,14 @@ leeftijd = float( input( 'Geef je leeftijd in: ' ) )
 if leeftijd < 12:
     print( 'Je mag gratis op de trein!' )
 ```
-Heel belangrijk is de indentatie van de code. Je merkt op dat het gedeelte onder de `if` naar rechts opgeschoven is.
+Heel belangrijk is de **indentatie** van de code.
 
 ### Tweezijdige selectie
 Het programma wordt iets vollediger als we een tweezijdige selectie gebruiken.
 
 ![minecraft tweezijdige keuze](media/tweezijdige_keuze.png "minecraft tweezijdige keuze"){:data-caption="Een tweezijdige selectie Minecraft Education Edition" width="238px"}
 
-In Pyton wordt dit vertaald in een `if` / `else` expressie:
+In Pyton wordt dit vertaald als een `if` / `else` expressie:
 ```python
 leeftijd = float( input( 'Geef je leeftijd in: ' ) )
 
@@ -33,11 +33,11 @@ else:
 ```
 
 ### Meervoudige selectie
-Tot slot kan je het programma gemakkelijk uitbreiden met meerdere keuzes
+Tot slot kan je het programma gemakkelijk uitbreiden met meerdere keuzes.
 
 ![minecraft meervoudige keuze](media/meervoudige_keuze.png "minecraft meervoudige keuze"){:data-caption="Een meervoudige selectie Minecraft Education Edition" width="300px"}
 
-In Pyton wordt dit vertaald in met een `elif` (afkorting van `else if`) expressie:
+In Pyton wordt gebruik je een `elif` (afkorting van `else if`) expressie:
 ```python
 leeftijd = float( input( 'Geef je leeftijd in: ' ) )
 
