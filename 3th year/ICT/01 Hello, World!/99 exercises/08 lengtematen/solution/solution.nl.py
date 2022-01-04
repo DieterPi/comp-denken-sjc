@@ -7,9 +7,9 @@ inch = 2.54 / 100
 foot = 12 * inch
 yard = 3 * foot
 
-aantal_yard = lengte // yard
+aantal_yard = int( lengte // yard )
 rest = lengte - aantal_yard * yard
-aantal_foot = rest // foot
+aantal_foot = int( rest // foot )
 rest = rest - aantal_foot * foot
 aantal_inch = round(rest / inch, 2)
 

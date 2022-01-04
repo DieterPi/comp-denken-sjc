@@ -20,10 +20,12 @@ Zorg ervoor dat het aantal *feet* en het aantal *yard* een geheel getal is, terw
 #### Voorbeeld
 Voor een lengte van 1,80 m geldt:
 ```
-Dit stemt overeen met 1.0 yard 2.0 feet 10.87 inch
+Dit stemt overeen met 1 yard 2 feet 10.87 inch
 ```
+Want 1 yard + 2 feet + 10.87 inch komt overeen met 1,80 m.
+
 Terwijl voor een lengte van 2,21 m geldt:
 ```
-Dit stemt overeen met 2.0 yard 1.0 feet 3.01 inch
+Dit stemt overeen met 2 yard 1 feet 3.01 inch
 ```
-
+Want 2 yard + 1 feet + 3,01 inch komt overeen met 2,21 m.
