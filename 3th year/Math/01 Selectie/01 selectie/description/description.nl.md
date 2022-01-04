@@ -1,7 +1,7 @@
 ## De selectie
 Elke dag maak je beslissingen. Wil je bijvoorbeeld naar buiten gaan, dan beslis je '*als het regent, dan doe ik een jas aan*'. We noemen dit een **selectie** of **keuze**structuur. Op 4 januari 2022 kon je op VRT.NWS het nieuwe testbeleid aflezen. Ook hier zie je een keuzestructuur visueel vorm gegeven.
 
-![corona testbeleid](media/testbeleid_04-01-2022.png "corona testbeleid"){:data-caption="Corona testbeleid, VRT.NWS 04-01-2022" width="35%"}
+![corona testbeleid](media/testbeleid_04-01-2022.png "corona testbeleid"){:data-caption="Corona testbeleid, VRT.NWS 04-01-2022" width="40%"}
 
 ### Eenzijdige selectie
 De meest eenvoudige keuzestructuur is de eenzijdige. Kinderen jonger dan 12 jaar die met de trein reizen hoeven geen biljet te kopen. In Minecraft zouden we dit als volgt programmeren.
