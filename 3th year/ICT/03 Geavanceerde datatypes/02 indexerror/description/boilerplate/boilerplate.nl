@@ -1,3 +1,3 @@
 def laaste_element( lijst ):
     lengte = len( lijst )
-    return( lijst[lengte] )
+    return lijst[lengte] 

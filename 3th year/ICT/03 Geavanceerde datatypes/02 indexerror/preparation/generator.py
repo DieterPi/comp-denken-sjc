@@ -44,6 +44,6 @@ for test in cases:
 
     # generate return value
     try:
-        module.laaste_element(test)
+        print('{}\n'.format(module.laaste_element(test)))
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
