@@ -26,7 +26,7 @@ print( 'Het dubbele van', x, 'is', 2*x )
 ```
 Controleer wat er gebeurt indien je `float()` weglaat.
 
-Andere handige functies zijn `abs()`, `max()`, `min()` en `max()`, `pow()` en `round()`. Beoordeel zelf wat het nut van deze functies in met behulp van het vorige voorbeeld.
+Andere handige functies zijn `abs()`, `min()` en `max()`, `pow()` en `round()`. Beoordeel zelf wat het nut van deze functies in met behulp van het vorige voorbeeld.
 
 ```python
 x = -2
