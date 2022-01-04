@@ -9,6 +9,12 @@
       "nl": "De keuzestructuur"
     }
   },
-  "labels": [ ],
-  "access": "public"
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "XCHbJt8jHQ928CE8n2Mf6YHYQ9fTygh7Veh_HZ-IGVAwqube8duAtaKrgdvcTEWb",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
