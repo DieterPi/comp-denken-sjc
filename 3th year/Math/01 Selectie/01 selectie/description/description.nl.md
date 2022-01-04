@@ -6,7 +6,7 @@ Elke dag maak je beslissingen. Ga je bijvoorbeeld naar buiten, dan redeneer je '
 ### Eenzijdige selectie
 De meest eenvoudige keuzestructuur is de eenzijdige. Kinderen jonger dan 12 jaar die met de trein reizen hoeven geen biljet te kopen. In Minecraft zouden we dit als volgt programmeren.
 
-![minecraft eenzijdige keuze](media/enkelvoudige_keuze.png "minecraft eenzijdige keuze"){:data-caption="Een eenzijdige selectie Minecraft Education Edition" width="328px"}
+![minecraft eenzijdige keuze](media/enkelvoudige_keuze.png "minecraft eenzijdige keuze"){:data-caption="Een eenzijdige selectie Minecraft Education Edition" width="238px"}
 
 In Pyton wordt dit als volgt vertaald:
 ```python
@@ -20,7 +20,7 @@ Heel belangrijk is de indentatie van de code. Je merkt op dat het gedeelte onder
 ### Tweezijdige selectie
 Het programma wordt iets vollediger als we een tweezijdige selectie gebruiken.
 
-![minecraft tweezijdige keuze](media/tweezijdige_keuze.png "minecraft tweezijdige keuze"){:data-caption="Een tweezijdige selectie Minecraft Education Edition" width="333px"}
+![minecraft tweezijdige keuze](media/tweezijdige_keuze.png "minecraft tweezijdige keuze"){:data-caption="Een tweezijdige selectie Minecraft Education Edition" width="238px"}
 
 In Pyton wordt dit vertaald in een `if` / `else` expressie:
 ```python
@@ -29,13 +29,13 @@ leeftijd = float( input( 'Geef je leeftijd in: ' ) )
 if leeftijd < 12:
     print( 'Je mag gratis op de trein!' )
 else: 
-    print( 'Je moet een ticketje kopen.' )
+    print( 'Je moet een ticket kopen.' )
 ```
 
 ### Meervoudige selectie
 Tot slot kan je het programma gemakkelijk uitbreiden met meerdere keuzes
 
-![minecraft meervoudige keuze](media/meervoudige_keuze.png "minecraft meervoudige keuze"){:data-caption="Een meervoudige selectie Minecraft Education Edition" width="414px"}
+![minecraft meervoudige keuze](media/meervoudige_keuze.png "minecraft meervoudige keuze"){:data-caption="Een meervoudige selectie Minecraft Education Edition" width="300px"}
 
 In Pyton wordt dit vertaald in met een `elif` (afkorting van `else if`) expressie:
 ```python
@@ -46,7 +46,7 @@ if leeftijd < 12:
 elif leeftijd >= 65:
     print( 'Je krijgt 50% korting.' )
 else: 
-    print( 'Je moet een ticketje kopen.' )
+    print( 'Je moet een ticket kopen.' )
 ```
 
 ## Opgave

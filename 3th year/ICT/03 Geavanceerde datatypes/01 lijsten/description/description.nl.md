@@ -9,7 +9,7 @@ print( len( lijst ) )
 ```
 Hier zie je een lijst met drie elementen, telkens van het datatype `string`. Je kan gemakkelijk de elementen van deze lijst apart bewerken, dat doe je met behulp van de rangnummers. In Minecraft zou je als volgt werken:
 
-![minecraft](media/minecraft.png "minecraft"){:data-caption="Een lijst gebruiken in Minecraft Education Edition" width="600px"}
+![minecraft](media/minecraft.png "minecraft"){:data-caption="Een lijst gebruiken in Minecraft Education Edition" width="435px"}
 
 ```python
 lijst = [ 'banaan', 'appel', 'peer' ]
