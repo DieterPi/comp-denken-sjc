@@ -1,4 +1,4 @@
-De zeef van **Eratosthenes** is een methode om alle priemgetallen te vinden tussen 1 en een gegeven getal. Eratosthenes was een Griekse geleerde werkzaam aan de bibliotheek van Alexandrië.
+De zeef van **Eratosthenes** is een methode om alle priemgetallen te vinden tussen 1 en een gegeven getal. [Eratosthenes](https://nl.wikipedia.org/wiki/Eratosthenes) was een Griekse wiskundige werkzaam aan de bibliotheek van Alexandrië.
 
 De methode werkt als volgt. Je begint met een **lijst** te maken die bestaat uit de getallen 1 tot en met een zeker "hoogste getal." 
 
@@ -18,7 +18,7 @@ Hieronder zie je de methode uitgevoerd op een lijst met getallen tot 120.
 ## Opgave
 Schrijf zelf een programma dat de priemgetallen kleiner dan of gelijk aan een bepaalde maximale waarde uitzeeft.
 
-- Gebruik een lijst in Python
+- Gebruik een lijst van 1 tot en met het maximale getal in Python.
 - Zet de waarde van 1 op nul, omdat 1 geen priemgetal is. 
 - Gebruik vervolgens een herhaling. Zoek naar het eerste nummer dat niet op 0 staat, wat nummer 2 is. Dat betekent dat 2 een priemgetal is, maar alle
 veelvouden van 2 zijn dat niet. Dus zet alle veelvouden van 2 op 0. Zoek dan naar het volgende nummer dat geen nul is, en dat is 3. Zet alle veelvouden van 3 op nul. Zoek dan naar het volgende nummer dat geen nul is, en dat is 5. Zet alle veelvouden van 5 op nul. Verwerk zo de hele list...
