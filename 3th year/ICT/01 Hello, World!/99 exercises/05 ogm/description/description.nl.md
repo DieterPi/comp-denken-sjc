@@ -9,11 +9,11 @@ $$
 016/1780/000\,\,\mathbf{05}
 $$
 
-Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 016 1780 000 rest 5 heeft bij een deling door 97.
+Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 161 780 000 rest 5 heeft bij een deling door 97.
 
 {: .callout.callout-info}
 > #### Tip
-> In Python kan je de rest eenvoudig berekenen met behulp van de **modulo**-operator `%`. Controleer bijvoorbeeld even `10 % 7`, `10 % 3` en `161 780 000 % 97`.
+> Gebruik opnieuw de **modulo**-operator `%`. Controleer bijvoorbeeld `161 780 000 % 97`.
 
 Maak nu een programma dat achtereenvolgens een getal van 3, 4 en tot slot opnieuw 3 cijfers vraagt en met behulp van deze cijfers het controlegetal berekent zodat er een geldige ogm bekomen wordt.
 
