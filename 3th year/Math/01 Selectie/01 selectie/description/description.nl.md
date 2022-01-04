@@ -11,8 +11,42 @@ De meest eenvoudige keuzestructuur is de eenzijdige. Kinderen jonger dan 12 jaar
 In Pyton wordt dit als volgt vertaald:
 ```python
 leeftijd = float( input( 'Geef je leeftijd in: ' ) )
+
 if leeftijd < 12:
-    print( 'Je mag gratis op de trein' )
+    print( 'Je mag gratis op de trein!' )
+```
+Heel belangrijk is de indentatie van de code. Je merkt op dat het gedeelte onder de `if` naar rechts opgeschoven is.
+
+### Tweezijdige selectie
+Het programma wordt iets vollediger als we een tweezijdige selectie gebruiken.
+
+![minecraft tweezijdige keuze](media/tweezijdige_keuze.png "minecraft tweezijdige keuze"){:data-caption="Een tweezijdige selectie Minecraft Education Edition" width="333px"}
+
+In Pyton wordt dit vertaald in een `if` / `else` expressie:
+```python
+leeftijd = float( input( 'Geef je leeftijd in: ' ) )
+
+if leeftijd < 12:
+    print( 'Je mag gratis op de trein!' )
+else: 
+    print( 'Je moet een ticketje kopen.' )
+```
+
+### Meervoudige selectie
+Tot slot kan je het programma gemakkelijk uitbreiden met meerdere keuzes
+
+![minecraft meervoudige keuze](media/meervoudige_keuze.png "minecraft meervoudige keuze"){:data-caption="Een meervoudige selectie Minecraft Education Edition" width="414px"}
+
+In Pyton wordt dit vertaald in met een `elif` (afkorting van `else if`) expressie:
+```python
+leeftijd = float( input( 'Geef je leeftijd in: ' ) )
+
+if leeftijd < 12:
+    print( 'Je mag gratis op de trein!' )
+elif leeftijd >= 65:
+    print( 'Je krijgt 50% korting.' )
+else: 
+    print( 'Je moet een ticketje kopen.' )
 ```
 
 ## Opgave
