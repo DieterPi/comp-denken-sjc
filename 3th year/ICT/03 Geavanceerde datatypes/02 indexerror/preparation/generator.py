@@ -40,10 +40,10 @@ while len(cases) < ntests:
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> laaste_element({test})')
+    print(f'>>> laatste_element({test})')
 
     # generate return value
     try:
-        print('{}\n'.format(module.laaste_element(test)))
+        print('{}\n'.format(module.laatste_element(test)))
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))

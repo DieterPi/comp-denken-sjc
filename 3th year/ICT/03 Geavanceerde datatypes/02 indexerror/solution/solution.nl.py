@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-def laaste_element( lijst ):
+def laatste_element( lijst ):
     lengte = len( lijst )
     return( lijst[lengte - 1] )
 
