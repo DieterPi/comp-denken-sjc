@@ -1,0 +1,120 @@
+>>> rekenkundig_gemiddelde((100, 120))
+110.0
+
+>>> harmonisch_gemiddelde((100, 120))
+109.09
+
+>>> rekenkundig_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35))
+33.56
+
+>>> harmonisch_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35))
+31.36
+
+>>> rekenkundig_gemiddelde((26, 29, 35, 45, 14, 44, 39))
+33.14
+
+>>> harmonisch_gemiddelde((26, 29, 35, 45, 14, 44, 39))
+28.74
+
+>>> rekenkundig_gemiddelde((18, 40))
+29.0
+
+>>> harmonisch_gemiddelde((18, 40))
+24.83
+
+>>> rekenkundig_gemiddelde((2, 48, 40, 10))
+25.0
+
+>>> harmonisch_gemiddelde((2, 48, 40, 10))
+6.19
+
+>>> rekenkundig_gemiddelde((44, 30, 38, 20, 41, 6, 19))
+28.29
+
+>>> harmonisch_gemiddelde((44, 30, 38, 20, 41, 6, 19))
+18.61
+
+>>> rekenkundig_gemiddelde((25, 43, 50, 3, 1, 7, 42))
+24.43
+
+>>> harmonisch_gemiddelde((25, 43, 50, 3, 1, 7, 42))
+4.42
+
+>>> rekenkundig_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26))
+23.88
+
+>>> harmonisch_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26))
+8.83
+
+>>> rekenkundig_gemiddelde((48, 29, 2))
+26.33
+
+>>> harmonisch_gemiddelde((48, 29, 2))
+5.4
+
+>>> rekenkundig_gemiddelde((20, 16, 43, 46, 15, 4))
+24.0
+
+>>> harmonisch_gemiddelde((20, 16, 43, 46, 15, 4))
+12.65
+
+>>> rekenkundig_gemiddelde((36, 44, 6, 23, 31, 46))
+31.0
+
+>>> harmonisch_gemiddelde((36, 44, 6, 23, 31, 46))
+19.07
+
+>>> rekenkundig_gemiddelde((48, 43, 13, 33, 9))
+29.2
+
+>>> harmonisch_gemiddelde((48, 43, 13, 33, 9))
+19.05
+
+>>> rekenkundig_gemiddelde((47, 7, 22, 35, 24, 33, 28))
+28.0
+
+>>> harmonisch_gemiddelde((47, 7, 22, 35, 24, 33, 28))
+20.24
+
+>>> rekenkundig_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26))
+28.2
+
+>>> harmonisch_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26))
+22.4
+
+>>> rekenkundig_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26))
+26.25
+
+>>> harmonisch_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26))
+21.03
+
+>>> rekenkundig_gemiddelde((25, 47, 33, 44, 48, 10))
+34.5
+
+>>> harmonisch_gemiddelde((25, 47, 33, 44, 48, 10))
+25.52
+
+>>> rekenkundig_gemiddelde((34, 17, 1))
+17.33
+
+>>> harmonisch_gemiddelde((34, 17, 1))
+2.76
+
+>>> rekenkundig_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2))
+24.44
+
+>>> harmonisch_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2))
+7.86
+
+>>> rekenkundig_gemiddelde((13, 43, 35, 45, 22, 20))
+29.67
+
+>>> harmonisch_gemiddelde((13, 43, 35, 45, 22, 20))
+24.35
+
+>>> rekenkundig_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13))
+22.88
+
+>>> harmonisch_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13))
+16.82
+
