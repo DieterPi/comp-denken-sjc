@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
 getal1 = int(input('Geef een eerste getal in: ' ))
 getal2 = int(input('Geef een tweede getal in: '))
 
@@ -13,4 +12,4 @@ while rest != 0:
   B = rest
   rest = A % B
 
-print('\nDe grootste gemene deler van {} en {} is {}'.format( getal1, getal2, B ) )
+print( '\nDe grootste gemene deler van {} en {} is {}'.format( getal1, getal2, B ) )
