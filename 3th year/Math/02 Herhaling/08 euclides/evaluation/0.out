@@ -101,6 +101,6 @@ De grootste gemene deler van 369 en 744 is 3
 tab name: Feedback
 python input without prompt: true
 block count: multi
-input block size: 1
+input block size: 2
 output block size: ends with
 comparison: exact match
