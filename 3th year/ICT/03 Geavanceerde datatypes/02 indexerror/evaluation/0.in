@@ -1,0 +1,40 @@
+>>> laaste_element(['3GRLA', '3LA1', '3LA2', '3LA3', '3ECWE', '3NAWE1', '3NAWE2', '3NAWE3', '3HUWE', '3MT', '3SPWE'])
+3SPWE
+>>> laaste_element(['3GRLA', '3LA1', '3LA2', '3LA3'])
+3LA3
+>>> laaste_element(['3GRLA', '3NAWE3', '3LA1', '3LA2', '3SPWE', '3LA3', '3NAWE1', '3ECWE', '3NAWE2'])
+3NAWE2
+>>> laaste_element(['3NAWE1', '3HUWE', '3LA1', '3LA3', '3NAWE2', '3NAWE3', '3ECWE', '3SPWE', '3GRLA', '3MT'])
+3MT
+>>> laaste_element(['3ECWE', '3GRLA', '3NAWE3', '3SPWE', '3NAWE1', '3LA3', '3LA1', '3LA2', '3HUWE'])
+3HUWE
+>>> laaste_element(['3NAWE3', '3MT', '3LA2', '3LA3', '3NAWE2', '3LA1', '3SPWE', '3NAWE1', '3HUWE', '3ECWE'])
+3ECWE
+>>> laaste_element(['3ECWE', '3SPWE', '3MT', '3LA2', '3HUWE', '3LA1'])
+3LA1
+>>> laaste_element(['3ECWE', '3NAWE2', '3LA3', '3LA2', '3NAWE1'])
+3NAWE1
+>>> laaste_element(['3NAWE2', '3ECWE', '3LA1', '3MT', '3LA2'])
+3LA2
+>>> laaste_element(['3HUWE', '3LA3', '3NAWE2', '3ECWE', '3MT', '3LA1'])
+3LA1
+>>> laaste_element(['3ECWE', '3LA1'])
+3LA1
+>>> laaste_element(['3HUWE', '3MT', '3NAWE3', '3LA3', '3LA1', '3GRLA'])
+3GRLA
+>>> laaste_element(['3LA1', '3SPWE', '3ECWE', '3MT', '3NAWE1', '3HUWE', '3LA2', '3NAWE3', '3LA3'])
+3LA3
+>>> laaste_element(['3LA1', '3NAWE3'])
+3NAWE3
+>>> laaste_element(['3NAWE2', '3HUWE', '3LA3', '3LA2', '3LA1', '3ECWE', '3MT', '3NAWE3', '3NAWE1', '3SPWE'])
+3SPWE
+>>> laaste_element(['3LA2', '3SPWE', '3GRLA', '3LA1', '3HUWE', '3ECWE'])
+3ECWE
+>>> laaste_element(['3NAWE2', '3SPWE', '3NAWE1', '3GRLA', '3LA1', '3NAWE3'])
+3NAWE3
+>>> laaste_element(['3LA1', '3LA2', '3LA3', '3MT', '3SPWE', '3NAWE3'])
+3NAWE3
+>>> laaste_element(['3GRLA', '3SPWE', '3ECWE', '3HUWE', '3LA1', '3LA3', '3NAWE1', '3MT', '3NAWE2'])
+3NAWE2
+>>> laaste_element(['3HUWE', '3NAWE1', '3LA3', '3NAWE2', '3GRLA', '3LA1'])
+3LA1

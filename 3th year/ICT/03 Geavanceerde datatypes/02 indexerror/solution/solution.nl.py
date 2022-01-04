@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-klassen = [ '3GRLA', '3LA1', '3LA2', '3LA3', '3ECWE', '3NAWE1', '3NAWE2', '3NAWE3', '3HUWE', '3MT', '3SPWE' ]
-aantal_klassen = len( klassen )
-print( klassen[ aantal_klassen - 1 ] )
+def laaste_element( lijst ):
+    lengte = len( lijst )
+    print( lijst[lengte - 1] )
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
