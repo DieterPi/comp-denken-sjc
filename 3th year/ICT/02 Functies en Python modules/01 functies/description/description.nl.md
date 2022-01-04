@@ -88,4 +88,4 @@ Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de func
 ## Opgave
 Beschouw onderstaande code, deze bevat een kleine **fout**. 
 
-Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met 4.5 en hoogte 1.0 heeft oppervlakte 2.25`.
+Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 en hoogte 1.0 heeft oppervlakte 2.25`.
