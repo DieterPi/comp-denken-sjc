@@ -17,7 +17,5 @@ Afstand in lichtjaar: 0.0022831218014931695
 ```
 
 {: .callout.callout-info}
-
 > #### Tip
-
 > Laat 1 jaar overeenstemmen met 365.25 dagen. (Zo heb je een kleine correctie doorgevoerd voor de schrikkeljaren)
