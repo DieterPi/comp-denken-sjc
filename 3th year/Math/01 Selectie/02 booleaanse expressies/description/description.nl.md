@@ -1,5 +1,5 @@
 ## Booleaanse expressies
-De test die bepaalt of een tak van een keuzestructuur wordt uitgevoerd noemt men een **booleaanse expressie**. De acties worden enkel uitgevoerd indien de test `waar` of `True` is.
+De test die bepaalt of een tak van een keuzestructuur wordt uitgevoerd noemt men een **booleaanse expressie**. De acties worden enkel uitgevoerd indien de test `Waar` of met andere woorden `True` is.
 
 #### Vergelijkingen
 
@@ -36,6 +36,7 @@ print( is_even )
 
 #### Logische operatoren
 Met behulp van de logische operatoren `and`, `or` en `not` kan je booleaanse expressies combineren. In Minecraft deed je dit als volgt:
+
 ![minecraft logische operator](media/logische_en.png "minecraft logische operator"){:data-caption="Een logische operator in Minecraft Education Edition" width="218px"}
 
 In Python gebruik je de volgende code:
@@ -54,11 +55,11 @@ print( not t )
 print( not f )
 ```
 
-Kijk wel uit bij het gebruik van logische operatoren, combinaties kunnen snel leiden tot onverwachte resultaten. Gebruik daarom haakjes om ervoor te zorgen dat ze in de juiste volgorde geëvalueerd worden.
+Kijk wel uit bij het gebruik van logische operatoren, combinaties kunnen snel leiden tot onverwachte resultaten. Gebruik daarom **haakjes** om ervoor te zorgen dat ze in de juiste volgorde geëvalueerd worden.
 
 Geef voor de code hieronder waardes voor `a`, `b`, and `c`, die ertoe leiden dat de twee expressies verschillende uitkomsten hebben.
 
-```Python
+```python
 a = # True of False?
 b = # True of False?
 c = # True of False?
