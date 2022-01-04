@@ -1,5 +1,5 @@
 ## Opgave
-Vaak wordt aan een overschrijving een gestructureerde medeling (ogm) toegevoegd. Met behulp van deze medeling kan de ontvangende partij gemakkelijk controleren of het correcte bedrag werd overgeschreven. De mededeling vind je onderaan een overschrijvingsformulier:
+Vaak wordt aan een overschrijving een gestructureerde mededeling (ogm) toegevoegd. Met behulp van deze mededeling kan de ontvangende partij gemakkelijk controleren of het correcte bedrag werd overgeschreven. De mededeling vind je onderaan een overschrijvingsformulier:
 
 ![ogm](media/ogm.jpg "variabele"){:data-caption="Een overschrijvingsformulier met onderaan de gestructureerde mededeling" width="45%"}
 
