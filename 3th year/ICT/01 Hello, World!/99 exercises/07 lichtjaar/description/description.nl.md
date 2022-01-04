@@ -13,5 +13,11 @@ Vraag nu aan de gebruiker naar een aantal **km** en bereken met hoeveel lichtjaa
 De ruimtesonde [Voyager 1](https://nl.wikipedia.org/wiki/Voyager_1) in 1977 door de NASA gelanceerd bevond zich in oktober 2018 op ongeveer 21.6 billion km van de aarde.
 
 ```
-Afstand in lichtjaar: 0.0022846855835489868
+Afstand in lichtjaar: 0.0022831218014931695
 ```
+
+{: .callout.callout-info}
+
+> #### Tip
+
+> Laat 1 jaar overeenstemmen met 365.25 dagen. (Zo heb je een kleine correctie doorgevoerd voor de schrikkeljaren)
