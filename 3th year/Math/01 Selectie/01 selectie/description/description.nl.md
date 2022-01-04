@@ -50,10 +50,4 @@ else:
 ```
 
 ## Opgave
-Indien je 5 boeken bestelt van € 20,34 en hier € 15,3 verzendingskosten voor betaald, bereken dan de uiteindelijke kostprijs.
-
-Vul het onderstaande programma aan. Zorg ervoor dat de kostprijs uiteindelijk weergegeven wordt. Welk datatype heeft `kostprijs`?
-
-{: .callout.callout-info}
-> #### Tip
-> Gebruik de standaard bewerkingen binnen Python, `+` voor optelling, `-` voor aftrekking, `*` voor vermenigvuldiging en `/` voor deling.
+Schrijf een programma dat een (komma)getal inleest. Is het getal positief dan verschijnt de tekst `positief`. In het andere geval verschijnt `strikt negatief`.
