@@ -1,8 +1,8 @@
 >>> laatste_element(['3GRLA', '3LA1', '3LA2', '3LA3', '3ECWE', '3NAWE1', '3NAWE2', '3NAWE3', '3HUWE', '3MT', '3SPWE'])
-3SPWE
+'3SPWE'
 
 >>> laatste_element(['3GRLA', '3LA1', '3LA2', '3LA3'])
-3LA3
+'3LA3'
 
 >>> laatste_element(['3GRLA', '3NAWE3', '3LA1', '3LA2', '3SPWE', '3LA3', '3NAWE1', '3ECWE', '3NAWE2'])
 3NAWE2
