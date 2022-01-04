@@ -18,4 +18,4 @@ Afstand in lichtjaar: 0.002283122
 
 {: .callout.callout-info}
 > #### Tip
-> Bereken eerst met hoevel km 1 lichtjaar overeenkomt, m.a.w. welke afstand het licht aflegt (in vacuüm) in één jaar. Laat hierbij 1 jaar overeenstemmen met 365.25 dagen. (Zo heb je een kleine correctie doorgevoerd voor de schrikkeljaren)
+> Bereken eerst met hoeveel km 1 lichtjaar overeenkomt, m.a.w. welke afstand het licht aflegt (in vacuüm) in één jaar. Laat hierbij 1 jaar overeenstemmen met 365.25 dagen. (Zo heb je een kleine correctie doorgevoerd voor de schrikkeljaren)
