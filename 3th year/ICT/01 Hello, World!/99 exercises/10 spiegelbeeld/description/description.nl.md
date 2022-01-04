@@ -3,7 +3,7 @@ Schrijf een programma dat een geheel getal van 2 cijfers inleest (waarvan het tw
 
 {: .callout.callout-info}
 > #### Tip
-> Bepaal de eenheden en tientallen en gebruik deze om vervolgens het spiegelbeeld te bepalen.
+> Bepaal de eenheden en tientallen en gebruik deze om vervolgens het spiegelbeeld te berekenen.
 
 #### Voorbeeld
 De input `38` geeft als output:
