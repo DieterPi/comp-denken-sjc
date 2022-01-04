@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 c = 299792458
+lj = c*365*24*60*60
+
 afstand = float( input( 'Geef een aantal km in ' ) )
 
-print('\nAfstand in lichtjaar: {}'.format(afstand * 1000 / c) )
+print('\nAfstand in lichtjaar: {}'.format(afstand * 1000 / lj) )

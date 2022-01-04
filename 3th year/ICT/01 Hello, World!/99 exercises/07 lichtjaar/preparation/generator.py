@@ -29,9 +29,9 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(1265000,)]
+cases = [(21.6*10**9,)]
 while len(cases) < ntests:
-    cases.append( tuple( random.randint(10000, 100000000) for _ in range(1)) )
+    cases.append( tuple( random.randint(10**5, 10**13) for _ in range(1)) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
