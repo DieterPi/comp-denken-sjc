@@ -62,7 +62,7 @@ print( lijst.count( 'banaan' ) )
 ```
 
 ## Opgave
-Beschouw onderstaande lijst van jongensnamen. Schrijf een programma dat drie keer naam vraagt en vervolgens telt hoeveel keer de naam voorkomt.
+Beschouw onderstaande lijst van jongensnamen. Schrijf een programma dat drie keer een naam vraagt en vervolgens telt hoeveel keer de naam voorkomt.
 De uiteindelijke score is de **som** van al deze aantallen.
 
 #### Voorbeeld

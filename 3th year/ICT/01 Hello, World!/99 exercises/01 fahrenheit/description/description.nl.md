@@ -9,7 +9,7 @@ $$
     T_F = \dfrac{9}{5} T_C + 32
 $$
 
-Schrijf een programma dat een temperatuur in graden **Celsius** vraagt en vervolgens deze in graden **Fahrenheit** uitrekent. Rond het resultaat af op 2 cijfer na de komma.
+Schrijf een programma dat een temperatuur in graden **Celsius** vraagt en vervolgens deze in graden **Fahrenheit** uitrekent. Rond het resultaat af op 2 cijfers na de komma.
 
 #### Voorbeeld
 Een temperatuur van 0°C komt overeen met 32°F.
