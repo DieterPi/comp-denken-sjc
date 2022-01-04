@@ -9,7 +9,7 @@ Het verband tussen de lengtematen *inch*, *foot* en *yard* is als volgt.
 | 1 foot    | 12 inch     |               |
 | 1 yard    | 3 feet      |               |
 |-----------+-------------+---------------|
-{: .table}
+{:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
 
