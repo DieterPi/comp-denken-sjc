@@ -8,8 +8,8 @@ B = min(getal1, getal2)
 
 rest = A % B
 while rest != 0:
-  A = B
-  B = rest
-  rest = A % B
+    A = B
+    B = rest
+    rest = A % B
 
 print( '\nDe grootste gemene deler van {} en {} is {}'.format( getal1, getal2, B ) )
