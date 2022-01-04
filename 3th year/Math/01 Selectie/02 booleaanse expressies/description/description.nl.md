@@ -15,17 +15,18 @@ De meestgebruikte booleaanse expressies zijn vergelijkingen. Een vergelijking be
 |        `!=` |  niet gelijk aan |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-{: .callout.callout-danger}
-> #### Opgelet
-> Een veel gemaakte fout is om twee waarden te vergelijken met een enkele `=`. Dit is echter de toekenningsoperator. Probeer bijvoorbeeld eens onderstaande code uit:
-
 ```python
 x = 46
 if x % 10 = 6:
     print( 'x heeft een 6 als eenheid' )
 ```
 
-Je kan deze booleaanse expressies ook toekennen aan een variabele. 
+{: .callout.callout-danger}
+> #### Opgelet
+> Een veel gemaakte fout is om twee waarden te vergelijken met een enkele `=`, dit is echter de toekenningsoperator! Bovenstaand stukje code demonstreert de fout.
+
+
+Je kan de booleaanse expressies ook toekennen aan een variabele. 
 
 ```python
 getal = int( input( 'Geef een getal in: ' ) )
