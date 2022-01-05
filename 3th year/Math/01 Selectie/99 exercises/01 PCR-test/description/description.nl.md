@@ -13,7 +13,7 @@ Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterke
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `ct_treshold` die als invoer een Ct-waarde neemt en als uitvoer de beschrijving afdrukt.
+Schrijf een functie `ct_treshold` die als parameter een Ct-waarde neemt en als uitvoer de beschrijving afdrukt.
 
 #### Voorbeeld
 ```
