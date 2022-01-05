@@ -9,7 +9,7 @@ Schrijf een functie `schrikkeljaar` met een jaartal als parameter en die op het 
 
 #### Voorbeeld
 ```
->>> ct_treshold(2022)
+>>> schrikkeljaar(2022)
 Geen schrikkeljaar
 >>> schrikkeljaar(2020)
 Een schrikkeljaar
