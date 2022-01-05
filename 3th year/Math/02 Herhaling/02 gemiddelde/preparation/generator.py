@@ -46,6 +46,10 @@ for test in cases:
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
 
+# generate unit tests for functions
+sys.stdout = open(os.path.join('..', 'evaluation', '1.in'), 'w', encoding='utf-8')
+for test in cases:
+    # generate test expression
     print(f'>>> harmonisch_gemiddelde({test})')
 
     # generate return value
@@ -53,3 +57,4 @@ for test in cases:
         print('{}\n'.format(module.harmonisch_gemiddelde(test)))
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
+
