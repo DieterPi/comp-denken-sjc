@@ -7,12 +7,12 @@ De meestgebruikte booleaanse expressies zijn vergelijkingen. Een vergelijking be
 
 | operator | beschrijving |
 |:--------:|-------------|
-|        `<`  |    kleiner dan |
-|        `<=` |  kleiner dan of gelijk aan |
-|        `==`  | gelijk aan |
-|        `>=` |  groter dan of gelijk aan |
-|        `>`  |  groter dan |
-|        `!=` |  niet gelijk aan |
+|     `<`  |    kleiner dan |
+|     `<=` |  kleiner dan of gelijk aan |
+|    `==`  | gelijk aan |
+|     `>=` |  groter dan of gelijk aan |
+|     `>`  |  groter dan |
+|     `!=` |  niet gelijk aan |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ```python
@@ -69,4 +69,12 @@ print( a and (b or c) )
 ```
 
 ## Opgave
-Schrijf een programma dat een (komma)getal inleest. Is het getal positief dan verschijnt de tekst `positief`. In het andere geval verschijnt `strikt negatief`.
+Hieronder vind je een functie die nagaat of een getal deelbaar is door 6 en door 8. Vul de code aan.
+
+#### Voorbeeld
+```
+>>> deelbaar_zes_en_acht(24)
+True
+>>> deelbaar_zes_en_acht(30)
+False
+```

@@ -1,9 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-getal = float( input( 'Geef een getal in: ' ) )
+def deelbaar_door_zes_en_acht( getal ):
+    deelbaar_door_zes = getal % 6 == 0
+    deelbaar_door_acht = getal % 8 == 0
 
-if getal >= 0:
-    print( 'positief' )
-else:
-    print( 'strikt negatief' )
+    return deelbaar_door_zes and deelbaar_door_acht
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()

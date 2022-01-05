@@ -1,0 +1,60 @@
+>>> deelbaar_door_zes_en_acht(24)
+True
+
+>>> deelbaar_door_zes_en_acht(30)
+False
+
+>>> deelbaar_door_zes_en_acht(92)
+False
+
+>>> deelbaar_door_zes_en_acht(66)
+False
+
+>>> deelbaar_door_zes_en_acht(79)
+False
+
+>>> deelbaar_door_zes_en_acht(100)
+False
+
+>>> deelbaar_door_zes_en_acht(87)
+False
+
+>>> deelbaar_door_zes_en_acht(60)
+False
+
+>>> deelbaar_door_zes_en_acht(48)
+True
+
+>>> deelbaar_door_zes_en_acht(98)
+False
+
+>>> deelbaar_door_zes_en_acht(69)
+False
+
+>>> deelbaar_door_zes_en_acht(60)
+False
+
+>>> deelbaar_door_zes_en_acht(78)
+False
+
+>>> deelbaar_door_zes_en_acht(54)
+False
+
+>>> deelbaar_door_zes_en_acht(61)
+False
+
+>>> deelbaar_door_zes_en_acht(66)
+False
+
+>>> deelbaar_door_zes_en_acht(79)
+False
+
+>>> deelbaar_door_zes_en_acht(98)
+False
+
+>>> deelbaar_door_zes_en_acht(36)
+False
+
+>>> deelbaar_door_zes_en_acht(96)
+True
+
