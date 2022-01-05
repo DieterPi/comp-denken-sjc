@@ -3,7 +3,7 @@
 
 def laatste_element( lijst ):
     lengte = len( lijst )
-    print( lijst[lengte - 1] )
+    return( lijst[lengte - 1] )
 
 if __name__ == '__main__':
     import doctest
