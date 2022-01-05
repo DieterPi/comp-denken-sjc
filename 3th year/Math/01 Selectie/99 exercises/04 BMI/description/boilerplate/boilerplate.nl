@@ -1,0 +1,1 @@
+def bmi( massa, lengte ):
