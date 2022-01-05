@@ -1,0 +1,40 @@
+>>> schrikkeljaar(2022) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2020) # doctest: +STDOUT
+Een schrikkeljaar
+>>> schrikkeljaar(1900) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2000) # doctest: +STDOUT
+Een schrikkeljaar
+>>> schrikkeljaar(1964) # doctest: +STDOUT
+Een schrikkeljaar
+>>> schrikkeljaar(1913) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1938) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1981) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2031) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2015) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2034) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2007) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1954) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1901) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2039) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1877) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1976) # doctest: +STDOUT
+Een schrikkeljaar
+>>> schrikkeljaar(1919) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1901) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1936) # doctest: +STDOUT
+Een schrikkeljaar
