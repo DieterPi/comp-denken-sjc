@@ -29,18 +29,18 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [(24,),(30,),]
+cases = [(15,),(20.2,),]
 while len(cases) < ntests:
-    cases.append( tuple(random.randint(10,100) for _ in range(1)) ) 
+    cases.append( tuple(round(random.uniform(5,35), 1) for _ in range(1)) ) 
 
 # generate unit tests for functions
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> deelbaar_door_zes_en_acht({test[0]})')
+    print(f'>>> ct_treshold({test[0]}) # doctest: +STDOUT')
 
     # generate return value
     try:
-        print('{}\n'.format(module.deelbaar_door_zes_en_acht(test[0])))
+        module.ct_treshold(test[0])
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
