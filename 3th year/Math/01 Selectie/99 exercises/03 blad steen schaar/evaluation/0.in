@@ -1,0 +1,40 @@
+>>> bladsteenschaar(blad, blad) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(steen, blad) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(schaar, blad) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(schaar, steen) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(schaar, schaar) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(schaar, steen) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(steen, schaar) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(steen, steen) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(schaar, steen) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(steen, steen) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(schaar, schaar) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(blad, schaar) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(schaar, blad) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(steen, schaar) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(blad, blad) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(schaar, schaar) # doctest: +STDOUT
+onbeslist
+>>> bladsteenschaar(blad, schaar) # doctest: +STDOUT
+speler 2 wint
+>>> bladsteenschaar(steen, schaar) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(steen, schaar) # doctest: +STDOUT
+speler 1 wint
+>>> bladsteenschaar(steen, schaar) # doctest: +STDOUT
+speler 1 wint
