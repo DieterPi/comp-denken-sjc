@@ -8,7 +8,7 @@ $$
 
 Zo is de BMI van een persoon van 90 kilogram met een lengte van 173 centimeter bijvoorbeeld gelijk aan 30,07.
 
-De BMI kan strikt genomen **niet** gebruikt worden als betrouwbare maat voor het schatten van een gezond lichaamsgewicht van een persoon op basis van diens lengte, aangezien individuele verschillen in lichaamsbouw niet in rekening worden gebracht (verhouding van spier-, bot- en vetweefsel). In de dagelijkse medische praktijk is de BMI echter wel goed bruikbaar en voldoende betrouwbaar. Dit geldt met name bij grotere afwijkingen zoals ondergewicht en overgewicht. Bijgevolg wordt de BMI tegenwoordig ondermeer gebruikt door de Wereldgezondheidsorganisatie en de Amerikaanse overheid.
+De BMI kan strikt genomen **niet** gebruikt worden als betrouwbare maat voor het schatten van een gezond lichaamsgewicht van een persoon op basis van diens lengte, aangezien individuele verschillen in lichaamsbouw niet in rekening worden gebracht (verhouding van spier-, bot- en vetweefsel). In de dagelijkse medische praktijk is de BMI echter wel goed bruikbaar en voldoende betrouwbaar. Dit geldt met name bij grotere afwijkingen zoals ondergewicht en overgewicht. Bijgevolg wordt de BMI tegenwoordig ondermeer gebruikt door de Wereldgezondheidsorganisatie.
 
 Onderstaande tabel geeft een manier om een BMI-waarde te interpreteren:
 
