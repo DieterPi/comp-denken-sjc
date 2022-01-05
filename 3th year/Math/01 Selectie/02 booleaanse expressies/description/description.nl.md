@@ -1,5 +1,5 @@
 ## Booleaanse expressies
-De test die bepaalt of een tak van een keuzestructuur wordt uitgevoerd noemt men een **booleaanse expressie**. De acties worden enkel uitgevoerd indien de test `Waar` of met andere woorden `True` is.
+De test die bepaalt welke tak van een keuzestructuur wordt uitgevoerd noemt men een **booleaanse expressie**. De acties worden enkel uitgevoerd indien de test `Waar` of met andere woorden `True` is.
 
 #### Vergelijkingen
 
@@ -15,6 +15,7 @@ De meestgebruikte booleaanse expressies zijn vergelijkingen. Een vergelijking be
 |     `!=` |  niet gelijk aan |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
+In de volgende code zit een fout, wat is er hier fout?
 ```python
 x = 46
 if x % 10 = 6:
@@ -23,10 +24,10 @@ if x % 10 = 6:
 
 {: .callout.callout-danger}
 > #### Opgelet
-> Een veel gemaakte fout is om twee waarden te vergelijken met een enkele `=`, dit is echter de toekenningsoperator! Bovenstaand stukje code demonstreert de fout.
+> Een veel gemaakte fout is om twee waarden te vergelijken met een enkele `=`, dit is echter de **toekenning**soperator!
 
 
-Je kan de booleaanse expressies ook toekennen aan een variabele. 
+Je kan een booleaanse expressie ook toekennen aan een variabele. 
 
 ```python
 getal = int( input( 'Geef een getal in: ' ) )
