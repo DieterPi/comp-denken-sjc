@@ -13,6 +13,12 @@ Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterke
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Vul de volgende functie aan
+Schrijf een functie `ct_treshold` die als invoer een Ct-waarde neemt en als uitvoer de beschrijving afdrukt.
 
 #### Voorbeeld
+```
+>>> ct_treshold(15)
+sterk positief
+>>> ct_treshold(20.2)
+gewoon positief
+```

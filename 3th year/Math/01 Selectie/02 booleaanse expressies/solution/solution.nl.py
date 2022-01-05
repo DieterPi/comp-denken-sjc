@@ -7,7 +7,6 @@ def deelbaar_door_zes_en_acht( getal ):
 
     return deelbaar_door_zes and deelbaar_door_acht
 
-
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
