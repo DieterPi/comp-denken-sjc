@@ -1,1 +1,1 @@
-def schrikkeljaar( jaartal ):
+def ct_treshold( waarde ):
