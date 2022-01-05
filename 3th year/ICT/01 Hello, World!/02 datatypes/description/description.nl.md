@@ -77,6 +77,12 @@ x = int( 18/3 )
 print( x )
 print( type(x) )
 ```
+## Commentaar
+De code die je zal schrijven zal na een eindje wat langer zijn. Het is dan ook aan te raden deze van commentaar te voorzien. De meeste eenvoudige manier om commentaar te geven is door gebruiken te maken van `#`.
+```python
+# Een tekst op het scherm weergeven.
+print( 'De naam Python komt van de komedie Monty Python.' )
+```
 
 ## Opgave
 Indien je 5 boeken bestelt van € 20,34 en hier € 15,3 verzendingskosten voor betaald, bereken dan de uiteindelijke kostprijs.
