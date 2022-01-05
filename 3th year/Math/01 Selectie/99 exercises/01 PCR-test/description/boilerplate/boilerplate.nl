@@ -3,6 +3,7 @@ def ct_treshold( waarde ):
 
     elif 
 
+    elif
 
-
+    else
     
