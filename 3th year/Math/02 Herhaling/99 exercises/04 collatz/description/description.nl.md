@@ -7,7 +7,7 @@ Neem een willeurig geheel getal $$n$$ als startwaarde:
 
 Als $$n= 12$$ dan verkrijg je de volgende rij: $$12, 6, 3, 10, 5, 16, 8, 4, 2, 1$$. Je merkt dat de rij inderdaad eindigt bij $$1$$
 
-![Collatz conjecture](media/collatz_conjecture.png "Collatz conjecture"){:data-caption="De hypothese van Collatz, [xkcd](https://xkcd.com/710)-cartoon" width="30%"}
+![Collatz conjecture](media/collatz_conjecture.png "Collatz conjecture"){:data-caption="De hypothese van Collatz, xkcd-cartoon (https://xkcd.com/710)" width="30%"}
 
 ## Opgave
 In deze oefening schrijf je 2 functies. De functie `volgend_collatz_getal()` die gegeven een getal het volgende getal in de rij berekent. 
