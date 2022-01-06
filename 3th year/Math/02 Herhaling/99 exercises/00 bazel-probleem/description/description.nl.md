@@ -16,7 +16,7 @@ $$
 
 ## Opgave
 
-Bepaal een benadering voor het getal π met bovenstaande uitdrukking. Vul hiervoor onderstaande functie `bazel_benadering()` aan. De parameter stelt het aantal termen in de som voor. Rond de benadering af op 12 cijfers na de komma.
+Bepaal een benadering voor het getal π met bovenstaande uitdrukking. Vul hiervoor onderstaande functie `bazel_benadering()` aan. De parameter stelt het aantal termen in de som voor. Rond de benadering af op 9 cijfers na de komma.
 
 #### Voorbeelden
 Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend opdat de benadering in de buurt komt, gelukkig kan een computer dit vrij vlot.
