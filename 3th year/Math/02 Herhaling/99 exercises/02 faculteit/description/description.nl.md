@@ -10,7 +10,7 @@ Bijvoorbeeld: $$4! = 1\cdot 2\cdot 3\cdot 4 = 24$$. Een belangrijke toepassing v
 ![Faculteit](media/faculteit.jpg "Faculteit"){:data-caption="Het aantal manieren om een 3 boeken te ordenen is 3 faculteit." width="35%"}
 
 ## Opgave
-Schrijf een functie `faculteit` met een natuurlijk getal als parameter dat de faculteit van het getal **retourneert**.
+Schrijf een functie `faculteit()` met een natuurlijk getal als parameter dat de faculteit van het getal **retourneert**.
 
 #### Voorbeeld
 ```
