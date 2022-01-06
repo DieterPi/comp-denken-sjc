@@ -1,6 +1,6 @@
 Perfecte getallen zijn positieve natuurlijke getallen waarbij de som van de echte delers gelijk is aan het getal zelf.
 
-Het kleinste perfecte getal is $$6$$, de *echte* delers van 6 zijn immers, $$1,2$$ en $3$.
+Het kleinste perfecte getal is $$6$$, de *echte* delers van 6 zijn immers, $$1,2$$ en $$3$$.
 
 $$
 6 = 1 + 2 + 3
