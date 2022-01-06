@@ -10,3 +10,7 @@ Schrijf een functie `favoriete_kleur()` met een kleur als parameter en die retou
 >>> favoriete_kleur('oranje')
 12
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Gebruik herhaling over de lijst via `for item in lijst:`.
