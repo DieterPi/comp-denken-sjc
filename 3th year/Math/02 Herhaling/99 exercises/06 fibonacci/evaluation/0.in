@@ -1,0 +1,30 @@
+>>> fibonnaci(2)
+1
+>>> fibonnaci(7)
+21
+>>> fibonnaci(50)
+20365011074
+>>> fibonnaci(29)
+832040
+>>> fibonnaci(35)
+14930352
+>>> fibonnaci(39)
+102334155
+>>> fibonnaci(26)
+196418
+>>> fibonnaci(20)
+10946
+>>> fibonnaci(30)
+1346269
+>>> fibonnaci(26)
+196418
+>>> fibonnaci(35)
+14930352
+>>> fibonnaci(23)
+46368
+>>> fibonnaci(26)
+196418
+>>> fibonnaci(29)
+832040
+>>> fibonnaci(35)
+14930352
