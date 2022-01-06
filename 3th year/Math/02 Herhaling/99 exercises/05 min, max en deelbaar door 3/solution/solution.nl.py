@@ -15,7 +15,6 @@ for i in range( 5 ):
         max = getal
     aantal += int( getal % 3 == 0 )
 
-print( '\n')
 print( 'Grootste getal:', max )
 print( 'Kleinste getal:', min )
 print( 'Aantal getallen deelbaar door 3:', aantal )
