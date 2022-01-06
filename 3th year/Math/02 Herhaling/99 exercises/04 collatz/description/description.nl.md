@@ -1,4 +1,4 @@
-Het [vermoeden van Collatz](https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz), is een vermoeden uit 1937 dat zegt dat een bepaalde *iteratieve* methode steeds bij 1 eindigt. De methode verloopt als volgt:
+Het [vermoeden van Collatz](https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz) is een vermoeden uit 1937 dat zegt dat een bepaalde *iteratieve* methode steeds bij 1 eindigt. De methode verloopt als volgt:
 
 Neem een willeurig geheel getal $$n$$ als startwaarde:
 
@@ -7,7 +7,7 @@ Neem een willeurig geheel getal $$n$$ als startwaarde:
 
 Als $$n= 12$$ dan verkrijg je de volgende rij: $$12, 6, 3, 10, 5, 16, 8, 4, 2, 1$$. Je merkt dat de rij inderdaad eindigt bij $$1$$
 
-![Collatz conjecture](media/collatz_conjecture.png "Collatz conjecture"){:data-caption="De hypothese van Collatz, [xkcd](https://xkcd.com/710)-cartoon" width="445px"}
+![Collatz conjecture](media/collatz_conjecture.png "Collatz conjecture"){:data-caption="De hypothese van Collatz, [xkcd](https://xkcd.com/710)-cartoon" width="35%"}
 
 ## Opgave
 In deze oefening schrijf je 2 functies. De functie `volgend_collatz_getal()` die gegeven een getal het volgende getal in de rij berekent. 
