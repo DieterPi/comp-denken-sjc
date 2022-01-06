@@ -3,28 +3,16 @@
 
 import random
 
-som = 0
-for i in range( 2 ):
-    kaart = random.randint( 1, 11 )
-    print( 'Je kreeg een', kaart )
-    som += kaart
+getal = random.randint( 1, 1000 )
 
-if som == 22:
-    print( 'Verloren' )
-elif som == 21:
-    print( 'Gewonnen' )
-else:
-    vraag = str( input( 'Verdergaan? ' ) )
-    while vraag == 'J' and som < 21:
-        kaart = random.randint( 1, 11 )
-        print( 'Je kreeg een', kaart )
-        som += kaart
-        if som < 21:
-            vraag = str( input( 'Verdergaan? ' ) )
+gok = int( input( 'Gok een getal: ' ) )
+aantal = 1
+while gok != getal:
+    if gok < getal:
+        print( 'Hoger' )
+    else:
+        print( 'Lager' )
+    gok = int( input( 'Gok een getal: ' ) )
+    aantal += 1
 
-if som > 21:
-    print( 'Verloren' )
-elif som == 21:
-    print( 'Gewonnen' )
-else:
-    print( 'Voorzicht gespeeld' )
+print( 'Aantal pogingen: ', aantal )
