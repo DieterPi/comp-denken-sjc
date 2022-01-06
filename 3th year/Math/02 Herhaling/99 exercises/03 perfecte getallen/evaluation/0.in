@@ -1,0 +1,20 @@
+>>> is_perfect(6)
+True
+>>> is_perfect(25)
+False
+>>> is_perfect(28)
+True
+>>> is_perfect(496)
+True
+>>> is_perfect(7266)
+False
+>>> is_perfect(8903)
+False
+>>> is_perfect(8128)
+True
+>>> is_perfect(6527)
+False
+>>> is_perfect(4998)
+False
+>>> is_perfect(7666)
+False
