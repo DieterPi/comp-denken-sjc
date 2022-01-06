@@ -6,10 +6,10 @@ Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterke
 
 | Ct-waarde | beschrijving |
 |:--------:|-------------|
-| `<= 13.1`  |    zeer sterk positief (superverspreider) |
-| `> 13.1` en `<=19.5` |  sterk positief |
-| `>19.5` en `<=26.0`  | gewoon positief |
-| `>26.0` |  zwak positief |
+| ≤ 13.1  |    zeer sterk positief (superverspreider) |
+| > 13.1 en ≤ 19.5 |  sterk positief |
+| > 19.5 en ≤ 26.0  | gewoon positief |
+| > 26.0 |  zwak positief |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
