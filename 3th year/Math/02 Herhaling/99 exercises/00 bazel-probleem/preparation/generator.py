@@ -1,7 +1,7 @@
 import os
+import sys
+import importlib
 import random
-import subprocess
-from typing import Text
 
 # set fixed seed for generating test cases
 random.seed(123456789)
@@ -16,53 +16,32 @@ solutiondir = os.path.join('..', 'solution')
 if not os.path.exists(solutiondir):
     os.makedirs(solutiondir)
 
-# configuration settings
-tab_name = 'Feedback'
-settings = f'''
-tab name: {tab_name}
-python input without prompt: true
-block count: multi
-input block size: 1
-output block size: ends with
-comparison: exact match
-'''
+# load functionality defined in sample solution
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
+for name in dir(module):
+    if not (name.startswith('__') and name.endswith('__')):
+        globals()[name] = eval(f'module.{name}')
 
 # generate test data
-ntests= 10
-cases = [(11,)]
-while len(cases) < ntests:
-    cases.append( tuple( random.randint(1, 15) for _ in range(1)) )
+#ntests= 10
+cases = [(10,),(100,),(10000,),(50,), (100000,), (5000,), (1000000,), (10000000,)]
+#while len(cases) < ntests:
+#    exp = random.randint(3,6)
+#    cases.append( (pow(10,exp), )) 
 
-# configure test files
-infile = open(os.path.join(evaldir, '0.in'), 'w')
-outfile = open(os.path.join(evaldir, '0.out'), 'w')
+# generate unit tests for functions
+sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
+for test in cases:
+    # generate test expression
+    print(f'>>> bazel_benadering({test[0]})')
 
-# generate unit tests
-for stdin in cases:
-
-    # add input to input file
-    stdin = '\n'.join(f'{line}' for line in stdin)
-    print(stdin, file=infile)
-
-    # generate output to output file
-    script = os.path.join(solutiondir, 'solution.nl.py')
-    process= subprocess.run(
-        ['python3', script],
-        input=stdin,
-        encoding='utf-8',
-        capture_output=True,
-        text=True
-    )
-  
-    result_lines = process.stdout.split("\n")
-    for line in result_lines:
-        if not(line.startswith( 'Geef' )):
-            print(line)
-            print(line, file=outfile, end='\n')
-
-
-    # add stdout to output file
-    # print(stdout, file=outfile, end='')
-
-# add settings to output file
-print('-' * 41 + settings, file=outfile, end='')
+    # generate return value
+    try:
+        print('{}'.format(module.bazel_benadering(test[0])))
+    except Exception as e:
+        print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))

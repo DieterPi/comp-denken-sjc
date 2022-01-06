@@ -1,9 +1,16 @@
-11
-8
-9
-12
-15
-14
-15
-13
-10
+>>> bazel_benadering(10)
+3.049361636
+>>> bazel_benadering(100)
+3.132076532
+>>> bazel_benadering(10000)
+3.141497164
+>>> bazel_benadering(50)
+3.122626523
+>>> bazel_benadering(100000)
+3.141583104
+>>> bazel_benadering(5000)
+3.141401681
+>>> bazel_benadering(1000000)
+3.141591699
+>>> bazel_benadering(10000000)
+3.141592558

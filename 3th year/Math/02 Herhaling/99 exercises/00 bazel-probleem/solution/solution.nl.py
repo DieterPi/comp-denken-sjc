@@ -1,7 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+import math
 
-aantal = int( input( 'Geef een aantal in: ' ) )
+def bazel_benadering( aantal ):
+    som = 0
+    for i in range( aantal ):
+        som += 1/pow( i + 1, 2 )
+    return round( math.sqrt( 6 * som ), 9 )
 
-for i in  range( aantal ):
-    print( 'Ik zal meer dan twee oefeningen programmeren maken!' )
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
