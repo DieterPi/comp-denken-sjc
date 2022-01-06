@@ -2,11 +2,11 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
-    "pythia_judge": "output"
+    "pythia_judge": "doctest"
   },
   "description": {
     "names": {
-      "nl": "Bart Simpson (oefening)"
+      "nl": "Bazel-probleem (oefening)"
     }
   },
   "labels": [
