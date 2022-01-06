@@ -19,8 +19,8 @@ False
 True
 ```
 
-{: .callout.callout-danger}
-> #### Opgelet
+{: .callout.callout-info}
+> #### Tip
 > Voor parameter 6 overloop je alle getallen tot 6 en controleer je telkens of ze een deler zijn. Indien ja, dan voer de nodige bewerking uit.
 
 #### Epiloog
