@@ -2,7 +2,7 @@ Bartholomew Jojo (Bart) Simpson is een personage uit de animatieserie The Simpso
 
 In een interview maakte Matt bekend dat hij de naam 'Bart' koos omdat het een anagram is van brat (Engels voor 'kwajongen'). In de opening sequence van een episode zie je Bart Simpson straf schrijven op een schoolbord.
 
-![Bart Simpson](media/bartsimpson.png "Bart Simpson"){:data-caption="Bart Simpson" width="35%"}
+![Bart Simpson](media/bartsimpson.png "Bart Simpson"){:data-caption="Bart Simpson" width="45%"}
 
 ## Opgave
 Schrijf een programma dat een natuurlijk getal vraagt en vervolgens evenveel keer de zin *Ik zal meer dan twee oefeningen programmeren maken!* op het scherm afdrukt.
