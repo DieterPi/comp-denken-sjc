@@ -37,7 +37,20 @@ Tot slot kan je het programma gemakkelijk uitbreiden met meerdere keuzes.
 
 ![minecraft meervoudige keuze](media/meervoudige_keuze.png "minecraft meervoudige keuze"){:data-caption="Een meervoudige selectie Minecraft Education Edition" width="300px"}
 
-In Pyton wordt gebruik je een `elif` (afkorting van `else if`) expressie:
+Je kan dit op twee manieren programmeren in Python, met behulp van **geneste** selecties:
+```python
+leeftijd = float( input( 'Geef je leeftijd in: ' ) )
+
+if leeftijd < 12:
+    print( 'Je mag gratis op de trein!' )
+else:
+    if leeftijd >= 65:
+        print( 'Je krijgt 50% korting.' )
+    else: 
+        print( 'Je moet een ticket kopen.' )
+```
+
+Of efficiënter met de `elif` (afkorting van `else if`) instructie:
 ```python
 leeftijd = float( input( 'Geef je leeftijd in: ' ) )
 
