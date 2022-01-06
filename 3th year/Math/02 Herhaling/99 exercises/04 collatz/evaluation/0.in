@@ -1,0 +1,30 @@
+>>> volgend_collatz_getal(8)
+4
+>>> volgend_collatz_getal(17)
+52
+>>> volgend_collatz_getal(23)
+70
+>>> volgend_collatz_getal(17)
+52
+>>> volgend_collatz_getal(20)
+10
+>>> volgend_collatz_getal(25)
+76
+>>> volgend_collatz_getal(22)
+11
+>>> volgend_collatz_getal(15)
+46
+>>> volgend_collatz_getal(12)
+6
+>>> volgend_collatz_getal(25)
+76
+>>> volgend_collatz_getal(17)
+52
+>>> volgend_collatz_getal(15)
+46
+>>> volgend_collatz_getal(20)
+10
+>>> volgend_collatz_getal(14)
+7
+>>> volgend_collatz_getal(15)
+46
