@@ -1,0 +1,14 @@
+>>> favoriete_kleur('rood')
+8
+>>> favoriete_kleur('oranje')
+12
+>>> favoriete_kleur('groen')
+10
+>>> favoriete_kleur('geel')
+10
+>>> favoriete_kleur('blauw')
+7
+>>> favoriete_kleur('indigo')
+10
+>>> favoriete_kleur('violet')
+11
