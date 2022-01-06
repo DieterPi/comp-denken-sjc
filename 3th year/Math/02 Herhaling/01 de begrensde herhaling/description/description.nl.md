@@ -3,7 +3,7 @@ Computers zijn zeer goed in het herhalen van opdrachten. In het algemeen vinden 
 
 In Minecraft hebben we reeds kennis gemaakt met herhalingen, *iteraties*, lussen of *loops*. Liet je de agent een vierkant van 3 op 3 afleggen, dan deed je dit efficiënter met een begrensde herhaling.
 
-![minecraft begrensde herhaling](media/begrensde-herhaling.png "minecraft begrensde herhaling"){:data-caption="Een begrensde herhaling in Minecraft Education Edition" width="540px"}
+![minecraft begrensde herhaling](media/begrensde_herhaling.png "minecraft begrensde herhaling"){:data-caption="Een begrensde herhaling in Minecraft Education Edition" width="540px"}
 
 Om in Python een begrensde herhaling uit te voeren maak je gebruik van de `for`-*loop*:
 
