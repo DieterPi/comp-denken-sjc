@@ -19,5 +19,9 @@ False
 True
 ```
 
+{: .callout.callout-danger}
+> #### Opgelet
+> Voor parameter 6 overloop je alle getallen tot 6 en controleer je telkens of ze een deler zijn. Indien ja, dan voer de nodige bewerking uit.
+
 #### Epiloog
 Het is niet geweten of er oneven perfecte getallen is, noch dat er oneindig bestaan.
