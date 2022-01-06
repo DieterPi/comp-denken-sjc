@@ -1,6 +1,6 @@
 In 1741 lostte [Euler](https://nl.wikipedia.org/wiki/Leonhard_Euler) het beroemde [Bazel-probleem](https://nl.wikipedia.org/wiki/Bazel-probleem) op. 
 
-![Euler](media/Euler.jpg "Euler"){:data-caption="Je nieuwe held, Leonhard Euler" width="35%"}
+![Euler](media/Euler.jpg "Euler"){:data-caption="Je nieuwe held, Leonhard Euler" width="28%"}
 
 Hij bewees dat de (oneindige) som van de omgekeerden van de kwadraten van de natuurlijke getallen gelijk is aan $$\frac{\pi^2}{6}$$, met andere woorden:
 
