@@ -9,7 +9,7 @@ $$
 ![Fibonacci](media/Fibonacci.png "Fibonacci"){:data-caption="De rij van Fibonacci op een postzegel" width="35%"}
 
 ## Opgave
-Schrijf een functie `fibonnaci()` met het rangnummer als parameter en het desbetreffende getal retourneert.
+Schrijf een functie `fibonnaci()` met het rangnummer als parameter en zodat deze het getal met dat rangnummer retourneert.
 
 #### Voorbeeld
 ```
