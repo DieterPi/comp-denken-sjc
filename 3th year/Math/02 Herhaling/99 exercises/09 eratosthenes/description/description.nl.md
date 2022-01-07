@@ -16,7 +16,7 @@ Hieronder zie je de methode uitgevoerd op een lijst met getallen tot 120.
 ![Sieve of Eratosthenes](media/Sieve.gif "Sieve of Eratosthenes"){:data-caption="De zeef van Eratosthenes" width="445px"}
 
 ## Opgave
-Schrijf zelf een programma dat de priemgetallen kleiner dan of gelijk aan een bepaalde maximale waarde uitzeeft.
+Schrijf zelf een functie `zeef_eratosthenes( max )` dat de priemgetallen kleiner dan of gelijk aan een bepaalde maximale waarde uitzeeft.
 
 - Gebruik een lijst van 1 tot en met het maximale getal in Python.
 - Zet de waarde van 1 op nul, omdat 1 geen priemgetal is. 
@@ -26,11 +26,9 @@ veelvouden van 2 zijn dat niet. Dus zet alle veelvouden van 2 op 0. Zoek dan naa
 
 #### Voorbeelden
 
-Voor de invoer `50` verschijnt:
 ```
+>>> zeef_eratosthenes( 50 )
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
-```
-Voor de invoer `100` verschijnt:
-```
+>>> >>> zeef_eratosthenes( 100 )
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 ```
