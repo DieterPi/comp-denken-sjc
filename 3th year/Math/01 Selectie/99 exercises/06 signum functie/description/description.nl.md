@@ -17,10 +17,10 @@ Schrijf een functie `sgn()` die de waarden $$-1$$, $$0$$ en $$1$$ retourneert zo
 
 #### Voorbeeld
 ```
->>> sgn(10)
+>>> sgn( 10 )
 1
->>> sgn(0)
+>>> sgn( 0 )
 0
->>> sgn(-3.1415)
+>>> sgn( -3.1415 )
 -1
 ```
