@@ -9,6 +9,7 @@ $$
 $$
 
 De signum functie heeft onderstaande grafiek:
+
 ![Signum](media/signum.png "Signum"){:data-caption="De grafiek van de signum functie." width="355px"}
 
 ## Opgave
