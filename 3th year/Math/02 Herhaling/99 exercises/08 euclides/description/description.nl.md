@@ -17,18 +17,14 @@ Beschouw $$A = 28$$ en $$B = 16$$. Een getraind oog ziet meteen in dat de $$\tex
 
 ## Opgave
 
-Schrijf een programma dat twee gehele getallen als invoer krijgt en vervolgens de grootste gemene deler bepaalt.
+Schrijf een functie `ggd()` met twee gehele getallen als parameter dat de grootste gemene deler retourneert.
 
 #### Voorbeelden
-Voor de invoer `28` en `16` verschijnt:
 ```
-De grootste gemene deler van 28 en 16 is 4
-```
-Voor de invoer `16` en `28` verschijnt:
-```
-De grootste gemene deler van 28 en 16 is 4
-```
-Voor de invoer `1140` en `900` verschijnt:
-```
-De grootste gemene deler van 1140 en 900 is 60
+>> ggd( 28, 16 )
+4
+>> ggd( 16, 28 )
+4
+>> ggd( 1140, 900 )
+60
 ```

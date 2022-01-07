@@ -2,7 +2,7 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
-    "pythia_judge": "output"
+    "pythia_judge": "doctest"
   },
   "description": {
     "names": {
