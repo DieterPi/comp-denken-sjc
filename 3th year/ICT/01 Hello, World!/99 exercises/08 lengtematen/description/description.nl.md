@@ -1,4 +1,4 @@
-Het [Imperial (Standard) System](https://nl.wikipedia.org/wiki/Brits-Amerikaans_maatsysteem) is een **niet**-standaard systeem van maten en gewichten.
+Het <a href='https://nl.wikipedia.org/wiki/Brits-Amerikaans_maatsysteem' target='_blanc'>Imperial (Standard) System</a> is een **niet**-standaard systeem van maten en gewichten.
 
 Het verband tussen de lengtematen *inch*, *foot* en *yard* is als volgt.
 
