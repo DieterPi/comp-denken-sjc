@@ -5,16 +5,16 @@ De aarde draait één keer rond de zon in 365 dagen, 5 uur, 59 minuten en 16 sec
 Een schrikkeljaar komt voor op een jaartal dat deelbaar is door 4, maar niet door 100. Tenzij het jaartal dan weer deelbaar is door 400.
 
 ## Opgave
-Schrijf een functie `schrikkeljaar` met een jaartal als parameter en die op het scherm afdrukt of dit een schrikkeljaar is.
+Schrijf een functie `schrikkeljaar()` met een jaartal als parameter en die op het scherm afdrukt of dit een schrikkeljaar is.
 
 #### Voorbeeld
 ```
->>> schrikkeljaar(2022)
+>>> schrikkeljaar( 2022 )
 Geen schrikkeljaar
->>> schrikkeljaar(2020)
+>>> schrikkeljaar( 2020 )
 Een schrikkeljaar
->>> schrikkeljaar(1900)
+>>> schrikkeljaar( 1900 )
 Geen schrikkeljaar
->>> schrikkeljaar(2000)
+>>> schrikkeljaar( 2000 )
 Een schrikkeljaar
 ```

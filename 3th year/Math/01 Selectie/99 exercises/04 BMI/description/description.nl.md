@@ -21,7 +21,7 @@ Onderstaande tabel geeft een manier om een BMI-waarde te interpreteren:
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `bmi` die de massa (in kg) en de lengte (in cm) als parameters heeft, vervolgens het bmi berekent en een beschrijving afdrukt.
+Schrijf een functie `bmi()` die de massa (in kg) en de lengte (in cm) als parameters heeft, vervolgens het bmi berekent en een beschrijving afdrukt.
 
 #### Voorbeeld
 ```
