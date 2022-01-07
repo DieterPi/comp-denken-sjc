@@ -1,0 +1,40 @@
+>>> ct_treshold(15) # doctest: +STDOUT
+sterk positief
+>>> ct_treshold(20.2) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(24.2) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(21.3) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(34.8) # doctest: +STDOUT
+zwak positief
+>>> ct_treshold(30.3) # doctest: +STDOUT
+zwak positief
+>>> ct_treshold(29.4) # doctest: +STDOUT
+zwak positief
+>>> ct_treshold(16.9) # doctest: +STDOUT
+sterk positief
+>>> ct_treshold(33.1) # doctest: +STDOUT
+zwak positief
+>>> ct_treshold(25.7) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(16.9) # doctest: +STDOUT
+sterk positief
+>>> ct_treshold(15.5) # doctest: +STDOUT
+sterk positief
+>>> ct_treshold(17.0) # doctest: +STDOUT
+sterk positief
+>>> ct_treshold(21.4) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(11.2) # doctest: +STDOUT
+zeer sterk positief (superverspreider)
+>>> ct_treshold(23.0) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(5.7) # doctest: +STDOUT
+zeer sterk positief (superverspreider)
+>>> ct_treshold(23.3) # doctest: +STDOUT
+gewoon positief
+>>> ct_treshold(5.8) # doctest: +STDOUT
+zeer sterk positief (superverspreider)
+>>> ct_treshold(23.6) # doctest: +STDOUT
+gewoon positief
