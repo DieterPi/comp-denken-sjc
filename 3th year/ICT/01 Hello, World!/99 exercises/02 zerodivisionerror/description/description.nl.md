@@ -1,4 +1,4 @@
-Als een stukje code een fout bevat, dan noemt men dit een [bug](https://nl.wikipedia.org/wiki/Bug_(technologie)). Hieronder vind je een afbeelding van de *eerste* computerbug die ontdekt werd als storing bij het uitvoeren van een computerprogramma door [Grace Hopper](https://nl.wikipedia.org/wiki/Grace_Hopper).
+Als een stukje code een fout bevat, dan noemt men dit een <a href='https://nl.wikipedia.org/wiki/Bug_(technologie)' target='_blanc'>bug</a>. Hieronder vind je een afbeelding van de *eerste* computerbug die ontdekt werd als storing bij het uitvoeren van een computerprogramma door <a href='https://nl.wikipedia.org/wiki/Grace_Hopper' target='_blanc'>Grace Hopper</a>.
 
 ![bug](media/bug.jpg "bug"){:data-caption="De 'eerste' computerbug" width="30%"}
 
