@@ -74,13 +74,13 @@ print( valafstand( 4, 1.625) > 88 )
 Heel belangrijk is het verschil tussen `print` en `return`. Beschouw de volgende stukjes code:
 ```python
 def plus3( a ):
-    print( a+3 )
+    print( a + 3 )
 plus3( 5 )
 ```
 
 ```python
 def plus3( a ):
-    return a+3 
+    return a + 3 
 print( plus3( 5 ) )
 ```
 Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de functies **fundamenteel** verschillend!
