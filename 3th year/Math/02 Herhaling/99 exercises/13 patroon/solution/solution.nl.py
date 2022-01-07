@@ -3,9 +3,9 @@
 
 def schaakbord( r, k ):
     teller = 0
-    for i in range(r):
+    for _ in range(r):
         rij = ''
-        for j in range(k):
+        for _ in range(k):
             if teller % 2 == 0:
                 rij += ' x '
             else:
