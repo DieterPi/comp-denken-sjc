@@ -34,7 +34,7 @@ print( 'Punt A heeft x-coördinaat', A[0], 'en y-coördinaat', A[1] )
 ```
 
 ## Opgave
-De afstand $$d$$ van de oorsprong tot een punt $$P(x,y)$$ wordt gegeven door de volgende formule:
+De (Euclidische) afstand $$d$$ van de oorsprong tot een punt $$P(x,y)$$ wordt gegeven door de volgende formule:
 
 $$
     d = \sqrt{x^2+y^2}
@@ -43,4 +43,7 @@ $$
 Schrijf een functie `afstand( coordinaat )` die de afstand van een bepaalde coördinaat tot de oorsprong berekent en deze waarde **retourneert**. Rond af op 2 cijfers.
 
 #### Voorbeeld
-De afstand van `(3,4)` tot de oorsprong is `5`.
+```
+>>> afstand( (3,4) )
+5
+```

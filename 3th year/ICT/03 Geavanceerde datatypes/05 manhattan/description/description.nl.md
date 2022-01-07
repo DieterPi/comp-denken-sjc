@@ -13,7 +13,10 @@ Deze afstandsmaat is geïnspireerd op de route die een taxi aflegt in Manhattan.
 Schrijf een functie `manhattan( punt1, punt2 )` die de Manhattan-afstand **retourneert** tussen de twee punten `punt1` en `punt2`. 
 
 #### Voorbeeld
-De Manhattan-afstand van `(3,4)` tot `(-1,9)` is `9`.
+```
+>>> manhattan( (3,4), (-1,9) )
+9
+```
 
 {: .callout.callout-info}
 > #### Tip
