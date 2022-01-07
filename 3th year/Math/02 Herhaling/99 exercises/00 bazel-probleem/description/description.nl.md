@@ -21,10 +21,10 @@ Bepaal een benadering voor het getal π met bovenstaande uitdrukking. Vul hiervo
 #### Voorbeelden
 Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend opdat de benadering in de buurt komt, gelukkig kan een computer dit vrij vlot.
 ```
->>> bazel_benadering(10)
+>>> bazel_benadering( 10 )
 3.049361636
->>> bazel_benadering(100)
+>>> bazel_benadering( 100 )
 3.132076532
->>> bazel_benadering(10000)
+>>> bazel_benadering( 10000 )
 3.141497164
 ```

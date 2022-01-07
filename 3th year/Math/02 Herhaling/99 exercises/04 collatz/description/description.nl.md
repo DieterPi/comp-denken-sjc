@@ -20,9 +20,9 @@ Daarnaast schrijf je een functie `collatz()` die gegeven een startwaarde de voll
 >>> volgend_collatz_getal( 17 )
 52
 
->>> collatz(8)
+>>> collatz( 8 )
 [8, 4, 2, 1]
->>> collatz(17)
+>>> collatz( 17 )
 [17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
 ```
 {: .callout.callout-info}
