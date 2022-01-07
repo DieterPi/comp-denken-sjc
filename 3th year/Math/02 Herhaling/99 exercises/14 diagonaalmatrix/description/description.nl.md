@@ -1,10 +1,10 @@
 ## Opgave
 Schrijf een functie `diagonaal()` die gegeven een parameter `n` (een natuurlijk getal < 10) een vierkant afdrukt waarbij:
 
-    Op de hoofddiagonaal `0` staat.
-    Op de twee naburige diagonalen `1` staat.
-    Op de daaropvolgende diagonalen `2` staat.
-    enz... 
+- Op de hoofddiagonaal `0` staat.
+- Op de twee naburige diagonalen `1` staat.
+- Op de daaropvolgende diagonalen `2` staat.
+- enz... 
 
 #### Voorbeeld
 ```
