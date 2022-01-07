@@ -1,7 +1,7 @@
 ## Opgave
 Vaak wordt aan een overschrijving een gestructureerde mededeling (ogm) toegevoegd. Met behulp van deze mededeling kan de ontvangende partij gemakkelijk controleren of het correcte bedrag werd overgeschreven. De mededeling vind je onderaan een overschrijvingsformulier:
 
-![ogm](media/ogm.jpg "variabele"){:data-caption="Een overschrijvingsformulier met onderaan de gestructureerde mededeling" width="45%"}
+![ogm](media/ogm.jpg "ogm"){:data-caption="Een overschrijvingsformulier met onderaan de gestructureerde mededeling" width="45%"}
 
 Deze bestaat steeds uit drie getallen van achtereenvolgens 3, 4 en 5 cijfers.
 
