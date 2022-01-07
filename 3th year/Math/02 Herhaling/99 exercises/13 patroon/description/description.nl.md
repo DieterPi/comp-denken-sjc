@@ -1,5 +1,5 @@
 ## Opgave
-Schrijf een programma dat een schaakbordpatroon afdrukt. Implementeer een functie `schaakbord()` met 2 parameters `r` en `k`.
+Schrijf een programma dat een schaakbordpatroon afdrukt. Implementeer een functie `schaakbord( r, k)`.
 
 Hierbij stelt:
     `r `, het aantal rijen en
