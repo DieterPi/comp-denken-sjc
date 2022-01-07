@@ -29,9 +29,9 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(38,), (51,)]
+cases = [(0.574,),]
 while len(cases) < ntests:
-    cases.append( tuple (random.randint(10, 99) for _ in range(1)) )
+    cases.append( tuple (round( random.uniform(0.3, 1.4), 3) for _ in range(1)) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
@@ -57,7 +57,7 @@ for stdin in cases:
     for line in result_lines:
         if not(line.startswith( 'Geef' )):
             print(line)
-            print(line, file=outfile, end='\n')
+            print(line, file=outfile)
 
     # add stdout to output file
     # print(stdout, file=outfile, end='')

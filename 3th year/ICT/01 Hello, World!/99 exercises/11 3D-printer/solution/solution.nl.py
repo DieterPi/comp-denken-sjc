@@ -1,11 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-getal = int( input( 'Geef een getal van 2 cijfers in: ' ) )
+V_ref = float( input( 'Geef de V_ref in: ' ) )
 
-e = getal % 10
-t = int( ( getal - e ) / 10 )
+I = round( V_ref / ( 8 * 0.05 ), 3 )
 
-spiegelbeeld = e * 10 + t
-
-print('\nHet spiegelbeeld van {} is {}'.format( getal, spiegelbeeld ) )
+print('De stroomsterkte is {}'.format( I ) )
