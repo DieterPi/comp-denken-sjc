@@ -3,7 +3,7 @@ Je kunt een lus in een andere lus stoppen. Hoewel dit een eenvoudig concept is, 
 
 Je herinnert je waarschijnlijk nog hoe we in Minecraft een vierkant konden laten bouwen:
 
-![minecraft geneste herhaling](media/vierkant.png "minecraft geneste herhaling"){:data-caption="Een geneste herhaling in Minecraft Education Edition" width="354px"}
+![minecraft geneste herhaling](media/vierkant.png "minecraft geneste herhaling"){:data-caption="Een geneste herhaling in Minecraft Education Edition" width="272px"}
 
 In Python programmeer je een geneste herhaling als volgt:
 
