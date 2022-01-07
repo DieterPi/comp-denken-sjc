@@ -1,4 +1,4 @@
-Een schaakbord is opgebouwd uit 8 x 8 velden, telkens afwisselend van kleur licht (wit) en donker (zwart).
+Een schaakbord is opgebouwd uit 8 x 8 velden, telkens afwisselend van kleur: licht (wit) en donker (zwart).
 
 ![Schaakbord](media/schaakbord.png "Schaakbord"){:data-caption="De velden met coördinaten (1,1) en (2,6) hebben een zwarte kleur." width="35%"}
 
@@ -7,7 +7,7 @@ Elk veld wordt aangeduid door een combinatie van kolomnummer (k) en rijnummer (r
 In de figuur zie je de coördinaten (*tupels*) van twee velden. Het veld (1,1) helemaal onderaan links is een donker veld, het veld met coördinaat (2,6) is ook een donker veld.
 
 ## Opgave
-Schrijf een functie `kleur` die een coördinaat als parameter heeft (een *tupel*), en vervolgens afdrukt of dit een licht of donker veld is.
+Schrijf een functie `kleur()` die een coördinaat als parameter heeft (een *tupel*), en vervolgens afdrukt of dit een licht of donker veld is.
 
 #### Voorbeeld
 ```
