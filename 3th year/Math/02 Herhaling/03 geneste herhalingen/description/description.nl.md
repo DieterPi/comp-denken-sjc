@@ -1,7 +1,7 @@
 ## Geneste herhalingen
 Je kunt een lus in een andere lus stoppen. Hoewel dit een eenvoudig concept is, is dit vaak moeilijker om te bevatten.
 
-Je herinnert je waarschijnlijk nog hoe we in Minecraft een vierkant konden laten bouwen:
+Hopelijk herinner je je nog hoe we in Minecraft een vierkant konden laten bouwen:
 
 ![minecraft geneste herhaling](media/vierkant.png "minecraft geneste herhaling"){:data-caption="Een geneste herhaling in Minecraft Education Edition" width="272px"}
 
