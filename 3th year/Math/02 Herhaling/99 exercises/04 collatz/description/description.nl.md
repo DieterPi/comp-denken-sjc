@@ -1,4 +1,4 @@
-Het [vermoeden van Collatz](https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz) is een vermoeden (dus nog **niet** bewezen) uit 1937 dat zegt dat een bepaalde *iteratieve* methode steeds bij 1 eindigt. De methode verloopt als volgt:
+Het <a href='https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz' target='_blanc'>vermoeden van Collatz</a> is een vermoeden (dus nog **niet** bewezen) uit 1937 dat zegt dat een bepaalde *iteratieve* methode steeds bij 1 eindigt. De methode verloopt als volgt:
 
 Neem een willeurig geheel getal $$n$$ als startwaarde:
 

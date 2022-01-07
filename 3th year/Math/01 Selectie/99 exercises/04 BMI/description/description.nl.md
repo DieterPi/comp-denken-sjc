@@ -1,4 +1,4 @@
-De body-mass index (BMI) of Quetelet index is een statistiek die de massa van een persoon vergelijkt ten opzichte van zijn of haar lengte. De index werd genoemd naar de Gentenaar [Adolphe Quetelet](https://nl.wikipedia.org/wiki/Adolphe_Quetelet) (1796-1874). 
+De body-mass index (BMI) of Quetelet index is een statistiek die de massa van een persoon vergelijkt ten opzichte van zijn of haar lengte. De index werd genoemd naar de Gentenaar <a href='https://nl.wikipedia.org/wiki/Adolphe_Quetelet' target='_blanc'>Adolphe Quetelet</a> (1796-1874). 
 
 De waarde van de index wordt bepaald als de massa van de persoon (in kilogram) gedeeld door het kwadraat van zijn of haar lengte (in meter):
 

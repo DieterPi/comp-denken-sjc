@@ -1,4 +1,4 @@
-De zeef van **Eratosthenes** is een methode om alle priemgetallen te vinden tussen 1 en een gegeven getal. [Eratosthenes](https://nl.wikipedia.org/wiki/Eratosthenes) was een Griekse wiskundige werkzaam aan de bibliotheek van Alexandrië.
+De zeef van **Eratosthenes** is een methode om alle priemgetallen te vinden tussen 1 en een gegeven getal. <a href='https://nl.wikipedia.org/wiki/Eratosthenes' target='_blanc'>Eratosthenes</a> was een Griekse wiskundige werkzaam aan de bibliotheek van Alexandrië.
 
 De methode werkt als volgt. Je begint met een **lijst** te maken die bestaat uit de getallen 1 tot en met een zeker "hoogste getal." 
 

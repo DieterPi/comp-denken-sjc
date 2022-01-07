@@ -1,4 +1,4 @@
-In 1741 lostte [Euler](https://nl.wikipedia.org/wiki/Leonhard_Euler) het beroemde [Bazel-probleem](https://nl.wikipedia.org/wiki/Bazel-probleem) op. 
+In 1741 lostte <a href='https://nl.wikipedia.org/wiki/Leonhard_Euler' target='_blanc'>Euler</a> het beroemde <a href='https://nl.wikipedia.org/wiki/Bazel-probleem' target='_blanc'>Bazel-probleem</a> op. 
 
 ![Euler](media/Euler.jpg "Euler"){:data-caption="Je nieuwe held, Leonhard Euler" width="20%"}
 
