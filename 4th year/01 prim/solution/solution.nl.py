@@ -25,14 +25,14 @@ def MST_prim( V, E ):
         min_val = math.inf
         for vertex in vertex_connected:
             for edge in E:
-                if is_connected( vertex, edge ) :
+                if is_connected( vertex, edge ):
                     if other_vertex( edge, vertex ) in vertex_unconnected :
                         # this is a vertex connected to the initial vertex
                         # now checking if it's minimal
                         if edge[2] < min_val: 
                             min_val = edge[2]
                             min_edge = edge
-                            if(edge[0] in vertex_connected):
+                            if edge[0] in vertex_connected:
                                 min_vertex = edge[1]
                             else:
                                 min_vertex = edge[0]
