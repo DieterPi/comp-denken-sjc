@@ -45,3 +45,7 @@ def MST_prim( V, E ):
         vertex_unconnected.remove(min_vertex)
     
     return MST
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
