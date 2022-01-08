@@ -1,5 +1,7 @@
 Het algoritme van **Prim**.
 
+<div style="text-align: right">****</div>
+
 ## Opgave
 
 Schrijf een functie `MST_prim( V, E )` waarbij `V` een lijst met toppen voorstelt en `E` een lijst opgesteld uit tupels van bogen en hun gewicht.
