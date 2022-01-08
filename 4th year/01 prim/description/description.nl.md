@@ -1,6 +1,6 @@
-Het algoritme van **Prim**.
+<div style="text-align: right"><i class="mdi mdi-18 mdi-star"></i><i class="mdi mdi-18 mdi-star"></i><i class="mdi mdi-18 mdi-star"></i><i class="mdi mdi-18 mdi-star-outline"></i></div>
 
-<div style="text-align: right"><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i></div>
+Het algoritme van **Prim**.
 
 ## Opgave
 
