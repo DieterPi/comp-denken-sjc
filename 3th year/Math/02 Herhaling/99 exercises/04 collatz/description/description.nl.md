@@ -25,6 +25,7 @@ Daarnaast schrijf je een functie `collatz()` die gegeven een startwaarde de voll
 >>> collatz( 17 )
 [17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
 ```
+
 {: .callout.callout-info}
 > #### Tip
 > Gebruik de gehele deling `//`.
