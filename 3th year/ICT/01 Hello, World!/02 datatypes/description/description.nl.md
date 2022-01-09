@@ -16,7 +16,7 @@ Je merkt dat `x` van het type `int` is.
 
 {: .callout.callout-danger}
 > #### Opgelet
-> De naam van een variabele mag geen spaties of eigenaarde karakters bevatten. De naam `geheel getal` is dus niet geldig voor een variabele, wel toegelaten is `geheel_getal`.
+> De naam van een variabele mag geen spaties of eigenaardige karakters bevatten. De naam `geheel getal` is dus niet geldig voor een variabele, wel toegelaten is `geheel_getal`.
 
 ### Kommagetallen
 Kommagetallen, of **floating-point numbers**, zorgen voor een computer al meteen een probleem. Een computer kan moeilijk overweg met getallen die een *onbegrensde decimale vorm* hebben. Probeer het volgende stukje code uit, merk hierbij op dat komma's in Python met behulp van een **punt** geschreven worden.
@@ -82,7 +82,7 @@ print( x )
 print( type(x) )
 ```
 ## Commentaar
-De code die je zal schrijven zal na een eindje wat langer zijn. Het is dan ook aan te raden deze van commentaar te voorzien. De meeste eenvoudige manier om commentaar te geven is door gebruiken te maken van `#`.
+De code die je op het einde van de cursus zal schrijven zal steeds langer worden. Het is dan ook aan te raden deze van commentaar te voorzien. De meeste eenvoudige manier om commentaar te geven is door gebruiken te maken van `#`.
 ```python
 # Een tekst op het scherm weergeven.
 print( 'De naam Python komt van de komedie Monty Python.' )
