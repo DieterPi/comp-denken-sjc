@@ -22,7 +22,7 @@ Gebruik bij het programmeren steeds **variabelen**. Stel dat je de oppervlakte v
 ```python
 zijde = 3
 oppervlakte_kubus = 6 * zijde * zijde
-print( oppervlakte_vierkant)
+print( oppervlakte_kubus )
 ```
 Door in de *berekeningen* de variabele `zijde` te gebruiken, kan het programma eenvoudig aangepast worden op de oppervlakte van een kubus met zijde 5 te bepalen. Het volstaat dan om de eerste regel aan te passen naar `zijde = 5`
 
