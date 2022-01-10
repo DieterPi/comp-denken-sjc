@@ -2,7 +2,7 @@
 Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we met gegevens binnen Python, dan zal Python zelf bepalen welke soort gegevens het zijn, bijvoorbeeld een getal of een stukje tekst. Toch is het zeer nuttig om enkele **datatypes** beter te leren kennen.
 
 ### Gehele getallen
-Het belangrijkste datatype zijn ongetwijfeld de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of *variable* is. In het onderstaande codevoorbeeld wordt het getal 5 opgeslagen in de variabele `x`. In Minecraft zou je dit als volgt doen:
+Het belangrijkste datatype zijn ongetwijfeld de gehele getallen, in het Engels noemt men dit **integers**. Met behulp van de *functie* `type()` kan je gemakkelijk achterhalen wat het type van een gegeven of *variabele* is. In het onderstaande codevoorbeeld wordt het getal 5 opgeslagen in de variabele `x`. In Minecraft zou je dit als volgt doen:
 
 ![variabele](media/minecraft_new_variable.png "variabele"){:data-caption="Een variabele definiëren in Minecraft Education Edition" width="139px"}
 
@@ -17,6 +17,14 @@ Je merkt dat `x` van het type `int` is.
 {: .callout.callout-danger}
 > #### Opgelet
 > De naam van een variabele mag geen spaties of eigenaardige karakters bevatten. De naam `geheel getal` is dus niet geldig voor een variabele, wel toegelaten is `geheel_getal`.
+
+Gebruik bij het programmeren steeds **variabelen**. Stel dat je de oppervlakte van een kubus met zijde 3 moet berekenen. Doe dan als volgt:
+```python
+zijde = 3
+oppervlakte_kubus = 6 * zijde * zijde
+print( oppervlakte_vierkant)
+```
+Door in de *berekeningen* de variabele `zijde` te gebruiken, kan het programma eenvoudig aangepast worden op de oppervlakte van een kubus met zijde 5 te bepalen. Het volstaat dan om de eerste regel aan te passen naar `zijde = 5`
 
 ### Kommagetallen
 Kommagetallen, of **floating-point numbers**, zorgen voor een computer al meteen een probleem. Een computer kan moeilijk overweg met getallen die een *onbegrensde decimale vorm* hebben. Probeer het volgende stukje code uit, merk hierbij op dat komma's in Python met behulp van een **punt** geschreven worden.
