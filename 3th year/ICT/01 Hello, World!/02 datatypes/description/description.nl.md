@@ -80,6 +80,13 @@ huisnummer = '7'
 print( type( huisnummer ) )
 ```
 
+Let op dat je variabelen niet tussen aanhalingstekens plaatst. Onderstaande code maakt het verschil duidelijk.
+```python
+x = 5
+print( x )
+print( 'x' )
+```
+
 ## Datatypes casten
 
 Het kan nuttig zijn om gegevens naar een ander datatype om te zetten. Daarvoor bestaan de *functies* `int()`, `float()` en `str()`. Beschouw bijvoorbeeld:
