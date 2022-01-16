@@ -1,3 +1,7 @@
+<!---
+@TODO opsplitsing variabelen en datatypes
+--->
+
 ## Soorten getallen en tekst
 Een computer kan omgaan met heel wat verschillende soorten gegevens. Werken we met gegevens binnen Python, dan zal Python zelf bepalen welke soort gegevens het zijn, bijvoorbeeld een getal of een stukje tekst. Toch is het zeer nuttig om enkele **datatypes** beter te leren kennen.
 
