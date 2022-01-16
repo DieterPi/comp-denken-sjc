@@ -3,22 +3,7 @@ Functies vormen een essentieel onderdeel van het programmeren. Je hebt in de vor
 
 Later zullen we zelf eigen functies gaan samenstellen, maar eerst zal het handig zijn om kennis te maken met enkele functies die Python reeds voor ons klaar heeft.
 
-### Functies en argumenten
-De functie `print()` accepteert meerdere **argumenten**, probeer bijvoorbeeld de volgende code uit:
-
-```python
-pi = 3.14159
-print( 'Het getal pi is afgerond op 5 cijfers:', pi )
-```
-
-De functie `type()` aanvaardt slechts één argument, het argument waarvan je het datatype wil bepalen. Probeer bijvoorbeeld eens de volgende code uit:
-```python
-x = 5
-y = 1.5
-print( type( x, y ) )
-```
-
-### Andere basisfuncties
+### Handige basisfuncties
 Een zeer handige functie is `input()`. Met behulp van die functie kan je de gebruiker om een invoer vragen. Test het meteen eens uit via:
 ```python
 x = float(input( 'Geef een getal in: ' ))
