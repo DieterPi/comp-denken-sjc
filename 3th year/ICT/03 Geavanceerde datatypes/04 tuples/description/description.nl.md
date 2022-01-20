@@ -10,7 +10,7 @@ print( len( tupel ) )
 Hier zie je een lijst met drie elementen, telkens van het datatype `int`. Je kan opnieuw de elementen apart raadplegen met behulp van de rangnummers.
 ```python
 tupel = ( -5, 6, 8 )
-print( lijst[1] )
+print( tupel[1] )
 ```
 
 ### Lijsten of tupels?
