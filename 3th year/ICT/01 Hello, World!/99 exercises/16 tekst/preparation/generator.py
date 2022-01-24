@@ -22,16 +22,19 @@ settings = f'''
 tab name: {tab_name}
 python input without prompt: true
 block count: multi
-input block size: 3
+input block size: 1
 output block size: ends with
 comparison: exact match
 '''
 
 # generate test data
-ntests= 30
-cases = [(3,0,0),(1,2,6)]
-while len(cases) < ntests:
-    cases.append( ( random.randint(0,12), random.randint(0,60), random.randint(0,60) ) )
+cases = [('Hello world',),
+         ('Dit is een oefening',),
+         ('Ik wil koffie',),
+         ('Wat een lekker weer, niet?',),
+         ('Goeiemorgen',),
+         ('Eén, twee, drie, vier, vijf',)]
+
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')

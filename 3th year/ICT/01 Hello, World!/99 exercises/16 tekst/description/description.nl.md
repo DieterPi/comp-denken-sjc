@@ -24,13 +24,13 @@ print( tekst[5:9] )
 print( tekst[:-5] )
 ```
 
-Men noemt het getal tussen de vierkante haakjes de **index** van de karakters. Het eerste karakter heeft index 0, je haalt dit karakter op via `tekst[0]`.
+Men noemt het getal tussen de vierkante haakjes de **index** van de karakters. Het eerste karakter heeft index 0, je haalt dit karakter op via `tekst[0]`. Wat haalt een negatieve index op?
 
 Je kan Python binnen tekst laten zoeken met de `find()` functie. De output van de functie is de index van het eerste karakter dat overeenkomt met het gezochte.
 
 ```python
 tekst = 'Hallo'
-print( tekst.find( 'e' ) )
+print( tekst.find( 'a' ) )
 print( tekst.find( 'll' ) )
 print( tekst.find( 'L' ) )
 ```
@@ -41,24 +41,20 @@ Je kan ook de functie `count()` toepassen op een regel tekst.
 ```python
 tekst = 'Abracadabra'
 print( tekst.count( 'a' ) )
-print( tekst.find( 'b' ) )
+print( tekst.count( 'b' ) )
 ```
-
-
 
 ## Opgave
 
-Schrijf een programma dat aan een gebruik een aantal uur $$U$$, minuten $$M$$ en seconden $$S$$ sinds middernacht vraagt (met $$0 \leqslant H \leqslant 12, 0 \leqslant M \leqslant 60$$ en $$0\leqslant S \leqslant 60$$).
-
-Vervolgens berekent het programma de hoek (in **graden**) die de uurwijzer op de klok aangeeft. Rond het resultaat af op 5 cijfers na de komma.
+Schrijf een programma dat een tekstinvoer vraagt van woorden gescheiden door spaties. Schrijf een programma dat bepaalt uit hoeveel woorden het de tekstinvoer bestaat.
 
 #### Voorbeeld
-Na exact 3 uur maakt de uurwijzer een hoek van 90°
+De invoer `Hello world` resulteert in de uitvoer:
 ```
-90.0 graden
+2
 ```
 
-Na 1 uur en 2 minuten en 6 seconden maakt de uurwijzer een hoek van 31.05 graden.
+De invoer `Dit is een oefening` resulteert in:
 ```
-31.05 graden
+4
 ```
