@@ -46,7 +46,7 @@ print( tekst.count( 'b' ) )
 
 ## Opgave
 
-Schrijf een programma dat een tekstinvoer vraagt van woorden gescheiden door spaties. Schrijf een programma dat bepaalt uit hoeveel woorden het de tekstinvoer bestaat.
+Schrijf een programma dat een **tekst**invoer vraagt van woorden gescheiden door spaties. Bepaal nadien uit hoeveel **woorden** de tekstinvoer bestaat.
 
 #### Voorbeeld
 De invoer `Hello world` resulteert in de uitvoer:
