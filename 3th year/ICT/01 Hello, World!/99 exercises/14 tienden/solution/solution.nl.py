@@ -3,4 +3,4 @@
 
 getal = float( input( 'Geef een kommagetal in: ' ) )
 
-print(int( ( getal * 10 ) % 10 ) )
+print('{}'.format( int( ( getal * 10 ) % 10 ) ) )
