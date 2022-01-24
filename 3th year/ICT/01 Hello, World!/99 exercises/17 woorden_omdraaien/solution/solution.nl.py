@@ -5,4 +5,4 @@ tekst = str( input( 'Geef een tekstfragment in: ' ) )
 
 pos = tekst.find( ' ' )
 
-print('\n{}'.format( tekst[ (pos + 1):len( tekst )] + ' ' + tekst[0:pos] ) )
+print('{}'.format( tekst[ (pos + 1):len( tekst )] + ' ' + tekst[0:pos] ) )
