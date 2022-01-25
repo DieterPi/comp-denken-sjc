@@ -28,10 +28,10 @@ comparison: exact match
 '''
 
 # generate test data
-ntests= 50
-cases = [(0,),(100,)]
+ntests= 25
+cases = [(0,),(100,), (15,)]
 while len(cases) < ntests:
-    cases.append( tuple( random.randint(-100, 100) for _ in range(1)) )
+    cases.append( tuple( round(random.uniform(-10, 32),3) for _ in range(1)) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
