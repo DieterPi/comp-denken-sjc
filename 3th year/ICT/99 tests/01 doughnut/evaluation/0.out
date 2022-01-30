@@ -7,9 +7,6 @@ Volume: 8020.205 cm³
 Oppervlakte: 5151.264 cm²
 Volume: 25586.327 cm³
 
-Oppervlakte: 2525.422 cm²
-Volume: 10321.401 cm³
-
 Oppervlakte: 4188.935 cm²
 Volume: 19667.048 cm³
 
@@ -28,14 +25,8 @@ Volume: 57.532 cm³
 Oppervlakte: 229.208 cm²
 Volume: 63.491 cm³
 
-Oppervlakte: 2017.901 cm²
-Volume: 7541.905 cm³
-
 Oppervlakte: 2756.526 cm²
 Volume: 9493.477 cm³
-
-Oppervlakte: 1060.796 cm²
-Volume: 3422.659 cm³
 
 Oppervlakte: 1455.991 cm²
 Volume: 2427.138 cm³
@@ -57,6 +48,15 @@ Volume: 15801.333 cm³
 
 Oppervlakte: 671.642 cm²
 Volume: 949.365 cm³
+
+Oppervlakte: 1304.435 cm²
+Volume: 1914.911 cm³
+
+Oppervlakte: 1663.915 cm²
+Volume: 3043.3 cm³
+
+Oppervlakte: 4036.107 cm²
+Volume: 14820.584 cm³
 -----------------------------------------
 tab name: Feedback
 python input without prompt: true

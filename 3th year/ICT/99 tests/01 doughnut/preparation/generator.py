@@ -33,7 +33,8 @@ cases = [(3.57,6.21),]
 while len(cases) < ntests:
     r = round( random.uniform(0.3, 10), 3)
     R = round( random.uniform(3.1, 15), 3)
-    cases.append( (r,R) )
+    if( r < R ):
+        cases.append( (r,R) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
