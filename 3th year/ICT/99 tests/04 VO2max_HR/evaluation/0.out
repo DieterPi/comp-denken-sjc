@@ -1,0 +1,47 @@
+VO2max: 46.1
+
+VO2max: 26.2
+
+VO2max: 16.3
+
+VO2max: 16.6
+
+VO2max: 21.4
+
+VO2max: 17.9
+
+VO2max: 15.8
+
+VO2max: 22.2
+
+VO2max: 16.1
+
+VO2max: 27.4
+
+VO2max: 15.7
+
+VO2max: 16.2
+
+VO2max: 15.7
+
+VO2max: 15.3
+
+VO2max: 24.1
+
+VO2max: 25.9
+
+VO2max: 23.0
+
+VO2max: 15.6
+
+VO2max: 28.7
+
+VO2max: 24.9
+
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 2
+output block size: ends with
+comparison: exact match
