@@ -6,7 +6,7 @@ $$
 
 Hierbij wordt de Beaufort windsnelheid steeds afgerond op **eenheden** nauwkeurig. 
 
-![beaufort](media/beaufort.jpg "Een windsok"){:data-caption="Een windsok" width="30%"}
+![beaufort](media/beaufort.jpg "Een windsok"){:data-caption="Een windsok" width="40%"}
 
 ## Opgave
 Schrijf een programma dat de windsnelheid in $$\dfrac{\text{m}}{\text{s}}$$ vraagt en vervolgens de Beaufort windsnelheid uitrekent.
