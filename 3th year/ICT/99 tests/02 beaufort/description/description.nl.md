@@ -1,4 +1,5 @@
 Windkracht wordt uitgedrukt in de schaal van Beaufort. Oorspronkelijk telde de schaal 13 waarden, maar sinds 1946  werd een nieuwe schaal ontwikkeld die 17 waardes telt. Men berekent de Beaufort windsnelheid $$B$$ via de volgende formule:
+
 $$
     B = \left(\dfrac{v}{0.836}\right)^\frac{3}{2}
 $$
@@ -8,7 +9,7 @@ Hierbij wordt de Beaufort windsnelheid steeds afgerond op **eenheden** nauwkeuri
 ![beaufort](media/beaufort.jpg "Een windsok"){:data-caption="Een windsok" width="30%"}
 
 ## Opgave
-Schrijf een programma dat de windsnelheid in $$\dfrac{\text{m}}{\text{s}}$$ uitrekent en vervolgens de Beaufort windsnelheid berekent.
+Schrijf een programma dat de windsnelheid in $$\dfrac{\text{m}}{\text{s}}$$ vraagt en vervolgens de Beaufort windsnelheid uitrekent.
 
 #### Voorbeeld
 Een windsterkte van $$1.2 \dfrac{\text{m}}{\text{s}}$$ leidt tot:
