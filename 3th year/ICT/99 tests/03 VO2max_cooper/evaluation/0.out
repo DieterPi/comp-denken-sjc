@@ -1,5 +1,7 @@
 VO2max: 43.2
 
+VO2max: 33.2
+
 VO2max: 47.2
 
 VO2max: 29.0
@@ -35,8 +37,6 @@ VO2max: 25.1
 VO2max: 28.9
 
 VO2max: 38.4
-
-VO2max: 51.4
 -----------------------------------------
 tab name: Feedback
 python input without prompt: true

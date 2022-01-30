@@ -29,7 +29,7 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(2450,),]
+cases = [(2450,),(2000,)]
 while len(cases) < ntests:
     d12 = random.randint(0,3600)
     cases.append( (d12, ) )

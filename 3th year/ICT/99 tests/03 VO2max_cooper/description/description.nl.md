@@ -18,5 +18,10 @@ Schrijf een programma dat de afstand $$d_{12}$$ in meter vraagt en vervolgens de
 #### Voorbeeld
 Bij invoer van 2450 m verschijnt er:
 ```
-VO2max: 
+VO2max: 43.2
+```
+
+Indien men slechts 2000 m kan afleggen in 12 minuten verschijnt er:
+```
+VO2max: 33.2
 ```
