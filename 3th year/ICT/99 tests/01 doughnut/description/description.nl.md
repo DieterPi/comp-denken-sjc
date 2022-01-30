@@ -3,12 +3,12 @@ Een donut is een driedimensionaal lichaam dat in de wiskunde ook wel een <a href
 Van een torus bepaalt men de oppervlakte en het volume via:
 
 $$
-    A = 4 \cdot \pi^2 \cdot r \cdot R \qquadqquad \text{en}\qquad\qquad V = 2 \cdot \pi^2 \cdot r^2 \cdot R
+    A = 4 \cdot \pi^2 \cdot r \cdot R \qquad\qquad \text{en}\qquad\qquad V = 2 \cdot \pi^2 \cdot r^2 \cdot R
 $$
 
 waarbij $$r$$ de (kleine) straal van de binnenste cirkel en $$R$$ de (grote) straal van de buitenste cirkel voorstelt.
 
-![donut](media/dougnut.jpg "Een donut"){:data-caption="Een donut" width="30%"}
+![donut](media/doughnut.jpg "Een donut"){:data-caption="Een donut" width="30%"}
 
 ## Opgave
 Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waarbij de kleine straal kleiner is dan de grote straal) en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op 3 cijfers na de komma.
