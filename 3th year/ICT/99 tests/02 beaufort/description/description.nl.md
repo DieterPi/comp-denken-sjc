@@ -24,4 +24,4 @@ Een windsterkte van $$30 \dfrac{\text{m}}{\text{s}}$$ leidt tot:
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik de functie `pow()` voor de macht en `int()` om het `11.0` als `11` te schrijven.
+> Gebruik de functie `pow()` voor de macht en `int()` om het kommagetal `11.0` als `11` te schrijven.
