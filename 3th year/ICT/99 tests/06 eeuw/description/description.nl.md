@@ -4,8 +4,8 @@ Het jaar 2000 is dus het eerste jaartal van de 21-ste eeuw en duurt tot en met 2
 
 Volgens deze standaard geldt er dat
 
-- het jaar 1699 tot de 17de eeuw behoort.
-- het jaar 1700 tot de 18de eeuw behoort.
+- het jaar 1699 tot de 17de eeuw behoort,
+- het jaar 1700 tot de 18de eeuw behoort,
 - het jaar 1701 tot de 18de eeuw behoort.
 
 ## Opgave
