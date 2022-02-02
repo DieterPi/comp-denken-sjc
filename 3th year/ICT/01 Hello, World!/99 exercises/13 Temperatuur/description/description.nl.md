@@ -2,7 +2,7 @@
 De gemiddelde jaarlijkse temperatuur in België is ongeveer 10°C. Schrijf een programma dat de huidige temperatuur vraagt en daarna de afwijking ten opzichte van de gemiddelde temperatuur berekent. Rond de afwijking af op 1 cijfer na de komma.
 
 #### Voorbeeld
-Als de huidige temperatuur 4°C is, dan is de wijkt deze temperatuur 6°C af van het jaarlijks gemiddelde. Is de huidige temperatuur 13,5°C, dan wijkt deze temperatuur 3,5°C af van het jaarlijks gemiddelde.
+Als de huidige temperatuur 4°C is, dan wijkt deze temperatuur 6°C af van het jaarlijks gemiddelde. Is de huidige temperatuur 13,5°C, dan wijkt deze temperatuur 3,5°C af van het jaarlijks gemiddelde.
 
 Voor invoer `4` verschijnt dus:
 ```
