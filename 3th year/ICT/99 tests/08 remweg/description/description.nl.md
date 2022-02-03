@@ -10,6 +10,7 @@ Hierbij stelt $$v$$ de **beginsnelheid** in m/s voor en $$a_{\text{rem}}$$ de **
 
 ## Opgave
 Schrijf een programma dat een beginsnelheid vraagt (in **km/u**) en daarna de remvertraging (in m/s²). 
+
 Het programma berekent en toont vervolgens de remweg, afgerond op 3 cijfers na de komma.
 
 #### Voorbeeld
@@ -24,5 +25,5 @@ Remweg: 52.135
 ```
 
 {: .callout.callout-warning}
-> #### Tip
+> #### Opgelet
 > Vergeet niet om de invoer van km/u om te laten rekenen naar m/s!

@@ -8,4 +8,4 @@ v = snelheid / 3.6
 
 remweg = pow( v, 2) / ( 2 * a )
 
-print( '\nRemweg: {}'.format( round( remweg, 3 ) ) )
+print( 'Remweg: {}'.format( round( remweg, 3 ) ) )
