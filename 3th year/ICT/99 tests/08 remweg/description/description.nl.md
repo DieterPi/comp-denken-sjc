@@ -1,6 +1,4 @@
-De **remweg** is de afstand die een voertuig aflegt terwijl er wordt geremd.
-
-Deze afstand $$s_{\text{rem}}$$ wordt berekend via de formule:
+De **remweg** is de afstand die een voertuig aflegt terwijl er wordt geremd. Deze afstand $$s_{\text{rem}}$$ wordt berekend via de formule:
 
 $$
     s_{\text{rem}} = \dfrac{v^2}{2\cdot a_\text{rem}}
@@ -11,7 +9,8 @@ Hierbij stelt $$v$$ de **beginsnelheid** in m/s voor en $$a_{\text{rem}}$$ de **
 ![Car brakes](media/brake.jpg "Een schijfrem achter een autovelg."){:data-caption="Een schijfrem achter een autovelg." width="40%"}
 
 ## Opgave
-Schrijf een programma dat een beginsnelheid vraagt (in **km/u**) en daarna de remvertraging (in m/s²). Het programma berekent de remweg, afgerond op 3 cijfers na de komma.
+Schrijf een programma dat een beginsnelheid vraagt (in **km/u**) en daarna de remvertraging (in m/s²). 
+Het programma berekent en toont vervolgens de remweg, afgerond op 3 cijfers na de komma.
 
 #### Voorbeeld
 De invoer `90` (km/u) en remvertraging `8` m/s² leidt tot uitvoer:
@@ -24,6 +23,6 @@ De invoer `111.5` (km/u) en remvertraging `9.2` m/s² leidt tot uitvoer:
 Remweg: 52.135
 ```
 
-{: .callout.callout-info}
+{: .callout.callout-warning}
 > #### Tip
 > Vergeet niet om de invoer van km/u om te laten rekenen naar m/s!
