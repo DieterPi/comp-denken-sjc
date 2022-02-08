@@ -1,6 +1,8 @@
 ## Opgave
 Schrijf een programma dat een geheel getal aan de gebruiker vraagt en vervolgens het cijfer van de honderdtallen geeft.
 
+![100](media/100.jpg "100"){:data-caption="Het getal 100" width="40%"}
+
 #### Voorbeeld
 De invoer `893` levert als uitvoer
 ```
