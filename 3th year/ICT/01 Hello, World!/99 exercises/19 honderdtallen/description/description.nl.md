@@ -1,5 +1,5 @@
 ## Opgave
-Schrijf een programma dat een geheel getal aan de gebruiker bepaalt en vervolgens het cijfer van de honderdtallen geeft.
+Schrijf een programma dat een geheel getal aan de gebruiker vraagt en vervolgens het cijfer van de honderdtallen geeft.
 
 #### Voorbeeld
 De invoer `893` levert als uitvoer
