@@ -1,6 +1,6 @@
 De **VO₂max** of het **maximale zuurstofopnamevermogen** is het maximale volume zuurstofgas dat het menselijk lichaam per tijdseenheid kan transporteren en metaboliseren bij lichamelijke inspanning, gemeten op zeeniveau. 
 
-Gemiddeld gesproken hebben mannen een VO₂max tusse 35 en 40 ml/kg/min. Voor vrouwen ligt dit tussen de 27 en 31 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen.
+Gemiddeld gesproken hebben mannen een VO₂max tussen 35 en 40 ml/kg/min. Voor vrouwen ligt dit tussen de 27 en 31 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen.
 
 ![running](media/running.jpg "Een joggende man"){:data-caption="Een joggende man" width="40%"}
 

@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Remweg"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "RCasvtmTSYuUSW-77kiphNAGut7z_ScZuS8ItdBCYRQt5T2kg6CDRVuP4R9_auKf",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

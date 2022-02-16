@@ -1,7 +1,7 @@
-Windkracht wordt uitgedrukt in de schaal van Beaufort. Oorspronkelijk telde de schaal 13 waarden, maar sinds 1946  werd een nieuwe schaal ontwikkeld die 17 waardes telt. Men berekent de Beaufort windsnelheid $$B$$ via de volgende formule:
+Windkracht wordt uitgedrukt in de schaal van Beaufort. Oorspronkelijk telde de schaal 13 waarden, maar sinds 1946  werd een nieuwe schaal ontwikkeld die 17 waarden telt. Men berekent de Beaufort windsnelheid $$B$$ via de volgende formule:
 
 $$
-    B = \left(\dfrac{v}{0.836}\right)^\frac{3}{2}
+    B = \left(\dfrac{v}{0,836}\right)^\dfrac{2}{3}
 $$
 
 Hierbij wordt de Beaufort windsnelheid steeds afgerond op **eenheden** nauwkeurig. 
@@ -24,4 +24,4 @@ Een windsterkte van $$30 \dfrac{\text{m}}{\text{s}}$$ leidt tot:
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik de functie `pow()` voor de macht en `int()` om het `11.0` als `11` te schrijven.
+> Gebruik de functie `pow()` voor de macht en `int()` om het kommagetal `11.0` als `11` te schrijven.
