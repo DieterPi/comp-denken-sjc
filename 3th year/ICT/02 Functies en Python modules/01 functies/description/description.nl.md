@@ -83,6 +83,9 @@ plus3( 5 )
 Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de functies **fundamenteel** verschillend!
 
 ## Opgave
-Beschouw onderstaande code, deze bevat een kleine **fout**. 
+Beschouw onderstaande code, deze bevat enkele kleine **foutjes**. 
 
 Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 en hoogte 1.0 heeft oppervlakte 2.25`.
+
+{: .callout.callout-info}
+> Je ziet binnen de code `str(basis)`. Dit zorgt ervoor dat het getal wat opgeslagen werd in de variabele `basis` omgezet wordt naar het datatype `str`. Enkel tekst kan je immers aan elkaar plakken met behulp van de optelling `+`.
