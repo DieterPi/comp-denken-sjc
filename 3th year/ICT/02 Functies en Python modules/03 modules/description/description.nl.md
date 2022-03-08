@@ -35,12 +35,16 @@ print( random.uniform(0,10) )
 Het *geometrisch* of *meetkundig* gemiddelde $$x_g$$ van 2 getallen $$a$$ en $$b$$ is gedefinieerd als:
 
 $$
-x_g = \sqrt{a\cdot b}
+    x_g = \sqrt{a\cdot b}
 $$
 
 Schrijf een functie `meetkundig_gemiddelde( a, b )` die het meetkundig gemiddelde berekent en deze waarde **retourneert**. Rond af op 2 cijfers.
 
-#### Voorbeeld
-Het meetkundig gemiddelde van 4 en 25 is 10.
-
-10 is op te vatten als een gemiddelde omdat $$4\cdot 2,5 = 10$$ en $$10\cdot 2,5 = 25$$.
+#### Voorbeelden
+```
+>>> meetkundig_gemiddelde( 4, 25 )
+10.0
+>>> meetkundig_gemiddelde( 165,114 )
+137.15
+```
+10 is op te vatten als een *gemiddelde* van 4 en 25 omdat $$4\cdot 2,5 = 10$$ en $$10\cdot 2,5 = 25$$.
