@@ -3,7 +3,7 @@ Een palindroomgetal is een getal dat van links naar rechts, of van rechts naar l
 
 ![palindroomgetal](media/404.jpg "palindroomgetal"){:data-caption="404 is een palindroomgetal." width="30%"}
 
-Schrijf een functie `palindroom( a )` dat een getal van 3 cijfers als parameter heeft en hiermee vervolgens een palindroomgetal van 6 cijfers maakt. De functie **retourneert** dat palindroomgetal.
+Schrijf een functie `palindroom( getal )` dat een getal van 3 cijfers als parameter heeft en hiermee vervolgens een palindroomgetal van 6 cijfers maakt. De functie **retourneert** dat palindroomgetal.
 
 #### Voorbeelden
 ```
