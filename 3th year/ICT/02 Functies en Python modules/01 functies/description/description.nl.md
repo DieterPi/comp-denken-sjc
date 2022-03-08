@@ -88,4 +88,4 @@ Beschouw onderstaande code, deze bevat enkele kleine **foutjes**.
 Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 en hoogte 1.0 heeft oppervlakte 2.25`.
 
 {: .callout.callout-info}
-> Je ziet binnen de code `str(basis)`. Dit zorgt ervoor dat het getal wat opgeslagen werd in de variabele `basis` omgezet wordt naar het datatype `str`. Enkel tekst kan je immers aan elkaar plakken met behulp van de optelling `+`.
+> Je ziet binnen de code `str(basis)`. Dit zorgt ervoor dat het getal wat opgeslagen werd in de variabele `basis` omgezet wordt naar het datatype `str`. Enkel tekst kan je immers aan *elkaar plakken* met behulp van de optelling `+`.
