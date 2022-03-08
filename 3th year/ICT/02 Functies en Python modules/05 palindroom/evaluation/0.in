@@ -1,0 +1,60 @@
+>>> palindroom( 315 )
+315513
+
+>>> palindroom( 202 )
+202202
+
+>>> palindroom( 756 )
+756657
+
+>>> palindroom( 552 )
+552255
+
+>>> palindroom( 655 )
+655556
+
+>>> palindroom( 826 )
+826628
+
+>>> palindroom( 963 )
+963369
+
+>>> palindroom( 931 )
+931139
+
+>>> palindroom( 716 )
+716617
+
+>>> palindroom( 506 )
+506605
+
+>>> palindroom( 411 )
+411114
+
+>>> palindroom( 805 )
+805508
+
+>>> palindroom( 577 )
+577775
+
+>>> palindroom( 506 )
+506605
+
+>>> palindroom( 647 )
+647746
+
+>>> palindroom( 459 )
+459954
+
+>>> palindroom( 916 )
+916619
+
+>>> palindroom( 509 )
+509905
+
+>>> palindroom( 551 )
+551155
+
+>>> palindroom( 658 )
+658856
+
