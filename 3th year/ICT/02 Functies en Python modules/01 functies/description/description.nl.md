@@ -19,16 +19,16 @@ def <functienaam>( <parameter_lijst>) :
 > #### Opgelet
 > Zeer belangrijk in het aanmaken van een functie is de **indentatie**. Je merkt dat de acties in de functie naar rechts werden *opgeschoven* of *geïndenteerd*. Dat doe je gemakkelijk met behulp van de **tab** toets.
 
-Hieronder zie je een voorbeeld van een functie. Je merkt meteen op dat dit veel gemakkelijker leest dan de code `print( 'Hallo', naam, '!')` 4 keer te herhalen. Niet enkel leest het eenvoudiger, maar indien de tekst zou willen wijzigen naar `'Goeiedag', naam,'!'`, dan hoef je dit maar op één plaats te wijzigen.
+Hieronder zie je een voorbeeld van een functie. Deze functie bevat één parameter, namelijk `naam`. Door gebruik te maken van een functie wordt de code **dynamischer**. Je hoeft maar op één plaats iets aan te passen zodat er verschijnt `Goeiemorgen Jan !`. Wat wijzig je hiervoor?
 
 ```python
-def hallo( naam ):
-    print( 'Hallo', naam, '!')
+def begroeting( naam ):
+    return 'Hallo ' + naam + ' !'
 
-hallo( 'Jan' )
-hallo( 'Piet' )
-hallo( 'Joris' )
-hallo( 'Korneel' )
+print( begroeting( 'Jan' ) ) 
+print( begroeting( 'Piet' ) )
+print( begroeting( 'Joris' ) )
+print( begroeting( 'Korneel' ) )
 ```
 
 Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
@@ -36,16 +36,13 @@ Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
 ```python
 def vermenigvuldig( x, y ):
     resultaat = x * y
-    print( resultaat )
+    return resultaat 
 
-vermenigvuldig( 2020 , 5278238 )
-vermenigvuldig( 2, 3 )
+print( vermenigvuldig( 2020 , 5278238 ) )
+print( vermenigvuldig( 2, 3 ) )
 ```
 
-### return
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
-
-In de vorige functies werd de uiteindelijke uitkomst gewoon afgedrukt, maar wat als je ermee zou willen verder rekenen?
 
 Uit de wetten van Newton volgt de volgende formule voor de valafstand $$d$$ van een object gedurende een tijd $$t$$. Op aarde is de zwaarteveldsterkte $$g = 9.81 \frac{\text{m}}{\text{s}^2}$$
 
@@ -70,18 +67,18 @@ print( valafstand( 3, 1.625 ) )
 print( valafstand( 4, 1.625) > 88 )
 ```
 
-#### return of print?
-Heel belangrijk is het verschil tussen `print` en `return`. Beschouw de volgende stukjes code:
-```python
-def plus3( a ):
-    print( a + 3 )
-plus3( 5 )
-```
-
+#### return is niet noodzakelijk
+Je kan ook functies maken zonder `return` maar bijvoorbeeld met `print`. Beschouw de volgende stukjes code:
 ```python
 def plus3( a ):
     return a + 3 
 print( plus3( 5 ) )
+```
+
+```python
+def plus3( a ):
+    print( a + 3 )
+plus3( 5 )
 ```
 Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de functies **fundamenteel** verschillend!
 
