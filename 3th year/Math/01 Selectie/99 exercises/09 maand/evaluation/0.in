@@ -1,0 +1,24 @@
+>>> aantal_dagen( 1 ) # doctest: +STDOUT
+Maand 1 bevat 31 dagen.
+>>> aantal_dagen( 2 ) # doctest: +STDOUT
+Maand 2 bevat 28 dagen.
+>>> aantal_dagen( 3 ) # doctest: +STDOUT
+Maand 3 bevat 31 dagen.
+>>> aantal_dagen( 4 ) # doctest: +STDOUT
+Maand 4 bevat 30 dagen.
+>>> aantal_dagen( 5 ) # doctest: +STDOUT
+Maand 5 bevat 31 dagen.
+>>> aantal_dagen( 6 ) # doctest: +STDOUT
+Maand 6 bevat 30 dagen.
+>>> aantal_dagen( 7 ) # doctest: +STDOUT
+Maand 7 bevat 31 dagen.
+>>> aantal_dagen( 8 ) # doctest: +STDOUT
+Maand 8 bevat 31 dagen.
+>>> aantal_dagen( 9 ) # doctest: +STDOUT
+Maand 9 bevat 30 dagen.
+>>> aantal_dagen( 10 ) # doctest: +STDOUT
+Maand 10 bevat 31 dagen.
+>>> aantal_dagen( 11 ) # doctest: +STDOUT
+Maand 11 bevat 30 dagen.
+>>> aantal_dagen( 12 ) # doctest: +STDOUT
+Maand 12 bevat 31 dagen.
