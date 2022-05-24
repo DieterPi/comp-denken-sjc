@@ -1,30 +1,30 @@
->>> kostprijs( 1 )
+>>> kostprijs( 1 ) # doctest: +STDOUT
 3.29
->>> kostprijs( 2 )
+>>> kostprijs( 2 ) # doctest: +STDOUT
 5.26
->>> kostprijs( 3 )
+>>> kostprijs( 3 ) # doctest: +STDOUT
 6.91
->>> kostprijs( 10 )
+>>> kostprijs( 10 ) # doctest: +STDOUT
 23.03
->>> kostprijs( 18 )
+>>> kostprijs( 18 ) # doctest: +STDOUT
 41.45
->>> kostprijs( 16 )
+>>> kostprijs( 16 ) # doctest: +STDOUT
 36.85
->>> kostprijs( 13 )
+>>> kostprijs( 13 ) # doctest: +STDOUT
 29.94
->>> kostprijs( 16 )
+>>> kostprijs( 16 ) # doctest: +STDOUT
 36.85
->>> kostprijs( 15 )
+>>> kostprijs( 15 ) # doctest: +STDOUT
 34.55
->>> kostprijs( 18 )
+>>> kostprijs( 18 ) # doctest: +STDOUT
 41.45
->>> kostprijs( 4 )
+>>> kostprijs( 4 ) # doctest: +STDOUT
 9.21
->>> kostprijs( 12 )
+>>> kostprijs( 12 ) # doctest: +STDOUT
 27.64
->>> kostprijs( 9 )
+>>> kostprijs( 9 ) # doctest: +STDOUT
 20.73
->>> kostprijs( 8 )
+>>> kostprijs( 8 ) # doctest: +STDOUT
 18.42
->>> kostprijs( 14 )
+>>> kostprijs( 14 ) # doctest: +STDOUT
 32.24
