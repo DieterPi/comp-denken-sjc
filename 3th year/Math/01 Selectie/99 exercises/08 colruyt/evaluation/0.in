@@ -1,0 +1,30 @@
+>>> kostprijs( 1 )
+3.29
+>>> kostprijs( 2 )
+5.26
+>>> kostprijs( 3 )
+6.91
+>>> kostprijs( 10 )
+23.03
+>>> kostprijs( 18 )
+41.45
+>>> kostprijs( 16 )
+36.85
+>>> kostprijs( 13 )
+29.94
+>>> kostprijs( 16 )
+36.85
+>>> kostprijs( 15 )
+34.55
+>>> kostprijs( 18 )
+41.45
+>>> kostprijs( 4 )
+9.21
+>>> kostprijs( 12 )
+27.64
+>>> kostprijs( 9 )
+20.73
+>>> kostprijs( 8 )
+18.42
+>>> kostprijs( 14 )
+32.24
