@@ -1,0 +1,40 @@
+>>> soort_driehoek( 2,4,5 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 3,3,4 ) # doctest: +STDOUT
+Gelijkbenig
+>>> soort_driehoek( 8,5,5 ) # doctest: +STDOUT
+Gelijkbenig
+>>> soort_driehoek( 7,7,7 ) # doctest: +STDOUT
+Gelijkzijdig
+>>> soort_driehoek( 10,9,7 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 10,9,8 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 9,10,6 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 3,7,5 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 3,5,7 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 10,7,4 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 7,8,7 ) # doctest: +STDOUT
+Gelijkbenig
+>>> soort_driehoek( 3,3,3 ) # doctest: +STDOUT
+Gelijkzijdig
+>>> soort_driehoek( 9,4,3 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 7,10,9 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 4,10,3 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 7,7,6 ) # doctest: +STDOUT
+Gelijkbenig
+>>> soort_driehoek( 6,3,7 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 4,8,10 ) # doctest: +STDOUT
+Willekeurig
+>>> soort_driehoek( 6,6,5 ) # doctest: +STDOUT
+Gelijkbenig
+>>> soort_driehoek( 8,4,8 ) # doctest: +STDOUT
+Gelijkbenig
