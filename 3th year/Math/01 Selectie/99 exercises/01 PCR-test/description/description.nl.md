@@ -1,4 +1,4 @@
-Indien er gedurende de coronapandemie een risicocontact plaatsvond wordt een PCR-test wordt uitgevoerd. Met behulp van een wisser wordt wat genetisch materiaal verzameld. De PCR techniek bestaat erin om het genetisch materiaal in verschillende cylci telkens gaan kopiëren.
+Indien er gedurende de coronapandemie een risicocontact plaatsvond werd een PCR-test uitgevoerd. Met behulp van een wisser wordt wat genetisch materiaal verzameld. De PCR techniek bestaat erin om het genetisch materiaal in verschillende cylci telkens te gaan kopiëren.
 
 ![PCR-test](media/PCR.jpg "PCR-test"){:data-caption="Afname van een wisser." width="35%"}
 
