@@ -1,0 +1,36 @@
+>>> boete(58) # doctest: +STDOUT
+Boete: EUR 53
+>>> boete(65) # doctest: +STDOUT
+Boete: EUR 68
+>>> boete(87) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
+>>> boete(48) # doctest: +STDOUT
+Niet in overtreding
+>>> boete(73) # doctest: +STDOUT
+Boete: EUR 76
+>>> boete(94) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
+>>> boete(85) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
+>>> boete(79) # doctest: +STDOUT
+Boete: EUR 82
+>>> boete(86) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
+>>> boete(91) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
+>>> boete(61) # doctest: +STDOUT
+Boete: EUR 64
+>>> boete(38) # doctest: +STDOUT
+Niet in overtreding
+>>> boete(69) # doctest: +STDOUT
+Boete: EUR 72
+>>> boete(58) # doctest: +STDOUT
+Boete: EUR 53
+>>> boete(38) # doctest: +STDOUT
+Niet in overtreding
+>>> boete(53) # doctest: +STDOUT
+Boete: EUR 53
+>>> boete(75) # doctest: +STDOUT
+Boete: EUR 78
+>>> boete(94) # doctest: +STDOUT
+Invoering rijbewijs en rechtzaak
