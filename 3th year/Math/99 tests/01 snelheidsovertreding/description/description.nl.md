@@ -13,7 +13,6 @@ De politie voert een snelheidscontrole uit in de bebouwde kom. De maximum toeges
 Schrijf een functie `boete()` met de gemeten snelheid als parameter en die de totale boete **afdrukt**. Indien er **geen** overtreding werd vastgesteld verschijnt er `Niet in overtreding'.
 
 #### Voorbeeld
-Er moet gelden:
 ```
 >>> boete( 58 )
 Boete: EUR 53
