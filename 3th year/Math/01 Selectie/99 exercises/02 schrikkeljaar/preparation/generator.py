@@ -29,9 +29,9 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [(2022,),(2020,),(1900,),(2000,),]
+cases = [(2022,),(2020,),(1900,),(2000,),(1600,),(1700,),(1800,),(2400,)]
 while len(cases) < ntests:
-    cases.append( tuple(random.randint(1800,2050) for _ in range(1)) ) 
+    cases.append( tuple(random.randint(1800,2300) for _ in range(1)) ) 
 
 # generate unit tests for functions
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')

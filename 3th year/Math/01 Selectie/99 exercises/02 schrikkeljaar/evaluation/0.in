@@ -6,35 +6,35 @@ Een schrikkeljaar
 Geen schrikkeljaar
 >>> schrikkeljaar(2000) # doctest: +STDOUT
 Een schrikkeljaar
->>> schrikkeljaar(1964) # doctest: +STDOUT
+>>> schrikkeljaar(1600) # doctest: +STDOUT
 Een schrikkeljaar
->>> schrikkeljaar(1913) # doctest: +STDOUT
+>>> schrikkeljaar(1700) # doctest: +STDOUT
 Geen schrikkeljaar
->>> schrikkeljaar(1938) # doctest: +STDOUT
+>>> schrikkeljaar(1800) # doctest: +STDOUT
 Geen schrikkeljaar
->>> schrikkeljaar(1981) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(2031) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(2015) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(2034) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(2007) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1954) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1901) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(2039) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1877) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1976) # doctest: +STDOUT
+>>> schrikkeljaar(2400) # doctest: +STDOUT
 Een schrikkeljaar
->>> schrikkeljaar(1919) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1901) # doctest: +STDOUT
-Geen schrikkeljaar
->>> schrikkeljaar(1936) # doctest: +STDOUT
+>>> schrikkeljaar(2128) # doctest: +STDOUT
 Een schrikkeljaar
+>>> schrikkeljaar(2026) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2077) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2163) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2262) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2231) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2269) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2215) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2108) # doctest: +STDOUT
+Een schrikkeljaar
+>>> schrikkeljaar(2003) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(2279) # doctest: +STDOUT
+Geen schrikkeljaar
+>>> schrikkeljaar(1955) # doctest: +STDOUT
+Geen schrikkeljaar
