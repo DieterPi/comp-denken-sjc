@@ -1,40 +1,40 @@
->>> driehoek((4, 5, 2)) # doctest: +STDOUT
+>>> driehoek(4, 5, 2) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((4, 7, 2)) # doctest: +STDOUT
+>>> driehoek(4, 7, 2) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((12, 9, 10)) # doctest: +STDOUT
+>>> driehoek(12, 9, 10) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((11, 8, 6)) # doctest: +STDOUT
+>>> driehoek(11, 8, 6) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((9, 9, 9)) # doctest: +STDOUT
+>>> driehoek(9, 8, 10) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((7, 8, 9)) # doctest: +STDOUT
+>>> driehoek(7, 8, 9) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((10, 5, 12)) # doctest: +STDOUT
+>>> driehoek(10, 5, 12) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((11, 2, 6)) # doctest: +STDOUT
+>>> driehoek(11, 2, 6) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((11, 4, 2)) # doctest: +STDOUT
+>>> driehoek(11, 4, 2) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((11, 4, 7)) # doctest: +STDOUT
+>>> driehoek(11, 4, 7) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((12, 9, 11)) # doctest: +STDOUT
+>>> driehoek(12, 9, 11) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((6, 12, 3)) # doctest: +STDOUT
+>>> driehoek(6, 12, 3) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((6, 7, 8)) # doctest: +STDOUT
+>>> driehoek(6, 7, 8) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((12, 2, 2)) # doctest: +STDOUT
+>>> driehoek(12, 2, 2) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((3, 12, 8)) # doctest: +STDOUT
+>>> driehoek(3, 12, 8) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((10, 3, 2)) # doctest: +STDOUT
+>>> driehoek(10, 3, 2) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((11, 10, 6)) # doctest: +STDOUT
+>>> driehoek(11, 10, 6) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((9, 8, 3)) # doctest: +STDOUT
+>>> driehoek(9, 8, 3) # doctest: +STDOUT
 Deze zijden vormen een driehoek.
->>> driehoek((9, 2, 6)) # doctest: +STDOUT
+>>> driehoek(9, 2, 6) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
->>> driehoek((6, 5, 12)) # doctest: +STDOUT
+>>> driehoek(6, 5, 12) # doctest: +STDOUT
 Deze zijden vormen geen driehoek.
