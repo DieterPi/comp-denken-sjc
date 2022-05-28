@@ -1,6 +1,6 @@
 Indien drie lengtes gegeven worden kan je eenvoudig nagaan of deze een driehoek vormen met behulp van de driehoeksongelijkheid.
 
-{: .callout.callout-succes}
+{: .callout.callout-primary}
 > #### Driehoeksongelijkheid
 > In een driehoek is de som van twee zijden steeds groter dan de derde zijde.
 
