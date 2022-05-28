@@ -8,7 +8,7 @@ def boete( snelheid ):
     elif( overschot < 11 ):
         print( 'Boete: EUR 53' )
     elif( overschot <= 30 ):
-        bedrag = 53 + 11 * overschot
+        bedrag = 53 + 11 * ( overschot - 10 )
         print( 'Boete: EUR', bedrag )
     else:
         print( 'Invoering rijbewijs en rechtzaak' )
