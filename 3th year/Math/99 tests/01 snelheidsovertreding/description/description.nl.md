@@ -19,5 +19,5 @@ Boete: EUR 53
 >>> boete( 65 )
 Boete: EUR 108
 >>> kostprijs( 87 )
-Invoering rijbewijs en rechtzaak.
+Invoering rijbewijs en rechtzaak
 ```
