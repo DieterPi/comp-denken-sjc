@@ -6,7 +6,7 @@ De politie voert een snelheidscontrole uit in de bebouwde kom. De maximum toeges
 |:--------:|-------------|
 | tot 10 km/u  | € 53 |
 | 11 tot 30 km/u | € 53 en € 11 per extra overschreden km |
-| meer dan 30 km/u | Tussen € 80 en € 4000 en ingehouden rijbewijs |
+| meer dan 30 km/u | Tussen € 80 en € 4000, rechtszaak en invordering van het rijbewijs |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 {: .callout.callout-warning}
@@ -22,6 +22,6 @@ Schrijf een functie `boete()` met de gemeten snelheid als parameter en die de to
 Boete: EUR 53
 >>> boete( 65 )
 Boete: EUR 108
->>> kostprijs( 87 )
-Invoering rijbewijs en rechtzaak
+>>> boete( 87 )
+Invordering rijbewijs en rechtszaak
 ```
