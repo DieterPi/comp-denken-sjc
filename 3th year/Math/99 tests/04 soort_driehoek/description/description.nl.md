@@ -16,3 +16,7 @@ De driehoek is rechthoekig.
 >>> soort_driehoek( 5, 4, 5 )
 De driehoek is scherphoekig.
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Het kwadraat van een getal kan je op drie manieren laten berekenen. Met behulp van de `pow()` functie, zoals `pow( a, 2 )` of via de definite `a*a` of met de verkorte notatie `a**2`
