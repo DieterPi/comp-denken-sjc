@@ -1,6 +1,7 @@
 Uit onderzoek blijkt dat 70% van de Fransen onvoldoende informatie hebben over de impact van hetgeen ze eten op het milieu. Daarom ontwikkelde men de Eco-Score, een labelsysteem dat op basis van verschillende kenmerken (zoals verpakking, transport, hoeveelheid water verbruikt bij product, enz...) een ecologische score toekent aan het voedingsmiddel.
 
 Zo krijgt de pizza 'Ristorante Pizza quattro formaggi' van Dr. Oetker volgens <a href='https://nl.openfoodfacts.org/product/4001724818908/ristorante-pizza-quattro-formaggi-dr-oetker' target='_blank'>openfoodfacts.org</a> de volgende Eco-score.
+
 ![Eco-Score](media/ecosscore.png "Eco-Score"){:data-caption="Eco-Score van een Dr. Oetker pizza" width="450px"}
 
 De letter in het Eco-Scorelogo is vastgesteld door middel van uitgebreide berekeningen. De basis is een zogenaamde levenscyclusanalyse (LCA). Uit de LCA volgt een score van 0 tot 100. Elke 20 punten lager betekent een twee keer zo hoge milieu-impact. 
