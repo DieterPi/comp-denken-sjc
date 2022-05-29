@@ -6,8 +6,10 @@ De ademtest bepaalt volgende directe gevolgen:
 
 S
 : Alcoholgehalte is onder het wettelijk toegelaten maximum van 0,5 promille, u mag verder rijden. 
+
 A
 : Vermoedelijke inbreuk. Alcoholgehalte ligt waarschijnlijk tussen 0,5 en 0,8 promille. U zult een ademanalyse moeten doen en krijgt een tijdelijk rijverbod van drie uur.
+
 P
 : Alcoholniveau ligt boven 0,8 promille. Uitslag is positief. U moet een ademanalyse doen en krijgt een rijverbod van zes uur. 
 
