@@ -14,5 +14,5 @@ Schrijf een functie `soort_driehoek()` met **drie** lengtes als parameter waarbi
 >>> soort_driehoek( 3, 4 ,5 )
 De driehoek is rechthoekig.
 >>> soort_driehoek( 5, 4, 5 )
-De driehoek is niet rechthoekig.
+De driehoek is scherphoekig.
 ```
