@@ -1,0 +1,30 @@
+>>> rechthoekig(3, 4, 5) # doctest: +STDOUT
+De driehoek is rechthoekig.
+>>> rechthoekig(5, 4, 5) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(5, 4, 3) # doctest: +STDOUT
+De driehoek is rechthoekig.
+>>> rechthoekig(2, 6, 5) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(8, 10, 6) # doctest: +STDOUT
+De driehoek is rechthoekig.
+>>> rechthoekig(12, 9, 10) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(11, 8, 6) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(9, 8, 10) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(7, 8, 9) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(10, 5, 12) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(12, 5, 13) # doctest: +STDOUT
+De driehoek is rechthoekig.
+>>> rechthoekig(15, 17, 8) # doctest: +STDOUT
+De driehoek is rechthoekig.
+>>> rechthoekig(11, 4, 7) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(12, 9, 11) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
+>>> rechthoekig(6, 6, 3) # doctest: +STDOUT
+De driehoek is niet rechthoekig.
