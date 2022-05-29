@@ -11,6 +11,6 @@ Schrijf een functie `rechthoekig()` met drie zijden als parameter die nagaat of 
 ```
 >>> rechthoekig( 3, 4 ,5 )
 De driehoek is rechthoekig.
->>> drierechthoekighoek( 5, 4, 5 )
+>>> rechthoekig( 5, 4, 5 )
 De driehoek is niet rechthoekig.
 ```
