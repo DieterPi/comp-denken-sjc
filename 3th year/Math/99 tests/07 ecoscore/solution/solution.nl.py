@@ -8,7 +8,7 @@ def ecoscore( score ):
         print( 'D' )
     elif score <= 60:
         print( 'C' )
-    elif score <= 40:
+    elif score <= 80:
         print( 'B' )
     else:
         print( 'A' )
