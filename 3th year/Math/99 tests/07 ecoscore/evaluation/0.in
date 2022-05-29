@@ -1,0 +1,50 @@
+>>> ecoscore(56) # doctest: +STDOUT
+C
+>>> ecoscore(88) # doctest: +STDOUT
+A
+>>> ecoscore(82) # doctest: +STDOUT
+A
+>>> ecoscore(56) # doctest: +STDOUT
+C
+>>> ecoscore(69) # doctest: +STDOUT
+A
+>>> ecoscore(90) # doctest: +STDOUT
+A
+>>> ecoscore(77) # doctest: +STDOUT
+A
+>>> ecoscore(50) # doctest: +STDOUT
+C
+>>> ecoscore(38) # doctest: +STDOUT
+D
+>>> ecoscore(88) # doctest: +STDOUT
+A
+>>> ecoscore(59) # doctest: +STDOUT
+C
+>>> ecoscore(50) # doctest: +STDOUT
+C
+>>> ecoscore(68) # doctest: +STDOUT
+A
+>>> ecoscore(44) # doctest: +STDOUT
+C
+>>> ecoscore(51) # doctest: +STDOUT
+C
+>>> ecoscore(56) # doctest: +STDOUT
+C
+>>> ecoscore(69) # doctest: +STDOUT
+A
+>>> ecoscore(88) # doctest: +STDOUT
+A
+>>> ecoscore(26) # doctest: +STDOUT
+D
+>>> ecoscore(86) # doctest: +STDOUT
+A
+>>> ecoscore(76) # doctest: +STDOUT
+A
+>>> ecoscore(3) # doctest: +STDOUT
+E
+>>> ecoscore(34) # doctest: +STDOUT
+D
+>>> ecoscore(78) # doctest: +STDOUT
+A
+>>> ecoscore(23) # doctest: +STDOUT
+D
