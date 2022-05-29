@@ -4,6 +4,10 @@ A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
 
 P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
 
+A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
+
+P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
+
 P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
 
 P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
@@ -17,14 +21,6 @@ P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
 A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
 
 P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
-
-P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
-
-A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
-
-A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
-
-A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen.
 
 P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
 
@@ -34,9 +30,6 @@ P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
 
 S: U mag verder rijden.
 
-P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen.
-
-S: U mag verder rijden.
 -----------------------------------------
 tab name: Feedback
 python input without prompt: true
