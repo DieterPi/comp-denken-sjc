@@ -7,21 +7,21 @@ Invordering rijbewijs en rechtszaak
 >>> boete(48) # doctest: +STDOUT
 Niet in overtreding
 >>> boete(91) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(85) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(73) # doctest: +STDOUT
 Boete: EUR 196
 >>> boete(94) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(85) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(79) # doctest: +STDOUT
 Boete: EUR 262
 >>> boete(86) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(91) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
 >>> boete(61) # doctest: +STDOUT
 Boete: EUR 64
 >>> boete(38) # doctest: +STDOUT
@@ -37,4 +37,4 @@ Boete: EUR 53
 >>> boete(75) # doctest: +STDOUT
 Boete: EUR 218
 >>> boete(94) # doctest: +STDOUT
-Invordering rijbewijs en rechtzaak
+Invordering rijbewijs en rechtszaak
