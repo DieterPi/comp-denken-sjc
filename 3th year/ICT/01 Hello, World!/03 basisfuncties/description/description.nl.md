@@ -1,5 +1,5 @@
 ## Basisfuncties
-Functies vormen een essentieel onderdeel van het programmeren. Je hebt in de vorige lessen al enkele basisfuncties gebruikt. Zo geeft de functie `print()` iets weer op het scherm. De functie `type()` bepaalt dan weer een datatype.
+Functies vormen een **essentieel** onderdeel van het programmeren. Je hebt in de vorige lessen al enkele basisfuncties gebruikt. Zo geeft de functie `print()` iets weer op het scherm. De functie `type()` bepaalt dan weer een datatype.
 
 Later zullen we zelf eigen functies gaan samenstellen, maar eerst zal het handig zijn om kennis te maken met enkele functies die Python reeds voor ons klaar heeft.
 
