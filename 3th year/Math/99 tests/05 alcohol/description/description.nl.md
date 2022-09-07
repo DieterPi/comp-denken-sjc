@@ -11,7 +11,7 @@ A
 : Vermoedelijke inbreuk. Alcoholgehalte ligt tussen 0,5 en 0,8 promille. U zult een ademanalyse moeten doen en krijgt een tijdelijk rijverbod van drie uur.
 
 P
-: Alcoholniveau ligt boven 0,8 promille. Uitslag is positief. U moet een ademanalyse doen en krijgt een rijverbod van zes uur. 
+: Alcoholniveau is **minstens** 0,8 promille. Uitslag is positief. U moet een ademanalyse doen en krijgt een rijverbod van zes uur. 
 
 ## Opgave
 Schrijf een programma dat aan de gebruiker het aantal promille (kommagetal) **vraagt** en waarbij daarna het gevolg verschijnt. 
