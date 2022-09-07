@@ -1,0 +1,40 @@
+>>> soort_vkv(1, 0, -4) # doctest: +STDOUT
+Onvolledig
+>>> soort_vkv(1, 2, 1) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(2, 6, 0) # doctest: +STDOUT
+Onvolledig
+>>> soort_vkv(5, -8, -3) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(4, 0, 0) # doctest: +STDOUT
+Onvolledig
+>>> soort_vkv(8, 2, 5) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(10, 7, 0) # doctest: +STDOUT
+Onvolledig
+>>> soort_vkv(-3, 10, 2) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(10, -6, 9) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(7, -12, -4) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(7, -7, -12) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(11, 7, -8) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(11, -2, 9) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(2, 6, -3) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(8, -10, -3) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(-2, 0, 9) # doctest: +STDOUT
+Onvolledig
+>>> soort_vkv(12, -11, -12) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(-9, 8, 1) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(5, -10, -12) # doctest: +STDOUT
+Volledig
+>>> soort_vkv(7, 4, -3) # doctest: +STDOUT
+Volledig
