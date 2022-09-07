@@ -1,0 +1,40 @@
+>>> discriminant( 1, 3, -4 ) # doctest: +STDOUT
+Discriminant = 25
+>>> discriminant( 1, 2, 1 ) # doctest: +STDOUT
+Discriminant = 0
+>>> discriminant( 2, 6, 5 ) # doctest: +STDOUT
+Discriminant = -4
+>>> discriminant( 4, 0, -3 ) # doctest: +STDOUT
+Discriminant = 48
+>>> discriminant( 4, -12, 9 ) # doctest: +STDOUT
+Discriminant = 0
+>>> discriminant( 8, 2, 5 ) # doctest: +STDOUT
+Discriminant = -156
+>>> discriminant( 10, 7, 0 ) # doctest: +STDOUT
+Discriminant = 49
+>>> discriminant( -3, 10, 2 ) # doctest: +STDOUT
+Discriminant = 124
+>>> discriminant( 10, -6, 9 ) # doctest: +STDOUT
+Discriminant = -324
+>>> discriminant( 7, -12, -4 ) # doctest: +STDOUT
+Discriminant = 256
+>>> discriminant( 7, -7, -12 ) # doctest: +STDOUT
+Discriminant = 385
+>>> discriminant( 11, 7, -8 ) # doctest: +STDOUT
+Discriminant = 401
+>>> discriminant( 11, -2, 9 ) # doctest: +STDOUT
+Discriminant = -392
+>>> discriminant( 2, 6, -3 ) # doctest: +STDOUT
+Discriminant = 60
+>>> discriminant( 8, -10, -3 ) # doctest: +STDOUT
+Discriminant = 196
+>>> discriminant( -2, 0, 9 ) # doctest: +STDOUT
+Discriminant = 72
+>>> discriminant( 12, -11, -12 ) # doctest: +STDOUT
+Discriminant = 697
+>>> discriminant( -9, 8, 1 ) # doctest: +STDOUT
+Discriminant = 100
+>>> discriminant( 5, -10, -12 ) # doctest: +STDOUT
+Discriminant = 340
+>>> discriminant( 7, 4, -3 ) # doctest: +STDOUT
+Discriminant = 100
