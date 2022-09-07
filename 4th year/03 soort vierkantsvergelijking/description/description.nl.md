@@ -6,17 +6,17 @@ Indien echter $$b$$ of $$c$$ nul zijn noemt men dit een **onvolledige** vierkant
 
 ## Opgave
 
-Schrijf een functie `soort_vkv( a, b, c )` die voor een vierkantsvergelijking $$ax^2+bx+c=0$$ nagaat of deze vierkantsvergelijking al dan niet volledig is. De functie drukt dit op het scherm af.
+Schrijf een functie `soort_vkv( b, c )` die voor een vierkantsvergelijking $$ax^2+bx+c=0$$ nagaat of deze vierkantsvergelijking al dan niet volledig is. De functie drukt dit op het scherm af.
 
 #### Voorbeelden
 De vierkantsvergelijking $$x^2-4 = 0$$ is onvolledig.
 ```
->>> >>> soort_vkv( 1, 0, -4 )
+>>> >>> soort_vkv( 0, -4 )
 Onvolledig
 ```
 
 De vierkantsvergelijking $$x^2+2x+1 = 0$$ is volledig.
 ```
->>> soort_vkv( 1, 2, 1 )
+>>> soort_vkv( 2, 1 )
 Volledig
 ```
