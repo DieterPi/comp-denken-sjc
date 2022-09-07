@@ -29,7 +29,7 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [(1,3,-4),(1,2,1),(4,0,-3),(2,6,5),(4,-12,9)]
+cases = [(1,3,-4),(1,2,1),(2,6,5), (4,0,-3),(4,-12,9)]
 while len(cases) < ntests:
     item = tuple(random.randint(-12,12) for _ in range(3))
     if(item[0] != 0):

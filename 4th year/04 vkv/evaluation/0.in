@@ -1,40 +1,40 @@
 >>> vkv(1, 3, -4) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 1.0 en 1.0
+Er zijn 2 reële oplossingen, namelijk 1.0 en -4.0
 >>> vkv(1, 2, 1) # doctest: +STDOUT
 Er is één oplossing, namelijk: -1.0
->>> vkv(4, 0, -3) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 0.87 en 0.87
 >>> vkv(2, 6, 5) # doctest: +STDOUT
 Er zijn geen reële oplossingen
+>>> vkv(4, 0, -3) # doctest: +STDOUT
+Er zijn 2 reële oplossingen, namelijk 0.87 en -0.87
 >>> vkv(4, -12, 9) # doctest: +STDOUT
 Er is één oplossing, namelijk: 1.5
 >>> vkv(8, 2, 5) # doctest: +STDOUT
 Er zijn geen reële oplossingen
 >>> vkv(10, 7, 0) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 0.0 en 0.0
+Er zijn 2 reële oplossingen, namelijk 0.0 en -0.7
 >>> vkv(-3, 10, 2) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk -0.19 en -0.19
+Er zijn 2 reële oplossingen, namelijk -0.19 en 3.52
 >>> vkv(10, -6, 9) # doctest: +STDOUT
 Er zijn geen reële oplossingen
 >>> vkv(7, -12, -4) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 2.0 en 2.0
+Er zijn 2 reële oplossingen, namelijk 2.0 en -0.29
 >>> vkv(7, -7, -12) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 1.9 en 1.9
+Er zijn 2 reële oplossingen, namelijk 1.9 en -0.9
 >>> vkv(11, 7, -8) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 0.59 en 0.59
+Er zijn 2 reële oplossingen, namelijk 0.59 en -1.23
 >>> vkv(11, -2, 9) # doctest: +STDOUT
 Er zijn geen reële oplossingen
 >>> vkv(2, 6, -3) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 0.44 en 0.44
+Er zijn 2 reële oplossingen, namelijk 0.44 en -3.44
 >>> vkv(8, -10, -3) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 1.5 en 1.5
+Er zijn 2 reële oplossingen, namelijk 1.5 en -0.25
 >>> vkv(-2, 0, 9) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk -2.12 en -2.12
+Er zijn 2 reële oplossingen, namelijk -2.12 en 2.12
 >>> vkv(12, -11, -12) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 1.56 en 1.56
+Er zijn 2 reële oplossingen, namelijk 1.56 en -0.64
 >>> vkv(-9, 8, 1) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk -0.11 en -0.11
+Er zijn 2 reële oplossingen, namelijk -0.11 en 1.0
 >>> vkv(5, -10, -12) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 2.84 en 2.84
+Er zijn 2 reële oplossingen, namelijk 2.84 en -0.84
 >>> vkv(7, 4, -3) # doctest: +STDOUT
-Er zijn 2 reële oplossingen, namelijk 0.43 en 0.43
+Er zijn 2 reële oplossingen, namelijk 0.43 en -1.0
