@@ -6,6 +6,10 @@ De <a href='https://nl.wikipedia.org/wiki/Wortelformule' target='_blanc'>wortelf
 
 Schrijf een functie `vkv( a, b, c )` die voor een vierkantsvergelijking $$ax^2+bx+c=0$$ de oplossingen berekent. De oplossingen worden op een specifieke manier **afgedrukt**. Het resultaat wordt afgerond op 2 cijfers na de komma (indien nodig).
 
+{: .callout.callout-info}
+> #### Tip
+> Om de vierkantswortel te berekenen gebruik je `math.sqrt()`. Er geldt bijvoorbeeld dat `math.sqrt( 36 )` gelijk is aan `6.0`.
+
 #### Voorbeelden
 De vierkantsvergelijking $$x^2+3x-4 = 0$$ heeft als oplossingenverzameling $$V = \{-4, 1\}$$.
 ```
