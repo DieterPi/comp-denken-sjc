@@ -23,18 +23,18 @@ Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraads
 #### Voorbeelden
 De derdegraadsvergeliking $$x^3-3x+2=0$$ heeft als oplossingenverzameling $$V = \{-2, 1\}$$.
 ```
->>> discriminant(-3, 2)
+>>> discriminant( -3, 2 )
 Van de drie oplossingen zijn er minstens twee aan elkaar gelijk
 ```
 
 De derdegraadsvergeliking $$x^3+x+2 = 0$$ heeft als oplossingenverzameling $$V = \{-1\}$$.
 ```
->>> discriminant(1, 2)
+>>> discriminant( 1, 2 )
 Er is exact één reële oplossing
 ```
 
 De derdegraadsvergeliking $$x^3-4x= 0$$ heeft als oplossingenverzameling $$V = \{-2,0,2\}$$.
 ```
->>> discriminant(-4, 0) 
+>>> discriminant( -4, 0 ) 
 Er zijn drie verschillende reële oplossingen
 ```
