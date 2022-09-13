@@ -29,20 +29,20 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [(1,3,-4),(1,2,1),(2,6,5), (4,0,-3),(4,-12,9)]
+cases = [(-3,2),(1,2),(-4,0),(-27,54),(0,0)]
 while len(cases) < ntests:
-    item = tuple(random.randint(-12,12) for _ in range(3))
-    if(item[0] != 0):
+    item = tuple(random.randint(-50,50) for _ in range(2))
+    if item[0] != 0 and item[1] != 0:
         cases.append( item )
 
 # generate unit tests for functions
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> vkv({test[0]}, {test[1]}, {test[2]}) # doctest: +STDOUT')
+    print(f'>>> discriminant({test[0]}, {test[1]}) # doctest: +STDOUT')
 
     # generate return value
     try:
-        module.vkv(test[0],test[1],test[2])
+        module.discriminant(test[0],test[1])
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
