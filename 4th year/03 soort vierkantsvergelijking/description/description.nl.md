@@ -11,7 +11,7 @@ Schrijf een functie `soort_vkv( b, c )` die voor een vierkantsvergelijking $$ax^
 #### Voorbeelden
 De vierkantsvergelijking $$x^2-4 = 0$$ is onvolledig.
 ```
->>> >>> soort_vkv( 0, -4 )
+>>> soort_vkv( 0, -4 )
 Onvolledig
 ```
 
