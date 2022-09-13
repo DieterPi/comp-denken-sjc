@@ -24,7 +24,7 @@ else:
 ## Opgave
 Bij deze oefening vul je onderstaande functie aan zodat de functie `soort_rechte( rico )` voor een gegeven rico op het scherm **afdrukt** of deze rechte stijgend, dalend of constant is. Er verschijnt respectievelijk `De rechte is stijgend.`, `De rechte is dalend.` en `De rechte is constant.`.
  
-![Evenwijdige rechten](media/lines.jpg "Evenwijdige rechten"){:data-caption="Evenwijdige dalende rechten." width="300px"}
+![Evenwijdige rechten](media/lines.jpg "Evenwijdige rechten"){:data-caption="Evenwijdige dalende rechten." width="400px"}
 
 #### Voorbeelden
 Bij een rico van 4 verschijnt er:
