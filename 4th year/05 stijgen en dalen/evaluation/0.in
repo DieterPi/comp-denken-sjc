@@ -1,0 +1,38 @@
+>>> soort_rechte(4) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(0) # doctest: +STDOUT
+De rechte is constant.
+>>> soort_rechte(32) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(6) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(19) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(40) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(27) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(0) # doctest: +STDOUT
+De rechte is constant.
+>>> soort_rechte(-12) # doctest: +STDOUT
+De rechte is dalend.
+>>> soort_rechte(38) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(9) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(18) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(-6) # doctest: +STDOUT
+De rechte is dalend.
+>>> soort_rechte(1) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(6) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(19) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(38) # doctest: +STDOUT
+De rechte is stijgend.
+>>> soort_rechte(-24) # doctest: +STDOUT
+De rechte is dalend.
+>>> soort_rechte(36) # doctest: +STDOUT
+De rechte is stijgend.
