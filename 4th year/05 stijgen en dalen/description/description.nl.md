@@ -13,9 +13,9 @@ else:
 
 De basissyntax van een selectiestructuur is dus:
 ```python
-if <voorwaarde 1>:
+if <voorwaarde_1>:
     <acties>
-elif <voorwaarde 1>:
+elif <voorwaarde_2>:
     <acties>
 else: 
     <acties>
