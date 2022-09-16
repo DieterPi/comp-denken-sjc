@@ -29,6 +29,6 @@ Bij deze oefening vul je onderstaande functie aan zodat de functie `soort_rechte
 #### Voorbeelden
 Bij een rico van 4 verschijnt er:
 ```
->>> soort_rico( 4 )
+>>> soort_rechte( 4 )
 De rechte is stijgend.
 ```
