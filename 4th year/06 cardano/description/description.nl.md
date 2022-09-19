@@ -2,7 +2,7 @@ Na het bepalen van een algemene methode voor het oplossen van vierkantsvergelijk
 
 $$ax^3+bx^2+cx+d=0$$
 
-In 1545 onstond in Italie een ware rel toen de wiskundige Gerolamo Cardano een algemene oplossing publiceerde voor een gereduceerde derdegraadsvergelijking. Dit is een vergelijking van de gedaante:
+In 1545 onstond in Italië een ware rel toen de wiskundige Gerolamo Cardano een algemene oplossing publiceerde voor een gereduceerde derdegraadsvergelijking. Dit is een vergelijking van de gedaante:
 
 $$x^3+px+q=0$$
 
