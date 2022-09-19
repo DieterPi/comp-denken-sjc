@@ -20,6 +20,10 @@ Een derdegraadsvergelijking zal in het meest algemene geval, namelijk indien de 
 
 Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraadsvergelijking $$x^3+px+q=0$$ het aantal oplossingen op het scherm afdrukt. 
 
+{: .callout.callout-info}
+> #### Tip
+> Een macht kan je eenvoudig nemen met de `pow()` functie. Zo geldt `pow( 5, 3 ) = 125`.
+
 #### Voorbeelden
 De derdegraadsvergeliking $$x^3-3x+2=0$$ heeft als oplossingenverzameling $$V = \{-2, 1\}$$.
 ```
