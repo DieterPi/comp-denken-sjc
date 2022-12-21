@@ -3,7 +3,7 @@ Het Vlaams Instituut Gezond Leven lanceerde in 2022 de <a href="https://10000sta
 ![Stappen is gezond!](media/walking.jpg "100"){:data-caption="Foto door Arek Adeoye op Unsplash" width="60%"}
 
 ## Opgave
-Schrijf een programma dat vraag hoeveel stappen je vandaag reeds gezet hebt en vervolgens berekent hoeveel stappen je nog moet zetten.
+Schrijf een programma dat vraagt hoeveel stappen je vandaag reeds gezet hebt en vervolgens berekent hoeveel stappen je nog moet zetten.
 
 #### Voorbeeld
 De invoer `5342` levert als uitvoer
