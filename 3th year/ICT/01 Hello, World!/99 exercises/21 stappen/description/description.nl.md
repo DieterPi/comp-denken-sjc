@@ -1,17 +1,17 @@
-Volgens <a href="https://www.vrt.be/vrtnws/nl/2022/03/10/zo-bespaar-je-met-je-gezin-autobrandstof-in-dure-tijden/" target="_blank">dit artikel</a> van VRT.NWS verbruikt een moderne dieselwagen zo'n 4,5 liter diesel per 100 km.
+Het Vlaams Instituut Gezond Leven lanceerde in 2022 de <a href="https://10000stappen.gezondleven.be/" target="_blank">campagne</a> "10.000 stappen: elke stap telt!"
 
 ![Stappen is gezond!](media/walking.jpg "100"){:data-caption="Foto door Arek Adeoye op Unsplash" width="60%"}
 
 ## Opgave
-Schrijf een programma dat het aantal stappen vraagt
+Schrijf een programma dat vraag hoeveel stappen je vandaag reeds gezet hebt en vervolgens berekent hoeveel stappen je nog moet zetten.
 
 #### Voorbeeld
-De invoer `100.0` levert als uitvoer
+De invoer `5342` levert als uitvoer
 ```
-4.5 liter
+Je dient nog 4658 stappen te zetten.
 ```
 
-De invoer `45.0` levert als uitvoer
+De invoer `9995` levert als uitvoer
 ```
-2.02 liter
+Je dient nog 5 stappen te zetten.
 ```
