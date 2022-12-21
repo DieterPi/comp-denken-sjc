@@ -29,7 +29,7 @@ comparison: exact match
 
 # generate test data
 ntests= 30
-cases = [(5342,), (9995,),(11021,),(10000,) ]
+cases = [(5342,), (9995,),(11021,),(10000,),(9999,) ]
 while len(cases) < ntests:
     cases.append( (random.randint(0,14000),) )
 
