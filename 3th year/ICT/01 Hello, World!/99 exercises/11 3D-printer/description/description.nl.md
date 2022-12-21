@@ -6,7 +6,7 @@ $$
 
 waarbij $$I$$ de stroomsterkte voorstelt die de motor nodig heeft.
 
-![3d printer](media/3dprinter.jpg "3d printer"){:data-caption="Een 3D-printer" width="30%"}
+![3D-printer](media/3dprinter.jpg "3d printer"){:data-caption="Foto door Kadir Celep op Unsplash" width="30%"}
 
 ## Opgave
 Schrijf een programma dat voor een ingelezen $$V_{\text{ref}}$$ de stroomsterkte uitrekent. Rond af op 3 cijfers na de komma.
