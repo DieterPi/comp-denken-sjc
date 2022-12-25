@@ -1,6 +1,7 @@
 ## Opgave
 
 Vind het patroon in onderstaand stukje code en vervang dit door een herhaling. Laat de herhaling lopen tot 20 jaar.
+Maak gebruik van de variabele `jaartal`.
 
 ```python
 print( 'Ik ben geboren in', 2006 )
