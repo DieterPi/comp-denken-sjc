@@ -1,7 +1,7 @@
 ## Opgave
 Schrijf een functie `tafel()` die de tafel van vermenigvuldiging afdrukt voor een gegeven getal.
 
-![De tafels van de vermenigvuldigingen](media/gayatri-malhotra.jpg "Foto door Gayatri Malhotra op Unsplash"){:data-caption="De tafels van de vermenigvuldigingen." width="450px"}
+![De tafels van de vermenigvuldigingen](media/gayatri-malhotra.jpg "Foto door Gayatri Malhotra op Unsplash"){:data-caption="De tafels van vermenigvuldiging." width="450px"}
 
 
 #### Voorbeeld
