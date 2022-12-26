@@ -13,7 +13,7 @@ Volgende onderverdeling geldt:
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `ibu()` die de IBU-waarde als parameters heeft en de beschrijving op het scherm afdrukt.
+Schrijf een functie `ibu()` die de IBU-waarde als parameter heeft en de corresponderende beschrijving op het scherm afdrukt.
 
 #### Voorbeeld
 ```
