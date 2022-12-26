@@ -7,7 +7,7 @@ Volgende onderverdeling geldt:
 | IBU | beschrijving |
 |:--------:|-------------|
 | < 20  | weinig bitter |
-| [20,30[ |  neight naar bitter |
+| [20,30[ |  neigt naar bitter |
 | [30,40[ | bitter |
 | ≥ 40 |  zeer bitter |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
@@ -20,5 +20,5 @@ Schrijf een functie `ibu()` die de IBU-waarde als parameters heeft en de beschri
 >>> ibu( 19.9 )
 Dit bier is weinig bitter.
 >>> ibu( 29.5 )
-Dit bier neight naar bitter.
+Dit bier neigt naar bitter.
 ```
