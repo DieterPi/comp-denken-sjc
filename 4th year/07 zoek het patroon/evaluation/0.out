@@ -19,11 +19,10 @@ In 2023 was ik 17 jaar.
 In 2024 was ik 18 jaar.
 In 2025 was ik 19 jaar.
 In 2026 was ik 20 jaar.
-
 -----------------------------------------
 tab name: Feedback
 python input without prompt: true
-block count: multi
+block count: one
 input block size: 0
 output block size: ends with
 comparison: exact match
