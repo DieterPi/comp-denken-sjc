@@ -1,80 +1,80 @@
->>> eicode(1-UK-5432102) # doctest: +STDOUT
+>>> eicode('1-UK-5432102') # doctest: +STDOUT
 Vrije-uitloopei
 Afkomst: Verenigd Koninkrijk
 Bedrijf- en stalcode: 54321 - 02
->>> eicode(3-NL-0451201) # doctest: +STDOUT
+>>> eicode('3-NL-0451201') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Nederland
 Bedrijf- en stalcode: 04512 - 01
->>> eicode(2-LU-0001408) # doctest: +STDOUT
+>>> eicode('2-LU-0001408') # doctest: +STDOUT
 Scharrelei
 Afkomst: Luxemburg
 Bedrijf- en stalcode: 00014 - 08
->>> eicode(3-LU-9305519) # doctest: +STDOUT
+>>> eicode('3-LU-9305519') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Luxemburg
 Bedrijf- en stalcode: 93055 - 19
->>> eicode(3-UK-9032214) # doctest: +STDOUT
+>>> eicode('3-UK-9032214') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Verenigd Koninkrijk
 Bedrijf- en stalcode: 90322 - 14
->>> eicode(3-LU-4600912) # doctest: +STDOUT
+>>> eicode('3-LU-4600912') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Luxemburg
 Bedrijf- en stalcode: 46009 - 12
->>> eicode(3-LU-9012806) # doctest: +STDOUT
+>>> eicode('3-LU-9012806') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Luxemburg
 Bedrijf- en stalcode: 90128 - 06
->>> eicode(0-UK-8013705) # doctest: +STDOUT
+>>> eicode('0-UK-8013705') # doctest: +STDOUT
 Biologisch ei
 Afkomst: Verenigd Koninkrijk
 Bedrijf- en stalcode: 80137 - 05
->>> eicode(0-FR-8128504) # doctest: +STDOUT
+>>> eicode('0-FR-8128504') # doctest: +STDOUT
 Biologisch ei
 Afkomst: Frankrijk
 Bedrijf- en stalcode: 81285 - 04
->>> eicode(2-FR-6072618) # doctest: +STDOUT
+>>> eicode('2-FR-6072618') # doctest: +STDOUT
 Scharrelei
 Afkomst: Frankrijk
 Bedrijf- en stalcode: 60726 - 18
->>> eicode(2-FR-1171309) # doctest: +STDOUT
+>>> eicode('2-FR-1171309') # doctest: +STDOUT
 Scharrelei
 Afkomst: Frankrijk
 Bedrijf- en stalcode: 11713 - 09
->>> eicode(2-DE-8769201) # doctest: +STDOUT
+>>> eicode('2-DE-8769201') # doctest: +STDOUT
 Scharrelei
 Afkomst: Duitsland
 Bedrijf- en stalcode: 87692 - 01
->>> eicode(0-NL-8501613) # doctest: +STDOUT
+>>> eicode('0-NL-8501613') # doctest: +STDOUT
 Biologisch ei
 Afkomst: Nederland
 Bedrijf- en stalcode: 85016 - 13
->>> eicode(0-NL-7808516) # doctest: +STDOUT
+>>> eicode('0-NL-7808516') # doctest: +STDOUT
 Biologisch ei
 Afkomst: Nederland
 Bedrijf- en stalcode: 78085 - 16
->>> eicode(2-DE-5216303) # doctest: +STDOUT
+>>> eicode('2-DE-5216303') # doctest: +STDOUT
 Scharrelei
 Afkomst: Duitsland
 Bedrijf- en stalcode: 52163 - 03
->>> eicode(3-NL-3415009) # doctest: +STDOUT
+>>> eicode('3-NL-3415009') # doctest: +STDOUT
 Koloniehuisvesting
 Afkomst: Nederland
 Bedrijf- en stalcode: 34150 - 09
->>> eicode(1-FR-9268807) # doctest: +STDOUT
+>>> eicode('1-FR-9268807') # doctest: +STDOUT
 Vrije-uitloopei
 Afkomst: Frankrijk
 Bedrijf- en stalcode: 92688 - 07
->>> eicode(0-UK-7182602) # doctest: +STDOUT
+>>> eicode('0-UK-7182602') # doctest: +STDOUT
 Biologisch ei
 Afkomst: Verenigd Koninkrijk
 Bedrijf- en stalcode: 71826 - 02
->>> eicode(2-DE-9275807) # doctest: +STDOUT
+>>> eicode('2-DE-9275807') # doctest: +STDOUT
 Scharrelei
 Afkomst: Duitsland
 Bedrijf- en stalcode: 92758 - 07
->>> eicode(1-LU-1694811) # doctest: +STDOUT
+>>> eicode('1-LU-1694811') # doctest: +STDOUT
 Vrije-uitloopei
 Afkomst: Luxemburg
 Bedrijf- en stalcode: 16948 - 11
