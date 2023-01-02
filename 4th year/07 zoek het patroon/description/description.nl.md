@@ -4,7 +4,7 @@ Vind het patroon in onderstaand stukje code en vervang dit door een herhaling. L
 Maak gebruik van de variabele `jaartal`.
 
 ```python
-print( 'Ik ben geboren in', 2006, '.' )
+print( 'In', 2006, 'ben ik geboren.' )
 print( 'In', 2007, 'was ik', 1, 'jaar.' )
 print( 'In', 2008, 'was ik', 2, 'jaar.' )
 print( 'In', 2009, 'was ik', 3, 'jaar.' )
