@@ -2,17 +2,15 @@ Kleuren kunnen digitaal voorgesteld worden in het RGB-kleursysteem. Hierbij gebr
 
 Elk van de 3 getallen in het RGB-kleursysteem kan een waarde aannemen van 0 tot en met 255. Er zijn dus telkens 256 mogelijkheden per kleurcode.
 
-Complementaire kleuren zijn kleuren die sterk contrasteren. Het zijn de kleuren die tegenover elkaar staan in de <a href="https://nl.wikipedia.org/wiki/Kleurencirkel" target="_blanc">*kleurencirkel*</a>. Zo zijn <span style="color:#FEFE33">**geel**</span> en <span style="color:#8601AF">**paars**<\span> bijvoorbeeld complementaire kleuren.
+Complementaire kleuren zijn kleuren die sterk contrasteren. Het zijn de kleuren die tegenover elkaar staan in de <a href="https://nl.wikipedia.org/wiki/Kleurencirkel" target="_blanc">*kleurencirkel*</a>. Zo zijn <span style="color:#FEFE33">**geel**</span> en <span style="color:#8601AF">**paars**</span> bijvoorbeeld complementaire kleuren.
 
 ![De kleurencirkel.](media/color-wheel.png "Afbeelding door Sakurambo op Wikipedia."){:data-caption="De kleurencirkel." width="300px"}
 
 ## Opgave
 schrijf een functie `complementair()` die gegeven een RGB-code als tupel de complementaire code afdrukt. Je kan kan de complementaire kleur berekenen via de formule:
 
-$$(255 - \text{rood}, 255 - \text{groen}, 255 - \text{blauw})$$
-
 <div class="dodona-centered-group">
-(255 - <span style="color:#FEFE33">rood</span>, 255 - <span style="color:#FEFE33">groen</span>, 255 - <span style="color:#FEFE33">blauw</span>)
+(255 - <span style="color:#FF0000">rood</span>, 255 - <span style="color:#00FF00">groen</span>, 255 - <span style="color:#0000FF">blauw</span>)
 </div>
 
 #### Voorbeeld
