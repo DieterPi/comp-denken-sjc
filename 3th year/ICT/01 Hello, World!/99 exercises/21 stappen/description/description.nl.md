@@ -5,7 +5,7 @@ Het Vlaams Instituut Gezond Leven lanceerde in 2022 de <a href="https://10000sta
 ## Opgave
 Schrijf een programma dat vraagt hoeveel stappen je vandaag reeds gezet hebt en vervolgens berekent hoeveel stappen je nog moet zetten.
 
-#### Voorbeeld
+#### Voorbeelden
 De invoer `5342` levert als uitvoer
 ```
 Je dient nog 4658 stappen te zetten.
