@@ -2,7 +2,7 @@ Indien je voor een logo drie kleuren zoekt die bij elkaar passen, kan je gebruik
 
 In onderstaande afbeelding zie je dat de kleuren <span style="color:#FF2EE9">**magenta**</span>, <span style="color:#FFD138">**geel**</span> en <span style="color:#009BE5">**blauw**</span> zo'n driekleur vormen.
 
-![Drieklank van kleuren.](media/color-wheel.png "Afbeelding door Weegaweek op Wikipedia."){:data-caption="Drieklank van kleuren." width="300px"}
+![Drieklank van kleuren.](media/triadic.png "Afbeelding door Weegaweek op Wikipedia."){:data-caption="Drieklank van kleuren." width="300px"}
 
 ## Opgave
 schrijf een functie `drieklank()` die gegeven een RGB-kleurcode als **tupel** de 2 andere kleuren afdrukt zodat een drieklank onstaat. De drieklank vind je terug door de kleurcodes cyclisch te roteren.
