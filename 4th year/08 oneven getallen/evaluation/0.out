@@ -52,7 +52,7 @@
 -----------------------------------------
 tab name: Feedback
 python input without prompt: true
-block count: multi
+block count: one
 input block size: 0
 output block size: ends with
 comparison: exact match
