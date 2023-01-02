@@ -1,6 +1,6 @@
 In de meeste Europeese landen zijn alle eieren die verkocht worden voorzien van een eicode. Met behulp van een stempel kan men zo terugvinden waar ze vandaan komen en hoe ze geproduceerd werden.
 
-![Een krat eieren.](media/jakub-kapusnak.jpg "Foto door Jakub Kapusnak op Unsplash."){:data-caption="Een krat eieren." width="250px"}
+![Een krat eieren.](media/jakub-kapusnak.jpg "Foto door Jakub Kapusnak op Unsplash."){:data-caption="Een krat eieren." width="450px"}
 
 Zo'n eicode ziet er bijvoorbeeld uit als volgt:
 <div class="dodona-centered-group">
