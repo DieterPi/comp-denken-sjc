@@ -23,7 +23,7 @@ print( 'Je gewicht op de maan is', gewicht_maan, 'N.' )
 Pas het programma nu aan zodat ook het gewicht op Venus en Mars berekend en afgedrukt wordt. Gebruik hierbij onderstaande tabel:
 
 | Planeet | Zwaarteveldsterkte (N/kg) |
-|:--------:|-------------|
+|:--------:|:-------------:|
 | Aarde  | 9,81 |
 | Maan | 1,622 |
 | Venus | 8,87 |
