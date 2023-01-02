@@ -1,0 +1,60 @@
+>>> drieklank((224, 40, 205)) # doctest: +STDOUT
+(205, 224, 40)
+(40, 205, 224)
+>>> drieklank((226, 203, 155)) # doctest: +STDOUT
+(155, 226, 203)
+(203, 155, 226)
+>>> drieklank((238, 203, 179)) # doctest: +STDOUT
+(179, 238, 203)
+(203, 179, 238)
+>>> drieklank((204, 225, 106)) # doctest: +STDOUT
+(106, 204, 225)
+(225, 106, 204)
+>>> drieklank((12, 138, 94)) # doctest: +STDOUT
+(94, 12, 138)
+(138, 94, 12)
+>>> drieklank((13, 73, 160)) # doctest: +STDOUT
+(160, 13, 73)
+(73, 160, 13)
+>>> drieklank((237, 155, 45)) # doctest: +STDOUT
+(45, 237, 155)
+(155, 45, 237)
+>>> drieklank((145, 160, 192)) # doctest: +STDOUT
+(192, 145, 160)
+(160, 192, 145)
+>>> drieklank((22, 7, 52)) # doctest: +STDOUT
+(52, 22, 7)
+(7, 52, 22)
+>>> drieklank((209, 33, 11)) # doctest: +STDOUT
+(11, 209, 33)
+(33, 11, 209)
+>>> drieklank((156, 228, 203)) # doctest: +STDOUT
+(203, 156, 228)
+(228, 203, 156)
+>>> drieklank((56, 228, 8)) # doctest: +STDOUT
+(8, 56, 228)
+(228, 8, 56)
+>>> drieklank((133, 155, 125)) # doctest: +STDOUT
+(125, 133, 155)
+(155, 125, 133)
+>>> drieklank((115, 31, 139)) # doctest: +STDOUT
+(139, 115, 31)
+(31, 139, 115)
+>>> drieklank((45, 177, 246)) # doctest: +STDOUT
+(246, 45, 177)
+(177, 246, 45)
+>>> drieklank((126, 96, 66)) # doctest: +STDOUT
+(66, 126, 96)
+(96, 66, 126)
+>>> drieklank((184, 49, 168)) # doctest: +STDOUT
+(168, 184, 49)
+(49, 168, 184)
+>>> drieklank((187, 223, 205)) # doctest: +STDOUT
+(205, 187, 223)
+(223, 205, 187)
+>>> drieklank((106, 152, 69)) # doctest: +STDOUT
+(69, 106, 152)
+(152, 69, 106)
+>>> drieklank((222, 200, 212)) # doctest: +STDOUT
+(212, 222, 200)
+(200, 212, 222)
