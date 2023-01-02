@@ -1,0 +1,80 @@
+>>> RGB((0, 128, 128)) # doctest: +STDOUT
+Rood: 0
+Groen: 128
+Blauw: 128
+>>> RGB((226, 203, 155)) # doctest: +STDOUT
+Rood: 226
+Groen: 203
+Blauw: 155
+>>> RGB((238, 203, 179)) # doctest: +STDOUT
+Rood: 238
+Groen: 203
+Blauw: 179
+>>> RGB((204, 225, 106)) # doctest: +STDOUT
+Rood: 204
+Groen: 225
+Blauw: 106
+>>> RGB((12, 138, 94)) # doctest: +STDOUT
+Rood: 12
+Groen: 138
+Blauw: 94
+>>> RGB((13, 73, 160)) # doctest: +STDOUT
+Rood: 13
+Groen: 73
+Blauw: 160
+>>> RGB((237, 155, 45)) # doctest: +STDOUT
+Rood: 237
+Groen: 155
+Blauw: 45
+>>> RGB((145, 160, 192)) # doctest: +STDOUT
+Rood: 145
+Groen: 160
+Blauw: 192
+>>> RGB((22, 7, 52)) # doctest: +STDOUT
+Rood: 22
+Groen: 7
+Blauw: 52
+>>> RGB((209, 33, 11)) # doctest: +STDOUT
+Rood: 209
+Groen: 33
+Blauw: 11
+>>> RGB((156, 228, 203)) # doctest: +STDOUT
+Rood: 156
+Groen: 228
+Blauw: 203
+>>> RGB((56, 228, 8)) # doctest: +STDOUT
+Rood: 56
+Groen: 228
+Blauw: 8
+>>> RGB((133, 155, 125)) # doctest: +STDOUT
+Rood: 133
+Groen: 155
+Blauw: 125
+>>> RGB((115, 31, 139)) # doctest: +STDOUT
+Rood: 115
+Groen: 31
+Blauw: 139
+>>> RGB((45, 177, 246)) # doctest: +STDOUT
+Rood: 45
+Groen: 177
+Blauw: 246
+>>> RGB((126, 96, 66)) # doctest: +STDOUT
+Rood: 126
+Groen: 96
+Blauw: 66
+>>> RGB((184, 49, 168)) # doctest: +STDOUT
+Rood: 184
+Groen: 49
+Blauw: 168
+>>> RGB((187, 223, 205)) # doctest: +STDOUT
+Rood: 187
+Groen: 223
+Blauw: 205
+>>> RGB((106, 152, 69)) # doctest: +STDOUT
+Rood: 106
+Groen: 152
+Blauw: 69
+>>> RGB((222, 200, 212)) # doctest: +STDOUT
+Rood: 222
+Groen: 200
+Blauw: 212
