@@ -2,7 +2,7 @@ Kleuren kunnen digitaal voorgesteld worden in het RGB-kleursysteem. Hierbij gebr
 
 Elk van de 3 getallen in het RGB-kleursysteem kan een waarde aannemen van 0 tot en met 255. Er zijn dus telkens 256 mogelijkheden per kleurcode.
 
-![De kleurcirkel.](media/annie-spratt.png "Foto door Annie Spratt op Unsplash."){:data-caption="De kleurencirkel." width="400px"}
+![De kleurcirkel.](media/annie-spratt.jpg "Foto door Annie Spratt op Unsplash."){:data-caption="De kleurencirkel." width="400px"}
 
 ## Opgave
 schrijf een functie `RGB()` die gegeven een RGB-code als **tupel** de afzonderlijke waarden afdrukt.
