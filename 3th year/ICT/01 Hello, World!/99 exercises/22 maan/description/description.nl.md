@@ -1,6 +1,6 @@
 Gewicht is een maat voor de **kracht** die een planeet op je lichaam uitoefent. Op aarde is de sterkte van het zwaarteveld 9,81 N/kg. De sterkte van het zwaarteveld op de maan is echter maar een zesde van deze op aarde, namelijk 1,622 N/kg.
 
-![Buzz Aldrin op de maan.](media/history-in-hd.jpg "100"){:data-caption="Buzz Aldrin op de maan" width="30%"}
+![Buzz Aldrin op de maan.](media/history-in-hd.jpg "Foto door History in HD op Unsplash."){:data-caption="Buzz Aldrin op de maan." width="30%"}
 
 Je kan schakelen tussen beide gewichten met de volgende formule
 
