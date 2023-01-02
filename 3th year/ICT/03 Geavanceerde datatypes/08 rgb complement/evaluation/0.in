@@ -1,0 +1,40 @@
+>>> complementair((0, 128, 128)) # doctest: +STDOUT
+(255, 127, 127)
+>>> complementair((226, 203, 155)) # doctest: +STDOUT
+(29, 52, 100)
+>>> complementair((238, 203, 179)) # doctest: +STDOUT
+(17, 52, 76)
+>>> complementair((204, 225, 106)) # doctest: +STDOUT
+(51, 30, 149)
+>>> complementair((12, 138, 94)) # doctest: +STDOUT
+(243, 117, 161)
+>>> complementair((13, 73, 160)) # doctest: +STDOUT
+(242, 182, 95)
+>>> complementair((237, 155, 45)) # doctest: +STDOUT
+(18, 100, 210)
+>>> complementair((145, 160, 192)) # doctest: +STDOUT
+(110, 95, 63)
+>>> complementair((22, 7, 52)) # doctest: +STDOUT
+(233, 248, 203)
+>>> complementair((209, 33, 11)) # doctest: +STDOUT
+(46, 222, 244)
+>>> complementair((156, 228, 203)) # doctest: +STDOUT
+(99, 27, 52)
+>>> complementair((56, 228, 8)) # doctest: +STDOUT
+(199, 27, 247)
+>>> complementair((133, 155, 125)) # doctest: +STDOUT
+(122, 100, 130)
+>>> complementair((115, 31, 139)) # doctest: +STDOUT
+(140, 224, 116)
+>>> complementair((45, 177, 246)) # doctest: +STDOUT
+(210, 78, 9)
+>>> complementair((126, 96, 66)) # doctest: +STDOUT
+(129, 159, 189)
+>>> complementair((184, 49, 168)) # doctest: +STDOUT
+(71, 206, 87)
+>>> complementair((187, 223, 205)) # doctest: +STDOUT
+(68, 32, 50)
+>>> complementair((106, 152, 69)) # doctest: +STDOUT
+(149, 103, 186)
+>>> complementair((222, 200, 212)) # doctest: +STDOUT
+(33, 55, 43)
