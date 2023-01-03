@@ -1,30 +1,32 @@
->>> faculteit(4)
+>>> faculteit(4) # doctest: +STDOUT
 24
->>> faculteit(6)
+>>> faculteit(6) # doctest: +STDOUT
 720
->>> faculteit(11)
+>>> faculteit(11) # doctest: +STDOUT
 39916800
->>> faculteit(8)
+>>> faculteit(8) # doctest: +STDOUT
 40320
->>> faculteit(9)
+>>> faculteit(9) # doctest: +STDOUT
 362880
->>> faculteit(12)
+>>> faculteit(12) # doctest: +STDOUT
 479001600
->>> faculteit(15)
+>>> faculteit(15) # doctest: +STDOUT
 1307674368000
->>> faculteit(14)
+>>> faculteit(14) # doctest: +STDOUT
 87178291200
->>> faculteit(15)
+>>> faculteit(15) # doctest: +STDOUT
 1307674368000
->>> faculteit(13)
+>>> faculteit(13) # doctest: +STDOUT
 6227020800
->>> faculteit(10)
+>>> faculteit(10) # doctest: +STDOUT
 3628800
->>> faculteit(7)
+>>> faculteit(7) # doctest: +STDOUT
 5040
->>> faculteit(15)
+>>> faculteit(15) # doctest: +STDOUT
 1307674368000
->>> faculteit(5)
+>>> faculteit(5) # doctest: +STDOUT
 120
->>> faculteit(12)
+>>> faculteit(12) # doctest: +STDOUT
 479001600
+>>> faculteit(0) # doctest: +STDOUT
+1
