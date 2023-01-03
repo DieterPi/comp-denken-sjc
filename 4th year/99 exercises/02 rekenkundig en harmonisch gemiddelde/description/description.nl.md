@@ -35,4 +35,4 @@ tupel = ( 5, 10, 3 )
 
 for getal in tupel:
     print( getal )
-```
+>```
