@@ -1,3 +1,4 @@
+import math
 import os
 import random
 import subprocess
@@ -29,9 +30,20 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(7,4,7,19),]
+cases = [(7,4,7,19),(10,7,23,21),]
 while len(cases) < ntests:
-    cases.append( (random.randint(0,27),random.randint(1,17), random.randint(0,23), random.randint(0,23)) )
+    vertrek = random.randint(0,23)
+    aankomst = random.randint(0,23)
+    verschil = aankomst - vertrek
+    if verschil >= 0:
+        z = random.randint(1, verschil )
+        u = abs(verschil-z-1)
+    else:
+        z = random.randint(1,(24-vertrek+aankomst))
+        u = abs(verschil-z-1)
+    
+    if u <=17 and z < 10:
+        cases.append( (u, z, vertrek, aankomst ) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')

@@ -4,7 +4,7 @@ $$d = \frac{\frac{u}{2} + (z-3) + v + a}{10}$$
 
 Hierbij stelt $$u$$ het aantal vlieguren van de reis voor en $$z$$ het aantal tijdszones dat daarbij overbrugd wordt. Het uur van vertrek $$v$$ en aankomt $$a$$ wordt ingecalculeerd op basis van onderstaande tabellen.
 
-| vertrek tussen | $v$ | | aankomst tussen | $a$ |
+| vertrek tussen | $$v$$ | | aankomst tussen | $$a$$ |
 |:--------:|:-----------:|--|:--------:|:-----------:|
 | 8u00 en 12u00 | 0| | 8u00 en 12u00 | 4|
 | 12u00 en 18u00 | 1 | | 12u00 en 18u00 | 2 |
@@ -16,7 +16,7 @@ Hierbij stelt $$u$$ het aantal vlieguren van de reis voor en $$z$$ het aantal ti
 
 De grenzen die gebruikt worden om en te bepalen zijn steeds exclusief het beginuur en inclusief het einduur. Vertrek- en aankomsttijden zijn steeds aangegeven in de lokale tijd.
 
-![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="60%"}
+![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="50%"}
 
 ## Opgave
 Schrijf een programma dat vier natuurlijke getallen vraagt, respectievelijk de waarden voor $$u$$, $$z$$, vertrektijd en aankomsttijd.  De vertrek- en aankomsttijden worden afgerond tot het dichtsbijzijnde uur.
@@ -30,7 +30,7 @@ Wat als uitvoer oplevert:
 Je hebt 0.95 dagen nodig om te herstellen.
 ```
 
-De invoer `9999` levert als uitvoer
+Stel dat je vertrekt om 23u00 en de dag nadien om 21u00 aankomt. Onderweg ben je 7 tijdzones gepasseerd en de vlucht duurde dus 10 uur, dan leidt de invoer van `10`, `7`, `23` en `21` tot:
 ```
-Je moet maar één stap meer zetten.
+Je hebt 1.3 dagen nodig om te herstellen.
 ```
