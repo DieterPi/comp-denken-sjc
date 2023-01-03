@@ -1,11 +1,11 @@
 Het <a href='https://nl.wikipedia.org/wiki/Vermoeden_van_Collatz' target='_blanc'>vermoeden van Collatz</a> is een vermoeden (dus nog **niet** bewezen) uit 1937 dat zegt dat een bepaalde *iteratieve* methode steeds bij 1 eindigt. De methode verloopt als volgt:
 
-Neem een willeurig geheel getal $$n$$ als startwaarde:
+Neem een willeurig natuurlijk getal n als startwaarde:
 
-- als $$n$$ even is, deel het door 2.
-- als $$n$$ oneven is, vermenigvuldig het met 3 en tel er 1 bij op.
+- als n even is, deel het door 2.
+- als n oneven is, vermenigvuldig het met 3 en tel er 1 bij op.
 
-Als $$n= 12$$ dan verkrijg je de volgende rij: $$12, 6, 3, 10, 5, 16, 8, 4, 2, 1$$. Je merkt dat de rij inderdaad eindigt bij $$1$$
+Als n= 12 dan verkrijg je de volgende rij: 12, 6, 3, 10, 5, 16, 8, 4, 2, 1. Je merkt dat de rij inderdaad eindigt bij 1.
 
 ![Collatz conjecture](media/collatz_conjecture.png "Collatz conjecture"){:data-caption="De hypothese van Collatz, xkcd-cartoon (https://xkcd.com/710)" width="28%"}
 
@@ -17,11 +17,17 @@ Daarnaast schrijf je een functie `collatz()` die gegeven een startwaarde de voll
 ```
 >>> volgend_collatz_getal( 8 )
 4
+```
+```
 >>> volgend_collatz_getal( 17 )
 52
-
+```
+Die functie gebruik je om een Collatz rij op te stellen.
+```
 >>> collatz( 8 )
 [8, 4, 2, 1]
+```
+```
 >>> collatz( 17 )
 [17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
 ```
