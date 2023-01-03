@@ -1,5 +1,5 @@
 ## Opgave
-Het volgende stukje code berekent het product `n · x` door herhaaldelijk de optelling te gebruiken: `n · x = x + x + x + ... + x`.
+Het volgende stukje code berekent het product `n · x` door herhaaldelijk de optelling te gebruiken: `n · x = x + x + ... + x`.
 
 ```python
 n = int( input( 'n = ' ) )
@@ -11,7 +11,7 @@ for i in  range( n ):
 print( product ) 
 ```
 
-Hoe moet je deze code aanpassen zodat je er de machtsverheffing `x^n` mee kan programmeren: `x^n = x · x · x · ... · x`.
+Hoe moet je deze code aanpassen zodat je er de machtsverheffing `x^n` mee kan programmeren: `x^n = x · x · ... · x`.
 
 
 #### Voorbeelden
