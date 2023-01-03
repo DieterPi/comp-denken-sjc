@@ -5,7 +5,9 @@ $$
 n! = 1\cdot 2\cdot 3\cdot \ldots \cdot n
 $$
 
-Bijvoorbeeld: 4! = 1 · 2 · 3 · 4 = 24. Een belangrijke toepassing van de faculteit is het kunnen uitrekenen van telproblemen. Bijvoorbeeld: op hoeveel manieren kan je 3 verschillende objecten rangschikken/ordenen? Het antwoord blijkt gelijk te zijn aan 3! = 1 · 2 · 3 = 6. Dit zie je ook in de afbeelding hieronder: er zijn 6 mogelijke manieren om 3 boeken te ordenen. 
+Bijvoorbeeld: 4! = 1 · 2 · 3 · 4 = 24. Een belangrijke toepassing van de faculteit is het kunnen uitrekenen van telproblemen. 
+
+Een mogelijke toepassing: op hoeveel manieren kan je 3 verschillende objecten rangschikken/ordenen? Het antwoord blijkt gelijk te zijn aan 3! = 1 · 2 · 3 = 6. Dit zie je ook in de afbeelding hieronder: er zijn 6 mogelijke manieren om 3 boeken te ordenen. 
 
 ![Faculteit](media/faculteit.jpg "Faculteit"){:data-caption="Het aantal manieren om een 3 boeken te ordenen is 3 faculteit." width="35%"}
 
