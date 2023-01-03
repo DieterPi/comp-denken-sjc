@@ -8,7 +8,7 @@ $$
 
 waarbij $$r$$ de (kleine) straal van de binnenste cirkel en $$R$$ de (grote) straal van de buitenste cirkel voorstelt.
 
-![donut](media/doughnut.jpg "Een donut"){:data-caption="Een donut" width="30%"}
+![Enkele donuts.](media/doughnut.jpg "Foto door Heather Ford op Unsplash."){:data-caption="Enkele donuts." width="30%"}
 
 ## Opgave
 Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waarbij de kleine straal kleiner is dan de grote straal) en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op 3 cijfers na de komma.
