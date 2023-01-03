@@ -11,7 +11,7 @@ for i in  range( n ):
 print( product ) 
 ```
 
-Hoe moet je deze code aanpassen zodat je er de machtsverheffing x<span style="vertical-align: super;">n</span> mee kan programmeren: x<span style="vertical-align: super;">n</span> = x · x · ... · x`.
+Hoe moet je deze code aanpassen zodat je er de machtsverheffing x<span style="vertical-align: super;">n</span> mee kan programmeren: x<span style="vertical-align: super;">n</span> = x · x · ... · x.
 
 
 #### Voorbeelden
