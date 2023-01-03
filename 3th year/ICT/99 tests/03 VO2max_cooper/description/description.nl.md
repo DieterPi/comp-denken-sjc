@@ -2,7 +2,7 @@ De **VO₂max** of het **maximale zuurstofopnamevermogen** is het maximale volum
 
 Gemiddeld gesproken hebben mannen een VO₂max tussen 35 en 40 ml/kg/min. Voor vrouwen ligt dit tussen de 27 en 31 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen.
 
-![running](media/running.jpg "Een joggende man"){:data-caption="Een joggende man" width="40%"}
+![Een joggende man.](media/running.jpg "Foto door Gary Butterfield op Unsplash."){:data-caption="Een joggende man." width="40%"}
 
 Een methode om de VO₂max te schatten maakt gebruik van de <a href='https://nl.wikipedia.org/wiki/Coopertest' target='_blank'>coopertest</a> en onderstaande formule:
 
