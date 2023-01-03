@@ -11,7 +11,7 @@ $$
 ## Opgave
 Schrijf een functie `fibonnaci()` met het rangnummer als parameter en zodat deze het getal met dat rangnummer afdrukt.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> fibonnaci( 2 )
 1
