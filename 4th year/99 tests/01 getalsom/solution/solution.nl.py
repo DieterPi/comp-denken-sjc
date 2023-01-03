@@ -5,7 +5,7 @@ def getalsom( getal ):
     som = 0
     while getal > 0:
         som += getal % 10
-        getal = getal // 10
+        getal //= 10
     print( som )
 
 if __name__ == '__main__':

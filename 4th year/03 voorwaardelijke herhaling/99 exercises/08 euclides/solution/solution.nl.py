@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 def ggd( getal1, getal2 ):
-    A = max(getal1, getal2)
-    B = min(getal1, getal2)
+    A = max( getal1, getal2 )
+    B = min( getal1, getal2 )
 
     rest = A % B
     while rest != 0:
