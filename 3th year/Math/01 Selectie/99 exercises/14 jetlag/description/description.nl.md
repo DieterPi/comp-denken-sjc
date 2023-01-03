@@ -4,33 +4,16 @@ $$d = \frac{\frac{u}{2} + (z-3) + v + a}{10}$$
 
 Hierbij stelt $$u$$ het aantal vlieguren van de reis voor en $$z$$ het aantal tijdszones dat daarbij overbrugd wordt. Het uur van vertrek $$v$$ en aankomt $$a$$ wordt ingecalculeerd op basis van onderstaande tabellen.
 
-
-<div class="dodona-centered-group">
-
-<div>
-| vertrek tussen | $v$ |
-|:--------:|:-----------:|
-| 8u00 en 12u00 | 0|
-| 12u00 en 18u00 | 1 |
-| 18u00 en 22u00| 3 |
-| 22u00 en 1u00 | 4 |
-| 1u00 en 8u00 | 5 |
+| vertrek tussen | $v$ | | aankomst tussen | $a$ |
+|:--------:|:-----------:|--|:--------:|:-----------:|
+| 8u00 en 12u00 | 0| | 8u00 en 12u00 | 4|
+| 12u00 en 18u00 | 1 | | 12u00 en 18u00 | 2 |
+| 18u00 en 22u00| 3 | | 18u00 en 22u00| 0 |
+| 22u00 en 1u00 | 4 | | 22u00 en 1u00 | 1 |
+| 1u00 en 8u00 | 5 | | 1u00 en 8u00 | 3 |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
-</div>
 
 
-<div>
-| aankomst tussen | $a$ |
-|:--------:|:-----------:|
-| 8u00 en 12u00 | 4|
-| 12u00 en 18u00 | 2 |
-| 18u00 en 22u00| 0 |
-| 22u00 en 1u00 | 1 |
-| 1u00 en 8u00 | 3 |
-{:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
-</div>
-
-</div>
 De grenzen die gebruikt worden om en te bepalen zijn steeds exclusief het beginuur en inclusief het einduur. Vertrek- en aankomsttijden zijn steeds aangegeven in de lokale tijd.
 
 ![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="60%"}
