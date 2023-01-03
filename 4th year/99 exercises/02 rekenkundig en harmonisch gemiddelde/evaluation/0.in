@@ -1,40 +1,40 @@
->>> rekenkundig_gemiddelde((100, 120))
+>>> rekenkundig_gemiddelde((100, 120)) # doctest: +STDOUT
 110.0
->>> rekenkundig_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35))
+>>> rekenkundig_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35)) # doctest: +STDOUT
 33.56
->>> rekenkundig_gemiddelde((26, 29, 35, 45, 14, 44, 39))
+>>> rekenkundig_gemiddelde((26, 29, 35, 45, 14, 44, 39)) # doctest: +STDOUT
 33.14
->>> rekenkundig_gemiddelde((18, 40))
+>>> rekenkundig_gemiddelde((18, 40)) # doctest: +STDOUT
 29.0
->>> rekenkundig_gemiddelde((2, 48, 40, 10))
+>>> rekenkundig_gemiddelde((2, 48, 40, 10)) # doctest: +STDOUT
 25.0
->>> rekenkundig_gemiddelde((44, 30, 38, 20, 41, 6, 19))
+>>> rekenkundig_gemiddelde((44, 30, 38, 20, 41, 6, 19)) # doctest: +STDOUT
 28.29
->>> rekenkundig_gemiddelde((25, 43, 50, 3, 1, 7, 42))
+>>> rekenkundig_gemiddelde((25, 43, 50, 3, 1, 7, 42)) # doctest: +STDOUT
 24.43
->>> rekenkundig_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26))
+>>> rekenkundig_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26)) # doctest: +STDOUT
 23.88
->>> rekenkundig_gemiddelde((48, 29, 2))
+>>> rekenkundig_gemiddelde((48, 29, 2)) # doctest: +STDOUT
 26.33
->>> rekenkundig_gemiddelde((20, 16, 43, 46, 15, 4))
+>>> rekenkundig_gemiddelde((20, 16, 43, 46, 15, 4)) # doctest: +STDOUT
 24.0
->>> rekenkundig_gemiddelde((36, 44, 6, 23, 31, 46))
+>>> rekenkundig_gemiddelde((36, 44, 6, 23, 31, 46)) # doctest: +STDOUT
 31.0
->>> rekenkundig_gemiddelde((48, 43, 13, 33, 9))
+>>> rekenkundig_gemiddelde((48, 43, 13, 33, 9)) # doctest: +STDOUT
 29.2
->>> rekenkundig_gemiddelde((47, 7, 22, 35, 24, 33, 28))
+>>> rekenkundig_gemiddelde((47, 7, 22, 35, 24, 33, 28)) # doctest: +STDOUT
 28.0
->>> rekenkundig_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26))
+>>> rekenkundig_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26)) # doctest: +STDOUT
 28.2
->>> rekenkundig_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26))
+>>> rekenkundig_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26)) # doctest: +STDOUT
 26.25
->>> rekenkundig_gemiddelde((25, 47, 33, 44, 48, 10))
+>>> rekenkundig_gemiddelde((25, 47, 33, 44, 48, 10)) # doctest: +STDOUT
 34.5
->>> rekenkundig_gemiddelde((34, 17, 1))
+>>> rekenkundig_gemiddelde((34, 17, 1)) # doctest: +STDOUT
 17.33
->>> rekenkundig_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2))
+>>> rekenkundig_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2)) # doctest: +STDOUT
 24.44
->>> rekenkundig_gemiddelde((13, 43, 35, 45, 22, 20))
+>>> rekenkundig_gemiddelde((13, 43, 35, 45, 22, 20)) # doctest: +STDOUT
 29.67
->>> rekenkundig_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13))
+>>> rekenkundig_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13)) # doctest: +STDOUT
 22.88

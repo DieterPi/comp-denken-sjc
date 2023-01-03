@@ -1,6 +1,7 @@
 ## Opgave
-In de lessen ICT werd het harmonisch gemiddelde van twee getallen bepaald. 
-Schrijf twee **functies** `rekenkundige_gemiddelde( tupel )` en `harmonisch_gemiddelde( tupel )` die voor een gegeven tupel met willekeurige lengte de respectievelijke gemiddeldes **retourneert**. De gemiddeldes worden steeds afgerond op 2 cijfers na de komma.
+Vorig jaar heb je al eens het rekenkundig en harmonisch gemiddelde van twee getallen bepaald. Nu kan je dit veralgemenen.
+
+Schrijf twee **functies** `rekenkundige_gemiddelde( tupel )` en `harmonisch_gemiddelde( tupel )` die voor een gegeven *tupel* met willekeurige lengte de respectievelijke gemiddeldes **afdrukt**. De gemiddeldes worden steeds afgerond op 2 cijfers na de komma.
 
 De definities van rekenkundig $$\overline x$$ en harmonisch $$x_h$$ gemiddelde voor een tupel $$(x_1,x_2,x_3, \ldots, x_n)$$ zijn als volgt:
 
@@ -24,4 +25,14 @@ Maar evengoed voor een langere rij getallen:
 33.56
 >>> harmonisch_gemiddelde( (35, 46, 39, 26, 20, 45, 30, 26, 35) )
 31.36
+```
+
+{: .callout.callout-info}
+> #### Tip
+> Een tupel is een datatype in Python waarbij je **gemakkelijk** over kan itereren. Beschouw bijvoorbeeld volgend stukje code dat van een tupel elk element afdrukt.
+> ```python
+tupel = ( 5, 10, 3 )
+
+for getal in tupel:
+    print( getal )
 ```

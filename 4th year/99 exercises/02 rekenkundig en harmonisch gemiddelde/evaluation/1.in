@@ -1,40 +1,40 @@
->>> harmonisch_gemiddelde((100, 120))
+>>> harmonisch_gemiddelde((100, 120)) # doctest: +STDOUT
 109.09
->>> harmonisch_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35))
+>>> harmonisch_gemiddelde((35, 46, 39, 26, 20, 45, 30, 26, 35)) # doctest: +STDOUT
 31.36
->>> harmonisch_gemiddelde((26, 29, 35, 45, 14, 44, 39))
+>>> harmonisch_gemiddelde((26, 29, 35, 45, 14, 44, 39)) # doctest: +STDOUT
 28.74
->>> harmonisch_gemiddelde((18, 40))
+>>> harmonisch_gemiddelde((18, 40)) # doctest: +STDOUT
 24.83
->>> harmonisch_gemiddelde((2, 48, 40, 10))
+>>> harmonisch_gemiddelde((2, 48, 40, 10)) # doctest: +STDOUT
 6.19
->>> harmonisch_gemiddelde((44, 30, 38, 20, 41, 6, 19))
+>>> harmonisch_gemiddelde((44, 30, 38, 20, 41, 6, 19)) # doctest: +STDOUT
 18.61
->>> harmonisch_gemiddelde((25, 43, 50, 3, 1, 7, 42))
+>>> harmonisch_gemiddelde((25, 43, 50, 3, 1, 7, 42)) # doctest: +STDOUT
 4.42
->>> harmonisch_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26))
+>>> harmonisch_gemiddelde((36, 5, 2, 39, 34, 20, 29, 26)) # doctest: +STDOUT
 8.83
->>> harmonisch_gemiddelde((48, 29, 2))
+>>> harmonisch_gemiddelde((48, 29, 2)) # doctest: +STDOUT
 5.4
->>> harmonisch_gemiddelde((20, 16, 43, 46, 15, 4))
+>>> harmonisch_gemiddelde((20, 16, 43, 46, 15, 4)) # doctest: +STDOUT
 12.65
->>> harmonisch_gemiddelde((36, 44, 6, 23, 31, 46))
+>>> harmonisch_gemiddelde((36, 44, 6, 23, 31, 46)) # doctest: +STDOUT
 19.07
->>> harmonisch_gemiddelde((48, 43, 13, 33, 9))
+>>> harmonisch_gemiddelde((48, 43, 13, 33, 9)) # doctest: +STDOUT
 19.05
->>> harmonisch_gemiddelde((47, 7, 22, 35, 24, 33, 28))
+>>> harmonisch_gemiddelde((47, 7, 22, 35, 24, 33, 28)) # doctest: +STDOUT
 20.24
->>> harmonisch_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26))
+>>> harmonisch_gemiddelde((26, 14, 41, 20, 9, 40, 35, 28, 43, 26)) # doctest: +STDOUT
 22.4
->>> harmonisch_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26))
+>>> harmonisch_gemiddelde((35, 8, 18, 32, 25, 29, 37, 26)) # doctest: +STDOUT
 21.03
->>> harmonisch_gemiddelde((25, 47, 33, 44, 48, 10))
+>>> harmonisch_gemiddelde((25, 47, 33, 44, 48, 10)) # doctest: +STDOUT
 25.52
->>> harmonisch_gemiddelde((34, 17, 1))
+>>> harmonisch_gemiddelde((34, 17, 1)) # doctest: +STDOUT
 2.76
->>> harmonisch_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2))
+>>> harmonisch_gemiddelde((33, 43, 44, 3, 47, 18, 21, 9, 2)) # doctest: +STDOUT
 7.86
->>> harmonisch_gemiddelde((13, 43, 35, 45, 22, 20))
+>>> harmonisch_gemiddelde((13, 43, 35, 45, 22, 20)) # doctest: +STDOUT
 24.35
->>> harmonisch_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13))
+>>> harmonisch_gemiddelde((18, 25, 46, 13, 8, 18, 42, 13)) # doctest: +STDOUT
 16.82
