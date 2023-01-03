@@ -1,2 +1,2 @@
-def bladsteenschaar( woord1, woord2 ):
+def rockpaperscissors( woord1, woord2 ):
     

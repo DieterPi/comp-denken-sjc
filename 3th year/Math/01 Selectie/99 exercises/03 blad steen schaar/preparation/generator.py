@@ -28,9 +28,9 @@ for name in dir(module):
         globals()[name] = eval(f'module.{name}')
 
 # generate test data
-opties = ( 'blad', 'steen', 'schaar')
+opties = ( 'paper', 'rock', 'scissors')
 ntests= 20
-cases = [('blad','blad'),('steen','blad'),('schaar','blad'),]
+cases = [('paper','paper'),('rock','paper'),('scissors','paper'),]
 while len(cases) < ntests:
     
     cases.append( (opties[random.randint(0,2)], opties[random.randint(0,2)]) ) 
@@ -39,10 +39,10 @@ while len(cases) < ntests:
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> bladsteenschaar(\'{test[0]}\', \'{test[1]}\') # doctest: +STDOUT')
+    print(f'>>> rockpaperscissors(\'{test[0]}\', \'{test[1]}\') # doctest: +STDOUT')
 
     # generate return value
     try:
-        module.bladsteenschaar(test[0], test[1])
+        module.rockpaperscissors(test[0], test[1])
     except Exception as e:
         print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))

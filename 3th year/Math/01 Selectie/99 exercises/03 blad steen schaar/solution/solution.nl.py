@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-def bladsteenschaar( woord1, woord2 ):
+def rockpaperscissors( woord1, woord2 ):
     if woord1 == woord2:
         print( 'onbeslist' )
-    elif woord1 == 'blad' and woord2 == 'steen':
+    elif woord1 == 'paper' and woord2 == 'rock':
         print( 'speler 1 wint' )
-    elif woord1 == 'steen' and woord2 == 'schaar':
+    elif woord1 == 'rock' and woord2 == 'scissors':
         print( 'speler 1 wint' )
-    elif woord1 == 'schaar' and woord2 == 'blad':
+    elif woord1 == 'scissors' and woord2 == 'paper':
         print( 'speler 1 wint' )
     else: 
         print( 'speler 2 wint' )

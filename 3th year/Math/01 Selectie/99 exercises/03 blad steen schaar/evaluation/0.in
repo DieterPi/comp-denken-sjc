@@ -1,40 +1,18 @@
->>> bladsteenschaar('blad', 'blad') # doctest: +STDOUT
+>>> rockpaperscissors('paper', 'paper') # doctest: +STDOUT
 onbeslist
->>> bladsteenschaar('steen', 'blad') # doctest: +STDOUT
+>>> rockpaperscissors('rock', 'paper') # doctest: +STDOUT
 speler 2 wint
->>> bladsteenschaar('schaar', 'blad') # doctest: +STDOUT
+>>> rockpaperscissors('scissors', 'paper') # doctest: +STDOUT
 speler 1 wint
->>> bladsteenschaar('schaar', 'steen') # doctest: +STDOUT
+>>> rockpaperscissors('scissors', 'rock') # doctest: +STDOUT
 speler 2 wint
->>> bladsteenschaar('schaar', 'schaar') # doctest: +STDOUT
+>>> rockpaperscissors('scissors', 'scissors') # doctest: +STDOUT
 onbeslist
->>> bladsteenschaar('schaar', 'steen') # doctest: +STDOUT
+>>> rockpaperscissors('rock', 'scissors') # doctest: +STDOUT
+speler 1 wint
+>>> rockpaperscissors('rock', 'rock') # doctest: +STDOUT
+onbeslist
+>>> rockpaperscissors('paper', 'scissors') # doctest: +STDOUT
 speler 2 wint
->>> bladsteenschaar('steen', 'schaar') # doctest: +STDOUT
-speler 1 wint
->>> bladsteenschaar('steen', 'steen') # doctest: +STDOUT
-onbeslist
->>> bladsteenschaar('schaar', 'steen') # doctest: +STDOUT
-speler 2 wint
->>> bladsteenschaar('steen', 'steen') # doctest: +STDOUT
-onbeslist
->>> bladsteenschaar('schaar', 'schaar') # doctest: +STDOUT
-onbeslist
->>> bladsteenschaar('blad', 'schaar') # doctest: +STDOUT
-speler 2 wint
->>> bladsteenschaar('schaar', 'blad') # doctest: +STDOUT
-speler 1 wint
->>> bladsteenschaar('steen', 'schaar') # doctest: +STDOUT
-speler 1 wint
->>> bladsteenschaar('blad', 'blad') # doctest: +STDOUT
-onbeslist
->>> bladsteenschaar('schaar', 'schaar') # doctest: +STDOUT
-onbeslist
->>> bladsteenschaar('blad', 'schaar') # doctest: +STDOUT
-speler 2 wint
->>> bladsteenschaar('steen', 'schaar') # doctest: +STDOUT
-speler 1 wint
->>> bladsteenschaar('steen', 'schaar') # doctest: +STDOUT
-speler 1 wint
->>> bladsteenschaar('steen', 'schaar') # doctest: +STDOUT
+>>> rockpaperscissors('paper', 'rock') # doctest: +STDOUT
 speler 1 wint
