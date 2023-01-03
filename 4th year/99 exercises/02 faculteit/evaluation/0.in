@@ -14,11 +14,17 @@
 1307674368000
 >>> faculteit(14)
 87178291200
+>>> faculteit(15)
+1307674368000
 >>> faculteit(13)
 6227020800
 >>> faculteit(10)
 3628800
 >>> faculteit(7)
 5040
+>>> faculteit(15)
+1307674368000
 >>> faculteit(5)
 120
+>>> faculteit(12)
+479001600
