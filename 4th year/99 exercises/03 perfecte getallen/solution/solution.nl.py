@@ -6,7 +6,7 @@ def is_perfect( getal ):
     for i in range( 1, getal ):
         if getal % i == 0:
             som += i
-    return som == getal
+    print(som == getal)
 
 if __name__ == '__main__':
     import doctest

@@ -1,20 +1,20 @@
->>> is_perfect(6)
+>>> is_perfect(6) # doctest: +STDOUT
 True
->>> is_perfect(25)
+>>> is_perfect(25) # doctest: +STDOUT
 False
->>> is_perfect(28)
+>>> is_perfect(28) # doctest: +STDOUT
 True
->>> is_perfect(496)
+>>> is_perfect(496) # doctest: +STDOUT
 True
->>> is_perfect(7266)
+>>> is_perfect(7266) # doctest: +STDOUT
 False
->>> is_perfect(8903)
+>>> is_perfect(8903) # doctest: +STDOUT
 False
->>> is_perfect(8128)
+>>> is_perfect(8128) # doctest: +STDOUT
 True
->>> is_perfect(6527)
+>>> is_perfect(6527) # doctest: +STDOUT
 False
->>> is_perfect(4998)
+>>> is_perfect(4998) # doctest: +STDOUT
 False
->>> is_perfect(7666)
+>>> is_perfect(7666) # doctest: +STDOUT
 False

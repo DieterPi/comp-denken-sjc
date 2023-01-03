@@ -1,6 +1,6 @@
 Perfecte getallen zijn positieve natuurlijke getallen waarbij de som van de echte delers gelijk is aan het getal zelf.
 
-Het kleinste perfecte getal is $$6$$, de *echte* delers van 6 zijn immers, $$1,2$$ en $$3$$.
+Het kleinste perfecte getal is 6, de *echte* delers van 6 zijn immers, 1, 2 en 3.
 
 $$
 6 = 1 + 2 + 3
@@ -13,15 +13,15 @@ Schrijf een functie `is_perfect()` met een natuurlijk getal als parameter dat co
 ```
 >>> is_perfect( 6 )
 True
+```
+```
 >>> is_perfect( 25 )
 False
+```
+```
 >>> is_perfect( 28 )
 True
 ```
-
-{: .callout.callout-info}
-> #### Tip
-> Voor parameter 6 overloop je alle getallen tot 6 en controleer je telkens of ze een deler zijn. Indien ja, dan voer de nodige bewerking uit.
 
 #### Epiloog
 Het is niet geweten of er oneven perfecte getallen is, noch dat er oneindig bestaan.
