@@ -1,6 +1,6 @@
 Fruit eten is gezond, dat weet iedereen. Maar naast gezonde vezels, antioxidanten, enz. bevatten bepaalde fruitsoorten vrij veel suiker.
 
-![Een gezonde hoeveelheid fruit.](media/alexander-schimmeck.jpg "Foto door Alexander Schimmeck op Unsplash."){:data-caption="Een gezonde hoeveelheid fruit." width="45%"}
+![Een gezonde hoeveelheid fruit.](media/jonas-kakaroto.jpg "Foto door Jonas Kakaroto op Unsplash."){:data-caption="Een gezonde hoeveelheid fruit." width="45%"}
 
 ## Opgave
 100 g watermeloen bevat bijvoorbeeld 6 g suiker. Hieronder staat een programma dat de gebruiker vraagt hoeveel gram fruit hij/zij zal consumeren en vervolgens op het scherm de hoeveelheid suikers afdrukt.
