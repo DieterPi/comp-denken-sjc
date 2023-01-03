@@ -1,4 +1,4 @@
-In 1673 bewees <a href='https://nl.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz' target='_blanc'>Gottfried Leibniz</a> onderstaande formule om het getal π te kunnen berekenen (in de praktijk: *benaderen*).
+In 1673 bewees <a href='https://nl.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz' target='_blanc'>Gottfried Leibniz</a> onderstaande (alternerende) formule om het getal π te kunnen berekenen (in de praktijk: *benaderen*).
 
 ![Gottfried Wilhelm Leibniz, aartsrivaal van Sir Isaac Newton.](media/Leibniz.jpg "Gottfried Wilhelm Leibniz geschilderd door Bernhard Christoph Francke."){:data-caption="Gottfried Wilhelm Leibniz, aartsrivaal van Sir Isaac Newton." width="20%"}
 
@@ -20,13 +20,17 @@ Bepaal een benadering voor het getal π met bovenstaande uitdrukking. Vul hiervo
 Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend opdat de benadering in de buurt komt, gelukkig kan een computer dit vrij vlot.
 ```
 >>> leibniz_benadering( 10 )
-3.049361636
+3.041839619
 ```
 ```
 >>> leibniz_benadering( 100 )
-3.132076532
+3.131592904
 ```
 ```
 >>> leibniz_benadering( 10000 )
-3.141497164
+3.141492654
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Het alterneren kan je gemakkelijk bekomen via `pow( -1, i )`. Als `i` even is zal dit `1` opleveren, is `i` oneven dan levert dit `-1` op.
