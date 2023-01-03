@@ -1,4 +1,4 @@
-Inkopen doen tijdens de solden kan nogal verwarrend zijn, kortingen van 10%, 20% tot zelfs 70%ç
+Inkopen doen tijdens de solden kan nogal verwarrend zijn, kortingen van 10%, 20% tot zelfs 70%!
 
 ![Grote korting in de winkel.](media/artem-beliaikin.jpg "Foto door Artem Beliaikin op Unsplash."){:data-caption="Grote korting in de winkel." width="40%"}
 
