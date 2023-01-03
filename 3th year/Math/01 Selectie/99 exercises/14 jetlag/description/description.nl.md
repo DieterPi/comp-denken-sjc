@@ -5,6 +5,7 @@ $$d = \frac{\frac{u}{2} + (z-3) + v + a}{10}$$
 Hierbij stelt $u$ het aantal vlieguren van de reis voor en $z$ het aantal tijdszones dat daarbij overbrugd wordt. Het uur van vertrek $v$ en aankomt $a$ wordt ingecalculeerd op basis van onderstaande tabellen.
 
 <div class="dodona-centered-group">
+
 | vertrek tussen | $v$ |
 |:--------:|:-----------:|
 | 8u00 en 12u00 | 0|
@@ -14,6 +15,8 @@ Hierbij stelt $u$ het aantal vlieguren van de reis voor en $z$ het aantal tijdsz
 | 1u00 en 8u00 | 5 |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
+
+
 | aankomst tussen | $a$ |
 |:--------:|:-----------:|
 | 8u00 en 12u00 | 4|
@@ -22,11 +25,12 @@ Hierbij stelt $u$ het aantal vlieguren van de reis voor en $z$ het aantal tijdsz
 | 22u00 en 1u00 | 1 |
 | 1u00 en 8u00 | 3 |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
+
 </div>
 
 De grenzen die gebruikt worden om en te bepalen zijn steeds exclusief het beginuur en inclusief het einduur. Vertrek- en aankomsttijden zijn steeds aangegeven in de lokale tijd.
 
-![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash"){:data-caption="Slaap inhalen op de luchthaven." width="60%"}
+![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="60%"}
 
 ## Opgave
 Schrijf een programma dat vier natuurlijke getallen vraagt, respectievelijk de waarden voor $u$, $z$, vertrektijd en aankomsttijd.  De vertrek- en aankomsttijden worden afgerond tot het dichtsbijzijnde uur.
