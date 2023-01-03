@@ -38,7 +38,7 @@ cases = [(10,),(100,),(10000,),(50,), (100000,), (5000,), (1000000,), (10000000,
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> bazel_benadering({test[0]})')
+    print(f'>>> bazel_benadering({test[0]}) # doctest: +STDOUT')
 
     # generate return value
     try:

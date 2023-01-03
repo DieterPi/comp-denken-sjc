@@ -1,6 +1,6 @@
 In 1741 lostte <a href='https://nl.wikipedia.org/wiki/Leonhard_Euler' target='_blanc'>Euler</a> het beroemde <a href='https://nl.wikipedia.org/wiki/Bazel-probleem' target='_blanc'>Bazel-probleem</a> op. 
 
-![Euler](media/Euler.jpg "Euler"){:data-caption="Je nieuwe held, Leonhard Euler" width="20%"}
+![Euler](media/Euler.jpg "Euler, een knappe kerel!"){:data-caption="Je nieuwe held, Leonhard Euler" width="20%"}
 
 Hij bewees dat de (oneindige) som van de omgekeerden van de kwadraten van de natuurlijke getallen gelijk is aan $$\frac{\pi^2}{6}$$, met andere woorden:
 
@@ -23,8 +23,12 @@ Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend o
 ```
 >>> bazel_benadering( 10 )
 3.049361636
+```
+```
 >>> bazel_benadering( 100 )
 3.132076532
+```
+```
 >>> bazel_benadering( 10000 )
 3.141497164
 ```
