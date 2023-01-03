@@ -20,11 +20,11 @@ Pas het programma nu aan zodat ook de hoeveelheid suikers voor de volgende soort
 
 | Fruit | Hoeveelheid suikers per 100 g |
 |:--------:|:-------------:|
-| Watermeloen  | 6 |
-| Banaan | 12 |
-| Appel | 10 |
-| Kiwi | 9 |
-| Druif | 16 |
+| Watermeloen  | 6 g |
+| Banaan | 12 g |
+| Appel | 10 g |
+| Kiwi | 9 g |
+| Druif | 16 g |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 #### Voorbeelden
