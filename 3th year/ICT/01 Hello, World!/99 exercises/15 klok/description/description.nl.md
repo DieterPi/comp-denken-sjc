@@ -4,7 +4,7 @@ Schrijf een programma dat aan een gebruik een aantal uur $$U$$, minuten $$M$$ en
 
 Vervolgens berekent het programma de hoek (in **graden**) die de uurwijzer op de klok aangeeft. Rond het resultaat af op 5 cijfers na de komma.
 
-![Big Ben](media/big-ben.jpg "Big Ben"){:data-caption="De wereldberoemde klok: 'Big Ben'" width="40%"}
+![De wereldberoemde klok: 'Big Ben'.](media/big-ben.jpg "Foto door Nick Fewings op Unsplash."){:data-caption="De wereldberoemde klok: 'Big Ben'." width="40%"}
 
 #### Voorbeeld
 Na exact 3 uur maakt de uurwijzer een hoek van 90°

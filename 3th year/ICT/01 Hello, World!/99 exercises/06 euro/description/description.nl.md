@@ -1,7 +1,7 @@
 ## Opgave
 Lees een bedrag in (als een geheel getal) en bepaal met behulp van de computer het **minimale** aantal briefjes van 50, 20, 10 en 5 euro en het aantal stukken van 2 en 1 euro zodat deze samen het bedrag vormen.
 
-![euro](media/euro.jpg "euro"){:data-caption="Kassa met verschillende eurobiljetten" width="35%"}
+![Verschillende euro biljetten.](media/markus-spiske.jpg "Foto door Markus Spiske op Unsplash."){:data-caption="Verschillende euro biljetten." width="35%"}
 
 #### Voorbeeld
 Voor een bedrag van € 227 krijg je:

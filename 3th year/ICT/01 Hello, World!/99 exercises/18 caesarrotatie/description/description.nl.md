@@ -4,7 +4,7 @@ Na de letter Z begint men terug bij het begin van het alfabet.
 
 Er wordt beweerd dat Julius Caesar deze methode gebruikte om met zijn veldheren te communiceren, maar waarschijnlijk gebruikte hij ingewikkeldere methodes. Deze vorm van versleuteling is immers niet zeer sterk.
 
-![Julius Caesar](media/caesar.jpg "Julius Caesar"){:data-caption="Julius Caesar'" width="40%"}
+![Standbeeld van Julius Caesar in Rome, Italië.](media/caesar.jpg "Foto door Nemanja Peric op Unsplash."){:data-caption="Standbeeld van Julius Caesar in Rome, Italië.'" width="40%"}
 
 ## Opgave
 
