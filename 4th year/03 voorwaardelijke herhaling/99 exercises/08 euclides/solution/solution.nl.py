@@ -11,7 +11,7 @@ def ggd( getal1, getal2 ):
         B = rest
         rest = A % B
     
-    return B
+    print( B )
 
 if __name__ == '__main__':
     import doctest
