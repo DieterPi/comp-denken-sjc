@@ -13,12 +13,12 @@ Voor de invoer `4` verschijnt:
 Een kat van 4 is 32 jaar in mensenjaren!
 ```
 
-Voor invoer `0.6` verschijnt:
+Voor invoer `1` verschijnt:
 ```
-A: U krijgt een rijverbod van 3 uur en moet een ademanalyse doen. 
+Een kat van 1 is 15 jaar in mensenjaren!
 ```
 
-Voor invoer `1.2` verschijnt:
+Voor invoer `2` verschijnt:
 ```
-P: U krijgt een rijverbod van 6 uur en moet een ademanalyse doen. 
+Een kat van 2 is 24 jaar in mensenjaren!
 ```
