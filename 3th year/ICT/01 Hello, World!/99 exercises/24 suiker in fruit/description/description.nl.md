@@ -35,7 +35,6 @@ De invoer `25` levert als uitvoer
 25 g appel bevat 2.5 g suiker.
 25 g kiwi bevat 2.25 g suiker.
 25 g druiven bevat 4.0 g suiker.
-
 ```
 
 De invoer `85` levert als uitvoer
