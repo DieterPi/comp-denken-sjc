@@ -11,7 +11,7 @@ $$
 
 Hierbij zijn $$x_1, x_2, \ldots, x_n$$ strikt positieve reële getallen. (omwille van de definitie van het harmonisch gemiddelde)
 
-#### Voorbeeld
+#### Voorbeelden
 Er geldt:
 ```
 >>> rekenkundig_gemiddelde( (100, 120) )
