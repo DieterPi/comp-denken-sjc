@@ -1,0 +1,44 @@
+>>> getalsom(365) # doctest: +STDOUT
+14
+>>> getalsom(123456) # doctest: +STDOUT
+21
+>>> getalsom(7) # doctest: +STDOUT
+7
+>>> getalsom(100) # doctest: +STDOUT
+1
+>>> getalsom(102) # doctest: +STDOUT
+3
+>>> getalsom(7247) # doctest: +STDOUT
+20
+>>> getalsom(8884) # doctest: +STDOUT
+28
+>>> getalsom(9864) # doctest: +STDOUT
+27
+>>> getalsom(6508) # doctest: +STDOUT
+19
+>>> getalsom(4979) # doctest: +STDOUT
+29
+>>> getalsom(7647) # doctest: +STDOUT
+24
+>>> getalsom(6507) # doctest: +STDOUT
+18
+>>> getalsom(8765) # doctest: +STDOUT
+26
+>>> getalsom(5752) # doctest: +STDOUT
+19
+>>> getalsom(6548) # doctest: +STDOUT
+23
+>>> getalsom(7225) # doctest: +STDOUT
+16
+>>> getalsom(8939) # doctest: +STDOUT
+29
+>>> getalsom(3404) # doctest: +STDOUT
+11
+>>> getalsom(9833) # doctest: +STDOUT
+23
+>>> getalsom(388) # doctest: +STDOUT
+19
+>>> getalsom(4446) # doctest: +STDOUT
+18
+>>> getalsom(3027) # doctest: +STDOUT
+12
