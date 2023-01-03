@@ -1,9 +1,9 @@
-Het algoritme van **Euclides** is één van de oudste algoritmes ter wereld. Het algoritme dat beschreven werd in <a href='https://nl.wikipedia.org/wiki/Euclides_van_Alexandri%C3%AB' target='_blanc'>zijn</a> legendarische handboek <a href='https://nl.wikipedia.org/wiki/Elementen_(Euclides)' target='_blanc'>De Elementen</a> is een efficiënte manier om de grootste gemene deler (ggd) van twee getallen te bepalen.
+Het algoritme van **Euclides** is één van de oudste algoritmes ter wereld. Het algoritme dat beschreven werd in <a href='https://nl.wikipedia.org/wiki/Euclides_van_Alexandri%C3%AB' target='_blanc'>zijn</a> legendarische handboek <a href='https://nl.wikipedia.org/wiki/Elementen_(Euclides)' target='_blanc'>De Elementen</a> is een efficiënte manier om de **grootste gemene deler** (ggd) van twee getallen te bepalen.
 
 Het algoritme werkt als volgt:
 
 - Noem het grootste van de twee getallen A en het andere B
-- Bepaal de rest $$R$$ bij deling van A door B
+- Bepaal de rest R bij deling van A door B
 - is R nul, dan is B de ggd
 - indien R niet nul is, herhaal het algoritme dan voor B en de rest R
 
