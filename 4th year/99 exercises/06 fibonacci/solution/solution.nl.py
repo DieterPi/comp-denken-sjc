@@ -9,7 +9,7 @@ def fibonnaci( rangnummer ):
             nieuwe_getal = vorige_getal + getal
             vorige_getal = getal
             getal = nieuwe_getal
-    return getal
+    print( getal )
 
 if __name__ == '__main__':
     import doctest

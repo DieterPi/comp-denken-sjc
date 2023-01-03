@@ -1,30 +1,32 @@
->>> fibonnaci(2)
+>>> fibonnaci(2) # doctest: +STDOUT
 1
->>> fibonnaci(7)
+>>> fibonnaci(7) # doctest: +STDOUT
 21
->>> fibonnaci(50)
+>>> fibonnaci(50) # doctest: +STDOUT
 20365011074
->>> fibonnaci(29)
+>>> fibonnaci(29) # doctest: +STDOUT
 832040
->>> fibonnaci(35)
+>>> fibonnaci(1) # doctest: +STDOUT
+1
+>>> fibonnaci(35) # doctest: +STDOUT
 14930352
->>> fibonnaci(39)
+>>> fibonnaci(39) # doctest: +STDOUT
 102334155
->>> fibonnaci(26)
+>>> fibonnaci(26) # doctest: +STDOUT
 196418
->>> fibonnaci(20)
+>>> fibonnaci(20) # doctest: +STDOUT
 10946
->>> fibonnaci(30)
+>>> fibonnaci(30) # doctest: +STDOUT
 1346269
->>> fibonnaci(26)
+>>> fibonnaci(26) # doctest: +STDOUT
 196418
->>> fibonnaci(35)
+>>> fibonnaci(35) # doctest: +STDOUT
 14930352
->>> fibonnaci(23)
+>>> fibonnaci(23) # doctest: +STDOUT
 46368
->>> fibonnaci(26)
+>>> fibonnaci(26) # doctest: +STDOUT
 196418
->>> fibonnaci(29)
+>>> fibonnaci(29) # doctest: +STDOUT
 832040
->>> fibonnaci(35)
+>>> fibonnaci(35) # doctest: +STDOUT
 14930352

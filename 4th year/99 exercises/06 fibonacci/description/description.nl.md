@@ -9,18 +9,22 @@ $$
 ![Fibonacci](media/Fibonacci.png "Fibonacci"){:data-caption="De rij van Fibonacci op een postzegel" width="35%"}
 
 ## Opgave
-Schrijf een functie `fibonnaci()` met het rangnummer als parameter en zodat deze het getal met dat rangnummer retourneert.
+Schrijf een functie `fibonnaci()` met het rangnummer als parameter en zodat deze het getal met dat rangnummer afdrukt.
 
 #### Voorbeeld
 ```
 >>> fibonnaci( 2 )
 1
+```
+```
 >>> fibonnaci( 7 )
 13
+```
+```
 >>> fibonnaci( 50 )
 20365011074
 ```
 
 {: .callout.callout-info}
 > #### Tip
-> Maak gebruik van de keuzestructuur om de eerste 2 rangnummers apart op te vangen. Gebruik voor de andere getallen hulpvariabelen die telkens de twee laatste getallen bewaren.
+> Maak gebruik van de selectie om de eerste 2 rangnummers apart op te vangen. Gebruik voor de andere getallen hulpvariabelen die telkens de twee laatste getallen bewaren.

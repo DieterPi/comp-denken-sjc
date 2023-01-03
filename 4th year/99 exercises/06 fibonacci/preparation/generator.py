@@ -37,7 +37,7 @@ while len(cases) < ntests:
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> fibonnaci({test[0]})')
+    print(f'>>> fibonnaci({test[0]}) # doctest: +STDOUT')
 
     # generate return value
     try:
