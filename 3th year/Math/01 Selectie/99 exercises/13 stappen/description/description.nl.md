@@ -1,6 +1,6 @@
 Het Vlaams Instituut Gezond Leven lanceerde in 2022 de <a href="https://10000stappen.gezondleven.be/" target="_blank">campagne</a> "10.000 stappen: elke stap telt!"
 
-![Stappen is gezond!](media/walking.jpg "100"){:data-caption="Foto door Arek Adeoye op Unsplash" width="60%"}
+![Stappen is gezond!](media/walking.jpg "Foto door Arek Adeoye op Unsplash."){:data-caption="Stappen is gezond!" width="60%"}
 
 ## Opgave
 Schrijf een programma dat vraagt hoeveel stappen je vandaag reeds gezet hebt en vervolgens berekent hoeveel stappen je nog moet zetten. Indien er reeds 10.000 stappen bereikt zijn geeft het programma een relevante melding.
