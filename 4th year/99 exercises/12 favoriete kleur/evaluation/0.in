@@ -1,14 +1,14 @@
->>> favoriete_kleur('rood')
+>>> favoriete_kleur('rood') # doctest: +STDOUT
 8
->>> favoriete_kleur('oranje')
+>>> favoriete_kleur('oranje') # doctest: +STDOUT
 12
->>> favoriete_kleur('groen')
+>>> favoriete_kleur('groen') # doctest: +STDOUT
 10
->>> favoriete_kleur('geel')
+>>> favoriete_kleur('geel') # doctest: +STDOUT
 10
->>> favoriete_kleur('blauw')
+>>> favoriete_kleur('blauw') # doctest: +STDOUT
 7
->>> favoriete_kleur('indigo')
+>>> favoriete_kleur('indigo') # doctest: +STDOUT
 10
->>> favoriete_kleur('violet')
+>>> favoriete_kleur('violet') # doctest: +STDOUT
 11

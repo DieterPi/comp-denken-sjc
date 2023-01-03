@@ -8,7 +8,7 @@ def favoriete_kleur( kleur ):
     for item in lijst:
         aantal += item[1] == kleur
     
-    return aantal
+    print( aantal ) 
 
 if __name__ == '__main__':
     import doctest
