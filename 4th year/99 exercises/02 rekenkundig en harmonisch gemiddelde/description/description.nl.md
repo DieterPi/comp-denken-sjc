@@ -30,9 +30,10 @@ Maar evengoed voor een langere rij getallen:
 {: .callout.callout-info}
 > #### Tip
 > Een tupel is een datatype in Python waarbij je **gemakkelijk** over kan itereren. Beschouw bijvoorbeeld volgend stukje code dat van een tupel elk element afdrukt.
+>
 > ```python
 tupel = ( 5, 10, 3 )
 
 for getal in tupel:
     print( getal )
->```
+```
