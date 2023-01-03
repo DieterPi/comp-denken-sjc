@@ -1,6 +1,6 @@
 Bitterheid van bier wordt uitgedrukt in **IBU** - *International Bitterness Unit*. 1 IBU is 1 mg iso-alfazuur per liter bier.
 
-![Brouwer tijdens een beoordeling.](media/brewing-beer.jpg "PCR-test"){:data-caption="Foto door Elevate op Unsplash" width="45%"}
+![Brouwer tijdens een beoordeling.](media/brewing-beer.jpg "Foto door Elevate op Unsplash."){:data-caption="Brouwer tijdens een beoordeling." width="45%"}
 
 Volgende onderverdeling geldt:
 

@@ -1,4 +1,4 @@
-![Driehoeken](media/triangles.jpg "Driehoeken"){:data-caption="Een driehoekig patroon." width="450px"}
+![Een driehoekig patroon.](media/triangles.jpg "Foto door Viswanath V Pai op Unsplash."){:data-caption="Een driehoekig patroon." width="450px"}
 
 ## Opgave
 Schrijf een functie `soort_driehoek()` met **drie** lengtes als parameter waarbij het programma afdrukt of de driehoek gelijkzijdig, gelijkbenig of willekeurig is.

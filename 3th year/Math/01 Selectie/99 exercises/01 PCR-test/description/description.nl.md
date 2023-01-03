@@ -1,6 +1,6 @@
 Indien er gedurende de coronapandemie een risicocontact plaatsvond werd een PCR-test uitgevoerd. Met behulp van een wisser wordt wat genetisch materiaal verzameld. De PCR techniek bestaat erin om het genetisch materiaal in verschillende cylci telkens te gaan kopiëren.
 
-![PCR-test](media/PCR.jpg "PCR-test"){:data-caption="Afname van een wisser." width="35%"}
+![Afname van een wisser.](media/shvets-production.jpg "Foto door SHVETS production op Pexels."){:data-caption="Afname van een wisser." width="45%"}
 
 Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterker positief het staal. Hoe meer cylci nodig zijn hoe zwakker het staal. Het aantal cycli waarop men de gezochte genen kan detecteren noemt men de **Cycle treshold** (Ct-waarde).
 
