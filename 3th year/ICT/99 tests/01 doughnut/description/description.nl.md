@@ -14,7 +14,7 @@ waarbij $$r$$ de (kleine) straal van de binnenste cirkel en $$R$$ de (grote) str
 Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waarbij de kleine straal kleiner is dan de grote straal) en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op 3 cijfers na de komma.
 
 #### Voorbeeld
-Indien r = 3,57 en R = 6,21 dan verschijnt er:
+Indien `r = 3.57` en `R = 6.21` dan verschijnt er:
 ```
 Oppervlakte: 875.224 cm²
 Volume: 1562.275 cm³
