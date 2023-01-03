@@ -1,0 +1,18 @@
+>>> leibniz_benadering(1) # doctest: +STDOUT
+1.0
+>>> leibniz_benadering(10) # doctest: +STDOUT
+3.041839619
+>>> leibniz_benadering(50) # doctest: +STDOUT
+3.121594653
+>>> leibniz_benadering(100) # doctest: +STDOUT
+3.131592904
+>>> leibniz_benadering(5000) # doctest: +STDOUT
+3.141392654
+>>> leibniz_benadering(10000) # doctest: +STDOUT
+3.141492654
+>>> leibniz_benadering(100000) # doctest: +STDOUT
+3.141582654
+>>> leibniz_benadering(1000000) # doctest: +STDOUT
+3.141591654
+>>> leibniz_benadering(10000000) # doctest: +STDOUT
+3.141592554
