@@ -1,15 +1,23 @@
+>>> bazel_benadering(1) # doctest: +STDOUT
+2.449489743
+>>> bazel_benadering(2) # doctest: +STDOUT
+2.738612788
+>>> bazel_benadering(3) # doctest: +STDOUT
+2.857738033
+>>> bazel_benadering(5) # doctest: +STDOUT
+2.963387701
 >>> bazel_benadering(10) # doctest: +STDOUT
 3.049361636
->>> bazel_benadering(100) # doctest: +STDOUT
-3.132076532
->>> bazel_benadering(10000) # doctest: +STDOUT
-3.141497164
 >>> bazel_benadering(50) # doctest: +STDOUT
 3.122626523
->>> bazel_benadering(100000) # doctest: +STDOUT
-3.141583104
+>>> bazel_benadering(100) # doctest: +STDOUT
+3.132076532
 >>> bazel_benadering(5000) # doctest: +STDOUT
 3.141401681
+>>> bazel_benadering(10000) # doctest: +STDOUT
+3.141497164
+>>> bazel_benadering(100000) # doctest: +STDOUT
+3.141583104
 >>> bazel_benadering(1000000) # doctest: +STDOUT
 3.141591699
 >>> bazel_benadering(10000000) # doctest: +STDOUT

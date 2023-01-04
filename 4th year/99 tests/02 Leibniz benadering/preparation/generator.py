@@ -29,7 +29,7 @@ for name in dir(module):
 
 # generate test data
 #ntests= 10
-cases = [(10,),(100,),(10000,),(50,), (100000,), (5000,), (1000000,), (10000000,)]
+cases = [(1,), (2,), (3,), (5,), (10,),(50,), (100,),(5000,), (10000,), (100000,), (1000000,), (10000000,)]
 #while len(cases) < ntests:
 #    exp = random.randint(3,6)
 #    cases.append( (pow(10,exp), )) 
