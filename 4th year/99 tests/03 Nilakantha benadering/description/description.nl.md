@@ -17,18 +17,18 @@ $$
 Bepaal een benadering voor het getal π met bovenstaande uitdrukking. Vul hiervoor onderstaande functie `nilakantha_benadering()` aan. De parameter stelt het aantal termen in de som voor. Rond de benadering steeds af op 9 cijfers na de komma.
 
 #### Voorbeelden
-Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend opdat de benadering in de buurt komt, gelukkig kan een computer dit vrij vlot.
+Deze methode werkt vrij snel, wiskundig zegt men dat deze snel *convergeert* naar de echte waarde van π.
 ```
 >>> nilakantha_benadering( 10 )
-3.041839619
+3.141406718
 ```
 ```
 >>> nilakantha_benadering( 100 )
-3.131592904
+3.141592411
 ```
 ```
 >>> nilakantha_benadering( 10000 )
-3.141492654
+3.141592654
 ```
 
 {: .callout.callout-info}
