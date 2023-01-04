@@ -16,6 +16,8 @@ Er geldt:
 ```
 >>> rekenkundig_gemiddelde( (100, 120) )
 110.0
+```
+```
 >>> harmonisch_gemiddelde( (100, 120) )
 109.09
 ```
@@ -23,6 +25,8 @@ Maar evengoed voor een langere rij getallen:
 ```
 >>> rekenkundig_gemiddelde( (35, 46, 39, 26, 20, 45, 30, 26, 35) )
 33.56
+```
+```
 >>> harmonisch_gemiddelde( (35, 46, 39, 26, 20, 45, 30, 26, 35) )
 31.36
 ```
