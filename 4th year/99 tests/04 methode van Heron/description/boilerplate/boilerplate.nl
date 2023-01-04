@@ -1,2 +1,2 @@
-def nilakantha_benadering( aantal ):
+def babylonische_methode( aantal ):
     

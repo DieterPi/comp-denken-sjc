@@ -1,4 +1,4 @@
-HSommige vierkantswortels zoals $$\sqrt{25}$$ of $$\sqrt{144}$$ kennen we van buiten, maar hoe berekenen we $$\sqrt{17}$$ bijvoorbeeld? Tegenwoordig grijp je dan meteen naar een rekentoestel, maar hoe deed men dit vroeger, toen er nog geen rekentoestellen of computers bestonden?
+Sommige vierkantswortels zoals $$\sqrt{25}$$ of $$\sqrt{144}$$ kennen we van buiten, maar hoe berekenen we $$\sqrt{17}$$ bijvoorbeeld? Tegenwoordig grijp je dan meteen naar een rekentoestel, maar hoe deed men dit vroeger, toen er nog geen rekentoestellen of computers bestonden?
 
 De methode van Heron is wellicht het oudste algoritme voor de berekening van $$\sqrt{s}$$ met $$s\in \mathbb{N}$$. Ze werd vernoemd naar de Griekse wiskundige <a href="https://nl.wikipedia.org/wiki/Heron_van_Alexandri%C3%AB" target="_blanc">Heron van Alexandrië</a> die ruim 2000 jaar geleden de eerste expliciete beschrijving gaf van een methode voor het berekenen van de vierkantswortel van een willekeurig getal. Deze methode is ook gekend als de Babylonische methode — een verwijzing naar de Babyloniërs die ons de oudste gekende wiskundeteksten achterlieten. 
 
@@ -27,14 +27,14 @@ $$
 
 ## Opgave
 
-Schrijf een functie `babylonische_methode()` met twee getallen als parameter, het eerste is het **grondtal** van de wortel s, het tweede de **initiële schatting** x<span style="vertical-align:sub;">0</span>. Laat de methode stoppen indien de verbetering kleiner is dan 10<span style="vertical-align:super;">-15</span>
+Schrijf een functie `babylonische_methode()` met twee getallen als parameter, het eerste is het **grondtal** van de wortel s, het tweede de **initiële schatting** x<span style="vertical-align:sub;">0</span>. Laat de methode stoppen indien de verbetering kleiner is dan 10<span style="vertical-align:super;">-15</span>.
 
 Druk ook telkens de stap en de benaderde waarde af.
 
 #### Voorbeelden
 De uitvoer voor grondtal 17 en startwaarde 6 is:
 ```
->>> >>> babylonische_methode( 17, 6 ) 
+>>> babylonische_methode( 17, 6 ) 
 0 : 6
 1 : 4.416666666666667
 2 : 4.1328616352201255
