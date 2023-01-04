@@ -1,0 +1,24 @@
+>>> nilakantha_benadering(1) # doctest: +STDOUT
+3.166666667
+>>> nilakantha_benadering(2) # doctest: +STDOUT
+3.133333333
+>>> nilakantha_benadering(3) # doctest: +STDOUT
+3.145238095
+>>> nilakantha_benadering(5) # doctest: +STDOUT
+3.142712843
+>>> nilakantha_benadering(10) # doctest: +STDOUT
+3.141406718
+>>> nilakantha_benadering(50) # doctest: +STDOUT
+3.14159077
+>>> nilakantha_benadering(100) # doctest: +STDOUT
+3.141592411
+>>> nilakantha_benadering(5000) # doctest: +STDOUT
+3.141592654
+>>> nilakantha_benadering(10000) # doctest: +STDOUT
+3.141592654
+>>> nilakantha_benadering(100000) # doctest: +STDOUT
+3.141592654
+>>> nilakantha_benadering(1000000) # doctest: +STDOUT
+3.141592654
+>>> nilakantha_benadering(10000000) # doctest: +STDOUT
+3.141592654
