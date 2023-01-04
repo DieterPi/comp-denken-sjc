@@ -1,2 +1,2 @@
-def babylonische_methode( aantal ):
+def babylonische_methode( grondtal, startwaarde ):
     
