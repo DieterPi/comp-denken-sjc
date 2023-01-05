@@ -44,6 +44,8 @@ Schrijf een functie `meetkundig_gemiddelde( a, b )` die het meetkundig gemiddeld
 ```
 >>> meetkundig_gemiddelde( 4, 25 )
 10.0
+```
+```
 >>> meetkundig_gemiddelde( 165,114 )
 137.15
 ```
