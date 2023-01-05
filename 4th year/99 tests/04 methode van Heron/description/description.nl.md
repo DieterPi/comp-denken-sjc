@@ -27,7 +27,7 @@ $$
 
 ## Opgave
 
-Schrijf een functie `babylonische_methode()` met twee getallen als parameter, het eerste is het **grondtal** van de wortel s, het tweede de **initiële schatting** x<span style="vertical-align:sub;">0</span>. Laat de methode stoppen indien de verbetering kleiner is dan 10<span style="vertical-align:super;">-15</span>.
+Schrijf een functie `babylonische_methode()` met twee getallen als parameter, het eerste is het **grondtal** van de wortel s, het tweede de **initiële schatting** x<span style="vertical-align:sub;">0</span>. Laat de methode stoppen indien de verbetering kleiner is dan 10<span style="vertical-align:super;">-12</span> (`pow( 10, -12 )`).
 
 Druk ook telkens de stap en de benaderde waarde af.
 
