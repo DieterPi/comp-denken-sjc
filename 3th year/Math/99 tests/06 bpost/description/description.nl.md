@@ -1,4 +1,4 @@
-![Koerier](media/courier.jpg "Koerier"){:data-caption="Pakjes in de laadruimte van een koerier." width="450px"}
+![Pakjes in de laadruimte van een koerier.](media/courier.jpg "Foto door Claudio Schwarz op Unsplash."){:data-caption="Pakjes in de laadruimte van een koerier." width="450px"}
 
 BPost hanteert de volgende tarieven voor verzending van pakjes binnen België. Het tarief per pakje hangt af van de massa en de hoeveelheid pakjes die verzonden worden. Indien er 10 of meer pakjes verzonden worden, wordt de eenheidsprijs per pakje goedkoper.
 

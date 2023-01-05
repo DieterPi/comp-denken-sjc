@@ -1,4 +1,4 @@
-![Alcohol in het verkeer](media/drinking_driving.jpg "Alcohol in het verkeer"){:data-caption="Alcohol en rijden gaat niet samen." width="450px"}
+![Alcohol en rijden gaat niet samen.](media/drinking_driving.jpg "Foto door energepic.com op Pexels."){:data-caption="Alcohol en rijden gaat niet samen." width="450px"}
 
 Bij een ademtest voor alcoholcontrole verschijnt een letter op het testtoestel. Dit kan S, A of P zijn. Dit resultaat bepaalt of er al dan niet een ademanalysetest moet volgen. Het is het resultaat van de de ademanalysetest die zal bepalen welke exacte straf en welke boete je krijgt. 
 

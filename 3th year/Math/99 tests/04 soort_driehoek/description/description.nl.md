@@ -1,4 +1,4 @@
-![Triangle](media/triangle_builder.jpg "Triangle"){:data-caption="Ook in de bouw is de stelling van Pythagoras belangrijk." width="450px"}
+![Ook in de bouw is de stelling van Pythagoras belangrijk.](media/triangle_builder.jpg "Foto door Steve Lieman op Unsplash."){:data-caption="Ook in de bouw is de stelling van Pythagoras belangrijk." width="450px"}
 
 Naast een classificatie op basis van zijden kan je een driehoek ook onderverdelen op basis van de hoeken. De driehoek kan namelijk scherphoekig, rechthoekig of stomphoekig zijn.
 

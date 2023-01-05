@@ -1,4 +1,4 @@
-![Speeding](media/speeding.jpg "Speeding"){:data-caption="Snelheidscontrole." width="450px"}
+![Snelheidscontrole.](media/speeding.jpg "Foto door Denny Müller op Unsplash."){:data-caption="Snelheidscontrole." width="450px"}
 
 De politie voert een snelheidscontrole uit in de bebouwde kom. De maximum toegestane snelheid is er 50 km/u. Het aantal km dat je over die begrenzing gaat, bepaalt de boete. 
 
