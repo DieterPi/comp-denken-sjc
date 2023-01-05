@@ -7,10 +7,12 @@ Indien drie lengtes gegeven worden kan je eenvoudig nagaan of deze een driehoek 
 ## Opgave
 Schrijf een functie `driehoek()` met drie zijden als parameter die nagaat over er met die zijden een driehoek kan worden getekend.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> driehoek( 4, 5, 2)
 Deze zijden vormen een driehoek.
+```
+```
 >>> driehoek( 4, 7, 2)
 Deze zijden vormen geen driehoek.
 ```

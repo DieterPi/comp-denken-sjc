@@ -7,10 +7,12 @@ Indien drie lengtes gegeven worden kan je eenvoudig nagaan of de driehoek rechth
 ## Opgave
 Schrijf een functie `rechthoekig()` met drie zijden als parameter die nagaat of een driehoek al dan niet rechthoekig is.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> rechthoekig( 3, 4 ,5 )
 De driehoek is rechthoekig.
+```
+```
 >>> rechthoekig( 5, 4, 5 )
 De driehoek is niet rechthoekig.
 ```

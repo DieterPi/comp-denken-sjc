@@ -9,10 +9,12 @@ Naast een classificatie op basis van zijden kan je een driehoek ook onderverdele
 ## Opgave
 Schrijf een functie `soort_driehoek()` met **drie** lengtes als parameter waarbij het programma afdrukt of de driehoek scherphoekig, rechthoekig of stomphoekig is.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> soort_driehoek( 3, 4 ,5 )
 De driehoek is rechthoekig.
+```
+```
 >>> soort_driehoek( 5, 4, 5 )
 De driehoek is scherphoekig.
 ```

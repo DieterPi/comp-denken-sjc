@@ -18,10 +18,12 @@ De letter in het Eco-Scorelogo is vastgesteld door middel van uitgebreide bereke
 ## Opgave
 Schrijf een functie `ecoscore()` met de score uit de LCA als parameter waarbij het programma de letter uit de Eco-Score op het scherm weergeeft.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> ecoscore( 56 )
 C
+```
+```
 >>> ecoscore( 88 )
 A
 ```
