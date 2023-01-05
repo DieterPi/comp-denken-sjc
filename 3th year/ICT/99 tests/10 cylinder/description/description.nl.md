@@ -1,6 +1,7 @@
 Een cilinder is een meetkundig lichaam met een cirkelvormig grondvlak en evenwijdig aan het grondvlak overal dezelfde cirkelvormige doorsnede met alle middelpunten op een rechte, de as.
 
 Van een cilinder bepaalt men de oppervlakte en het volume via:
+
 $$
     A =  2\cdot \pi \cdot r \cdot h + 2\cdot \pi\cdot r^2 \qquad\qquad \text{en} \qquad \qquad V = \pi \cdot r^2 \cdot h
 $$
