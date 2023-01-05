@@ -5,7 +5,7 @@ def driehoeksgetal( getal ):
     t = 1
     i = 1
     print( i, ':', t)
-    while( t +i+1 < getal ):
+    while t +i+1 < getal :
         t += i+1
         i += 1
         print( i, ':', t)
