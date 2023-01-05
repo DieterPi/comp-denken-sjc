@@ -4,9 +4,9 @@ De methode van Heron is wellicht het oudste algoritme voor de berekening van $$\
 
 ![Heron van Alexandrië.](media/Heron_Alexandrie.jpg "Heron van Alexandrië volgens de Codex van st Gregory Nazianzenos, een Grieks manuscript uit de 9e eeuw."){:data-caption="Heron van Alexandrië." width="30%"}
 
-Deze methode werkt op de volgende manier. Stel dat we de vierkantswortel willen berekenen van een natuurlijk getal $$s$$. 
+Deze methode werkt op de volgende manier. Stel dat we de vierkantswortel willen berekenen van een natuurlijk getal s. 
 
-- We starten met een initiële schatting van $$s$$, en noemen die $$x_0$$. 
+- We starten met een initiële schatting van s, en noemen die x<span style="vertical-align:sub;">0</span>. 
 - Daarna bereken we in elke stap een meer nauwkeurige benadering van de vierkantswortel op basis van de volgende formule:
 
 $$
@@ -22,7 +22,7 @@ $$
 Daarna moeten we deze procedure gewoon blijven herhalen om de benadering te verbeteren.
 
 $$
-x_2 = \dfrac{1}{2}\left( x_1 + \dfrac{17}{x_1}\right) = 4.132861635\ldots
+x_2 = \dfrac{1}{2}\left( x_1 + \dfrac{17}{x_1}\right) = 4,132861635\ldots
 $$
 
 ## Opgave
