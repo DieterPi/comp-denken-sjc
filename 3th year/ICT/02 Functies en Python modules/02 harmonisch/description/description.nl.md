@@ -15,6 +15,8 @@ Schrijf een functie `harmonisch_gemiddelde( a, b )` die het harmonisch gemiddeld
 ```
 >>> harmonisch_gemiddelde( 100, 120 )
 109.09
+```
+```
 >>> harmonisch_gemiddelde( 128, 26 )
 43.22
 ```

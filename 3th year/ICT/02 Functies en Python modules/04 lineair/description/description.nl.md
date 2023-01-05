@@ -17,6 +17,8 @@ De functie `f( x )` **retourneert** telkens het beeld. Rond af op 2 cijfers.
 ```
 >>> f( 0 )
 -4
+```
+```
 >>> f( 4/3 )
 0.0
 ```
