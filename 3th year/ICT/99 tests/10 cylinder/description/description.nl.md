@@ -4,6 +4,7 @@ Van een cilinder bepaalt men de oppervlakte en het volume via:
 $$
     A =  2\cdot \pi \cdot r \cdot h + 2\cdot \pi\cdot r^2 \qquad\qquad \text{en} \qquad \qquad V = \pi \cdot r^2 \cdot h
 $$
+
 waarbij $$r$$ de straal van het grondvlak en $$h$$ de hoogte van de cilinder voorstelt.
 
 ![Enkele cilinders](media/jessica-lewis.jpg "Foto door Jessica Lewis op Unsplash."){:data-caption="Enkele cilinders." width="40%"}
