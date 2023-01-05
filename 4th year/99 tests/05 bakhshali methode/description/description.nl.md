@@ -1,6 +1,6 @@
 Een alternatieve methode om de vierkantswortel te berekenen werd beschreven in het <a href="https://en.wikipedia.org/wiki/Bakhshali_manuscript" target="_blanc">Bakshali manuscript</a>. Vernoemd naar het dorp waar dit manuscript werd gevonden, tegenwoordig in Pakistan.
 
-Deze methode werkt een analoge manier. Stel dat we de vierkantswortel willen berekenen van een natuurlijk getal s.
+Deze methode werkt op een analoge manier. Stel dat we de vierkantswortel willen berekenen van een natuurlijk getal s.
 
 - We starten met een initiële schatting van s, en noemen die x<span style="vertical-align:sub;">0</span>. 
 - Daarna bereken we in elke stap een meer nauwkeurige benadering van de vierkantswortel op basis van de volgende formule, waar telkens hulpvariabelen a<span style="vertical-align:sub;">n</span> en b<span style="vertical-align:sub;">n</span> berekend worden:
