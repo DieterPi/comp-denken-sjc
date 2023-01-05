@@ -72,10 +72,12 @@ print( a and (b or c) )
 ## Opgave
 Hieronder vind je een functie die nagaat of een getal deelbaar is door 6 en door 8. Vul de code aan.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> deelbaar_zes_en_acht(24)
 True
+```
+```
 >>> deelbaar_zes_en_acht(30)
 False
 ```
