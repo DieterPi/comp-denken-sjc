@@ -4,10 +4,10 @@ $$
     1,\qquad 3,\qquad 6,\qquad 10,\qquad 15,\qquad 31,\ldots
 $$
 
-![De eerste 6 driehoeksgetallen.](media/triangular.png "Afbeelding door Melchoir op Wikimedia."){:data-caption="De eerste 6 driehoeksgetallen." width="450px"}
+![De eerste 6 driehoeksgetallen.](media/triangular.png "Afbeelding door Melchoir op Wikimedia."){:data-caption="De eerste 6 driehoeksgetallen." width="350px"}
 
 ## Opgave
-Schrijf een functie `driehoeksgetal()` met een natuurlijk getal als parameter dat alle driehoeksgetallen kleiner dat het getal afdrukt.
+Schrijf een functie `driehoeksgetal()` met een natuurlijk getal als parameter die alle driehoeksgetallen kleiner dat het getal afdrukt.
 
 #### Voorbeeld
 ```
