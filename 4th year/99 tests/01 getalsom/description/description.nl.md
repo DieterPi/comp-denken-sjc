@@ -5,7 +5,7 @@ Zo geldt bijvoorbeeld voor het getal 365 dat de getalsom gelijk is aan 5 + 6 + 3
 ## Opgave
 Schrijf een functie `getalsom()` met een natuurlijk getal als parameter dat de getalsom op het scherm afdrukt.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> getalsom( 365 )
 14
