@@ -32,3 +32,7 @@ Een persoon van 90 kg met een lengte van 173 cm heeft obesitas.
 >>> bmi( 74, 184 )
 Een persoon van 74 kg met een lengte van 184 cm heeft een normaal gewicht.
 ```
+
+{: .callout.callout-danger}
+> #### Opgelet
+> De BMI-waarde is pas zinvol indien deze toegepast wordt op **volwassenen**. Het heeft dus **geen zin** om je eigen massa en lengte te gebruiken om te testen.
