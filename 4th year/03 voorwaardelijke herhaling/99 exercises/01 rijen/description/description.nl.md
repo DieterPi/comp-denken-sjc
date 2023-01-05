@@ -1,4 +1,4 @@
-Een rekenkundige rij is een rij waarbij het **verschil** tussen elke opeenvolgende waarde constant is. Indien de startwaarde bijvoorbeeld 5 is en het verschil 2, dan ziet de rij er als volgt uit:
+Een **rekenkundige rij** is een rij waarbij het **verschil** tussen elke opeenvolgende waarde constant is. Indien de startwaarde bijvoorbeeld 5 is en het verschil 2, dan ziet de rij er als volgt uit:
 
 $$
     5,\qquad 7,\qquad 9,\qquad 11,\qquad 13,\ldots
@@ -22,7 +22,7 @@ while som < 100:
 
 ## Opgave
 
-Een meetkundige rij is een rij waarbij het quotiënt tussen elke opeenvolgende waarde constant is. Is de startwaarde bijvoorbeeld 5 en het quotiënt 2, dan ziet de rij er als volgt uit:
+Een **meetkundige rij** is een rij waarbij het **quotiënt** tussen elke opeenvolgende waarde constant is. Is de startwaarde bijvoorbeeld 5 en het quotiënt 2, dan ziet de rij er als volgt uit:
 
 $$
     5,\qquad 10,\qquad 20,\qquad 40,\qquad 80,\ldots
