@@ -40,5 +40,6 @@ for getal in tupel:
     print( getal )
 ```
 
+{: .callout.callout-info}
 > #### Tip 2
 > Je kan gemakkelijk de lengte van een tupel of een lijst bepalen. Dit lukt via `len( tupel )`.
