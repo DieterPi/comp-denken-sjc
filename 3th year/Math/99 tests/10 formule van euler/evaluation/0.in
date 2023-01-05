@@ -1,0 +1,14 @@
+>>> euler_formule(8,12,6) # doctest: +STDOUT
+True
+>>> euler_formule(12,30,12) # doctest: +STDOUT
+False
+>>> euler_formule(12,24,10) # doctest: +STDOUT
+False
+>>> euler_formule(20,30,12) # doctest: +STDOUT
+True
+>>> euler_formule(12,30,20) # doctest: +STDOUT
+True
+>>> euler_formule(4,6,4) # doctest: +STDOUT
+True
+>>> euler_formule(12,24,12) # doctest: +STDOUT
+False
