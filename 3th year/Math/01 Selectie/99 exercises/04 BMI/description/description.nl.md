@@ -1,4 +1,4 @@
-De body-mass index (BMI) of Quetelet index is een statistiek die de massa van een persoon vergelijkt ten opzichte van zijn of haar lengte. De index werd genoemd naar de Gentenaar <a href='https://nl.wikipedia.org/wiki/Adolphe_Quetelet' target='_blanc'>Adolphe Quetelet</a> (1796-1874). 
+De body-mass index (BMI) of Quetelet index is een statistiek die de massa van een **volwassen** persoon vergelijkt ten opzichte van zijn of haar lengte. De index werd genoemd naar de Gentenaar <a href='https://nl.wikipedia.org/wiki/Adolphe_Quetelet' target='_blanc'>Adolphe Quetelet</a> (1796-1874). 
 
 De waarde van de index wordt bepaald als de massa van de persoon (in kilogram) gedeeld door het kwadraat van zijn of haar lengte (in meter):
 
@@ -23,10 +23,12 @@ Onderstaande tabel geeft een manier om een BMI-waarde te interpreteren:
 ## Opgave
 Schrijf een functie `bmi()` die de massa (in kg) en de lengte (in cm) als parameters heeft, vervolgens het bmi berekent en een beschrijving afdrukt.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> bmi( 90, 173 )
 Een persoon van 90 kg met een lengte van 173 cm heeft obesitas.
+```
+```
 >>> bmi( 74, 184 )
 Een persoon van 74 kg met een lengte van 184 cm heeft een normaal gewicht.
 ```

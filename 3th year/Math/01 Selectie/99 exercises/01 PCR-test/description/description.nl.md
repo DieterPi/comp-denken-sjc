@@ -15,10 +15,12 @@ Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterke
 ## Opgave
 Schrijf een functie `ct_treshold()` die als parameter een Ct-waarde neemt en als uitvoer de beschrijving afdrukt.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> ct_treshold( 15 )
 sterk positief
+```
+```
 >>> ct_treshold( 20.2 )
 gewoon positief
 ```

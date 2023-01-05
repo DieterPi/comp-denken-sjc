@@ -15,12 +15,16 @@ De signum functie heeft onderstaande grafiek:
 ## Opgave
 Schrijf een functie `sgn()` die de waarden $$-1$$, $$0$$ en $$1$$ retourneert zoals gevraagd.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> sgn( 10 )
 1
+```
+```
 >>> sgn( 0 )
 0
+```
+```
 >>> sgn( -3.1415 )
 -1
 ```

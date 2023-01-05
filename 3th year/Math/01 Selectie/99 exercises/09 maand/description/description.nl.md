@@ -5,15 +5,21 @@ Hanteer 28 dagen voor de maand februari.
 
 ![Jaarkalender.](media/month.jpg "Foto door Behnam Norouzi op Unsplash."){:data-caption="Jaarkalender." width="355px"}
 
-#### Voorbeeld
+#### Voorbeelden
 Er moet gelden:
 ```
 >>> aantal_dagen( 1 )
 Maand 1 bevat 31 dagen.
+```
+```
 >>> aantal_dagen( 2 )
 Maand 2 bevat 28 dagen.
+```
+```
 >>> aantal_dagen( 3 )
 Maand 3 bevat 31 dagen.
+```
+```
 >>> aantal_dagen( 4 )
 Maand 4 bevat 30 dagen.
 ```

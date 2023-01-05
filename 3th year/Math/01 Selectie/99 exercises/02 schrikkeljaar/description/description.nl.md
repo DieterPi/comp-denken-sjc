@@ -7,14 +7,20 @@ Een schrikkeljaar komt voor op een jaartal dat deelbaar is door 4, maar niet doo
 ## Opgave
 Schrijf een functie `schrikkeljaar()` met een jaartal als parameter en die op het scherm afdrukt of dit een schrikkeljaar is.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> schrikkeljaar( 2022 )
 Geen schrikkeljaar
+```
+```
 >>> schrikkeljaar( 2020 )
 Een schrikkeljaar
+```
+```
 >>> schrikkeljaar( 1900 )
 Geen schrikkeljaar
+```
+```
 >>> schrikkeljaar( 2000 )
 Een schrikkeljaar
 ```

@@ -23,7 +23,7 @@ Schrijf een programma dat vier natuurlijke getallen vraagt, respectievelijk de w
 
 Daarna print het programma het aantal dagen dat nodig is om te herstellen van de jetlag.
 
-#### Voorbeeld
+#### Voorbeelden
 Stel bijvoorbeeld dat je van New York Kennedy Airport naar London Heathrow vliegt. Je vlucht vertrekt om 7:00 lokale tijd in New York en komt aan om 19:00 lokale tijd in Londen. Als we weten dat het in Londen vijf uur later is dan in New York, dan hebben we dus als invoer de waarden `u=7`, `z=4`, `7` en `19`. (Wat overeenkomt met `v=5` en `a=0`.)
 Wat als uitvoer oplevert:
 ```

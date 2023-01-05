@@ -15,10 +15,12 @@ Volgende onderverdeling geldt:
 ## Opgave
 Schrijf een functie `ibu()` die de IBU-waarde als parameter heeft en de corresponderende beschrijving op het scherm afdrukt.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> ibu( 19.9 )
 Dit bier is weinig bitter.
+```
+```
 >>> ibu( 29.5 )
 Dit bier neigt naar bitter.
 ```

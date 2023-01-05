@@ -9,12 +9,16 @@ In de figuur zie je de coördinaten (*tupels*) van twee velden. Het veld (1,1) h
 ## Opgave
 Schrijf een functie `kleur()` die een coördinaat als parameter heeft (een *tupel*), en vervolgens afdrukt of dit een licht of donker veld is.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> kleur( (1, 1) )
 Een donker gekleurd veld
+```
+```
 >>> kleur( (2, 6) )
 Een donker gekleurd veld
+```
+```
 >>> kleur( (8, 7) )
 Een licht gekleurd veld
 ```
