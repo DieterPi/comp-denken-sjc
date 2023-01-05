@@ -1,0 +1,84 @@
+>>> bakshali_methode(17, 6) # doctest: +STDOUT
+0 : 6
+1 : 4.132861635220126
+2 : 4.12310562563374
+3 : 4.123105625617661
+>>> bakshali_methode(165, 12) # doctest: +STDOUT
+0 : 12
+1 : 12.845266990291263
+2 : 12.84523257866513
+>>> bakshali_methode(139, 13) # doctest: +STDOUT
+0 : 13
+1 : 11.789960039960041
+2 : 11.789826122551595
+>>> bakshali_methode(155, 12) # doctest: +STDOUT
+0 : 12
+1 : 12.449902452619845
+2 : 12.449899597988733
+>>> bakshali_methode(78, 10) # doctest: +STDOUT
+0 : 10
+1 : 8.832022471910113
+2 : 8.831760866327848
+>>> bakshali_methode(120, 10) # doctest: +STDOUT
+0 : 10
+1 : 10.954545454545455
+2 : 10.954451150103322
+>>> bakshali_methode(137, 10) # doctest: +STDOUT
+0 : 10
+1 : 11.705590717299577
+2 : 11.704699910719626
+>>> bakshali_methode(103, 10) # doctest: +STDOUT
+0 : 10
+1 : 10.148891625615764
+2 : 10.14889156509222
+>>> bakshali_methode(140, 13) # doctest: +STDOUT
+0 : 13
+1 : 11.832275329848146
+2 : 11.832159566199232
+>>> bakshali_methode(54, 9) # doctest: +STDOUT
+0 : 9
+1 : 7.35
+2 : 7.348469228349536
+>>> bakshali_methode(154, 9) # doctest: +STDOUT
+0 : 9
+1 : 12.42565011820331
+2 : 12.409673645995108
+3 : 12.409673645990857
+>>> bakshali_methode(70, 9) # doctest: +STDOUT
+0 : 9
+1 : 8.366629874908021
+2 : 8.366600265340756
+>>> bakshali_methode(48, 3) # doctest: +STDOUT
+0 : 3
+1 : 7.276315789473684
+2 : 6.928208228588049
+3 : 6.928203230275509
+>>> bakshali_methode(190, 14) # doctest: +STDOUT
+0 : 14
+1 : 13.784048852701703
+2 : 13.784048752090222
+>>> bakshali_methode(37, 8) # doctest: +STDOUT
+0 : 8
+1 : 6.086943069306931
+2 : 6.082762530298389
+>>> bakshali_methode(174, 13) # doctest: +STDOUT
+0 : 13
+1 : 13.190906032742767
+2 : 13.19090595827292
+>>> bakshali_methode(152, 11) # doctest: +STDOUT
+0 : 11
+1 : 12.329087579087581
+2 : 12.328828005937954
+>>> bakshali_methode(163, 9) # doctest: +STDOUT
+0 : 9
+1 : 12.79007285974499
+2 : 12.767145334820242
+3 : 12.767145334803704
+>>> bakshali_methode(73, 7) # doctest: +STDOUT
+0 : 7
+1 : 8.54566744730679
+2 : 8.544003745317532
+>>> bakshali_methode(97, 11) # doctest: +STDOUT
+0 : 11
+1 : 9.849040867389492
+2 : 9.848857801796104

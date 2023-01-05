@@ -1,0 +1,16 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "description": {
+    "names": {
+      "nl": "Bakshali Methode"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public"
+}
