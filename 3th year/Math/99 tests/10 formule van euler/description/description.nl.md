@@ -6,7 +6,7 @@ $$
 
 waarbij $$H$$ het aantal hoekpunten, $$R$$ het aantal ribben en $$Z$$ het aantal vlakken voorstelt.
 
-Elk veelvlak moet voldoen aan deze vergelijking. Met behulp van deze vergelijk is het ook mogelijk om aan te tonen dat er slechts 4 platonische lichamen of <a href="https://nl.wikipedia.org/wiki/Regelmatig_veelvlak" target="_blank">regelmatige veelvlakken</a> bestaan.
+Elk veelvlak moet voldoen aan deze vergelijking. Met behulp van deze vergelijk is het ook mogelijk om aan te tonen dat er slechts vijf platonische lichamen of <a href="https://nl.wikipedia.org/wiki/Regelmatig_veelvlak" target="_blank">regelmatige veelvlakken</a> bestaan.
 
 ![De 5 platonische lichamen.](media/platonic.png "Foto door Drummyfish op Wikimedia."){:data-caption="De 5 platonische lichamen." width="40%"}
 
@@ -20,7 +20,7 @@ Een kubus heeft bijvoorbeeld 8 hoekpunten, 12 ribben en 6 vlakken, zodat:
 >>> euler_formule( 8, 12, 6 )
 True
 ```
-Een <a href="https://nl.wikipedia.org/wiki/Grote_dodeca%C3%ABder" target="_blank">Grote dodocaëder</a> is geen veelvlak:
+Een <a href="https://nl.wikipedia.org/wiki/Grote_dodeca%C3%ABder" target="_blank">grote dodocaëder</a> is geen veelvlak:
 ```
 >>> euler_formule( 12, 30, 12 )
 False
