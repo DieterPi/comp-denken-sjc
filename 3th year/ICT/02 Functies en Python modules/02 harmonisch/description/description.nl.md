@@ -1,8 +1,8 @@
 ## Opgave
-Naast het gewone, rekenkundige, gemiddelde zijn er ook andere manieren om een gemiddelde van getallen te berekenen. Eén van deze methodes is het zogenaamde *harmonisch* gemiddelde. Het harmonisch gemiddelde $$x_h$$ van de reële getallen $$a$$ en $$b$$ is gedefinieerd als:
+Naast het gewone, rekenkundige, gemiddelde zijn er ook andere manieren om een gemiddelde van getallen te berekenen. Eén van deze methodes is het zogenaamde *harmonisch* gemiddelde. Het harmonisch gemiddelde x<span style="vertical-align:sub;">h</span> van de reële getallen a en b is gedefinieerd als:
 
 $$
-x_h = \dfrac{2}{\frac{1}{a}+\frac{1}{b}}
+    x_h = \dfrac{2}{\frac{1}{a}+\frac{1}{b}}
 $$
 
 Schrijf een functie `harmonisch_gemiddelde( a, b )` die het harmonisch gemiddelde berekent en deze waarde **retourneert**. Rond af op 2 cijfers.
