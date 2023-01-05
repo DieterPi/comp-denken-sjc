@@ -9,7 +9,7 @@ $$
 ## Opgave
 Schrijf een functie `is_perfect()` met een natuurlijk getal als parameter dat controleert of een getal perfect is.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> is_perfect( 6 )
 True
@@ -24,4 +24,4 @@ True
 ```
 
 #### Epiloog
-Het is niet geweten of er oneven perfecte getallen is, noch dat er oneindig bestaan.
+Het is niet geweten of er een oneven perfect getal is, noch of er oneindig veel perfecte getallen bestaan.
