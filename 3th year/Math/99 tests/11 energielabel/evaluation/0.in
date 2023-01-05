@@ -1,0 +1,40 @@
+>>> energieklasse(1600, 8) # doctest: +STDOUT
+Energieklasse: B
+>>> energieklasse(1800, 5) # doctest: +STDOUT
+Energieklasse: A
+>>> energieklasse(1100, 12) # doctest: +STDOUT
+Energieklasse: F
+>>> energieklasse(1260, 11) # doctest: +STDOUT
+Energieklasse: E
+>>> energieklasse(1470, 9) # doctest: +STDOUT
+Energieklasse: C
+>>> energieklasse(1080, 14) # doctest: +STDOUT
+Energieklasse: G
+>>> energieklasse(1290, 9) # doctest: +STDOUT
+Energieklasse: D
+>>> energieklasse(1380, 8) # doctest: +STDOUT
+Energieklasse: C
+>>> energieklasse(1210, 10) # doctest: +STDOUT
+Energieklasse: E
+>>> energieklasse(1390, 14) # doctest: +STDOUT
+Energieklasse: F
+>>> energieklasse(960, 13) # doctest: +STDOUT
+Energieklasse: G
+>>> energieklasse(1460, 3) # doctest: +STDOUT
+Energieklasse: A
+>>> energieklasse(1040, 12) # doctest: +STDOUT
+Energieklasse: F
+>>> energieklasse(930, 3) # doctest: +STDOUT
+Energieklasse: A
+>>> energieklasse(1490, 5) # doctest: +STDOUT
+Energieklasse: A
+>>> energieklasse(1100, 13) # doctest: +STDOUT
+Energieklasse: G
+>>> energieklasse(1290, 12) # doctest: +STDOUT
+Energieklasse: F
+>>> energieklasse(1080, 13) # doctest: +STDOUT
+Energieklasse: G
+>>> energieklasse(810, 7) # doctest: +STDOUT
+Energieklasse: E
+>>> energieklasse(1100, 9) # doctest: +STDOUT
+Energieklasse: E
