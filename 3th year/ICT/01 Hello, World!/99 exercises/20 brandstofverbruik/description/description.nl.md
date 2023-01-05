@@ -5,7 +5,7 @@ Volgens <a href="https://www.vrt.be/vrtnws/nl/2022/03/10/zo-bespaar-je-met-je-ge
 ## Opgave
 Schrijf een programma dat een afstand in km vraagt en vervolgens berekent hoeveel brandstof een moderne dieselwagen gebruikt. Deze hoeveelheid wordt vervolgens op het scherm weergegeven, afgerond op 2 cijfers na de komma.
 
-#### Voorbeeld
+#### Voorbeelden
 De invoer `100.0` levert als uitvoer
 ```
 4.5 liter
