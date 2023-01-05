@@ -7,7 +7,7 @@ $$
 De formule is genoemd naar de Griekse wetenschappen <a href="https://nl.wikipedia.org/wiki/Heron_van_Alexandri%C3%AB" target="_blank">Heron van Alexandrië</a>.
 
 ## Opgave
-Schrijf een functie heron_gemiddelde( a, b ) die Heron's gemiddelde berekent en deze waarde **afdrukt**. Rond af op 2 cijfers.
+Schrijf een functie `heron_gemiddelde( a, b )` die Heron's gemiddelde berekent en deze waarde **afdrukt**. Rond af op 2 cijfers.
 
 #### Voorbeeld
 ```
