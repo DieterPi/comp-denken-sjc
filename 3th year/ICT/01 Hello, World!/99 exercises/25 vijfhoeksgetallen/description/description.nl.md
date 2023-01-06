@@ -6,7 +6,7 @@ $$
     1,\qquad 5,\qquad 12,\qquad 22,\qquad 35,\qquad 51, \ldots
 $$
 
-![De eerste zes vijfhoeksgetallen](media/Pentagonal_number.gif "Foto door Timrem op Wikimedia."){:data-caption="De eerste zes vijfhoeksgetallen." width="30%"}
+![De eerste zes vijfhoeksgetallen](media/Pentagonal_number.gif "Afbeelding door Timrem op Wikimedia."){:data-caption="De eerste zes vijfhoeksgetallen." width="30%"}
 
 Het $$n$$<span style="vertical-align: super">de</span> vijfhoeksgetal $$V_n$$ kan men berekenen met de volgende formule:
 
