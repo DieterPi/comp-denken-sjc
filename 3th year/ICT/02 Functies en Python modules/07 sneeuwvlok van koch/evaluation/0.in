@@ -1,0 +1,51 @@
+>>> oppervlakte_koch(2) # doctest: +STDOUT
+2.77
+
+>>> oppervlakte_koch(83) # doctest: +STDOUT
+4772.84
+
+>>> oppervlakte_koch(57) # doctest: +STDOUT
+2250.97
+
+>>> oppervlakte_koch(70) # doctest: +STDOUT
+3394.82
+
+>>> oppervlakte_koch(91) # doctest: +STDOUT
+5737.25
+
+>>> oppervlakte_koch(78) # doctest: +STDOUT
+4215.12
+
+>>> oppervlakte_koch(51) # doctest: +STDOUT
+1802.03
+
+>>> oppervlakte_koch(39) # doctest: +STDOUT
+1053.78
+
+>>> oppervlakte_koch(89) # doctest: +STDOUT
+5487.83
+
+>>> oppervlakte_koch(60) # doctest: +STDOUT
+2494.15
+
+>>> oppervlakte_koch(51) # doctest: +STDOUT
+1802.03
+
+>>> oppervlakte_koch(69) # doctest: +STDOUT
+3298.52
+
+>>> oppervlakte_koch(45) # doctest: +STDOUT
+1402.96
+
+>>> oppervlakte_koch(52) # doctest: +STDOUT
+1873.39
+
+>>> oppervlakte_koch(27) # doctest: +STDOUT
+505.07
+
+>>> oppervlakte_koch(87) # doctest: +STDOUT
+5243.96
+
+>>> oppervlakte_koch(77) # doctest: +STDOUT
+4107.73
+
