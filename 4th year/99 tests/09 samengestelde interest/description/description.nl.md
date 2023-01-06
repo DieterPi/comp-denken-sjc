@@ -1,20 +1,21 @@
 > Samengestelde interest is het 8e wereldwonder. Hij die het begrijpt, verdient het... hij die het niet begrijpt, betaalt het...
-> Albert Einstein
+>
+> *Albert Einstein*
 
 Bij een belegging met samengestelde interest wordt de jaarlijkse rente **terug** in je belegging geïnvesteerd. Op die manier word je het jaar nadien beloond met een rente op de rente die je het jaar voordien kreeg. 
 
 Stel bijvoorbeeld dat je € 10 000 belegd met een rendement van 3% per jaar:
 
 - Na het eerste jaar wordt de winst, € 300 opnieuw aan de belegging toegevoegd, er zit dan dus € 10 300 in de belegging.
-- Na het tweede jaar wordt van aan dit bedrag opnieuw 3% rendement toegevoegd, nu is dit € 309, zodat er € 10 609 
-- Het jaar nadien is er een winst van € 318,27 zodat er € 10 927,27 in de belegging aanwezig is.
+- Na het tweede jaar wordt aan dit bedrag opnieuw 3% rendement toegevoegd, nu is dit € 309, zodat er € 10 609 belegd staat.
+- Het jaar nadien is de winst € 318,27 zodat er € 10 927,27 in de belegging aanwezig is.
 
-Ga je zo verder dan zal er na 15 jaar ca € 15 579,67 aanwezig zijn.
+Ga je zo verder dan zal er na 15 jaar ca. € 15 579,67 aanwezig zijn.
 
-Had je elk jaar slechts 3% rendement op het *oorspronkelijke bedrag* gekregen dan was het totaalbedrag na 15 jaar slechts € 14 500.
+Had je elk jaar *slechts* 3% rendement op het *oorspronkelijke bedrag* gekregen dan was het totaalbedrag na 15 jaar slechts € 14 500.
 
 ## Opgave
-Schrijf een functie `samengesteld( startbedrag, rentevoet, aantal_jaar )` die stap per stap het eindbedrag berekent bij samengestelde belegging.
+Schrijf een functie `samengesteld( startbedrag, rentevoet, aantal_jaar )` die stap per stap het eindbedrag berekent bij een samengestelde belegging.
 
 Beëindigd de functie met een zin die aangeeft hoeveel winst er werd behaald en met hoeveel procent dit jaarlijks overeenkomt. Rond in je berekeningen steeds af op 2 cijfers na de komma.
 
