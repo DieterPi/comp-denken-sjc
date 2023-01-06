@@ -14,7 +14,7 @@ Elk veelvlak moet voldoen aan deze vergelijking. Met behulp van deze vergelijk i
 ## Opgave
 Schrijf een functie `euler_formule( h, r, z )` die voor de gegeven parameters controleert of dit een veelvlak kan voorstellen. Indien ja wordt `True` op het scherm afgedrukt, indien niet `False`.
 
-#### Voorbeeld
+#### Voorbeelden
 Een kubus heeft bijvoorbeeld 8 hoekpunten, 12 ribben en 6 vlakken, zodat:
 ```
 >>> euler_formule( 8, 12, 6 )
