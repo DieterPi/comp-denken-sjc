@@ -1,6 +1,6 @@
 In België dient een inwoner op zijn inkomsten belastingen te betalen. Het Belgische systeem is progressief. Dat wil zeggen dat het tarief van de belasting stijgt naarmate het inkomen groter wordt. 
 
-Op de website van de Federale overheidsdienst Financiën kan men voor aanslagjaar 2022 de volgende tarieven terugvinden.
+Op de <a href="https://financien.belgium.be/nl/particulieren/belastingaangifte/tarieven-belastbaar-inkomen/tarieven#q1" target="_blank">website van de Federale overheidsdienst Financiën</a> kan men voor aanslagjaar 2022 de volgende tarieven terugvinden.
 
 ![De Belgische belastingstarieven voor de inkomsten van 2021.](media/fod.png "Belastingstarieven voor een Belgische rijksinwoner."){:data-caption="De Belgische belastingstarieven voor de inkomsten van 2021." width="500px"}
 
