@@ -1,0 +1,176 @@
+>>> samengesteld(10000,0.03,15) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 10300.0
+Na jaar 2 is het bedrag aangegroeid tot € 10609.0
+Na jaar 3 is het bedrag aangegroeid tot € 10927.27
+Na jaar 4 is het bedrag aangegroeid tot € 11255.09
+Na jaar 5 is het bedrag aangegroeid tot € 11592.74
+Na jaar 6 is het bedrag aangegroeid tot € 11940.52
+Na jaar 7 is het bedrag aangegroeid tot € 12298.74
+Na jaar 8 is het bedrag aangegroeid tot € 12667.7
+Na jaar 9 is het bedrag aangegroeid tot € 13047.73
+Na jaar 10 is het bedrag aangegroeid tot € 13439.16
+Na jaar 11 is het bedrag aangegroeid tot € 13842.33
+Na jaar 12 is het bedrag aangegroeid tot € 14257.6
+Na jaar 13 is het bedrag aangegroeid tot € 14685.33
+Na jaar 14 is het bedrag aangegroeid tot € 15125.89
+Na jaar 15 is het bedrag aangegroeid tot € 15579.67
+Dit komt overeen met een winst van € 5579.67 of op jaarbasis 3.72 %.
+>>> samengesteld(15000,0.02,1) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 15300.0
+Dit komt overeen met een winst van € 300.0 of op jaarbasis 2.0 %.
+>>> samengesteld(19000,0.032,25) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 19608.0
+Na jaar 2 is het bedrag aangegroeid tot € 20235.46
+Na jaar 3 is het bedrag aangegroeid tot € 20882.99
+Na jaar 4 is het bedrag aangegroeid tot € 21551.25
+Na jaar 5 is het bedrag aangegroeid tot € 22240.89
+Na jaar 6 is het bedrag aangegroeid tot € 22952.6
+Na jaar 7 is het bedrag aangegroeid tot € 23687.08
+Na jaar 8 is het bedrag aangegroeid tot € 24445.07
+Na jaar 9 is het bedrag aangegroeid tot € 25227.31
+Na jaar 10 is het bedrag aangegroeid tot € 26034.58
+Na jaar 11 is het bedrag aangegroeid tot € 26867.69
+Na jaar 12 is het bedrag aangegroeid tot € 27727.46
+Na jaar 13 is het bedrag aangegroeid tot € 28614.74
+Na jaar 14 is het bedrag aangegroeid tot € 29530.41
+Na jaar 15 is het bedrag aangegroeid tot € 30475.38
+Na jaar 16 is het bedrag aangegroeid tot € 31450.59
+Na jaar 17 is het bedrag aangegroeid tot € 32457.01
+Na jaar 18 is het bedrag aangegroeid tot € 33495.63
+Na jaar 19 is het bedrag aangegroeid tot € 34567.49
+Na jaar 20 is het bedrag aangegroeid tot € 35673.65
+Na jaar 21 is het bedrag aangegroeid tot € 36815.21
+Na jaar 22 is het bedrag aangegroeid tot € 37993.3
+Na jaar 23 is het bedrag aangegroeid tot € 39209.09
+Na jaar 24 is het bedrag aangegroeid tot € 40463.78
+Na jaar 25 is het bedrag aangegroeid tot € 41758.62
+Dit komt overeen met een winst van € 22758.620000000003 of op jaarbasis 4.79 %.
+>>> samengesteld(17000,0.05,15) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 17850.0
+Na jaar 2 is het bedrag aangegroeid tot € 18742.5
+Na jaar 3 is het bedrag aangegroeid tot € 19679.62
+Na jaar 4 is het bedrag aangegroeid tot € 20663.6
+Na jaar 5 is het bedrag aangegroeid tot € 21696.78
+Na jaar 6 is het bedrag aangegroeid tot € 22781.62
+Na jaar 7 is het bedrag aangegroeid tot € 23920.7
+Na jaar 8 is het bedrag aangegroeid tot € 25116.74
+Na jaar 9 is het bedrag aangegroeid tot € 26372.58
+Na jaar 10 is het bedrag aangegroeid tot € 27691.21
+Na jaar 11 is het bedrag aangegroeid tot € 29075.77
+Na jaar 12 is het bedrag aangegroeid tot € 30529.56
+Na jaar 13 is het bedrag aangegroeid tot € 32056.04
+Na jaar 14 is het bedrag aangegroeid tot € 33658.84
+Na jaar 15 is het bedrag aangegroeid tot € 35341.78
+Dit komt overeen met een winst van € 18341.78 of op jaarbasis 7.19 %.
+>>> samengesteld(19000,0.026000000000000002,15) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 19494.0
+Na jaar 2 is het bedrag aangegroeid tot € 20000.84
+Na jaar 3 is het bedrag aangegroeid tot € 20520.86
+Na jaar 4 is het bedrag aangegroeid tot € 21054.4
+Na jaar 5 is het bedrag aangegroeid tot € 21601.81
+Na jaar 6 is het bedrag aangegroeid tot € 22163.46
+Na jaar 7 is het bedrag aangegroeid tot € 22739.71
+Na jaar 8 is het bedrag aangegroeid tot € 23330.94
+Na jaar 9 is het bedrag aangegroeid tot € 23937.54
+Na jaar 10 is het bedrag aangegroeid tot € 24559.92
+Na jaar 11 is het bedrag aangegroeid tot € 25198.48
+Na jaar 12 is het bedrag aangegroeid tot € 25853.64
+Na jaar 13 is het bedrag aangegroeid tot € 26525.83
+Na jaar 14 is het bedrag aangegroeid tot € 27215.5
+Na jaar 15 is het bedrag aangegroeid tot € 27923.1
+Dit komt overeen met een winst van € 8923.099999999999 of op jaarbasis 3.13 %.
+>>> samengesteld(17000,0.027999999999999997,30) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 17476.0
+Na jaar 2 is het bedrag aangegroeid tot € 17965.33
+Na jaar 3 is het bedrag aangegroeid tot € 18468.36
+Na jaar 4 is het bedrag aangegroeid tot € 18985.47
+Na jaar 5 is het bedrag aangegroeid tot € 19517.06
+Na jaar 6 is het bedrag aangegroeid tot € 20063.54
+Na jaar 7 is het bedrag aangegroeid tot € 20625.32
+Na jaar 8 is het bedrag aangegroeid tot € 21202.83
+Na jaar 9 is het bedrag aangegroeid tot € 21796.51
+Na jaar 10 is het bedrag aangegroeid tot € 22406.81
+Na jaar 11 is het bedrag aangegroeid tot € 23034.2
+Na jaar 12 is het bedrag aangegroeid tot € 23679.16
+Na jaar 13 is het bedrag aangegroeid tot € 24342.18
+Na jaar 14 is het bedrag aangegroeid tot € 25023.76
+Na jaar 15 is het bedrag aangegroeid tot € 25724.43
+Na jaar 16 is het bedrag aangegroeid tot € 26444.71
+Na jaar 17 is het bedrag aangegroeid tot € 27185.16
+Na jaar 18 is het bedrag aangegroeid tot € 27946.34
+Na jaar 19 is het bedrag aangegroeid tot € 28728.84
+Na jaar 20 is het bedrag aangegroeid tot € 29533.25
+Na jaar 21 is het bedrag aangegroeid tot € 30360.18
+Na jaar 22 is het bedrag aangegroeid tot € 31210.27
+Na jaar 23 is het bedrag aangegroeid tot € 32084.16
+Na jaar 24 is het bedrag aangegroeid tot € 32982.52
+Na jaar 25 is het bedrag aangegroeid tot € 33906.03
+Na jaar 26 is het bedrag aangegroeid tot € 34855.4
+Na jaar 27 is het bedrag aangegroeid tot € 35831.35
+Na jaar 28 is het bedrag aangegroeid tot € 36834.63
+Na jaar 29 is het bedrag aangegroeid tot € 37866.0
+Na jaar 30 is het bedrag aangegroeid tot € 38926.25
+Dit komt overeen met een winst van € 21926.25 of op jaarbasis 4.3 %.
+>>> samengesteld(11000,0.037000000000000005,5) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 11407.0
+Na jaar 2 is het bedrag aangegroeid tot € 11829.06
+Na jaar 3 is het bedrag aangegroeid tot € 12266.74
+Na jaar 4 is het bedrag aangegroeid tot € 12720.61
+Na jaar 5 is het bedrag aangegroeid tot € 13191.27
+Dit komt overeen met een winst van € 2191.2700000000004 of op jaarbasis 3.98 %.
+>>> samengesteld(13000,0.034,5) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 13442.0
+Na jaar 2 is het bedrag aangegroeid tot € 13899.03
+Na jaar 3 is het bedrag aangegroeid tot € 14371.6
+Na jaar 4 is het bedrag aangegroeid tot € 14860.23
+Na jaar 5 is het bedrag aangegroeid tot € 15365.48
+Dit komt overeen met een winst van € 2365.4799999999996 of op jaarbasis 3.64 %.
+>>> samengesteld(9000,0.04,15) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 9360.0
+Na jaar 2 is het bedrag aangegroeid tot € 9734.4
+Na jaar 3 is het bedrag aangegroeid tot € 10123.78
+Na jaar 4 is het bedrag aangegroeid tot € 10528.73
+Na jaar 5 is het bedrag aangegroeid tot € 10949.88
+Na jaar 6 is het bedrag aangegroeid tot € 11387.88
+Na jaar 7 is het bedrag aangegroeid tot € 11843.4
+Na jaar 8 is het bedrag aangegroeid tot € 12317.14
+Na jaar 9 is het bedrag aangegroeid tot € 12809.83
+Na jaar 10 is het bedrag aangegroeid tot € 13322.22
+Na jaar 11 is het bedrag aangegroeid tot € 13855.11
+Na jaar 12 is het bedrag aangegroeid tot € 14409.31
+Na jaar 13 is het bedrag aangegroeid tot € 14985.68
+Na jaar 14 is het bedrag aangegroeid tot € 15585.11
+Na jaar 15 is het bedrag aangegroeid tot € 16208.51
+Dit komt overeen met een winst van € 7208.51 of op jaarbasis 5.34 %.
+>>> samengesteld(19000,0.034,30) # doctest: +STDOUT
+Na jaar 1 is het bedrag aangegroeid tot € 19646.0
+Na jaar 2 is het bedrag aangegroeid tot € 20313.96
+Na jaar 3 is het bedrag aangegroeid tot € 21004.63
+Na jaar 4 is het bedrag aangegroeid tot € 21718.79
+Na jaar 5 is het bedrag aangegroeid tot € 22457.23
+Na jaar 6 is het bedrag aangegroeid tot € 23220.78
+Na jaar 7 is het bedrag aangegroeid tot € 24010.29
+Na jaar 8 is het bedrag aangegroeid tot € 24826.64
+Na jaar 9 is het bedrag aangegroeid tot € 25670.75
+Na jaar 10 is het bedrag aangegroeid tot € 26543.56
+Na jaar 11 is het bedrag aangegroeid tot € 27446.04
+Na jaar 12 is het bedrag aangegroeid tot € 28379.21
+Na jaar 13 is het bedrag aangegroeid tot € 29344.1
+Na jaar 14 is het bedrag aangegroeid tot € 30341.8
+Na jaar 15 is het bedrag aangegroeid tot € 31373.42
+Na jaar 16 is het bedrag aangegroeid tot € 32440.12
+Na jaar 17 is het bedrag aangegroeid tot € 33543.08
+Na jaar 18 is het bedrag aangegroeid tot € 34683.54
+Na jaar 19 is het bedrag aangegroeid tot € 35862.78
+Na jaar 20 is het bedrag aangegroeid tot € 37082.11
+Na jaar 21 is het bedrag aangegroeid tot € 38342.9
+Na jaar 22 is het bedrag aangegroeid tot € 39646.56
+Na jaar 23 is het bedrag aangegroeid tot € 40994.54
+Na jaar 24 is het bedrag aangegroeid tot € 42388.35
+Na jaar 25 is het bedrag aangegroeid tot € 43829.55
+Na jaar 26 is het bedrag aangegroeid tot € 45319.75
+Na jaar 27 is het bedrag aangegroeid tot € 46860.62
+Na jaar 28 is het bedrag aangegroeid tot € 48453.88
+Na jaar 29 is het bedrag aangegroeid tot € 50101.31
+Na jaar 30 is het bedrag aangegroeid tot € 51804.75
+Dit komt overeen met een winst van € 32804.75 of op jaarbasis 5.76 %.
