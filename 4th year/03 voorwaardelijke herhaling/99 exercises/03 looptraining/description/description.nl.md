@@ -2,7 +2,7 @@ De 10-procent regel is één van de belangrijkste regels bij het hardlopen. De r
 
 ![Niet te snel opbouwen is de boodschap.](media/sporlab.jpg "Foto door Sporlab op Unsplash."){:data-caption="Niet te snel opbouwen is de boodschap." width="45%"}
 
-Stel dat je bijvoorbeeld een halve marathon (21,1 km) wil lopen en je met je huidige fitness eenvoudig 15 km kan lopen. 
+Stel dat je bijvoorbeeld een halve marathon (21,1 km) wil lopen en je met je huidige fitheid eenvoudig 15 km kan lopen. 
 
 - In week 2 loop je afstanden tot 16,5 km
 - In week 3 loop je afstanden tot 18,2 km
