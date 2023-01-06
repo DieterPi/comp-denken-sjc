@@ -2,7 +2,7 @@
 
 De boom van Pythagoras is een fractaal bedacht door Albert E. Bosman in 1942. De bouw van deze boom begint met een vierkant. Op dit vierkant worden onder een hoek van 45 graden vervolgens twee kleinere vierkanten gezet zodat de ingesloten driehoek **gelijkbenig en rechthoekig** is. Dezelfde procedure wordt vervolgens ad infinitum ("tot in het oneindige") toegepast op steeds weer nieuwe vierkanten. De afbeelding hieronder toont de eerste vier iteraties in dit constructieproces voor de boom van Pythagoras. 
 
-![De opbouw van een Pythoras boom.](media/boom.png "Afbeelding door Saperaud op Wikimedia."){:data-caption="De opbouw van een Pythoras boom." width="350px"}
+![De opbouw van een Pythoras boom.](media/boom.png "Afbeelding door Saperaud op Wikimedia."){:data-caption="De opbouw van een Pythoras boom." width="525px"}
 
 Vanaf orde 5 overlappen delen van de boom elkaar.
 
