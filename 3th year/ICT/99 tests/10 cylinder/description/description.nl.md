@@ -8,7 +8,7 @@ $$
 
 waarbij $$r$$ de straal van het grondvlak en $$h$$ de hoogte van de cilinder voorstelt.
 
-![Enkele cilinders](media/jessica-lewis.jpg "Foto door Jessica Lewis op Unsplash."){:data-caption="Enkele cilinders." width="40%"}
+![Enkele cilinders.](media/jessica-lewis.jpg "Foto door Jessica Lewis op Unsplash."){:data-caption="Enkele cilinders." width="40%"}
 
 ## Opgave
 Schrijf een programma dat in **volgorde** de straal en de hoogte inleest en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op 3 cijfers na de komma.
