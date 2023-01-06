@@ -1,0 +1,54 @@
+>>> getalpiramide(7) # doctest: +STDOUT
+1
+12
+123
+1234
+12345
+123456
+1234567
+>>> getalpiramide(4) # doctest: +STDOUT
+1
+12
+123
+1234
+>>> getalpiramide(1) # doctest: +STDOUT
+1
+>>> getalpiramide(2) # doctest: +STDOUT
+1
+12
+>>> getalpiramide(3) # doctest: +STDOUT
+1
+12
+123
+>>> getalpiramide(5) # doctest: +STDOUT
+1
+12
+123
+1234
+12345
+>>> getalpiramide(6) # doctest: +STDOUT
+1
+12
+123
+1234
+12345
+123456
+>>> getalpiramide(8) # doctest: +STDOUT
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+>>> getalpiramide(9) # doctest: +STDOUT
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
