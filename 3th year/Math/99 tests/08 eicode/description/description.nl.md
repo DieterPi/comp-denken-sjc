@@ -19,7 +19,7 @@ De mogelijke productiemethodes zijn. (Code 3 zal je binnen de supermarkt niet aa
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `eicode()` wat gegeven een *eicode* een beschrijving van de herkomst afdrukt.
+Schrijf een functie `eicode()` wat gegeven een *eicode* een beschrijving van de herkomst afdrukt. Je hoeft enkel rekening te houden met de buurlanden van België.
 
 #### Voorbeelden
 ```
