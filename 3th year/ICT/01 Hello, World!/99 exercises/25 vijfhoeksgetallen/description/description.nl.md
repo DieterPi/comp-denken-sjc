@@ -20,14 +20,14 @@ Schrijf een programma dat aan de gebruiker vraagt welk vijfhoeksgetal er bereken
 #### Voorbeelden
 Voor invoer `2` verschijnt:
 ```
-Het 2.0 de vijfhoeksgetal is 5
+Het 2 e vijfhoeksgetal is 5
 ```
 
 Voor invoer `15` verschijnt:
 ```
-Het 15.0 de vijfhoeksgetal is 330
+Het 15 e vijfhoeksgetal is 330
 ```
 
 {: .callout.callout-info}
 > #### Tip
-> Om een kommagetal om te vormen naar een geheel getal gebruik je `int()`. Zo is `int( 330.0 ) = 330`.
+> Om een kommagetal om te vormen naar een geheel getal gebruik je ook `int()`. Zo is `int( 330.0 ) = 330`.
