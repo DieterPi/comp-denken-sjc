@@ -1,0 +1,40 @@
+>>> derdemachtsom(4) # doctest: +STDOUT
+100
+>>> derdemachtsom(24) # doctest: +STDOUT
+90000
+>>> derdemachtsom(1) # doctest: +STDOUT
+1
+>>> derdemachtsom(83) # doctest: +STDOUT
+12152196
+>>> derdemachtsom(57) # doctest: +STDOUT
+2732409
+>>> derdemachtsom(70) # doctest: +STDOUT
+6175225
+>>> derdemachtsom(91) # doctest: +STDOUT
+17522596
+>>> derdemachtsom(78) # doctest: +STDOUT
+9492561
+>>> derdemachtsom(51) # doctest: +STDOUT
+1758276
+>>> derdemachtsom(39) # doctest: +STDOUT
+608400
+>>> derdemachtsom(89) # doctest: +STDOUT
+16040025
+>>> derdemachtsom(60) # doctest: +STDOUT
+3348900
+>>> derdemachtsom(51) # doctest: +STDOUT
+1758276
+>>> derdemachtsom(69) # doctest: +STDOUT
+5832225
+>>> derdemachtsom(45) # doctest: +STDOUT
+1071225
+>>> derdemachtsom(52) # doctest: +STDOUT
+1898884
+>>> derdemachtsom(57) # doctest: +STDOUT
+2732409
+>>> derdemachtsom(70) # doctest: +STDOUT
+6175225
+>>> derdemachtsom(89) # doctest: +STDOUT
+16040025
+>>> derdemachtsom(27) # doctest: +STDOUT
+142884
