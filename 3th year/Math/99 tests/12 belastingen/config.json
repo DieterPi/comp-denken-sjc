@@ -1,0 +1,16 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "description": {
+    "names": {
+      "nl": "Belastingstarief"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public"
+}

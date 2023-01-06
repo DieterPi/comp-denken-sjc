@@ -1,0 +1,40 @@
+>>> belasting(26000) # doctest: +STDOUT
+8474.0
+>>> belasting(43000) # doctest: +STDOUT
+16206.0
+>>> belasting(13000) # doctest: +STDOUT
+3250.0
+>>> belasting(38000) # doctest: +STDOUT
+13874.0
+>>> belasting(44000) # doctest: +STDOUT
+16706.0
+>>> belasting(48000) # doctest: +STDOUT
+18706.0
+>>> belasting(35000) # doctest: +STDOUT
+12524.0
+>>> belasting(29000) # doctest: +STDOUT
+9824.0
+>>> belasting(39000) # doctest: +STDOUT
+14324.0
+>>> belasting(35000) # doctest: +STDOUT
+12524.0
+>>> belasting(44000) # doctest: +STDOUT
+16706.0
+>>> belasting(32000) # doctest: +STDOUT
+11174.0
+>>> belasting(35000) # doctest: +STDOUT
+12524.0
+>>> belasting(38000) # doctest: +STDOUT
+13874.0
+>>> belasting(44000) # doctest: +STDOUT
+16706.0
+>>> belasting(23000) # doctest: +STDOUT
+7169.0
+>>> belasting(48000) # doctest: +STDOUT
+18706.0
+>>> belasting(11000) # doctest: +STDOUT
+2750.0
+>>> belasting(27000) # doctest: +STDOUT
+8924.0
+>>> belasting(49000) # doctest: +STDOUT
+19206.0
