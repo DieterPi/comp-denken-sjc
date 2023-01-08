@@ -10,6 +10,5 @@ Schrijf een functie `differentiequotient( koppel1, koppel2 )` die gegeven 2 tupe
 #### Voorbeeld
 ```
 >>> differentiequotient( (1,3), (5,4) )
-(205, 224, 40)
-(40, 205, 224)
+Het differentiequötiënt op dit interval is: 0.25
 ```
