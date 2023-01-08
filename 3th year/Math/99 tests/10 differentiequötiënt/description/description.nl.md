@@ -8,13 +8,16 @@ $$
 Schrijf een functie `differentiequotient( koppel1, koppel2 )` die gegeven 2 tupels het differentiequötiënt berekent en afdrukt. Rond af op 2 cijfers na de komma.
 Zorg dat het programma overweg kan met bijzondere invoer.
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> differentiequotient( (1,3), (5,4) )
 Het differentiequötiënt op het interval [ 1 , 5 ] is: 0.25
 ```
-
 ```
 >>> differentiequotient( (5,3), (5,4) )
 Deze twee punten hebben eenzelfde x coördinaat, hier kan je dus geen differentiequötiënt berekenen
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Je kan uit een *tupel* met lengte 2 de aparte elementen halen via `tupel[0]` en `tupel[1]`.
