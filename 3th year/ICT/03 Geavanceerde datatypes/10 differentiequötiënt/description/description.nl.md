@@ -1,7 +1,7 @@
-Als $$A(x_1,y_1)$$ en $$B(x_2,y_2)$$ twee punten (met $$x_1 \not = x_2$$) zijn van de grafiek van een functie dan berekent men het differentiequötiënt op dat interval als volgt:
+Als $$A(x_1,y_1)$$ en $$B(x_2,y_2)$$ (met $$x_1 \not = x_2$$) twee punten zijn van de grafiek van een functie dan berekent men het differentiequötiënt op dat interval als volgt:
 
 $$
-\dfrac{\delta y}{\Delta x} = \dfrac{y_2-y_1}{x_2-x_1}
+\dfrac{\Delta y}{\Delta x} = \dfrac{y_2-y_1}{x_2-x_1}
 $$
 
 ## Opgave
