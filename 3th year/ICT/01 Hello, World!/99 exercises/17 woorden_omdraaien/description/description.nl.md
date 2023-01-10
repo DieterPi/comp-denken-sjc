@@ -10,5 +10,5 @@ world Hello
 
 De invoer `Bol kaas` resulteert in:
 ```
-kaas bol
+kaas Bol
 ```
