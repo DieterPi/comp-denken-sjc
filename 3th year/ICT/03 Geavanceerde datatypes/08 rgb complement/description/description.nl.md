@@ -15,7 +15,3 @@ Het is natuurlijk wel zo dat elke kleurcode uiteindelijk opnieuw een waarde van 
 >>> complementair( (0, 128, 128) )
 (255, 127, 127)
 ```
-
-{: .callout.callout-info}
-> #### Tip
-> Gebruik de modulo operator `%`.
