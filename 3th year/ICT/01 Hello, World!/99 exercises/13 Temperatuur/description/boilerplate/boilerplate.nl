@@ -1,8 +1,8 @@
-# vul zelf verder aan
+# Invoer, vul zelf verder aan
 temperatuur = float( input( '
 
-# berekening
+# Verwerking, bereken de afwijking
 afwijking = 
 
-# weergeven op het scherm
+# Uitvoer, druk af op het scherm, afgerond op 1 cijfer na de komma
 print( 'Afwijking:', round( 
