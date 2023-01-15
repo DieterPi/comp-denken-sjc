@@ -1,0 +1,14 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Invoer, verwerking en uitvoer (oefening)"
+    }
+  },
+  "labels": [ ],
+  "access": "public"
+}
