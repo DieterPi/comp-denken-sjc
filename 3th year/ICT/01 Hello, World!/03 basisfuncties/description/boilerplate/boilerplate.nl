@@ -1,14 +1,14 @@
-# vul de juiste invoer in
+# Invoer, vraag de juiste gegevens aan de gebruiker
 getal1 = int( input( 'Geef een eerste getal in: ' ) )
 getal2 = 
 getal3 = 
 
-# bereken hier het maximum, minumum en het gemiddelde
+# Verwerking, bereken hier het maximum, minumum en het gemiddelde
 maximum = max( getal1, getal2, getal3 )
 minimum = 
 gemiddelde = 
 
-# vul hieronder de andere uitvoer aan
+# Uitvoer, druk af op het scherm, rond het gemiddelde af op 2 cijfers na de komma!
 print('maximum:', maximum)
 print(
 print( 
