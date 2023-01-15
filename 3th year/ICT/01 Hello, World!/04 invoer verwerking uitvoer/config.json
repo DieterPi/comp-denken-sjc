@@ -9,6 +9,12 @@
       "nl": "Invoer, verwerking en uitvoer (oefening)"
     }
   },
-  "labels": [ ],
-  "access": "public"
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "XiZ3xmGAKAwYAaNkuVSIgi3RN7U3iRH7vP-3_AaGYTPRWqWs7keky_y6eQU_qqy6",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
