@@ -11,8 +11,13 @@ $$
 
 Schrijf een programma dat een temperatuur in graden **Celsius** vraagt en vervolgens deze in graden **Fahrenheit** uitrekent. Rond het resultaat af op 2 cijfers na de komma.
 
-#### Voorbeeld
+#### Voorbeelden
 Een temperatuur van 0°C komt overeen met 32°F.
 ```
-temperatuur: 32 °F
+temperatuur: 32.0 °F
+```
+
+Een temperatuur van 16,939°C komt overeen met 62,49°F.
+```
+temperatuur: 62.49 °F
 ```
