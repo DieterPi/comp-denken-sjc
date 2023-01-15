@@ -1,5 +1,5 @@
 ## Opgave
-In Europa gebruikt men voornamelijk de Celsius temperatuurschaal. Deze werd ca. 1742 door de Zweed Anders Celsius geïntroduceerd. Wat vroeger, in 1724, introduceerde de Duitse natuurkundige Gabriel Fahrenheit zijn eigen temperatuurschaal. Deze wordt in verschillende landen (waaronder de Verenigde Staten) nog steeds gebruikt.
+In Europa gebruikt men voornamelijk de Celsius temperatuurschaal. Deze werd ca. 1742 door de Zweed <a href="https://nl.wikipedia.org/wiki/Anders_Celsius" target="_blank">Anders Celsius</a> geïntroduceerd. Wat vroeger, in 1724, introduceerde de Duitse natuurkundige <a href="https://nl.wikipedia.org/wiki/Gabriel_Fahrenheit" target="_blank">Gabriel Fahrenheit</a> zijn eigen temperatuurschaal. Deze wordt in verschillende landen (waaronder de Verenigde Staten) nog steeds gebruikt.
 
 ![fahrenheit](media/fahrenheit.png "fahrenheit"){:data-caption="De Fahrenheit schaal." width="25%"}
 
