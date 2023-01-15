@@ -1,5 +1,6 @@
-voornaam = str( input( 'Geef je voornaam in: ' ) )
+# Invoer, vraag de voornaam en de klas
+voornaam = input( 'Geef je voornaam in: ' )
 klas = 
 
-# Vul zelf verder aan
-print( 'Welkom', )
+# Uitvoer, druk de variabelen op het scherm af
+print( 'Welkom', 

@@ -12,6 +12,13 @@ y = 1.5
 print( type( x, y ) )
 ```
 
+Een zeer handige functie is `input()`. Met behulp van die functie kan je de gebruiker om een **invoer** vragen. Test het meteen eens uit via:
+```python
+x = float( input( 'Geef een getal in: ' ) )
+print( 'Het dubbele van', x, 'is', 2 * x )
+```
+Controleer wat er gebeurt indien je `float()` weglaat.
+
 ## Opgave
 Schrijf een programma dat je voornaam en klas vraagt. En vervolgens een begroeting afdrukt van de vorm `Welkom voornaam uit klas !`.
 
