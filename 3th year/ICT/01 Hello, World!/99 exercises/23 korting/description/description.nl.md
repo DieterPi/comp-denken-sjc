@@ -11,7 +11,7 @@ Stel dat een item € 90 kost en er was een korting van 25%. Dan leidt achtereen
 De oorspronkelijke prijs was € 120.0
 ```
 
-Voor een kortingprijs van € 45.15 met een korting van 30% verschijnt er:
+Voor een kortingprijs van € 45,15 met een korting van 30% verschijnt er:
 ```
 De oorspronkelijke prijs was € 64.5
 ```
