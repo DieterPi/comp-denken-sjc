@@ -10,4 +10,4 @@ b = round( l / n, 2 )
 
 # Verzorgt de afdruk op het scherm.
 print('')
-print( 'breedte', b, 'm' )
+print( 'breedte:', b, 'm' )
