@@ -1,4 +1,4 @@
-De pixeldichtheid is een belangrijke grootheid voor de kwaliteit van afbeelding. Pixeldichtheid voor een afdruk wordt bepaald in pixels per inch, of **ppi**. Wil je een kwaliteitsvolle afdruk, dan moet de afbeelding een pixeldichtheid van minimaal 300 ppi hebben.
+De pixeldichtheid is een belangrijke grootheid voor de kwaliteit van een afbeelding. Pixeldichtheid wordt uitgedrukt in pixels per inch, of **ppi**. Wil je een kwaliteitsvolle afdruk, dan moet de afbeelding een pixeldichtheid van minimaal 300 ppi hebben.
 
 ![Het realiseren van een industrieële afdruk.](media/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg "Foto door Bank Phrom op Unsplash."){:data-caption="Het realiseren van een industrieële afdruk." width="40%"}
 
@@ -6,7 +6,7 @@ Stel bijvoorbeeld dat je een afbeelding hebt van 1754 x 2480 pixels met een pixe
 
 ## Opgave
 Schrijf een programma dat de breedte en hoogte van een afbeelding in pixels vraagt. Vervolgens vraagt dit programma de pixeldichtheid.
-Het programma berekent tot slot de maximale lengte en breedte van de bijbehorende afdruk zonder kwaliteitsverlies.
+Het programma berekent tot slot de maximale lengte en breedte van de bijbehorende afdruk zonder kwaliteitsverlies. Rond op het einde af op 3 cijfers.
 
 #### Voorbeeld
 Bij achtereenvolgende invoer van `1754`, `2480` en pixeldichtheid `300` verschijnt er:
