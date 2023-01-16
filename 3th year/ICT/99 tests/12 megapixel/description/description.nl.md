@@ -1,4 +1,4 @@
-De <a href="https://nl.wikipedia.org/wiki/Resolutie_(digitale_beeldverwerking)" target="_blank">resolutie</a> van een digitale camera wordt vaak in megapixel aangegeven. Op je smartphone zie je dit waarschijnlijk staan en vaak is het een getal dat een maat is voor de kwaliteit van je camera.
+De <a href="https://nl.wikipedia.org/wiki/Resolutie_(digitale_beeldverwerking)" target="_blank">resolutie</a> van een digitale camera wordt vaak in megapixel aangegeven. Soms zie je dit staan naast de lens en het getal is een maat voor de kwaliteit van de camera.
 
 ![Close up van de camera's op een iPhone 12 Pro Max](media/theregisti-Btt6m4UjdAE-unsplash.jpg "Foto door TheRegisti op Unsplash."){:data-caption="Close up van de camera's op een iPhone 12 Pro Max." width="40%"}
 
