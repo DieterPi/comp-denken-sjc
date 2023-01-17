@@ -1,0 +1,46 @@
+kinderdosis: 5.7
+
+kinderdosis: 38.8
+
+kinderdosis: 31.7
+
+kinderdosis: 33.1
+
+kinderdosis: 39.7
+
+kinderdosis: 28.7
+
+kinderdosis: 12.6
+
+kinderdosis: 14.6
+
+kinderdosis: 3.5
+
+kinderdosis: 33.1
+
+kinderdosis: 40.1
+
+kinderdosis: 19.8
+
+kinderdosis: 23.7
+
+kinderdosis: 10.7
+
+kinderdosis: 2.6
+
+kinderdosis: 13.7
+
+kinderdosis: 8.8
+
+kinderdosis: 31.7
+
+kinderdosis: 15.4
+
+kinderdosis: 9.7
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 2
+output block size: ends with
+comparison: exact match
