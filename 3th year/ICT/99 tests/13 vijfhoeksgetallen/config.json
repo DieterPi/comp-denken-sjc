@@ -6,7 +6,7 @@
   },
   "description": {
     "names": {
-      "nl": "Megapixel"
+      "nl": "Vijfhoeksgetallen"
     }
   },
   "labels": [
@@ -14,7 +14,7 @@
   ],
   "access": "public",
   "internals": {
-    "token": "xaTu_GgYttNN7KGZHH6GmWgwK8eA8BkMNzWMUqzjSYGmXu3cSfYd64UfEMWmZvKA",
+    "token": "3cTcF-_k_WHc_NqHYJNU6XkHGHyZg2zdUKYPnWS4MJJnFqnz4cEnpWduhZNvxzhH",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
