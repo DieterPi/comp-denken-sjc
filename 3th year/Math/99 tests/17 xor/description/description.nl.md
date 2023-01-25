@@ -13,9 +13,13 @@ Met onderstaande waarheidstabel:
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `xor( A, B )` hetgeen geven twee Booleanse waarden de juiste uitvoer verzorgt. 
+Schrijf een functie `xor( A, B )` hetgeen gegeven twee Booleanse waarden de juiste uitvoer verzorgt. 
 
-Zorg dat je programma **geen enkele** `if` bevat, gebruik **enkel** de Booleaanse operatoren `and`, `or` en `not`.
+
+{: .callout.callout-danger}
+> #### Opgelet
+> Je programma mag **geen enkele** keuze (`if`) bevatten! Maak **enkel** gebruik van de Booleaanse operatoren `and`, `or` en `not`.
+
 
 #### Voorbeelden
 ```
