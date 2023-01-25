@@ -1,0 +1,8 @@
+>>> xor( True, True ) # doctest: +STDOUT
+False
+>>> xor( True, False ) # doctest: +STDOUT
+True
+>>> xor( False, True ) # doctest: +STDOUT
+True
+>>> xor( False, False ) # doctest: +STDOUT
+False
