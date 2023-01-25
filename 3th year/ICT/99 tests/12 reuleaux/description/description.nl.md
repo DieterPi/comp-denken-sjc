@@ -1,4 +1,4 @@
-Een **Reuleaux** driehoek, genoemd naar <a href="https://nl.wikipedia.org/wiki/Franz_Reuleaux" target="_blank">Franz Reuleaux</a> is een driehoekige figuur met de merkwaardige eigenschap dat ze constante hoogte heeft.
+Een **Reuleaux** driehoek, genoemd naar <a href="https://nl.wikipedia.org/wiki/Franz_Reuleaux" target="_blank">Franz Reuleaux</a>, is een driehoekige figuur met de merkwaardige eigenschap dat ze constante hoogte heeft.
 
 ![Een Reuleaux driehoek tussen 2 evenwijdige rechten.](media/Reuleaux_triangle_roll.gif "Afbeelding door Ruleroll op Wikimedia."){:data-caption="Een Reuleaux driehoek tussen 2 evenwijdige rechten." width="440px"}
 
