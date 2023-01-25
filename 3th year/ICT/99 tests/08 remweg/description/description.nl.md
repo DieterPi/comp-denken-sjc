@@ -13,7 +13,7 @@ Schrijf een programma dat een beginsnelheid vraagt (in **km/u**) en daarna de re
 
 Het programma berekent en toont vervolgens de remweg, afgerond op 3 cijfers na de komma.
 
-#### Voorbeeld
+#### Voorbeelden
 De invoer `90` (km/u) en remvertraging `8` m/s² leidt tot uitvoer:
 ```
 Remweg: 39.062
