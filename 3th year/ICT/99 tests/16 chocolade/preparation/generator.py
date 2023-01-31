@@ -31,10 +31,10 @@ comparison: exact match
 ntests= 20
 cases = [(880, )]
 while len(cases) < ntests:
-    aantal500 = random.randint(0,4)
+    aantal600 = random.randint(0,4)
     aantal120 = random.randint(0,7)
     aantal40 = random.randint(0,15)
-    cases.append( (aantal500*500 + aantal120*120+aantal40*40, ) )
+    cases.append( (aantal600*600 + aantal120*120+aantal40*40, ) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
