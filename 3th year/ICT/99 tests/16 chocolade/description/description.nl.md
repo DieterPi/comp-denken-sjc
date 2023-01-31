@@ -1,7 +1,7 @@
 ![Enkele stukken van een reep chocolade.](media/towfiqu-barbhuiya-uNi4M3sHqOo-unsplash.jpg "Foto door Towfiqu Barbhuiya op Unsplash."){:data-caption="Enkele stukken van een reep chocolade." width="40%"}
 
 ## Opgave
-Stel dat je een pakket met repen chocolade wil samenstellen. Je hebt hiervoor drie verschillende soorten beschikbaar, repen van 40 g, 130 g en van 400 g.
+Stel dat je een pakket met repen chocolade wil samenstellen. Je hebt hiervoor drie verschillende soorten beschikbaar, repen van 40 g, 120 g en van 500 g.
 
 Schrijf nu een programma dat de gebruiker vraagt hoeveel het pakket samen moet gaan wegen (in gram). Daarna geeft het programma het aantal benodigde repen van elke soort. Het pakket wordt steeds opgevulgd met zoveel mogelijk repen van de zwaarste soort.
 

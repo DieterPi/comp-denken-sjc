@@ -3,13 +3,13 @@
 
 massa = int( input( 'Geef de gewenste massa: ') )
 
-aantal400 = massa // 400
-rest400 = massa % 400
-aantal130 =  rest400 // 130
-rest130 = rest400 % 130
-aantal40 = rest130 // 40
+aantal500 = massa // 500
+rest500 = massa % 500
+aantal120 =  rest500 // 120
+rest120 = rest500 % 120
+aantal40 = rest120 // 40
 
 print( '' )
-print( 'aantal repen van 400 g:', aantal400 )
-print( 'aantal repen van 130 g:', aantal130 )
+print( 'aantal repen van 500 g:', aantal500 )
+print( 'aantal repen van 120 g:', aantal120 )
 print( 'aantal repen van 40 g:', aantal40 )

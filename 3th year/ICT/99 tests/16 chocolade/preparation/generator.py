@@ -29,12 +29,12 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(780, )]
+cases = [(720, )]
 while len(cases) < ntests:
-    aantal400 = random.randint(0,4)
-    aantal130 = random.randint(0,3)
+    aantal500 = random.randint(0,4)
+    aantal120 = random.randint(0,7)
     aantal40 = random.randint(0,15)
-    cases.append( (aantal400*400 + aantal130*130+aantal40*40, ) )
+    cases.append( (aantal500*500 + aantal120*120+aantal40*40, ) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
