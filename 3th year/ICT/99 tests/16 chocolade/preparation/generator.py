@@ -29,7 +29,7 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(720, )]
+cases = [(880, )]
 while len(cases) < ntests:
     aantal500 = random.randint(0,4)
     aantal120 = random.randint(0,7)
