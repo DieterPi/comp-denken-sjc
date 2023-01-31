@@ -31,8 +31,8 @@ comparison: exact match
 ntests= 20
 cases = [(780, )]
 while len(cases) < ntests:
-    aantal400 = random.randint(0,3)
-    aantal130 = random.randint(0,8)
+    aantal400 = random.randint(0,4)
+    aantal130 = random.randint(0,3)
     aantal40 = random.randint(0,15)
     cases.append( (aantal400*400 + aantal130*130+aantal40*40, ) )
 
