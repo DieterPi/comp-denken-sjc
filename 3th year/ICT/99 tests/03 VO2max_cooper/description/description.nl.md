@@ -15,7 +15,7 @@ waarbij $$d_{12}$$ de afstand in m is die men aflegt in 12 minuten. (de cooperte
 ## Opgave
 Schrijf een programma dat de afstand $$d_{12}$$ in meter vraagt en vervolgens de VO₂max schatting op 1 cijfer na de komma berekent.
 
-#### Voorbeeld
+#### Voorbeelden
 Bij invoer van 2450 m verschijnt er:
 ```
 VO2max: 43.2
