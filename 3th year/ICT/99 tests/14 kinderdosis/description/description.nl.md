@@ -1,4 +1,4 @@
-Indien men een goede dosring van een geneesmiddel wil bepalen voor een kind tussen 2 en 17 jaar kan men gebruik maken van de regel van Clarke, genoemd naar arts Cecil Clarke uit Barbados. Hierbij heeft men enkel de massa van het kind en de dosis voor een volwassene nodig.
+Indien men een goede dosering van een geneesmiddel wil bepalen voor een kind tussen 2 en 17 jaar kan men gebruik maken van de regel van Clarke, genoemd naar arts Cecil Clarke uit Barbados. Hierbij heeft men enkel de massa van het kind en de dosis voor een volwassene nodig.
 
 ![Verschillende geneesmiddelen.](media/roberto-sorin-RS0-h_pyByk-unsplash.jpg "Foto door Roberto Sorin op Unsplash."){:data-caption="Verschillende geneesmiddelen." width="40%"}
 
