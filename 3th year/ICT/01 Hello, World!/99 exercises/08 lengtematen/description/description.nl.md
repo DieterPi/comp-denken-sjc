@@ -17,7 +17,7 @@ Schrijf een programma dat voor een gegeven aantal meter uitrekent met hoeveel *y
 
 Zorg ervoor dat het aantal *feet* en het aantal *yard* een geheel getal is, terwijl de kleinste eenheid *inch* een kommagetal (afgerond op 2 cijfers) kan zijn.
 
-#### Voorbeeld
+#### Voorbeelden
 Voor een lengte van 1,80 m geldt:
 ```
 Dit stemt overeen met 1 yard 2 feet 10.87 inch
