@@ -9,3 +9,7 @@ Indien je een video van 32 minuten en 21 seconden (0:32:21) wilt samenvoegen met
 ```
 Totale tijd: 1 uur, 5 minuten en 41 seconden.
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Je moet de gebruiker dus om 6 verschillende inputs vragen, het **aantal uur**, **aantal minuten** en **aantal seconden** van beide video's.
