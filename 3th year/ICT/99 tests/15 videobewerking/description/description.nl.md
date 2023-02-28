@@ -12,4 +12,4 @@ Totale tijd: 1 uur, 5 minuten en 41 seconden.
 
 {: .callout.callout-info}
 > #### Tip
-> Je moet de gebruiker dus om 6 verschillende inputs vragen, het **aantal uur**, **aantal minuten** en **aantal seconden** van beide video's.
+> Je moet de gebruiker dus om **zes** verschillende inputs vragen, het *aantal uur*, *aantal minuten* en *aantal seconden* van beide video's.
