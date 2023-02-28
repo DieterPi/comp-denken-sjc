@@ -6,7 +6,7 @@ $$
 
 Hierbij stelt $$v$$ de **beginsnelheid** in m/s voor en $$a_{\text{rem}}$$ de **remvertraging** in m/s². Bij een droog vlak wegdek en met goede rubberbanden kan de remvertraging 10 m/s² bedragen, is het wegdek glad, dan kan de remvertraging sterk afnemen.
 
-![Een snelle wagen gooit zich in de remmen.](media/animated.gif "Een Lamborgini die in de bocht drift."){:data-caption="Een snelle wagen gooit zich in de remmen." width="500px"}
+![Homer Simpson gooit alle remmen dicht.](media/simpson.gif "Homer Simpson gooit alle remmen dicht."){:data-caption="Homer Simpson gooit alle remmen dicht." width="400px"}
 
 ## Opgave
 Schrijf een programma dat een beginsnelheid vraagt (in **km/u**) en daarna de remvertraging (in m/s²). 
