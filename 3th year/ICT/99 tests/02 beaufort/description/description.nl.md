@@ -9,7 +9,7 @@ Hierbij wordt de Beaufort windsnelheid steeds afgerond op **eenheden** nauwkeuri
 ![Een windsok op het Nederlands strand.](media/beaufort.jpg "Foto door RoonZ nl op Unsplash."){:data-caption="Een windsok op het Nederlands strand." width="40%"}
 
 ## Opgave
-Schrijf een programma dat de windsnelheid in $$\dfrac{\text{m}}{\text{s}}$$ vraagt en vervolgens de Beaufort windsnelheid uitrekent.
+Schrijf een programma dat de windsnelheid $$v$$ in $$\dfrac{\text{m}}{\text{s}}$$ vraagt en vervolgens de Beaufort windsnelheid uitrekent.
 
 #### Voorbeeld
 Een windsterkte van $$1.2 \dfrac{\text{m}}{\text{s}}$$ leidt tot:
