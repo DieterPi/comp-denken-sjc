@@ -1,4 +1,4 @@
-Windkracht wordt uitgedrukt in de schaal van Beaufort. Oorspronkelijk telde de schaal 13 waarden, maar sinds 1946  werd een nieuwe schaal ontwikkeld die 17 waarden telt. Men berekent de Beaufort windsnelheid $$B$$ via de volgende formule:
+Windkracht wordt uitgedrukt in de <a href="https://nl.wikipedia.org/wiki/Schaal_van_Beaufort" target="_blank">schaal van Beaufort</a>. Oorspronkelijk telde de schaal 13 waarden, maar sinds 1946  werd een nieuwe schaal ontwikkeld die 17 waarden telt. Men berekent de Beaufort windsnelheid $$B$$ via de volgende formule:
 
 $$
     B = \left(\dfrac{v}{0,836}\right)^\dfrac{2}{3}
