@@ -1,40 +1,40 @@
->>> heron_gemiddelde(4,25) # doctest: +STDOUT
-13.0
->>> heron_gemiddelde(165,114) # doctest: +STDOUT
-138.72
->>> heron_gemiddelde(139,182) # doctest: +STDOUT
-160.02
->>> heron_gemiddelde(155,102) # doctest: +STDOUT
-127.58
->>> heron_gemiddelde(78,177) # doctest: +STDOUT
-124.17
->>> heron_gemiddelde(120,102) # doctest: +STDOUT
-110.88
->>> heron_gemiddelde(137,90) # doctest: +STDOUT
-112.68
->>> heron_gemiddelde(103,113) # doctest: +STDOUT
-107.96
->>> heron_gemiddelde(140,177) # doctest: +STDOUT
-158.14
->>> heron_gemiddelde(54,173) # doctest: +STDOUT
-107.88
->>> heron_gemiddelde(154,7) # doctest: +STDOUT
-64.61
->>> heron_gemiddelde(70,157) # doctest: +STDOUT
-110.61
->>> heron_gemiddelde(48,7) # doctest: +STDOUT
-24.44
->>> heron_gemiddelde(190,159) # doctest: +STDOUT
-174.27
->>> heron_gemiddelde(37,190) # doctest: +STDOUT
-103.62
->>> heron_gemiddelde(81,174) # doctest: +STDOUT
-124.57
->>> heron_gemiddelde(119,152) # doctest: +STDOUT
-135.16
->>> heron_gemiddelde(78,163) # doctest: +STDOUT
-117.92
->>> heron_gemiddelde(23,73) # doctest: +STDOUT
-45.66
->>> heron_gemiddelde(81,97) # doctest: +STDOUT
-88.88
+4
+25
+0
+3
+14
+12
+9
+14
+12
+11
+12
+14
+6
+0
+8
+5
+0
+4
+10
+14
+9
+2
+9
+10
+12
+1
+0
+3
+13
+2
+0
+9
+14
+12
+3
+14
+0
+8
+9
+7
