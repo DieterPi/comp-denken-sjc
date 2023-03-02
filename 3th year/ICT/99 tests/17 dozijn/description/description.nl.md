@@ -1,4 +1,4 @@
-Een **dozijn** eieren is een alternatieve benaming voor 12 eieren. Een **gros** is 12 dozijn, of anders gezegd, is een gros een dozijn dozijnen.
+Een **dozijn** eieren is een alternatieve benaming voor 12 eieren. Een **gros** eieren is 12 dozijn, of anders gezegd is een gros een dozijn dozijnen.
 
 ![Een dozijn eieren.](media/erin-larson-jIfVrNrhbI8-unsplash.jpg "Foto door Erin Larson op Unsplash."){:data-caption="Een dozijn eieren." width="40%"}
 
@@ -13,4 +13,4 @@ Totale aantal eieren: 1 gross, 3 dozijn en 2 eieren.
 
 {: .callout.callout-info}
 > #### Tip
-> Je moet de gebruiker dus om **zes** verschillende inputs vragen, het *aantal gross*, *aantal dozijn* en *aantal apaprte eieren* van beide hoeveelheden.
+> Je moet de gebruiker dus om **zes** verschillende inputs vragen, het *aantal gross*, *aantal dozijn* en *aantal aparte eieren* van beide hoeveelheden.
