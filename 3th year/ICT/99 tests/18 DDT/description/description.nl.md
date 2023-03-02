@@ -8,7 +8,7 @@ DDT kent een zogenaamde **halveringstijd** van nagenoeg 15 jaar. Dit betekent da
 Schrijf een programma dat een beginhoeveelheid $$d$$ in gram vraagt en het aantal jaar $$n$$. Nadien berekent het programma de resterende hoeveelheid $$r$$, afgerond op 1 cijfer na de komma. Je kan hiervoor de volgende formule gebruiken:
 
 $$
-    r = b \cdot 2^{\dfrac{-n}{15}}
+    r = b \cdot 2^{\frac{-n}{15}}
 $$
 
 #### Voorbeelden
