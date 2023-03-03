@@ -5,10 +5,10 @@ DDT kent een zogenaamde **halveringstijd** van nagenoeg 15 jaar. Dit betekent da
 ![Een soldaat uit WII krijgt een behandeling met DDT.](media/DDT_WWII_soldier.jpeg "Foto door CDC op Wikimedia."){:data-caption="Een soldaat uit WII krijgt een behandeling met DDT." width="40%"}
 
 ## Opgave
-Schrijf een programma dat een beginhoeveelheid $$d$$ in gram vraagt en het aantal jaar $$n$$. Nadien berekent het programma de resterende hoeveelheid $$r$$, afgerond op 1 cijfer na de komma. Je kan hiervoor de volgende formule gebruiken:
+Schrijf een programma dat een beginhoeveelheid $$d_0$$ in gram vraagt en het aantal jaar $$n$$. Nadien berekent het programma de resterende hoeveelheid $$r$$, afgerond op 1 cijfer na de komma. Je kan hiervoor de volgende formule gebruiken:
 
 $$
-    r = b \cdot 2^{\frac{-n}{15}}
+    r = d_0 \cdot 2^{\frac{-n}{15}}
 $$
 
 #### Voorbeelden
