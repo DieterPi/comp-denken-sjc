@@ -14,4 +14,4 @@ d = (d1 + d2 + (e1+e2)//12)%12
 g = g1+g2 + (d1 + d2 + (e1+e2)//12) // 12
 
 print('')
-print('Totale antal eieren:', g, 'gross,', d, 'dozijn en', e, 'eieren.')
+print('Totale aantal eieren:', g, 'gross,', d, 'dozijn en', e, 'eieren.')
