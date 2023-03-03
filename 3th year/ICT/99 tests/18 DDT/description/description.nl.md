@@ -25,3 +25,5 @@ Na 100 jaar is er 4.9 g DDT over.
 {: .callout.callout-info}
 > #### Tip
 > Gebruik de functie `pow()`.
+
+![DDT, niet te verwarren met Dimitri De Tremmerie.](media/fcdk-ddt.gif "DDT, niet te verwarren met Dimitri De Tremmerie."){:data-caption="DDT, niet te verwarren met Dimitri De Tremmerie." width="121px"}
