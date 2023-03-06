@@ -13,8 +13,8 @@ z = 1.27
 
 print( 'abs( x ):', abs( x ) )
 print( 'max( x, y, z ):', max( x, y, z ) )
-print( 'min( x, y, z):', min( x, y, z ) )
-print( 'pow( x, y) ):', pow( x, y ) )
+print( 'min( x, y, z ):', min( x, y, z ) )
+print( 'pow( x, y ):', pow( x, y ) )
 print( 'round( z, 1 ):', round( z, 1 ) )
 ```
 
