@@ -1,60 +1,40 @@
->>> f(0)
+>>> f(0) # doctest: +STDOUT
 -4
-
->>> f(1.3333333333333333)
+>>> f(1.3333333333333333) # doctest: +STDOUT
 0.0
-
->>> f(2.83)
+>>> f(2.83) # doctest: +STDOUT
 4.49
-
->>> f(9.86)
+>>> f(9.86) # doctest: +STDOUT
 25.58
-
->>> f(6.23)
+>>> f(6.23) # doctest: +STDOUT
 14.69
-
->>> f(8.74)
+>>> f(8.74) # doctest: +STDOUT
 22.22
-
->>> f(-2.06)
+>>> f(-2.06) # doctest: +STDOUT
 -10.18
-
->>> f(-2.01)
+>>> f(-2.01) # doctest: +STDOUT
 -10.03
-
->>> f(-5.85)
+>>> f(-5.85) # doctest: +STDOUT
 -21.55
-
->>> f(-9.53)
+>>> f(-9.53) # doctest: +STDOUT
 -32.59
-
->>> f(-9.48)
+>>> f(-9.48) # doctest: +STDOUT
 -32.44
-
->>> f(4.79)
+>>> f(4.79) # doctest: +STDOUT
 10.37
-
->>> f(3.58)
+>>> f(3.58) # doctest: +STDOUT
 6.74
-
->>> f(2.69)
+>>> f(2.69) # doctest: +STDOUT
 4.07
-
->>> f(-3.74)
+>>> f(-3.74) # doctest: +STDOUT
 -15.22
-
->>> f(-9.13)
+>>> f(-9.13) # doctest: +STDOUT
 -31.39
-
->>> f(2.97)
+>>> f(2.97) # doctest: +STDOUT
 4.91
-
->>> f(-9.56)
+>>> f(-9.56) # doctest: +STDOUT
 -32.68
-
->>> f(-1.08)
+>>> f(-1.08) # doctest: +STDOUT
 -7.24
-
->>> f(4.84)
+>>> f(4.84) # doctest: +STDOUT
 10.52
-

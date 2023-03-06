@@ -11,7 +11,7 @@ $$
     f: x\mapsto 3x - 4
 $$
 
-De functie `f( x )` **retourneert** telkens het beeld. Rond af op 2 cijfers.
+De functie `f( x )` geeft telkens het beeld. Rond af op 2 cijfers.
 
 #### Voorbeelden
 ```
