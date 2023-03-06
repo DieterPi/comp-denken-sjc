@@ -1,60 +1,40 @@
->>> palindroom( 315 )
+>>> palindroom( 315 ) # doctest: +STDOUT
 315513
-
->>> palindroom( 202 )
+>>> palindroom( 202 ) # doctest: +STDOUT
 202202
-
->>> palindroom( 756 )
+>>> palindroom( 756 ) # doctest: +STDOUT
 756657
-
->>> palindroom( 552 )
+>>> palindroom( 552 ) # doctest: +STDOUT
 552255
-
->>> palindroom( 655 )
+>>> palindroom( 655 ) # doctest: +STDOUT
 655556
-
->>> palindroom( 826 )
+>>> palindroom( 826 ) # doctest: +STDOUT
 826628
-
->>> palindroom( 963 )
+>>> palindroom( 963 ) # doctest: +STDOUT
 963369
-
->>> palindroom( 931 )
+>>> palindroom( 931 ) # doctest: +STDOUT
 931139
-
->>> palindroom( 716 )
+>>> palindroom( 716 ) # doctest: +STDOUT
 716617
-
->>> palindroom( 506 )
+>>> palindroom( 506 ) # doctest: +STDOUT
 506605
-
->>> palindroom( 411 )
+>>> palindroom( 411 ) # doctest: +STDOUT
 411114
-
->>> palindroom( 805 )
+>>> palindroom( 805 ) # doctest: +STDOUT
 805508
-
->>> palindroom( 577 )
+>>> palindroom( 577 ) # doctest: +STDOUT
 577775
-
->>> palindroom( 506 )
+>>> palindroom( 506 ) # doctest: +STDOUT
 506605
-
->>> palindroom( 647 )
+>>> palindroom( 647 ) # doctest: +STDOUT
 647746
-
->>> palindroom( 459 )
+>>> palindroom( 459 ) # doctest: +STDOUT
 459954
-
->>> palindroom( 916 )
+>>> palindroom( 916 ) # doctest: +STDOUT
 916619
-
->>> palindroom( 509 )
+>>> palindroom( 509 ) # doctest: +STDOUT
 509905
-
->>> palindroom( 551 )
+>>> palindroom( 551 ) # doctest: +STDOUT
 551155
-
->>> palindroom( 658 )
+>>> palindroom( 658 ) # doctest: +STDOUT
 658856
-
