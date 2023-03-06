@@ -7,10 +7,10 @@ $$
 De formule is genoemd naar de Griekse wetenschapper <a href="https://nl.wikipedia.org/wiki/Heron_van_Alexandri%C3%AB" target="_blank">Heron van Alexandrië</a>.
 
 ## Opgave
-Schrijf een programma dat twee natuurlijke getallen vraagt en vervolgens Heron's gemiddelde berekent en op het scherm afdrukt, afgerond op 1 cijfer na de komma.
+Schrijf een programma dat twee **natuurlijke** getallen vraagt en vervolgens Heron's gemiddelde berekent en op het scherm afdrukt, afgerond op 1 cijfer na de komma.
 
 #### Voorbeeld
+Voor de getallen 4 en 25 verschijnt er:
 ```
->>> heron_gemiddelde( 4, 25 )
-13.0
+Het gemiddelde van 4 en 25 is 13.0
 ```
