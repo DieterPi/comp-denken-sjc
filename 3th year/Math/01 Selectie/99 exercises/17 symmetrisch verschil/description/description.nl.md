@@ -1,6 +1,6 @@
 Het symmetrisch verschil van drie verzamelingen zie je op onderstaande figuur in het rood geïllustreerd.
 
-![Het symmetrisch verschil van drie verzamelingen..](media/Venn.png "Afbeelding door Watchduck op Wikimedia."){:data-caption="Het symmetrisch verschil van drie verzamelingen." width="300px"}
+![Het symmetrisch verschil van drie verzamelingen..](media/Venn.png "Afbeelding door Watchduck op Wikimedia."){:data-caption="Het symmetrisch verschil van drie verzamelingen." width="250px"}
 
 ## Opgave
 Schrijf een functie `symmetrisch_verschil( inA, inB, inC )` die gegeven 3 booleaanse waarden (`True` of `False`) controleert of het element tot het symmetrisch verschil van $$A$$, $$B$$ en $$C$$ behoort. De parameters `inA`, `inB` en `inC` stellen telkens voor of een bepaald element tot respectievelijk verzameling $$A$$, verzameling $$B$$ en verzameling $$C$$ behoort.
