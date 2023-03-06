@@ -1,0 +1,16 @@
+>>> symmetrisch_verschil( True, True, True ) # doctest: +STDOUT
+True
+>>> symmetrisch_verschil( True, True, False ) # doctest: +STDOUT
+False
+>>> symmetrisch_verschil( True, False, True ) # doctest: +STDOUT
+False
+>>> symmetrisch_verschil( True, False, False ) # doctest: +STDOUT
+True
+>>> symmetrisch_verschil( False, True, True ) # doctest: +STDOUT
+False
+>>> symmetrisch_verschil( False, True, False ) # doctest: +STDOUT
+True
+>>> symmetrisch_verschil( False, False, True ) # doctest: +STDOUT
+True
+>>> symmetrisch_verschil( False, False, False ) # doctest: +STDOUT
+False
