@@ -3,7 +3,7 @@ In de vorige hoofdstukken heb je al verschillende functies gebruikt. Denk maar a
 
 -   Er is een bepaalde functionaliteit die je op **meerdere** plekken in je programma nodig hebt, dan kan je die beter in een aparte functie stoppen in plaats van de code telkens te kopiëren.
 
--   Door functies met parameters te schrijven zal de code duidelijker worden, **gemakkelijker te lezen** en te **onderhouden**.
+-   Door functies met parameters te schrijven zal de code duidelijker worden, is deze **gemakkelijker te lezen** en te **onderhouden**.
 
 -   Je programma is te lang om de inhoud goed te blijven overzien. Door de code op te splitsen in functies blijf je veel langer grip houden op de inhoud en werking.
 
@@ -23,12 +23,12 @@ Hieronder zie je een voorbeeld van een functie. Deze functie bevat één paramet
 
 ```python
 def begroeting( naam ):
-    return 'Hallo ' + naam + ' !'
+    print( 'Hallo ' + naam + ' !' )
 
-print( begroeting( 'Jan' ) ) 
-print( begroeting( 'Piet' ) )
-print( begroeting( 'Joris' ) )
-print( begroeting( 'Korneel' ) )
+begroeting( 'Jan' ) 
+begroeting( 'Piet' )
+begroeting( 'Joris' )
+begroeting( 'Korneel' )
 ```
 
 Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
@@ -36,11 +36,13 @@ Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
 ```python
 def vermenigvuldig( x, y ):
     resultaat = x * y
-    return resultaat 
+    print( resultaat )
 
-print( vermenigvuldig( 2020 , 5278238 ) )
-print( vermenigvuldig( 2, 3 ) )
+vermenigvuldig( 2023 , 5278238 )
+vermenigvuldig( 2, 3 )
 ```
+
+#### Return
 
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
@@ -56,36 +58,16 @@ def valafstand( t, g = 9.81 ):
     d = 1/2 * g * pow( t, 2 )
     return d
 
-print( valafstand( 3 ) )
-print( valafstand( 4 ) > 88 )
+print( 'Als een object 3 seconden valt, dan legt het', valafstand( 3 ), 'm af.')
 ```
-Zoals je in de laatste regel kan zien zorgt `return` ervoor dat je gemakkelijk kan controleren of een object na 4 seconden meer dan 88 meter heeft afgelegd. We kunnen verder *rekenen* met de *uitvoer* van deze functie.
+Je merkt dat alle complexiteit in de functie bevat zit en de `print`-opdracht zeer natuurlijk leest.
 
-De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$1,625 \frac{\text{m}}{\text{s}^2}$$ wat nu gemakkelijk te berekenen valt. $$g$$ was bij deze functie dus een *optionele* parameter.
+De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$1,625 \frac{\text{m}}{\text{s}^2}$$, zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. $$g$$ was bij deze functie dus een *optionele* parameter.
 ```python
-print( valafstand( 3, 1.625 ) )
-print( valafstand( 4, 1.625) > 88 )
+print( 'Als een object 3 seconden valt op de maan, dan legt het', valafstand( 3, 1.625 ), 'm af.')
 ```
-
-#### return is niet noodzakelijk
-Je kan ook functies maken zonder `return` maar bijvoorbeeld met `print`. Beschouw de volgende stukjes code:
-```python
-def plus3( a ):
-    return a + 3 
-print( plus3( 5 ) )
-```
-
-```python
-def plus3( a ):
-    print( a + 3 )
-plus3( 5 )
-```
-Beide stukjes code resulteren tot het printen van de waarde 8. Toch zijn de functies **fundamenteel** verschillend!
 
 ## Opgave
-Beschouw onderstaande code, deze bevat enkele kleine **foutjes**. 
+Beschouw onderstaande code, deze bevat een kleine **foutje**. 
 
 Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 en hoogte 1.0 heeft oppervlakte 2.25`.
-
-{: .callout.callout-info}
-> Je ziet binnen de code `str(basis)`. Dit zorgt ervoor dat het getal wat opgeslagen werd in de variabele `basis` omgezet wordt naar het datatype `str`. Enkel tekst kan je immers aan *elkaar plakken* met behulp van de optelling `+`.
