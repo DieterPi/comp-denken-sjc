@@ -1,60 +1,40 @@
->>> meetkundig_gemiddelde(4,25)
+>>> meetkundig_gemiddelde(4,25) # doctest: +STDOUT
 10.0
-
->>> meetkundig_gemiddelde(165,114)
+>>> meetkundig_gemiddelde(165,114) # doctest: +STDOUT
 137.15
-
->>> meetkundig_gemiddelde(139,182)
+>>> meetkundig_gemiddelde(139,182) # doctest: +STDOUT
 159.05
-
->>> meetkundig_gemiddelde(155,102)
+>>> meetkundig_gemiddelde(155,102) # doctest: +STDOUT
 125.74
-
->>> meetkundig_gemiddelde(78,177)
+>>> meetkundig_gemiddelde(78,177) # doctest: +STDOUT
 117.5
-
->>> meetkundig_gemiddelde(120,102)
+>>> meetkundig_gemiddelde(120,102) # doctest: +STDOUT
 110.63
-
->>> meetkundig_gemiddelde(137,90)
+>>> meetkundig_gemiddelde(137,90) # doctest: +STDOUT
 111.04
-
->>> meetkundig_gemiddelde(103,113)
+>>> meetkundig_gemiddelde(103,113) # doctest: +STDOUT
 107.88
-
->>> meetkundig_gemiddelde(140,177)
+>>> meetkundig_gemiddelde(140,177) # doctest: +STDOUT
 157.42
-
->>> meetkundig_gemiddelde(54,173)
+>>> meetkundig_gemiddelde(54,173) # doctest: +STDOUT
 96.65
-
->>> meetkundig_gemiddelde(154,7)
+>>> meetkundig_gemiddelde(154,7) # doctest: +STDOUT
 32.83
-
->>> meetkundig_gemiddelde(70,157)
+>>> meetkundig_gemiddelde(70,157) # doctest: +STDOUT
 104.83
-
->>> meetkundig_gemiddelde(48,7)
+>>> meetkundig_gemiddelde(48,7) # doctest: +STDOUT
 18.33
-
->>> meetkundig_gemiddelde(190,159)
+>>> meetkundig_gemiddelde(190,159) # doctest: +STDOUT
 173.81
-
->>> meetkundig_gemiddelde(37,190)
+>>> meetkundig_gemiddelde(37,190) # doctest: +STDOUT
 83.85
-
->>> meetkundig_gemiddelde(81,174)
+>>> meetkundig_gemiddelde(81,174) # doctest: +STDOUT
 118.72
-
->>> meetkundig_gemiddelde(119,152)
+>>> meetkundig_gemiddelde(119,152) # doctest: +STDOUT
 134.49
-
->>> meetkundig_gemiddelde(78,163)
+>>> meetkundig_gemiddelde(78,163) # doctest: +STDOUT
 112.76
-
->>> meetkundig_gemiddelde(23,73)
+>>> meetkundig_gemiddelde(23,73) # doctest: +STDOUT
 40.98
-
->>> meetkundig_gemiddelde(81,97)
+>>> meetkundig_gemiddelde(81,97) # doctest: +STDOUT
 88.64
-

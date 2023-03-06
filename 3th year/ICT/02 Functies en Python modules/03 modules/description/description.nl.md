@@ -1,5 +1,5 @@
 ## Modules
-Python bezit over een groot aantal modules waar heel wat handige functies in voorgeprogrammeerd zitten. 
+Python bezit over een groot aantal modules waar heel **wat handige functies** in voorgeprogrammeerd zitten. 
 
 Om een module te kunnen gebruiken zet men bovenaan de code
 ```python
@@ -37,7 +37,7 @@ $$
     x_g = \sqrt{a\cdot b}
 $$
 
-Schrijf een functie `meetkundig_gemiddelde( a, b )` die het meetkundig gemiddelde berekent en deze waarde **retourneert**. Rond af op 2 cijfers.
+Schrijf een functie `meetkundig_gemiddelde( a, b )` die het meetkundig gemiddelde berekent en deze waarde afdrukt. Rond af op 2 cijfers.
 
 #### Voorbeelden
 ```
