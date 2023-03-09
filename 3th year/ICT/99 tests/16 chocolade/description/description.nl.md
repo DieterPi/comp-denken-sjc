@@ -1,4 +1,4 @@
-![Enkele stukken van een reep chocolade.](media/towfiqu-barbhuiya-uNi4M3sHqOo-unsplash.jpg "Foto door Towfiqu Barbhuiya op Unsplash."){:data-caption="Enkele stukken van een reep chocolade." width="40%"}
+![Een chocoladereep.](media/chocolat.gif "Chocolade-meme."){:data-caption="Een chocoladereep." width="480px"}
 
 ## Opgave
 Stel dat je een pakket met repen chocolade wil samenstellen. Je hebt hiervoor drie verschillende soorten beschikbaar, repen van 40 g, 120 g en van 600 g.
