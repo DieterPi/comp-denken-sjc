@@ -10,7 +10,7 @@ Deze afstandsmaat is geïnspireerd op de route die een taxi aflegt in Manhattan.
 
 
 ## Opgave
-Schrijf een functie `manhattan( punt1, punt2 )` die de Manhattan-afstand **retourneert** tussen de twee punten `punt1` en `punt2`. 
+Schrijf een functie `manhattan( punt1, punt2 )` die de Manhattan-afstand tussen de twee punten `punt1` en `punt2` afdrukt. Rond af op 1 cijfer na de komma.
 
 #### Voorbeeld
 ```

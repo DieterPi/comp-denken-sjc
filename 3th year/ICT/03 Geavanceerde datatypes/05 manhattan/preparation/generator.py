@@ -29,15 +29,15 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [((3,4),(-1,9)),]
+cases = [((3,4),(-1,9)),((3,4),(3,6)),((3,4),(-3,4)),((3,4),(3,4)),]
 while len(cases) < ntests:
-    cases.append( (tuple(random.randint(-10,10) for _ in range(2)), tuple(random.randint(-10,10) for _ in range(2))) ) 
+    cases.append( (tuple(round(random.uniform(-10,10),1) for _ in range(2)), tuple(round(random.uniform(-10,10),1) for _ in range(2))) ) 
 
 # generate unit tests for function manhattan
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
 for test in cases:
     # generate test expression
-    print(f'>>> manhattan({test[0]}, {test[1]})')
+    print(f'>>> manhattan({test[0]}, {test[1]}) # doctest: +STDOUT')
 
     # generate return value
     try:
