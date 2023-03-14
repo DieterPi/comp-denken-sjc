@@ -1,40 +1,40 @@
->>> wissel(['A', 'B', 'C', 'D', 'E'])
+>>> wissel(['A', 'B', 'C', 'D', 'E']) # doctest: +STDOUT
 ['A', 'D', 'C', 'B', 'E']
->>> wissel(['G', 'P', 'C', 'F', 'N', 'B', 'X', 'E', 'A', 'U', 'K', 'D', 'Q', 'I', 'H', 'S', 'L', 'Y', 'V', 'Z', 'J', 'M', 'T', 'W'])
+>>> wissel(['G', 'P', 'C', 'F', 'N', 'B', 'X', 'E', 'A', 'U', 'K', 'D', 'Q', 'I', 'H', 'S', 'L', 'Y', 'V', 'Z', 'J', 'M', 'T', 'W']) # doctest: +STDOUT
 ['G', 'T', 'C', 'F', 'N', 'B', 'X', 'E', 'A', 'U', 'K', 'D', 'Q', 'I', 'H', 'S', 'L', 'Y', 'V', 'Z', 'J', 'M', 'P', 'W']
->>> wissel(['M', 'D', 'E', 'B', 'O', 'I', 'S', 'N', 'R', 'T', 'L', 'Y', 'A', 'X', 'Z', 'F', 'G', 'P', 'Q', 'K', 'W', 'C', 'J', 'U', 'V'])
+>>> wissel(['M', 'D', 'E', 'B', 'O', 'I', 'S', 'N', 'R', 'T', 'L', 'Y', 'A', 'X', 'Z', 'F', 'G', 'P', 'Q', 'K', 'W', 'C', 'J', 'U', 'V']) # doctest: +STDOUT
 ['M', 'U', 'E', 'B', 'O', 'I', 'S', 'N', 'R', 'T', 'L', 'Y', 'A', 'X', 'Z', 'F', 'G', 'P', 'Q', 'K', 'W', 'C', 'J', 'D', 'V']
->>> wissel(['M', 'Z', 'G', 'A', 'S', 'X', 'O', 'T', 'V', 'I', 'Q', 'W', 'B'])
+>>> wissel(['M', 'Z', 'G', 'A', 'S', 'X', 'O', 'T', 'V', 'I', 'Q', 'W', 'B']) # doctest: +STDOUT
 ['M', 'W', 'G', 'A', 'S', 'X', 'O', 'T', 'V', 'I', 'Q', 'Z', 'B']
->>> wissel(['F', 'H', 'G', 'M', 'Z', 'U', 'X', 'Q', 'J', 'W'])
+>>> wissel(['F', 'H', 'G', 'M', 'Z', 'U', 'X', 'Q', 'J', 'W']) # doctest: +STDOUT
 ['F', 'J', 'G', 'M', 'Z', 'U', 'X', 'Q', 'H', 'W']
->>> wissel(['G', 'M', 'O', 'D'])
+>>> wissel(['G', 'M', 'O', 'D']) # doctest: +STDOUT
 ['G', 'O', 'M', 'D']
->>> wissel(['E', 'I', 'O', 'Z', 'K', 'Q', 'Y', 'M', 'A', 'G', 'U', 'R', 'L', 'F', 'T', 'S', 'D', 'J', 'P', 'W', 'H', 'N', 'X', 'C', 'B'])
+>>> wissel(['E', 'I', 'O', 'Z', 'K', 'Q', 'Y', 'M', 'A', 'G', 'U', 'R', 'L', 'F', 'T', 'S', 'D', 'J', 'P', 'W', 'H', 'N', 'X', 'C', 'B']) # doctest: +STDOUT
 ['E', 'C', 'O', 'Z', 'K', 'Q', 'Y', 'M', 'A', 'G', 'U', 'R', 'L', 'F', 'T', 'S', 'D', 'J', 'P', 'W', 'H', 'N', 'X', 'I', 'B']
->>> wissel(['W', 'U', 'S', 'C', 'J', 'V', 'O', 'N', 'R', 'B', 'E', 'P', 'K', 'G', 'Q', 'F', 'L', 'I', 'H', 'Z', 'A', 'Y'])
+>>> wissel(['W', 'U', 'S', 'C', 'J', 'V', 'O', 'N', 'R', 'B', 'E', 'P', 'K', 'G', 'Q', 'F', 'L', 'I', 'H', 'Z', 'A', 'Y']) # doctest: +STDOUT
 ['W', 'A', 'S', 'C', 'J', 'V', 'O', 'N', 'R', 'B', 'E', 'P', 'K', 'G', 'Q', 'F', 'L', 'I', 'H', 'Z', 'U', 'Y']
->>> wissel(['J', 'L', 'O', 'P', 'C', 'V', 'D', 'M', 'I', 'B', 'G', 'T'])
+>>> wissel(['J', 'L', 'O', 'P', 'C', 'V', 'D', 'M', 'I', 'B', 'G', 'T']) # doctest: +STDOUT
 ['J', 'G', 'O', 'P', 'C', 'V', 'D', 'M', 'I', 'B', 'L', 'T']
->>> wissel(['K', 'D', 'V', 'H', 'M', 'G', 'F', 'E', 'W', 'Z', 'S'])
+>>> wissel(['K', 'D', 'V', 'H', 'M', 'G', 'F', 'E', 'W', 'Z', 'S']) # doctest: +STDOUT
 ['K', 'Z', 'V', 'H', 'M', 'G', 'F', 'E', 'W', 'D', 'S']
->>> wissel(['T', 'L', 'J', 'N', 'M', 'K', 'Q', 'V', 'P', 'I', 'E', 'A', 'H', 'C', 'B', 'R'])
+>>> wissel(['T', 'L', 'J', 'N', 'M', 'K', 'Q', 'V', 'P', 'I', 'E', 'A', 'H', 'C', 'B', 'R']) # doctest: +STDOUT
 ['T', 'B', 'J', 'N', 'M', 'K', 'Q', 'V', 'P', 'I', 'E', 'A', 'H', 'C', 'L', 'R']
->>> wissel(['Z', 'R', 'F', 'K', 'E', 'W', 'L', 'O', 'G', 'I', 'Q', 'T', 'X', 'C', 'N', 'P', 'V', 'U', 'J', 'M'])
+>>> wissel(['Z', 'R', 'F', 'K', 'E', 'W', 'L', 'O', 'G', 'I', 'Q', 'T', 'X', 'C', 'N', 'P', 'V', 'U', 'J', 'M']) # doctest: +STDOUT
 ['Z', 'J', 'F', 'K', 'E', 'W', 'L', 'O', 'G', 'I', 'Q', 'T', 'X', 'C', 'N', 'P', 'V', 'U', 'R', 'M']
->>> wissel(['X', 'O', 'L', 'S', 'U', 'P', 'N', 'V', 'I', 'D', 'T', 'W', 'F', 'M'])
+>>> wissel(['X', 'O', 'L', 'S', 'U', 'P', 'N', 'V', 'I', 'D', 'T', 'W', 'F', 'M']) # doctest: +STDOUT
 ['X', 'F', 'L', 'S', 'U', 'P', 'N', 'V', 'I', 'D', 'T', 'W', 'O', 'M']
->>> wissel(['I', 'K', 'D', 'W', 'J', 'C', 'Z', 'X'])
+>>> wissel(['I', 'K', 'D', 'W', 'J', 'C', 'Z', 'X']) # doctest: +STDOUT
 ['I', 'Z', 'D', 'W', 'J', 'C', 'K', 'X']
->>> wissel(['A', 'O', 'I', 'W', 'M', 'D', 'R', 'X', 'N', 'L', 'S', 'P', 'K', 'U', 'C', 'Z', 'Q', 'E', 'V'])
+>>> wissel(['A', 'O', 'I', 'W', 'M', 'D', 'R', 'X', 'N', 'L', 'S', 'P', 'K', 'U', 'C', 'Z', 'Q', 'E', 'V']) # doctest: +STDOUT
 ['A', 'E', 'I', 'W', 'M', 'D', 'R', 'X', 'N', 'L', 'S', 'P', 'K', 'U', 'C', 'Z', 'Q', 'O', 'V']
->>> wissel(['T', 'K', 'W', 'U', 'Y', 'A', 'Z', 'O', 'B', 'R', 'G', 'M', 'F', 'J', 'H', 'Q', 'N'])
+>>> wissel(['T', 'K', 'W', 'U', 'Y', 'A', 'Z', 'O', 'B', 'R', 'G', 'M', 'F', 'J', 'H', 'Q', 'N']) # doctest: +STDOUT
 ['T', 'Q', 'W', 'U', 'Y', 'A', 'Z', 'O', 'B', 'R', 'G', 'M', 'F', 'J', 'H', 'K', 'N']
->>> wissel(['V', 'M', 'E', 'Q', 'B', 'O', 'G', 'R', 'W'])
+>>> wissel(['V', 'M', 'E', 'Q', 'B', 'O', 'G', 'R', 'W']) # doctest: +STDOUT
 ['V', 'R', 'E', 'Q', 'B', 'O', 'G', 'M', 'W']
->>> wissel(['H', 'K', 'Z', 'U', 'P', 'S', 'D', 'C', 'F', 'O', 'N', 'G', 'R', 'M', 'E', 'I', 'B', 'J', 'W', 'L', 'X', 'A'])
+>>> wissel(['H', 'K', 'Z', 'U', 'P', 'S', 'D', 'C', 'F', 'O', 'N', 'G', 'R', 'M', 'E', 'I', 'B', 'J', 'W', 'L', 'X', 'A']) # doctest: +STDOUT
 ['H', 'X', 'Z', 'U', 'P', 'S', 'D', 'C', 'F', 'O', 'N', 'G', 'R', 'M', 'E', 'I', 'B', 'J', 'W', 'L', 'K', 'A']
->>> wissel(['T', 'J', 'K', 'X', 'G', 'C', 'U', 'L', 'N', 'B', 'F', 'Y', 'R', 'W', 'V', 'H', 'A', 'S', 'Q', 'E', 'I'])
+>>> wissel(['T', 'J', 'K', 'X', 'G', 'C', 'U', 'L', 'N', 'B', 'F', 'Y', 'R', 'W', 'V', 'H', 'A', 'S', 'Q', 'E', 'I']) # doctest: +STDOUT
 ['T', 'E', 'K', 'X', 'G', 'C', 'U', 'L', 'N', 'B', 'F', 'Y', 'R', 'W', 'V', 'H', 'A', 'S', 'Q', 'J', 'I']
->>> wissel(['A', 'Q', 'L', 'E', 'F', 'Y', 'V', 'U', 'B', 'W', 'J', 'I', 'N', 'K', 'G', 'Z'])
+>>> wissel(['A', 'Q', 'L', 'E', 'F', 'Y', 'V', 'U', 'B', 'W', 'J', 'I', 'N', 'K', 'G', 'Z']) # doctest: +STDOUT
 ['A', 'G', 'L', 'E', 'F', 'Y', 'V', 'U', 'B', 'W', 'J', 'I', 'N', 'K', 'Q', 'Z']
