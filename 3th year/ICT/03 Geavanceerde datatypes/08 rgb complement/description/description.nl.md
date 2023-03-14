@@ -9,7 +9,6 @@ schrijf een functie `complementair()` die gegeven een RGB-kleurcode als **tupel*
 (255 - <span style="color:#FF0000">rood</span>, 255 - <span style="color:#00FF00">groen</span>, 255 - <span style="color:#0000FF">blauw</span>)
 </div>
 
-Het is natuurlijk wel zo dat elke kleurcode uiteindelijk opnieuw een waarde van 0 tot en met 255 moet aannemen.
 #### Voorbeeld
 ```
 >>> complementair( (0, 128, 128) )
