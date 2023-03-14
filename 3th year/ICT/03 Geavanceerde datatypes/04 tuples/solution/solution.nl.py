@@ -4,7 +4,7 @@ import math
 
 def afstand( coordinaat ):
     d = round( math.sqrt( pow( coordinaat[0], 2) + pow( coordinaat[1], 2) ), 2)
-    return d
+    print(d)
 
 if __name__ == '__main__':
     import doctest

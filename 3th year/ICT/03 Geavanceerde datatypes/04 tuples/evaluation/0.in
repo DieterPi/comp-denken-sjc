@@ -1,60 +1,40 @@
->>> afstand((3, 4))
+>>> afstand((3, 4)) # doctest: +STDOUT
 5.0
-
->>> afstand((10, 4))
+>>> afstand((10, 4)) # doctest: +STDOUT
 10.77
-
->>> afstand((7, 9))
+>>> afstand((7, 9)) # doctest: +STDOUT
 11.4
-
->>> afstand((2, -1))
+>>> afstand((2, -1)) # doctest: +STDOUT
 2.24
-
->>> afstand((4, 2))
+>>> afstand((4, 2)) # doctest: +STDOUT
 4.47
-
->>> afstand((7, 1))
+>>> afstand((7, 1)) # doctest: +STDOUT
 7.07
-
->>> afstand((2, 4))
+>>> afstand((2, 4)) # doctest: +STDOUT
 4.47
-
->>> afstand((7, -4))
+>>> afstand((7, -4)) # doctest: +STDOUT
 8.06
-
->>> afstand((9, -10))
+>>> afstand((9, -10)) # doctest: +STDOUT
 13.45
-
->>> afstand((-2, 9))
+>>> afstand((-2, 9)) # doctest: +STDOUT
 9.22
-
->>> afstand((-5, -10))
+>>> afstand((-5, -10)) # doctest: +STDOUT
 11.18
-
->>> afstand((9, -6))
+>>> afstand((9, -6)) # doctest: +STDOUT
 10.82
-
->>> afstand((0, 4))
+>>> afstand((0, 4)) # doctest: +STDOUT
 4.0
-
->>> afstand((8, -1))
+>>> afstand((8, -1)) # doctest: +STDOUT
 8.06
-
->>> afstand((10, -8))
+>>> afstand((10, -8)) # doctest: +STDOUT
 12.81
-
->>> afstand((-1, 0))
+>>> afstand((-1, 0)) # doctest: +STDOUT
 1.0
-
->>> afstand((2, -9))
+>>> afstand((2, -9)) # doctest: +STDOUT
 9.22
-
->>> afstand((-10, -7))
+>>> afstand((-10, -7)) # doctest: +STDOUT
 12.21
-
->>> afstand((10, 3))
+>>> afstand((10, 3)) # doctest: +STDOUT
 10.44
-
->>> afstand((7, -8))
+>>> afstand((7, -8)) # doctest: +STDOUT
 10.63
-

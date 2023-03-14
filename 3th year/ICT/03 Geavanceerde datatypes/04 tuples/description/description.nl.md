@@ -40,7 +40,7 @@ $$
     d = \sqrt{x^2+y^2}
 $$
 
-Schrijf een functie `afstand( coordinaat )` die de afstand van een bepaalde coördinaat tot de oorsprong berekent en deze waarde **retourneert**. Rond af op 2 cijfers.
+Schrijf een functie `afstand( coordinaat )` die de afstand van een bepaalde coördinaat tot de oorsprong berekent en deze waarde op het scherm afdrukt. Rond af op 2 cijfers.
 
 #### Voorbeeld
 ```
