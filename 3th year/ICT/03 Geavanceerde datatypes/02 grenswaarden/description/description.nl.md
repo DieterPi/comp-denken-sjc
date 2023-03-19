@@ -5,7 +5,7 @@ $$
 y \leqslant x < z
 $$
 
-Geef de drie getallen in die volgorde daarna weer in een lijst.
+Laat je programma de gebruiker eerst een **kommagetal vragen** en vervolgens een **tupel** aanmaken met de getallen $$y$$, $$x$$ en $$z$$. **Druk** deze tupel vervolgens **af** op het scherm.
 
 {: .callout.callout-info}
 > #### Tip
@@ -14,16 +14,16 @@ Geef de drie getallen in die volgorde daarna weer in een lijst.
 #### Voorbeelden
 Voor de invoer `4.7` verschijnt:
 ```
-[4, 4.7, 5]
+(4, 4.7, 5)
 ```
 
 Voor de invoer `-5.2` verschijnt:
 ```
-[-6, -5.2, -5]
+(-6, -5.2, -5)
 ```
 
 
 Voor de invoer `1` verschijnt:
 ```
-[1, 1.0, 2]
+(1, 1.0, 2)
 ```
