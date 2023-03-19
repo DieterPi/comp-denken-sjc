@@ -28,13 +28,13 @@ for name in dir(module):
         globals()[name] = eval(f'module.{name}')
 
 # generate test data
-klassen = [ '3GRLA', '3LA1', '3LA2', '3LA3', '3ECWE', '3NAWE1', '3NAWE2', '3NAWE3', '3HUWE', '3MT', '3SPWE' ]
+klassen = ['3GRLA', '3LA1', '3LA2', '3LA3', '3ECWE', '3NAWE1', '3NAWE2', '3NAWE3', '3HUWE', '3MT', '3SPWE' ]
 ntests= 20
-cases = [klassen.copy(), [ '3GRLA', '3LA1', '3LA2', '3LA3' ]]
+cases = [tuple(klassen), ('3GRLA', '3LA1', '3LA2', '3LA3' )]
 while len(cases) < ntests:
     randomlength = random.randint(2, len(klassen)-1)
     random.shuffle(klassen)
-    cases.append( klassen[:randomlength] ) 
+    cases.append( tuple(klassen[:randomlength]) ) 
 
 # generate unit tests
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')

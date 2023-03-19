@@ -1,3 +1,3 @@
-def laatste_element( lijst ):
-    lengte = len( lijst )
-    print( lijst[lengte] )
+def laatste_element( tupel ):
+    lengte = len( tupel )
+    print( tupel[lengte] )
