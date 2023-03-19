@@ -7,27 +7,17 @@ print( tupel )
 print( type( tupel ) )
 print( len( tupel ) )
 ```
-Hier zie je een lijst met drie elementen, telkens van het datatype `int`. Je kan opnieuw de elementen apart raadplegen met behulp van de rangnummers.
+
+Hier zie je een lijst met drie elementen, telkens van het datatype `int`. Je kan de elementen apart raadplegen met behulp van de rangnummers. **Deze rangnummers beginnen echter vanaf 0!**
 ```python
 tupel = ( -5, 6, 8 )
+print( tupel[0] )
 print( tupel[1] )
+print( tupel[2] )
 ```
 
-### Lijsten of tupels?
-Het grote verschil met lijsten is dat je geen elementen apart kan gaan bewerken.
-```python
-lijst = [ -5, 6, 8 ]
-lijst[1] = 7
-print( lijst )
-```
+Tupels worden vooral gebruikt om met coördinaten te werken.
 
-```python
-tupel = ( -5, 6, 8 )
-tupel[1] = 7
-print( tupel )
-```
-
-Je kan aan een tupel dus ook geen waarden toevoegen via `append()` of verwijderen via `remove()`. Tupels worden vooral gebruikt om met coördinaten te werken.
 ```python
 A = ( 1, 3)
 print( 'Punt A heeft x-coördinaat', A[0], 'en y-coördinaat', A[1] )
