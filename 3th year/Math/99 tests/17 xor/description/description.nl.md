@@ -18,7 +18,7 @@ Schrijf een functie `xor( A, B )` hetgeen gegeven twee Booleanse waarden de juis
 
 {: .callout.callout-info}
 > #### Bonuspunt!
-> Indien je dit kan programmeren door **enkel** gebruik te maken van de Booleaanse operatoren `and`, `or` en `not`.
+> Indien je dit kan programmeren door **enkel** gebruik te maken van de Booleaanse operatoren `and`, `or` en `not`. Met andere woorden, zonder een `if`-statement te gebruiken.
 
 
 #### Voorbeelden
