@@ -13,7 +13,7 @@ De signum functie heeft onderstaande grafiek:
 ![Signum](media/signum.png "Signum"){:data-caption="De grafiek van de signum functie." width="355px"}
 
 ## Opgave
-Schrijf een functie `sgn()` die de waarden $$-1$$, $$0$$ en $$1$$ retourneert zoals gevraagd.
+Schrijf een functie `sgn()` die de waarden $$-1$$, $$0$$ en $$1$$ geeft zoals gevraagd.
 
 #### Voorbeelden
 ```

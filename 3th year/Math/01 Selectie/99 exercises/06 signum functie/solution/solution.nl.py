@@ -8,7 +8,7 @@ def sgn( x ):
         output = 1
     else:
         output = 0
-    return output
+    print(output)
 
 if __name__ == '__main__':
     import doctest

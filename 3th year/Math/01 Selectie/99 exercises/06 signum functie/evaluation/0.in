@@ -1,40 +1,40 @@
->>> sgn( 10 )
+>>> sgn( 10 ) # doctest: +STDOUT
 1
->>> sgn( 0 )
+>>> sgn( 0 ) # doctest: +STDOUT
 0
->>> sgn( -3.1415 )
+>>> sgn( -3.1415 ) # doctest: +STDOUT
 -1
->>> sgn( 2.8 )
+>>> sgn( 2.8 ) # doctest: +STDOUT
 1
->>> sgn( 0.8 )
+>>> sgn( 0.8 ) # doctest: +STDOUT
 1
->>> sgn( 9.9 )
+>>> sgn( 9.9 ) # doctest: +STDOUT
 1
->>> sgn( 6.9 )
+>>> sgn( 6.9 ) # doctest: +STDOUT
 1
->>> sgn( 6.2 )
+>>> sgn( 6.2 ) # doctest: +STDOUT
 1
->>> sgn( -2.1 )
+>>> sgn( -2.1 ) # doctest: +STDOUT
 -1
->>> sgn( 8.7 )
+>>> sgn( 8.7 ) # doctest: +STDOUT
 1
->>> sgn( 3.8 )
+>>> sgn( 3.8 ) # doctest: +STDOUT
 1
->>> sgn( -2.1 )
+>>> sgn( -2.1 ) # doctest: +STDOUT
 -1
->>> sgn( -3.0 )
+>>> sgn( -3.0 ) # doctest: +STDOUT
 -1
->>> sgn( -2.0 )
+>>> sgn( -2.0 ) # doctest: +STDOUT
 -1
->>> sgn( 0.9 )
+>>> sgn( 0.9 ) # doctest: +STDOUT
 1
->>> sgn( -5.8 )
+>>> sgn( -5.8 ) # doctest: +STDOUT
 -1
->>> sgn( 2.0 )
+>>> sgn( 2.0 ) # doctest: +STDOUT
 1
->>> sgn( -9.5 )
+>>> sgn( -9.5 ) # doctest: +STDOUT
 -1
->>> sgn( 2.2 )
+>>> sgn( 2.2 ) # doctest: +STDOUT
 1
->>> sgn( -9.5 )
+>>> sgn( -9.5 ) # doctest: +STDOUT
 -1
