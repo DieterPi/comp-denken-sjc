@@ -16,9 +16,9 @@ Met onderstaande waarheidstabel:
 Schrijf een functie `xor( A, B )` hetgeen gegeven twee Booleanse waarden de juiste uitvoer verzorgt. 
 
 
-{: .callout.callout-danger}
-> #### Opgelet
-> Je programma mag **geen enkele** keuze (`if`) bevatten! Maak **enkel** gebruik van de Booleaanse operatoren `and`, `or` en `not`.
+{: .callout.callout-info}
+> #### Bonuspunt!
+> Indien je dit kan programmeren door **enkel** gebruik te maken van de Booleaanse operatoren `and`, `or` en `not`.
 
 
 #### Voorbeelden
