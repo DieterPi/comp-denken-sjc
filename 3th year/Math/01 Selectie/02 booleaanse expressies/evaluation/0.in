@@ -1,60 +1,40 @@
->>> deelbaar_door_zes_en_acht(24)
+>>> deelbaar_door_zes_en_acht(24) # doctest: +STDOUT
 True
-
->>> deelbaar_door_zes_en_acht(30)
+>>> deelbaar_door_zes_en_acht(30) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(92)
+>>> deelbaar_door_zes_en_acht(92) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(66)
+>>> deelbaar_door_zes_en_acht(66) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(79)
+>>> deelbaar_door_zes_en_acht(79) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(100)
+>>> deelbaar_door_zes_en_acht(100) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(87)
+>>> deelbaar_door_zes_en_acht(87) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(60)
+>>> deelbaar_door_zes_en_acht(60) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(48)
+>>> deelbaar_door_zes_en_acht(48) # doctest: +STDOUT
 True
-
->>> deelbaar_door_zes_en_acht(98)
+>>> deelbaar_door_zes_en_acht(98) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(69)
+>>> deelbaar_door_zes_en_acht(69) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(60)
+>>> deelbaar_door_zes_en_acht(60) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(78)
+>>> deelbaar_door_zes_en_acht(78) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(54)
+>>> deelbaar_door_zes_en_acht(54) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(61)
+>>> deelbaar_door_zes_en_acht(61) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(66)
+>>> deelbaar_door_zes_en_acht(66) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(79)
+>>> deelbaar_door_zes_en_acht(79) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(98)
+>>> deelbaar_door_zes_en_acht(98) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(36)
+>>> deelbaar_door_zes_en_acht(36) # doctest: +STDOUT
 False
-
->>> deelbaar_door_zes_en_acht(96)
+>>> deelbaar_door_zes_en_acht(96) # doctest: +STDOUT
 True
-
