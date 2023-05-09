@@ -63,4 +63,4 @@ else:
 ```
 
 ## Opgave
-Schrijf een programma dat een (komma)getal inleest. Is het getal positief dan verschijnt de tekst `positief`. In het andere geval verschijnt `strikt negatief`.
+Schrijf een programma dat een (komma)getal aan de gebruiker vraagt. Is het getal positief dan verschijnt de tekst `positief`. In het andere geval verschijnt `strikt negatief`.
