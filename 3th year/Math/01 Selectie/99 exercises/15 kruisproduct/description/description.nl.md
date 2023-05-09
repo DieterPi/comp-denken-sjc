@@ -17,7 +17,7 @@ $$
 $$
 
 ## Opgave
-Schrijf een programma dat de gebruiker om **vier gehele getallen** vraagt, de tellers en noemers van beide breuken. Gebruik vervolgens het kruisproduct om de grootste breuk te bepalen en geef dit verzorgd weer.
+Schrijf een programma dat de gebruiker om **vier gehele getallen** vraagt via de `input()` functie, namelijk de tellers en noemers van beide breuken. Vraag eerst de teller en noemer van de eerste breuk, vervolgens die van de tweede breuk. Gebruik vervolgens het kruisproduct om de grootste breuk te bepalen en geef dit verzorgd weer.
 
 Het eerste deel van het programma werd hieronder reeds gegeven.
 
