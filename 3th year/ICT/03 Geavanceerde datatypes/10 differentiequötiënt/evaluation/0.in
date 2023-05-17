@@ -1,40 +1,40 @@
 >>> differentiequotient( (1, 3), (5, 4) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 0.25
+Het differentiequotiënt op dit interval is: 0.25
 >>> differentiequotient( (10, 4), (7, 9) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -1.67
+Het differentiequotiënt op dit interval is: -1.67
 >>> differentiequotient( (2, -1), (4, 2) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 1.5
+Het differentiequotiënt op dit interval is: 1.5
 >>> differentiequotient( (7, 1), (2, 4) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -0.6
+Het differentiequotiënt op dit interval is: -0.6
 >>> differentiequotient( (7, -4), (9, -10) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -3.0
+Het differentiequotiënt op dit interval is: -3.0
 >>> differentiequotient( (-2, 9), (-5, -10) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 6.33
+Het differentiequotiënt op dit interval is: 6.33
 >>> differentiequotient( (9, -6), (0, 4) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -1.11
+Het differentiequotiënt op dit interval is: -1.11
 >>> differentiequotient( (8, -1), (10, -8) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -3.5
+Het differentiequotiënt op dit interval is: -3.5
 >>> differentiequotient( (-1, 0), (2, -9) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -3.0
+Het differentiequotiënt op dit interval is: -3.0
 >>> differentiequotient( (-10, -7), (10, 3) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 0.5
+Het differentiequotiënt op dit interval is: 0.5
 >>> differentiequotient( (7, -8), (-10, 9) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -1.0
+Het differentiequotiënt op dit interval is: -1.0
 >>> differentiequotient( (6, -1), (4, 2) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -1.5
+Het differentiequotiënt op dit interval is: -1.5
 >>> differentiequotient( (-7, 4), (-10, -2) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 2.0
+Het differentiequotiënt op dit interval is: 2.0
 >>> differentiequotient( (-1, -3), (-3, -9) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 3.0
+Het differentiequotiënt op dit interval is: 3.0
 >>> differentiequotient( (-2, 7), (-8, 1) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 1.0
+Het differentiequotiënt op dit interval is: 1.0
 >>> differentiequotient( (5, -3), (-4, 6) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -1.0
+Het differentiequotiënt op dit interval is: -1.0
 >>> differentiequotient( (-6, 1), (-7, 0) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 1.0
+Het differentiequotiënt op dit interval is: 1.0
 >>> differentiequotient( (7, 1), (6, 3) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -2.0
+Het differentiequotiënt op dit interval is: -2.0
 >>> differentiequotient( (9, 6), (2, -4) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: 1.43
+Het differentiequotiënt op dit interval is: 1.43
 >>> differentiequotient( (10, -1), (-6, 9) ) # doctest: +STDOUT
-Het differentiequötiënt op dit interval is: -0.62
+Het differentiequotiënt op dit interval is: -0.62
