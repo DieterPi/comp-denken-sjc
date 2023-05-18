@@ -23,6 +23,10 @@ Onderstaande tabel geeft een manier om een BMI-waarde te interpreteren:
 ## Opgave
 Schrijf een functie `bmi()` die de massa (in kg) en de lengte (in cm) als parameters heeft, vervolgens het bmi berekent en een beschrijving afdrukt.
 
+{: .callout.callout-info}
+> #### Tip
+> Om problemen met kommagetallen te vermijden laat je de berekening van het bmi best **afronden** op 2 cijfers na de komma.
+
 #### Voorbeelden
 ```
 >>> bmi( 90, 173 )

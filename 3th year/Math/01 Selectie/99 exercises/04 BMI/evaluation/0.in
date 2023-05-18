@@ -2,6 +2,12 @@
 Een persoon van 90 kg met een lengte van 173 cm heeft obesitas.
 >>> bmi(74,184) # doctest: +STDOUT
 Een persoon van 74 kg met een lengte van 184 cm heeft een normaal gewicht.
+>>> bmi(81,180) # doctest: +STDOUT
+Een persoon van 81 kg met een lengte van 180 cm heeft overgewicht.
+>>> bmi(120,200) # doctest: +STDOUT
+Een persoon van 120 kg met een lengte van 200 cm heeft obesitas.
+>>> bmi(76.8,160) # doctest: +STDOUT
+Een persoon van 76.8 kg met een lengte van 160 cm heeft obesitas.
 >>> bmi(83.9,189) # doctest: +STDOUT
 Een persoon van 83.9 kg met een lengte van 189 cm heeft een normaal gewicht.
 >>> bmi(86.9,193) # doctest: +STDOUT
@@ -32,9 +38,3 @@ Een persoon van 81.6 kg met een lengte van 195 cm heeft een normaal gewicht.
 Een persoon van 97.6 kg met een lengte van 173 cm heeft obesitas.
 >>> bmi(69.1,197) # doctest: +STDOUT
 Een persoon van 69.1 kg met een lengte van 197 cm heeft ondergewicht.
->>> bmi(90.0,155) # doctest: +STDOUT
-Een persoon van 90.0 kg met een lengte van 155 cm heeft obesitas.
->>> bmi(59.6,181) # doctest: +STDOUT
-Een persoon van 59.6 kg met een lengte van 181 cm heeft een normaal gewicht.
->>> bmi(80.1,156) # doctest: +STDOUT
-Een persoon van 80.1 kg met een lengte van 156 cm heeft obesitas.

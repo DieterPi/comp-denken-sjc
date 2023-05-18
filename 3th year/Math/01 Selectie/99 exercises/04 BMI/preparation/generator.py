@@ -29,7 +29,7 @@ for name in dir(module):
 
 # generate test data
 ntests= 20
-cases = [(90,173),(74,184),]
+cases = [(90,173),(74,184),(81,180),(120,200),(76.8,160)]
 while len(cases) < ntests:
     cases.append( (round(random.uniform(55,100), 1), random.randint(155,200) ) ) 
 
