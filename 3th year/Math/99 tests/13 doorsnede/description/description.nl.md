@@ -1,5 +1,6 @@
 {: .callout.callout-danger}
 > De doorsnede van twee verzamelingen $$A$$ en $$B$$ is gedefinieerd als:
+>
 > $$A \cap B = \{ x: x\in A \text{ en } x \in B \}$$
 
 ## Opgave
