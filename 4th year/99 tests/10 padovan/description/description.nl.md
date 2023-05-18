@@ -27,4 +27,4 @@ Schrijf een functie `padovan()` met het rangnummer als parameter en zodat deze h
 
 {: .callout.callout-info}
 > #### Tip
-> Maak gebruik van de selectie `if` om de eerste 3 rangnummers apart op te vangen.
+> Maak gebruik van de selectie (`if`) om de eerste 3 rangnummers apart op te vangen.

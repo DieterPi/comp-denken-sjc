@@ -27,4 +27,4 @@ Schrijf een functie `fibonnaci()` met het rangnummer als parameter en zodat deze
 
 {: .callout.callout-info}
 > #### Tip
-> Maak gebruik van de selectie om de eerste 2 rangnummers apart op te vangen. Gebruik voor de andere getallen hulpvariabelen die telkens de twee laatste getallen bewaren.
+> Maak gebruik van de selectie (`if`) om de eerste 2 rangnummers apart op te vangen. Gebruik voor de andere getallen hulpvariabelen die telkens de twee laatste getallen bewaren.
