@@ -6,7 +6,7 @@ $$
 1 \quad 1 \quad 1 \quad 2 \quad 2 \quad 3 \quad 4 \quad 5 \quad 7 \quad 9 \quad \ldots
 $$
 
-![Fibonacci](media/Padovan.png "Padovan"){:data-caption="De rij van Padovan kan men voorstellen met behulp van gelijkzijdige driehoeken." width="35%"}
+![Fibonacci](media/Padovan.png "Padovan"){:data-caption="De rij van Padovan kan men voorstellen met behulp van gelijkzijdige driehoeken." width="45%"}
 
 ## Opgave
 Schrijf een functie `padovan()` met het rangnummer als parameter en zodat deze het getal met dat rangnummer afdrukt.
