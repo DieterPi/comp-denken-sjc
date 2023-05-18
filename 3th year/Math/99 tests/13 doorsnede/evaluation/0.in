@@ -1,0 +1,80 @@
+>>> doorsnede((3, 5), (-1, 4)) # doctest: +STDOUT
+De doorsnede van [ 3 , 5 ] en [ -1 , 4 ] is [ 3 , 4 ]
+>>> doorsnede((-8, 0), (5, 10)) # doctest: +STDOUT
+De doorsnede van [ -8 , 0 ] en [ 5 , 10 ] is ledig
+>>> doorsnede((-2, 6), (6, 7)) # doctest: +STDOUT
+De doorsnede van [ -2 , 6 ] en [ 6 , 7 ] is singleton 6
+>>> doorsnede((-4, 10), (-3, -1)) # doctest: +STDOUT
+De doorsnede van [ -4 , 10 ] en [ -3 , -1 ] is [ -3 , -1 ]
+>>> doorsnede((2, 7), (-9, 6)) # doctest: +STDOUT
+De doorsnede van [ 2 , 7 ] en [ -9 , 6 ] is [ 2 , 6 ]
+>>> doorsnede((-6, -5), (-3, 6)) # doctest: +STDOUT
+De doorsnede van [ -6 , -5 ] en [ -3 , 6 ] is ledig
+>>> doorsnede((-12, 5), (-2, 2)) # doctest: +STDOUT
+De doorsnede van [ -12 , 5 ] en [ -2 , 2 ] is [ -2 , 2 ]
+>>> doorsnede((-12, 8), (-1, 14)) # doctest: +STDOUT
+De doorsnede van [ -12 , 8 ] en [ -1 , 14 ] is [ -1 , 8 ]
+>>> doorsnede((-14, -7), (2, 6)) # doctest: +STDOUT
+De doorsnede van [ -14 , -7 ] en [ 2 , 6 ] is ledig
+>>> doorsnede((-13, -4), (0, 7)) # doctest: +STDOUT
+De doorsnede van [ -13 , -4 ] en [ 0 , 7 ] is ledig
+>>> doorsnede((-4, 8), (-12, 14)) # doctest: +STDOUT
+De doorsnede van [ -4 , 8 ] en [ -12 , 14 ] is [ -4 , 8 ]
+>>> doorsnede((-5, 2), (-4, 11)) # doctest: +STDOUT
+De doorsnede van [ -5 , 2 ] en [ -4 , 11 ] is [ -4 , 2 ]
+>>> doorsnede((-2, 14), (12, 15)) # doctest: +STDOUT
+De doorsnede van [ -2 , 14 ] en [ 12 , 15 ] is [ 12 , 14 ]
+>>> doorsnede((2, 11), (-12, 14)) # doctest: +STDOUT
+De doorsnede van [ 2 , 11 ] en [ -12 , 14 ] is [ 2 , 11 ]
+>>> doorsnede((-7, 0), (-3, -1)) # doctest: +STDOUT
+De doorsnede van [ -7 , 0 ] en [ -3 , -1 ] is [ -3 , -1 ]
+>>> doorsnede((1, 10), (-7, 14)) # doctest: +STDOUT
+De doorsnede van [ 1 , 10 ] en [ -7 , 14 ] is [ 1 , 10 ]
+>>> doorsnede((-15, -1), (1, 6)) # doctest: +STDOUT
+De doorsnede van [ -15 , -1 ] en [ 1 , 6 ] is ledig
+>>> doorsnede((6, 10), (-14, 11)) # doctest: +STDOUT
+De doorsnede van [ 6 , 10 ] en [ -14 , 11 ] is [ 6 , 10 ]
+>>> doorsnede((-9, 6), (-6, -1)) # doctest: +STDOUT
+De doorsnede van [ -9 , 6 ] en [ -6 , -1 ] is [ -6 , -1 ]
+>>> doorsnede((-3, 0), (-5, 11)) # doctest: +STDOUT
+De doorsnede van [ -3 , 0 ] en [ -5 , 11 ] is [ -3 , 0 ]
+>>> doorsnede((-12, -2), (10, 13)) # doctest: +STDOUT
+De doorsnede van [ -12 , -2 ] en [ 10 , 13 ] is ledig
+>>> doorsnede((-9, -7), (-12, 15)) # doctest: +STDOUT
+De doorsnede van [ -9 , -7 ] en [ -12 , 15 ] is [ -9 , -7 ]
+>>> doorsnede((10, 11), (-7, 11)) # doctest: +STDOUT
+De doorsnede van [ 10 , 11 ] en [ -7 , 11 ] is [ 10 , 11 ]
+>>> doorsnede((4, 15), (-6, 1)) # doctest: +STDOUT
+De doorsnede van [ 4 , 15 ] en [ -6 , 1 ] is ledig
+>>> doorsnede((-5, -4), (-8, 8)) # doctest: +STDOUT
+De doorsnede van [ -5 , -4 ] en [ -8 , 8 ] is [ -5 , -4 ]
+>>> doorsnede((-13, 4), (-15, 5)) # doctest: +STDOUT
+De doorsnede van [ -13 , 4 ] en [ -15 , 5 ] is [ -13 , 4 ]
+>>> doorsnede((7, 10), (-4, -1)) # doctest: +STDOUT
+De doorsnede van [ 7 , 10 ] en [ -4 , -1 ] is ledig
+>>> doorsnede((-15, -7), (-9, -5)) # doctest: +STDOUT
+De doorsnede van [ -15 , -7 ] en [ -9 , -5 ] is [ -9 , -7 ]
+>>> doorsnede((-5, 10), (-15, -2)) # doctest: +STDOUT
+De doorsnede van [ -5 , 10 ] en [ -15 , -2 ] is [ -5 , -2 ]
+>>> doorsnede((12, 15), (11, 14)) # doctest: +STDOUT
+De doorsnede van [ 12 , 15 ] en [ 11 , 14 ] is [ 12 , 14 ]
+>>> doorsnede((-3, 13), (-5, 11)) # doctest: +STDOUT
+De doorsnede van [ -3 , 13 ] en [ -5 , 11 ] is [ -3 , 11 ]
+>>> doorsnede((-3, 9), (5, 9)) # doctest: +STDOUT
+De doorsnede van [ -3 , 9 ] en [ 5 , 9 ] is [ 5 , 9 ]
+>>> doorsnede((3, 11), (13, 14)) # doctest: +STDOUT
+De doorsnede van [ 3 , 11 ] en [ 13 , 14 ] is ledig
+>>> doorsnede((-2, 13), (-9, -4)) # doctest: +STDOUT
+De doorsnede van [ -2 , 13 ] en [ -9 , -4 ] is ledig
+>>> doorsnede((-5, 13), (-12, -7)) # doctest: +STDOUT
+De doorsnede van [ -5 , 13 ] en [ -12 , -7 ] is ledig
+>>> doorsnede((-7, 0), (-5, 0)) # doctest: +STDOUT
+De doorsnede van [ -7 , 0 ] en [ -5 , 0 ] is [ -5 , 0 ]
+>>> doorsnede((-6, 11), (-7, -3)) # doctest: +STDOUT
+De doorsnede van [ -6 , 11 ] en [ -7 , -3 ] is [ -6 , -3 ]
+>>> doorsnede((-11, 5), (-13, -4)) # doctest: +STDOUT
+De doorsnede van [ -11 , 5 ] en [ -13 , -4 ] is [ -11 , -4 ]
+>>> doorsnede((-2, 9), (-10, -2)) # doctest: +STDOUT
+De doorsnede van [ -2 , 9 ] en [ -10 , -2 ] is singleton -2
+>>> doorsnede((10, 13), (-14, -12)) # doctest: +STDOUT
+De doorsnede van [ 10 , 13 ] en [ -14 , -12 ] is ledig
