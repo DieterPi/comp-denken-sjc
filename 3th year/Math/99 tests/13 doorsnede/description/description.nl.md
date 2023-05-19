@@ -25,4 +25,4 @@ De doorsnede van [ -2 , 6 ] en [ 6 , 7 ] is singleton 6
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik de functie `min()` om het minimum van twee getallen te bepalen.
+> Je kan dit efficiënt programmeren met behulp van de functies `min()` en `max()` om enerzijds het minimum en het maximum te bepalen.
