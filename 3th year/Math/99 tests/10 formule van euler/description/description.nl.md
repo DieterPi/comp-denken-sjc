@@ -6,7 +6,7 @@ $$
 
 waarbij $$H$$ het aantal hoekpunten, $$R$$ het aantal ribben en $$Z$$ het aantal vlakken voorstelt.
 
-Elk veelvlak moet voldoen aan deze vergelijking. Met behulp van deze vergelijk is het ook mogelijk om aan te tonen dat er slechts vijf platonische lichamen of <a href="https://nl.wikipedia.org/wiki/Regelmatig_veelvlak" target="_blank">regelmatige veelvlakken</a> bestaan.
+Elk veelvlak moet voldoen aan deze vergelijking. Met behulp van deze vergelijking is het ook mogelijk om aan te tonen dat er slechts vijf platonische lichamen of <a href="https://nl.wikipedia.org/wiki/Regelmatig_veelvlak" target="_blank">regelmatige veelvlakken</a> bestaan.
 
 ![De 5 platonische lichamen.](media/platonic.png "Afbeelding door Drummyfish op Wikimedia."){:data-caption="De 5 platonische lichamen." width="40%"}
 
