@@ -29,7 +29,7 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(3.4, 2.4, 6.4), (8.1, 1.2, 7.0)]
+cases = [(3.4, 2.4, 6.4), (8.1, 1.2, 7.0), (5.1, 10.4, 8.0)]
 while len(cases) < ntests:
     cases.append( tuple( round(random.uniform(0, 10), 1) for _ in range(3)) )
 
