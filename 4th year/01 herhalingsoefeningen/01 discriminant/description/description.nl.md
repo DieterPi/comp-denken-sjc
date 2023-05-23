@@ -12,7 +12,7 @@ Discriminant = -4
 Er zijn geen oplossingen
 ```
 
-De vierkantsvergelijking $$x^2+x+1 = 0$$ heeft als discriminant 0.
+De vierkantsvergelijking $$x^2+2x+1 = 0$$ heeft als discriminant 0.
 ```
 >>> discriminant( 1, 2, 1 )
 Discriminant = 0
