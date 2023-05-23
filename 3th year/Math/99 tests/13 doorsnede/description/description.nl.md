@@ -25,4 +25,4 @@ De doorsnede van [ -2 , 6 ] en [ 6 , 7 ] is singleton 6
 
 {: .callout.callout-info}
 > #### Tip
-> Je kan dit efficiënt programmeren met behulp van de functies `min()` en `max()` om enerzijds het minimum en het maximum te bepalen.
+> Je kan dit efficiënt programmeren met behulp van de functies `min()` en `max()` om enerzijds het minimum en het maximum te bepalen. Je hoeft dit zeker niet te gebruiken, andere manieren zijn ook mogelijk.
