@@ -12,11 +12,11 @@ De *gesloten* intervallen worden voorgesteld door middel van *tupels*.
 #### Voorbeelden
 ```
 >>> doorsnede( ( 3, 5 ), ( -1, 4 ) )
-De doorsnede van [ 3 , 5 ] en [ -1 , 2 ] is [ 3 , 4 ]
+De doorsnede van [ 3 , 5 ] en [ -1 , 4 ] is [ 3 , 4 ]
 ```
 ```
 >>> doorsnede( ( -8, 0 ), ( 5, 10 ) )
-De doorsnede van [ -8 , 0 ] en [ -5 , 10 ] is ledig
+De doorsnede van [ -8 , 0 ] en [ 5 , 10 ] is ledig
 ```
 ```
 >>> doorsnede( ( -2, 6 ), ( 6, 7 ) )
