@@ -28,10 +28,12 @@ for name in dir(module):
         globals()[name] = eval(f'module.{name}')
 
 # generate test data
-ntests= 15
-cases = [(3,4,5),(5,4,5),(5,4,3),(2,6,5),(8,10,6)]
+ntests= 30
+cases = [(3,4,5),(5,4,5),(5,4,3),(2,6,5),(8,10,6),(5,5,9),(5,5,4),(9,6,6),(6,9,6),(4,7,7)]
 while len(cases) < ntests:
-    cases.append( tuple(random.randint(2,12) for _ in range(3)) ) 
+    tupel = tuple(random.randint(2,12) for _ in range(3))
+    if tupel[0]+tupel[1] > tupel[2] and tupel[1]+tupel[2] > tupel[0] and tupel[0]+tupel[2] > tupel[1]:
+        cases.append( tupel )  
 
 # generate unit tests for functions
 sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')

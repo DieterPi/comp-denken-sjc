@@ -8,6 +8,16 @@ De driehoek is rechthoekig.
 De driehoek is stomphoekig.
 >>> soort_driehoek(8, 10, 6) # doctest: +STDOUT
 De driehoek is rechthoekig.
+>>> soort_driehoek(5, 5, 9) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(5, 5, 4) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(9, 6, 6) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(6, 9, 6) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(4, 7, 7) # doctest: +STDOUT
+De driehoek is scherphoekig.
 >>> soort_driehoek(12, 9, 10) # doctest: +STDOUT
 De driehoek is scherphoekig.
 >>> soort_driehoek(11, 8, 6) # doctest: +STDOUT
@@ -18,13 +28,33 @@ De driehoek is scherphoekig.
 De driehoek is scherphoekig.
 >>> soort_driehoek(10, 5, 12) # doctest: +STDOUT
 De driehoek is stomphoekig.
->>> soort_driehoek(12, 5, 13) # doctest: +STDOUT
-De driehoek is rechthoekig.
->>> soort_driehoek(8, 17, 15) # doctest: +STDOUT
-De driehoek is rechthoekig.
->>> soort_driehoek(11, 4, 7) # doctest: +STDOUT
-De driehoek is stomphoekig.
 >>> soort_driehoek(12, 9, 11) # doctest: +STDOUT
 De driehoek is scherphoekig.
->>> soort_driehoek(6, 12, 3) # doctest: +STDOUT
+>>> soort_driehoek(6, 7, 8) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(11, 10, 6) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(9, 8, 3) # doctest: +STDOUT
 De driehoek is stomphoekig.
+>>> soort_driehoek(5, 2, 6) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(10, 12, 3) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(7, 9, 5) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(12, 5, 10) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(7, 10, 7) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(10, 8, 11) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(10, 8, 5) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(11, 10, 8) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(12, 8, 8) # doctest: +STDOUT
+De driehoek is stomphoekig.
+>>> soort_driehoek(9, 8, 9) # doctest: +STDOUT
+De driehoek is scherphoekig.
+>>> soort_driehoek(11, 8, 11) # doctest: +STDOUT
+De driehoek is scherphoekig.
