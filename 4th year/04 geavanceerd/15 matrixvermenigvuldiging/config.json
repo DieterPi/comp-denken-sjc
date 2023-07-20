@@ -6,10 +6,9 @@
     }
   },
   "evaluation": {
-    "test_suite": "tests.yaml",
-    "handler": "TESTed"
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"    
   },
-  "programming_language": "python",
   "labels": [
 
   ],
