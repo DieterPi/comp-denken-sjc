@@ -36,8 +36,7 @@ ntests= 20
 cases = [ [[[1,3],[4,5]], [[0,1],[-1,3]]],
           [[[1,5,7]], [[3],[2],[-1]]]]
 
-
-while len(cases) < ntests:
+while len( cases ) < ntests:
     m = random.randint(1,5)
     k = random.randint(1,5)
     n = random.randint(1,5)
@@ -64,7 +63,7 @@ for test in cases:
     # generate test expression
     expression_name = 'matrixvermenigvuldiging( {} , {} )'.format( test[0], test[1] )
     result = ruamel.yaml.comments.CommentedSeq( module.matrixvermenigvuldiging( test[0], test[1] ) )
-    result.fa.set_flow_style()
+    result.fa.set_flow_style() # to prohibit output from being YAML transformed
     
     # setup for return expressions
     testcase = { 'expression': expression_name, 'return': result }
