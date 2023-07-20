@@ -5,9 +5,9 @@
       "nl": "Matrixvermenigvuldiging (oefening)"
     }
   },
-  "judge": "TESTed",
   "evaluation": {
-    "test_suite": "tests.yaml"
+    "test_suite": "tests.yaml",
+    "handler": "TESTed"
   },
   "programming_language": "python",
   "labels": [
