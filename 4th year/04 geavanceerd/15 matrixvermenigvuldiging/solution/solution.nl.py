@@ -15,4 +15,4 @@ def matrixvermenigvuldiging( m1, m2 ):
                 row.append( som )
             result.append( row )
 
-    print( result )
+    return result
