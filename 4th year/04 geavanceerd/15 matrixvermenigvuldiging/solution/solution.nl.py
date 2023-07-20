@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-def matrixvermenivuldiging( m1, m2 ):
+def matrixvermenigvuldiging( m1, m2 ):
     if len(m1[0]) != len(m2):
         result = []
     else:
