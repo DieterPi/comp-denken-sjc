@@ -1,5 +1,5 @@
 ## Opgave
-Schrijf een functie `matrixvermenivuldiging()` die gegeven twee matrices het product uitrekent.
+Schrijf een functie `matrixvermenigvuldiging()` die gegeven twee matrices het product uitrekent.
 
 #### Voorbeeld
 ```
