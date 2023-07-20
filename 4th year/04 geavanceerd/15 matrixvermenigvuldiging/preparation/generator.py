@@ -2,6 +2,9 @@ import os
 import sys
 import importlib
 import random
+import ruamel.yaml
+
+yaml = ruamel.yaml.YAML()
 
 # set fixed seed for generating test cases
 random.seed(123456789)
@@ -23,21 +26,48 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-for name in dir(module):
-    if not (name.startswith('__') and name.endswith('__')):
-        globals()[name] = eval(f'module.{name}')
+def write_yaml(data):
+    """ A function to write YAML file"""
+    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
+        yaml.dump(data, f)
 
 # generate test data
-cases = list( range(2,10) )
+ntests= 20
+cases = [ [[[1,3],[4,5]], [[0,1],[-1,3]]],
+          [[[1,5,7]], [[3],[2],[-1]]]]
+
+
+while len(cases) < ntests:
+    m = random.randint(1,5)
+    k = random.randint(1,5)
+    n = random.randint(1,5)
+
+    A = []
+    for r in range(m):
+        row = []
+        for c in range(k):
+            row.append( random.randint( -10,10 ) )
+        A.append( row )
+    B = []
+    for r in range(k):
+        row = []
+        for c in range(n):
+            row.append( random.randint( -10,10 ) )
+        B.append( row )
+    
+    cases.append( [A, B] )
 
 # generate unit tests for functions
-sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
+yamldata = []
+yamldata.append( {'tab': 'Feedback', 'testcases': []})
 for test in cases:
     # generate test expression
-    print(f'>>> diagonaal( {test} ) # doctest: +STDOUT')
+    expression_name = 'matrixvermenigvuldiging( {} , {} )'.format( test[0], test[1] )
+    result = ruamel.yaml.comments.CommentedSeq( module.matrixvermenigvuldiging( test[0], test[1] ) )
+    result.fa.set_flow_style()
+    
+    # setup for return expressions
+    testcase = { 'expression': expression_name, 'return': result }
+    yamldata[0]['testcases'].append( testcase)
 
-    # generate return value
-    try:
-        module.diagonaal(test)
-    except Exception as e:
-        print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
+write_yaml(yamldata)
