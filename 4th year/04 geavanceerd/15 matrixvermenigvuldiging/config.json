@@ -7,18 +7,7 @@
   },
   "evaluation": {
     "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options":{
-      "linter": {
-        "python": true
-      },
-      "language":{
-        "python": {
-          "pylint_config": "pylint.rc"
-        }
-      }  
-    }
-     
+    "test_suite": "tests.yaml"    
   },
   "labels": [
 
