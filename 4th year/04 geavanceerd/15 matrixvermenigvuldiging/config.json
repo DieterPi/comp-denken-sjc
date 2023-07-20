@@ -1,14 +1,15 @@
 {
   "type": "exercise",
-  "programming_language": "python",
-  "evaluation": {
-    "test_suite": "tests.yaml"
-  },
   "description": {
     "names": {
       "nl": "Matrixvermenigvuldiging (oefening)"
     }
   },
+  "judge": "TESTed",
+  "evaluation": {
+    "test_suite": "tests.yaml"
+  },
+  "programming_language": "python",
   "labels": [
 
   ],
