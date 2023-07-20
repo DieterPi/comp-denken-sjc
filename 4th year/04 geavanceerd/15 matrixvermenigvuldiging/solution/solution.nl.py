@@ -15,6 +15,6 @@ def matrixvermenivuldiging( m1, m2 ):
                 row.append(som)       
             result.append(row)
 
-    return result
+    print(result)
     
 
