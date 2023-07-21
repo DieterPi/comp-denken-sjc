@@ -26,7 +26,7 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-def write_yaml(data):
+def write_yaml( data:list ):
     """ A function to write YAML file"""
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
@@ -59,6 +59,10 @@ while len( cases ) < ntests:
 # generate unit tests for functions
 yamldata = []
 yamldata.append( {'tab': 'Feedback', 'testcases': []})
+# input, expression or stdin?
+input = 'expression'
+# output, stdout or return?
+output = 'return'
 for test in cases:
     # generate test expression
     expression_name = 'matrixvermenigvuldiging( {} , {} )'.format( test[0], test[1] )
@@ -66,7 +70,7 @@ for test in cases:
     result.fa.set_flow_style() # to prohibit output from being YAML transformed
     
     # setup for return expressions
-    testcase = { 'expression': expression_name, 'return': result }
+    testcase = { input: expression_name, output: result }
     yamldata[0]['testcases'].append( testcase)
 
 write_yaml(yamldata)
