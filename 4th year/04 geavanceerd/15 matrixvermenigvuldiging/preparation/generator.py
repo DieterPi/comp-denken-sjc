@@ -59,7 +59,7 @@ while len( cases ) < ntests:
 # generate unit tests for functions
 yamldata = []
 yamldata.append( {'tab': 'Feedback', 'testcases': []})
-# input, expression or stdin?
+# input, expression, statement or stdin?
 input = 'expression'
 # output, stdout or return?
 output = 'return'
