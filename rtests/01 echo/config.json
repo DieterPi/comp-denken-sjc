@@ -2,10 +2,10 @@
     "type": "exercise",
     "description": {
       "names": {
-        "nl": "Echo"
+        "nl": "Echos in R"
       }
     },
-    "evaluation": [],
+    "evaluation": {},
     "labels": [
         
     ],
