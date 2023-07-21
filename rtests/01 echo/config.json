@@ -1,13 +1,18 @@
 {
-    "type": "exercise",
-    "description": {
-      "names": {
-        "nl": "Echos in R"
-      }
-    },
-    "evaluation": {},
-    "labels": [
-        
-    ],
-    "access": "public"
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Echos in R"
+    }
+  },
+  "evaluation": {
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "unYAa3yyzXVBgEmCDW7CqfS9qE34y9UaGqNQFGGC2Hk65b4n9Snt8Dg_yi_ag9BD",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
