@@ -1,0 +1,14 @@
+{
+    "type": "exercise",
+    "programming_language": "R",
+    "description": {
+      "names": {
+        "nl": "Echo"
+      }
+    },
+    "evaluation": [],
+    "labels": [
+        
+    ],
+    "access": "public"
+  }
