@@ -1,7 +1,3 @@
 {
-    "evaluation": {
-        "handler": "python"
-    },
-    "labels": ["SJC Aalst"],
-    "programming_language": "python"
+    "labels": ["SJC Aalst"]
 }
