@@ -1,4 +1,8 @@
 {
+    "evaluation": {
+        "handler": "R"
+    },
+    "programming_language": "R",
     "labels": [
         "R"
     ]

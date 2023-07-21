@@ -1,4 +1,8 @@
 {
+    "evaluation": {
+        "handler": "python"
+    },
+    "programming_language": "python",
     "labels": [
         "4e jaar"
     ]
