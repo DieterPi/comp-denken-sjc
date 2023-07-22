@@ -1,13 +1,18 @@
 {
-    "type": "exercise",
-    "description": {
-      "names": {
-        "nl": "Boxplot"
-      }
-    },
-    "evaluation": {},
-    "labels": [
-        
-    ],
-    "access": "public"
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Boxplot"
+    }
+  },
+  "evaluation": {
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "wCAZYatDRRgk478RTxBrtmDq5_BkHU_3kRzPz5rCAe8M4jwH5Q85Cx5a2I65ZJGm",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
