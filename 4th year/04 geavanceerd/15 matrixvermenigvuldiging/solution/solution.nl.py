@@ -6,13 +6,14 @@ def matrixvermenigvuldiging( m1:list, m2:list ) -> list:
         result = []
     else:
         result = []
-        for r in range( len( m1 ) ):
+        for m1row in m1:
             row = []
             for c in range( len( m2[0] ) ):
                 som = 0
                 for i in range( len( m1[0] ) ):
-                    som += m1[r][i] * m2[i][c]
+                    som += m1row[i] * m2[i][c]
                 row.append( som )
             result.append( row )
 
     return result
+
