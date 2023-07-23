@@ -8,12 +8,16 @@
   "evaluation": {
     "handler": "TESTed",
     "test_suite": "tests.yaml",
-    "options":{
+    "options": {
       "mode": "batch",
       "allow_fallback": true
-    }     
+    }
   },
   "labels": [
 
-  ]
+  ],
+  "internals": {
+    "token": "Ft-tmmM2QfscFZXf6JhtvkkZfE2d-N_3BCvJ-tre3auZQF-QDHQpUfknKhwmVdCv",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
