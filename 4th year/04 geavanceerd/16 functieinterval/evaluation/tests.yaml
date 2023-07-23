@@ -1,0 +1,5 @@
+- tab: Feedback
+  testcases:
+  - statement: "def f1(x:float)->float:\n\treturn 3 * x + 4 "
+  - statement: "eindwaarde( f1 )"
+    return: 7.0
