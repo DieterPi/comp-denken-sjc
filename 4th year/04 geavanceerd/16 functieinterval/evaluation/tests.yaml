@@ -1,4 +1,4 @@
-- tab: Feedback
+- tab: "Feedback"
   contexts:
     - testcases:
       - statement: "f1 = eval( lambda x: 3 * x + 4 )"
