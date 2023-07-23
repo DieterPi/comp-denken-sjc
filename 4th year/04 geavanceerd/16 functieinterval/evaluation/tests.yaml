@@ -1,5 +1,6 @@
 - tab: Feedback
-  testcases:
-  - statement: "f1 = eval( lambda x: 3 * x + 4 )"
-  - statement: "eindwaarde( f1 )"
-    return: 7.0
+  contexts:
+    - testcases:
+      - statement: "f1 = eval( lambda x: 3 * x + 4 )"
+      - statement: "eindwaarde( f1 )"
+        return: 7.0
