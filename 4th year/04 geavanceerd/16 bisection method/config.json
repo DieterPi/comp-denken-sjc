@@ -2,14 +2,14 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Eindwaarde (oefening)"
+      "nl": "Bisectiemethode (oefening)"
     }
   },
   "evaluation": {
     "pythia_judge": "doctest"
   },
   "labels": [
-
+    "Numerieke wiskunde"
   ],
   "internals": {
     "token": "Ft-tmmM2QfscFZXf6JhtvkkZfE2d-N_3BCvJ-tre3auZQF-QDHQpUfknKhwmVdCv",
