@@ -1,7 +1,8 @@
 tabs:
 - tab: "Feedback"
   testcases:
-  - output:
+  - description: "Uitvoeren code"
+    output:
       exception:
         exception:
           message: "ZeroDivisionError: division by zero"

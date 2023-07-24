@@ -8,11 +8,7 @@
   "programming_language": "python",
   "evaluation": {
     "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options":{
-      "mode": "batch",
-      "allow_fallback": true
-    }     
+    "test_suite": "tests.json"
   },
   "labels": [
 

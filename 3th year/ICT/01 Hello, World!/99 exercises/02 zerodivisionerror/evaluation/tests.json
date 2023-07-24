@@ -1,0 +1,27 @@
+{
+  "tabs": [
+    {
+      "tab": "Feedback",
+      "testcases": [
+        {
+          "description": "Uitvoeren code",
+          "output": {
+            "exception": {
+              "exception": {
+                "message": "ZeroDivisionError: division by zero"
+              },
+              "evaluator": {
+                "type": "specific",
+                "evaluators": {
+                  "python": {
+                    "file": "evaluator.py"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
