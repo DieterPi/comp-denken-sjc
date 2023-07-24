@@ -1,0 +1,9 @@
+- tab: "Feedback"
+  testcases:
+  - output:
+      exception:
+        evaluator:
+          type: "specific"
+          evaluators:
+            python:
+              file: "evaluator.py"

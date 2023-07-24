@@ -1,14 +1,14 @@
 {
   "type": "exercise",
-  "programming_language": "python",
-  "evaluation": {
-    "handler": "tested",
-    "memory_limit": 500000000
-  },
   "description": {
     "names": {
       "nl": "ZeroDivisionError (oefening)"
     }
+  },
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
   },
   "labels": [
 
