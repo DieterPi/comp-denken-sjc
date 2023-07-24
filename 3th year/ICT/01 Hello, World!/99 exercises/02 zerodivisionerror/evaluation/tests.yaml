@@ -7,7 +7,7 @@ tabs:
         main_call: true
       description: "Uitgevoerde code"
       output:
-        exception:
+        result:
           evaluator:
             type: "specific"
             evaluators:
