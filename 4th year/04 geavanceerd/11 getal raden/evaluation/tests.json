@@ -4,6 +4,11 @@
       "name": "Feedback",
       "contexts": [
         {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(123)"
+            }
+          },
           "testcases": [
             {
               "description": "Uitvoeren van de code leidt tot:",
@@ -11,17 +16,17 @@
                 "stdin": [
                   {
                     "type": "text",
-                    "data": 500
+                    "data": "500"
                   },
                   {
                     "type": "text",
-                    "data": 54
+                    "data": "54"
                   }
                 ]
               },
               "output": {
                 "stdout": {
-                  "data": "iets",
+                  "data": "Aantal pogingen: 2",
                   "type": "text"
                 }
               }
