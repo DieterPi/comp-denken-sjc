@@ -21,7 +21,7 @@
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Aantal pogingen: 1",
+                  "data": "Resolved with the evaluator function",
                   "evaluator": {
                     "type": "programmed",
                     "language": "python",
