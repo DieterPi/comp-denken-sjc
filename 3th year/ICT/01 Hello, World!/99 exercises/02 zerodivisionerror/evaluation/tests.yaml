@@ -2,9 +2,9 @@ tabs:
 - name: "Feedback"
   contexts:
   - testcases:
-    - description: "Uitgevoerde code"
-      input:
-        main_call: True
+    - input:
+        main_call: true
+      description: "Uitgevoerde code"
       output:
         exception:
           evaluator:
