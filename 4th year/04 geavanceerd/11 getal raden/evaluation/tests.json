@@ -11,11 +11,35 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code leidt tot:",
+              "description": "Uitvoeren van de code met seed 123 leidt tot:",
               "input": {
                 "stdin": {
                     "type": "text",
                     "data": "54"
+                  }
+              },
+              "output": {
+                "stdout": {
+                  "data": "Gok een getal: Aantal pogingen: 1",
+                  "type": "text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(524)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 524 leidt tot:",
+              "input": {
+                "stdin": {
+                    "type": "text",
+                    "data": "231"
                   }
               },
               "output": {
