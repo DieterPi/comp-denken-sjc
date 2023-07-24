@@ -2,17 +2,22 @@
 # -*- coding: utf-8 -*-
 
 import random
+random.seed(123)
 
-getal = random.randint( 1, 1000 )
+def hoger_lager():
+    getal = random.randint( 1, 1000 )
 
-gok = int( input( 'Gok een getal: ' ) )
-aantal = 1
-while gok != getal:
-    if gok < getal:
-        print( 'Hoger' )
-    else:
-        print( 'Lager' )
-    gok = int( input( 'Gok een getal: ' ) )
-    aantal += 1
-
-print( 'Aantal pogingen: ', aantal )
+    flag = True
+    aantal = 0
+    while flag:
+        gok = int( input( 'Gok een getal: ' ) )
+        aantal += 1
+        if gok < getal:
+            print( 'Hoger' )
+        else:
+            print( 'Lager' )
+        flag = gok != getal
+        
+    print( 'Aantal pogingen: ', aantal )
+    
+hoger_lager()

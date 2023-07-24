@@ -1,0 +1,41 @@
+{
+  "tabs": [
+    {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "before": {
+            "python": {
+              "type": "file",
+              "data": "before123.py"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code leidt tot:",
+              "input": {
+                "stdin": [
+                  {
+                    "type": "text",
+                    "data": 500
+                  },
+                  {
+                    "type": "text",
+                    "data": 54
+                  }
+                ]
+              },
+              "output": {
+                "stdout": {
+                  "data": "iets",
+                  "type": "text"
+                  
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
