@@ -1,15 +1,13 @@
 tabs:
 - tab: "Feedback"
-  contexts:
-  - context: "Uitgevoerde codes"
-    testcases:
-    - input:
-        main_call: true
-      description: "Uitgevoerde code"
-      output:
-        result:
-          evaluator:
-            type: "specific"
-            evaluators:
-              python:
-                file: "evaluator.py"
+  testcases:
+  - input:
+      main_call: true
+    description: "Uitgevoerde code"
+    output:
+      result:
+        evaluator:
+          type: "specific"
+          evaluators:
+            python:
+              file: "evaluator.py"
