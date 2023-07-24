@@ -1,0 +1,7 @@
+>>> f = lambda : x = 3*x+4
+>>> eindwaarde( f ) 
+7.0
+
+>>> f = lambda : x = x * x #doctest: +NEWCONTEXT
+>>> eindwaarde( f ) 
+1.0

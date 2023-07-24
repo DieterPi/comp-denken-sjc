@@ -1,6 +1,0 @@
-- tab: "Feedback"
-  contexts:
-    - testcases:
-      - statement: "f1 = lambda x: 3 * x + 4"
-      - statement: "eindwaarde( f1 )"
-        return: 7.0
