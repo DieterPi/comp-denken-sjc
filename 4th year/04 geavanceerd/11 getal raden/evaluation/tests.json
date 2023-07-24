@@ -13,16 +13,10 @@
             {
               "description": "Uitvoeren van de code leidt tot:",
               "input": {
-                "stdin": [
-                  {
-                    "type": "text",
-                    "data": "500"
-                  },
-                  {
+                "stdin": {
                     "type": "text",
                     "data": "54"
                   }
-                ]
               },
               "output": {
                 "stdout": {
