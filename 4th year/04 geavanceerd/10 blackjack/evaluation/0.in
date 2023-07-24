@@ -1,0 +1,3 @@
+>>> random.setseed(125) #doctest: +NOSHOW +NEWCONTEXT
+>>> 'J' #doctest: +STDOUT
+'Je kreeg een 10'
