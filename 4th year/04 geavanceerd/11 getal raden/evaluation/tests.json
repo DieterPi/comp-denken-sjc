@@ -6,8 +6,7 @@
         {
           "before": {
             "python": {
-              "type": "file",
-              "data": "before123.py"
+              "data": "import random; random.seed(123)"
             }
           },
           "testcases": [
@@ -29,7 +28,6 @@
                 "stdout": {
                   "data": "iets",
                   "type": "text"
-                  
                 }
               }
             }
