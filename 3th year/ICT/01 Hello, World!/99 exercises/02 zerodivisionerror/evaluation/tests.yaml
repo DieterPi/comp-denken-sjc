@@ -1,5 +1,5 @@
 tabs:
-- name: "Feedback"
+- tab: "Feedback"
   contexts:
   - testcases:
     - input:
