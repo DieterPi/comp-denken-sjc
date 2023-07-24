@@ -15,14 +15,28 @@
               "input": {
                 "stdin": {
                     "type": "text",
-                    "data": "500\n54"
+                    "data": "500\n250\n125\n62\n31\n46\n54"
                   }
               },
               "output": {
                 "stdout": {
-                  "data": "Gok een getal: Aantal pogingen: 1",
+                  "data": "Aantal pogingen: 7",
                   "type": "text"
-                }
+                },
+                "evaluator": {
+                  "type": "programmed",
+                  "language": "python",
+                  "function": {
+                   "file": "evaluator.py",
+                   "name": "evaluate_value"
+                  },
+                  "arguments": [
+                    {
+                      "type": "text",
+                      "data": "500\n250\n125\n62\n31\n46\n54"
+                    }
+                  ]                  
+                 }
               }
             }
           ]
