@@ -6,7 +6,7 @@
         {
           "testcases": [
             {
-              "description": "Uitgevoerde code",
+              "description": "Uitvoeren van de code leidt tot:",
               "output": {
                 "exception": {
                   "evaluator": {
