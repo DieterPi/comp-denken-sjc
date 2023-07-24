@@ -7,9 +7,6 @@
           "testcases": [
             {
               "description": "Uitgevoerde code",
-              "input": {
-                "main_call": true
-              },
               "output": {
                 "exception": {
                   "evaluator": {
