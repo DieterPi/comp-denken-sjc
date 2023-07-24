@@ -4,6 +4,9 @@
 >>> def f( x ) : return x**3 - 2 #doctest: +NEWCONTEXT
 >>> bisectiemethode( f, 1, 4, 10**-5)
 1.2599
+>>> def f( x ) : return x - 2 #doctest: +NEWCONTEXT
+>>> bisectiemethode( f, 0, 4, 10**-3)
+2.0
 >>> def f( x ) : return (x-2)**(1/3)-1 #doctest: +NEWCONTEXT
 >>> bisectiemethode( f, 2, 7, 10**-7)
 3.0
