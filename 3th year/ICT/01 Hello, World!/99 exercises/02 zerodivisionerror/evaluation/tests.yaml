@@ -1,7 +1,7 @@
 - tab: "Feedback"
-  runs:
-  - run:
-      description: "Uitgevoerde code"
+  contexts:
+  - testcases:
+    - description: "Uitgevoerde code"
       input:
         main_call: True
       output:
