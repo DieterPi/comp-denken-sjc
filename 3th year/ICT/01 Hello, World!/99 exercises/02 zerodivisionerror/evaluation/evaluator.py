@@ -10,7 +10,7 @@ def evaluate(actual):
     elif isinstance(actual, Exception):
         # If another error, show the stacktrace as well.
         formatted = "".join(traceback.format_exception(type(actual), actual, actual.__traceback__))
-        return EvaluationResult(False, "ZeroDivisionError", formatted, [Message(f"Verwachtte een ZeroDivisionError, maar kreeg een {type(value).__name__}.")])
+        return EvaluationResult(False, "ZeroDivisionError", formatted, [Message(f"Verwachtte een ZeroDivisionError, maar kreeg een {type(actual).__name__}.")])
     else:
         # Else show the str of the actual.
         actual = str(actual) if actual else ""
