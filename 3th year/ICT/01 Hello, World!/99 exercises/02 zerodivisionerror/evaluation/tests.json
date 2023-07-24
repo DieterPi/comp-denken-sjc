@@ -1,25 +1,29 @@
 {
   "tabs": [
     {
-      "tab": "Feedback",
-      "testcases": [
+      "name": "Feedback",
+      "contexts": [
         {
-          "description": "Uitvoeren code",
-          "output": {
-            "exception": {
-              "exception": {
-                "message": "ZeroDivisionError: division by zero"
+          "testcases": [
+            {
+              "description": "Uitgevoerde code",
+              "input": {
+                "main_call": true
               },
-              "evaluator": {
-                "type": "specific",
-                "evaluators": {
-                  "python": {
-                    "file": "evaluator.py"
+              "output": {
+                "exception": {
+                  "evaluator": {
+                    "type": "specific",
+                    "evaluators": {
+                      "python": {
+                        "file": "evaluator.py"
+                      }
+                    }
                   }
                 }
               }
             }
-          }
+          ]
         }
       ]
     }

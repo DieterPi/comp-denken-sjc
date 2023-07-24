@@ -1,13 +1,14 @@
 tabs:
-- tab: "Feedback"
-  testcases:
-  - description: "Uitvoeren code"
-    output:
-      exception:
+- name: "Feedback"
+  contexts:
+  - testcases:
+    - description: "Uitgevoerde code"
+      input:
+        main_call: True
+      output:
         exception:
-          message: "ZeroDivisionError: division by zero"
-        evaluator:
-          type: "specific"
-          evaluators:
-            python:
-              file: "evaluator.py"
+          evaluator:
+            type: "specific"
+            evaluators:
+              python:
+                file: "evaluator.py"
