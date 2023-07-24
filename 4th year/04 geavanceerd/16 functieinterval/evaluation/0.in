@@ -1,4 +1,4 @@
->>> f = lambda x : 3 * x + 4 
+>>> def f( x ) : return 3 * x + 4
 >>> eindwaarde( f ) 
 7.0
 

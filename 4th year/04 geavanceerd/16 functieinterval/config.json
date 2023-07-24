@@ -6,7 +6,12 @@
     }
   },
   "evaluation": {
-    "pythia_judge": "doctest"
+    "handler": "TESTed",
+    "test_suite": "tests.yaml",
+    "options":{
+      "mode": "batch",
+      "allow_fallback": true
+    }     
   },
   "labels": [
 
