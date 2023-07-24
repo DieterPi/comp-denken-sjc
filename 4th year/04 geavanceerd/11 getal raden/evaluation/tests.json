@@ -20,7 +20,7 @@
               },
               "output": {
                 "stdout": {
-                  "data": "Aantal pogingen: 1",
+                  "data": "Gok een getal: \nAantal pogingen: 1",
                   "type": "text"
                 }
               }
