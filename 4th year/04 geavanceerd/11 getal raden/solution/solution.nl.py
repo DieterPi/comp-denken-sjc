@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import random
-random.seed(123)
 
 def hoger_lager():
     getal = random.randint( 1, 1000 )
@@ -14,7 +13,7 @@ def hoger_lager():
         aantal += 1
         if gok < getal:
             print( 'Hoger' )
-        else:
+        elif gok > getal:
             print( 'Lager' )
         flag = gok != getal
         
