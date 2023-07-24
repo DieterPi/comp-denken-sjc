@@ -2,7 +2,7 @@ import traceback
 
 from evaluation_utils import EvaluationResult, Message
 
-def evaluate_value(expected, actual, args):
+def evaluate(actual):
     if isinstance(actual, ZeroDivisionError):
         # If a zero division error, show the stacktrace.
         formatted = "".join(traceback.format_exception(type(actual), actual, actual.__traceback__))
@@ -12,6 +12,6 @@ def evaluate_value(expected, actual, args):
         formatted = "".join(traceback.format_exception(type(actual), actual, actual.__traceback__))
         return EvaluationResult(False, "ZeroDivisionError", formatted, [Message(f"Verwachtte een ZeroDivisionError, maar kreeg een {type(value).__name__}.")])
     else:
-        # Else show the str of the value.
+        # Else show the str of the actual.
         actual = str(actual) if actual else ""
         return EvaluationResult(False, "ZeroDivisionError", actual, [Message("Verwachtte een ZeroDivisionError.")])
