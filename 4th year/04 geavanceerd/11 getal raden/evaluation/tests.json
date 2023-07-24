@@ -16,6 +16,9 @@
                     "type": "text",
                     "data": "500"
                   }
+              },
+              "output":{
+                "stdout": "none"
               }
             },
             {
