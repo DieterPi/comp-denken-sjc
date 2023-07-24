@@ -15,7 +15,7 @@
               "input": {
                 "stdin": {
                     "type": "text",
-                    "data": "54"
+                    "data": "500\n54"
                   }
               },
               "output": {
