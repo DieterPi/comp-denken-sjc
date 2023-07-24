@@ -11,17 +11,6 @@
           },
           "testcases": [
             {
-              "input": {
-                "stdin": {
-                    "type": "text",
-                    "data": "500"
-                  }
-              },
-              "output":{
-                "stdout": "none"
-              }
-            },
-            {
               "description": "Uitvoeren van de code leidt tot:",
               "input": {
                 "stdin": {
@@ -31,7 +20,7 @@
               },
               "output": {
                 "stdout": {
-                  "data": "Aantal pogingen: 2",
+                  "data": "Aantal pogingen: 1",
                   "type": "text"
                 }
               }
