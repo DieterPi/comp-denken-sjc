@@ -11,5 +11,4 @@ def bisectiemethode( f: float, a: float , b: float, toleratie: float) -> float:
         else: # f( c ) == 0
             a = c
             b = c
-        print( round( c, 4 ))
     return round( c, 4 )
