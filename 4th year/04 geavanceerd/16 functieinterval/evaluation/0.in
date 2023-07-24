@@ -2,6 +2,6 @@
 >>> eindwaarde( f ) 
 7.0
 
->>> def f( x ) : return x * x #doctest: +NEWCONTEXT
+>>> f = lambda x : x * x #doctest: +NEWCONTEXT
 >>> eindwaarde( f ) 
 1.0
