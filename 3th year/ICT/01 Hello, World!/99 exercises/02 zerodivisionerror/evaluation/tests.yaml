@@ -1,12 +1,13 @@
 - tab: "Feedback"
-  testcases:
-  - description: "Uitvoeren code"
-    input:
-      main_call: True
-    output:
-      exception:
-        evaluator:
-          type: "specific"
-          evaluators:
-            python:
-              file: "evaluator.py"
+  runs:
+  - run:
+      description: "Uitgevoerde code"
+      input:
+        main_call: True
+      output:
+        exception:
+          evaluator:
+            type: "specific"
+            evaluators:
+              python:
+                file: "evaluator.py"
