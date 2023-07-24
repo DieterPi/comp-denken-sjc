@@ -5,7 +5,9 @@ tabs:
       main_call: true
     description: "Uitgevoerde code"
     output:
-      result:
+      exception:
+        exception:
+          message: "ZeroDivisionError: division by zero"
         evaluator:
           type: "specific"
           evaluators:
