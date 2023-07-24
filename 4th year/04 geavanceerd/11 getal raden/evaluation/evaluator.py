@@ -6,4 +6,4 @@ def hoger_lager():
 def evaluate_value(expected, actual, args):
     #inputs = args.split('\n')
     
-    return EvaluationResult(True, expected, actual, [Message(args)])
+    return EvaluationResult(True, expected, actual, [Message(type( args ))])
