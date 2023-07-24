@@ -20,6 +20,8 @@
               },
               "output": {
                 "stdout": {
+                  "type": "text",
+                  "data": "Aantal pogingen: 1",
                   "evaluator": {
                     "type": "programmed",
                     "language": "python",
