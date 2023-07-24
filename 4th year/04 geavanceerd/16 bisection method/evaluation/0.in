@@ -3,5 +3,5 @@
 2.0
 
 >>> def f( x ) : return x**3 - 2 #doctest: +NEWCONTEXT
->>> eindwaarde( f ) 
+>>> bisectiemethode( f, 1, 4, 10**-5)
 1.2599

@@ -1,12 +1,12 @@
 De bisectiemethode is een iteratieve methode voor het bepalen van nulwaarden van continue functies op een interval waarbij de functiewaarden op de grenzen van dit interval een verschillend teken hebben.
 
-Om bijvoorbeeld een nulwaarde van de functie $$F(x)$$ te bepalen op het interval $$[a,b]$$ gaat men als volgt te werk. In dit voorbeeld geldt $$f(a) > 0$$ en $$f(b) <0$$.
+Om bijvoorbeeld een nulwaarde van de functie $$F(x)$$ te bepalen op het interval $$[a,b]$$ gaat men als volgt te werk. In dit voorbeeld geldt $$F(a) > 0$$ en $$F(b) <0$$.
 
-- Men bepaalt het midden $$c = \frac{a+b}{2}$$ van dit interval en berekent er de functiewaarde. 
+- Men bepaalt het midden $$c = \dfrac{a+b}{2}$$ van dit interval en berekent er de functiewaarde. 
 - Is deze positief dan ligt een nulwaarde tussen $$[c,b]$$, is deze echter negatief dan ligt een nulwaarde in het interval $$[a,c]$$.
 - Herhaal deze methode op het interval $$[a,c]$$ of $$[c,b]$$ afhankelijk van bovenstaande berekening.
 
-Vaak zal de methode niet exact eindigen, maar is men tevreden indien voor een potentieële nulwaarde $$c$$ geldt $$| f(c) |$$ voldoende dicht van nul ligt.
+Vaak zal de methode niet exact eindigen, maar is men tevreden indien voor een potentiële nulwaarde $$c$$ geldt dat $$F(c)$$ voldoende dicht van nul ligt. Men gebruikt hiervoor de breedte van het interval waartussen gezocht wordt.
 
 ![Bisectiemethode](media/Bisection.png "De bisectiemethode"){:data-caption="Afbeelding door Tokuchan op Wikimedia." width="375px"}
 
