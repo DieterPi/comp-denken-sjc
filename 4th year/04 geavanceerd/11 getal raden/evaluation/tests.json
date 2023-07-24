@@ -20,23 +20,21 @@
               },
               "output": {
                 "stdout": {
-                  "data": "Aantal pogingen: 7",
-                  "type": "text"
-                },
-                "evaluator": {
-                  "type": "programmed",
-                  "language": "python",
-                  "function": {
-                   "file": "evaluator.py",
-                   "name": "evaluate_value"
-                  },
-                  "arguments": [
-                    {
-                      "type": "text",
-                      "data": "500\n250\n125\n62\n31\n46\n54"
-                    }
-                  ]                  
-                 }
+                  "evaluator": {
+                    "type": "programmed",
+                    "language": "python",
+                    "function": {
+                    "file": "evaluator.py",
+                    "name": "evaluate_value"
+                    },
+                    "arguments": [
+                      {
+                        "type": "text",
+                        "data": "500\n250\n125\n62\n31\n46\n54"
+                      }
+                    ]                  
+                  }
+                }
               }
             }
           ]
