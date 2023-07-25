@@ -19,9 +19,11 @@
                   }
               },
               "output": {
-                "stdout": {
-                  "type": "text",
-                  "data": "Resolved with the evaluator function",
+                "result": {
+                  "value": {
+                    "type": "text",
+                    "data": "Aantal pogingen: 7"
+                  },
                   "evaluator": {
                     "type": "programmed",
                     "language": "python",

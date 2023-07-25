@@ -17,6 +17,6 @@ def hoger_lager():
             print( 'Lager' )
         flag = gok != getal
         
-    print( 'Aantal pogingen: ', aantal )
+    return 'Aantal pogingen: {}'.format( aantal ) 
     
 hoger_lager()
