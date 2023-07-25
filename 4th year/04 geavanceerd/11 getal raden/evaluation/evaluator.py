@@ -20,12 +20,6 @@ def evaluate_value(expected, actual, args):
         result = hoger_lager( input, inputs[-1], len( inputs ) )
         messages.extend( result )
     
-    flag = len( inputs ) == actual[-1]
-    messages.append( Message(actual))
-    messages.append( Message(isinstance(actual,str)  ))
-    messages.append( Message("last -1: {}".format( actual[-1:] ) ) ) ## get last char
-    messages.append( Message("last -2: {}".format( actual[-2:] ) ) ) ## get last char
-    messages.append( Message("last -3: {}".format( actual[-3:] ) ) ) ## get last char
-    messages.append( Message("last -4: {}".format( actual[-4:] ) ) ) ## get last char
+    flag = len( inputs ) == int( actual[-2] )
 
     return EvaluationResult( flag, expected, actual, messages )
