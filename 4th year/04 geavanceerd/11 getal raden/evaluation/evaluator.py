@@ -15,4 +15,4 @@ def evaluate_value(expected, actual, args):
     for input in inputs:
         msg += hoger_lager( input, inputs[-1], len( inputs ) )
 
-    return EvaluationResult(True, expected, actual, [Message( msg +'\n'+expected+'\n'+actual)])
+    return EvaluationResult(True, expected, actual, [Message( msg +"\n"+expected+"\n"+actual)])
