@@ -20,8 +20,8 @@ def evaluate_value(expected, actual, args):
         result = hoger_lager( input, inputs[-1], len( inputs ) )
         messages.extend( result )
     
-    flag = len( inputs ) == int( actual[-1] )
+    flag = len( inputs ) == actual[-1]
     
-    messages.append( Message("flag:"+flag))
+    messages.append( Message("flag:"+actual[-1]))
 
     return EvaluationResult( flag, expected, actual, messages )
