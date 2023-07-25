@@ -1,19 +1,23 @@
 from evaluation_utils import EvaluationResult, Message
 
 def hoger_lager( value, result, aantal ):
+    messages = []
     if value > result:
-        str = "Gok een getal: {}\n Hoger".format( value )
+        messages.append( Message( "Gok een getal: {}".format(value) ) )
+        messages.append( Message( "Hoger" ) )
     elif value < result:
-        str = "Gok een getal: {}\n Lager".format( value )
+        messages.append( Message( "Gok een getal: {}".format(value) ) )
+        messages.append( Message( "Hoger" ) )
     else: # value == result
-        str = "Gok een getal: {}\n Aantal pogingen: {}".format( value, aantal )
-    return str        
+        messages.append( Message( "Gok een getal: {}".format(value) ) )
+        messages.append( Message( "Aantal pogingen: {}".format(aantal) ) )
+    return messages        
 
 def evaluate_value(expected, actual, args):
     inputs = args[0].split('\n')
     messages =  []
     for input in inputs:
         result = hoger_lager( input, inputs[-1], len( inputs ) )
-        messages.append( Message( result ) )
+        messages.extend( result )
 
     return EvaluationResult( True, expected, actual, messages )
