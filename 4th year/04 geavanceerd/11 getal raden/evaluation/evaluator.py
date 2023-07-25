@@ -23,6 +23,9 @@ def evaluate_value(expected, actual, args):
     flag = len( inputs ) == actual[-1]
     messages.append( Message(actual))
     messages.append( Message(isinstance(actual,str)  ))
-    messages.append( Message(actual[-3:])) ## get last char
+    messages.append( Message("last -1: {}".format( actual[-1:] ) ) ) ## get last char
+    messages.append( Message("last -2: {}".format( actual[-2:] ) ) ) ## get last char
+    messages.append( Message("last -3: {}".format( actual[-3:] ) ) ) ## get last char
+    messages.append( Message("last -4: {}".format( actual[-4:] ) ) ) ## get last char
 
     return EvaluationResult( flag, expected, actual, messages )
