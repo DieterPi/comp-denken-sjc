@@ -21,7 +21,8 @@ def evaluate_value(expected, actual, args):
         messages.extend( result )
     
     flag = len( inputs ) == actual[-1]
-    
-    messages.append( Message("flag:"+actual[-1]))
+    messages.append( Message(actual))
+    messages.append( Message(type( actual )))
+    messages.append( Message("flag:"+actual[-2]))
 
     return EvaluationResult( flag, expected, actual, messages )
