@@ -19,7 +19,10 @@ def evaluate_value(expected, actual, args):
     for input in inputs:
         result = hoger_lager( input, inputs[-1], len( inputs ) )
         messages.extend( result )
-        
-    flag = len( inputs ) == actual[-1]
+    
+    messages.append( Message( expected))
+    messages.append( Message( actual))
+    
+    flag = len( inputs ) == expected[-1]
 
     return EvaluationResult( flag, expected, actual, messages )
