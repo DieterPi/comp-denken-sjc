@@ -8,7 +8,7 @@ Om bijvoorbeeld een nulwaarde van de functie $$f(x)$$ te bepalen op het interval
 
 Vaak zal de methode niet exact eindigen, maar is men tevreden indien voor een potentiële nulwaarde $$c$$ geldt dat $$f(c)$$ voldoende dicht van nul ligt. Gebruik hiervoor de absolute waarde van $$f(c)$$. Het programma eindigt dus indien $$\lvert f(c)\rvert \leqslant \delta$$ met $$\delta$$ een bepaalde toleratie.
 
-![De methode van regula falsi](media/Regula_Falsi.png "De methode van regula falsi"){:data-caption="Afbeelding door Jitse Niesen op Wikimedia." width="375px"}
+![De methode van regula falsi](media/animation.gif "De methode van regula falsi"){:data-caption="Animatie door D. Vanderfaeillie." width="60%"}
 
 ## Opgave
 
