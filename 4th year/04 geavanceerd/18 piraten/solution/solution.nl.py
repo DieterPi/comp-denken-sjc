@@ -3,7 +3,7 @@
 
 def piraten_puzzel( aantal_piraten: int = 5  ) -> None :
     flag = True
-    startaantal = 10
+    startaantal = aantal_piraten + 1 # klein aantal kokosnoten als startgok
     j = 0
     while flag:
         aantal = startaantal + j
