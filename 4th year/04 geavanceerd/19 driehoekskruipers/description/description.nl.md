@@ -1,4 +1,4 @@
-![Driehoekkruipers](media/image.png "Driehoekkruipers"){:data-caption="Afbeelding door D. Vanderfaeillie." width="60%"}
+![Driehoekkruipers](media/image.png "Driehoekkruipers"){:data-caption="Afbeelding door D. Vanderfaeillie." width="40%"}
 
 Beschouw de driehoek die hier is weergegeven. Deze driehoek bevat een kolonie Driehoekkruipers, en een Verslinder van Driehoekkruipers. De Verslinder zit in punt D. Alle Driehoekkruipers worden geboren in punt A. Een Driehoekkruiper die bij punt D aankomt, wordt opgegeten.
 
