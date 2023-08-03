@@ -32,7 +32,7 @@ def write_yaml( data:list ):
         yaml.dump(data, f)
 
 # generate test data
-cases = [ 5, 6, 2, 7, 3, 4 ]
+cases = [ 5, 6, 2, 7, 3, 4]
 
 # generate unit tests for functions
 yamldata = []

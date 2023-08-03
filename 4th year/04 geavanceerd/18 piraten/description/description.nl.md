@@ -1,6 +1,6 @@
 ![Piraten!](media/mateusz-dach.jpg "Foto door Mateausz Dach op Pexels"){:data-caption="Piraten!" width="450px"}
 
-Volgens een oude puzzel zijn vijf piraten en hun aap gestrand op een eiland.  
+Volgens <a href="https://en.wikipedia.org/wiki/The_monkey_and_the_coconuts" target="_blank">een oude puzzel</a> zijn vijf piraten en hun aap gestrand op een eiland.  
 
 Gedurende de dag verzamelen ze kokosnoten, die ze op een grote stapel leggen.  
 Wanneer de nacht valt gaan ze slapen.  
@@ -14,7 +14,7 @@ Dan valt hij weer in slaap.
 
 Hetzelfde gebeurt met de andere drie piraten: één voor één worden ze wakker, verdelen de stapel, geven een kokosnoot aan de aap, verstoppen hun deel, en gaan weer slapen.  
 
-In de ochtend worden ze allemaal wakker. Ze verdelen eerlijk wat er van de stapel kokosnoten over is. Dat laat één kokosnoot over, en die gaat naar de aap.  
+In de ochtend worden ze allemaal wakker. Ze verdelen eerlijk wat er van de stapel kokosnoten over is. Deze keer is er echter **geen** kokosnoot meer over.
 
 De vraag is: wat is het kleinste aantal kokosnoten dat er op de originele stapel kan hebben gelegen?  
 

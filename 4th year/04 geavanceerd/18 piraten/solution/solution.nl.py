@@ -8,12 +8,13 @@ def piraten_puzzel( aantal_piraten: int = 5  ) -> None :
     while flag:
         aantal = startaantal + j
 
-        # Simuleert het verdeelgedrag, +1 omdat op het einde iedereen wakker is en hetzelfde nog eens gebeurt
-        for _ in range( aantal_piraten + 1 ):
+        # Simuleert het verdeelgedrag
+        for _ in range( aantal_piraten ):
             rest = aantal % aantal_piraten
-            aantal = aantal // aantal_piraten * ( aantal_piraten - 1 )
+            aantal = aantal - aantal // aantal_piraten - 1
             flag = flag and rest == 1
         
+        flag = flag and aantal % aantal_piraten == 0 and aantal // aantal_piraten != 0
         # Loop checks
         if not flag:
             j += 1
