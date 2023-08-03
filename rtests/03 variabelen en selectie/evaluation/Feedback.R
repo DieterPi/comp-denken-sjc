@@ -1,5 +1,5 @@
 context({
-  testcase('Controle', {
+  testcase('', {
     testEqual("Resultaat", function(studentEnv) { studentEnv$n }, 1040)
   })
 })
