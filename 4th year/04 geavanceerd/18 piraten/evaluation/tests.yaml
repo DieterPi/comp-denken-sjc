@@ -1,0 +1,14 @@
+- tab: Feedback
+  testcases:
+  - expression: piraten_puzzel( 5 )
+    stdout: Bij 5 piraten zijn er 15621 kokosnoten nodig.
+  - expression: piraten_puzzel( 6 )
+    stdout: Bij 6 piraten zijn er 279931 kokosnoten nodig.
+  - expression: piraten_puzzel( 2 )
+    stdout: Bij 2 piraten zijn er 15 kokosnoten nodig.
+  - expression: piraten_puzzel( 7 )
+    stdout: Bij 7 piraten zijn er 5764795 kokosnoten nodig.
+  - expression: piraten_puzzel( 3 )
+    stdout: Bij 3 piraten zijn er 79 kokosnoten nodig.
+  - expression: piraten_puzzel( 4 )
+    stdout: Bij 4 piraten zijn er 1021 kokosnoten nodig.
