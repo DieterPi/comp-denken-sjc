@@ -1,5 +1,6 @@
 - tab: Feedback
   testcases:
+  - statement: import random
   - statement: random.seed( 7247 )
     stdout: '2.3332'
   - statement: random.seed( 9941 )
