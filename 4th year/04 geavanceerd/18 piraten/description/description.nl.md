@@ -26,10 +26,10 @@ Probeer dit eerst uit in het geval van vijf piraten, maar zorgt dat je programma
 #### Voorbeelden
 ```
 >>> piraten_puzzel()
-Bij 5 piraten zijn er 15621 kokosnoten nodig.
+Bij 5 piraten zijn er 3121 kokosnoten nodig.
 ```
 
 ```
 >>> piraten_puzzel( 6 )
-Bij 6 piraten zijn er 279931 kokosnoten nodig.
+Bij 6 piraten zijn er 233275 kokosnoten nodig.
 ```
