@@ -50,7 +50,7 @@ for _ in range( 20 ):
     result = f.getvalue().replace('\n', '') 
     
     # setup for return expressions
-    testcase = { input: expression_name, output: float(result) }
+    testcase = { input: expression_name, output: result }
     yamldata[0]['testcases'].append( testcase )
 
 write_yaml(yamldata)
