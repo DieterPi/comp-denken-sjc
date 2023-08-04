@@ -9,7 +9,7 @@ Voor een eendimensionale (discrete) convolutie heb je **twee lijsten** nodig. Ee
 Zoals je merkt schuift de kernel in elke stap op. De waarden uit de bronlijst worden vervolgens vermenigvuldigd met de overeenkomstige waarden in de kernel en het resultaat wordt opgeteld. Het resultaat is een nieuwe lijst die als het ware een vloeiende versie is van de oorspronkelijke lijst.
 
 ## Opgave
-Schrijf een functie `convolutie()` die gegeven twee lijsten het convolutieproduct uitrekent. Zorg ervoor dat de getallen in de resulterende lijst **afgerond** worden op één cijfer na de komma.
+Schrijf een functie `convolutie()` die gegeven twee lijsten het convolutieproduct uitrekent. Zorg ervoor dat de getallen in de resulterende lijst **afgerond** worden op **twee cijfers** na de komma.
 
 
 #### Voorbeeld

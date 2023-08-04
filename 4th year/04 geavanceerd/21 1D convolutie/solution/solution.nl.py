@@ -11,6 +11,6 @@ def convolutie( source:list, kernel:list ) -> list:
             index = i - kernel_len + j + 1
             if 0 <= index < source_len:
                 sum += kernel[ j ] * source[ index ]
-        result.append( round( sum, 1) )
+        result.append( round( sum, 2) )
     
     return result
