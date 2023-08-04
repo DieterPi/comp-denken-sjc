@@ -5,7 +5,7 @@ import random
 import json
 
 # set fixed seed for generating test cases
-#random.seed(123456789)
+random.seed( 123456789 )
 
 # locate evaldir
 evaldir = os.path.join('..', 'evaluation')
@@ -35,7 +35,7 @@ exportdata = {'tabs': [] }
 exportdata['tabs'].append( {'name': 'Feedback',
                             'contexts': [] } )
 
-for i in range( 10 ):
+for i in range( 20 ):
     # generate test expression
     seedint = int( random.randint( 1, 10000 ) )
     expression = 'import random; random.seed( {} )'.format( seedint )

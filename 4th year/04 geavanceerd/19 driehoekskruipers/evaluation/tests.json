@@ -6,19 +6,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 471 )"
+              "data": "import random; random.seed( 7247 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 471 leidt tot:",
+              "description": "Uitvoeren van de code met seed 7247 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3408"
+                  "data": "2.3324"
                 }
               }
             }
@@ -27,12 +27,264 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 8458 )"
+              "data": "import random; random.seed( 5852 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 8458 leidt tot:",
+              "description": "Uitvoeren van de code met seed 5852 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3281"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 2925 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 2925 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3271"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 3205 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 3205 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.338"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 6443 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 6443 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.337"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 4717 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 4717 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3414"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 3978 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 3978 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3375"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 9056 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 9056 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3335"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 4150 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 4150 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.328"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 3666 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 3666 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.329"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 659 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 659 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3325"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 7334 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 7334 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3326"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 3339 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 3339 leidt tot:",
+              "input": {
+                "main_call": "True"
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "2.3367"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed( 7109 )"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 7109 leidt tot:",
               "input": {
                 "main_call": "True"
               },
@@ -48,19 +300,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 6600 )"
+              "data": "import random; random.seed( 7244 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 6600 leidt tot:",
+              "description": "Uitvoeren van de code met seed 7244 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3337"
+                  "data": "2.3317"
                 }
               }
             }
@@ -69,19 +321,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 3552 )"
+              "data": "import random; random.seed( 8321 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 3552 leidt tot:",
+              "description": "Uitvoeren van de code met seed 8321 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3361"
+                  "data": "2.332"
                 }
               }
             }
@@ -90,19 +342,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 5846 )"
+              "data": "import random; random.seed( 9187 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 5846 leidt tot:",
+              "description": "Uitvoeren van de code met seed 9187 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3293"
+                  "data": "2.3397"
                 }
               }
             }
@@ -111,19 +363,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 9910 )"
+              "data": "import random; random.seed( 9758 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 9910 leidt tot:",
+              "description": "Uitvoeren van de code met seed 9758 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3316"
+                  "data": "2.3302"
                 }
               }
             }
@@ -132,19 +384,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 5995 )"
+              "data": "import random; random.seed( 5658 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 5995 leidt tot:",
+              "description": "Uitvoeren van de code met seed 5658 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3403"
+                  "data": "2.3348"
                 }
               }
             }
@@ -153,61 +405,19 @@
         {
           "before": {
             "python": {
-              "data": "import random; random.seed( 2721 )"
+              "data": "import random; random.seed( 512 )"
             }
           },
           "testcases": [
             {
-              "description": "Uitvoeren van de code met seed 2721 leidt tot:",
+              "description": "Uitvoeren van de code met seed 512 leidt tot:",
               "input": {
                 "main_call": "True"
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "2.3337"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "before": {
-            "python": {
-              "data": "import random; random.seed( 9238 )"
-            }
-          },
-          "testcases": [
-            {
-              "description": "Uitvoeren van de code met seed 9238 leidt tot:",
-              "input": {
-                "main_call": "True"
-              },
-              "output": {
-                "stdout": {
-                  "type": "text",
-                  "data": "2.3354"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "before": {
-            "python": {
-              "data": "import random; random.seed( 8106 )"
-            }
-          },
-          "testcases": [
-            {
-              "description": "Uitvoeren van de code met seed 8106 leidt tot:",
-              "input": {
-                "main_call": "True"
-              },
-              "output": {
-                "stdout": {
-                  "type": "text",
-                  "data": "2.3365"
+                  "data": "2.3306"
                 }
               }
             }

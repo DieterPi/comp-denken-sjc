@@ -12,7 +12,7 @@ Maar omdat hij iedere dag na de eerste per toeval kiest voor een volgend punt, i
 
 Schrijf een programma dat een benadering berekent van de gemiddelde leeftijd waarop een Driehoekkruiper overlijdt. Doe dit door de simulatie van 100 000 Driehoekkruipers, waarbij je alle dagen dat ze leven optelt, en het totaal deelt door 100 000.  
 
-De uitvoer van je programma moet gegeven zijn als **een kommagetal met twee decimalen**.
+De uitvoer van je programma moet gegeven zijn als **een kommagetal met vier decimalen**.
 
 {: .callout.callout-info}
 > #### Tips
