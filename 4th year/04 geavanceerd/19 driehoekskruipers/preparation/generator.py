@@ -2,12 +2,10 @@ import os
 import contextlib, io
 import importlib
 import random
-import ruamel.yaml
-
-yaml = ruamel.yaml.YAML()
+import json
 
 # set fixed seed for generating test cases
-random.seed(123456789)
+#random.seed(123456789)
 
 # locate evaldir
 evaldir = os.path.join('..', 'evaluation')
@@ -26,31 +24,38 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 
 
-def write_yaml( data:list ):
-    """ A function to write YAML file"""
-    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
-        yaml.dump(data, f)
+def write_json( data:dict ):
+    """ A function to write JSON file"""
+    with open(os.path.join('..', 'evaluation', 'tests.json'), 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent = 2)
 
 
 # generate unit tests for functions
-yamldata = []
-yamldata.append( {'tab': 'Feedback', 'testcases': []})
-# input, expression, statement or stdin?
-input = 'statement'
-# output, stdout or return?
-output = 'stdout'
-for _ in range( 20 ):
+exportdata = {'tabs': [] }
+exportdata['tabs'].append( {'name': 'Feedback',
+                            'contexts': [] } )
+
+for i in range( 10 ):
     # generate test expression
-    expression_name = 'random.seed( {} )'.format( random.randint(1,10000) )
+    seedint = int( random.randint( 1, 10000 ) )
+    expression = 'import random; random.seed( {} )'.format( seedint )
+    
+    exportdata['tabs'][0]['contexts'].append( {'before': {'python': {'data': expression }} })
+    exportdata['tabs'][0]['contexts'][i]['testcases'] = []
+    
+    testcase = {'description': 'Uitvoeren van de code met seed {} leidt tot:'.format( seedint ),
+                'input': {'main_call': 'True'},
+                'output': {} }
     
     f = io.StringIO()
     with contextlib.redirect_stdout( f ):
+        random.seed( seedint )
         spec.loader.exec_module(module)
     
     result = f.getvalue().replace('\n', '') 
     
     # setup for return expressions
-    testcase = { input: expression_name, output: result }
-    yamldata[0]['testcases'].append( testcase )
+    testcase['output']['stdout'] = {'type': 'text', 'data': result }
+    exportdata['tabs'][0]['contexts'][i]['testcases'].append( testcase )
 
-write_yaml(yamldata)
+write_json( exportdata )
