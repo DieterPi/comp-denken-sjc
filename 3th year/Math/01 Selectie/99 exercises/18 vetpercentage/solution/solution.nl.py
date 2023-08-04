@@ -31,4 +31,3 @@ def vetpercentage( ab: float, th: float, age: int ) -> None:
             print( 'Dit is een gezond vetpercentage.')
     else:
         print('Er zijn betere methodes om het vetpercentage van deze persoon te berekenen.')
-    
