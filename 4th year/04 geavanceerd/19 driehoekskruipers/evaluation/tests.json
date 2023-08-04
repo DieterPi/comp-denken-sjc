@@ -12,6 +12,9 @@
             "testcases": [
               {
                 "description": "Uitvoeren van de code met seed 123 leidt tot:",
+                "input": {
+                    "main_call": "True"
+                },
                 "output": {
                   "stdout": {
                     "type": "text",
@@ -30,6 +33,9 @@
             "testcases": [
               {
                 "description": "Uitvoeren van de code met seed 5398 leidt tot:",
+                "input": {
+                    "main_call": "True"
+                },
                 "output": {
                   "stdout": {
                     "type": "text",
