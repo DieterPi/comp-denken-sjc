@@ -1,9 +1,8 @@
 - tab: Feedback
   testcases:
-  - statement: import random
-  - statement: random.seed( 7247 )
+  - statement: import random; random.seed(123)
     stdout: '2.3332'
-  - statement: random.seed( 9941 )
+  - statement: import random; random.seed(123)
     stdout: '2.3261'
   - statement: random.seed( 5398 )
     stdout: '2.3373'
