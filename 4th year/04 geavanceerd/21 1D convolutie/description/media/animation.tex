@@ -1,0 +1,1391 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{fit, shapes.geometric}
+
+
+\begin{document}
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-3,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (-2,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (-1,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-3,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (-2,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (-1,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-2,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (-1,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (0,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-2,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (-1,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (0,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S1) -- (K3) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K3) -- (R1);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-1,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (0,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (1,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (-1,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (0,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (1,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S2) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S1) -- (K2) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R2);
+		\draw[thick, BurntOrange] (K3) to (R2);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (0,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (1,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (2,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+				
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (0,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (1,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (2,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S3) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S2) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S1) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R3);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R3);
+		\draw[thick, BurntOrange] (K3) to (R3);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (1,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (2,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (3,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (1,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (2,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (3,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S4) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S3) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S2) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R4);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R4);
+		\draw[thick, BurntOrange] (K3) to (R4);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (2,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (3,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (4,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+				
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (2,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (3,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (4,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S5) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S4) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S3) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R5);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R5);
+		\draw[thick, BurntOrange] (K3) to (R5);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (3,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (4,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (5,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (3,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (4,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (5,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S6) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S5) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S4) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R6);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R6);
+		\draw[thick, BurntOrange] (K3) to (R6);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (4,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (5,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (6,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (4,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (5,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (6,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S7) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S6) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S5) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R7);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R7);
+		\draw[thick, BurntOrange] (K3) to (R7);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (5,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (6,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (7,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (5,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (6,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (7,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S8) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S7) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S6) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R8);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R8);
+		\draw[thick, BurntOrange] (K3) to (R8);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (6,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (7,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (8,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (6,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (7,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (8,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S9) -- (K3) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S8) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S7) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R9);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R9);
+		\draw[thick, BurntOrange] (K3) to (R9);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (7,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (8,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (9,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (7,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (8,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (9,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S9) -- (K2) node [midway, right] {$\times$};
+		\draw[thick, BurntOrange] (S8) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {0};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R10);
+		\draw[thick, BurntOrange] (K2) to[out=-90,in=90] (R10);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (8,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (9,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (10,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {0};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (8,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (9,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (10,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (S9) -- (K1) node [midway, right] {$\times$};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {0};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {0};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+		
+		\draw[thick, BurntOrange] (K1) to[out=-90,in=90] (R11);
+	\end{tikzpicture}
+	
+	\begin{tikzpicture}
+		\clip(-3.7,-4.6) rectangle (11.6,0.6);
+		\node at (0,0) [circle, minimum size=0.988cm] (S1) {0};
+		\node at (1,0) [circle, minimum size=0.988cm] (S2) {0};
+		\node at (2,0) [circle, minimum size=0.988cm] (S3) {1};
+		\node at (3,0) [circle, minimum size=0.988cm] (S4) {0};
+		\node at (4,0) [circle, minimum size=0.988cm] (S5) {1};
+		\node at (5,0) [circle, minimum size=0.988cm] (S6) {0};
+		\node at (6,0) [circle, minimum size=0.988cm] (S7) {0};
+		\node at (7,0) [circle, minimum size=0.988cm] (S8) {0};
+		\node at (8,0) [circle, minimum size=0.988cm] (S9) {0};
+		\node [rectangle,draw,color=PineGreen,fit=(S1),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S2),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S3),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S4),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S5),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S6),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S7),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S8),inner sep=0] {};
+		\node [rectangle,draw,color=PineGreen,fit=(S9),inner sep=0] {};
+		
+		\node at (9,-2) [circle, minimum size=1cm] (K1) {0.2};
+		\node at (10,-2) [circle, minimum size=1cm] (K2) {0.6};
+		\node at (11,-2) [circle, minimum size=1cm] (K3) {0.2};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K1),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K2),inner sep=0] {};
+		\node [rectangle,draw,color=RoyalPurple,fit=(K3),inner sep=0] {};
+		
+		\node at (0,-4) [circle, minimum size=0.988cm] (R1) {0};
+		\node at (1,-4) [circle, minimum size=0.988cm] (R2) {0};
+		\node at (2,-4) [circle, minimum size=0.988cm] (R3) {0.2};
+		\node at (3,-4) [circle, minimum size=0.988cm] (R4) {0.6};
+		\node at (4,-4) [circle, minimum size=0.988cm] (R5) {0.4};
+		\node at (5,-4) [circle, minimum size=0.988cm] (R6) {0.6};
+		\node at (6,-4) [circle, minimum size=0.988cm] (R7) {0.2};
+		\node at (7,-4) [circle, minimum size=0.988cm] (R8) {0};
+		\node at (8,-4) [circle, minimum size=0.988cm] (R9) {0};
+		\node at (9,-4) [circle, minimum size=0.988cm] (R10) {0};
+		\node at (10,-4) [circle, minimum size=0.988cm] (R11) {0};
+		\node [rectangle,draw,color=NavyBlue,fit=(R1),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R2),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R3),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R4),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R5),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R6),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R7),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R8),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R9),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R10),inner sep=0] {};
+		\node [rectangle,draw,color=NavyBlue,fit=(R11),inner sep=0] {};
+	\end{tikzpicture}
+\end{document}
