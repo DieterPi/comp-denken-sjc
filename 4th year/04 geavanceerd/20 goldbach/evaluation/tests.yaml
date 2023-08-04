@@ -1,0 +1,62 @@
+- tab: Feedback
+  testcases:
+  - expression: goldbach( 8 )
+    stdout: 8 = 3 + 5
+  - expression: goldbach( 10 )
+    stdout: 10 = 3 + 7
+  - expression: goldbach( 7 )
+    stdout: Het vermoeden is hier niet van toepassing.
+  - expression: goldbach( 4 )
+    stdout: 4 = 2 + 2
+  - expression: goldbach( 14496 )
+    stdout: 14496 = 7 + 14489
+  - expression: goldbach( 19730 )
+    stdout: 19730 = 3 + 19727
+  - expression: goldbach( 9960 )
+    stdout: 9960 = 11 + 9949
+  - expression: goldbach( 15296 )
+    stdout: 15296 = 7 + 15289
+  - expression: goldbach( 17532 )
+    stdout: 17532 = 13 + 17519
+  - expression: goldbach( 13098 )
+    stdout: 13098 = 5 + 13093
+  - expression: goldbach( 17880 )
+    stdout: 17880 = 17 + 17863
+  - expression: goldbach( 6810 )
+    stdout: 6810 = 7 + 6803
+  - expression: goldbach( 9834 )
+    stdout: 9834 = 5 + 9829
+  - expression: goldbach( 8894 )
+    stdout: 8894 = 7 + 8887
+  - expression: goldbach( 3028 )
+    stdout: 3028 = 5 + 3023
+  - expression: goldbach( 4686 )
+    stdout: 4686 = 7 + 4679
+  - expression: goldbach( 10296 )
+    stdout: 10296 = 7 + 10289
+  - expression: goldbach( 15184 )
+    stdout: 15184 = 11 + 15173
+  - expression: goldbach( 9956 )
+    stdout: 9956 = 7 + 9949
+  - expression: goldbach( 2932 )
+    stdout: 2932 = 5 + 2927
+  - expression: goldbach( 10252 )
+    stdout: 10252 = 5 + 10247
+  - expression: goldbach( 714 )
+    stdout: 714 = 5 + 709
+  - expression: goldbach( 3384 )
+    stdout: 3384 = 11 + 3373
+  - expression: goldbach( 13426 )
+    stdout: 13426 = 5 + 13421
+  - expression: goldbach( 1082 )
+    stdout: 1082 = 13 + 1069
+  - expression: goldbach( 19524 )
+    stdout: 19524 = 17 + 19507
+  - expression: goldbach( 10012 )
+    stdout: 10012 = 3 + 10009
+  - expression: goldbach( 6522 )
+    stdout: 6522 = 31 + 6491
+  - expression: goldbach( 7305 )
+    stdout: Het vermoeden is hier niet van toepassing.
+  - expression: goldbach( 8540 )
+    stdout: 8540 = 3 + 8537
