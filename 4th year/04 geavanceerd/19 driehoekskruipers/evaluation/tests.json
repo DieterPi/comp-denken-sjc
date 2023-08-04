@@ -1,0 +1,45 @@
+{
+    "tabs": [
+      {
+        "name": "Feedback",
+        "contexts": [
+          {
+            "before": {
+              "python": {
+                "data": "import random; random.seed( 123 )"
+              }
+            },
+            "testcases": [
+              {
+                "description": "Uitvoeren van de code met seed 123 leidt tot:",
+                "output": {
+                  "stdout": {
+                    "type": "text",
+                    "data": "2.3332"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "before": {
+              "python": {
+                "data": "import random; random.seed( 5398 )"
+              }
+            },
+            "testcases": [
+              {
+                "description": "Uitvoeren van de code met seed 5398 leidt tot:",
+                "output": {
+                  "stdout": {
+                    "type": "text",
+                    "data": "2.3373"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
