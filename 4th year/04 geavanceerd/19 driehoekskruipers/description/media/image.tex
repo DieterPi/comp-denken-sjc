@@ -1,5 +1,6 @@
 \documentclass[dvipsnames,tikz]{standalone}
 \usepackage{amsmath}
+\usepackage{arevmath}
 \usepackage{xcolor}
 \usepackage{tikz}
 \usetikzlibrary{calc}
@@ -12,9 +13,11 @@
 		\draw (0,0)-- (2,1.154) -- (2,3.464);
 		\draw (2,1.154)-- (4,0);
 		
-		\fill[PineGreen] (0,0) circle (1.5pt) node [below left] {$A$};
-		\fill[PineGreen] (4,0) circle (1.5pt) node [below right] {$B$};
-		\fill[PineGreen] (2,3.464) circle (1.5pt) node [above] {$C$};
-		\fill[BrickRed] (2,1.154) circle (1.5pt) node [above right] {$D$};
+		\draw[white, fill=PineGreen] (0,0) circle (0.3cm) node {A};
+		\draw[white, fill=PineGreen] (4,0) circle (0.3cm) node  {B};
+		\draw[white, fill=PineGreen] (2,3.464) circle (0.3cm) node {C};
+		\draw[white, fill=BrickRed] (2,1.154) circle (0.3cm);
+		\draw[white!90!BrickRed] (2,1.154) node {\Large $\skull$};
+		\draw[BrickRed] (2,1.154) node [below, yshift=-0.2cm] {D};
 	\end{tikzpicture}
 \end{document}
