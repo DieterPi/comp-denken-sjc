@@ -11,9 +11,8 @@ Zoals je merkt schuift de kernel in elke stap op. De waarden uit de bronlijst wo
 ## Opgave
 Schrijf een functie `convolutie()` die gegeven twee lijsten het convolutieproduct uitrekent. Zorg ervoor dat de getallen in de resulterende lijst **afgerond** worden op **twee cijfers** na de komma.
 
-
 #### Voorbeeld
 ```
->>> convolutie( [0, 0, 1, 0, 1, 0, 0, 0, 0] , [0.2, 0.6, 0.4] )
-[[0.0, 0.0, 0.4, 0.6, 0.6, 0.6, 0.2, 0.0, 0.0, 0.0, 0.0]
+>>> convolutie( [0, 0, 1, 0, 1, 0, 0, 0, 0] , [0.2, 0.6, 0.2] )
+[0.0, 0.0, 0.2, 0.6, 0.4, 0.6, 0.2, 0.0, 0.0, 0.0, 0.0]
 ```
