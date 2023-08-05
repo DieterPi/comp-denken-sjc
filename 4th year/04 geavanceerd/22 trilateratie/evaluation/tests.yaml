@@ -1,0 +1,25 @@
+- tab: Feedback
+  testcases:
+  - expression: trilateratie( (0, 0), (-2, 4), (3, 4), 3.0, 2.14, 3.26 )
+    stdout: "Locatie mobiele telefoon:\n(-0.1, 3.0)"
+  - expression: trilateratie( (-106, 2), (134, 54), (134, -20), 136.565002837, 157.079597657,
+      119.641130052 )
+    stdout: "Locatie mobiele telefoon:\n(19.0, -53.0)"
+  - expression: trilateratie( (-80, -45), (148, 131), (117, -75), 83.0963296422, 205.0,
+      156.773722288 )
+    stdout: "Locatie mobiele telefoon:\n(-16.0, 8.0)"
+  - expression: trilateratie( (-142, -90), (112, 114), (122, -83), 176.819116614,
+      152.161098839, 141.400141443 )
+    stdout: "Locatie mobiele telefoon:\n(9.0, 2.0)"
+  - expression: trilateratie( (-124, 142), (91, 149), (100, -48), 158.050624801, 175.641680703,
+      142.239235094 )
+    stdout: "Locatie mobiele telefoon:\n(-26.0, 18.0)"
+  - expression: trilateratie( (-132, -147), (147, 90), (127, -65), 219.127816582,
+      151.489273548, 83.6301381082 )
+    stdout: "Locatie mobiele telefoon:\n(52.0, -28.0)"
+  - expression: trilateratie( (-148, -111), (139, 126), (92, -130), 203.403539792,
+      169.177421661, 162.012345209 )
+    stdout: "Locatie mobiele telefoon:\n(14.0, 12.0)"
+  - expression: trilateratie( (-112, -10), (130, 39), (87, -149), 69.3541635376, 195.256241898,
+      174.917123233 )
+    stdout: "Locatie mobiele telefoon:\n(-49.0, -39.0)"
