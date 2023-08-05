@@ -2,7 +2,7 @@ Trilateratie wordt gebruikt om de locatie van je mobiele telefoon vast te leggen
 
 Om de situatie te vereenvoudigen wordt hieronder het tweedimensionale geval besproken.
 
-![Trilateratie](media/image.png "Trilateratie"){:data-caption="Trilateratie van een mobiele telefoon." width="33%"}
+![Trilateratie](media/image.png "Trilateratie"){:data-caption="Trilateratie van een mobiele telefoon." width="50%"}
 
 Op het bovenstaande schema zie je hoe de drie cirkels een gemeenschappelijk snijpunt hebben. Het is de coördinaat van dat snijpunt $$(x_{\text{M}},y_{\text{M}})$$ wat gezocht moet worden.
 
