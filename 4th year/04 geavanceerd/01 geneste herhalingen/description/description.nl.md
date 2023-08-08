@@ -11,6 +11,7 @@ In Python programmeer je een geneste herhaling als volgt:
 for i in range( 4 ):
     for j in range( 5 ):
         print ( '(i,j) = (', i, ',', j, ')' )
+    print( ) # dit print een lege lijn
 ```
 
 {: .callout.callout-info}
