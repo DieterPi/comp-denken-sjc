@@ -2,6 +2,9 @@ import os
 import sys
 import importlib
 import random
+import ruamel.yaml
+
+yaml = ruamel.yaml.YAML()
 
 # set fixed seed for generating test cases
 random.seed(123456789)
@@ -23,24 +26,33 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-for name in dir(module):
-    if not (name.startswith('__') and name.endswith('__')):
-        globals()[name] = eval(f'module.{name}')
+def write_yaml( data:list ):
+    """ A function to write YAML file"""
+    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
+        yaml.dump(data, f)
 
 # generate test data
 ntests= 20
-cases = [(50,),(100,), ]
+cases = [50, 100 ]
 while len(cases) < ntests:
-    cases.append( tuple(random.randint(10,200) for _ in range(1)) ) 
+    cases.append( random.randint(10,200) ) 
 
 # generate unit tests for functions
-sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
+yamldata = []
+yamldata.append( {'tab': 'Feedback', 'testcases': []})
+# input, expression, statement or stdin?
+input = 'expression'
+# output, stdout or return?
+output = 'return'
 for test in cases:
     # generate test expression
-    print(f'>>> zeef_eratosthenes( {test[0]} )')
+    expression_name = 'zeef_eratosthenes( {} )'.format( test )
+    
+    result = ruamel.yaml.comments.CommentedSeq( module.zeef_eratosthenes( test ) )
+    result.fa.set_flow_style() # to prohibit output from being YAML transformed
+    
+     # setup for return expressions
+    testcase = { input: expression_name, output: result }
+    yamldata[0]['testcases'].append( testcase)
 
-    # generate return value
-    try:
-        print('{}'.format(module.zeef_eratosthenes(test[0])))
-    except Exception as e:
-        print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
+write_yaml(yamldata)
