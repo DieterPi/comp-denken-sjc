@@ -33,7 +33,7 @@ def write_yaml( data:list ):
 
 # generate test data
 cases = [ ]
-for i in range(2, 10):
+for i in range(1, 10):
     cases.append( i )
 
 # generate unit tests for functions

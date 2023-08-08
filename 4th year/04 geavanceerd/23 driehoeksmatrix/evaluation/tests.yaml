@@ -1,5 +1,7 @@
 - tab: Feedback
   testcases:
+  - expression: benedendriehoeksmatrix( 1 )
+    stdout: '1'
   - expression: benedendriehoeksmatrix( 2 )
     stdout: "1 0 \n2 1"
   - expression: benedendriehoeksmatrix( 3 )
