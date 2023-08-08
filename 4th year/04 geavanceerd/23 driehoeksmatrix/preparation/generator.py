@@ -45,7 +45,7 @@ input = 'expression'
 output = 'stdout'
 for test in cases:
     # generate test expression
-    expression_name = 'benedendriehoeksmatrix( {})'.format( test )
+    expression_name = 'benedendriehoeksmatrix( {} )'.format( test )
     
     f = io.StringIO()
     with contextlib.redirect_stdout( f ):
