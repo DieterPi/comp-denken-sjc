@@ -29,6 +29,9 @@ veelvouden van 2 zijn dat niet. Dus zet alle veelvouden van 2 op 0. Zoek dan naa
 ```
 >>> zeef_eratosthenes( 50 )
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
->>> >>> zeef_eratosthenes( 100 )
+```
+
+```
+>>> zeef_eratosthenes( 100 )
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 ```
