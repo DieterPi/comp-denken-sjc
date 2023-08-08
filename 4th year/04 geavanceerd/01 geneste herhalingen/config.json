@@ -5,14 +5,13 @@
       "nl": "Geneste herhalingen"
     }
   },
-  "programming_language": "python",
   "evaluation": {
     "handler": "TESTed",
     "test_suite": "tests.yaml",
-    "options":{
+    "options": {
       "mode": "batch",
       "allow_fallback": true
-    }     
+    }
   },
   "labels": [
 
