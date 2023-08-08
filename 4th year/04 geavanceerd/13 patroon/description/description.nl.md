@@ -22,10 +22,10 @@ print('.', end = ' ')
 #### Voorbeeld
 ```
 >>> schaakbord( 6, 8 )
- x  .  x  .  x  .  x  . 
- .  x  .  x  .  x  .  x 
- x  .  x  .  x  .  x  . 
- .  x  .  x  .  x  .  x 
- x  .  x  .  x  .  x  . 
- .  x  .  x  .  x  .  x 
+ x . x . x . x . 
+ . x . x . x . x 
+ x . x . x . x . 
+ . x . x . x . x 
+ x . x . x . x . 
+ . x . x . x . x 
 ```
