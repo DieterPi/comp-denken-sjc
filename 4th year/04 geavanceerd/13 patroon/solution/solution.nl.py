@@ -1,19 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-def schaakbord( r, k ):
+def schaakbord( rows: int , cols: int ) -> None:
     teller = 0
-    for _ in range(r):
-        rij = ''
-        for _ in range(k):
-            if teller % 2 == 0:
-                rij += ' x '
+    for r in range( rows ):
+        for k in range( cols ):
+            if ( r + k ) % 2 == 0:
+                print('x', end = ' ' )
             else:
-                rij += ' . '
-            teller += 1
-        teller += k % 2 == 0
-        print( rij )
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
+                print('.', end = ' ' )
+        print( )

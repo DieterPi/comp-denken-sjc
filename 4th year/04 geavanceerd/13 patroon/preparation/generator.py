@@ -1,7 +1,10 @@
 import os
-import sys
+import contextlib, io
 import importlib
 import random
+import ruamel.yaml
+
+yaml = ruamel.yaml.YAML()
 
 # set fixed seed for generating test cases
 random.seed(123456789)
@@ -23,9 +26,10 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-for name in dir(module):
-    if not (name.startswith('__') and name.endswith('__')):
-        globals()[name] = eval(f'module.{name}')
+def write_yaml( data:list ):
+    """ A function to write YAML file"""
+    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
+        yaml.dump(data, f)
 
 # generate test data
 ntests= 15
@@ -34,13 +38,24 @@ while len(cases) < ntests:
     cases.append( tuple(random.randint(1,10) for _ in range(2)) ) 
 
 # generate unit tests for functions
-sys.stdout = open(os.path.join('..', 'evaluation', '0.in'), 'w', encoding='utf-8')
+yamldata = []
+yamldata.append( {'tab': 'Feedback', 'testcases': []})
+# input, expression, statement or stdin?
+input = 'expression'
+# output, stdout or return?
+output = 'stdout'
 for test in cases:
     # generate test expression
-    print(f'>>> schaakbord( {test[0]}, {test[1]} ) # doctest: +STDOUT')
+    expression_name = 'schaakbord( {}, {} )'.format( test[0], test[1] )
+    
+    f = io.StringIO()
+    with contextlib.redirect_stdout( f ):
+        module.schaakbord( test[0], test[1] )
+    
+    result = f.getvalue().strip() 
+    
+    # setup for return expressions
+    testcase = { input: expression_name, output: ''+ result }
+    yamldata[0]['testcases'].append( testcase )
 
-    # generate return value
-    try:
-        module.schaakbord(test[0],test[1])
-    except Exception as e:
-        print('Traceback (most recent call last):\n{}: {}'.format(e.__class__.__name__, e))
+write_yaml(yamldata)
