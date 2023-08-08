@@ -6,12 +6,15 @@ Schrijf een functie `diagonaal()` die gegeven een parameter `n` (een natuurlijk 
 - Op de daaropvolgende diagonalen `2` staat.
 - enz... 
 
-#### Voorbeeld
+#### Voorbeelden
 ```
 >>> diagonaal( 3 )
  0  1  2 
  1  0  1 
  2  1  0 
+```
+
+```
 >>> diagonaal( 5 ) 
  0  1  2  3  4 
  1  0  1  2  3 
