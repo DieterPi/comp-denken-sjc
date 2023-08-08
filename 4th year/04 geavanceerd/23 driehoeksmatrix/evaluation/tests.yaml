@@ -1,0 +1,23 @@
+- tab: Feedback
+  testcases:
+  - expression: benedendriehoeksmatrix( 2)
+    stdout: "1 0 \n2 1"
+  - expression: benedendriehoeksmatrix( 3)
+    stdout: "1 0 0 \n2 1 0 \n3 2 1"
+  - expression: benedendriehoeksmatrix( 4)
+    stdout: "1 0 0 0 \n2 1 0 0 \n3 2 1 0 \n4 3 2 1"
+  - expression: benedendriehoeksmatrix( 5)
+    stdout: "1 0 0 0 0 \n2 1 0 0 0 \n3 2 1 0 0 \n4 3 2 1 0 \n5 4 3 2 1"
+  - expression: benedendriehoeksmatrix( 6)
+    stdout: "1 0 0 0 0 0 \n2 1 0 0 0 0 \n3 2 1 0 0 0 \n4 3 2 1 0 0 \n5 4 3 2 1 0 \n\
+      6 5 4 3 2 1"
+  - expression: benedendriehoeksmatrix( 7)
+    stdout: "1 0 0 0 0 0 0 \n2 1 0 0 0 0 0 \n3 2 1 0 0 0 0 \n4 3 2 1 0 0 0 \n5 4 3\
+      \ 2 1 0 0 \n6 5 4 3 2 1 0 \n7 6 5 4 3 2 1"
+  - expression: benedendriehoeksmatrix( 8)
+    stdout: "1 0 0 0 0 0 0 0 \n2 1 0 0 0 0 0 0 \n3 2 1 0 0 0 0 0 \n4 3 2 1 0 0 0 0\
+      \ \n5 4 3 2 1 0 0 0 \n6 5 4 3 2 1 0 0 \n7 6 5 4 3 2 1 0 \n8 7 6 5 4 3 2 1"
+  - expression: benedendriehoeksmatrix( 9)
+    stdout: "1 0 0 0 0 0 0 0 0 \n2 1 0 0 0 0 0 0 0 \n3 2 1 0 0 0 0 0 0 \n4 3 2 1 0\
+      \ 0 0 0 0 \n5 4 3 2 1 0 0 0 0 \n6 5 4 3 2 1 0 0 0 \n7 6 5 4 3 2 1 0 0 \n8 7\
+      \ 6 5 4 3 2 1 0 \n9 8 7 6 5 4 3 2 1"
