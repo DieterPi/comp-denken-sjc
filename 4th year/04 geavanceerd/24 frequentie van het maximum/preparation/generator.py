@@ -61,7 +61,7 @@ yamldata.append( {'tab': 'Feedback', 'testcases': []})
 # input, expression, statement or stdin?
 input = 'expression'
 # output, stdout or return?
-output = 'return'
+output = 'stdout'
 for test in cases:
     # generate test expression
     expression_name = 'aantal_max( {} )'.format( test )
