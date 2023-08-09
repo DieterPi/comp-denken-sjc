@@ -1,0 +1,16 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Aangepaste Regula falsi (oefening)",
+      "en": "Modified Regula falsi (exercise)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [
+    "Numerieke wiskunde"
+  ],
+  "access": "public"
+}
