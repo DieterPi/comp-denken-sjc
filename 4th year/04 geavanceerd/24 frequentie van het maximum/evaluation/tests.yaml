@@ -1,0 +1,68 @@
+- tab: Feedback
+  testcases:
+  - expression: aantal_max( [[4, 3, 1, 2], [-1, 0, 3, 4], [0, 4, 2, 1]] )
+    return: "Het grootste element uit de matrix is 4 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 1\nrij: 2 , kolom: 4\nrij: 3 , kolom: 2"
+  - expression: aantal_max( [[9, 4], [9, -2], [-3, 9]] )
+    return: "Het grootste element uit de matrix is 9 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 1\nrij: 2 , kolom: 1\nrij: 3 , kolom: 2"
+  - expression: aantal_max( [[0, -1, -3, -1], [-1, -1, -2, 0]] )
+    return: "Het grootste element uit de matrix is 0 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 1\nrij: 2 , kolom: 4"
+  - expression: aantal_max( [[-3, 4, 4, 2, -3, -3]] )
+    return: "Het grootste element uit de matrix is 4 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 2\nrij: 1 , kolom: 3"
+  - expression: aantal_max( [[-3, -1, -1, -7]] )
+    return: "Het grootste element uit de matrix is -1 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 2\nrij: 1 , kolom: 3"
+  - expression: aantal_max( [[3, 4, 1, -1], [2, 1, 3, 0], [1, 2, 3, -2], [5, 4, -5,
+      -1], [4, -3, -5, 4], [-3, 0, 5, 2]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 4 , kolom: 1\nrij: 6 , kolom: 3"
+  - expression: aantal_max( [[5, -4, -1], [0, 1, 5], [-5, -5, -4], [5, 1, 3], [-4,
+      -5, 4]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 1\nrij: 2 , kolom: 3\nrij: 4 , kolom: 1"
+  - expression: aantal_max( [[2, 1, -4], [2, -5, -1], [-1, -2, 5], [-2, -5, -1], [3,
+      5, -4]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 3 , kolom: 3\nrij: 5 , kolom: 2"
+  - expression: aantal_max( [[-2, 5, -2, 3], [-3, 0, -4, 0], [3, 0, 3, 1]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 2"
+  - expression: aantal_max( [[1, -2, 5, -1, -3], [4, 3, 1, 5, 1], [1, 3, -4, -1, 2],
+      [1, 2, 4, 1, 4], [-1, 1, 3, 5, -3]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 3\nrij: 2 , kolom: 4\nrij: 5 , kolom: 4"
+  - expression: aantal_max( [[-1, -5, 2, 3, 5]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 5"
+  - expression: aantal_max( [[-1], [0], [-3], [-5], [4], [-1]] )
+    return: "Het grootste element uit de matrix is 4 en dit staat op de plaatsen:\n\
+      rij: 5 , kolom: 1"
+  - expression: aantal_max( [[3, 0, -1, 1, -1, 1], [-2, -4, -1, 5, -2, 5]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 2 , kolom: 4\nrij: 2 , kolom: 6"
+  - expression: aantal_max( [[1, 2, 0, 0], [-2, -3, 0, -4], [2, 4, 5, -2]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 3 , kolom: 3"
+  - expression: aantal_max( [[-5, -5, -4, 1, 1], [1, 2, 3, 5, -2], [4, 2, 3, -2, -2],
+      [-1, -4, -1, -5, 1], [1, 0, 4, -1, 3]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 2 , kolom: 4"
+  - expression: aantal_max( [[3, 1, -1, 5]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 4"
+  - expression: aantal_max( [[-3, 4], [4, 4], [-5, -1], [2, -1], [-5, 0], [-5, 1]]
+      )
+    return: "Het grootste element uit de matrix is 4 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 2\nrij: 2 , kolom: 1\nrij: 2 , kolom: 2"
+  - expression: aantal_max( [[1], [4], [-1]] )
+    return: "Het grootste element uit de matrix is 4 en dit staat op de plaatsen:\n\
+      rij: 2 , kolom: 1"
+  - expression: aantal_max( [[-3], [2]] )
+    return: "Het grootste element uit de matrix is 2 en dit staat op de plaatsen:\n\
+      rij: 2 , kolom: 1"
+  - expression: aantal_max( [[-3, 4, 5, 2, -3, -3]] )
+    return: "Het grootste element uit de matrix is 5 en dit staat op de plaatsen:\n\
+      rij: 1 , kolom: 3"
