@@ -6,13 +6,13 @@ De methode lijkt op het eerste zicht op regula falsi, maar er is een belangrijke
 - Vervolgens bepaalt met het snijpunt van de rechte door $$(x_2, f(x_2))$$ en $$(x_3, f(x_3))$$ met de $$x$$-as en noemt dit $$x_4$$.
 - enz...
 
-Bij slechte keuzes voor $$x_1$$ en $$x_2$$ (of bij moeilijke functies) kan het zijn dat deze methode nooit to een oplossing leidt. Met andere woorden, dat de waarden voor $$x_i$$ **niet convergeren** maar **divergeren**. Indien de waarden wel naar een nulwaarde convergeren dan is men tevreden indien voor een potentiële nulwaarde $$x_i$$ geldt dat $$f(x_i)$$ voldoende dicht van nul ligt. Gebruik hiervoor de absolute waarde van $$f(x_i)$$. Het programma eindigt dus indien $$\lvert f(x_i)\rvert \leqslant \delta$$ met $$\delta$$ een bepaalde toleratie.
+Bij slechte keuzes voor $$x_1$$ en $$x_2$$ (of bij moeilijke functies) kan het zijn dat deze methode **nooit** tot een oplossing leidt. Met andere woorden, dat de waarden voor $$x_i$$ **niet convergeren** maar **divergeren**. Indien de waarden wel naar een nulwaarde convergeren dan is men tevreden indien voor een potentiële nulwaarde $$x_i$$ geldt dat $$f(x_i)$$ voldoende dicht van nul ligt. Gebruik hiervoor de absolute waarde van $$f(x_i)$$. Het programma eindigt dus indien $$\lvert f(x_i)\rvert \leqslant \delta$$ met $$\delta$$ een bepaalde toleratie.
 
 ![De koordenmethode](media/animation.gif "De koordenmethode"){:data-caption="Animatie door D. Vanderfaeillie." width="60%"}
 
 ## Opgave
 
-Schrijf een functie `koordenmethode( f, x1, x2, toleratie)` waarbij `f` een continue functie voorstelt met een nulwaarde van oneven orde, `x1` en `x2` als startwaarden en `toleratie` de nauwkeurigheid die men instelt. Hoe kleiner de toleratie, hoe nauwkeurig de methode.
+Schrijf een functie `koordenmethode( f, x1, x2, toleratie )` waarbij `f` een continue functie voorstelt met een nulwaarde van oneven orde, `x1` en `x2` als startwaarden en `toleratie` de nauwkeurigheid die men instelt. Hoe kleiner de toleratie, hoe nauwkeurig de methode.
 
 De functie retourneert de nulwaarde tot op 4 cijfers na de komma nauwkeurig.
 
@@ -23,7 +23,7 @@ De functie retourneert de nulwaarde tot op 4 cijfers na de komma nauwkeurig.
 #### Voorbeelden
 ```
 >>> def f( x ) : return x - 2
->>> koordenmethode( f, 0, 5, 10**-4)
+>>> koordenmethode( f, 0, 5, 10**-4 )
 2.0
 ```
 
