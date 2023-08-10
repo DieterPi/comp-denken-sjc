@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Koordenmethode (oefening)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [
+    "Numerieke wiskunde"
+  ],
+  "access": "public"
+}
