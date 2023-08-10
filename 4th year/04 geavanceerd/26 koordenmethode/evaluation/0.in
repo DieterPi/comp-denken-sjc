@@ -7,6 +7,9 @@
 >>> def f( x ) : return x**3 - 2 #doctest: +NEWCONTEXT
 >>> koordenmethode( f, 1, 4, 10**-5)
 1.2599
+>>> def f( x ) : return x**2 #doctest: +NEWCONTEXT
+>>> koordenmethode( f, -0.5, 2, 10**-8)
+-0.0001
 >>> def f( x ) : return x**3 - 2 #doctest: +NEWCONTEXT
 >>> koordenmethode( f, 4, 1, 10**-5)
 1.2599

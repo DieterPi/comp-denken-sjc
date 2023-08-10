@@ -32,6 +32,7 @@ cases = []
 cases.append( ['def f( x ) : return x - 2', 0, 5, -4])
 cases.append( ['def f( x ) : return x - 2', 5, 0, -4])
 cases.append( ['def f( x ) : return x**3 - 2', 1, 4, -5] )
+cases.append( ['def f( x ) : return x**2', -0.5, 2, -8] )
 cases.append( ['def f( x ) : return x**3 - 2', 4, 1, -5] )
 cases.append( ['def f( x ) : return x - 2', 0, 4, -1])
 cases.append( ['def f( x ) : return (x-2)**(1/3)-1', 7, 2, -7] )

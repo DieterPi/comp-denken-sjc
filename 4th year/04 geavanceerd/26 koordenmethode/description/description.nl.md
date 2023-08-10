@@ -12,7 +12,7 @@ Bij slechte keuzes voor $$x_1$$ en $$x_2$$ (of bij moeilijke functies) kan het z
 
 ## Opgave
 
-Schrijf een functie `koordenmethode( f, x1, x2, toleratie )` waarbij `f` een continue functie voorstelt met een nulwaarde van oneven orde, `x1` en `x2` als startwaarden en `toleratie` de nauwkeurigheid die men instelt. Hoe kleiner de toleratie, hoe nauwkeurig de methode.
+Schrijf een functie `koordenmethode( f, x1, x2, toleratie )` waarbij `f` een continue functie voorstelt met een nulwaarde, `x1` en `x2` als startwaarden en `toleratie` de nauwkeurigheid die men instelt. Hoe kleiner de toleratie, hoe nauwkeurig de methode.
 
 De functie retourneert de nulwaarde tot op 4 cijfers na de komma nauwkeurig.
 
