@@ -12,5 +12,9 @@
   "labels": [
     "Numerieke wiskunde"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "RSsITD6EtZphZhcd9r_AQjf8v-BbUArTcADKcQ48_XKXwbguW6Iw_yxt3Hfiz65c",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
