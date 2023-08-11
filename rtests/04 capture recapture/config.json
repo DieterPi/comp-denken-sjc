@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Vang hervang",
+      "en": "Capture recapture"
+    }
+  },
+  "evaluation": {
+  },
+  "labels": [
+
+  ],
+  "access": "public"
+}
