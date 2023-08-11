@@ -4,7 +4,7 @@ context({
       mean(student_env$N_estimated)
     }, 1024.4)
   })
-  testcase("De \"as.integer\" functie werd gebruikt.", {
+  testcase("De volgende functie werd gebruikt:", {
     testFunctionUsedInVar("as.integer", "N_estimated")
   })
 }, preExec = {
