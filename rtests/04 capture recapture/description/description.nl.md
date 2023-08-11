@@ -3,7 +3,7 @@ Stel dat men de hoeveelheid berggeiten wil schatten in een natuurgebied. Een met
 Je kan nu het aantal dieren $$N$$ in het natuurgebied gaan schatten met behulp van onderstaande formule. Men gaat er immers vanuit dat de verhouding ongeveer bewaard blijft.
 
 $$
-    \dfrac{\color{BurntOrange}N}{t} = \dfrac{n}{s}
+    \dfrac{N}{t} = \dfrac{n}{s}
 $$
 
 ![Enkele berggeiten](media/medena-rosa.jpg "Foto door Medena Rosa op Unsplash"){:data-caption="Enkele berggeiten" width="45%"}
