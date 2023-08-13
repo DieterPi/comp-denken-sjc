@@ -101,8 +101,8 @@ def construct_graph( connected = False, weight = 0 ) -> dict:
 
 # generate test data
 ntests = 20
-cases = [ ('B', [('A', 'B'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] ),
-          ('E', [('A', 'B'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] ),
+cases = [ ('B', [('A', 'B'), ('C', 'A'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] ),
+          ('E', [('A', 'B'), ('C', 'A'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] ),
           ('C', [('A', 'E'), ('C', 'D'), ('C', 'A'), ('D', 'E'), ('A', 'D'), ('C', 'E'), ('E', 'B')] ),
           ('C', [('A', 'B')] )]
 

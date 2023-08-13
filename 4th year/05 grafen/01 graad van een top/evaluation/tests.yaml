@@ -1,10 +1,10 @@
 - tab: Feedback
   testcases:
-  - expression: graad( B , [('A', 'B'), ('B', 'C'), ('C', 'D'), ('B', 'D'), ('B',
-      'E')] )
+  - expression: graad( B , [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B',
+      'D'), ('B', 'E')] )
     return: 4
-  - expression: graad( E , [('A', 'B'), ('B', 'C'), ('C', 'D'), ('B', 'D'), ('B',
-      'E')] )
+  - expression: graad( E , [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B',
+      'D'), ('B', 'E')] )
     return: 1
   - expression: graad( C , [('A', 'E'), ('C', 'D'), ('C', 'A'), ('D', 'E'), ('A',
       'D'), ('C', 'E'), ('E', 'B')] )

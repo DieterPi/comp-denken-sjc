@@ -1,4 +1,4 @@
-Grafen zijn wiskundige structuren die bestaan uit een verzameling van knopen of toppen, meestal aangeduid met de letter $$V$$ (van vertices) en een verzameling van bogen, meestal aangeduid met de letter $$E$$ (van edges).
+**Grafen** zijn wiskundige structuren die bestaan uit een verzameling van **knopen** of toppen, meestal aangeduid met de letter $$V$$ (van vertices) en een verzameling van *bogen*, meestal aangeduid met de letter $$E$$ (van edges).
 
 Deze structuren zijn heel belangrijk binnen de wiskunde en de informaticawetenschappen, maar komen ook voor binnen de chemie of zelfs taalkunde.
 
@@ -10,7 +10,7 @@ Deze graaf heeft 5 knopen en 6 bogen. Deze kan je binnen Python bijvoorbeeld voo
 
 ```python
 V = ['A', 'B', 'C', 'D', 'E']
-E = [('A', 'B'), ('B','C'), ('C', 'D'), ('D', 'B'), ('B', 'E')]
+E = [('A', 'B'), ('C', 'A'), ('B','C'), ('C', 'D'), ('D', 'B'), ('B', 'E')]
 ```
 
 Het vorige voorbeeld stelde een **ongerichte** graaf voor. De boog tussen $$A$$ en $$B$$ is dezelfde als de boog tussen $$B$$ en $$A$$. Er bestaan ook **gerichte** grafen. Hierbij krijgt elke boog een richting.
@@ -23,7 +23,7 @@ De voorstelling binnen Python wordt analoog:
 
 ```python
 V = ['A', 'B', 'C', 'D', 'E']
-E = [('A', 'B', 3), ('B','C', 4), ('C', 'D', 2), ('D', 'B', 7), ('B', 'E', 8)]
+E = [('A', 'B', 3), ('B','C', 4), ('C', 'A', 2), ('C', 'D', 2), ('D', 'B', 7), ('B', 'E', 8)]
 ```
 
 Volgens afspraak is deze graaf dan gericht, de volgende van de knopen in de tupels is dus van belang.
@@ -42,12 +42,12 @@ Schrijf een functie `graad( knoop, E )` die de graad bepaalt van een *ongerichte
 
 #### Voorbeelden
 ```
->>> graad( 'B', [('A', 'B'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] )
+>>> graad( 'B', [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'),('B', 'D'),('B', 'E')] )
 4
 ```
 
 ```
->>> graad( 'E', [('A', 'B'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] )
+>>> graad( 'E', [('A', 'B'),  ('C', 'A'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] )
 1
 ```
 

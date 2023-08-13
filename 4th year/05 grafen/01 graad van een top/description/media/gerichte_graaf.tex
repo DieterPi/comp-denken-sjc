@@ -15,6 +15,7 @@
 		\node[main] (E) [above right of=D] {E}; 
 		
 		\begin{scope}[font=\tiny]
+			\draw[-stealth] (C) -- node[midway, above, sloped] {2} (A);
 			\draw[-stealth] (A) -- node[midway, above, sloped] {3} (B);
 			\draw[-stealth] (B) -- node[midway, right, xshift=-2pt] {4} (C);
 			\draw[-stealth] (D) -- node[midway, above, sloped] {7} (B);
