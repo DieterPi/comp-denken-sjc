@@ -1,5 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+def graph_weight( E: list ) -> int:
+    weight = 0
+    for e in E:
+        weight += e[2]
+    return weight
+
 def is_connected( vertex: str, edge: list ) -> bool:
     flag = vertex in ( edge[0], edge[1] )
     return flag
@@ -41,4 +48,4 @@ def MST_prim( V: list, E: list ) -> int:
         E.remove( min_edge )
         V.remove( min_vertex )
     
-    return tree
+    return graph_weight( tree )

@@ -102,7 +102,10 @@ def construct_graph( connected = False, weight = 0 ) -> dict:
 # generate test data
 ntests = 20
 cases = [ ( ['A','B','C','D','E'], 
-            [('A','B',3), ('B','C',4),('C','D',2),('B','D',7),('B','E',8)] ), ]
+            [('A','B',3), ('B','C',4),('C','D',2),('B','D',7),('B','E',8)] ),
+          ( ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+            [('A','D',5), ('A', 'B', 7), ('B','D',9), ('B','C',8), ('C','E',5), ('B','E',7), 
+             ('D','E',15), ('D','F',6), ('F', 'E', 8), ('E', 'G',9), ('F','G',11)] ) ]
 
 while len( cases ) < ntests:
     G = construct_graph(connected = True, weight = 20)
@@ -118,8 +121,8 @@ output = 'return'
 for test in cases:
     # generate test expression
     expression_name = 'MST_prim( {} , {} )'.format( test[0] , test[1] )
-    result = ruamel.yaml.comments.CommentedSeq( module.MST_prim( test[0], test[1] ) )
-    result.fa.set_flow_style() # to prohibit output from being YAML transformed
+    result = module.MST_prim( test[0], test[1] )
+    #result.fa.set_flow_style() # to prohibit output from being YAML transformed
     
     # setup for return expressions
     testcase = { input: expression_name, output: result }
