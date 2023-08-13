@@ -1,20 +1,24 @@
 {
   "type": "exercise",
-  "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
       "nl": "Prim (oefening)"
     }
   },
-  "labels": [
-
-  ],
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml",
+    "options": {
+      "mode": "batch",
+      "allow_fallback": true
+    }
+  },
   "access": "public",
   "internals": {
     "token": "G7S5HpxsXbAgPNp5tt4hzahJ3ivftuBr2nRhvscbfikISzkZfvtTFRCqC_BCqPRC",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  },
+  "labels": [
+
+  ]
 }
