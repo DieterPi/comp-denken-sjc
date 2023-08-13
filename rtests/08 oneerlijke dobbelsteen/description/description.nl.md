@@ -9,5 +9,5 @@ Simuleer 1000 worpen van een **oneerlijke** dobbelsteen waarbij de kans om een z
 
 Sla de 1000 worpen op in een variabele `worp`. **Bereken** nadien het gemiddelde van deze simulatie en **verifieer** dat deze dobbelsteen gemiddeld gesproken inderdaad hogere waarden werpt.
 
-![Een worp van dobbelstenen.](media/max-felner.jpg "Foto door Max Felner op Unsplash"){:data-caption="Een worp van dobbelstenen." width="45%"}
+![Een worp van dobbelstenen.](media/riho-kroll.jpg "Foto door Riho Kroll op Unsplash"){:data-caption="Een worp van dobbelstenen." width="45%"}
 
