@@ -1,6 +1,6 @@
 Een <a href="https://nl.wikipedia.org/wiki/Minimaal_opspannende_boom" target="_blank">minimaal opspannende boom</a> (minimal spanning tree **MST**), is een graaf waarbij alle knopen met elkaar verbonden zijn, met een **minimaal gewicht**.
 
-![Een minimaal opspannende boom](media/MST.png "Een minimaal opspannende boom"){:data-caption="Een minimaal opspannende boom binnen een graaf." width="30%"}
+![Een minimaal opspannende boom](media/MST.png "Een minimaal opspannende boom"){:data-caption="Een minimaal opspannende boom binnen een graaf." width="40%"}
 
 Hier zie je een voorbeeld van een **minimaal opspannende boom** binnen een graaf. Het is mogelijk om van elke knoop naar elke andere knoop te wandelen en hierbij is de totale som van de bogen minimaal.
 
@@ -10,9 +10,12 @@ Het algoritme werkt door de minimaal opspannende boom (*MST*) **stapsgewijs op t
 
 - Kies een willekeurige startknoop $$v_1$$.
 - Analyseer alle bogen die verbonden zijn met $$v_1$$ en voeg de boog met minimaal gewicht toe aan de *MST*.
-- De minimaal opspannende boom bestaat nu uit één enkele boog. Beschouw nu alle bogen die verbonden zijn met de eindpunten van deze boog.
-- Voeg opnieuw de boog met minimaal gewicht toe aan de *MST*.
+- De minimaal opspannende boom bestaat nu uit één enkele boog.
+    - Beschouw nu alle toppen die verbonden kunnen worden met de huidige *MST* en de bijbehorende bogen.
+    - Voeg opnieuw de boog met minimaal gewicht toe aan de *MST*.
 - Herhaal dit proces tot het aantal bogen in de *MST* gelijk is aan $$n-1$$, met $$n$$ het aantal toppen.
+
+![Het algoritme van Prim in werking](media/prim.gif "Het algoritme van Prim in werking"){:data-caption="Het algoritme van Prim in werking." width="30%"}
 
 ## Opgave
 
