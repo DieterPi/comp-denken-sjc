@@ -7,7 +7,7 @@ import ruamel.yaml
 yaml = ruamel.yaml.YAML()
 
 # set fixed seed for generating test cases
-random.seed(123456789)
+random.seed(12345678)
 
 # locate evaldir
 evaldir = os.path.join('..', 'evaluation')
@@ -57,26 +57,28 @@ def construct_graph( connected = False, weight = 0 ) -> dict:
                 all_E.append( (v1, v2) )
     
     discount = 0
-    if connected: # if all vertices must be present in the graph
-        i = 0
-        while i < n_vertices - 1:
-            v1 = V[i]
-            v2 = random.choice( V )
-            edge_c = (v1, v2)
-            edge_c_inv = (v2, v1)
-            if v1 != v2 and edge_c not in E_simple and edge_c_inv not in E_simple:
-                E_simple.append( edge_c)
-                i += 1
-                if weight != 0:
-                    E.append( (v1, v2, random.randint(2, weight)) )
-                else:
-                    E.append( (v1, v2) )
+    if connected: # if all vertices must be present and connected in the graph
+        V_copy = V.copy()
+        v1 = random.choice( V_copy )
+        V_copy.remove(v1)
+        v2 = random.choice( V_copy )
+        V_copy.remove(v2)
+        E_simple.append( (v1, v2) )
+        if weight != 0:
+            E.append( (v1, v2, random.randint(2, weight)) )
+        else:
+            E.append( (v1, v2) )
+        
+        for i in range( n_vertices - 2):
+            v1 = random.choice( E_simple )[random.randint(0,1)]
+            v2 = random.choice( V_copy )
+            V_copy.remove(v2)
+            E_simple.append( (v1, v2) )
+            if weight != 0:
+                E.append( (v1, v2, random.randint(2, weight)) )
             else:
-                try:
-                    all_E.remove( (v1, v2) )
-                    all_E.remove( (v2, v1) )
-                except ValueError:
-                    pass
+                E.append( (v1, v2) )
+
         discount = n_vertices - 1
     
     i = discount
