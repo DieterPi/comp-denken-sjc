@@ -26,7 +26,7 @@ V = ['A', 'B', 'C', 'D', 'E']
 E = [('A', 'B', 3), ('B','C', 4), ('C', 'A', 2), ('C', 'D', 2), ('D', 'B', 7), ('B', 'E', 8)]
 ```
 
-Volgens afspraak is deze graaf dan gericht, de volgende van de knopen in de tupels is dus van belang.
+Volgens afspraak is deze graaf dan gericht, de volgorde van de knopen in de tupels is dus van belang.
 
 ## Opgave
 
