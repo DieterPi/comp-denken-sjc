@@ -1,6 +1,6 @@
 def graad( knoop: str, E: list ) -> int:
     count = 0
     for edge in E:
-        count += edge[0] == knoop or edge[1] == knoop
+        count += knoop in (edge[0], edge[1])
     
     return count

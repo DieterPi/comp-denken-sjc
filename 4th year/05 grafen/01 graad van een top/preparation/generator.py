@@ -119,7 +119,7 @@ input = 'expression'
 output = 'return'
 for test in cases:
     # generate test expression
-    expression_name = 'graad( {} , {} )'.format( str(test[0]), test[1] )
+    expression_name = 'graad( \'{}\' , {} )'.format( str(test[0]), test[1] )
     result = module.graad( test[0], test[1] )
     
     # setup for return expressions
