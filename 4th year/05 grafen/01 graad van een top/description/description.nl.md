@@ -42,17 +42,16 @@ Schrijf een functie `graad( knoop, E )` die de graad bepaalt van een *ongerichte
 
 #### Voorbeelden
 ```
->>> graad( 'B', [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'),('B', 'D'),('B', 'E')] )
+>>> graad( 'B', [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B', 'D'), ('B', 'E')] )
 4
 ```
 
 ```
->>> graad( 'E', [('A', 'B'),  ('C', 'A'), ('B', 'C'),('C', 'D'),('B', 'D'),('B', 'E')] )
+>>> graad( 'E', [('A', 'B'),  ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B', 'D'), ('B', 'E')] )
 1
 ```
 
 ```
->>> graad( 'C', 
-            [('A', 'E'), ('C', 'D'), ('C', 'A'), ('D', 'E'), ('A', 'D'), ('C', 'E'), ('E', 'B')] )
+>>> graad( 'C', [('A', 'E'), ('C', 'D'), ('C', 'A'), ('D', 'E'), ('A', 'D'), ('C', 'E'), ('E', 'B')] )
 3
 ```
