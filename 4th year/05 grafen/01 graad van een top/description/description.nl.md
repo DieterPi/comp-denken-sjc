@@ -4,7 +4,7 @@ Deze structuren zijn heel belangrijk binnen de wiskunde en de informaticawetensc
 
 Hieronder zie je een voorbeeld van een graaf.
 
-![Een ongerichte graaf](media/ongerichte_graaf.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." width="459px"}
+![Een ongerichte graaf](media/ongerichte_graaf.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." width="30%"}
 
 Deze graaf heeft 5 knopen en 6 bogen. Deze kan je binnen Python bijvoorbeeld voorstellen via twee lijsten, een lijst met de knopen en een lijst die opgebouwd is uit tupels met de bogen.
 
@@ -15,7 +15,7 @@ E = [('A', 'B'), ('C', 'A'), ('B','C'), ('C', 'D'), ('D', 'B'), ('B', 'E')]
 
 Het vorige voorbeeld stelde een **ongerichte** graaf voor. De boog tussen $$A$$ en $$B$$ is dezelfde als de boog tussen $$B$$ en $$A$$. Er bestaan ook **gerichte** grafen. Hierbij krijgt elke boog een richting.
 
-![Een gerichte graaf](media/gerichte_graaf.png "Een gerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." width="459px"}
+![Een gerichte graaf](media/gerichte_graaf.png "Een gerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." width="30%"}
 
 Het bovenstaande voorbeeld stelt zelfs een **gewogen** graaf voor. Elke verbinding krijgt een bepaald gewicht. Denk aan een kost tussen twee punten, bijvoorbeeld de tijd om van punt $$A$$ naar punt $$B$$ te gaan is 3 min.
 
