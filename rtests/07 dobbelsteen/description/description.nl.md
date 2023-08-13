@@ -19,4 +19,4 @@ In het spel Dungeons & Dragons word met een D20 dobbelsteen gespeeld. Dit is een
 
 ![Enkele dobbelstenen uit Dungeons & Dragons](media/lucas-santos.jpg "Foto door Lucas Santos op Unsplash"){:data-caption="Enkele dobbelstenen uit Dungeons & Dragons" width="45%"}
 
-Laat nu R duizend worden van een *eerlijke* D20 dobbelsteen simuleren. Sla het resultaat op in een variabele genaamd `d20`. Laat R nadien het gemiddelde van deze variabele berekenen.
+Laat nu R duizend worpen van een *eerlijke* D20 dobbelsteen simuleren. Sla het resultaat op in een variabele genaamd `d20`. Laat R nadien het gemiddelde van deze variabele berekenen.
