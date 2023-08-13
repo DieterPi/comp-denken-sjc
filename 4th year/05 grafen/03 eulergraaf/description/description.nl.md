@@ -2,9 +2,9 @@ In de achttiende eeuw had de Russische stad Koningsbergen (vanaf 1946 omgedoopt 
 
 Het was wiskundig genie <a href="https://nl.wikipedia.org/wiki/Leonhard_Euler" target="_blank">Leonard Euler</a> die in 1736 dit probleem oploste.
 
-![Euler](media/Euler_portret.jpg "Euler, een knappe kerel!"){:data-caption="Je nieuwe held, Leonhard Euler" width="20%"}
+![Euler](media/Euler_portret.jpg "Euler, een knappe kerel!"){:data-caption="Je nieuwe held, Leonhard Euler" width="30%"}
 
-Hij bewees namelijk dat dit pas mogelijk was indien de graad van alle knopen in de bijbehorende graaf even was. Het pad of de wandeling die hierbij hoort noemt men dan ook een **Eulerpad**. Een graaf waar zo'n Eulerpad bestaat noemt men een Eulergraaf.
+Hij bewees namelijk dat dit pas mogelijk was indien de graad van alle knopen in de bijbehorende graaf even was. Het pad of de wandeling die hierbij hoort noemt men dan ook een **Eulerpad**. Een graaf waar zo'n Eulerpad bestaat noemt men een **Eulergraaf**.
 
 {: .callout.callout-primary}
 > #### Eulerpad
