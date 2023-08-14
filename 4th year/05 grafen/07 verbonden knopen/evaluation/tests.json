@@ -11,7 +11,7 @@
                 "name": "verbonden_bogen",
                 "arguments": [
                   {
-                    "type": "char",
+                    "type": "text",
                     "data": "C"
                   },
                   {
@@ -48,7 +48,7 @@
               "output": {
                 "result": {
                   "value": {
-                    "type": "int",
+                    "type": "integer",
                     "data": 3
                   }
                 }
