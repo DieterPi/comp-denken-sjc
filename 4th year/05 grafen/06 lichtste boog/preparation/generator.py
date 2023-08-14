@@ -1,5 +1,5 @@
 import os
-import sys
+import contextlib, io
 import importlib
 import random
 import ruamel.yaml
@@ -119,11 +119,16 @@ yamldata.append( {'tab': 'Feedback', 'testcases': []})
 # input, expression, statement or stdin?
 input = 'expression'
 # output, stdout or return?
-output = 'return'
+output = 'stdout'
 for test in cases:
     # generate test expression
     expression_name = 'lichtste_boog( {} )'.format( test)
-    result = str( module.lichtste_boog( test ) )
+    
+    f = io.StringIO()
+    with contextlib.redirect_stdout( f ):
+         module.lichtste_boog( test )
+    
+    result = f.getvalue().strip() 
     
     # setup for return expressions
     testcase = { input: expression_name, output: result }

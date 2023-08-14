@@ -8,4 +8,4 @@ def lichtste_boog( E: list ) -> tuple:
         if e[2] < min_e[2]:
             min_e = e
     
-    return min_e
+    print( 'De boog die', min_e[0], 'en', min_e[1], 'verbindt met gewicht', min_e[2], 'heeft het kleinste gewicht.')
