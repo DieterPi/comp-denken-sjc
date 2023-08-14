@@ -13,35 +13,6 @@
                   {
                     "type": "text",
                     "data": "C"
-                  },
-                  {
-                    "type": "sequence",
-                    "data": [
-                      {
-                        "type": "custom",
-                        "data": "('A', 'B', 3)"
-                      },
-                      {
-                        "type": "custom",
-                        "data": "('B', 'C', 2)"
-                      },
-                      {
-                        "type": "custom",
-                        "data": "('C', 'A', 5)"
-                      },
-                      {
-                        "type": "custom",
-                        "data": "('C', 'D', 2)"
-                      },
-                      {
-                        "type": "custom",
-                        "data": "('D', 'B', 8)"
-                      },
-                      {
-                        "type": "custom",
-                        "data": "('B', 'E', 3)"
-                      }
-                    ]
                   }
                 ]
               },
