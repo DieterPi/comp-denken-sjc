@@ -2,34 +2,32 @@ import os
 import contextlib, io
 import importlib
 import random
-import ruamel.yaml
-
-yaml = ruamel.yaml.YAML()
+import json
 
 # set fixed seed for generating test cases
 random.seed(123456789)
 
 # locate evaldir
-evaldir = os.path.join('..', 'evaluation')
+evaldir = os.path.join("..", "evaluation")
 if not os.path.exists(evaldir):
     os.makedirs(evaldir)
 
 # locate solutiondir
-solutiondir = os.path.join('..', 'solution')
+solutiondir = os.path.join("..", "solution")
 if not os.path.exists(solutiondir):
     os.makedirs(solutiondir)
 
 # load functionality defined in sample solution
-module_name = 'solution'
-file_path = os.path.join(solutiondir, 'solution.nl.py')
+module_name = "solution"
+file_path = os.path.join(solutiondir, "solution.nl.py")
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-def write_yaml( data:list ):
-    """ A function to write YAML file"""
-    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
-        yaml.dump(data, f)
+def write_json( data:dict ):
+    """ A function to write JSON file"""
+    with open(os.path.join("..", "evaluation", "tests.json"), "w", encoding="utf-8") as f:
+        json.dump(data, f, indent = 2)
 
 def construct_graph( connected = False, weight = 0, n_vertices = 0, n_edges = 0 ) -> dict:
     """ A function to construct a (possibly disconnected) random graph
@@ -39,7 +37,7 @@ def construct_graph( connected = False, weight = 0, n_vertices = 0, n_edges = 0 
     :param weight: int indicating if the graph should be weighted, if weighted then this
                    number is used as a max for the weight.
     """
-    alf = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    alf = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     if n_vertices == 0:
         n_vertices = random.randint(3, 10) # can be set to 26 for huge graphs
     V = []
@@ -103,30 +101,64 @@ def construct_graph( connected = False, weight = 0, n_vertices = 0, n_edges = 0 
             except ValueError:
                 pass
             
-    return {'V': V, 'E': E}
+    return {"V": V, "E": E}
 
 # generate test data
 ntests = 20
-cases = [ ('C', [('A', 'B', 3), ('B', 'C', 2), ('C', 'A', 5), ('C', 'D', 2), ('D', 'B', 8), ('B', 'E', 3)] ) ]
+cases = [ ("C", [("A", "B", 3), ("B", "C", 2), ("C", "A", 5), ("C", "D", 2), ("D", "B", 8), ("B", "E", 3)] ) ]
 
 while len( cases ) < ntests:
     graph = construct_graph(connected = True, weight = random.randint(0,1)*random.randint(3,40) )
     cases.append( (random.choice(graph["V"]), graph["E"]) )
     
 # generate unit tests for functions
-yamldata = []
-yamldata.append( {'tab': 'Feedback', 'testcases': []})
-# input, expression, statement or stdin?
-input = 'expression'
-# output, stdout or return?
-output = 'stdout'
-for test in cases:
-    # generate test expression
-    expression_name = 'verbonden_bogen( {}, {} )'.format( test[0], test[1] )
-    result = str(module.verbonden_bogen( test[0], test[1] ))
-    
-    # setup for return expressions
-    testcase = { input: expression_name, output: result }
-    yamldata[0]['testcases'].append( testcase)
+exportdata = {"tabs": [] }
+exportdata["tabs"].append( {"name": "Feedback",
+                            "contexts": [] } )
+exportdata["tabs"][0]["contexts"].append({})
+exportdata["tabs"][0]["contexts"][0]["testcases"] = []
 
-write_yaml(yamldata)
+for test in cases:
+    # generate test expression        
+    testcase = {"input": {"type": "function",
+                          "name": "verbonden_bogen",
+                          "arguments": [
+                              {"type": "char",
+                               "data": test[0]},
+                              {"type": "list",
+                               "data": [] }]},
+                "output": {} }
+    
+    for input in test[1]:
+        tuple_data = []
+        for i in range( len(input) ):
+            if i != 2:
+                tuple_data.append( {"type": "char",
+                                    "data": input[i] })
+            else:
+                tuple_data.append( {"type": "integer",
+                                    "data": input[i] })
+        testcase["input"]["arguments"][1]["data"].append({"type": "tuple",
+                                                          "data": tuple_data })
+    
+    result = module.verbonden_bogen( test[0], test[1] )
+
+    # setup for return expressions
+    testcase["output"]["result"] = {"value": {"type": "list", "data": [] }}
+    
+    for output in result:
+        tuple_data = []
+        for i in range( len(output) ):
+            if i != 2:
+                tuple_data.append( {"type": "char",
+                                    "data": output[i] })
+            else:
+                tuple_data.append( {"type": "integer",
+                                    "data": output[i] })
+                
+        testcase["output"]["result"]["value"]["data"].append({"type": "tuple",
+                                                              "data": tuple_data})
+    
+    exportdata["tabs"][0]["contexts"][0]["testcases"].append( testcase )
+
+write_json( exportdata )
