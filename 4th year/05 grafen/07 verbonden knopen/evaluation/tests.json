@@ -11,35 +11,113 @@
                 "name": "verbonden_bogen",
                 "arguments": [
                   {
-                    "type": "text",
+                    "type": "char",
                     "data": "C"
                   },
                   {
-                    "type": "list",
+                    "type": "sequence",
                     "data": [
                       {
-                        "type": "text",
-                        "data": "('A', 'B', 3)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "A"
+                          },
+                          {
+                            "type": "char",
+                            "data": "B"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 3
+                          }
+                        ]
                       },
                       {
-                        "type": "text",
-                        "data": "('B', 'C', 2)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "B"
+                          },
+                          {
+                            "type": "char",
+                            "data": "C"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 2
+                          }
+                        ]
                       },
                       {
-                        "type": "text",
-                        "data": "('C', 'A', 5)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "C"
+                          },
+                          {
+                            "type": "char",
+                            "data": "A"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 5
+                          }
+                        ]
                       },
                       {
-                        "type": "text",
-                        "data": "('C', 'D', 2)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "C"
+                          },
+                          {
+                            "type": "char",
+                            "data": "D"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 2
+                          }
+                        ]
                       },
                       {
-                        "type": "text",
-                        "data": "('D', 'B', 8)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "D"
+                          },
+                          {
+                            "type": "char",
+                            "data": "B"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 8
+                          }
+                        ]
                       },
                       {
-                        "type": "text",
-                        "data": "('B', 'E', 3)"
+                        "type": "tuple",
+                        "data": [
+                          {
+                            "type": "char",
+                            "data": "B"
+                          },
+                          {
+                            "type": "char",
+                            "data": "E"
+                          },
+                          {
+                            "type": "integer",
+                            "data": 3
+                          }
+                        ]
                       }
                     ]
                   }
