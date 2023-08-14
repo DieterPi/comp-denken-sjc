@@ -7,7 +7,7 @@ def graph_weight( E: list ) -> int:
         weight += e[2]
     return weight
 
-def is_connected( vertex: str, edge: list ) -> bool:
+def is_connected( vertex: str, edge: tuple ) -> bool:
     flag = vertex in ( edge[0], edge[1] )
     return flag
 
