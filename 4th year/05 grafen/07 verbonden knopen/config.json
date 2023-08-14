@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Verbonden knopen (oefening)"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml",
+    "options": {
+      "mode": "batch",
+      "allow_fallback": true
+    }
+  },
+  "access": "public",
+  "labels": [
+
+  ]
+}
