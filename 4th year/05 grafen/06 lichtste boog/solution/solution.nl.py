@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-def lichtste_boog( E: list ) -> tuple:
+def lichtste_boog( E: list ) -> None:
     min_e = E[0]
     
     for e in E:
