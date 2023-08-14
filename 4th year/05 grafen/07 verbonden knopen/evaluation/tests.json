@@ -11,20 +11,45 @@
                 "name": "verbonden_bogen",
                 "arguments": [
                   {
-                    "type": "text",
+                    "type": "char",
                     "data": "C"
                   },
                   {
-                    "type": "custom",
-                    "data": "[('A', 'B', 3), ('B', 'C', 2), ('C', 'A', 5), ('C', 'D', 2), ('D', 'B', 8), ('B', 'E', 3)]"
+                    "type": "sequence",
+                    "data": [
+                      {
+                        "type": "tuple",
+                        "data": "('A', 'B', 3)"
+                      },
+                      {
+                        "type": "tuple",
+                        "data": "('B', 'C', 2)"
+                      },
+                      {
+                        "type": "tuple",
+                        "data": "('C', 'A', 5)"
+                      },
+                      {
+                        "type": "tuple",
+                        "data": "('C', 'D', 2)"
+                      },
+                      {
+                        "type": "tuple",
+                        "data": "('D', 'B', 8)"
+                      },
+                      {
+                        "type": "tuple",
+                        "data": "('B', 'E', 3)"
+                      }
+                    ]
                   }
                 ]
               },
               "output": {
                 "result": {
                   "value": {
-                    "type": "custom",
-                    "data": "[('B', 'C', 2), ('C', 'A', 5), ('C', 'D', 2)]"
+                    "type": "int",
+                    "data": 3
                   }
                 }
               }
