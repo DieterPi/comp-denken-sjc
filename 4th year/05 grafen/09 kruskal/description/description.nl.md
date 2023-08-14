@@ -1,3 +1,5 @@
+## DO NOT USE ##
+
 Een ander algoritme om een minimaal opspannende boom (*MST*) te bepalen, is <a href="https://nl.wikipedia.org/wiki/Kruskals_algoritme">het algoritme van **Kruskal**</a>. Gevonden in 1956 door de Amerikaan wiskundige Joseph Kruskal. 
 
 Het algoritme werkt door de minimaal opspannende boom (*MST*) **stapsgewijs op te bouwen**.
