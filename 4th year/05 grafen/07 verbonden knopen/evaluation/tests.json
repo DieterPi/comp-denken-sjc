@@ -15,7 +15,7 @@
                     "data": "C"
                   },
                   {
-                    "type": "sequence",
+                    "type": "list",
                     "data": [
                       {
                         "type": "text",
