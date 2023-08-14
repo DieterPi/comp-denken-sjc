@@ -11,7 +11,7 @@ def is_connected( vertex: str, edge: tuple ) -> bool:
     flag = vertex in ( edge[0], edge[1] )
     return flag
 
-def other_vertex( edge: list, vertex: str ) -> str:
+def other_vertex( edge: list, vertex: str ) -> list:
     if edge[0] == vertex:
         other_vertex = edge[1]
     else:
@@ -48,4 +48,4 @@ def MST_prim( V: list, E: list ) -> int:
         E.remove( min_edge )
         V.remove( min_vertex )
     
-    return graph_weight( tree )
+    return tree
