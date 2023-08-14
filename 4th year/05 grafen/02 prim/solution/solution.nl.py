@@ -10,7 +10,7 @@ def other_vertex( edge: list, vertex: str ) -> list:
         other_vertex = edge[0]
     return other_vertex
 
-def MST_prim( V: list, E: list ) -> int:
+def MST_prim( V: list, E: list ) -> list:
     tree = []
     
     v1 = V[0] # starting vertex, can be chosen at random
