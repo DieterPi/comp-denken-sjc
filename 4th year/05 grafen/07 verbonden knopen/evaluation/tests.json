@@ -18,27 +18,27 @@
                     "type": "sequence",
                     "data": [
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('A', 'B', 3)"
                       },
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('B', 'C', 2)"
                       },
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('C', 'A', 5)"
                       },
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('C', 'D', 2)"
                       },
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('D', 'B', 8)"
                       },
                       {
-                        "type": "tuple",
+                        "type": "custom",
                         "data": "('B', 'E', 3)"
                       }
                     ]
