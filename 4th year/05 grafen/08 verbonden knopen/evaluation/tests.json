@@ -8,7 +8,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -129,55 +129,16 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 2
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 5
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 2
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       }
                     ]
                   }
@@ -187,7 +148,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -512,72 +473,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 36
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 36
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 8
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 36
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       }
                     ]
                   }
@@ -587,7 +496,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -723,56 +632,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
@@ -782,7 +655,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -852,38 +725,12 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 6
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 5
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       }
                     ]
                   }
@@ -893,7 +740,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -1367,108 +1214,36 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "G"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "I"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "I"
                       }
                     ]
                   }
@@ -1478,7 +1253,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -1627,56 +1402,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
@@ -1686,7 +1425,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -1943,72 +1682,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 4
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 11
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 12
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 3
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       }
                     ]
                   }
@@ -2018,7 +1705,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -2102,30 +1789,12 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       }
                     ]
                   }
@@ -2135,7 +1804,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -2284,56 +1953,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
@@ -2343,7 +1976,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -2668,72 +2301,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 6
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 10
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 14
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 8
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
@@ -2743,7 +2324,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -2949,55 +2530,16 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 3
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 6
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 5
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       }
                     ]
                   }
@@ -3007,7 +2549,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -3156,56 +2698,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "F"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       }
                     ]
                   }
@@ -3215,7 +2721,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -3338,56 +2844,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
@@ -3397,7 +2867,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -3923,108 +3393,36 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "J"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "F"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "char",
-                            "data": "G"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "I"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "I"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "J"
                       }
                     ]
                   }
@@ -4034,7 +3432,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -4631,157 +4029,40 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "I"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 28
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 17
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "J"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 11
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 13
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 13
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 5
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 20
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 20
-                          }
-                        ]
+                        "type": "char",
+                        "data": "I"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 2
-                          }
-                        ]
+                        "type": "char",
+                        "data": "J"
                       }
                     ]
                   }
@@ -4791,7 +4072,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -4878,38 +4159,12 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 9
-                          }
-                        ]
+                        "type": "char",
+                        "data": "B"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 7
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       }
                     ]
                   }
@@ -4919,7 +4174,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -5193,106 +4448,28 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 29
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 29
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 5
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "F"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 2
-                          }
-                        ]
+                        "type": "char",
+                        "data": "F"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 10
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 17
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       }
                     ]
                   }
@@ -5302,7 +4479,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -5360,30 +4537,12 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "C"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       }
                     ]
                   }
@@ -5393,7 +4552,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -5990,106 +5149,28 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "H"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 12
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "J"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 8
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 2
-                          }
-                        ]
+                        "type": "char",
+                        "data": "G"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "G"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 16
-                          }
-                        ]
+                        "type": "char",
+                        "data": "H"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 7
-                          }
-                        ]
+                        "type": "char",
+                        "data": "I"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "I"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "integer",
-                            "data": 10
-                          }
-                        ]
+                        "type": "char",
+                        "data": "J"
                       }
                     ]
                   }
@@ -6099,7 +5180,7 @@
             {
               "input": {
                 "type": "function",
-                "name": "verbonden_bogen",
+                "name": "verbonden_knopen",
                 "arguments": [
                   {
                     "type": "char",
@@ -6248,56 +5329,20 @@
                     "type": "list",
                     "data": [
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "A"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "A"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "C"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "C"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "B"
-                          },
-                          {
-                            "type": "char",
-                            "data": "E"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "D"
                       },
                       {
-                        "type": "tuple",
-                        "data": [
-                          {
-                            "type": "char",
-                            "data": "D"
-                          },
-                          {
-                            "type": "char",
-                            "data": "B"
-                          }
-                        ]
+                        "type": "char",
+                        "data": "E"
                       }
                     ]
                   }
