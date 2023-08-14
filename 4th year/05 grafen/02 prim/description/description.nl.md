@@ -19,20 +19,19 @@ Het algoritme werkt door de minimaal opspannende boom (*MST*) **stapsgewijs op t
 
 ## Opgave
 
-Schrijf een functie `MST_prim( V, E )` waarbij `V` een lijst met toppen voorstelt en `E` een lijst opgesteld uit tupels van bogen met hun gewicht. Je functie retourneert het **gewicht** van de bijbehorende MST.
-
-Kies als startwaarde steeds de eerste knoop die voorkomt in `V`. Met andere woorden, stel `v1 = V[0]`.
+Schrijf een functie `MST_prim( V, E )` waarbij `V` een lijst met toppen voorstelt en `E` een lijst opgesteld uit tupels van bogen met hun gewicht. 
+Kies als **startwaarde** steeds **de eerste knoop** die voorkomt in `V`. Met andere woorden, stel `v1 = V[0]`.
 
 #### Voorbeelden
 ```
 >>> MST_prim( ['A', 'B', 'C', 'D', 'E'], 
               [('A', 'B', 3), ('B', 'C', 4),('C', 'D', 2),('B', 'D', 7),('B', 'E', 8)] )
-17
+[('A', 'B', 3), ('B', 'C', 4), ('C', 'D', 2), ('B', 'E', 8)]
 ```
 
 ```
 >>> MST_prim( ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
               [('A','D',5), ('A', 'B', 7), ('B','D',9), ('B','C',8), ('C','E',5), ('B','E',7), 
                ('D','E',15), ('D','F',6), ('F', 'E', 8), ('E', 'G',9), ('F','G',11)] ) 
-39
+[('A', 'D', 5), ('D', 'F', 6), ('A', 'B', 7), ('B', 'E', 7), ('C', 'E', 5), ('E', 'G', 9)]
 ```

@@ -1,15 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
-def graph_weight( E: list ) -> int:
-    weight = 0
-    for e in E:
-        weight += e[2]
-    return weight
-
 def is_connected( vertex: str, edge: tuple ) -> bool:
-    flag = vertex in ( edge[0], edge[1] )
-    return flag
+    return vertex in edge
 
 def other_vertex( edge: list, vertex: str ) -> list:
     if edge[0] == vertex:
