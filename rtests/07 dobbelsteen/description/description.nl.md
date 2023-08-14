@@ -15,7 +15,7 @@ sample(1:6, size = 100, replace = TRUE)
 Het argument `replace = TRUE` betekent dat we als het ware de dobbelsteen telkens opnieuw terugleggen.
 
 ## Opgave
-In het spel Dungeons & Dragons word met een D20 dobbelsteen gespeeld. Dit is een icosaëder oftewel een regelmatig twintigvlak.
+In het spel Dungeons & Dragons wordt met een D20 dobbelsteen gespeeld. Dit is een icosaëder oftewel een regelmatig twintigvlak.
 
 ![Enkele dobbelstenen uit Dungeons & Dragons](media/lucas-santos.jpg "Foto door Lucas Santos op Unsplash"){:data-caption="Enkele dobbelstenen uit Dungeons & Dragons" width="45%"}
 
