@@ -16,9 +16,6 @@ Hier zie je een Eulerpad gedemonstreerd op een Eulergraaf.
 
 ![Een Euler cykel op een graaf](media/euler_graaf_dark.png "Een Euler cykel op een graaf"){:data-caption="Een Euler cykel op een Eulergraaf." .dark-only width="30%"}
 
-<img src="media/euler_graaf_dark.png" class="dark-only" width="30%"/>
-
-
 Later werd bewezen dat de vondst van Euler ook voldoende is om te besluiten dat een graaf Eulers is.
 
 {: .callout.callout-primary}
