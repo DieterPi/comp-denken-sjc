@@ -18,7 +18,7 @@ E = [('A', 'B'), ('C', 'A'), ('B','C'), ('C', 'D'), ('D', 'B'), ('B', 'E')]
 
 Het vorige voorbeeld stelde een **ongerichte** graaf voor. De boog tussen $$A$$ en $$B$$ is dezelfde als de boog tussen $$B$$ en $$A$$. Er bestaan ook **gerichte** grafen. Hierbij krijgt elke boog een richting.
 
-![Een gerichte graaf](media/gerichte_graaf.png "Een gerichte graaf"){:data-caption="Afbeelding van een gerichte graaf." .lgiht-only width="30%"}
+![Een gerichte graaf](media/gerichte_graaf.png "Een gerichte graaf"){:data-caption="Afbeelding van een gerichte graaf." .light-only width="30%"}
 
 ![Een gerichte graaf](media/gerichte_graaf_dark.png "Een gerichte graaf"){:data-caption="Afbeelding van een gerichte graaf." .dark-only width="30%"}
 
