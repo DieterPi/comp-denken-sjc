@@ -1,4 +1,6 @@
-![Een gewogen graaf](media/gewogen_graaf.png "Een gewogen graaf"){:data-caption="Afbeelding van een gewogen graaf." width="30%"}
+![Een gewogen graaf](media/gewogen_graaf.png "Een gewogen graaf"){:data-caption="Afbeelding van een gewogen graaf." .light-only width="30%"}
+
+![Een gewogen graaf](media/gewogen_graaf_dark.png "Een gewogen graaf"){:data-caption="Afbeelding van een gewogen graaf." .dark-only width="30%"}
 
 Het bovenstaande voorbeeld stelt een **gewogen** graaf voor. Elke verbinding krijgt een bepaald gewicht. Denk aan een kost tussen twee punten, bijvoorbeeld de tijd om van punt $$A$$ naar punt $$B$$ te gaan is 3 min.
 
