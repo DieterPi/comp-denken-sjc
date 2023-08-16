@@ -5,9 +5,10 @@
 \usetikzlibrary{calc}
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 
+\tikzset{main/.style={draw=black, circle, color=black}}
 
 \begin{document}
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [above right of=A] {B};
 		\node[main] (C) [below right of=A] {C}; 
@@ -16,10 +17,10 @@
 		
 		\begin{scope}[font=\tiny]
 			\draw[PineGreen] (C) -- node[midway, above, sloped] {5} (A);
-			\draw (A) -- node[midway, above, sloped] {3} (B);
+			\draw[main] (A) -- node[midway, above, sloped] {3} (B);
 			\draw[PineGreen] (B) -- node[midway, right, xshift=-2pt] {2} (C);
-			\draw (D) -- node[midway, above, sloped] {8} (B);
-			\draw (B) -- node[midway, above, sloped] {3} (E);
+			\draw[main] (D) -- node[midway, above, sloped] {8} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {3} (E);
 			\draw[PineGreen] (C) -- node[midway, above, sloped] {2} (D);
 		\end{scope}
 		
