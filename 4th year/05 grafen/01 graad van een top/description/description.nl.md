@@ -4,8 +4,8 @@ Deze structuren zijn heel belangrijk binnen de wiskunde en de informaticawetensc
 
 Hieronder zie je een voorbeeld van een graaf.
 
-![Een ongerichte graaf](media/ongerichte_graaf.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." light-only width="30%"}
-![Een ongerichte graaf](media/ongerichte_graaf_dark.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." dark-only width="30%"}
+![Een ongerichte graaf](media/ongerichte_graaf.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." :light-only width="30%"}
+![Een ongerichte graaf](media/ongerichte_graaf_dark.png "Een ongerichte graaf"){:data-caption="Afbeelding van een ongerichte graaf." :dark-only width="30%"}
 
 
 Deze graaf heeft 5 knopen en 6 bogen. Deze kan je binnen Python bijvoorbeeld voorstellen via twee lijsten, een lijst met de knopen en een lijst die opgebouwd is uit tupels met de bogen.
