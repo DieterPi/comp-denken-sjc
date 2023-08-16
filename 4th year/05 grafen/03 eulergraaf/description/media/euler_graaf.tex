@@ -6,8 +6,10 @@
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 \usetikzlibrary{positioning}
 
+\tikzset{main/.style={draw=black, circle, color=black}}
+
 \begin{document}
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -16,12 +18,12 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -30,12 +32,12 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -44,14 +46,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -60,14 +62,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -76,14 +78,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -92,14 +94,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F) -- (B);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -108,14 +110,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F) -- (B) -- (E);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -124,14 +126,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F) -- (B) -- (E) -- (D);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -140,14 +142,14 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F) -- (B) -- (E) -- (D) -- (A);
 		\end{scope}
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={15mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right=2.5cm of A] {B};
 		\node[main] (C) [below=1.5cm of B] {C}; 
@@ -156,8 +158,8 @@
 		\node[main] (F) [above left=0.25cm and 0.5cm of C] {F}; 
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- (B) -- (C) -- (D) -- (A);
-			\draw (D) -- (E) -- (B) -- (F) -- (D);
+			\draw[main] (A) -- (B) -- (C) -- (D) -- (A);
+			\draw[main] (D) -- (E) -- (B) -- (F) -- (D);
 			
 			\draw[BurntOrange, very thick, dashed] (B) -- (C) -- (D) -- (F) -- (B) -- (E) -- (D) -- (A) -- (B);
 		\end{scope}

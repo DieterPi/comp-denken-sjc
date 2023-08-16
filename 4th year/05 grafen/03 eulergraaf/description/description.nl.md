@@ -12,7 +12,10 @@ Hij bewees namelijk dat dit pas mogelijk was indien de graad van alle knopen in 
 
 Hier zie je een Eulerpad gedemonstreerd op een Eulergraaf.
 
-![Een Euler cykel op een graaf](media/euler_graaf.gif "Een Euler cykel op een graaf"){:data-caption="Een Euler cykel op een Eulergraaf." width="30%"}
+![Een Euler cykel op een graaf](media/euler_graaf.png "Een Euler cykel op een graaf"){:data-caption="Een Euler cykel op een Eulergraaf." .light-only width="30%"}
+
+![Een Euler cykel op een graaf](media/euler_graaf_dark.png "Een Euler cykel op een graaf"){:data-caption="Een Euler cykel op een Eulergraaf." .dark-only width="30%"}
+
 
 Later werd bewezen dat de vondst van Euler ook voldoende is om te besluiten dat een graaf Eulers is.
 
