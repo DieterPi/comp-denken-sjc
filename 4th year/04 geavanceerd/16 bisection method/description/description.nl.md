@@ -8,7 +8,9 @@ Om bijvoorbeeld een nulwaarde van de functie $$f(x)$$ te bepalen op het interval
 
 Vaak zal de methode niet exact eindigen, maar is men tevreden indien voor een potentiële nulwaarde $$c$$ geldt dat $$f(c)$$ voldoende dicht van nul ligt. Men gebruikt hiervoor de breedte van het interval waartussen gezocht wordt.
 
-![Bisectiemethode](media/animation.gif "De bisectiemethode"){:data-caption="Animatie door D. Vanderfaeillie." width="60%"}
+![Bisectiemethode](media/animation.png "De bisectiemethode"){:data-caption="Animatie door D. Vanderfaeillie." .light-only width="60%"}
+
+![Bisectiemethode](media/animation_dark.png "De bisectiemethode"){:data-caption="Animatie door D. Vanderfaeillie." .dark-only width="60%"}
 
 ## Opgave
 
