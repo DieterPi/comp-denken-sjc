@@ -7,7 +7,9 @@ Het algoritme werkt door de minimaal opspannende boom (*MST*) **stapsgewijs op t
 - Kies de boog met het minimale gewicht die **geen cykel** vormt met de bogen die reeds werden gekozen.
 - Herhaal dit proces tot het aantal bogen in de *MST* gelijk is aan $$n-1$$, met $$n$$ het aantal toppen.
 
-![Het algoritme van Kruskal in werking](media/kruskal.gif "Het algoritme van Kruskal in werking"){:data-caption="Het algoritme van Kruskal in werking." width="30%"}
+![Het algoritme van Kruskal in werking](media/kruskal.png "Het algoritme van Kruskal in werking"){:data-caption="Het algoritme van Kruskal in werking." .light-only width="30%"}
+
+![Het algoritme van Kruskal in werking](media/kruskal_dark.png "Het algoritme van Kruskal in werking"){:data-caption="Het algoritme van Kruskal in werking." .dark-only width="30%"}
 
 ## Opgave
 
