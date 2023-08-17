@@ -6,12 +6,13 @@
 \usetikzlibrary{calc}
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 
+\tikzset{main/.style={draw=black, circle, color=black}}
 
 \begin{document}
 	\begin{tikzpicture}[font=\small]
-		\draw (0,0) -- (4,0) -- (2,3.464) -- cycle;
-		\draw (0,0)-- (2,1.154) -- (2,3.464);
-		\draw (2,1.154)-- (4,0);
+		\draw[main] (0,0) -- (4,0) -- (2,3.464) -- cycle;
+		\draw[main] (0,0)-- (2,1.154) -- (2,3.464);
+		\draw[main] (2,1.154)-- (4,0);
 		
 		\draw[white, fill=PineGreen] (0,0) circle (0.3cm) node {A};
 		\draw[white, fill=PineGreen] (4,0) circle (0.3cm) node  {B};
