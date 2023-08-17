@@ -8,7 +8,9 @@ De methode lijkt op het eerste zicht op regula falsi, maar er is een belangrijke
 
 Bij slechte keuzes voor $$x_1$$ en $$x_2$$ (of bij moeilijke functies) kan het zijn dat deze methode **nooit** tot een oplossing leidt. Met andere woorden, dat de waarden voor $$x_i$$ **niet convergeren** maar **divergeren**. Indien de waarden wel naar een nulwaarde convergeren dan is men tevreden indien voor een potentiële nulwaarde $$x_i$$ geldt dat $$f(x_i)$$ voldoende dicht van nul ligt. Gebruik hiervoor de absolute waarde van $$f(x_i)$$. Het programma eindigt dus indien $$\lvert f(x_i)\rvert \leqslant \delta$$ met $$\delta$$ een bepaalde toleratie.
 
-![De koordenmethode](media/animation.gif "De koordenmethode"){:data-caption="Animatie door D. Vanderfaeillie." width="60%"}
+![De koordenmethode](media/animation.png "De koordenmethode"){:data-caption="Animatie door D. Vanderfaeillie." .light-only width="60%"}
+
+![De koordenmethode](media/animation_dark.png "De koordenmethode"){:data-caption="Animatie door D. Vanderfaeillie." .dark-only width="60%"}
 
 ## Opgave
 
