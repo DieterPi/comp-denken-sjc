@@ -6,8 +6,10 @@
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 \usetikzlibrary{positioning}
 
+\tikzset{main/.style={draw=black, circle, color=black}}
+
 \begin{document}
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -17,21 +19,21 @@
 		\node[main] (G) [below left= 2cm and 0.25cm of E] {G};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
-			\draw (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
-			\draw (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
-			\draw (D) -- node[midway, above] {15} (E);
-			\draw (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (A) -- node[midway, above, sloped] {7} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (A) -- node[midway, left] {5} (D);
+			\draw[main] (C) -- node[midway, right] {5} (E);
+			\draw[main] (D) -- node[midway, above, sloped] {9} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (D) -- node[midway, above] {15} (E);
+			\draw[main] (D) -- node[midway, below, sloped] {6} (F);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -41,21 +43,21 @@
 		\node[main] (G) [below left= 2cm and 0.25cm of E] {G};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
-			\draw (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
-			\draw (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
-			\draw (D) -- node[midway, above] {15} (E);
-			\draw (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (A) -- node[midway, above, sloped] {7} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (A) -- node[midway, left] {5} (D);
+			\draw[main] (C) -- node[midway, right] {5} (E);
+			\draw[main] (D) -- node[midway, above, sloped] {9} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (D) -- node[midway, above] {15} (E);
+			\draw[main] (D) -- node[midway, below, sloped] {6} (F);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -65,23 +67,23 @@
 		\node[main] (G) [below left= 2cm and 0.25cm of E] {G};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
-			\draw (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
-			\draw (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
-			\draw (D) -- node[midway, above] {15} (E);
-			\draw (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (A) -- node[midway, above, sloped] {7} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (A) -- node[midway, left] {5} (D);
+			\draw[main] (C) -- node[midway, right] {5} (E);
+			\draw[main] (D) -- node[midway, above, sloped] {9} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (D) -- node[midway, above] {15} (E);
+			\draw[main] (D) -- node[midway, below, sloped] {6} (F);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -91,23 +93,23 @@
 		\node[main] (G) [below left= 2cm and 0.25cm of E] {G};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (A) -- node[midway, above, sloped] {7} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[BurntOrange] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[BurntOrange] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[BurntOrange] (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -117,24 +119,24 @@
 		\node[main] (G) [below left= 2cm and 0.25cm of E] {G};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (A) -- node[midway, above, sloped] {7} (B);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[BurntOrange] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[BurntOrange] (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
 		\draw[PineGreen, very thick] (A) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -145,23 +147,23 @@
 		
 		\begin{scope}[font=\tiny]
 			\draw[BurntOrange] (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[BurntOrange] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[BurntOrange] (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
 		\draw[PineGreen, very thick] (A) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -172,16 +174,16 @@
 		
 		\begin{scope}[font=\tiny]
 			\draw[BurntOrange] (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[BurntOrange] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[PineGreen] (D) -- node[midway, below, sloped] {6} (F);
-			\draw (F) -- node[midway, below, sloped] {11} (G);
-			\draw (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {11} (G);
+			\draw[main] (F) -- node[midway, below, sloped] {8} (E);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
@@ -189,7 +191,7 @@
 		\draw[PineGreen, very thick] (F) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -200,16 +202,16 @@
 		
 		\begin{scope}[font=\tiny]
 			\draw[BurntOrange] (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[BurntOrange] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[PineGreen] (D) -- node[midway, below, sloped] {6} (F);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {11} (G);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
@@ -217,7 +219,7 @@
 		\draw[PineGreen, very thick] (F) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -228,16 +230,16 @@
 		
 		\begin{scope}[font=\tiny]
 			\draw[PineGreen] (A) -- node[midway, above, sloped] {7} (B);
-			\draw (B) -- node[midway, above, sloped] {8} (C);
+			\draw[main] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[lightgray] (D) -- node[midway, above, sloped] {9} (B);
-			\draw (B) -- node[midway, above, sloped] {7} (E);
+			\draw[main] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[PineGreen] (D) -- node[midway, below, sloped] {6} (F);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {11} (G);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
@@ -246,7 +248,7 @@
 		\draw[PineGreen, very thick] (B) circle (3.375mm);
 	\end{tikzpicture} 
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -259,14 +261,14 @@
 			\draw[PineGreen] (A) -- node[midway, above, sloped] {7} (B);
 			\draw[BurntOrange] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[lightgray] (D) -- node[midway, above, sloped] {9} (B);
 			\draw[BurntOrange] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[BurntOrange] (D) -- node[midway, above] {15} (E);
 			\draw[PineGreen] (D) -- node[midway, below, sloped] {6} (F);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {11} (G);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
@@ -275,7 +277,7 @@
 		\draw[PineGreen, very thick] (B) circle (3.375mm);
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -288,14 +290,14 @@
 			\draw[PineGreen] (A) -- node[midway, above, sloped] {7} (B);
 			\draw[BurntOrange] (B) -- node[midway, above, sloped] {8} (C);
 			\draw[PineGreen] (A) -- node[midway, left] {5} (D);
-			\draw (C) -- node[midway, right] {5} (E);
+			\draw[main] (C) -- node[midway, right] {5} (E);
 			\draw[lightgray] (D) -- node[midway, above, sloped] {9} (B);
 			\draw[PineGreen] (B) -- node[midway, above, sloped] {7} (E);
 			\draw[lightgray] (D) -- node[midway, above] {15} (E);
 			\draw[PineGreen] (D) -- node[midway, below, sloped] {6} (F);
 			\draw[BurntOrange] (F) -- node[midway, below, sloped] {11} (G);
 			\draw[lightgray] (F) -- node[midway, below, sloped] {8} (E);
-			\draw (E) -- node[midway, right] {9} (G);
+			\draw[main] (E) -- node[midway, right] {9} (G);
 		\end{scope}
 		
 		\draw[PineGreen, very thick] (D) circle (3.375mm);
@@ -305,7 +307,7 @@
 		\draw[PineGreen, very thick] (E) circle (3.375mm);
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -335,7 +337,7 @@
 		\draw[PineGreen, very thick] (E) circle (3.375mm);
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -366,7 +368,7 @@
 		\draw[PineGreen, very thick] (C) circle (3.375mm);
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};
@@ -398,7 +400,7 @@
 		\draw[PineGreen, very thick] (G) circle (3.375mm);
 	\end{tikzpicture}
 	
-	\begin{tikzpicture}[node distance={20mm}, thick,main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [below right of=A] {B};
 		\node[main] (C) [above right of=B] {C};

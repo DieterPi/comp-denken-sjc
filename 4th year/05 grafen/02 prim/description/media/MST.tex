@@ -6,8 +6,10 @@
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 \usetikzlibrary{positioning}
 
+\tikzset{main/.style={draw=black, circle, color=black}}
+
 \begin{document}
-	\begin{tikzpicture}[node distance={20mm}, thick,inner sep=0pt,minimum size=5mm, main/.style = {draw, circle}] 
+	\begin{tikzpicture}[node distance={20mm}, thick,inner sep=0pt,minimum size=5mm] 
 		\node[main] (A) {A}; 
 		\node[main] (B) [right of=A] {B};
 		\node[main] (C) [right of=B] {C};
@@ -16,13 +18,13 @@
 		\node[main] (F) [below of=C] {F};
 		
 		\begin{scope}[font=\tiny]
-			\draw (A) -- node[midway, above] {1} (B);
-			\draw (B) -- node[midway, right] {2} (E);
-			\draw (A) -- node[midway, left] {4} (D);
+			\draw[main] (A) -- node[midway, above] {1} (B);
+			\draw[main] (B) -- node[midway, right] {2} (E);
+			\draw[main] (A) -- node[midway, left] {4} (D);
 			\draw[color=lightgray] (D) -- node[midway, below] {4} (E);
-			\draw (A) -- node[midway, above] {1} (B);
-			\draw (E) -- node[midway, below, sloped] {4} (C);
-			\draw (C) -- node[midway, right] {5} (F);
+			\draw[main] (A) -- node[midway, above] {1} (B);
+			\draw[main] (E) -- node[midway, below, sloped] {4} (C);
+			\draw[main] (C) -- node[midway, right] {5} (F);
 			\draw[color=lightgray] (E) -- node[midway, below] {7} (F);
 			\draw[color=lightgray] (A) -- node[midway, below, sloped] {3} (E);
 			\draw[color=lightgray] (D) to [out=135,in=135,looseness=2] node[midway, above] {4} (B);
