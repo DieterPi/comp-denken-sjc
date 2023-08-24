@@ -14,6 +14,7 @@ $$
 $$
 
 TODO: duidelijker uitschrijven
+Extra voorbeelden voorzien.
 
 #### Voorbeelden
 ```
