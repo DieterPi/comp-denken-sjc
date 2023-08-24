@@ -13,6 +13,8 @@ $$
 \pmatrix{1 & 3\\ 4 & 5} \cdot \pmatrix{0 & 1 \\ -1 & 3} = \pmatrix{-3 & 10 \\ -5 & 19}
 $$
 
+TODO: duidelijker uitschrijven
+
 #### Voorbeelden
 ```
 >>> matrixvermenigvuldiging( [[1,3],[4,5]], [[0,1],[-1,3]] )
