@@ -1,5 +1,8 @@
 Wet van de grote aantallen in de praktijk.
 
+
+Een voorbeeld
+
 ```R
 y <- c()
 for (x in 1:500) {
