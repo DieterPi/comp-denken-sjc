@@ -17,4 +17,4 @@ Zoals je merkt, het enige verschil zit in de noemer van de breuk. Men kan wiskun
 ![Populatiegegevens schatten.](media/rafael-as-martins.jpg "Foto door Rafael AS Martins op Unsplash"){:data-caption="Populatiegegevens schatten." width="45%"}
 
 ## Opgave
-Simulatiestudie van vang hervang
+Simulatiestudie van vang hervang, niet duidelijk hoe aan te pakken...
