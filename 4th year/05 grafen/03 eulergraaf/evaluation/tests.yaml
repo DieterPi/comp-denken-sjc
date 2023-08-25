@@ -2,27 +2,27 @@
   testcases:
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F'] , [('A', 'B'), ('B', 'C'),
       ('C', 'D'), ('D', 'A'), ('B', 'E'), ('E', 'D'), ('D', 'F'), ('F', 'B')] )
-    return: true
+    return: !v true
   - expression: euler_graaf( ['A', 'B'] , [('A', 'B')] )
-    return: true
+    return: !v true
   - expression: euler_graaf( ['A', 'B', 'C', 'D'] , [('B', 'C'), ('C', 'A'), ('C',
       'D'), ('A', 'B'), ('B', 'D'), ('D', 'A')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C'] , [('A', 'B'), ('A', 'C'), ('C', 'B')]
       )
-    return: true
+    return: !v true
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G'] , [('G', 'F'), ('F',
       'B'), ('G', 'C'), ('F', 'D'), ('B', 'A'), ('G', 'E'), ('F', 'A'), ('B', 'G'),
       ('E', 'D'), ('C', 'E'), ('G', 'A'), ('D', 'C'), ('G', 'D'), ('E', 'F'), ('A',
       'D')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] , [('G', 'D'),
       ('D', 'F'), ('F', 'B'), ('F', 'A'), ('F', 'H'), ('F', 'C'), ('C', 'E'), ('H',
       'D'), ('E', 'H'), ('A', 'E'), ('B', 'G'), ('C', 'A'), ('H', 'C'), ('H', 'B'),
       ('A', 'B'), ('G', 'F'), ('H', 'G'), ('D', 'E'), ('B', 'E'), ('G', 'C'), ('A',
       'H'), ('G', 'A'), ('C', 'D'), ('B', 'D'), ('G', 'E'), ('B', 'C'), ('D', 'A'),
       ('E', 'F')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'] ,
       [('G', 'E'), ('E', 'D'), ('E', 'I'), ('E', 'H'), ('E', 'J'), ('I', 'C'), ('E',
       'B'), ('B', 'A'), ('I', 'F'), ('C', 'J'), ('F', 'G'), ('I', 'A'), ('D', 'H'),
@@ -30,61 +30,61 @@
       'F'), ('I', 'J'), ('H', 'G'), ('D', 'A'), ('B', 'H'), ('H', 'A'), ('G', 'J'),
       ('H', 'I'), ('D', 'F'), ('F', 'J'), ('C', 'E'), ('B', 'J'), ('B', 'D'), ('F',
       'E'), ('C', 'B'), ('C', 'G'), ('H', 'F'), ('H', 'J'), ('A', 'G')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D'] , [('C', 'D'), ('D', 'B'), ('D',
       'A'), ('B', 'C')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D'] , [('A', 'B'), ('A', 'C'), ('B',
       'D'), ('C', 'D'), ('D', 'A')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'] , [('A', 'B'),
       ('B', 'C'), ('B', 'D'), ('A', 'G'), ('B', 'E'), ('C', 'F'), ('C', 'H'), ('A',
       'F'), ('F', 'H'), ('H', 'E'), ('B', 'G'), ('D', 'C'), ('F', 'E'), ('H', 'G'),
       ('E', 'A'), ('A', 'C'), ('A', 'H'), ('B', 'F'), ('D', 'E'), ('F', 'D'), ('C',
       'G'), ('D', 'G'), ('E', 'C'), ('G', 'F'), ('E', 'G')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G'] , [('D', 'B'), ('B',
       'G'), ('D', 'A'), ('B', 'F'), ('B', 'E'), ('B', 'C'), ('E', 'C'), ('F', 'G'),
       ('E', 'A'), ('F', 'A'), ('E', 'D')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'] , [('C',
       'G'), ('C', 'H'), ('C', 'F'), ('C', 'B'), ('F', 'I'), ('C', 'D'), ('I', 'E'),
       ('D', 'A'), ('B', 'D'), ('A', 'C'), ('D', 'H'), ('G', 'I'), ('D', 'G')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F'] , [('E', 'C'), ('E', 'B'),
       ('E', 'F'), ('E', 'D'), ('B', 'A'), ('A', 'C'), ('B', 'D'), ('D', 'A')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F'] , [('E', 'B'), ('E', 'D'),
       ('E', 'C'), ('E', 'A'), ('E', 'F'), ('B', 'C'), ('D', 'B'), ('F', 'C'), ('F',
       'B'), ('A', 'B'), ('D', 'C'), ('F', 'A'), ('C', 'A'), ('A', 'D'), ('D', 'F')]
       )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E'] , [('A', 'D'), ('D', 'B'),
       ('A', 'C'), ('A', 'E'), ('D', 'E')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G'] , [('E', 'D'), ('E',
       'C'), ('C', 'B'), ('E', 'G'), ('B', 'A'), ('E', 'F'), ('A', 'F'), ('A', 'C'),
       ('G', 'C'), ('D', 'A'), ('E', 'A'), ('G', 'B'), ('E', 'B'), ('B', 'D'), ('F',
       'G'), ('C', 'D'), ('F', 'C')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'] , [('H',
       'G'), ('G', 'F'), ('F', 'D'), ('F', 'B'), ('F', 'E'), ('D', 'A'), ('F', 'I'),
       ('D', 'C'), ('C', 'G'), ('C', 'B'), ('I', 'H'), ('G', 'I'), ('A', 'B'), ('G',
       'B'), ('I', 'B'), ('E', 'C'), ('D', 'H'), ('H', 'E'), ('B', 'H'), ('F', 'C'),
       ('A', 'C'), ('H', 'F'), ('B', 'E'), ('G', 'A'), ('D', 'E'), ('H', 'C')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C'] , [('A', 'B'), ('A', 'C'), ('B', 'C')]
       )
-    return: true
+    return: !v true
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'] ,
       [('C', 'F'), ('F', 'E'), ('C', 'A'), ('F', 'H'), ('A', 'B'), ('E', 'D'), ('F',
       'G'), ('A', 'J'), ('G', 'I'), ('G', 'E'), ('B', 'G'), ('J', 'C'), ('D', 'A'),
       ('A', 'G'), ('H', 'E'), ('I', 'D')] )
-    return: false
+    return: !v false
   - expression: euler_graaf( ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'] , [('A',
       'C'), ('A', 'G'), ('G', 'E'), ('G', 'D'), ('G', 'H'), ('G', 'B'), ('A', 'I'),
       ('G', 'F'), ('B', 'E'), ('I', 'D'), ('B', 'H'), ('B', 'A'), ('I', 'F'), ('G',
       'I'), ('H', 'F'), ('F', 'D'), ('B', 'I'), ('C', 'G'), ('I', 'E'), ('H', 'I'),
       ('E', 'A'), ('A', 'H'), ('C', 'E'), ('C', 'B'), ('C', 'I'), ('C', 'F'), ('D',
       'B'), ('C', 'D'), ('E', 'H'), ('D', 'H')] )
-    return: false
+    return: !v false

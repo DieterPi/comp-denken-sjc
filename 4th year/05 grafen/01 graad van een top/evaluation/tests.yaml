@@ -2,15 +2,15 @@
   testcases:
   - expression: graad( 'B' , [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B',
       'D'), ('B', 'E')] )
-    return: 4
+    return: !v 4
   - expression: graad( 'E' , [('A', 'B'), ('C', 'A'), ('B', 'C'), ('C', 'D'), ('B',
       'D'), ('B', 'E')] )
-    return: 1
+    return: !v 1
   - expression: graad( 'C' , [('A', 'E'), ('C', 'D'), ('C', 'A'), ('D', 'E'), ('A',
       'D'), ('C', 'E'), ('E', 'B')] )
-    return: 3
+    return: !v 3
   - expression: graad( 'C' , [('A', 'B')] )
-    return: 0
+    return: !v 0
   - expression: graad( 'I' , [('I', 'F'), ('F', 'G'), ('E', 'C'), ('J', 'H'), ('F',
       'H'), ('H', 'I'), ('E', 'J'), ('G', 'E'), ('I', 'A'), ('C', 'J'), ('I', 'J'),
       ('A', 'E'), ('D', 'I'), ('J', 'B'), ('C', 'G'), ('C', 'B'), ('E', 'H'), ('H',
@@ -19,58 +19,58 @@
       'B'), ('F', 'J'), ('E', 'I'), ('B', 'D'), ('G', 'A'), ('A', 'J'), ('F', 'D'),
       ('G', 'I'), ('F', 'C'), ('G', 'D'), ('I', 'C'), ('H', 'B'), ('J', 'D'), ('G',
       'H')] )
-    return: 9
+    return: !v 9
   - expression: graad( 'B' , [('C', 'B'), ('C', 'A'), ('D', 'C'), ('B', 'D'), ('D',
       'A')] )
-    return: 2
+    return: !v 2
   - expression: graad( 'C' , [('B', 'C'), ('A', 'B'), ('D', 'B'), ('C', 'D'), ('D',
       'A'), ('A', 'C')] )
-    return: 3
+    return: !v 3
   - expression: graad( 'E' , [('E', 'C'), ('C', 'A'), ('F', 'B'), ('B', 'E'), ('C',
       'F'), ('F', 'A'), ('B', 'C'), ('A', 'E'), ('B', 'D'), ('F', 'E'), ('C', 'D'),
       ('D', 'E'), ('D', 'A'), ('B', 'A')] )
-    return: 5
+    return: !v 5
   - expression: graad( 'B' , [('A', 'B'), ('B', 'C'), ('C', 'A')] )
-    return: 2
+    return: !v 2
   - expression: graad( 'C' , [('C', 'F'), ('E', 'C'), ('D', 'B'), ('F', 'B'), ('B',
       'C'), ('A', 'E'), ('F', 'E'), ('C', 'A'), ('D', 'C'), ('D', 'E'), ('F', 'A'),
       ('A', 'B'), ('B', 'E'), ('A', 'D'), ('D', 'F')] )
-    return: 5
+    return: !v 5
   - expression: graad( 'B' , [('A', 'B'), ('B', 'C'), ('A', 'C')] )
-    return: 2
+    return: !v 2
   - expression: graad( 'B' , [('A', 'B'), ('B', 'F'), ('E', 'G'), ('A', 'E'), ('G',
       'D'), ('F', 'A'), ('B', 'G'), ('B', 'D'), ('F', 'D'), ('E', 'F')] )
-    return: 4
+    return: !v 4
   - expression: graad( 'C' , [('D', 'G'), ('B', 'E'), ('D', 'B'), ('E', 'F'), ('G',
       'C'), ('B', 'A'), ('F', 'B')] )
-    return: 1
+    return: !v 1
   - expression: graad( 'C' , [('A', 'C'), ('A', 'B'), ('B', 'C')] )
-    return: 2
+    return: !v 2
   - expression: graad( 'A' , [('A', 'C'), ('B', 'E'), ('E', 'G'), ('B', 'A'), ('C',
       'G'), ('F', 'A'), ('E', 'A'), ('C', 'F'), ('A', 'D'), ('C', 'B'), ('F', 'B'),
       ('D', 'F'), ('E', 'F'), ('D', 'C'), ('D', 'E'), ('G', 'B'), ('G', 'D'), ('D',
       'B'), ('E', 'C'), ('G', 'A'), ('G', 'F')] )
-    return: 6
+    return: !v 6
   - expression: graad( 'C' , [('F', 'I'), ('H', 'D'), ('C', 'E'), ('B', 'A'), ('F',
       'H'), ('D', 'F'), ('D', 'E'), ('C', 'B'), ('A', 'C'), ('G', 'I'), ('E', 'I'),
       ('G', 'A'), ('C', 'H'), ('F', 'E'), ('D', 'B'), ('E', 'B'), ('A', 'F'), ('B',
       'H'), ('D', 'C'), ('G', 'C'), ('B', 'I'), ('A', 'E'), ('A', 'I'), ('E', 'G'),
       ('B', 'F'), ('A', 'H'), ('H', 'G'), ('B', 'G'), ('D', 'G'), ('C', 'I'), ('G',
       'F')] )
-    return: 7
+    return: !v 7
   - expression: graad( 'A' , [('A', 'D'), ('C', 'A'), ('D', 'B'), ('C', 'B'), ('D',
       'C')] )
-    return: 2
+    return: !v 2
   - expression: graad( 'J' , [('F', 'D'), ('F', 'A'), ('F', 'G'), ('J', 'A'), ('G',
       'B'), ('G', 'H'), ('G', 'J'), ('F', 'B'), ('F', 'H'), ('I', 'H'), ('I', 'C'),
       ('B', 'J'), ('D', 'G'), ('J', 'H'), ('G', 'C'), ('D', 'A'), ('E', 'J'), ('E',
       'A'), ('E', 'B'), ('I', 'B'), ('H', 'E'), ('E', 'G'), ('I', 'G')] )
-    return: 5
+    return: !v 5
   - expression: graad( 'C' , [('A', 'C'), ('G', 'B'), ('G', 'D'), ('D', 'C'), ('E',
       'F'), ('E', 'D'), ('F', 'A'), ('I', 'A'), ('C', 'E'), ('A', 'J'), ('H', 'I'),
       ('D', 'J'), ('H', 'B'), ('H', 'D'), ('E', 'H'), ('G', 'A'), ('B', 'E'), ('F',
       'J'), ('A', 'E'), ('F', 'H'), ('J', 'B'), ('A', 'H'), ('C', 'I'), ('C', 'H'),
       ('I', 'B')] )
-    return: 5
+    return: !v 5
   - expression: graad( 'B' , [('C', 'B'), ('A', 'B'), ('C', 'A')] )
-    return: 2
+    return: !v 2

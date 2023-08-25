@@ -3,13 +3,13 @@
   - expression: identiek( [('A', 'B'), ('B', 'C'), ('C', 'A'), ('C', 'D'), ('D', 'B'),
       ('B', 'E')], [('E', 'B'), ('C', 'A'), ('B', 'A'), ('D', 'B'), ('C', 'D'), ('B',
       'C')] )
-    return: true
+    return: !v true
   - expression: identiek( [('A', 'B'), ('A', 'C'), ('B', 'C')], [('A', 'C'), ('A',
       'B')] )
-    return: false
+    return: !v false
   - expression: identiek( [('A', 'B'), ('A', 'C')], [('A', 'C'), ('B', 'C'), ('A',
       'B')] )
-    return: false
+    return: !v false
   - expression: identiek( [('I', 'F'), ('F', 'G'), ('E', 'C'), ('J', 'H'), ('F', 'H'),
       ('H', 'I'), ('E', 'J'), ('G', 'E'), ('I', 'A'), ('C', 'J'), ('I', 'J'), ('A',
       'E'), ('D', 'I'), ('J', 'B'), ('C', 'G'), ('C', 'B'), ('E', 'H'), ('H', 'C'),
@@ -24,19 +24,19 @@
       ('J', 'E'), ('E', 'D'), ('B', 'D'), ('E', 'A'), ('I', 'H'), ('E', 'B'), ('B',
       'C'), ('F', 'D'), ('C', 'F'), ('I', 'C'), ('D', 'I'), ('A', 'H'), ('H', 'B'),
       ('B', 'J'), ('B', 'F'), ('C', 'E')] )
-    return: true
+    return: !v true
   - expression: identiek( [('C', 'B'), ('E', 'G'), ('D', 'E'), ('B', 'F'), ('D', 'A'),
       ('D', 'B'), ('E', 'F')], [('E', 'G'), ('F', 'A'), ('E', 'A'), ('B', 'E'), ('B',
       'A'), ('G', 'F'), ('G', 'A')] )
-    return: false
+    return: !v false
   - expression: identiek( [('C', 'B'), ('B', 'A'), ('A', 'C')], [('B', 'A'), ('A',
       'C'), ('C', 'B')] )
-    return: true
+    return: !v true
   - expression: identiek( [('B', 'D'), ('A', 'B'), ('E', 'C'), ('G', 'A'), ('E', 'D'),
       ('C', 'A'), ('E', 'A'), ('G', 'E'), ('C', 'D'), ('E', 'B'), ('F', 'G'), ('A',
       'F')], [('C', 'A'), ('B', 'D'), ('C', 'E'), ('A', 'B'), ('E', 'D'), ('G', 'E'),
       ('C', 'D'), ('F', 'G'), ('A', 'E'), ('A', 'G'), ('F', 'A'), ('B', 'E')] )
-    return: true
+    return: !v true
   - expression: identiek( [('F', 'D'), ('F', 'A'), ('F', 'G'), ('J', 'A'), ('G', 'B'),
       ('G', 'H'), ('G', 'J'), ('F', 'B'), ('F', 'H'), ('I', 'H'), ('I', 'C'), ('B',
       'J'), ('D', 'G'), ('J', 'H'), ('G', 'C'), ('D', 'A'), ('E', 'J'), ('E', 'A'),
@@ -45,7 +45,7 @@
       ('F', 'G'), ('F', 'A'), ('H', 'F'), ('B', 'G'), ('B', 'I'), ('E', 'A'), ('G',
       'D'), ('A', 'J'), ('G', 'J'), ('E', 'J'), ('J', 'B'), ('E', 'H'), ('E', 'B')]
       )
-    return: true
+    return: !v true
   - expression: identiek( [('I', 'D'), ('D', 'J'), ('H', 'F'), ('B', 'A'), ('B', 'I'),
       ('C', 'I'), ('E', 'D'), ('F', 'I'), ('G', 'J'), ('J', 'E'), ('G', 'F'), ('A',
       'J'), ('C', 'G'), ('F', 'J'), ('A', 'C'), ('I', 'G'), ('C', 'F'), ('E', 'B'),
@@ -60,7 +60,7 @@
       ('J', 'A'), ('H', 'A'), ('G', 'H'), ('B', 'I'), ('C', 'J'), ('D', 'H'), ('I',
       'G'), ('B', 'J'), ('G', 'B'), ('I', 'A'), ('D', 'E'), ('D', 'G'), ('J', 'D'),
       ('F', 'A'), ('J', 'E'), ('H', 'C')] )
-    return: false
+    return: !v false
   - expression: identiek( [('F', 'B'), ('A', 'B'), ('J', 'I'), ('D', 'I'), ('C', 'I'),
       ('F', 'D'), ('I', 'F'), ('C', 'H'), ('C', 'E'), ('H', 'A'), ('E', 'D'), ('A',
       'D'), ('B', 'E'), ('G', 'J'), ('G', 'F'), ('C', 'D'), ('G', 'E'), ('H', 'D'),
@@ -73,7 +73,7 @@
       ('I', 'E'), ('H', 'F'), ('J', 'F'), ('E', 'G'), ('E', 'D'), ('E', 'J'), ('F',
       'G'), ('E', 'B'), ('G', 'D'), ('A', 'D'), ('A', 'G'), ('A', 'H'), ('H', 'E'),
       ('C', 'G'), ('B', 'D'), ('D', 'I'), ('G', 'I')] )
-    return: false
+    return: !v false
   - expression: identiek( [('G', 'J'), ('H', 'A'), ('E', 'J'), ('D', 'B'), ('A', 'E'),
       ('F', 'G'), ('B', 'J'), ('B', 'F'), ('F', 'H'), ('H', 'B'), ('F', 'D'), ('D',
       'C'), ('C', 'H'), ('B', 'A'), ('E', 'G'), ('H', 'E'), ('J', 'H'), ('E', 'C'),
@@ -89,16 +89,16 @@
       'I'), ('J', 'H'), ('F', 'D'), ('J', 'F'), ('J', 'B'), ('H', 'B'), ('H', 'D'),
       ('G', 'B'), ('I', 'C'), ('J', 'C'), ('J', 'D'), ('E', 'I'), ('A', 'C'), ('G',
       'J')] )
-    return: true
+    return: !v true
   - expression: identiek( [('C', 'B'), ('E', 'D'), ('A', 'C'), ('E', 'A'), ('D', 'A')],
       [('A', 'D'), ('C', 'A'), ('B', 'C'), ('D', 'E'), ('A', 'E')] )
-    return: true
+    return: !v true
   - expression: identiek( [('A', 'F'), ('E', 'C'), ('E', 'A'), ('F', 'C'), ('C', 'H'),
       ('F', 'G'), ('H', 'G'), ('A', 'B'), ('G', 'D'), ('G', 'E'), ('B', 'G'), ('C',
       'D'), ('F', 'E'), ('H', 'D')], [('H', 'G'), ('G', 'D'), ('G', 'B'), ('C', 'D'),
       ('C', 'F'), ('B', 'A'), ('F', 'E'), ('E', 'G'), ('E', 'C'), ('E', 'A'), ('F',
       'G'), ('C', 'H'), ('A', 'F'), ('D', 'H')] )
-    return: true
+    return: !v true
   - expression: identiek( [('D', 'A'), ('B', 'E'), ('E', 'C'), ('H', 'A'), ('A', 'G'),
       ('C', 'G'), ('F', 'B'), ('H', 'D'), ('E', 'F'), ('D', 'E'), ('G', 'H'), ('G',
       'B'), ('C', 'D'), ('D', 'B'), ('F', 'A'), ('E', 'G'), ('H', 'E'), ('D', 'F'),
@@ -108,21 +108,21 @@
       'E'), ('D', 'F'), ('H', 'A'), ('A', 'B'), ('G', 'E'), ('C', 'F'), ('B', 'G'),
       ('H', 'B'), ('A', 'F'), ('D', 'C'), ('E', 'B'), ('C', 'G'), ('B', 'C'), ('B',
       'D'), ('G', 'H')] )
-    return: true
+    return: !v true
   - expression: identiek( [('A', 'B'), ('C', 'A')], [('B', 'A'), ('C', 'A')] )
-    return: true
+    return: !v true
   - expression: identiek( [('A', 'B'), ('A', 'C')], [('A', 'C'), ('A', 'B')] )
-    return: true
+    return: !v true
   - expression: identiek( [('B', 'A'), ('C', 'B'), ('A', 'C')], [('A', 'C'), ('C',
       'B'), ('A', 'B')] )
-    return: true
+    return: !v true
   - expression: identiek( [('H', 'F'), ('E', 'D'), ('E', 'G'), ('D', 'G'), ('A', 'F'),
       ('F', 'C'), ('E', 'H'), ('B', 'E'), ('F', 'D'), ('A', 'H'), ('A', 'E'), ('G',
       'B'), ('C', 'D'), ('F', 'G'), ('C', 'G'), ('E', 'C')], [('C', 'F'), ('B', 'H'),
       ('H', 'G'), ('G', 'E'), ('G', 'F'), ('B', 'G'), ('A', 'C'), ('C', 'E'), ('H',
       'A'), ('C', 'D'), ('D', 'B'), ('H', 'E'), ('A', 'B'), ('G', 'D'), ('E', 'B'),
       ('F', 'A')] )
-    return: false
+    return: !v false
   - expression: identiek( [('A', 'D'), ('D', 'B'), ('G', 'C'), ('A', 'C'), ('D', 'G'),
       ('G', 'B'), ('A', 'F'), ('A', 'G'), ('C', 'B'), ('E', 'C'), ('D', 'F'), ('B',
       'A'), ('C', 'D'), ('F', 'E'), ('F', 'G'), ('B', 'E'), ('A', 'E'), ('G', 'E'),
@@ -130,7 +130,7 @@
       'C'), ('C', 'E'), ('F', 'D'), ('G', 'B'), ('G', 'A'), ('D', 'C'), ('B', 'A'),
       ('E', 'D'), ('E', 'G'), ('G', 'C'), ('F', 'E'), ('D', 'A'), ('G', 'F'), ('C',
       'F'), ('A', 'F'), ('A', 'E'), ('C', 'B'), ('G', 'D')] )
-    return: true
+    return: !v true
   - expression: identiek( [('F', 'B'), ('G', 'B'), ('B', 'J'), ('C', 'E'), ('B', 'A'),
       ('C', 'I'), ('G', 'E'), ('F', 'I'), ('E', 'A'), ('G', 'C'), ('C', 'H'), ('H',
       'D'), ('E', 'J'), ('J', 'I'), ('C', 'J'), ('B', 'E'), ('H', 'B'), ('B', 'I'),
@@ -144,4 +144,4 @@
       'B'), ('A', 'E'), ('H', 'A'), ('F', 'C'), ('A', 'C'), ('I', 'A'), ('H', 'B'),
       ('F', 'I'), ('D', 'I'), ('H', 'I'), ('G', 'E'), ('A', 'F'), ('H', 'D'), ('J',
       'C'), ('I', 'E'), ('C', 'H'), ('C', 'I')] )
-    return: true
+    return: !v true
