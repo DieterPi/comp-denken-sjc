@@ -12,10 +12,14 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "Python", 
+    "Python",
     "Sequentie",
     "Modulo",
     "Dieter Vanderfaeillie"
   ],
-  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>"
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "internals": {
+    "token": "5bKi2MjVDWMkD8E8WKUUMtfxe5u3GMX-6W6qz2GAX7jRIxTtRmIdexiuMZ5re_ab",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
