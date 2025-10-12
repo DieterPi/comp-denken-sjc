@@ -1,6 +1,5 @@
 getal = int(input("Geef het startgetal in: "))
 
-print()
 print("Startgetal:", getal)
 
 i = 1
