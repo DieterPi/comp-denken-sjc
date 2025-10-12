@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Constante van Kaprekar"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python", 
+    "Sequentie",
+    "Modulo",
+    "Dieter Vanderfaeillie"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>"
+}

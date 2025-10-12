@@ -1,0 +1,70 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '534'
+      stdout: "Startgetal: 534\nNa stap 1: 198\nNa stap 2: 792\nNa stap 3: 693\nNa
+        stap 4: 594\nNa stap 5: 495\n"
+  - testcases:
+    - stdin: '585'
+      stdout: "Startgetal: 585\nNa stap 1: 297\nNa stap 2: 693\nNa stap 3: 594\nNa
+        stap 4: 495\n"
+  - testcases:
+    - stdin: '495'
+      stdout: "Startgetal: 495\n"
+  - testcases:
+    - stdin: '837'
+      stdout: "Startgetal: 837\nNa stap 1: 495\n"
+  - testcases:
+    - stdin: '202'
+      stdout: "Startgetal: 202\nNa stap 1: 198\nNa stap 2: 792\nNa stap 3: 693\nNa
+        stap 4: 594\nNa stap 5: 495\n"
+  - testcases:
+    - stdin: '748'
+      stdout: "Startgetal: 748\nNa stap 1: 396\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '703'
+      stdout: "Startgetal: 703\nNa stap 1: 693\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '334'
+      stdout: "Startgetal: 334\nNa stap 1: 99\nNa stap 2: 891\nNa stap 3: 792\nNa
+        stap 4: 693\nNa stap 5: 594\nNa stap 6: 495\n"
+  - testcases:
+    - stdin: '879'
+      stdout: "Startgetal: 879\nNa stap 1: 198\nNa stap 2: 792\nNa stap 3: 693\nNa
+        stap 4: 594\nNa stap 5: 495\n"
+  - testcases:
+    - stdin: '358'
+      stdout: "Startgetal: 358\nNa stap 1: 495\n"
+  - testcases:
+    - stdin: '892'
+      stdout: "Startgetal: 892\nNa stap 1: 693\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '720'
+      stdout: "Startgetal: 720\nNa stap 1: 693\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '627'
+      stdout: "Startgetal: 627\nNa stap 1: 495\n"
+  - testcases:
+    - stdin: '700'
+      stdout: "Startgetal: 700\nNa stap 1: 693\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '848'
+      stdout: "Startgetal: 848\nNa stap 1: 396\nNa stap 2: 594\nNa stap 3: 495\n"
+  - testcases:
+    - stdin: '621'
+      stdout: "Startgetal: 621\nNa stap 1: 495\n"
+  - testcases:
+    - stdin: '179'
+      stdout: "Startgetal: 179\nNa stap 1: 792\nNa stap 2: 693\nNa stap 3: 594\nNa
+        stap 4: 495\n"
+  - testcases:
+    - stdin: '883'
+      stdout: "Startgetal: 883\nNa stap 1: 495\n"
+  - testcases:
+    - stdin: '443'
+      stdout: "Startgetal: 443\nNa stap 1: 99\nNa stap 2: 891\nNa stap 3: 792\nNa
+        stap 4: 693\nNa stap 5: 594\nNa stap 6: 495\n"
+  - testcases:
+    - stdin: '225'
+      stdout: "Startgetal: 225\nNa stap 1: 297\nNa stap 2: 693\nNa stap 3: 594\nNa
+        stap 4: 495\n"
