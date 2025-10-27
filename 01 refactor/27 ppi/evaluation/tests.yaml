@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1754\n2480\n300"
+      stdout: "Deze foto kan je afdrukken op 14.851 x 20.997 cm.\n"
+  - testcases:
+    - stdin: "7360\n4912\n72"
+      stdout: "Deze foto kan je afdrukken op 259.644 x 173.284 cm.\n"
+  - testcases:
+    - stdin: "7360\n4912\n600"
+      stdout: "Deze foto kan je afdrukken op 31.157 x 20.794 cm.\n"
+  - testcases:
+    - stdin: "4000\n3000\n200"
+      stdout: "Deze foto kan je afdrukken op 50.8 x 38.1 cm.\n"
+  - testcases:
+    - stdin: "4256\n2848\n600"
+      stdout: "Deze foto kan je afdrukken op 18.017 x 12.057 cm.\n"
+  - testcases:
+    - stdin: "2592\n1944\n600"
+      stdout: "Deze foto kan je afdrukken op 10.973 x 8.23 cm.\n"
+  - testcases:
+    - stdin: "2560\n1920\n200"
+      stdout: "Deze foto kan je afdrukken op 32.512 x 24.384 cm.\n"
+  - testcases:
+    - stdin: "2560\n1920\n150"
+      stdout: "Deze foto kan je afdrukken op 43.349 x 32.512 cm.\n"
+  - testcases:
+    - stdin: "4256\n2848\n200"
+      stdout: "Deze foto kan je afdrukken op 54.051 x 36.17 cm.\n"
+  - testcases:
+    - stdin: "2560\n1920\n300"
+      stdout: "Deze foto kan je afdrukken op 21.675 x 16.256 cm.\n"
+  - testcases:
+    - stdin: "7360\n4912\n150"
+      stdout: "Deze foto kan je afdrukken op 124.629 x 83.177 cm.\n"
+  - testcases:
+    - stdin: "1600\n1200\n600"
+      stdout: "Deze foto kan je afdrukken op 6.773 x 5.08 cm.\n"
+  - testcases:
+    - stdin: "4000\n3000\n600"
+      stdout: "Deze foto kan je afdrukken op 16.933 x 12.7 cm.\n"
+  - testcases:
+    - stdin: "2592\n1944\n200"
+      stdout: "Deze foto kan je afdrukken op 32.918 x 24.689 cm.\n"
+  - testcases:
+    - stdin: "1600\n1200\n150"
+      stdout: "Deze foto kan je afdrukken op 27.093 x 20.32 cm.\n"
+  - testcases:
+    - stdin: "4000\n3000\n150"
+      stdout: "Deze foto kan je afdrukken op 67.733 x 50.8 cm.\n"
+  - testcases:
+    - stdin: "1600\n1200\n300"
+      stdout: "Deze foto kan je afdrukken op 13.547 x 10.16 cm.\n"
+  - testcases:
+    - stdin: "2592\n1944\n300"
+      stdout: "Deze foto kan je afdrukken op 21.946 x 16.459 cm.\n"
+  - testcases:
+    - stdin: "3840\n2160\n600"
+      stdout: "Deze foto kan je afdrukken op 16.256 x 9.144 cm.\n"
+  - testcases:
+    - stdin: "4000\n3000\n300"
+      stdout: "Deze foto kan je afdrukken op 33.867 x 25.4 cm.\n"
