@@ -1,18 +1,23 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Kinderdosis"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie",
+    "Modulo",
+    "Dieter Vanderfaeillie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "kNbWFMG9MsGwjSe69BnsQiSwT8mwjNGvvDcVrkcseR8Ya8_QRVRazZjQFTGFw8tW",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

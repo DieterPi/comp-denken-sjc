@@ -5,14 +5,14 @@ Indien men een goede dosering van een geneesmiddel wil bepalen voor een kind tus
 Clarke's regel werkt als volgt:
 
 $$
-    \text{dosis}_{\text{kind}} = \dfrac{\text{massa}_\text{kind}}{68,04} \cdot \text{dosis}_{\text{volwassene}}
+    \textsf{dosis}_{\textsf{kind}} = \dfrac{\textsf{massa}_\textsf{kind}}{68,04} \cdot \textsf{dosis}_{\textsf{volwassene}}
 $$
 
 ## Opgave
 Schrijf een programma dat de massa van het kind en de dosis voor een volwassene vraagt en vervolgens de kinderdosis afgerond op 1 cijfers na de komma op het scherm afdrukt.
 
 #### Voorbeeld
-Voor een kind van 13 kg en een dosis van 30 mg verschijnt er dat de kinderdosis 5,7 mg bedraagt.
+Voor een kind van `13` kg en een dosis van `30` mg verschijnt er dat de kinderdosis 5,7 mg bedraagt.
 ```
 kinderdosis: 5.7
 ```

@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "13\n30"
+      stdout: "kinderdosis: 5.7\n"
+  - testcases:
+    - stdin: "11\n55"
+      stdout: "kinderdosis: 8.9\n"
+  - testcases:
+    - stdin: "21\n100"
+      stdout: "kinderdosis: 30.9\n"
+  - testcases:
+    - stdin: "42\n100"
+      stdout: "kinderdosis: 61.7\n"
+  - testcases:
+    - stdin: "9\n70"
+      stdout: "kinderdosis: 9.3\n"
+  - testcases:
+    - stdin: "12\n40"
+      stdout: "kinderdosis: 7.1\n"
+  - testcases:
+    - stdin: "27\n20"
+      stdout: "kinderdosis: 7.9\n"
+  - testcases:
+    - stdin: "36\n25"
+      stdout: "kinderdosis: 13.2\n"
+  - testcases:
+    - stdin: "28\n55"
+      stdout: "kinderdosis: 22.6\n"
+  - testcases:
+    - stdin: "35\n25"
+      stdout: "kinderdosis: 12.9\n"
+  - testcases:
+    - stdin: "34\n55"
+      stdout: "kinderdosis: 27.5\n"
+  - testcases:
+    - stdin: "40\n40"
+      stdout: "kinderdosis: 23.5\n"
+  - testcases:
+    - stdin: "21\n30"
+      stdout: "kinderdosis: 9.3\n"
+  - testcases:
+    - stdin: "28\n25"
+      stdout: "kinderdosis: 10.3\n"
+  - testcases:
+    - stdin: "32\n60"
+      stdout: "kinderdosis: 28.2\n"
+  - testcases:
+    - stdin: "40\n65"
+      stdout: "kinderdosis: 38.2\n"
+  - testcases:
+    - stdin: "29\n45"
+      stdout: "kinderdosis: 19.2\n"
+  - testcases:
+    - stdin: "8\n40"
+      stdout: "kinderdosis: 4.7\n"
+  - testcases:
+    - stdin: "20\n50"
+      stdout: "kinderdosis: 14.7\n"
+  - testcases:
+    - stdin: "39\n80"
+      stdout: "kinderdosis: 45.9\n"
