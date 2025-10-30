@@ -19,7 +19,9 @@ Zo geldt bijvoorbeeld:
 - Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">8</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">8</span> = 17. 
 - Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">7</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">7</span> = 15. 
 - Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">5</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">5</span> = 11. 
-- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">1</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">1</span> = 3. Als je nu telkens opnieuw het NIO-nummer gaat bepalen dan blijf dit 3. 
+- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">1</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">1</span> = 3. 
+
+  Als je nu telkens opnieuw het NIO-nummer gaat bepalen dan blijf dit 3. 
 
 Er geldt dus dat 3 de NIO-limiet van 2025 is.
 
