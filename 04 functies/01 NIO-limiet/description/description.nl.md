@@ -12,7 +12,14 @@ In deze opgave wordt van een natuurlijk getal de **NIO-limiet** bepaald. Dat gaa
 
 - Dit kun je herhalen tot je steeds hetzelfde getal krijgt. Dat getal noemt men de **NIO-limiet** van het startgetal.
 
-Zo geldt bijvoorbeeld van 2025 dat het NIO-nummer 28 is. Het NIO-nummer van <span style="color:#FF8E27">2</span><span style="color:#2798ff">8</span> is 1 · <span style="color:#FF8E27">2</span> + 2 · <span style="color:#2798ff">8</span> = 18. Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">8</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">8</span> = 17. Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">7</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">7</span> = 15. Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">5</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">5</span> = 11. Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">1</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">1</span> = 3. Als je nu telkens opnieuw het NIO-nummer gaat bepalen dan blijf dit 3. 
+Zo geldt bijvoorbeeld:
+
+- Het NIO-nummer van 2025 is 28. 
+- Het NIO-nummer van <span style="color:#FF8E27">2</span><span style="color:#2798ff">8</span> is 1 · <span style="color:#FF8E27">2</span> + 2 · <span style="color:#2798ff">8</span> = 18. 
+- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">8</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">8</span> = 17. 
+- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">7</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">7</span> = 15. 
+- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">5</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">5</span> = 11. 
+- Het NIO-nummer van <span style="color:#FF8E27">1</span><span style="color:#2798ff">1</span> is 1 · <span style="color:#FF8E27">1</span> + 2 · <span style="color:#2798ff">1</span> = 3. Als je nu telkens opnieuw het NIO-nummer gaat bepalen dan blijf dit 3. 
 
 Er geldt dus dat 3 de NIO-limiet van 2025 is.
 
