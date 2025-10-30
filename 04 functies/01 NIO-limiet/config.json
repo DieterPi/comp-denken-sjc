@@ -18,5 +18,9 @@
     "functies",
     "while-lus"
   ],
-  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>"
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "internals": {
+    "token": "vVIvQyQ6Ra-ZHpqe57EuG86viIY24CNYgg-TdiYrMHzHDwPnajrcTz3yEAaWtAgY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
