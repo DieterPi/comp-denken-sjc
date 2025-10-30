@@ -1,0 +1,276 @@
+- tab: Feedback nio_nummer
+  contexts:
+  - testcases:
+    - expression: nio_nummer(5)
+      return: 5
+  - testcases:
+    - expression: nio_nummer(7)
+      return: 7
+  - testcases:
+    - expression: nio_nummer(17)
+      return: 15
+    - expression: nio_nummer(15)
+      return: 11
+    - expression: nio_nummer(11)
+      return: 3
+    - expression: nio_nummer(3)
+      return: 3
+  - testcases:
+    - expression: nio_nummer(41)
+      return: 6
+    - expression: nio_nummer(6)
+      return: 6
+  - testcases:
+    - expression: nio_nummer(42)
+      return: 8
+    - expression: nio_nummer(8)
+      return: 8
+  - testcases:
+    - expression: nio_nummer(54)
+      return: 13
+    - expression: nio_nummer(13)
+      return: 7
+    - expression: nio_nummer(7)
+      return: 7
+  - testcases:
+    - expression: nio_nummer(57)
+      return: 19
+    - expression: nio_nummer(19)
+      return: 19
+  - testcases:
+    - expression: nio_nummer(71)
+      return: 9
+    - expression: nio_nummer(9)
+      return: 9
+  - testcases:
+    - expression: nio_nummer(79)
+      return: 25
+    - expression: nio_nummer(25)
+      return: 12
+    - expression: nio_nummer(12)
+      return: 5
+    - expression: nio_nummer(5)
+      return: 5
+  - testcases:
+    - expression: nio_nummer(90)
+      return: 9
+    - expression: nio_nummer(9)
+      return: 9
+  - testcases:
+    - expression: nio_nummer(145)
+      return: 24
+    - expression: nio_nummer(24)
+      return: 10
+    - expression: nio_nummer(10)
+      return: 1
+    - expression: nio_nummer(1)
+      return: 1
+  - testcases:
+    - expression: nio_nummer(411)
+      return: 9
+    - expression: nio_nummer(9)
+      return: 9
+  - testcases:
+    - expression: nio_nummer(2025)
+      return: 28
+    - expression: nio_nummer(28)
+      return: 18
+    - expression: nio_nummer(18)
+      return: 17
+    - expression: nio_nummer(17)
+      return: 15
+    - expression: nio_nummer(15)
+      return: 11
+    - expression: nio_nummer(11)
+      return: 3
+    - expression: nio_nummer(3)
+      return: 3
+  - testcases:
+    - expression: nio_nummer(3651)
+      return: 34
+    - expression: nio_nummer(34)
+      return: 11
+    - expression: nio_nummer(11)
+      return: 3
+    - expression: nio_nummer(3)
+      return: 3
+  - testcases:
+    - expression: nio_nummer(4532)
+      return: 31
+    - expression: nio_nummer(31)
+      return: 5
+    - expression: nio_nummer(5)
+      return: 5
+  - testcases:
+    - expression: nio_nummer(5820)
+      return: 27
+    - expression: nio_nummer(27)
+      return: 16
+    - expression: nio_nummer(16)
+      return: 13
+    - expression: nio_nummer(13)
+      return: 7
+    - expression: nio_nummer(7)
+      return: 7
+  - testcases:
+    - expression: nio_nummer(8056)
+      return: 47
+    - expression: nio_nummer(47)
+      return: 18
+    - expression: nio_nummer(18)
+      return: 17
+    - expression: nio_nummer(17)
+      return: 15
+    - expression: nio_nummer(15)
+      return: 11
+    - expression: nio_nummer(11)
+      return: 3
+    - expression: nio_nummer(3)
+      return: 3
+  - testcases:
+    - expression: nio_nummer(10157)
+      return: 59
+    - expression: nio_nummer(59)
+      return: 23
+    - expression: nio_nummer(23)
+      return: 8
+    - expression: nio_nummer(8)
+      return: 8
+  - testcases:
+    - expression: nio_nummer(16789)
+      return: 111
+    - expression: nio_nummer(111)
+      return: 6
+    - expression: nio_nummer(6)
+      return: 6
+  - testcases:
+    - expression: nio_nummer(67582)
+      return: 77
+    - expression: nio_nummer(77)
+      return: 21
+    - expression: nio_nummer(21)
+      return: 4
+    - expression: nio_nummer(4)
+      return: 4
+  - testcases:
+    - expression: nio_nummer(83020)
+      return: 22
+    - expression: nio_nummer(22)
+      return: 6
+    - expression: nio_nummer(6)
+      return: 6
+  - testcases:
+    - expression: nio_nummer(95841)
+      return: 64
+    - expression: nio_nummer(64)
+      return: 14
+    - expression: nio_nummer(14)
+      return: 9
+    - expression: nio_nummer(9)
+      return: 9
+  - testcases:
+    - expression: nio_nummer(104506)
+      return: 69
+    - expression: nio_nummer(69)
+      return: 24
+    - expression: nio_nummer(24)
+      return: 10
+    - expression: nio_nummer(10)
+      return: 1
+    - expression: nio_nummer(1)
+      return: 1
+  - testcases:
+    - expression: nio_nummer(617899)
+      return: 160
+    - expression: nio_nummer(160)
+      return: 13
+    - expression: nio_nummer(13)
+      return: 7
+    - expression: nio_nummer(7)
+      return: 7
+  - testcases:
+    - expression: nio_nummer(903362)
+      return: 72
+    - expression: nio_nummer(72)
+      return: 11
+    - expression: nio_nummer(11)
+      return: 3
+    - expression: nio_nummer(3)
+      return: 3
+- tab: Feedback nio_limiet
+  contexts:
+  - testcases:
+    - expression: nio_limiet(5)
+      return: 5
+  - testcases:
+    - expression: nio_limiet(7)
+      return: 7
+  - testcases:
+    - expression: nio_limiet(17)
+      return: 3
+  - testcases:
+    - expression: nio_limiet(41)
+      return: 6
+  - testcases:
+    - expression: nio_limiet(42)
+      return: 8
+  - testcases:
+    - expression: nio_limiet(54)
+      return: 7
+  - testcases:
+    - expression: nio_limiet(57)
+      return: 19
+  - testcases:
+    - expression: nio_limiet(71)
+      return: 9
+  - testcases:
+    - expression: nio_limiet(79)
+      return: 5
+  - testcases:
+    - expression: nio_limiet(90)
+      return: 9
+  - testcases:
+    - expression: nio_limiet(145)
+      return: 1
+  - testcases:
+    - expression: nio_limiet(411)
+      return: 9
+  - testcases:
+    - expression: nio_limiet(2025)
+      return: 3
+  - testcases:
+    - expression: nio_limiet(3651)
+      return: 3
+  - testcases:
+    - expression: nio_limiet(4532)
+      return: 5
+  - testcases:
+    - expression: nio_limiet(5820)
+      return: 7
+  - testcases:
+    - expression: nio_limiet(8056)
+      return: 3
+  - testcases:
+    - expression: nio_limiet(10157)
+      return: 8
+  - testcases:
+    - expression: nio_limiet(16789)
+      return: 6
+  - testcases:
+    - expression: nio_limiet(67582)
+      return: 4
+  - testcases:
+    - expression: nio_limiet(83020)
+      return: 6
+  - testcases:
+    - expression: nio_limiet(95841)
+      return: 9
+  - testcases:
+    - expression: nio_limiet(104506)
+      return: 1
+  - testcases:
+    - expression: nio_limiet(617899)
+      return: 7
+  - testcases:
+    - expression: nio_limiet(903362)
+      return: 3

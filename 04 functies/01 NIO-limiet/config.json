@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "NIO-limiet"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python",
+    "Modulo",
+    "Voorwaardelijke herhaling",
+    "functies",
+    "while-lus"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>"
+}
