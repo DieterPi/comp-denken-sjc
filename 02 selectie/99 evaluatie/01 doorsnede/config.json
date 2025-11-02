@@ -6,6 +6,10 @@
       "nl": "Doorsnede"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
     "Python",
     "Selectie",
