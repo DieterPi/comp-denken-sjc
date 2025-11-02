@@ -1,0 +1,98 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '00000'
+      stdout: "Dit is 0 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00001'
+      stdout: "Dit is 1 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00010'
+      stdout: "Dit is 2 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00011'
+      stdout: "Dit is 3 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00100'
+      stdout: "Dit is 4 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00101'
+      stdout: "Dit is 5 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00110'
+      stdout: "Dit is 6 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '00111'
+      stdout: "Dit is 7 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01000'
+      stdout: "Dit is 8 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01001'
+      stdout: "Dit is 9 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01010'
+      stdout: "Dit is 10 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01011'
+      stdout: "Dit is 11 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01100'
+      stdout: "Dit is 12 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01101'
+      stdout: "Dit is 13 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01110'
+      stdout: "Dit is 14 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '01111'
+      stdout: "Dit is 15 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10000'
+      stdout: "Dit is 16 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10001'
+      stdout: "Dit is 17 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10010'
+      stdout: "Dit is 18 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10011'
+      stdout: "Dit is 19 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10100'
+      stdout: "Dit is 20 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10101'
+      stdout: "Dit is 21 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10110'
+      stdout: "Dit is 22 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '10111'
+      stdout: "Dit is 23 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11000'
+      stdout: "Dit is 24 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11001'
+      stdout: "Dit is 25 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11010'
+      stdout: "Dit is 26 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11011'
+      stdout: "Dit is 27 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11100'
+      stdout: "Dit is 28 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11101'
+      stdout: "Dit is 29 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11110'
+      stdout: "Dit is 30 in het decimale talstelsel\n"
+  - testcases:
+    - stdin: '11111'
+      stdout: "Dit is 31 in het decimale talstelsel\n"

@@ -1,18 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "5bits (oefening)"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
-  "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "IhKGzIgZ4V_--NxUTAYadHGsfviv_JgQviinIKP5xFdF3UkFyVfa3c2Y6nvkSBKS",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
