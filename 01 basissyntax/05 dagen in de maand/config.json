@@ -3,7 +3,7 @@
   "programming_language": "python",
   "description": {
     "names": {
-      "nl": "Dagen in een maand (oefening)"
+      "nl": "Dagen in een maand"
     }
   },
   "evaluation": {
@@ -12,7 +12,7 @@
   },
   "labels": [
     "Python",
-    "Sequentie"
+    "Selectie"
   ],
   "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
