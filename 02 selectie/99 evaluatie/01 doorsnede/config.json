@@ -1,17 +1,16 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
       "nl": "Doorsnede"
     }
   },
   "labels": [
-
+    "Python",
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "K_aE7m4HGZ6a4ntrmrzAsFa8ebjzQbbq_689DcwcH9mVFqnZDMApPDWs5pCxbVeA",

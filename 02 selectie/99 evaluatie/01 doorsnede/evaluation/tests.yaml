@@ -1,0 +1,122 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "3\n5\n-1\n4"
+      stdout: "De doorsnede van [ 3 , 5 ] en [ -1 , 4 ] is [ 3 , 4 ]\n"
+  - testcases:
+    - stdin: "-8\n0\n5\n10"
+      stdout: "De doorsnede van [ -8 , 0 ] en [ 5 , 10 ] is ledig\n"
+  - testcases:
+    - stdin: "-2\n6\n6\n7"
+      stdout: "De doorsnede van [ -2 , 6 ] en [ 6 , 7 ] is singleton 6\n"
+  - testcases:
+    - stdin: "-8\n9\n-7\n9"
+      stdout: "De doorsnede van [ -8 , 9 ] en [ -7 , 9 ] is [ -7 , 9 ]\n"
+  - testcases:
+    - stdin: "9\n11\n-4\n8"
+      stdout: "De doorsnede van [ 9 , 11 ] en [ -4 , 8 ] is ledig\n"
+  - testcases:
+    - stdin: "-14\n-1\n-8\n2"
+      stdout: "De doorsnede van [ -14 , -1 ] en [ -8 , 2 ] is [ -8 , -1 ]\n"
+  - testcases:
+    - stdin: "-11\n-7\n-13\n-4"
+      stdout: "De doorsnede van [ -11 , -7 ] en [ -13 , -4 ] is [ -11 , -7 ]\n"
+  - testcases:
+    - stdin: "-11\n-8\n-9\n10"
+      stdout: "De doorsnede van [ -11 , -8 ] en [ -9 , 10 ] is [ -9 , -8 ]\n"
+  - testcases:
+    - stdin: "-5\n15\n-12\n5"
+      stdout: "De doorsnede van [ -5 , 15 ] en [ -12 , 5 ] is [ -5 , 5 ]\n"
+  - testcases:
+    - stdin: "-9\n13\n-7\n13"
+      stdout: "De doorsnede van [ -9 , 13 ] en [ -7 , 13 ] is [ -7 , 13 ]\n"
+  - testcases:
+    - stdin: "-10\n0\n-12\n-1"
+      stdout: "De doorsnede van [ -10 , 0 ] en [ -12 , -1 ] is [ -10 , -1 ]\n"
+  - testcases:
+    - stdin: "-9\n8\n-8\n4"
+      stdout: "De doorsnede van [ -9 , 8 ] en [ -8 , 4 ] is [ -8 , 4 ]\n"
+  - testcases:
+    - stdin: "-3\n12\n-9\n12"
+      stdout: "De doorsnede van [ -3 , 12 ] en [ -9 , 12 ] is [ -3 , 12 ]\n"
+  - testcases:
+    - stdin: "3\n7\n10\n12"
+      stdout: "De doorsnede van [ 3 , 7 ] en [ 10 , 12 ] is ledig\n"
+  - testcases:
+    - stdin: "12\n14\n-14\n4"
+      stdout: "De doorsnede van [ 12 , 14 ] en [ -14 , 4 ] is ledig\n"
+  - testcases:
+    - stdin: "-11\n15\n-6\n13"
+      stdout: "De doorsnede van [ -11 , 15 ] en [ -6 , 13 ] is [ -6 , 13 ]\n"
+  - testcases:
+    - stdin: "-12\n8\n-15\n13"
+      stdout: "De doorsnede van [ -12 , 8 ] en [ -15 , 13 ] is [ -12 , 8 ]\n"
+  - testcases:
+    - stdin: "-12\n0\n-9\n3"
+      stdout: "De doorsnede van [ -12 , 0 ] en [ -9 , 3 ] is [ -9 , 0 ]\n"
+  - testcases:
+    - stdin: "-14\n8\n2\n13"
+      stdout: "De doorsnede van [ -14 , 8 ] en [ 2 , 13 ] is [ 2 , 8 ]\n"
+  - testcases:
+    - stdin: "8\n15\n-5\n9"
+      stdout: "De doorsnede van [ 8 , 15 ] en [ -5 , 9 ] is [ 8 , 9 ]\n"
+  - testcases:
+    - stdin: "-10\n-3\n-15\n15"
+      stdout: "De doorsnede van [ -10 , -3 ] en [ -15 , 15 ] is [ -10 , -3 ]\n"
+  - testcases:
+    - stdin: "-14\n1\n4\n8"
+      stdout: "De doorsnede van [ -14 , 1 ] en [ 4 , 8 ] is ledig\n"
+  - testcases:
+    - stdin: "1\n7\n-14\n-4"
+      stdout: "De doorsnede van [ 1 , 7 ] en [ -14 , -4 ] is ledig\n"
+  - testcases:
+    - stdin: "-10\n-6\n-3\n2"
+      stdout: "De doorsnede van [ -10 , -6 ] en [ -3 , 2 ] is ledig\n"
+  - testcases:
+    - stdin: "0\n3\n-11\n-9"
+      stdout: "De doorsnede van [ 0 , 3 ] en [ -11 , -9 ] is ledig\n"
+  - testcases:
+    - stdin: "-8\n-4\n2\n12"
+      stdout: "De doorsnede van [ -8 , -4 ] en [ 2 , 12 ] is ledig\n"
+  - testcases:
+    - stdin: "-13\n-2\n-10\n12"
+      stdout: "De doorsnede van [ -13 , -2 ] en [ -10 , 12 ] is [ -10 , -2 ]\n"
+  - testcases:
+    - stdin: "-5\n-1\n-10\n5"
+      stdout: "De doorsnede van [ -5 , -1 ] en [ -10 , 5 ] is [ -5 , -1 ]\n"
+  - testcases:
+    - stdin: "-5\n12\n-12\n2"
+      stdout: "De doorsnede van [ -5 , 12 ] en [ -12 , 2 ] is [ -5 , 2 ]\n"
+  - testcases:
+    - stdin: "-11\n7\n3\n9"
+      stdout: "De doorsnede van [ -11 , 7 ] en [ 3 , 9 ] is [ 3 , 7 ]\n"
+  - testcases:
+    - stdin: "-7\n14\n-8\n-7"
+      stdout: "De doorsnede van [ -7 , 14 ] en [ -8 , -7 ] is singleton -7\n"
+  - testcases:
+    - stdin: "3\n14\n-9\n-4"
+      stdout: "De doorsnede van [ 3 , 14 ] en [ -9 , -4 ] is ledig\n"
+  - testcases:
+    - stdin: "6\n13\n-8\n4"
+      stdout: "De doorsnede van [ 6 , 13 ] en [ -8 , 4 ] is ledig\n"
+  - testcases:
+    - stdin: "1\n5\n-11\n11"
+      stdout: "De doorsnede van [ 1 , 5 ] en [ -11 , 11 ] is [ 1 , 5 ]\n"
+  - testcases:
+    - stdin: "3\n10\n-2\n15"
+      stdout: "De doorsnede van [ 3 , 10 ] en [ -2 , 15 ] is [ 3 , 10 ]\n"
+  - testcases:
+    - stdin: "6\n10\n-7\n6"
+      stdout: "De doorsnede van [ 6 , 10 ] en [ -7 , 6 ] is singleton 6\n"
+  - testcases:
+    - stdin: "3\n7\n-3\n3"
+      stdout: "De doorsnede van [ 3 , 7 ] en [ -3 , 3 ] is singleton 3\n"
+  - testcases:
+    - stdin: "-11\n5\n-14\n-12"
+      stdout: "De doorsnede van [ -11 , 5 ] en [ -14 , -12 ] is ledig\n"
+  - testcases:
+    - stdin: "-4\n1\n-14\n4"
+      stdout: "De doorsnede van [ -4 , 1 ] en [ -14 , 4 ] is [ -4 , 1 ]\n"
+  - testcases:
+    - stdin: "-5\n11\n-13\n-1"
+      stdout: "De doorsnede van [ -5 , 11 ] en [ -13 , -1 ] is [ -5 , -1 ]\n"

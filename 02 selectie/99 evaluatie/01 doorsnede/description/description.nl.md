@@ -4,22 +4,24 @@
 > $$A \cap B = \{ x: x\in A \text{ en } x \in B \}$$
 
 ## Opgave
-Schrijf een functie `doorsnede( interval1 , interval2 )` die gegeven twee **gesloten** intervallen voor de juiste uitvoer zorgt.
+Vraag aan de gebruiker de grenzen van twee gesloten intervallen en bepaal vervolgens de doorsnede van deze intervallen.
 
-De *gesloten* intervallen worden voorgesteld door middel van *tupels*.
-
+Er moeten dus **vier** getallen gevraagd worden aan de gebruiker.
 
 #### Voorbeelden
+
+Voor de intervallen [`3`, `5`] en [`-1`, `4`] verschijnt:
 ```
->>> doorsnede( ( 3, 5 ), ( -1, 4 ) )
 De doorsnede van [ 3 , 5 ] en [ -1 , 4 ] is [ 3 , 4 ]
 ```
+
+Voor de intervallen [`-8`, `0`] en [`5`, `10`] verschijnt:
 ```
->>> doorsnede( ( -8, 0 ), ( 5, 10 ) )
 De doorsnede van [ -8 , 0 ] en [ 5 , 10 ] is ledig
 ```
+
+Voor de intervallen [`-2`, `6`] en [`6`, `7`] verschijnt:
 ```
->>> doorsnede( ( -2, 6 ), ( 6, 7 ) )
 De doorsnede van [ -2 , 6 ] en [ 6 , 7 ] is singleton 6
 ```
 
