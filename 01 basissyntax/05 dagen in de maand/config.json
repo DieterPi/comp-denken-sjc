@@ -1,18 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
       "nl": "Dagen in een maand (oefening)"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
-  "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "JyXW4c9Q6qu_z6Vy9FsgEi54_pckBNq4g3QDtbJsmufnhc7I77gzSQABMSCNImkh",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

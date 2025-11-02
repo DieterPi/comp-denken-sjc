@@ -1,0 +1,38 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "Maand 1 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "Maand 2 bevat 28 dagen.\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "Maand 3 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Maand 4 bevat 30 dagen.\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Maand 5 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Maand 6 bevat 30 dagen.\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "Maand 7 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "Maand 8 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "Maand 9 bevat 30 dagen.\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "Maand 10 bevat 31 dagen.\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Maand 11 bevat 30 dagen.\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "Maand 12 bevat 31 dagen.\n"
