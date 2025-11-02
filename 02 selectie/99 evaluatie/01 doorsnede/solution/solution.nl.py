@@ -7,7 +7,6 @@ d = int(input("Geef de tweede bovengrens in: "))
 e = max(a,b)
 f = min(c,d)
 
-print()
 if e < f:
     print('De doorsnede van [',a ,',',c,'] en [', b,',',d,'] is [',e, ',',f,']')
 elif e == f:

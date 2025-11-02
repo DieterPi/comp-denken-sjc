@@ -6,7 +6,7 @@
 ## Opgave
 Vraag aan de gebruiker de grenzen van twee gesloten intervallen en bepaal vervolgens de doorsnede van deze intervallen.
 
-Er moeten dus **vier** getallen gevraagd worden aan de gebruiker.
+Er moeten dus **vier** getallen gevraagd worden aan de gebruiker. Vraag in volgorde naar de onder- en bovengrens van het eerste interval en **daarna** de onder- en bovengrens van het tweede interval.
 
 #### Voorbeelden
 
