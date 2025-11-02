@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "90\n25"
+      stdout: "De oorspronkelijke prijs was € 120.0\n"
+  - testcases:
+    - stdin: "45.15\n30"
+      stdout: "De oorspronkelijke prijs was € 64.5\n"
+  - testcases:
+    - stdin: "149.65\n60"
+      stdout: "De oorspronkelijke prijs was € 374.12\n"
+  - testcases:
+    - stdin: "126.06\n70"
+      stdout: "De oorspronkelijke prijs was € 420.2\n"
+  - testcases:
+    - stdin: "65.46\n55"
+      stdout: "De oorspronkelijke prijs was € 145.47\n"
+  - testcases:
+    - stdin: "112.76\n65"
+      stdout: "De oorspronkelijke prijs was € 322.17\n"
+  - testcases:
+    - stdin: "183.99\n15"
+      stdout: "De oorspronkelijke prijs was € 216.46\n"
+  - testcases:
+    - stdin: "157.79\n15"
+      stdout: "De oorspronkelijke prijs was € 185.64\n"
+  - testcases:
+    - stdin: "46.83\n35"
+      stdout: "De oorspronkelijke prijs was € 72.05\n"
+  - testcases:
+    - stdin: "24.23\n45"
+      stdout: "De oorspronkelijke prijs was € 44.05\n"
+  - testcases:
+    - stdin: "27.32\n35"
+      stdout: "De oorspronkelijke prijs was € 42.03\n"
+  - testcases:
+    - stdin: "149.78\n25"
+      stdout: "De oorspronkelijke prijs was € 199.71\n"
+  - testcases:
+    - stdin: "106.9\n10"
+      stdout: "De oorspronkelijke prijs was € 118.78\n"
+  - testcases:
+    - stdin: "102.31\n50"
+      stdout: "De oorspronkelijke prijs was € 204.62\n"
+  - testcases:
+    - stdin: "43.0\n15"
+      stdout: "De oorspronkelijke prijs was € 50.59\n"
+  - testcases:
+    - stdin: "86.99\n40"
+      stdout: "De oorspronkelijke prijs was € 144.98\n"
+  - testcases:
+    - stdin: "175.86\n50"
+      stdout: "De oorspronkelijke prijs was € 351.72\n"
+  - testcases:
+    - stdin: "169.53\n30"
+      stdout: "De oorspronkelijke prijs was € 242.19\n"
+  - testcases:
+    - stdin: "88.79\n65"
+      stdout: "De oorspronkelijke prijs was € 253.69\n"
+  - testcases:
+    - stdin: "29.97\n25"
+      stdout: "De oorspronkelijke prijs was € 39.96\n"

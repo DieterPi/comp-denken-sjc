@@ -6,6 +6,7 @@ Inkopen doen tijdens de solden kan nogal verwarrend zijn, kortingen van 10%, 20%
 Schrijf een programma dat aan een gebruiker een **kortingsprijs** vraagt en het **kortingspercentage**. Daarna berekent het programma hoeveel de **oorspronkelijke prijs** was en drukt het deze af op het scherm. Rond af op 2 cijfers na de komma.
 
 #### Voorbeelden
+
 Stel dat een item € 90 kost en er was een korting van 25%. Dan leidt achtereenvolgende invoer van `90` en `25` tot de uitvoer:
 ```
 De oorspronkelijke prijs was € 120.0
