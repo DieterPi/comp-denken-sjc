@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '11000'
+      stdout: "Belastingen: € 2750.0\n"
+  - testcases:
+    - stdin: '12000'
+      stdout: "Belastingen: € 3000.0\n"
+  - testcases:
+    - stdin: '13000'
+      stdout: "Belastingen: € 3250.0\n"
+  - testcases:
+    - stdin: '14000'
+      stdout: "Belastingen: € 3569.0\n"
+  - testcases:
+    - stdin: '16000'
+      stdout: "Belastingen: € 4369.0\n"
+  - testcases:
+    - stdin: '17000'
+      stdout: "Belastingen: € 4769.0\n"
+  - testcases:
+    - stdin: '19000'
+      stdout: "Belastingen: € 5569.0\n"
+  - testcases:
+    - stdin: '24000'
+      stdout: "Belastingen: € 7574.0\n"
+  - testcases:
+    - stdin: '26000'
+      stdout: "Belastingen: € 8474.0\n"
+  - testcases:
+    - stdin: '31000'
+      stdout: "Belastingen: € 10724.0\n"
+  - testcases:
+    - stdin: '32000'
+      stdout: "Belastingen: € 11174.0\n"
+  - testcases:
+    - stdin: '33000'
+      stdout: "Belastingen: € 11624.0\n"
+  - testcases:
+    - stdin: '40000'
+      stdout: "Belastingen: € 14774.0\n"
+  - testcases:
+    - stdin: '41000'
+      stdout: "Belastingen: € 15224.0\n"
+  - testcases:
+    - stdin: '42000'
+      stdout: "Belastingen: € 15706.0\n"
+  - testcases:
+    - stdin: '43000'
+      stdout: "Belastingen: € 16206.0\n"
+  - testcases:
+    - stdin: '44000'
+      stdout: "Belastingen: € 16706.0\n"
+  - testcases:
+    - stdin: '47000'
+      stdout: "Belastingen: € 18206.0\n"
+  - testcases:
+    - stdin: '48000'
+      stdout: "Belastingen: € 18706.0\n"
+  - testcases:
+    - stdin: '50000'
+      stdout: "Belastingen: € 19706.0\n"
