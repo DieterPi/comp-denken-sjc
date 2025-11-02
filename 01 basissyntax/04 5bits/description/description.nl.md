@@ -3,7 +3,7 @@ Het binaire talstelsel vormt de basis van elk hedendaags computersysteem. Het is
 Er geldt bijvoorbeeld dat het binaire getal 01001 gelijk is aan het decimale getal 9, want
 
 $$
-0\mathbf{1}00\mathbf{1} = 0\cdot 2^4 + \mathbf{1}\cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + \mathbf{1} \cdot 2^0 = 9
+\mathsf{0\mathbf{1}00\mathbf{1} = 0\cdot 2^4 + \mathbf{1}\cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + \mathbf{1} \cdot 2^0 = 9}
 $$
 
 Hier zie je hoe men tot 31 kan tellen met behulp van 5 bits (5 posities voor 0 en 1).
