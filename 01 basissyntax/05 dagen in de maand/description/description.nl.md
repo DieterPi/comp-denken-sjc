@@ -3,7 +3,7 @@
 Schrijf een functie `aantal_dagen()` met het maandnummer (1-12) als parameter dat op het scherm **afdrukt** hoeveel dagen deze maand bezit. 
 Hanteer hierbij 28 dagen voor de maand februari.
 
-![Jaarkalender.](media/month.jpg "Foto door Behnam Norouzi op Unsplash."){:data-caption="Jaarkalender." width="355px"}
+![Jaarkalender.](media/towfiqu-barbhuiya.jpg "Foto door Towfiqu Barbhuiya op Unsplash."){:data-caption="Jaarkalender." width="30%"}
 
 #### Voorbeelden
 Voor januari verschijnt:
