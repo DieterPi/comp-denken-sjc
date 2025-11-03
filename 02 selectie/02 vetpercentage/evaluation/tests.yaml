@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15.8\n8.7\n21"
+      stdout: "Het vetpercentage bedraagt 13.5 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "27.8\n14.2\n21"
+      stdout: "Het vetpercentage bedraagt 19.14 %.\nDit vetpercentage is te hoog.\n"
+  - testcases:
+    - stdin: "27.4\n11.3\n47"
+      stdout: "Het vetpercentage bedraagt 18.47 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "28.6\n12.7\n27"
+      stdout: "Het vetpercentage bedraagt 19.19 %.\nDit vetpercentage is te hoog.\n"
+  - testcases:
+    - stdin: "28.7\n6.2\n62"
+      stdout: "Het vetpercentage bedraagt 18.08 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "8.6\n14.6\n81"
+      stdout: "Er zijn betere methodes om het vetpercentage van deze persoon te berekenen.\n"
+  - testcases:
+    - stdin: "9.1\n14.8\n65"
+      stdout: "Het vetpercentage bedraagt 11.99 %.\nDit vetpercentage is te laag.\n"
+  - testcases:
+    - stdin: "27.5\n7.2\n23"
+      stdout: "Het vetpercentage bedraagt 17.78 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "20.3\n10.5\n50"
+      stdout: "Het vetpercentage bedraagt 15.56 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "9.9\n5.4\n53"
+      stdout: "Het vetpercentage bedraagt 10.68 %.\nDit vetpercentage is te laag.\n"
+  - testcases:
+    - stdin: "23.1\n11.3\n57"
+      stdout: "Het vetpercentage bedraagt 16.79 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "18.3\n12.2\n34"
+      stdout: "Het vetpercentage bedraagt 15.08 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "14.6\n13.1\n69"
+      stdout: "Het vetpercentage bedraagt 13.81 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "21.2\n13.8\n76"
+      stdout: "Het vetpercentage bedraagt 16.49 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "28.2\n8.7\n46"
+      stdout: "Het vetpercentage bedraagt 18.32 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "12.0\n9.4\n69"
+      stdout: "Het vetpercentage bedraagt 12.17 %.\nDit vetpercentage is te laag.\n"
+  - testcases:
+    - stdin: "14.4\n12.1\n53"
+      stdout: "Het vetpercentage bedraagt 13.56 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "25.8\n5.7\n47"
+      stdout: "Het vetpercentage bedraagt 16.85 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "31.3\n9.6\n23"
+      stdout: "Het vetpercentage bedraagt 19.7 %.\nDit vetpercentage is te hoog.\n"
+  - testcases:
+    - stdin: "25.5\n11.4\n70"
+      stdout: "Het vetpercentage bedraagt 17.74 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "14.9\n11.2\n51"
+      stdout: "Het vetpercentage bedraagt 13.59 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "27.1\n8.0\n43"
+      stdout: "Het vetpercentage bedraagt 17.77 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "16.5\n6.1\n59"
+      stdout: "Het vetpercentage bedraagt 13.32 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "33.6\n11.5\n79"
+      stdout: "Het vetpercentage bedraagt 20.95 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "29.1\n13.1\n31"
+      stdout: "Het vetpercentage bedraagt 19.46 %.\nDit vetpercentage is te hoog.\n"
+  - testcases:
+    - stdin: "27.3\n7.4\n54"
+      stdout: "Het vetpercentage bedraagt 17.74 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "21.9\n9.0\n43"
+      stdout: "Het vetpercentage bedraagt 15.91 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "31.9\n13.9\n18"
+      stdout: "Er zijn betere methodes om het vetpercentage van deze persoon te berekenen.\n"
+  - testcases:
+    - stdin: "27.3\n12.1\n60"
+      stdout: "Het vetpercentage bedraagt 18.57 %.\nDit is een gezond vetpercentage.\n"
+  - testcases:
+    - stdin: "27.6\n12.7\n60"
+      stdout: "Het vetpercentage bedraagt 18.8 %.\nDit is een gezond vetpercentage.\n"

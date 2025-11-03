@@ -2,20 +2,18 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Vetpercentage (oefening)"
+      "nl": "Vetpercentage"
     }
   },
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options": {
-      "mode": "batch",
-      "allow_fallback": true
-    }
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Python",
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "aSaS3zcF2IiTeKkbgs9QgjZE-D2tgdVZjbYb3RBAEWJkzVykH3HkPZbYAJEmraeP",

@@ -14,32 +14,40 @@ $$
 \mathsf{ \dfrac{4,95}{BD} - 4,50 }
 $$
 
-Het hangt van de leeftijd af om te besluiten of dit te hoog of te laag is. Onderstaande tabel wordt gebruikt bij mannen. Bij mannen jonger dan 20 en ouder dan 80 moet het vetpercentage op een andere manier berekend worden.
+Het hangt van de leeftijd af om te besluiten of dit te hoog of te laag is. Onderstaande tabel wordt gebruikt bij mannen. Bij mannen jonger dan 20 of ouder dan 80 moet het vetpercentage op een andere manier berekend worden.
 
-| Leeftijd | Gezonde percentages |
-|:--------:|-------------|
-| 20 - 39  | 8% - 19% |
-| 40 - 59 | 11% - 21%|
-| 60 - 79 | 13% - 24% |
+| Leeftijd  | Gezonde percentages |
+|:---------:|---------------------|
+| 20 - 39   | 8% - 19%            |
+| 40 - 59   | 11% - 21%           |
+| 60 - 79   | 13% - 24%           |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `vetpercentage( ab, th, leeftijd )` die gegeven de twee metingen van de huidplooien het vetpercentage afdrukt. Daarnaast wordt ook bepaald of de persoon een te hoog of te  laag vetpercentage heeft. Je mag ervan uitgaan dat de gegevens van mannen afkomstig zijn.
+
+Schrijf een programma dat de buikhuidplooi `ab`, de huidplooi van het bovenbeen `th` en de leeftijd van een persoon vraagt en vervolgens het vetpercentage afdrukt.
+
+Bepaal daarna of deze persoon een te hoog of te laag vetpercentage heeft. Je mag ervan uitgaan dat de gegevens van mannen afkomstig zijn.
 
 #### Voorbeeld
+
+Bij een man met een buikhuidplooi van `15.8` mm, bovenbeen huidplooi van `8.7` mm van `21` jaar verschijnt er:
+
 ```
->>> vetpercentage( 15.8, 8.7, 21 )
 Het vetpercentage bedraagt 13.5 %.
 Dit is een gezond vetpercentage.
 ```
 
+
+Bij een man met een buikhuidplooi van `27.8` mm, bovenbeen huidplooi van `14.2` mm van `21` jaar verschijnt er:
+
 ```
->>> vetpercentage( 27.8, 14.2, 21 )
 Het vetpercentage bedraagt 19.14 %.
 Dit vetpercentage is te hoog.
 ```
 
+Bij een man met een buikhuidplooi van `11.0` mm, bovenbeen huidplooi van `12.8` mm van `18` jaar verschijnt er:
+
 ```
->>> vetpercentage( 11.0, 12.8, 18 )
 Er zijn betere methodes om het vetpercentage van deze persoon te berekenen.
 ```
