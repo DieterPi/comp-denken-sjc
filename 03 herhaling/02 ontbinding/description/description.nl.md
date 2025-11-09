@@ -12,6 +12,7 @@ Men kan nu uit elk natuurlijk getal `n` een nieuw getal (we noemen dit het NIO-g
 
 - Indien het getal priem is, vervang je het getal door `n + 1`
 - Indien het getal niet priem is, dan beschouw je de ontbinding in priemfactoren. Vervolgens vervang je in deze vermenigvuldiging elk priemgetal `p` door `p + 1`.
+  
   Zo wordt het NIO-getal van 60 berekend via (2 + 1) · (2 + 1) · (3 + 1) · (5 + 1) = 216.
 
 ## Opgave
