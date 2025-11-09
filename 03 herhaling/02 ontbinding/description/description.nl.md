@@ -1,8 +1,8 @@
-## Gegevens
+## Gegeven
 
 De hoofdstelling van de rekenkunde is een fundamentele stelling uit de wiskunde. Deze gaat als volgt:
 
-{: .callout.callout-succes}
+{: .callout.callout-success}
 > #### De hoofdstelling van de rekenkunde
 > Elk natuurlijk getal (> 1) dat niet priemgetal is, kan op een unieke manier worden ontbonden als product van priemgetallen (op volgorde na).
 
