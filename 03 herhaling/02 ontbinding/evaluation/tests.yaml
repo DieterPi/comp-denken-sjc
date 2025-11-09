@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '7'
+      stdout: "Het NIO-getal van 7 is: 8\n"
+  - testcases:
+    - stdin: '26'
+      stdout: "Het NIO-getal van 26 is: 42\n"
+  - testcases:
+    - stdin: '43'
+      stdout: "Het NIO-getal van 43 is: 44\n"
+  - testcases:
+    - stdin: '60'
+      stdout: "Het NIO-getal van 60 is: 216\n"
+  - testcases:
+    - stdin: '81'
+      stdout: "Het NIO-getal van 81 is: 256\n"
+  - testcases:
+    - stdin: '104'
+      stdout: "Het NIO-getal van 104 is: 378\n"
+  - testcases:
+    - stdin: '127'
+      stdout: "Het NIO-getal van 127 is: 128\n"
+  - testcases:
+    - stdin: '154'
+      stdout: "Het NIO-getal van 154 is: 288\n"
+  - testcases:
+    - stdin: '236'
+      stdout: "Het NIO-getal van 236 is: 540\n"
+  - testcases:
+    - stdin: '260'
+      stdout: "Het NIO-getal van 260 is: 756\n"
+  - testcases:
+    - stdin: '345'
+      stdout: "Het NIO-getal van 345 is: 576\n"
+  - testcases:
+    - stdin: '360'
+      stdout: "Het NIO-getal van 360 is: 2592\n"
+  - testcases:
+    - stdin: '508'
+      stdout: "Het NIO-getal van 508 is: 1152\n"
+  - testcases:
+    - stdin: '523'
+      stdout: "Het NIO-getal van 523 is: 524\n"
+  - testcases:
+    - stdin: '529'
+      stdout: "Het NIO-getal van 529 is: 576\n"
+  - testcases:
+    - stdin: '602'
+      stdout: "Het NIO-getal van 602 is: 1056\n"
+  - testcases:
+    - stdin: '605'
+      stdout: "Het NIO-getal van 605 is: 864\n"
+  - testcases:
+    - stdin: '622'
+      stdout: "Het NIO-getal van 622 is: 936\n"
+  - testcases:
+    - stdin: '650'
+      stdout: "Het NIO-getal van 650 is: 1512\n"
+  - testcases:
+    - stdin: '739'
+      stdout: "Het NIO-getal van 739 is: 740\n"
+  - testcases:
+    - stdin: '750'
+      stdout: "Het NIO-getal van 750 is: 2592\n"
+  - testcases:
+    - stdin: '781'
+      stdout: "Het NIO-getal van 781 is: 864\n"
+  - testcases:
+    - stdin: '785'
+      stdout: "Het NIO-getal van 785 is: 948\n"
+  - testcases:
+    - stdin: '794'
+      stdout: "Het NIO-getal van 794 is: 1194\n"
+  - testcases:
+    - stdin: '862'
+      stdout: "Het NIO-getal van 862 is: 1296\n"
+  - testcases:
+    - stdin: '899'
+      stdout: "Het NIO-getal van 899 is: 960\n"
+  - testcases:
+    - stdin: '934'
+      stdout: "Het NIO-getal van 934 is: 1404\n"
+  - testcases:
+    - stdin: '970'
+      stdout: "Het NIO-getal van 970 is: 1764\n"
+  - testcases:
+    - stdin: '980'
+      stdout: "Het NIO-getal van 980 is: 3456\n"
+  - testcases:
+    - stdin: '985'
+      stdout: "Het NIO-getal van 985 is: 1188\n"

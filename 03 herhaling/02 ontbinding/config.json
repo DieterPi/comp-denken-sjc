@@ -1,18 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "BMI (oefening)"
+      "nl": "NIO-getal"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Modulo",
+    "Voorwaardelijke herhaling",
+    "while-lus"
   ],
-  "access": "public",
+  "contact": "Dieter vanderfaeillie <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "P_Js386HXWnxUhEDBqgVreUYwx768h4pUvAA6fNyNNNHnFKqIgqFn9WNs8nFZqSS",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
