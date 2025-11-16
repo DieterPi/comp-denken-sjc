@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Discriminant (oefening)"
+      "nl": "Rechthoekige cake"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Lijsten",
+    "for-lus",
+    "begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "mxfg8u2HqYqPb2zQZWFSjBNsvkrDqYyABgDuTiDYyvs4NySDyQ8MsxmamgWsbj7p",
