@@ -1,15 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Datatypes en variabelen"
+      "nl": "Nieuwe dag"
     }
   },
-  "labels": [ ],
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python",
+    "Selectie"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "R3Aisr4ZxC_rZhWtiH-mC_Wp6BMUSVdJ-C3HIfK8Fi8ru4GRqfstcqcAqUkhCxeg",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
