@@ -1,0 +1,24 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Snoepjes kopen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python",
+    "Sequentie",
+    "import math"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "access": "public",
+  "internals": {
+    "token": "XiZ3xmGAKAwYAaNkuVSIgi3RN7U3iRH7vP-3_AaGYTPRWqWs7keky_y6eQU_qqy6",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

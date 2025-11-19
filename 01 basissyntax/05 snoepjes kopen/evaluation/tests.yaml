@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "10\n1\n32"
+      stdout: "Totale prijs: 13 euro 20 eurocent.\n"
+  - testcases:
+    - stdin: "317\n2\n6"
+      stdout: "Totale prijs: 653 euro 2 eurocent.\n"
+  - testcases:
+    - stdin: "747\n0\n81"
+      stdout: "Totale prijs: 605 euro 7 eurocent.\n"
+  - testcases:
+    - stdin: "613\n1\n97"
+      stdout: "Totale prijs: 1207 euro 61 eurocent.\n"
+  - testcases:
+    - stdin: "268\n4\n65"
+      stdout: "Totale prijs: 1246 euro 20 eurocent.\n"
+  - testcases:
+    - stdin: "610\n5\n65"
+      stdout: "Totale prijs: 3446 euro 50 eurocent.\n"
+  - testcases:
+    - stdin: "89\n2\n15"
+      stdout: "Totale prijs: 191 euro 35 eurocent.\n"
+  - testcases:
+    - stdin: "162\n2\n3"
+      stdout: "Totale prijs: 328 euro 86 eurocent.\n"
+  - testcases:
+    - stdin: "988\n3\n5"
+      stdout: "Totale prijs: 3013 euro 40 eurocent.\n"
+  - testcases:
+    - stdin: "797\n2\n92"
+      stdout: "Totale prijs: 2327 euro 24 eurocent.\n"
+  - testcases:
+    - stdin: "892\n1\n61"
+      stdout: "Totale prijs: 1436 euro 12 eurocent.\n"
+  - testcases:
+    - stdin: "564\n0\n58"
+      stdout: "Totale prijs: 327 euro 12 eurocent.\n"
+  - testcases:
+    - stdin: "236\n4\n16"
+      stdout: "Totale prijs: 981 euro 76 eurocent.\n"
+  - testcases:
+    - stdin: "271\n0\n47"
+      stdout: "Totale prijs: 127 euro 37 eurocent.\n"
+  - testcases:
+    - stdin: "47\n3\n35"
+      stdout: "Totale prijs: 157 euro 45 eurocent.\n"
+  - testcases:
+    - stdin: "582\n5\n39"
+      stdout: "Totale prijs: 3136 euro 98 eurocent.\n"
+  - testcases:
+    - stdin: "401\n1\n91"
+      stdout: "Totale prijs: 765 euro 91 eurocent.\n"
+  - testcases:
+    - stdin: "66\n1\n31"
+      stdout: "Totale prijs: 86 euro 46 eurocent.\n"
+  - testcases:
+    - stdin: "232\n4\n51"
+      stdout: "Totale prijs: 1046 euro 32 eurocent.\n"
+  - testcases:
+    - stdin: "511\n1\n66"
+      stdout: "Totale prijs: 848 euro 26 eurocent.\n"
