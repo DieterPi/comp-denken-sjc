@@ -1,6 +1,6 @@
 ## Opgave
 
-Bereken de totaalprijs van een aantal snoepjes indien je totale aantal bestelde snoepjes en de kostprijs per snoepje kent.
+Bereken de totaalprijs van een aantal snoepjes indien je het totale aantal bestelde snoepjes en de kostprijs per snoepje kent.
 
 ![Foto door Luis Aguila op Unsplash.](media/luis-aguila.jpg "Foto door Luis Aguila op Unsplash."){:data-caption="Foto door Luis Aguila op Unsplash." width="40%"}
 
