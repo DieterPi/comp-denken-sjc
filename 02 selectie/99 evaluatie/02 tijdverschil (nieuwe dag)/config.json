@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Fahrenheit (oefening)"
+      "nl": "Tijdverschil"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Selectie",
+    "Modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "nr2AYSbKI48257GBkf6QszdbKhapym_Ku7R2wpC3tbyjqwGKB7bGjIufSvMfsidW",
