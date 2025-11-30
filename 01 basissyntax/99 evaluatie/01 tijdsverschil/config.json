@@ -1,20 +1,24 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Basisfuncties"
+      "nl": "Tijdverschil"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie",
+    "Modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "access": "public",
   "internals": {
     "token": "IF9II3ahWkX8a_MbAkcByJjwrkJHzHMZTGUaxB-kkR9WYW5_jfySZtIQGp_i3BmS",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "access": "public"
+  }
 }

@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "14\n0\n16\n20"
+      stdout: "Verstreken tijd: 2 uur en 20 minuten.\n"
+  - testcases:
+    - stdin: "12\n0\n12\n15"
+      stdout: "Verstreken tijd: 0 uur en 15 minuten.\n"
+  - testcases:
+    - stdin: "23\n6\n23\n54"
+      stdout: "Verstreken tijd: 0 uur en 48 minuten.\n"
+  - testcases:
+    - stdin: "8\n49\n10\n48"
+      stdout: "Verstreken tijd: 1 uur en 59 minuten.\n"
+  - testcases:
+    - stdin: "10\n7\n12\n53"
+      stdout: "Verstreken tijd: 2 uur en 46 minuten.\n"
+  - testcases:
+    - stdin: "11\n1\n18\n2"
+      stdout: "Verstreken tijd: 7 uur en 1 minuten.\n"
+  - testcases:
+    - stdin: "11\n46\n14\n30"
+      stdout: "Verstreken tijd: 2 uur en 44 minuten.\n"
+  - testcases:
+    - stdin: "17\n2\n20\n14"
+      stdout: "Verstreken tijd: 3 uur en 12 minuten.\n"
+  - testcases:
+    - stdin: "17\n8\n19\n4"
+      stdout: "Verstreken tijd: 1 uur en 56 minuten.\n"
+  - testcases:
+    - stdin: "11\n2\n17\n55"
+      stdout: "Verstreken tijd: 6 uur en 53 minuten.\n"
+  - testcases:
+    - stdin: "8\n35\n17\n24"
+      stdout: "Verstreken tijd: 8 uur en 49 minuten.\n"
+  - testcases:
+    - stdin: "5\n45\n6\n8"
+      stdout: "Verstreken tijd: 0 uur en 23 minuten.\n"
+  - testcases:
+    - stdin: "7\n13\n19\n31"
+      stdout: "Verstreken tijd: 12 uur en 18 minuten.\n"
+  - testcases:
+    - stdin: "5\n56\n21\n37"
+      stdout: "Verstreken tijd: 15 uur en 41 minuten.\n"
+  - testcases:
+    - stdin: "14\n47\n14\n52"
+      stdout: "Verstreken tijd: 0 uur en 5 minuten.\n"
+  - testcases:
+    - stdin: "19\n14\n20\n6"
+      stdout: "Verstreken tijd: 0 uur en 52 minuten.\n"
+  - testcases:
+    - stdin: "14\n9\n20\n15"
+      stdout: "Verstreken tijd: 6 uur en 6 minuten.\n"
+  - testcases:
+    - stdin: "22\n13\n23\n42"
+      stdout: "Verstreken tijd: 1 uur en 29 minuten.\n"
+  - testcases:
+    - stdin: "6\n4\n18\n14"
+      stdout: "Verstreken tijd: 12 uur en 10 minuten.\n"
+  - testcases:
+    - stdin: "19\n29\n19\n49"
+      stdout: "Verstreken tijd: 0 uur en 20 minuten.\n"
+  - testcases:
+    - stdin: "10\n40\n16\n26"
+      stdout: "Verstreken tijd: 5 uur en 46 minuten.\n"
+  - testcases:
+    - stdin: "8\n23\n16\n45"
+      stdout: "Verstreken tijd: 8 uur en 22 minuten.\n"
+  - testcases:
+    - stdin: "9\n46\n20\n12"
+      stdout: "Verstreken tijd: 10 uur en 26 minuten.\n"
+  - testcases:
+    - stdin: "10\n27\n11\n34"
+      stdout: "Verstreken tijd: 1 uur en 7 minuten.\n"
+  - testcases:
+    - stdin: "10\n6\n20\n12"
+      stdout: "Verstreken tijd: 10 uur en 6 minuten.\n"
+  - testcases:
+    - stdin: "20\n30\n20\n52"
+      stdout: "Verstreken tijd: 0 uur en 22 minuten.\n"
+  - testcases:
+    - stdin: "11\n15\n15\n33"
+      stdout: "Verstreken tijd: 4 uur en 18 minuten.\n"
+  - testcases:
+    - stdin: "19\n25\n19\n37"
+      stdout: "Verstreken tijd: 0 uur en 12 minuten.\n"
+  - testcases:
+    - stdin: "8\n56\n15\n44"
+      stdout: "Verstreken tijd: 6 uur en 48 minuten.\n"
+  - testcases:
+    - stdin: "21\n0\n23\n39"
+      stdout: "Verstreken tijd: 2 uur en 39 minuten.\n"
