@@ -1,6 +1,6 @@
 ## Gegeven
 
-Voor je op tafel liggen 10 kaarten netjes naast elkaar. Elke kaart heeft één rode (`X`) en één blauwe (`O`) kant en op dit moment liggen alle kaarten met de blauwe kant naar boven:
+Voor je op tafel liggen 10 kaarten netjes naast elkaar. Elke kaart heeft één blauwe (`X`) en één rode (`O`) kant en op dit moment liggen alle kaarten met de blauwe kant naar boven:
 
 ![Startsituatie.](media/step0.png "Startsituatie."){:data-caption="Startsituatie." width="300px"}
 
@@ -26,22 +26,22 @@ Schrijf een programma dat aan de gebruiker het aantal stappen vraagt en vervolge
 
 Als de gebruiker `1` intikt, verschijnt er:
 ```
-O O O O O O O O O X
+X X X X X X X X X O
 ```
 
 Als de gebruiker `3` intikt, verschijnt er:
 ```
-O O O O O O O O X X
+X X X X X X X X O O
 ```
 
 Als de gebruiker `8` intikt, verschijnt er:
 ```
-O O O O O O X O O O
+X X X X X X O X X X
 ```
 
 Als de gebruiker `10` intikt, verschijnt er:
 ```
-O O O O O O X O X O
+X X X X X X O X O X
 ```
 
 {: .callout.callout-info}

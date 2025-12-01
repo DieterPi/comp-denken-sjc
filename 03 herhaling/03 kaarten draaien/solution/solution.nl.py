@@ -12,9 +12,9 @@ str = ""
 for i in range(len(bits)):
     bit = bits[i]
     if bit == 0:
-        str += "O"
-    else:
         str += "X"
+    else:
+        str += "O"
     if i != len(bits) - 1:
         str += " "
 
