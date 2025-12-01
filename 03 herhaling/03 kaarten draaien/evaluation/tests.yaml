@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0'
+      stdout: "O O O O O O O O O O\n"
+  - testcases:
+    - stdin: '1'
+      stdout: "O O O O O O O O O X\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "O O O O O O O O X O\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "O O O O O O O O X X\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "O O O O O O X O O O\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "O O O O O O X O X O\n"
+  - testcases:
+    - stdin: '48'
+      stdout: "O O O O X X O O O O\n"
+  - testcases:
+    - stdin: '75'
+      stdout: "O O O X O O X O X X\n"
+  - testcases:
+    - stdin: '83'
+      stdout: "O O O X O X O O X X\n"
+  - testcases:
+    - stdin: '90'
+      stdout: "O O O X O X X O X O\n"
+  - testcases:
+    - stdin: '140'
+      stdout: "O O X O O O X X O O\n"
+  - testcases:
+    - stdin: '158'
+      stdout: "O O X O O X X X X O\n"
+  - testcases:
+    - stdin: '204'
+      stdout: "O O X X O O X X O O\n"
+  - testcases:
+    - stdin: '251'
+      stdout: "O O X X X X X O X X\n"
+  - testcases:
+    - stdin: '261'
+      stdout: "O X O O O O O X O X\n"
+  - testcases:
+    - stdin: '305'
+      stdout: "O X O O X X O O O X\n"
+  - testcases:
+    - stdin: '452'
+      stdout: "O X X X O O O X O O\n"
+  - testcases:
+    - stdin: '460'
+      stdout: "O X X X O O X X O O\n"
+  - testcases:
+    - stdin: '468'
+      stdout: "O X X X O X O X O O\n"
+  - testcases:
+    - stdin: '517'
+      stdout: "X O O O O O O X O X\n"
+  - testcases:
+    - stdin: '523'
+      stdout: "X O O O O O X O X X\n"
+  - testcases:
+    - stdin: '562'
+      stdout: "X O O O X X O O X O\n"
+  - testcases:
+    - stdin: '686'
+      stdout: "X O X O X O X X X O\n"
+  - testcases:
+    - stdin: '716'
+      stdout: "X O X X O O X X O O\n"
+  - testcases:
+    - stdin: '754'
+      stdout: "X O X X X X O O X O\n"
+  - testcases:
+    - stdin: '762'
+      stdout: "X O X X X X X O X O\n"
+  - testcases:
+    - stdin: '877'
+      stdout: "X X O X X O X X O X\n"
+  - testcases:
+    - stdin: '936'
+      stdout: "X X X O X O X O O O\n"
+  - testcases:
+    - stdin: '988'
+      stdout: "X X X X O X X X O O\n"
+  - testcases:
+    - stdin: '1012'
+      stdout: "X X X X X X O X O O\n"

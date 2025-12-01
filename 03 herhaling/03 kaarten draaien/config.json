@@ -1,16 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Massadichtheid (oefening)"
+      "nl": "Kaarten draaien"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Modulo",
+    "for-lus"
   ],
   "access": "public",
   "internals": {
