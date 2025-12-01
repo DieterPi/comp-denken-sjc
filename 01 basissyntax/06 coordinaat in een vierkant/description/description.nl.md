@@ -4,9 +4,9 @@ Stel dat je een **vierkant** rooster krijgt dat rij per rij opgevulgd wordt met 
 
 In dat geval kan je voor elk getal dat in dit rooster staat de coördinaten opvragen. Zo staat het getal 7 in onderstaand 4 × 4 rooster op rij 1 en kolom 2. 
 
-![Een 4 × 4 rooster.](media/image1.png "Een 4 × 4 rooster."){:data-caption="Een 4 × 4 rooster." .light-only height="110px"}
+![Een 4 × 4 rooster.](media/image1.png "Een 4 × 4 rooster."){:data-caption="Een 4 × 4 rooster." .light-only height="200px"}
 
-![Een 4 × 4 rooster.](media/image1_dark.png "Een 4 × 4 rooster."){:data-caption="Een 4 × 4 rooster." .dark-only height="110px"}
+![Een 4 × 4 rooster.](media/image1_dark.png "Een 4 × 4 rooster."){:data-caption="Een 4 × 4 rooster." .dark-only height="200px"}
 
 ## Gevraagd
 
@@ -30,6 +30,6 @@ Kolomnummer: 1
 
 Want dit ziet er als volgt uit:
 
-![Een 6 × 6 rooster.](media/image2.png "Een 6 × 6 rooster."){:data-caption="Een 6 × 6 rooster." .light-only height="165px"}
+![Een 6 × 6 rooster.](media/image2.png "Een 6 × 6 rooster."){:data-caption="Een 6 × 6 rooster." .light-only height="300px"}
 
-![Een 6 × 6 rooster.](media/image2_dark.png "Een 6 × 6 rooster."){:data-caption="Een 6 × 6 rooster." .dark-only height="165px"}
+![Een 6 × 6 rooster.](media/image2_dark.png "Een 6 × 6 rooster."){:data-caption="Een 6 × 6 rooster." .dark-only height="300px"}
