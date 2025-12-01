@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Rest (oefening)"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie",
+    "Modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "FfTPsF56AzNind5eEh_UKCSp_BuTXF8iXZNsB63NUNXSrnMI7jMj69aVSKRAJgmE",

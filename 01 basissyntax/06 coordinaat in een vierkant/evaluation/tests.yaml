@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n1"
+      stdout: "Rijnummer: 0\nKolomnummer: 0\n"
+  - testcases:
+    - stdin: "4\n4"
+      stdout: "Rijnummer: 0\nKolomnummer: 3\n"
+  - testcases:
+    - stdin: "4\n7"
+      stdout: "Rijnummer: 1\nKolomnummer: 2\n"
+  - testcases:
+    - stdin: "4\n16"
+      stdout: "Rijnummer: 3\nKolomnummer: 3\n"
+  - testcases:
+    - stdin: "5\n6"
+      stdout: "Rijnummer: 1\nKolomnummer: 0\n"
+  - testcases:
+    - stdin: "5\n25"
+      stdout: "Rijnummer: 4\nKolomnummer: 4\n"
+  - testcases:
+    - stdin: "6\n26"
+      stdout: "Rijnummer: 4\nKolomnummer: 1\n"
+  - testcases:
+    - stdin: "8\n1"
+      stdout: "Rijnummer: 0\nKolomnummer: 0\n"
+  - testcases:
+    - stdin: "8\n8"
+      stdout: "Rijnummer: 0\nKolomnummer: 7\n"
+  - testcases:
+    - stdin: "8\n24"
+      stdout: "Rijnummer: 2\nKolomnummer: 7\n"
+  - testcases:
+    - stdin: "8\n25"
+      stdout: "Rijnummer: 3\nKolomnummer: 0\n"
+  - testcases:
+    - stdin: "25\n507"
+      stdout: "Rijnummer: 20\nKolomnummer: 6\n"
+  - testcases:
+    - stdin: "38\n878"
+      stdout: "Rijnummer: 23\nKolomnummer: 3\n"
+  - testcases:
+    - stdin: "42\n1576"
+      stdout: "Rijnummer: 37\nKolomnummer: 21\n"
+  - testcases:
+    - stdin: "46\n1874"
+      stdout: "Rijnummer: 40\nKolomnummer: 33\n"
+  - testcases:
+    - stdin: "71\n3049"
+      stdout: "Rijnummer: 42\nKolomnummer: 66\n"
+  - testcases:
+    - stdin: "80\n6271"
+      stdout: "Rijnummer: 78\nKolomnummer: 30\n"
+  - testcases:
+    - stdin: "131\n8374"
+      stdout: "Rijnummer: 63\nKolomnummer: 120\n"
+  - testcases:
+    - stdin: "153\n11471"
+      stdout: "Rijnummer: 74\nKolomnummer: 148\n"
+  - testcases:
+    - stdin: "227\n35964"
+      stdout: "Rijnummer: 158\nKolomnummer: 97\n"
+  - testcases:
+    - stdin: "235\n49891"
+      stdout: "Rijnummer: 212\nKolomnummer: 70\n"
+  - testcases:
+    - stdin: "259\n66732"
+      stdout: "Rijnummer: 257\nKolomnummer: 168\n"
+  - testcases:
+    - stdin: "344\n16066"
+      stdout: "Rijnummer: 46\nKolomnummer: 241\n"
+  - testcases:
+    - stdin: "495\n141852"
+      stdout: "Rijnummer: 286\nKolomnummer: 281\n"
+  - testcases:
+    - stdin: "573\n161420"
+      stdout: "Rijnummer: 281\nKolomnummer: 406\n"
+  - testcases:
+    - stdin: "649\n308925"
+      stdout: "Rijnummer: 476\nKolomnummer: 0\n"
+  - testcases:
+    - stdin: "738\n104457"
+      stdout: "Rijnummer: 141\nKolomnummer: 398\n"
+  - testcases:
+    - stdin: "739\n235895"
+      stdout: "Rijnummer: 319\nKolomnummer: 153\n"
+  - testcases:
+    - stdin: "859\n386448"
+      stdout: "Rijnummer: 449\nKolomnummer: 756\n"
+  - testcases:
+    - stdin: "887\n288155"
+      stdout: "Rijnummer: 324\nKolomnummer: 766\n"
