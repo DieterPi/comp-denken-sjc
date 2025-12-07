@@ -4,7 +4,7 @@ Een pizzaketen zal voor een grotere pizza een hogere prijs aanrekenen. Deze prij
 
 In deze keten wordt voor een **standaard pizza** met **diameter 30 cm** als **prijs € 11** aangerekend.
 
-![Een biljartbal.](media/glen-carrie.jpg "Foto door Glen Carrie op Unsplash."){:data-caption="Een biljartbal." width="40%"}
+![Foto door Aldward Castillo op Unsplash.](media/aldward-castillo.jpg "Foto door Aldward Castillo op Unsplash."){:data-caption="Foto door Aldward Castillo op Unsplash." width="40%"}
 
 ## Gevraagd
 
