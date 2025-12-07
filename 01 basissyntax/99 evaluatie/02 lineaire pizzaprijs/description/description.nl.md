@@ -1,6 +1,6 @@
 ## Opgave
 
-Een pizzaketen zal voor een grotere pizza een hogere prijs aanrekenen. Deze prijs is echter **niet** rechtevenredig met de diameter, maar **wel** met de oppervlakte van de pizza.
+Een pizzaketen zal voor een grotere pizza een hogere prijs aanrekenen. Deze prijs is echter **niet** rechtevenredig met de diameter, maar **wel** met de **oppervlakte** van de pizza.
 
 In deze keten wordt voor een **standaard pizza** met **diameter 30 cm** als **prijs € 11** aangerekend.
 
