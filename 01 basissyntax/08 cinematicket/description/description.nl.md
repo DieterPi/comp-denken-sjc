@@ -1,10 +1,10 @@
 ## Gegeven
 
-Voor een filmavond worden cinematickets afgedrukt. Dit ticket bevat heel wat informatie zoals de titel van de film.
+Voor een filmavond worden cinematickets afgedrukt. Dit ticket bevat heel wat informatie waaronder de titel van de film.
 
 Verder vind je er ook een code met een afkorting van deze titel, het zaalnummer, de plaats van je gereserveerde zetel.
 
-![Een cinematicket.](media/cinema.png "Een cinematicket."){:data-caption="Een cinematicket." width="25%"}
+![Een cinematicket.](media/cinema.png "Een cinematicket."){:data-caption="Een cinematicket." width="400px"}
 
 ## Opgave
 Schrijf een programma dat in volgorde aan de gebruiker vraagt naar de titel van de film, de afkorting, het zaalnummer en de zetelplaats.
