@@ -1,4 +1,4 @@
-## Opgave
+## Gegeven
 
 Een pizzaketen zal voor een grotere pizza een hogere prijs aanrekenen. Deze prijs is echter **niet** rechtevenredig met de diameter, maar **wel** met de **oppervlakte** van de pizza.
 
