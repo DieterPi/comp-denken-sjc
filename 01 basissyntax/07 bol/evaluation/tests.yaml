@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1.21'
+      stdout: "oppervlakte: 18.4 cm²\nvolume: 7.42 cm³\n"
+  - testcases:
+    - stdin: '1.69'
+      stdout: "oppervlakte: 35.89 cm²\nvolume: 20.22 cm³\n"
+  - testcases:
+    - stdin: '2.34'
+      stdout: "oppervlakte: 68.81 cm²\nvolume: 53.67 cm³\n"
+  - testcases:
+    - stdin: '3.02'
+      stdout: "oppervlakte: 114.61 cm²\nvolume: 115.37 cm³\n"
+  - testcases:
+    - stdin: '3.06'
+      stdout: "oppervlakte: 117.67 cm²\nvolume: 120.02 cm³\n"
+  - testcases:
+    - stdin: '3.27'
+      stdout: "oppervlakte: 134.37 cm²\nvolume: 146.46 cm³\n"
+  - testcases:
+    - stdin: '4.0'
+      stdout: "oppervlakte: 201.06 cm²\nvolume: 268.08 cm³\n"
+  - testcases:
+    - stdin: '4.02'
+      stdout: "oppervlakte: 203.08 cm²\nvolume: 272.12 cm³\n"
+  - testcases:
+    - stdin: '5.45'
+      stdout: "oppervlakte: 373.25 cm²\nvolume: 678.08 cm³\n"
+  - testcases:
+    - stdin: '5.87'
+      stdout: "oppervlakte: 433.0 cm²\nvolume: 847.23 cm³\n"
+  - testcases:
+    - stdin: '6.28'
+      stdout: "oppervlakte: 495.6 cm²\nvolume: 1037.45 cm³\n"
+  - testcases:
+    - stdin: '6.45'
+      stdout: "oppervlakte: 522.79 cm²\nvolume: 1124.0 cm³\n"
+  - testcases:
+    - stdin: '6.7'
+      stdout: "oppervlakte: 564.1 cm²\nvolume: 1259.83 cm³\n"
+  - testcases:
+    - stdin: '7.48'
+      stdout: "oppervlakte: 703.09 cm²\nvolume: 1753.05 cm³\n"
+  - testcases:
+    - stdin: '7.49'
+      stdout: "oppervlakte: 704.97 cm²\nvolume: 1760.09 cm³\n"
+  - testcases:
+    - stdin: '7.92'
+      stdout: "oppervlakte: 788.24 cm²\nvolume: 2080.96 cm³\n"
+  - testcases:
+    - stdin: '8.55'
+      stdout: "oppervlakte: 918.63 cm²\nvolume: 2618.1 cm³\n"
+  - testcases:
+    - stdin: '8.56'
+      stdout: "oppervlakte: 920.78 cm²\nvolume: 2627.3 cm³\n"
+  - testcases:
+    - stdin: '9.2'
+      stdout: "oppervlakte: 1063.62 cm²\nvolume: 3261.76 cm³\n"
+  - testcases:
+    - stdin: '9.64'
+      stdout: "oppervlakte: 1167.79 cm²\nvolume: 3752.49 cm³\n"
