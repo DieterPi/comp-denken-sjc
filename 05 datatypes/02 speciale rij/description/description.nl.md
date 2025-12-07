@@ -12,7 +12,7 @@ Na 21 komt 1211, namelijk **één** 2 en **één** 1, genoteerd als 1211.
 
 Na 1211 komt 111221, namelijk **één** 1, **één** 2 en **twee** 1'en.
 
-Na 111221 komt 312211, namelijk **drie** 1'en, **twee*** 2'en en **één** 1.
+Na 111221 komt 312211, namelijk **drie** 1'en, **twee** 2'en en **één** 1.
 
 ## Opgave
 
