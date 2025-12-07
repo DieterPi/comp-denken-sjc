@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '20'
+      stdout: "Een pizza met diameter 20 cm heeft als kostprijs € 4.89\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "Een pizza met diameter 21 cm heeft als kostprijs € 5.39\n"
+  - testcases:
+    - stdin: '22'
+      stdout: "Een pizza met diameter 22 cm heeft als kostprijs € 5.92\n"
+  - testcases:
+    - stdin: '23'
+      stdout: "Een pizza met diameter 23 cm heeft als kostprijs € 6.47\n"
+  - testcases:
+    - stdin: '24'
+      stdout: "Een pizza met diameter 24 cm heeft als kostprijs € 7.04\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "Een pizza met diameter 27 cm heeft als kostprijs € 8.91\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "Een pizza met diameter 28 cm heeft als kostprijs € 9.58\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "Een pizza met diameter 29 cm heeft als kostprijs € 10.28\n"
+  - testcases:
+    - stdin: '30'
+      stdout: "Een pizza met diameter 30 cm heeft als kostprijs € 11.0\n"
+  - testcases:
+    - stdin: '31'
+      stdout: "Een pizza met diameter 31 cm heeft als kostprijs € 11.75\n"
+  - testcases:
+    - stdin: '33'
+      stdout: "Een pizza met diameter 33 cm heeft als kostprijs € 13.31\n"
+  - testcases:
+    - stdin: '34'
+      stdout: "Een pizza met diameter 34 cm heeft als kostprijs € 14.13\n"
+  - testcases:
+    - stdin: '35'
+      stdout: "Een pizza met diameter 35 cm heeft als kostprijs € 14.97\n"
+  - testcases:
+    - stdin: '36'
+      stdout: "Een pizza met diameter 36 cm heeft als kostprijs € 15.84\n"
+  - testcases:
+    - stdin: '37'
+      stdout: "Een pizza met diameter 37 cm heeft als kostprijs € 16.73\n"
+  - testcases:
+    - stdin: '38'
+      stdout: "Een pizza met diameter 38 cm heeft als kostprijs € 17.65\n"
+  - testcases:
+    - stdin: '39'
+      stdout: "Een pizza met diameter 39 cm heeft als kostprijs € 18.59\n"
+  - testcases:
+    - stdin: '40'
+      stdout: "Een pizza met diameter 40 cm heeft als kostprijs € 19.56\n"
+  - testcases:
+    - stdin: '43'
+      stdout: "Een pizza met diameter 43 cm heeft als kostprijs € 22.6\n"
+  - testcases:
+    - stdin: '44'
+      stdout: "Een pizza met diameter 44 cm heeft als kostprijs € 23.66\n"

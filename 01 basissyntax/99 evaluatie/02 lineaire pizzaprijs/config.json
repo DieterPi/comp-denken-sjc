@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Welkom (oefening)"
+      "nl": "Prijs van een 🍕 pizza"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "5sUSTRIJ7jaGFY9I5V4ZfYuDKbZTqIWyRcxfsFNtV2zyWpb27nmf2kGVQE2d3FBa",
