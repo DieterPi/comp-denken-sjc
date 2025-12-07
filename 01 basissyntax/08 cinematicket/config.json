@@ -1,18 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "3D-printer (oefening)"
+      "nl": "Filmticket"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie",
+    "Concateren"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "cP9FUIf_SM72k4BZYyDfIKegEKIsAXygBCiAJbrm3XckUkJu8Kqbbc752c_mUFKX",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

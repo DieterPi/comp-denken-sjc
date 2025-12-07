@@ -1,0 +1,64 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "Dune: Part Two\nDUNE\n3\nB17"
+      stdout: "DUNE : 3-B17\nVeel plezier met de film Dune: Part Two!\n"
+  - testcases:
+    - stdin: "The Shawshank Redemption\nSHAWSHNK\n12\nD41"
+      stdout: "SHAWSHNK : 12-D41\nVeel plezier met de film The Shawshank Redemption!\n"
+  - testcases:
+    - stdin: "The Godfather\nGODFATHR\n10\nH49"
+      stdout: "GODFATHR : 10-H49\nVeel plezier met de film The Godfather!\n"
+  - testcases:
+    - stdin: "The Dark Knight\nDARKKNG\n5\nY39"
+      stdout: "DARKKNG : 5-Y39\nVeel plezier met de film The Dark Knight!\n"
+  - testcases:
+    - stdin: "Pulp Fiction\nPULPFICT\n9\nS47"
+      stdout: "PULPFICT : 9-S47\nVeel plezier met de film Pulp Fiction!\n"
+  - testcases:
+    - stdin: "Forrest Gump\nFORRSTGP\n9\nC49"
+      stdout: "FORRSTGP : 9-C49\nVeel plezier met de film Forrest Gump!\n"
+  - testcases:
+    - stdin: "Inception\nINCEPTN\n6\nD10"
+      stdout: "INCEPTN : 6-D10\nVeel plezier met de film Inception!\n"
+  - testcases:
+    - stdin: "Fight Club\nFGHTCLUB\n6\nA32"
+      stdout: "FGHTCLUB : 6-A32\nVeel plezier met de film Fight Club!\n"
+  - testcases:
+    - stdin: "The Matrix\nMATRIX\n1\nY24"
+      stdout: "MATRIX : 1-Y24\nVeel plezier met de film The Matrix!\n"
+  - testcases:
+    - stdin: "The Lord of the Rings: The Fellowship of the Ring\nLOTRFEL\n12\nH31"
+      stdout: "LOTRFEL : 12-H31\nVeel plezier met de film The Lord of the Rings: The
+        Fellowship of the Ring!\n"
+  - testcases:
+    - stdin: "The Lord of the Rings: The Return of the King\nLOTRRET\n9\nB30"
+      stdout: "LOTRRET : 9-B30\nVeel plezier met de film The Lord of the Rings: The
+        Return of the King!\n"
+  - testcases:
+    - stdin: "Interstellar\nINTRSTLR\n4\nR9"
+      stdout: "INTRSTLR : 4-R9\nVeel plezier met de film Interstellar!\n"
+  - testcases:
+    - stdin: "Gladiator\nGLADIATR\n5\nC24"
+      stdout: "GLADIATR : 5-C24\nVeel plezier met de film Gladiator!\n"
+  - testcases:
+    - stdin: "Jurassic Park\nJURSPARK\n1\nN18"
+      stdout: "JURSPARK : 1-N18\nVeel plezier met de film Jurassic Park!\n"
+  - testcases:
+    - stdin: "The Lion King\nLIONKING\n9\nU20"
+      stdout: "LIONKING : 9-U20\nVeel plezier met de film The Lion King!\n"
+  - testcases:
+    - stdin: "Back to the Future\nBACKFUT\n7\nF46"
+      stdout: "BACKFUT : 7-F46\nVeel plezier met de film Back to the Future!\n"
+  - testcases:
+    - stdin: "The Silence of the Lambs\nSILNLMB\n1\nE16"
+      stdout: "SILNLMB : 1-E16\nVeel plezier met de film The Silence of the Lambs!\n"
+  - testcases:
+    - stdin: "Saving Private Ryan\nSAVPRYAN\n4\nZ35"
+      stdout: "SAVPRYAN : 4-Z35\nVeel plezier met de film Saving Private Ryan!\n"
+  - testcases:
+    - stdin: "The Green Mile\nGRNMILE\n7\nP12"
+      stdout: "GRNMILE : 7-P12\nVeel plezier met de film The Green Mile!\n"
+  - testcases:
+    - stdin: "Avatar\nAVATAR\n9\nS30"
+      stdout: "AVATAR : 9-S30\nVeel plezier met de film Avatar!\n"
