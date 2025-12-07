@@ -2,17 +2,20 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "ZeroDivisionError (oefening)"
+      "nl": "Speciale rij"
     }
   },
   "programming_language": "python",
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.json"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Lijsten",
+    "for-lus",
+    "begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "meha2Z64zUNRAJaPT3en3X3RPi2qn3wfGCwU_55Z8GFv9KXMGa2WNDFreMWYe3QC",
