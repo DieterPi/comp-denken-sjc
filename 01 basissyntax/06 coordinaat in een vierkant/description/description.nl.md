@@ -1,6 +1,6 @@
 ## Gegeven
 
-Stel dat je een **vierkant** rooster krijgt dat rij per rij opgevulgd wordt met opeenvolgende natuurlijke getallen. 
+Stel dat je een **vierkant** rooster krijgt dat rij per rij opgevuld werd met opeenvolgende natuurlijke getallen. 
 
 In dat geval kan je voor elk getal dat in dit rooster staat de coördinaten opvragen. Zo staat het getal 7 in onderstaand 4 × 4 rooster op rij 1 en kolom 2. 
 
