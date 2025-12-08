@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: sgn(-9.5)
+      return: -1
+  - testcases:
+    - expression: sgn(-8.5)
+      return: -1
+  - testcases:
+    - expression: sgn(-7.0)
+      return: -1
+  - testcases:
+    - expression: sgn(-5.5)
+      return: -1
+  - testcases:
+    - expression: sgn(-5.4)
+      return: -1
+  - testcases:
+    - expression: sgn(-4.9)
+      return: -1
+  - testcases:
+    - expression: sgn(-3.3)
+      return: -1
+  - testcases:
+    - expression: sgn(-3.1415)
+      return: -1
+  - testcases:
+    - expression: sgn(-0.1)
+      return: -1
+  - testcases:
+    - expression: sgn(0.0)
+      return: 0
+  - testcases:
+    - expression: sgn(0.8)
+      return: 1
+  - testcases:
+    - expression: sgn(1.7)
+      return: 1
+  - testcases:
+    - expression: sgn(2.1)
+      return: 1
+  - testcases:
+    - expression: sgn(2.7)
+      return: 1
+  - testcases:
+    - expression: sgn(4.4)
+      return: 1
+  - testcases:
+    - expression: sgn(5.4)
+      return: 1
+  - testcases:
+    - expression: sgn(6.8)
+      return: 1
+  - testcases:
+    - expression: sgn(8.2)
+      return: 1
+  - testcases:
+    - expression: sgn(9.2)
+      return: 1
+  - testcases:
+    - expression: sgn(10.0)
+      return: 1

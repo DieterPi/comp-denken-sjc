@@ -1,18 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Signum (oefening)"
+      "nl": "Signum"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Selectie",
+    "Functies"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "aPQr6c9mTiF77zk6Asqpa-kvQfbF-UW5erY4QWTGn785N3G6IHCiiky5nnTKaZEJ",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
