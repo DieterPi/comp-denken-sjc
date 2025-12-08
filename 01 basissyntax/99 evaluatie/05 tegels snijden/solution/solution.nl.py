@@ -12,5 +12,4 @@ aantal_breedte = math.ceil(breedte / zijde)
 
 aantal = aantal_breedte * aantal_lengte
 
-print()
 print(f"Er zijn minimaal {aantal} tegels nodig.")
