@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "Louis\n4\nNAWE1\n15"
+      stdout: "Louis, jij krijgt als ID: 4-NAWE1:15\n"
+  - testcases:
+    - stdin: "Maram\n4\nLAB\n24"
+      stdout: "Maram, jij krijgt als ID: 4-LAB:24\n"
+  - testcases:
+    - stdin: "Matteo\n2\nLAc\n21"
+      stdout: "Matteo, jij krijgt als ID: 2-LAc:21\n"
+  - testcases:
+    - stdin: "Rune\n3\nLAA\n25"
+      stdout: "Rune, jij krijgt als ID: 3-LAA:25\n"
+  - testcases:
+    - stdin: "Jonas\n6\nECWI\n19"
+      stdout: "Jonas, jij krijgt als ID: 6-ECWI:19\n"
+  - testcases:
+    - stdin: "Matteo\n6\nECWI\n3"
+      stdout: "Matteo, jij krijgt als ID: 6-ECWI:3\n"
+  - testcases:
+    - stdin: "Selim\n3\nSPWE\n4"
+      stdout: "Selim, jij krijgt als ID: 3-SPWE:4\n"
+  - testcases:
+    - stdin: "Arne\n5\nGRWIB\n1"
+      stdout: "Arne, jij krijgt als ID: 5-GRWIB:1\n"
+  - testcases:
+    - stdin: "Ji-Yun\n1\nMTWa\n25"
+      stdout: "Ji-Yun, jij krijgt als ID: 1-MTWa:25\n"
+  - testcases:
+    - stdin: "Alicia\n3\nMT\n16"
+      stdout: "Alicia, jij krijgt als ID: 3-MT:16\n"
+  - testcases:
+    - stdin: "Zara\n1\nMTWa\n15"
+      stdout: "Zara, jij krijgt als ID: 1-MTWa:15\n"
+  - testcases:
+    - stdin: "Noor\n6\nLAMT\n5"
+      stdout: "Noor, jij krijgt als ID: 6-LAMT:5\n"
+  - testcases:
+    - stdin: "Jonas\n1\nMTWd\n12"
+      stdout: "Jonas, jij krijgt als ID: 1-MTWd:12\n"
+  - testcases:
+    - stdin: "Amira\n5\nHUWE\n9"
+      stdout: "Amira, jij krijgt als ID: 5-HUWE:9\n"
+  - testcases:
+    - stdin: "Zara\n4\nMT\n13"
+      stdout: "Zara, jij krijgt als ID: 4-MT:13\n"
+  - testcases:
+    - stdin: "Sofie\n1\nMTWc\n5"
+      stdout: "Sofie, jij krijgt als ID: 1-MTWc:5\n"
+  - testcases:
+    - stdin: "Noor\n3\nECWEA\n18"
+      stdout: "Noor, jij krijgt als ID: 3-ECWEA:18\n"
+  - testcases:
+    - stdin: "Santiago\n6\nWEWIA\n6"
+      stdout: "Santiago, jij krijgt als ID: 6-WEWIA:6\n"
+  - testcases:
+    - stdin: "Hamza\n6\nGRWIB\n24"
+      stdout: "Hamza, jij krijgt als ID: 6-GRWIB:24\n"
+  - testcases:
+    - stdin: "Amira\n5\nLAWIB\n20"
+      stdout: "Amira, jij krijgt als ID: 5-LAWIB:20\n"
