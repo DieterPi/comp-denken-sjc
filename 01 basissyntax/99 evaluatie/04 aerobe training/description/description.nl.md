@@ -9,7 +9,7 @@ Regelmatige lichaamsbeweging is dus essentieel voor het behoud van je gezondheid
 ![Foto door Annie Spratt op Unsplash.](media/annie-spratt.jpg "Foto door Annie Spratt op Unsplash."){:data-caption="Foto door Annie Spratt op Unsplash." width="45%"}
 
 ## Opgave
-Schrijf een programma dat aan de gebruiker eerst vraagt naar hoeveel minuten deze week reeds gesport werden op lichte intensiteit en daarna op hoge intensiteit. Bereken vervolgens hoeveel minuten je deze week nog moet sporten, zowel op lichte als op hoge intensiteit. Rond hierbij desnoods af op één decimaal.
+Schrijf een programma dat aan de gebruiker eerst vraagt naar hoeveel minuten deze week reeds gesport werden op lichte intensiteit en daarna op hoge intensiteit. Bereken vervolgens hoeveel minuten je deze week nog moet sporten, zowel op lichte als op hoge intensiteit. Rond af op een geheel.
 
 #### Voorbeelden
 
