@@ -1,7 +1,7 @@
 ## Gegeven
 In het begin van het schooljaar krijgt elke leerling uit het middelbaar een leerlingenkaart. Deze geeft recht op korting in meer dan 130 winkels, eetgelegenheden en zelfs pretparken!
 
-![De leerlingenkaart van 2025-2026.](media/leerlingenkaart.png "De leerlingenkaart van 2025-2026."){:data-caption="De leerlingenkaart van 2025-2026." width="40%"}
+![De leerlingenkaart van 2025-2026.](media/leerlingenkaart.png "De leerlingenkaart van 2025-2026."){:data-caption="De leerlingenkaart van 2025-2026." width="35%"}
 
 ## Opgave
 
