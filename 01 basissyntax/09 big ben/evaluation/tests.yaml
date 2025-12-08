@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "3\n0\n0"
+      stdout: "90.0 graden\n"
+  - testcases:
+    - stdin: "1\n2\n6"
+      stdout: "31.05 graden\n"
+  - testcases:
+    - stdin: "11\n6\n40"
+      stdout: "333.33333 graden\n"
+  - testcases:
+    - stdin: "9\n14\n48"
+      stdout: "277.4 graden\n"
+  - testcases:
+    - stdin: "4\n49\n38"
+      stdout: "144.81667 graden\n"
+  - testcases:
+    - stdin: "8\n37\n46"
+      stdout: "258.88333 graden\n"
+  - testcases:
+    - stdin: "8\n4\n48"
+      stdout: "242.4 graden\n"
+  - testcases:
+    - stdin: "5\n7\n9"
+      stdout: "153.575 graden\n"
+  - testcases:
+    - stdin: "5\n1\n56"
+      stdout: "150.96667 graden\n"
+  - testcases:
+    - stdin: "7\n2\n49"
+      stdout: "211.40833 graden\n"
+  - testcases:
+    - stdin: "5\n46\n55"
+      stdout: "173.45833 graden\n"
+  - testcases:
+    - stdin: "3\n30\n34"
+      stdout: "105.28333 graden\n"
+  - testcases:
+    - stdin: "0\n29\n14"
+      stdout: "14.61667 graden\n"
+  - testcases:
+    - stdin: "8\n8\n16"
+      stdout: "244.13333 graden\n"
+  - testcases:
+    - stdin: "1\n23\n2"
+      stdout: "41.51667 graden\n"
+  - testcases:
+    - stdin: "6\n55\n17"
+      stdout: "207.64167 graden\n"
+  - testcases:
+    - stdin: "8\n53\n40"
+      stdout: "266.83333 graden\n"
+  - testcases:
+    - stdin: "4\n24\n11"
+      stdout: "132.09167 graden\n"
+  - testcases:
+    - stdin: "11\n3\n8"
+      stdout: "331.56667 graden\n"
+  - testcases:
+    - stdin: "3\n13\n51"
+      stdout: "96.925 graden\n"
+  - testcases:
+    - stdin: "8\n25\n31"
+      stdout: "252.75833 graden\n"
+  - testcases:
+    - stdin: "2\n56\n33"
+      stdout: "88.275 graden\n"
+  - testcases:
+    - stdin: "9\n29\n47"
+      stdout: "284.89167 graden\n"
+  - testcases:
+    - stdin: "0\n23\n38"
+      stdout: "11.81667 graden\n"
+  - testcases:
+    - stdin: "3\n9\n6"
+      stdout: "94.55 graden\n"
+  - testcases:
+    - stdin: "7\n9\n53"
+      stdout: "214.94167 graden\n"
+  - testcases:
+    - stdin: "6\n15\n50"
+      stdout: "187.91667 graden\n"
+  - testcases:
+    - stdin: "11\n13\n33"
+      stdout: "336.775 graden\n"
+  - testcases:
+    - stdin: "4\n42\n13"
+      stdout: "141.10833 graden\n"
+  - testcases:
+    - stdin: "1\n25\n14"
+      stdout: "42.61667 graden\n"

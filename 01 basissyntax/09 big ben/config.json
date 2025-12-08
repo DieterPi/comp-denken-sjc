@@ -1,18 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Klok (oefening)"
+      "nl": "Big Ben"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "Q9nKJbTdwmNTZnijxtP_MZWCcj4qzYwqAAgaJQvGJx2ZBXHmD-6MIJBAQgN5x8g2",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
