@@ -3,18 +3,18 @@ Een rechthoekige vloer moet betegeld worden met vierkante tegels, maar hoeveel t
 ![Vierkante tegels met een patroon.](media/tiles.jpg "Vierkante tegels met een patroon."){:data-caption="Vierkante tegels met een patroon." width="400px"}
 
 ## Opgave
-Schrijf een programma dat in volgorde aan de gebruiker de lengte en breedte van de vloer (in meter!) vraagt. Vervolgens vraag je naar de zijde van de tegels (in centimeter!).
+Schrijf een programma dat in volgorde aan de gebruiker de lengte en breedte van de vloer (in meter!) vraagt. Vervolgens vraag je naar de zijde van de vierkante tegels (in centimeter!).
 
 Bepaal daarna het aantal tegels dat minimaal nodig is om deze vloer te kunnen bedekken. Je mag de voegruimte tussen de tegels verwaarlozen in je berekeningen. Doordat de tegels van een patroon voorzien zijn, kan je eventuele overschotten van een tegel niet zomaar hergebruiken.
 
 #### Voorbeelden
 
-Indien je een vloer met lengte `3.2` m en breedte `2.2` meter wil vullen met tegels waarbij de zijde `60` cm meet, dan veschijnt:
+Indien de vloer `3.2` m op `2.2` m meet en de tegels een zijde van `60` cm hebben, dan veschijnt er:
 ```
 Er zijn minimaal 24 tegels nodig.
 ```
 
-De invoer `9995` levert als uitvoer
+Indien de vloer `2.4` m op `1.8` m meet en de tegels een zijde van `60` cm hebben, dan veschijnt er:
 ```
-Je dient nog 5 stappen te zetten.
+Er zijn minimaal 12 tegels nodig.
 ```
