@@ -1,6 +1,6 @@
 Een rechthoekige vloer moet betegeld worden met vierkante tegels, maar hoeveel tegels heeft men nodig?
 
-![Vierkante tegels met een patroon.](media/tiles.jpg "Vierkante tegels met een patroon."){:data-caption="Vierkante tegels met een patroon." width="400px"}
+![Vierkante tegels met een patroon.](media/tiles.jpg "Vierkante tegels met een patroon."){:data-caption="Vierkante tegels met een patroon." width="300px"}
 
 ## Opgave
 Schrijf een programma dat in volgorde aan de gebruiker de lengte en breedte van de vloer (in meter!) vraagt. Vervolgens vraag je naar de zijde van de vierkante tegels (in centimeter!).
