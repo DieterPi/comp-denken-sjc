@@ -13,16 +13,14 @@ Schrijf een programma dat aan de gebruiker eerst vraagt naar hoeveel minuten dez
 
 #### Voorbeelden
 
-Als een volwassen reeds `80` minuten aan lichte en `30` minuten aan hoge intensiteit gesport heeft, dan verschijnt er:
+Als een volwassene reeds `80` minuten aan lichte en `30` minuten aan hoge intensiteit gesport heeft, dan verschijnt er:
 ```
 Je moet deze week nog:
-160 minuten sporten aan lichte intensiteit of
-80 minuten aan hoge intensiteit
+160 minuten sporten aan lichte intensiteit of 80 minuten aan hoge intensiteit.
 ```
 
-Als een volwassen reeds `200` minuten aan lichte en `0` minuten aan hoge intensiteit gesport heeft, dan verschijnt er:
+Als een volwassene reeds `200` minuten aan lichte en `0` minuten aan hoge intensiteit gesport heeft, dan verschijnt er:
 ```
 Je moet deze week nog:
-100 minuten sporten aan lichte intensiteit of
-50 minuten aan hoge intensiteit
+100 minuten sporten aan lichte intensiteit of 50 minuten aan hoge intensiteit.
 ```
