@@ -2,9 +2,9 @@ Programmeer de <a href='https://nl.wikipedia.org/wiki/Signum_(wiskunde)' target=
 
 $$\mathsf{
 \text{sgn}: x \mapsto \begin{cases}
--1 & \text{als } x < 0\\
-0 & \text{als } x = 0\\
-1 & \text{als } x > 0
+-1 & \text{\textsf{als} } x < 0\\
+0 & \text{\textsf{als} } x = 0\\
+1 & \text{\textsf{als} } x > 0
 \end{cases}}
 $$
 
