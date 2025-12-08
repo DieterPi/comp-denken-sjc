@@ -1,0 +1,82 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "80\n30"
+      stdout: "Je moet deze week nog:\n160 minuten sporten aan lichte intensiteit
+        of\n80 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "200\n0"
+      stdout: "Je moet deze week nog:\n100 minuten sporten aan lichte intensiteit
+        of\n50 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "50\n81"
+      stdout: "Je moet deze week nog:\n88 minuten sporten aan lichte intensiteit of\n
+        44 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "300\n0"
+      stdout: "Je moet deze week nog:\n0 minuten sporten aan lichte intensiteit of\n
+        0 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "128\n77"
+      stdout: "Je moet deze week nog:\n18 minuten sporten aan lichte intensiteit of\n
+        9 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "262\n18"
+      stdout: "Je moet deze week nog:\n2 minuten sporten aan lichte intensiteit of\n
+        1 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "260\n2"
+      stdout: "Je moet deze week nog:\n36 minuten sporten aan lichte intensiteit of\n
+        18 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "170\n15"
+      stdout: "Je moet deze week nog:\n100 minuten sporten aan lichte intensiteit
+        of\n50 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "76\n107"
+      stdout: "Je moet deze week nog:\n10 minuten sporten aan lichte intensiteit of\n
+        5 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "178\n1"
+      stdout: "Je moet deze week nog:\n120 minuten sporten aan lichte intensiteit
+        of\n60 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "252\n1"
+      stdout: "Je moet deze week nog:\n46 minuten sporten aan lichte intensiteit of\n
+        23 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "188\n46"
+      stdout: "Je moet deze week nog:\n20 minuten sporten aan lichte intensiteit of\n
+        10 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "114\n61"
+      stdout: "Je moet deze week nog:\n64 minuten sporten aan lichte intensiteit of\n
+        32 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "276\n0"
+      stdout: "Je moet deze week nog:\n24 minuten sporten aan lichte intensiteit of\n
+        12 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "234\n14"
+      stdout: "Je moet deze week nog:\n38 minuten sporten aan lichte intensiteit of\n
+        19 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "280\n2"
+      stdout: "Je moet deze week nog:\n16 minuten sporten aan lichte intensiteit of\n
+        8 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "130\n8"
+      stdout: "Je moet deze week nog:\n154 minuten sporten aan lichte intensiteit
+        of\n77 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "190\n2"
+      stdout: "Je moet deze week nog:\n106 minuten sporten aan lichte intensiteit
+        of\n53 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "218\n17"
+      stdout: "Je moet deze week nog:\n48 minuten sporten aan lichte intensiteit of\n
+        24 minuten aan hoge intensiteit\n"
+  - testcases:
+    - stdin: "286\n4"
+      stdout: "Je moet deze week nog:\n6 minuten sporten aan lichte intensiteit of\n
+        3 minuten aan hoge intensiteit\n"
