@@ -5,8 +5,8 @@
 \usepackage{tikz}
 \begin{document}
 	\begin{tikzpicture}[font=\small]
-		\draw[black!25, step=0.2cm] (-4,-2) grid (4,2);
-		\draw[black!75, step=1cm] (-4,-2) grid (4,2);
+		\draw[black!25, thin, step=0.2cm, opacity=0.5] (-4,-2) grid (4,2);
+		\draw[black!75, thin, step=1cm, opacity=0.5] (-4,-2) grid (4,2);
 		\draw[black, -stealth] (-4.3,0) -- (4.3,0) node [below right] {$x$};
 		\draw[black, -stealth] (0,-2.3) -- (0,2.3) node [above left] {$y$};
 		\draw[very thick,color=LimeGreen] plot[domain=0:4] (\x, 1); 
