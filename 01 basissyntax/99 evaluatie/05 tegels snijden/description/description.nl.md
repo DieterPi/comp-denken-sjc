@@ -9,12 +9,16 @@ Bepaal daarna het aantal tegels dat minimaal nodig is om deze vloer te kunnen be
 
 #### Voorbeelden
 
-Indien de vloer `3.2` m op `2.2` m meet en de tegels een zijde van `0.6` m hebben, dan veschijnt er:
+Indien de vloer `3.2` m op `2.2` m meet en de tegels een zijde van `0.6` m hebben, dan verschijnt er:
 ```
-Er zijn minimaal 24 tegels nodig.
+Aantal tegels in de lengte: 6
+Aantal tegels in de breedte: 4
+Er zijn dus minimaal 24 tegels nodig.
 ```
 
-Indien de vloer `2.4` m op `1.8` m meet en de tegels een zijde van `0.6` cm hebben, dan veschijnt er:
+Indien de vloer `2.4` m op `1.8` m meet en de tegels een zijde van `0.6` cm hebben, dan verschijnt er:
 ```
-Er zijn minimaal 12 tegels nodig.
+Aantal tegels in de lengte: 4
+Aantal tegels in de breedte: 3
+Er zijn dus minimaal 12 tegels nodig.
 ```
