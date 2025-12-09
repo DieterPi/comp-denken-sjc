@@ -34,11 +34,11 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [(3.2,2.2,60), (2.4,1.8,60) ]
+cases = [(3.2,2.2,0.6), (2.4,1.8,0.6) ]
 while len(cases) < ntests:
     l = round(random.uniform(2,4), 1)
     b = round(random.uniform(0.2, l), 1)
-    zijde = 5*random.randint(4, min(20, round(b*100/5)))
+    zijde = round(5*random.randint(4, min(20, round(b*100/5))) / 100, 2)
     case = (l, b, zijde)
     if case not in cases:
         cases.append(case)
