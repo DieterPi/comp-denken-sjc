@@ -1,5 +1,6 @@
 {
   "type": "exercise",
+  "programming_language": "python",
   "description": {
     "names": {
       "nl": "Schaakbordpatroon"
