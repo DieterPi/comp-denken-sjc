@@ -33,10 +33,12 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests= 15
+ntests= 25
 cases = [(6,8), ]
 while len(cases) < ntests:
-    case = tuple(random.randint(1,20) for _ in range(2)) 
+    r = random.randint(1,20)
+    c = random.randint(1,50)
+    case = (r, c)
     if case not in cases:
         cases.append( case )
 
