@@ -12,9 +12,9 @@ Als je twee cirkels in het vlak tekent, dan kunnen die op verschillende manieren
 
 Je ziet alle mogelijkheden in de animatie hieronder.
 
-![Onderlinge ligging van 2 cirkels.](media/image.png "Onderlinge ligging van 2 cirkels."){:data-caption="Onderlinge ligging van 2 cirkels." .light-only height="40%"}
+![Onderlinge ligging van 2 cirkels.](media/image.png "Onderlinge ligging van 2 cirkels."){:data-caption="Onderlinge ligging van 2 cirkels." .light-only height="350px"}
 
-![Onderlinge ligging van 2 cirkels.](media/image_dark.png "Onderlinge ligging van 2 cirkels."){:data-caption="Onderlinge ligging van 2 cirkels." .dark-only height="40%"}
+![Onderlinge ligging van 2 cirkels.](media/image_dark.png "Onderlinge ligging van 2 cirkels."){:data-caption="Onderlinge ligging van 2 cirkels." .dark-only height="350px"}
 
 ## Opgave
 
@@ -26,6 +26,10 @@ Maak hiervoor gebruik van een functie `afstand(x1, y1, x2, y2)` die de (Euclidis
 #### Voorbeelden
 
 ```python
->>> onderlinge_ligging([x1, y1, r1], [x2, y2, r2])
-"inwendig rakend"
+>>> onderlinge_ligging(0, 0, 5, 0, 0, 2)
+"concentrisch"
+```
+```python
+>>> onderlinge_ligging(4, 3, 2, -1, 3, 3)
+"uitwendig rakend"
 ```
