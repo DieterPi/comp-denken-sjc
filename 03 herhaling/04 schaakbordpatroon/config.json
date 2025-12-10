@@ -2,20 +2,19 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Schaakbordpatroon (oefening)"
+      "nl": "Schaakbordpatroon"
     }
   },
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options": {
-      "mode": "batch",
-      "allow_fallback": true
-    }
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Python",
+    "Sequentie",
+    "Modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "wW4adXpnYTVHk58qYSauYJQM7rZsZBYEe3yDDtVNyJPnIvh8eDXA5cJkCHzvEKt4",

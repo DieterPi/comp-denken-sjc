@@ -1,0 +1,61 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "6\n8"
+      stdout: "X_X_X_X_\n_X_X_X_X\nX_X_X_X_\n_X_X_X_X\nX_X_X_X_\n_X_X_X_X\n"
+  - testcases:
+    - stdin: "4\n19"
+      stdout: "X_X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_X_\n"
+  - testcases:
+    - stdin: "8\n9"
+      stdout: "X_X_X_X_X\n_X_X_X_X_\nX_X_X_X_X\n_X_X_X_X_\nX_X_X_X_X\n_X_X_X_X_\n\
+        X_X_X_X_X\n_X_X_X_X_\n"
+  - testcases:
+    - stdin: "20\n17"
+      stdout: "X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n"
+  - testcases:
+    - stdin: "19\n17"
+      stdout: "X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\n\
+        X_X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_X_\nX_X_X_X_X_X_X_X_X\n"
+  - testcases:
+    - stdin: "3\n11"
+      stdout: "X_X_X_X_X_X\n_X_X_X_X_X_\nX_X_X_X_X_X\n"
+  - testcases:
+    - stdin: "4\n5"
+      stdout: "X_X_X\n_X_X_\nX_X_X\n_X_X_\n"
+  - testcases:
+    - stdin: "12\n1"
+      stdout: "X\n_\nX\n_\nX\n_\nX\n_\nX\n_\nX\n_\n"
+  - testcases:
+    - stdin: "16\n2"
+      stdout: "X_\n_X\nX_\n_X\nX_\n_X\nX_\n_X\nX_\n_X\nX_\n_X\nX_\n_X\nX_\n_X\n"
+  - testcases:
+    - stdin: "12\n8"
+      stdout: "X_X_X_X_\n_X_X_X_X\nX_X_X_X_\n_X_X_X_X\nX_X_X_X_\n_X_X_X_X\nX_X_X_X_\n\
+        _X_X_X_X\nX_X_X_X_\n_X_X_X_X\nX_X_X_X_\n_X_X_X_X\n"
+  - testcases:
+    - stdin: "16\n18"
+      stdout: "X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n\
+        X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n\
+        X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n\
+        X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n"
+  - testcases:
+    - stdin: "2\n15"
+      stdout: "X_X_X_X_X_X_X_X\n_X_X_X_X_X_X_X_\n"
+  - testcases:
+    - stdin: "8\n18"
+      stdout: "X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n\
+        X_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\nX_X_X_X_X_X_X_X_X_\n_X_X_X_X_X_X_X_X_X\n"
+  - testcases:
+    - stdin: "5\n9"
+      stdout: "X_X_X_X_X\n_X_X_X_X_\nX_X_X_X_X\n_X_X_X_X_\nX_X_X_X_X\n"
+  - testcases:
+    - stdin: "3\n12"
+      stdout: "X_X_X_X_X_X_\n_X_X_X_X_X_X\nX_X_X_X_X_X_\n"
