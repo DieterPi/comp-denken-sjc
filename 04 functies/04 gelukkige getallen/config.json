@@ -1,18 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Videobewerking"
+      "nl": "Gelukkige getallen"
     }
   },
+ "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-    "modulo"
+    "Python",
+    "While-lus",
+    "Voorwaardelijke herhaling"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "Md26Kyspc4FIvxq8h8Dg6VxqHXQzN8CizMKpCKI3ASpnVKq-MqVve6CqSRGpJFGs",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

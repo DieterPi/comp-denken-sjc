@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "1 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "4 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "7 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '130'
+      stdout: "130 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '460'
+      stdout: "460 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '469'
+      stdout: "469 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '790'
+      stdout: "790 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '1033'
+      stdout: "1033 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '1207'
+      stdout: "1207 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '1265'
+      stdout: "1265 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '1633'
+      stdout: "1633 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '2009'
+      stdout: "2009 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '2026'
+      stdout: "2026 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '2442'
+      stdout: "2442 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '3749'
+      stdout: "3749 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '3926'
+      stdout: "3926 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '4138'
+      stdout: "4138 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '5056'
+      stdout: "5056 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '5494'
+      stdout: "5494 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '5736'
+      stdout: "5736 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '6543'
+      stdout: "6543 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '7000'
+      stdout: "7000 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '8342'
+      stdout: "8342 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '8443'
+      stdout: "8443 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '9610'
+      stdout: "9610 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '9654'
+      stdout: "9654 is geen gelukkig getal.\n"
+  - testcases:
+    - stdin: '9655'
+      stdout: "9655 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '9908'
+      stdout: "9908 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '9912'
+      stdout: "9912 is een gelukkig getal.\n"
+  - testcases:
+    - stdin: '9930'
+      stdout: "9930 is geen gelukkig getal.\n"
