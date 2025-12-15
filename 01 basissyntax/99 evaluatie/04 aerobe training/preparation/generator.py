@@ -33,8 +33,8 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests= 20
-cases = [(80,30),(200,0) ]
+ntests= 25
+cases = [(80,30),(200,0), (56,0),(0,0) ]
 while len(cases) < ntests:
     licht = random.randint(0,150) * 2
     over = 300 - licht

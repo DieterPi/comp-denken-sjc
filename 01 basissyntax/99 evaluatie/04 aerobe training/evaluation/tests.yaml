@@ -9,6 +9,14 @@
       stdout: "Je moet deze week nog:\n100 minuten sporten aan lichte intensiteit
         of 50 minuten aan hoge intensiteit.\n"
   - testcases:
+    - stdin: "56\n0"
+      stdout: "Je moet deze week nog:\n244 minuten sporten aan lichte intensiteit
+        of 122 minuten aan hoge intensiteit.\n"
+  - testcases:
+    - stdin: "0\n0"
+      stdout: "Je moet deze week nog:\n300 minuten sporten aan lichte intensiteit
+        of 150 minuten aan hoge intensiteit.\n"
+  - testcases:
     - stdin: "50\n81"
       stdout: "Je moet deze week nog:\n88 minuten sporten aan lichte intensiteit of
         44 minuten aan hoge intensiteit.\n"
@@ -80,3 +88,15 @@
     - stdin: "286\n4"
       stdout: "Je moet deze week nog:\n6 minuten sporten aan lichte intensiteit of
         3 minuten aan hoge intensiteit.\n"
+  - testcases:
+    - stdin: "194\n11"
+      stdout: "Je moet deze week nog:\n84 minuten sporten aan lichte intensiteit of
+        42 minuten aan hoge intensiteit.\n"
+  - testcases:
+    - stdin: "28\n32"
+      stdout: "Je moet deze week nog:\n208 minuten sporten aan lichte intensiteit
+        of 104 minuten aan hoge intensiteit.\n"
+  - testcases:
+    - stdin: "124\n27"
+      stdout: "Je moet deze week nog:\n122 minuten sporten aan lichte intensiteit
+        of 61 minuten aan hoge intensiteit.\n"
