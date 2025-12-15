@@ -2,7 +2,7 @@
 
 In het verslag *Physical Activity Guidelines for Americans* van het Departement Gezondheid in de Verenigde Staten staat deze tekst:
 
-> For substantial health benefits, adults should about 300 minutes (5 hours) a week of moderate-intensity, or 150 minutes (2 hours and 30 minutes) a week of vigorous-intensity aerobic physical activity, or an equivalent combination of moderate- and vigorous-intensity aerobic activity. Preferably, aerobic activity should be spread throughout the week.
+> For substantial health benefits, adults should do about 300 minutes (5 hours) a week of moderate-intensity, or 150 minutes (2 hours and 30 minutes) a week of vigorous-intensity aerobic physical activity, or an equivalent combination of moderate- and vigorous-intensity aerobic activity. Preferably, aerobic activity should be spread throughout the week.
 
 Regelmatige lichaamsbeweging is dus essentieel voor het behoud van je gezondheid en conditie. Elke week 300 minuten sporten op lichte intensiteit of 150 op hoge intensiteit is hierbij de aanbevolen hoeveelheid voor volwassenen. Elke minuut sporten op hoge intensiteit **telt dus dubbel mee**.
 
