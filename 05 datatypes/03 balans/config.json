@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Eeuw bepalen"
+      "nl": "Balans"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-    "modulo"
+    "Lijsten",
+    "Voorwaardelijke herhaling",
+    "Vlaamse Programmeerwedstrijd"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "3xRwRuWmE9VDpFUjCmN7fgxqHHCXA29b8gC4TdKrGJMcPegDEeB8_h4jd_GIhq2E",
