@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Booleaanse expressies"
+      "nl": "🦆 Eendjes vissen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Lijsten",
+    "Begrensde herhaling",
+    "Vlaamse Programmeerwedstrijd"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "Q6ZPwR25QnTjt3XwR7ef_E8edKW3RjNdCCRt3BxMUXaPMxWFaNCh8fbaNN3DrbvD",
