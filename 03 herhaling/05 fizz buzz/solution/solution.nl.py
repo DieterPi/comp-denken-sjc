@@ -1,5 +1,4 @@
 n = int(input("Geef het eindgetal in: "))
-print()
 
 for i in range(n):
     getal = i + 1
