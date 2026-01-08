@@ -1,0 +1,107 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "1\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "1\n2\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "1\n2\nFizz\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "1\n2\nFizz\n4\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "1\n2\nFizz\n4\nBuzz\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n"
+  - testcases:
+    - stdin: '16'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n"
+  - testcases:
+    - stdin: '22'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n"
+  - testcases:
+    - stdin: '23'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\n"
+  - testcases:
+    - stdin: '24'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n"
+  - testcases:
+    - stdin: '26'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n29\n"
+  - testcases:
+    - stdin: '30'
+      stdout: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n\
+        16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n29\nFizzBuzz\n"
