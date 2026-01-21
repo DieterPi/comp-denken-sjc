@@ -1,0 +1,24 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Hidden Figures"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python",
+    "for-lus",
+    "Begrensde herhaling"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "access": "public",
+  "internals": {
+    "token": "-Py64eYiVNadg8YpUZk2CDEFMVkGcaeK6qkgchKMstRY_GJFkhxQxpjf8nBNZ5q8",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

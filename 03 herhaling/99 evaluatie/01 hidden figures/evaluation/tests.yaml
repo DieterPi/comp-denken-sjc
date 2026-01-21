@@ -1,0 +1,240 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "1\npriemgetal\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "1\npriemgetal\npriemgetal\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "1\npriemgetal\npriemgetal\n4\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n"
+  - testcases:
+    - stdin: '16'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n"
+  - testcases:
+    - stdin: '33'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n"
+  - testcases:
+    - stdin: '40'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\n"
+  - testcases:
+    - stdin: '60'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\n"
+  - testcases:
+    - stdin: '66'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\n"
+  - testcases:
+    - stdin: '87'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n"
+  - testcases:
+    - stdin: '91'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n"
+  - testcases:
+    - stdin: '132'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n"
+  - testcases:
+    - stdin: '133'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n"
+  - testcases:
+    - stdin: '152'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n"
+  - testcases:
+    - stdin: '157'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n"
+  - testcases:
+    - stdin: '164'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n"
+  - testcases:
+    - stdin: '186'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n165\n166\npriemgetal\n168\n169\n170\n171\n172\npriemgetal\n174\n175\n\
+        176\n177\n178\npriemgetal\n180\npriemgetal\n182\n183\n184\n185\n186\n"
+  - testcases:
+    - stdin: '189'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n165\n166\npriemgetal\n168\n169\n170\n171\n172\npriemgetal\n174\n175\n\
+        176\n177\n178\npriemgetal\n180\npriemgetal\n182\n183\n184\n185\n186\n187\n\
+        188\n189\n"
+  - testcases:
+    - stdin: '196'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n165\n166\npriemgetal\n168\n169\n170\n171\n172\npriemgetal\n174\n175\n\
+        176\n177\n178\npriemgetal\n180\npriemgetal\n182\n183\n184\n185\n186\n187\n\
+        188\n189\n190\npriemgetal\n192\npriemgetal\n194\n195\n196\n"
+  - testcases:
+    - stdin: '197'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n165\n166\npriemgetal\n168\n169\n170\n171\n172\npriemgetal\n174\n175\n\
+        176\n177\n178\npriemgetal\n180\npriemgetal\n182\n183\n184\n185\n186\n187\n\
+        188\n189\n190\npriemgetal\n192\npriemgetal\n194\n195\n196\npriemgetal\n"
+  - testcases:
+    - stdin: '200'
+      stdout: "1\npriemgetal\npriemgetal\n4\npriemgetal\n6\npriemgetal\n8\n9\n10\n\
+        priemgetal\n12\npriemgetal\n14\n15\n16\npriemgetal\n18\npriemgetal\n20\n21\n\
+        22\npriemgetal\n24\n25\n26\n27\n28\npriemgetal\n30\npriemgetal\n32\n33\n34\n\
+        35\n36\npriemgetal\n38\n39\n40\npriemgetal\n42\npriemgetal\n44\n45\n46\npriemgetal\n\
+        48\n49\n50\n51\n52\npriemgetal\n54\n55\n56\n57\n58\npriemgetal\n60\npriemgetal\n\
+        62\n63\n64\n65\n66\npriemgetal\n68\n69\n70\npriemgetal\n72\npriemgetal\n74\n\
+        75\n76\n77\n78\npriemgetal\n80\n81\n82\npriemgetal\n84\n85\n86\n87\n88\npriemgetal\n\
+        90\n91\n92\n93\n94\n95\n96\npriemgetal\n98\n99\n100\npriemgetal\n102\npriemgetal\n\
+        104\n105\n106\npriemgetal\n108\npriemgetal\n110\n111\n112\npriemgetal\n114\n\
+        115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\npriemgetal\n128\n\
+        129\n130\npriemgetal\n132\n133\n134\n135\n136\npriemgetal\n138\npriemgetal\n\
+        140\n141\n142\n143\n144\n145\n146\n147\n148\npriemgetal\n150\npriemgetal\n\
+        152\n153\n154\n155\n156\npriemgetal\n158\n159\n160\n161\n162\npriemgetal\n\
+        164\n165\n166\npriemgetal\n168\n169\n170\n171\n172\npriemgetal\n174\n175\n\
+        176\n177\n178\npriemgetal\n180\npriemgetal\n182\n183\n184\n185\n186\n187\n\
+        188\n189\n190\npriemgetal\n192\npriemgetal\n194\n195\n196\npriemgetal\n198\n\
+        priemgetal\n200\n"
