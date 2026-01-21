@@ -2,7 +2,7 @@ In de film "Hidden Figures" schetst men het verhaal van de Afro-Amerikaanse wete
 
 De film begint met Katherine die op weg naar school telt en telkens ze een priemgetal ontmoet, dit getal vervangt door "priemgetal".
 
-![Fragment uit Hidden Figures (2016)](media/film.gif "Fragment uit Hidden Figures (2016)"){:data-caption="Fragment uit Hidden Figures (2016)" width="935px"}
+![Fragment uit Hidden Figures (2016)](media/film.gif "Fragment uit Hidden Figures (2016)"){:data-caption="Fragment uit Hidden Figures (2016)" width="700px"}
 
 ## Opgave
 
