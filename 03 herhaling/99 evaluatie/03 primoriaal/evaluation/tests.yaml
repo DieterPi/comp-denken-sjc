@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0'
+      stdout: "De primoriaal van 0 is 1\n"
+  - testcases:
+    - stdin: '1'
+      stdout: "De primoriaal van 1 is 1\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "De primoriaal van 2 is 2\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De primoriaal van 3 is 6\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "De primoriaal van 7 is 210\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "De primoriaal van 10 is 210\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "De primoriaal van 14 is 30030\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "De primoriaal van 15 is 30030\n"
+  - testcases:
+    - stdin: '23'
+      stdout: "De primoriaal van 23 is 223092870\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "De primoriaal van 29 is 6469693230\n"
+  - testcases:
+    - stdin: '35'
+      stdout: "De primoriaal van 35 is 200560490130\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "De primoriaal van 42 is 304250263527210\n"
+  - testcases:
+    - stdin: '60'
+      stdout: "De primoriaal van 60 is 1922760350154212639070\n"
+  - testcases:
+    - stdin: '61'
+      stdout: "De primoriaal van 61 is 117288381359406970983270\n"
+  - testcases:
+    - stdin: '62'
+      stdout: "De primoriaal van 62 is 117288381359406970983270\n"
+  - testcases:
+    - stdin: '68'
+      stdout: "De primoriaal van 68 is 7858321551080267055879090\n"
+  - testcases:
+    - stdin: '89'
+      stdout: "De primoriaal van 89 is 23768741896345550770650537601358310\n"
+  - testcases:
+    - stdin: '93'
+      stdout: "De primoriaal van 93 is 23768741896345550770650537601358310\n"
+  - testcases:
+    - stdin: '98'
+      stdout: "De primoriaal van 98 is 2305567963945518424753102147331756070\n"
+  - testcases:
+    - stdin: '121'
+      stdout: "De primoriaal van 121 is 31610054640417607788145206291543662493274686990\n"
+  - testcases:
+    - stdin: '127'
+      stdout: "De primoriaal van 127 is 4014476939333036189094441199026045136645885247730\n"
+  - testcases:
+    - stdin: '130'
+      stdout: "De primoriaal van 130 is 4014476939333036189094441199026045136645885247730\n"
+  - testcases:
+    - stdin: '134'
+      stdout: "De primoriaal van 134 is 525896479052627740771371797072411912900610967452630\n"
+  - testcases:
+    - stdin: '135'
+      stdout: "De primoriaal van 135 is 525896479052627740771371797072411912900610967452630\n"
+  - testcases:
+    - stdin: '142'
+      stdout: "De primoriaal van 142 is 10014646650599190067509233131649940057366334653200433090\n"
