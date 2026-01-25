@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Tafels van vermenigvuldiging  (oefening)"
+      "nl": "Pythagorische drietallen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "for-lus",
+    "Begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "NxWwPt4SvvgVKWWJdmpDdqzR7wNtXjXCYXWekKyFkWpJQU2HZG8zYMfpigM3Jrdt",
