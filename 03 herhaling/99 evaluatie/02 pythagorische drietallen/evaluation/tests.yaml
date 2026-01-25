@@ -5,15 +5,15 @@
       stdout: "De pythagorese drietallen kleiner dan 12 zijn:\n5 , 4, 3\n10 , 8, 6\n"
   - testcases:
     - stdin: '15'
-      stdout: "De pythagorese drietallen kleiner dan 15 zijn:\n5 , 4, 3\n10 , 8, 6\n
+      stdout: "De pythagorese drietallen kleiner dan 15 zijn:\n5 , 4, 3\n10 , 8, 6\n\
         13 , 12, 5\n"
   - testcases:
     - stdin: '16'
-      stdout: "De pythagorese drietallen kleiner dan 16 zijn:\n5 , 4, 3\n10 , 8, 6\n
+      stdout: "De pythagorese drietallen kleiner dan 16 zijn:\n5 , 4, 3\n10 , 8, 6\n\
         13 , 12, 5\n15 , 12, 9\n"
   - testcases:
     - stdin: '17'
-      stdout: "De pythagorese drietallen kleiner dan 17 zijn:\n5 , 4, 3\n10 , 8, 6\n
+      stdout: "De pythagorese drietallen kleiner dan 17 zijn:\n5 , 4, 3\n10 , 8, 6\n\
         13 , 12, 5\n15 , 12, 9\n"
   - testcases:
     - stdin: '20'
