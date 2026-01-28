@@ -4,7 +4,7 @@ De variatiebreedte (ook wel gekend als de range) van een rij getallen wordt als 
 > #### Definitie
 > De variatiebreedte is het verschil van de grootste en kleinste waarde.
 
-Bij de volgende rij getallen `5`, `2`, `3`, `8`, `1` is de variatiebreedte `7`, want `8 - 1= 7`.
+Bij de volgende rij getallen `5`, `2`, `3`, `8`, `1` is de variatiebreedte `7`, want `8 - 1 = 7`.
 
 ## Opgave
 Schrijf een programma dat eerst het **aantal** in te voeren (gehele) getallen aan de gebruiker vraagt. Vervolgens vraagt het programma naar evenveel (gehele) getallen en drukt het programma de variatiebreedte van de ingevoerde getallen af.
