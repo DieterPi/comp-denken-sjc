@@ -1,0 +1,108 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2\n-3\n10"
+      stdout: "Van de 2 ingevoerde getallen was 10 het grootste getal.\n"
+  - testcases:
+    - stdin: "2\n5\n-1"
+      stdout: "Van de 2 ingevoerde getallen was 5 het grootste getal.\n"
+  - testcases:
+    - stdin: "4\n-6\n10\n11\n-4"
+      stdout: "Van de 4 ingevoerde getallen was 11 het grootste getal.\n"
+  - testcases:
+    - stdin: "5\n2\n-1\n4\n0\n2"
+      stdout: "Van de 5 ingevoerde getallen was 4 het grootste getal.\n"
+  - testcases:
+    - stdin: "6\n-7\n16\n-12\n-11\n2\n0"
+      stdout: "Van de 6 ingevoerde getallen was 16 het grootste getal.\n"
+  - testcases:
+    - stdin: "8\n2\n11\n0\n6\n3\n14\n2\n-15"
+      stdout: "Van de 8 ingevoerde getallen was 14 het grootste getal.\n"
+  - testcases:
+    - stdin: "11\n18\n-3\n-7\n33\n2\n-6\n-25\n17\n-4\n26\n-28"
+      stdout: "Van de 11 ingevoerde getallen was 33 het grootste getal.\n"
+  - testcases:
+    - stdin: "12\n6\n-24\n26\n23\n29\n-29\n9\n-35\n-29\n-23\n-24\n-27"
+      stdout: "Van de 12 ingevoerde getallen was 29 het grootste getal.\n"
+  - testcases:
+    - stdin: "13\n2\n19\n-16\n2\n-26\n31\n-33\n-21\n-5\n23\n23\n13\n-8"
+      stdout: "Van de 13 ingevoerde getallen was 31 het grootste getal.\n"
+  - testcases:
+    - stdin: "17\n-16\n-12\n-17\n-46\n-45\n22\n-26\n-5\n33\n-23\n27\n16\n32\n-32\n\
+        -22\n-44\n24"
+      stdout: "Van de 17 ingevoerde getallen was 33 het grootste getal.\n"
+  - testcases:
+    - stdin: "22\n53\n10\n33\n39\n-45\n-64\n-6\n44\n-21\n-62\n-14\n-14\n-31\n27\n\
+        42\n-53\n-28\n40\n-16\n-44\n-30\n-1"
+      stdout: "Van de 22 ingevoerde getallen was 53 het grootste getal.\n"
+  - testcases:
+    - stdin: "23\n-59\n-63\n13\n-20\n-64\n-10\n-51\n-64\n59\n58\n-17\n63\n-39\n-7\n\
+        47\n-69\n-5\n46\n-1\n10\n40\n39\n16"
+      stdout: "Van de 23 ingevoerde getallen was 63 het grootste getal.\n"
+  - testcases:
+    - stdin: "24\n28\n52\n37\n44\n-57\n45\n-43\n-17\n-61\n62\n32\n-60\n-46\n-51\n\
+        -65\n71\n39\n41\n15\n45\n50\n-11\n29\n-21"
+      stdout: "Van de 24 ingevoerde getallen was 71 het grootste getal.\n"
+  - testcases:
+    - stdin: "33\n95\n6\n-73\n-84\n-50\n-58\n-35\n22\n74\n46\n2\n-51\n58\n27\n-25\n\
+        -36\n9\n-77\n-60\n3\n-64\n57\n10\n92\n-79\n76\n52\n-89\n69\n-62\n-88\n74\n\
+        35"
+      stdout: "Van de 33 ingevoerde getallen was 95 het grootste getal.\n"
+  - testcases:
+    - stdin: "36\n39\n-19\n35\n62\n-108\n-95\n27\n46\n80\n-10\n44\n21\n-8\n-90\n-39\n\
+        -92\n-88\n-56\n97\n-102\n-34\n-83\n55\n-12\n-90\n61\n52\n-63\n6\n-50\n82\n\
+        -68\n-68\n-80\n-95\n51"
+      stdout: "Van de 36 ingevoerde getallen was 97 het grootste getal.\n"
+  - testcases:
+    - stdin: "36\n104\n-18\n-23\n79\n-53\n100\n-63\n107\n-24\n-29\n-62\n-99\n-92\n\
+        106\n28\n-14\n-48\n34\n6\n-98\n53\n-49\n61\n55\n-52\n38\n103\n-67\n34\n84\n\
+        88\n42\n105\n-104\n81\n-10"
+      stdout: "Van de 36 ingevoerde getallen was 107 het grootste getal.\n"
+  - testcases:
+    - stdin: "39\n45\n112\n-24\n-72\n34\n-36\n-80\n-82\n32\n-89\n-38\n110\n27\n92\n\
+        -81\n38\n24\n-81\n-94\n-19\n74\n14\n-91\n-100\n97\n23\n18\n-60\n-30\n65\n\
+        28\n-18\n29\n-87\n106\n-10\n-39\n108\n67"
+      stdout: "Van de 39 ingevoerde getallen was 112 het grootste getal.\n"
+  - testcases:
+    - stdin: "41\n-57\n69\n-6\n-98\n-79\n-44\n58\n57\n55\n92\n97\n-74\n46\n4\n-69\n\
+        108\n-69\n112\n-77\n-100\n-82\n98\n-14\n-15\n17\n-30\n-51\n46\n122\n37\n-102\n\
+        -80\n20\n-59\n-94\n75\n78\n-19\n-106\n101\n-66"
+      stdout: "Van de 41 ingevoerde getallen was 122 het grootste getal.\n"
+  - testcases:
+    - stdin: "42\n104\n8\n-81\n-47\n-26\n11\n-4\n23\n125\n-93\n-73\n66\n-13\n76\n\
+        -54\n-53\n-56\n102\n-8\n-64\n-33\n15\n91\n77\n73\n-60\n55\n31\n-79\n-114\n\
+        93\n-108\n-16\n-82\n96\n65\n-83\n-84\n-36\n-86\n-90\n31"
+      stdout: "Van de 42 ingevoerde getallen was 125 het grootste getal.\n"
+  - testcases:
+    - stdin: "43\n31\n77\n80\n1\n62\n6\n24\n-27\n31\n90\n-73\n37\n-77\n-33\n118\n\
+        -76\n51\n-5\n16\n73\n-99\n-26\n12\n-15\n-126\n122\n42\n71\n41\n-46\n120\n\
+        -79\n108\n-9\n-56\n-27\n-50\n-75\n-63\n-51\n102\n15\n-46"
+      stdout: "Van de 43 ingevoerde getallen was 122 het grootste getal.\n"
+  - testcases:
+    - stdin: "44\n-5\n-42\n75\n99\n79\n-10\n115\n112\n98\n84\n16\n98\n17\n-20\n66\n\
+        -35\n-11\n5\n94\n-116\n12\n99\n26\n-28\n-61\n30\n-3\n-17\n-59\n66\n-98\n-25\n\
+        70\n-32\n-29\n-5\n49\n-59\n-119\n-67\n89\n-115\n-32\n24"
+      stdout: "Van de 44 ingevoerde getallen was 115 het grootste getal.\n"
+  - testcases:
+    - stdin: "44\n-36\n81\n6\n130\n101\n-51\n-109\n43\n61\n35\n-66\n71\n-75\n-2\n\
+        66\n-94\n-56\n-112\n-75\n-100\n92\n-126\n-126\n3\n50\n-109\n43\n-90\n100\n\
+        -38\n-11\n-117\n-64\n85\n-29\n-33\n-89\n-26\n41\n75\n115\n84\n-113\n25"
+      stdout: "Van de 44 ingevoerde getallen was 130 het grootste getal.\n"
+  - testcases:
+    - stdin: "47\n6\n74\n60\n74\n109\n-26\n50\n-14\n128\n0\n29\n-5\n-31\n-127\n15\n\
+        -68\n-56\n107\n-55\n-73\n4\n129\n68\n95\n-141\n48\n100\n32\n-2\n-20\n127\n\
+        -79\n-30\n-31\n-45\n-128\n-17\n-49\n-129\n16\n-121\n78\n-72\n-26\n-117\n-132\n\
+        -133"
+      stdout: "Van de 47 ingevoerde getallen was 129 het grootste getal.\n"
+  - testcases:
+    - stdin: "48\n-93\n-27\n-15\n119\n116\n-105\n27\n-82\n-68\n35\n-132\n109\n-124\n\
+        44\n-29\n103\n133\n-122\n90\n-31\n136\n-79\n-14\n-109\n46\n-126\n75\n-4\n\
+        142\n13\n51\n-50\n-116\n-80\n-20\n-33\n132\n62\n106\n-55\n123\n89\n-114\n\
+        46\n-31\n-69\n-91\n81"
+      stdout: "Van de 48 ingevoerde getallen was 142 het grootste getal.\n"
+  - testcases:
+    - stdin: "49\n-87\n92\n29\n-38\n72\n-33\n96\n102\n140\n-42\n28\n-103\n-70\n8\n\
+        138\n-130\n-43\n30\n-92\n-132\n-84\n98\n-37\n30\n-15\n-105\n94\n10\n142\n\
+        145\n26\n-125\n-95\n-120\n140\n15\n-125\n91\n74\n86\n-29\n-32\n7\n-94\n102\n\
+        119\n-127\n-66\n50"
+      stdout: "Van de 49 ingevoerde getallen was 145 het grootste getal.\n"
