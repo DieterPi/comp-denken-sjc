@@ -1,0 +1,94 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2\n4\n7"
+      stdout: "De variatiebreedte is 3\n"
+  - testcases:
+    - stdin: "4\n2\n1\n9\n6"
+      stdout: "De variatiebreedte is 8\n"
+  - testcases:
+    - stdin: "5\n5\n2\n3\n8\n1"
+      stdout: "De variatiebreedte is 7\n"
+  - testcases:
+    - stdin: "5\n6\n1\n1\n2\n2"
+      stdout: "De variatiebreedte is 5\n"
+  - testcases:
+    - stdin: "6\n11\n11\n3\n8\n4\n12"
+      stdout: "De variatiebreedte is 9\n"
+  - testcases:
+    - stdin: "6\n2\n3\n9\n10\n12\n11"
+      stdout: "De variatiebreedte is 10\n"
+  - testcases:
+    - stdin: "8\n4\n11\n10\n6\n10\n13\n16\n5"
+      stdout: "De variatiebreedte is 12\n"
+  - testcases:
+    - stdin: "10\n13\n4\n20\n9\n13\n3\n5\n2\n4\n3"
+      stdout: "De variatiebreedte is 18\n"
+  - testcases:
+    - stdin: "12\n6\n4\n2\n20\n6\n11\n20\n4\n16\n15\n17\n23"
+      stdout: "De variatiebreedte is 21\n"
+  - testcases:
+    - stdin: "13\n1\n7\n7\n5\n19\n12\n14\n26\n18\n2\n5\n23\n14"
+      stdout: "De variatiebreedte is 25\n"
+  - testcases:
+    - stdin: "14\n21\n3\n5\n23\n19\n25\n9\n8\n9\n10\n9\n2\n2\n19"
+      stdout: "De variatiebreedte is 23\n"
+  - testcases:
+    - stdin: "14\n12\n22\n8\n20\n17\n21\n5\n27\n28\n8\n28\n2\n19\n11"
+      stdout: "De variatiebreedte is 26\n"
+  - testcases:
+    - stdin: "15\n25\n15\n26\n10\n10\n9\n29\n15\n8\n12\n18\n28\n26\n25\n9"
+      stdout: "De variatiebreedte is 21\n"
+  - testcases:
+    - stdin: "17\n29\n3\n15\n15\n11\n2\n25\n13\n27\n18\n33\n30\n11\n3\n22\n25\n21"
+      stdout: "De variatiebreedte is 31\n"
+  - testcases:
+    - stdin: "23\n6\n10\n20\n36\n3\n14\n23\n7\n2\n8\n31\n14\n38\n23\n17\n6\n31\n20\n\
+        37\n37\n37\n22\n45"
+      stdout: "De variatiebreedte is 43\n"
+  - testcases:
+    - stdin: "29\n55\n3\n39\n34\n49\n47\n13\n48\n20\n48\n8\n47\n30\n47\n57\n23\n14\n\
+        28\n42\n15\n41\n31\n32\n58\n36\n57\n43\n14\n39"
+      stdout: "De variatiebreedte is 55\n"
+  - testcases:
+    - stdin: "30\n1\n1\n48\n35\n17\n45\n23\n34\n3\n40\n22\n54\n6\n30\n12\n39\n16\n\
+        59\n2\n9\n28\n13\n13\n6\n45\n37\n46\n14\n22\n26"
+      stdout: "De variatiebreedte is 58\n"
+  - testcases:
+    - stdin: "32\n58\n55\n38\n58\n38\n29\n50\n25\n31\n35\n57\n5\n37\n58\n40\n27\n\
+        18\n41\n33\n29\n19\n50\n9\n27\n51\n26\n26\n32\n46\n19\n4\n17"
+      stdout: "De variatiebreedte is 54\n"
+  - testcases:
+    - stdin: "35\n59\n8\n48\n29\n19\n14\n57\n19\n52\n31\n27\n67\n36\n28\n9\n51\n30\n\
+        60\n6\n41\n52\n53\n33\n48\n34\n39\n26\n41\n55\n15\n70\n42\n14\n25\n62"
+      stdout: "De variatiebreedte is 64\n"
+  - testcases:
+    - stdin: "36\n62\n55\n5\n40\n37\n54\n51\n54\n63\n29\n48\n32\n68\n36\n43\n35\n\
+        28\n4\n40\n19\n22\n63\n22\n18\n37\n68\n53\n60\n1\n48\n61\n44\n35\n31\n68\n\
+        16"
+      stdout: "De variatiebreedte is 67\n"
+  - testcases:
+    - stdin: "44\n6\n84\n82\n4\n42\n25\n3\n30\n77\n10\n87\n3\n65\n64\n27\n67\n16\n\
+        32\n59\n85\n84\n74\n1\n33\n83\n58\n35\n40\n55\n75\n55\n43\n69\n46\n43\n28\n\
+        23\n43\n40\n24\n5\n9\n69\n48"
+      stdout: "De variatiebreedte is 86\n"
+  - testcases:
+    - stdin: "47\n14\n92\n46\n32\n37\n67\n80\n51\n8\n26\n36\n29\n90\n88\n1\n92\n80\n\
+        91\n63\n43\n94\n51\n43\n21\n63\n13\n60\n31\n19\n26\n20\n14\n17\n20\n58\n92\n\
+        37\n84\n21\n86\n32\n23\n52\n58\n53\n31\n62"
+      stdout: "De variatiebreedte is 93\n"
+  - testcases:
+    - stdin: "47\n79\n24\n7\n10\n56\n23\n22\n22\n46\n21\n19\n79\n14\n53\n72\n49\n\
+        61\n55\n77\n53\n20\n23\n42\n59\n24\n82\n91\n42\n14\n71\n87\n7\n19\n35\n63\n\
+        63\n53\n32\n41\n70\n60\n68\n39\n84\n50\n53\n11"
+      stdout: "De variatiebreedte is 84\n"
+  - testcases:
+    - stdin: "48\n13\n82\n76\n30\n33\n78\n66\n76\n94\n66\n10\n43\n16\n20\n45\n4\n\
+        64\n6\n48\n93\n29\n62\n70\n6\n59\n29\n71\n17\n33\n9\n48\n5\n55\n36\n72\n82\n\
+        40\n49\n24\n92\n8\n17\n32\n28\n70\n52\n63\n23"
+      stdout: "De variatiebreedte is 90\n"
+  - testcases:
+    - stdin: "50\n96\n6\n60\n93\n56\n59\n88\n30\n29\n39\n83\n14\n63\n67\n6\n21\n50\n\
+        2\n32\n97\n98\n95\n84\n1\n64\n39\n69\n74\n45\n72\n86\n1\n7\n68\n78\n95\n50\n\
+        77\n65\n51\n10\n35\n9\n11\n27\n4\n38\n13\n82\n49"
+      stdout: "De variatiebreedte is 97\n"
