@@ -2,9 +2,9 @@ De <a href="https://nl.wikipedia.org/wiki/Rij_van_Padovan" target="_blank">rij v
 
 Daarna worden de getallen gevormd door het **voorlaatste** getal en het **derde laatste** getal op te tellen. Je kan dit grafisch voorstellen als de **zijden** van een gelijkzijdige driehoek die telkens opgebouwd werd uit de vorige gelijkzijdige driehoeken.
 
-![De rij van Padovan](media/image.png "De rij van Padovan"){:data-caption="De rij van Padovan" width="500px" .light-only }
+![De rij van Padovan](media/image.png "De rij van Padovan"){:data-caption="De rij van Padovan" width="400px" .light-only }
 
-![De rij van Padovan](media/image_dark.png "De rij van Padovan"){:data-caption="De rij van Padovan" width="500px" .dark-only }
+![De rij van Padovan](media/image_dark.png "De rij van Padovan"){:data-caption="De rij van Padovan" width="400px" .dark-only }
 
 Men krijgt dus als rij:
 
