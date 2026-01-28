@@ -1,0 +1,189 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "3.0\n4"
+      stdout: "De startkubus heeft een volume van 27.0 cm³.\nNa stap 1 zijn er 20
+        kubussen in het totaal en is het totale volume 20.0 cm³.\nNa stap 2 zijn er
+        400 kubussen in het totaal en is het totale volume 14.8148 cm³.\nNa stap 3
+        zijn er 8000 kubussen in het totaal en is het totale volume 10.9739 cm³.\n
+        Na stap 4 zijn er 160000 kubussen in het totaal en is het totale volume 8.1288
+        cm³.\n"
+  - testcases:
+    - stdin: "24.15\n10"
+      stdout: "De startkubus heeft een volume van 14084.8234 cm³.\nNa stap 1 zijn
+        er 20 kubussen in het totaal en is het totale volume 10433.2025 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 7728.2981 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 5724.6653
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        4240.4928 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 3141.1058 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 2326.745 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 1723.5148 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 1276.6777 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 945.6872 cm³.\n
+        Na stap 10 zijn er 10240000000000 kubussen in het totaal en is het totale
+        volume 700.509 cm³.\n"
+  - testcases:
+    - stdin: "8.4\n10"
+      stdout: "De startkubus heeft een volume van 592.704 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 439.04 cm³.\nNa stap 2 zijn
+        er 400 kubussen in het totaal en is het totale volume 325.2148 cm³.\nNa stap
+        3 zijn er 8000 kubussen in het totaal en is het totale volume 240.8999 cm³.\n
+        Na stap 4 zijn er 160000 kubussen in het totaal en is het totale volume 178.4443
+        cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het totale volume
+        132.181 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal en is het
+        totale volume 97.9118 cm³.\nNa stap 7 zijn er 1280000000 kubussen in het totaal
+        en is het totale volume 72.5273 cm³.\nNa stap 8 zijn er 25600000000 kubussen
+        in het totaal en is het totale volume 53.7239 cm³.\nNa stap 9 zijn er 512000000000
+        kubussen in het totaal en is het totale volume 39.7955 cm³.\nNa stap 10 zijn
+        er 10240000000000 kubussen in het totaal en is het totale volume 29.4781 cm³.\n"
+  - testcases:
+    - stdin: "17.9\n9"
+      stdout: "De startkubus heeft een volume van 5735.339 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 4248.3993 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 3146.9624 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 2331.0833
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        1726.7283 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 1279.058 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 947.4504 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 701.8151 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 519.863 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 385.0837 cm³.\n"
+  - testcases:
+    - stdin: "3.5\n2"
+      stdout: "De startkubus heeft een volume van 42.875 cm³.\nNa stap 1 zijn er 20
+        kubussen in het totaal en is het totale volume 31.7593 cm³.\nNa stap 2 zijn
+        er 400 kubussen in het totaal en is het totale volume 23.5254 cm³.\n"
+  - testcases:
+    - stdin: "5.55\n1"
+      stdout: "De startkubus heeft een volume van 170.9539 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 126.6325 cm³.\n"
+  - testcases:
+    - stdin: "29.75\n1"
+      stdout: "De startkubus heeft een volume van 26330.6094 cm³.\nNa stap 1 zijn
+        er 20 kubussen in het totaal en is het totale volume 19504.1551 cm³.\n"
+  - testcases:
+    - stdin: "25.55\n4"
+      stdout: "De startkubus heeft een volume van 16679.1039 cm³.\nNa stap 1 zijn
+        er 20 kubussen in het totaal en is het totale volume 12354.8918 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 9151.7717 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 6779.0901
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        5021.5482 cm³.\n"
+  - testcases:
+    - stdin: "16.85\n1"
+      stdout: "De startkubus heeft een volume van 4784.0941 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 3543.7734 cm³.\n"
+  - testcases:
+    - stdin: "15.35\n9"
+      stdout: "De startkubus heeft een volume van 3616.8054 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 2679.1151 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 1984.5297 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 1470.022
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        1088.9052 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 806.5964 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 597.4788 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 442.5769 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 327.8348 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 242.8406 cm³.\n"
+  - testcases:
+    - stdin: "5.4\n2"
+      stdout: "De startkubus heeft een volume van 157.464 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 116.64 cm³.\nNa stap 2 zijn
+        er 400 kubussen in het totaal en is het totale volume 86.4 cm³.\n"
+  - testcases:
+    - stdin: "12.05\n7"
+      stdout: "De startkubus heeft een volume van 1749.6901 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 1296.0668 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 960.0495 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 711.1477
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        526.7761 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 390.2045 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 289.0404 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 214.104 cm³.\n"
+  - testcases:
+    - stdin: "28.4\n9"
+      stdout: "De startkubus heeft een volume van 22906.304 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 16967.6326 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 12568.6167 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 9310.0865
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        6896.3603 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 5108.4151 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 3784.0112 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 2802.9712 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 2076.275 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 1537.9815 cm³.\n"
+  - testcases:
+    - stdin: "27.45\n7"
+      stdout: "De startkubus heeft een volume van 20683.6436 cm³.\nNa stap 1 zijn
+        er 20 kubussen in het totaal en is het totale volume 15321.2175 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 11349.05 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 8406.7037
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        6227.1879 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 4612.7318 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 3416.8384 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 2530.9914 cm³.\n"
+  - testcases:
+    - stdin: "6.05\n3"
+      stdout: "De startkubus heeft een volume van 221.4451 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 164.0334 cm³.\nNa stap 2
+        zijn er 400 kubussen in het totaal en is het totale volume 121.5062 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 90.0046
+        cm³.\n"
+  - testcases:
+    - stdin: "8.3\n9"
+      stdout: "De startkubus heeft een volume van 571.787 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 423.5459 cm³.\nNa stap 2
+        zijn er 400 kubussen in het totaal en is het totale volume 313.7377 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 232.3983
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        172.1469 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 127.5162 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 94.4565 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 69.9677 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 51.828 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 38.3911 cm³.\n"
+  - testcases:
+    - stdin: "13.75\n3"
+      stdout: "De startkubus heeft een volume van 2599.6094 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 1925.6366 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 1426.3975 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 1056.5907
+        cm³.\n"
+  - testcases:
+    - stdin: "29.8\n10"
+      stdout: "De startkubus heeft een volume van 26463.592 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 19602.6607 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 14520.4894 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 10755.9181
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        7967.3467 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 5901.7383 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 4371.658 cm³.\nNa stap 7 zijn er 1280000000 kubussen
+        in het totaal en is het totale volume 3238.2652 cm³.\nNa stap 8 zijn er 25600000000
+        kubussen in het totaal en is het totale volume 2398.715 cm³.\nNa stap 9 zijn
+        er 512000000000 kubussen in het totaal en is het totale volume 1776.8259 cm³.\n
+        Na stap 10 zijn er 10240000000000 kubussen in het totaal en is het totale
+        volume 1316.1673 cm³.\n"
+  - testcases:
+    - stdin: "15.05\n6"
+      stdout: "De startkubus heeft een volume van 3408.8626 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 2525.0834 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 1870.4322 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 1385.5053
+        cm³.\nNa stap 4 zijn er 160000 kubussen in het totaal en is het totale volume
+        1026.3002 cm³.\nNa stap 5 zijn er 3200000 kubussen in het totaal en is het
+        totale volume 760.2224 cm³.\nNa stap 6 zijn er 64000000 kubussen in het totaal
+        en is het totale volume 563.1277 cm³.\n"
+  - testcases:
+    - stdin: "20.35\n3"
+      stdout: "De startkubus heeft een volume van 8427.3929 cm³.\nNa stap 1 zijn er
+        20 kubussen in het totaal en is het totale volume 6242.5132 cm³.\nNa stap
+        2 zijn er 400 kubussen in het totaal en is het totale volume 4624.0839 cm³.\n
+        Na stap 3 zijn er 8000 kubussen in het totaal en is het totale volume 3425.2473
+        cm³.\n"

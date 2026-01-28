@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Soort driehoek"
+      "nl": "Spons van Menger"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "for-lus",
+    "Begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "tRxxZ4FkPunvxN7wvbgi2NmjSXccmFRMtkC5AxVT5JYX5zHEV4niZvVDZs8nqv2d",
