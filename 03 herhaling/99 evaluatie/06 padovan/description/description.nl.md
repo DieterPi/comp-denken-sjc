@@ -13,7 +13,7 @@ De 7 wordt bijvoorbeeld gevormd door het getal 3 en 4 op te tellen. 9 wordt gevo
 Je kan dit wiskundig noteren via onderstaand voorschrift:
 
 $$
- \mathsf{u_n = u_{n-2}+u_{n-3}, \text{met} u_1 = 1, u_2=1 \text{en} u_3 = 1}
+ \mathsf{u_n = u_{n-2}+u_{n-3}, \qquad\text{\textsf{met}}\qquad u_1 = 1, u_2=1 \text{ \textsf{en} } u_3 = 1}
 $$
 
 
