@@ -8,7 +8,7 @@ De primoriaal van een natuurlijk getal wordt als volgt gedefinieerd:
 Zo geldt: 7# = 2 · 3 · 5 · 7 = 210. 
 
 ## Opgave
-Schrijf een prgramma dat een natuurlijk getal vraagt en vervolgens de primoriaal van dit natuurlijk getal uitrekent.
+Schrijf een programma dat een natuurlijk getal vraagt en vervolgens de primoriaal van dit natuurlijk getal uitrekent.
 
 #### Voorbeelden
 
