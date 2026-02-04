@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "14595\n12285"
+      stdout: "14595 en 12285 zijn bevriend.\n"
+  - testcases:
+    - stdin: "17733\n1447"
+      stdout: "17733 en 1447 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "12197\n1211"
+      stdout: "12197 en 1211 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "3266\n7498"
+      stdout: "3266 en 7498 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "5564\n5020"
+      stdout: "5564 en 5020 zijn bevriend.\n"
+  - testcases:
+    - stdin: "1184\n1210"
+      stdout: "1184 en 1210 zijn bevriend.\n"
+  - testcases:
+    - stdin: "14986\n7244"
+      stdout: "14986 en 7244 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "10856\n10744"
+      stdout: "10856 en 10744 zijn bevriend.\n"
+  - testcases:
+    - stdin: "8375\n2255"
+      stdout: "8375 en 2255 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "10989\n4018"
+      stdout: "10989 en 4018 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "284\n210"
+      stdout: "284 en 210 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "7373\n15822"
+      stdout: "7373 en 15822 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "220\n284"
+      stdout: "220 en 284 zijn bevriend.\n"
+  - testcases:
+    - stdin: "4885\n11472"
+      stdout: "4885 en 11472 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "284\n220"
+      stdout: "284 en 220 zijn bevriend.\n"
+  - testcases:
+    - stdin: "771\n16208"
+      stdout: "771 en 16208 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "16684\n2531"
+      stdout: "16684 en 2531 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "17983\n4189"
+      stdout: "17983 en 4189 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "8277\n16887"
+      stdout: "8277 en 16887 zijn niet bevriend.\n"
+  - testcases:
+    - stdin: "1334\n12078"
+      stdout: "1334 en 12078 zijn niet bevriend.\n"
