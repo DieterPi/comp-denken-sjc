@@ -12,6 +12,8 @@ Stel dat iemand belastbaar inkomen van € 26 000 heeft. Dan wordt de belastin
 
 Alles samen bedraagt de belasting dus € 8 474.
 
+![Het voorbeeld uitgelegd via een animatie.](media/fod.png "Het voorbeeld uitgelegd via een animatie."){:data-caption="Het voorbeeld uitgelegd via een animatie." width="500px"}
+
 ## Opgave
 
 Schrijf een programma dat aan de gebruiker het totale belastbare inkomen vraagt en vervolgens de verschuldigde belastingen berekend.

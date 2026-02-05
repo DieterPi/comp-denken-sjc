@@ -1,0 +1,103 @@
+\documentclass[dvipsnames, tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[gensym, left]{eurosym}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{matrix,shapes,fit,backgrounds}
+
+\tikzset{main/.style={color=black, line join=round}}
+
+\begin{document}
+	\begin{tikzpicture}[font=\Large \bfseries \sffamily] 
+		\clip (-1, -2.2) rectangle ++(15,6.5);
+		
+		\fill[BurntOrange] (0,0) rectangle (13,1);
+	
+		\draw[very thick, -stealth, main] (12.99,0) --++ (0,-1.5);
+		\draw[main] (13.9,-1.5) node [below left] {\EUR{26\,000}};
+		
+		\draw[thick, main] (0,0) rectangle (13,1);
+	\end{tikzpicture}
+
+	\begin{tikzpicture}[font=\Large \bfseries \sffamily] 
+		\clip (-1, -2.2) rectangle ++(15,6.5);
+		
+		\fill[BurntOrange] (0,0) rectangle (13,1);
+		\fill[SkyBlue] (0,0) rectangle (6.5,1);
+		
+		\draw[very thick, -stealth, main] (12.99,0) --++ (0,-1.5);
+		\draw[main] (13.9,-1.5) node [below left] {\EUR{26\,000}};
+		
+		\draw[very thick, -stealth, main] (6.5,0) --++ (0,-0.5);
+		\draw[main] (6.4,-0.5) node [below] {\EUR{13\,540}};
+		
+		\draw[SkyBlue] (6.5/2,1.95) node [above] {\parbox[c]{5cm}{\centering 25\% op \EUR{13\,540}}};
+		\draw[SkyBlue] (6.5/2,1.95) node [below] {\parbox[c]{5cm}{\centering = \EUR{3\,385}}};
+		
+		\draw[thick, main] (0,0) rectangle (13,1);
+	\end{tikzpicture}
+
+	\begin{tikzpicture}[font=\Large \bfseries \sffamily] 
+		\clip (-1, -2.2) rectangle ++(15,6.5);
+		
+		\fill[BurntOrange] (0,0) rectangle (13,1);
+		\fill[SkyBlue] (0,0) rectangle (6.5,1);
+		
+		\fill[GreenYellow] (6.5,0) rectangle ++ (5.1,1);
+		
+		\draw[very thick, -stealth, main] (12.99,0) --++ (0,-1.5);
+		\draw[main] (13.9,-1.5) node [below left] {\EUR{26\,000}};
+		
+		\draw[very thick, -stealth, main] (6.5,0) --++ (0,-0.5);
+		\draw[main] (6.4,-0.5) node [below] {\EUR{13\,540}};
+		
+		\draw[very thick, -stealth, main] (6.5+5.1,0) --++ (0,-0.5);
+		\draw[main] (6.4+5.1,-0.5) node [below] {\EUR{23\,900}};
+		
+		\draw[SkyBlue] (6.5/2,1.95) node [above] {\parbox[c]{5cm}{\centering 25\% op \EUR{13\,540}}};
+		\draw[SkyBlue] (6.5/2,1.95) node [below] {\parbox[c]{5cm}{\centering = \EUR{3\,385}}};
+		
+		\draw[GreenYellow] (6.5+2.55,1.95) node [above] {\parbox[c]{5cm}{\centering 40\% op \EUR{10\,360}}};
+		\draw[GreenYellow] (6.5+2.55,1.95) node [below] {\parbox[c]{5cm}{\centering = \EUR{4\,144}}};
+		
+		\draw[thick, main] (0,0) rectangle (13,1);
+	\end{tikzpicture}
+
+
+	\begin{tikzpicture}[font=\Large \bfseries \sffamily] 
+		\clip (-1, -2.2) rectangle ++(15,6.5);
+		
+		
+		\fill[BurntOrange] (0,0) rectangle (13,1);
+		\fill[SkyBlue] (0,0) rectangle (6.5,1);
+		
+		\fill[GreenYellow] (6.5,0) rectangle ++ (5.1,1);
+		
+		\fill[RubineRed] (11.6,0) rectangle (13,1);
+		\draw[thick, main] (0,0) rectangle (13,1);
+		
+		\draw[very thick, -stealth, main] (12.99,0) --++ (0,-1.5);
+		\draw[main] (13.9,-1.5) node [below left] {\EUR{26\,000}};
+		
+		\draw[very thick, -stealth, main] (6.5,0) --++ (0,-0.5);
+		\draw[main] (6.4,-0.5) node [below] {\EUR{13\,540}};
+		
+		\draw[very thick, -stealth, main] (6.5+5.1,0) --++ (0,-0.5);
+		\draw[main] (6.4+5.1,-0.5) node [below] {\EUR{23\,900}};
+		
+		\draw[SkyBlue] (6.5/2,1.95) node [above] {\parbox[c]{5cm}{\centering 25\% op \EUR{13\,540}}};
+		\draw[SkyBlue] (6.5/2,1.95) node [below] {\parbox[c]{5cm}{\centering = \EUR{3\,385}}};
+		
+		\draw[GreenYellow] (6.5+2.55,1.95) node [above] {\parbox[c]{5cm}{\centering 40\% op \EUR{10\,360}}};
+		\draw[GreenYellow] (6.5+2.55,1.95) node [below] {\parbox[c]{5cm}{\centering = \EUR{4\,144}}};
+		
+		\draw[RubineRed] (13,3.5) node [above left] {\parbox[c]{5cm}{ \hfill 45\% op \EUR{2\,100}}};
+		\draw[RubineRed] (13,3.5) node [below left ] {\parbox[c]{5cm}{\hfill = \EUR{945}}};
+		\draw[very thick, RubineRed, -stealth] (13-0.7,1) --++ (0,1.5);
+		\draw[thick, main] (0,0) rectangle (13,1);
+	\end{tikzpicture}
+
+\end{document}
