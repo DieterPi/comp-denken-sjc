@@ -9,7 +9,7 @@ Het uurtarief wordt **per begonnen** uur aangerekend.
 ![Afbeelding door Cottonbro op Pexels.](media/cottonbro.jpg "Afbeelding door Cottonbro op Pexels."){:data-caption="Afbeelding door Cottonbro op Pexels." width="45%"}
 
 ## Opgave
-Schrijf een programma dat achtereenvolgend het starttijdstip en eindtijdstip vraagt. Je vraagt telkens eerst naar het uur en daarna de minuten, met andere woorden: er wordt **vier keer **om invoer gevraagd.
+Schrijf een programma dat achtereenvolgend het starttijdstip en eindtijdstip vraagt. Je vraagt telkens eerst naar het uur en daarna de minuten, met andere woorden: er wordt **vier keer** om invoer gevraagd.
 
 Vervolgens bereken je de vergoeding volgens bovenstaande regels. Je mag er van uitgaan dat de babysit voor middernacht mag stoppen.
 
