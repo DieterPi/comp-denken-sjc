@@ -12,7 +12,9 @@ Stel dat iemand belastbaar inkomen van € 26 000 heeft. Dan wordt de belastin
 
 Alles samen bedraagt de belasting dus € 8 474.
 
-![Het voorbeeld uitgelegd via een animatie.](media/fod.png "Het voorbeeld uitgelegd via een animatie."){:data-caption="Het voorbeeld uitgelegd via een animatie." width="500px"}
+![Het voorbeeld uitgelegd via een animatie.](media/image.png "Het voorbeeld uitgelegd via een animatie."){:data-caption="Het voorbeeld uitgelegd via een animatie." width="500px" .light-only}
+
+![Het voorbeeld uitgelegd via een animatie.](media/image_dark.png "Het voorbeeld uitgelegd via een animatie."){:data-caption="Het voorbeeld uitgelegd via een animatie." width="500px" .dark-only}
 
 ## Opgave
 
