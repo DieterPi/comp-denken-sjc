@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "16\n30\n19\n10"
+      stdout: "Vergoeding: € 18\n"
+  - testcases:
+    - stdin: "18\n30\n19\n20"
+      stdout: "Vergoeding: € 10\n"
+  - testcases:
+    - stdin: "16\n30\n23\n0"
+      stdout: "Vergoeding: € 72\n"
+  - testcases:
+    - stdin: "14\n50\n23\n14"
+      stdout: "Vergoeding: € 84\n"
+  - testcases:
+    - stdin: "17\n45\n21\n37"
+      stdout: "Vergoeding: € 24\n"
+  - testcases:
+    - stdin: "21\n5\n22\n7"
+      stdout: "Vergoeding: € 42\n"
+  - testcases:
+    - stdin: "15\n25\n15\n56"
+      stdout: "Vergoeding: € 10\n"
+  - testcases:
+    - stdin: "13\n25\n16\n30"
+      stdout: "Vergoeding: € 24\n"
+  - testcases:
+    - stdin: "21\n0\n22\n14"
+      stdout: "Vergoeding: € 42\n"
+  - testcases:
+    - stdin: "21\n10\n22\n4"
+      stdout: "Vergoeding: € 40\n"
+  - testcases:
+    - stdin: "18\n0\n21\n55"
+      stdout: "Vergoeding: € 24\n"
+  - testcases:
+    - stdin: "17\n40\n23\n40"
+      stdout: "Vergoeding: € 66\n"
+  - testcases:
+    - stdin: "17\n30\n18\n45"
+      stdout: "Vergoeding: € 12\n"
+  - testcases:
+    - stdin: "13\n10\n16\n13"
+      stdout: "Vergoeding: € 24\n"
+  - testcases:
+    - stdin: "21\n30\n22\n11"
+      stdout: "Vergoeding: € 40\n"
+  - testcases:
+    - stdin: "21\n45\n22\n47"
+      stdout: "Vergoeding: € 42\n"
+  - testcases:
+    - stdin: "13\n25\n22\n14"
+      stdout: "Vergoeding: € 84\n"
+  - testcases:
+    - stdin: "15\n5\n22\n9"
+      stdout: "Vergoeding: € 78\n"
+  - testcases:
+    - stdin: "19\n15\n20\n33"
+      stdout: "Vergoeding: € 12\n"
+  - testcases:
+    - stdin: "17\n50\n18\n4"
+      stdout: "Vergoeding: € 10\n"
+  - testcases:
+    - stdin: "19\n15\n23\n29"
+      stdout: "Vergoeding: € 60\n"
+  - testcases:
+    - stdin: "13\n50\n18\n40"
+      stdout: "Vergoeding: € 30\n"
+  - testcases:
+    - stdin: "19\n30\n21\n23"
+      stdout: "Vergoeding: € 12\n"
+  - testcases:
+    - stdin: "22\n55\n23\n45"
+      stdout: "Vergoeding: € 40\n"
+  - testcases:
+    - stdin: "17\n55\n22\n12"
+      stdout: "Vergoeding: € 60\n"
+  - testcases:
+    - stdin: "18\n30\n18\n47"
+      stdout: "Vergoeding: € 10\n"
+  - testcases:
+    - stdin: "18\n5\n23\n12"
+      stdout: "Vergoeding: € 66\n"
+  - testcases:
+    - stdin: "23\n35\n23\n57"
+      stdout: "Vergoeding: € 40\n"
+  - testcases:
+    - stdin: "18\n15\n20\n33"
+      stdout: "Vergoeding: € 18\n"
+  - testcases:
+    - stdin: "22\n30\n22\n36"
+      stdout: "Vergoeding: € 40\n"

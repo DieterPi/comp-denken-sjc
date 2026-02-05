@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Perfecte getallen (oefening)"
+      "nl": "Babysit"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Selectie",
+    "Import math"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "wnHIH3kpw83Ni4Teg-WNSVgGw_XJa99G78deg3U4WQRGzUC4ZaGVZ9GNImAabPNi",
