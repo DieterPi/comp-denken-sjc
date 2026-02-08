@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "De divergente som met 1 termen is 0.5\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De divergente som met 2 termen is 0.833333\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "De divergente som met 2 termen is 0.833333\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De divergente som met 3 termen is 1.033333\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "De divergente som met 5 termen is 1.2671\n"
+  - testcases:
+    - stdin: '44'
+      stdout: "De divergente som met 14 termen is 1.64037\n"
+  - testcases:
+    - stdin: '56'
+      stdout: "De divergente som met 16 termen is 1.680514\n"
+  - testcases:
+    - stdin: '67'
+      stdout: "De divergente som met 19 termen is 1.728782\n"
+  - testcases:
+    - stdin: '81'
+      stdout: "De divergente som met 22 termen is 1.769224\n"
+  - testcases:
+    - stdin: '122'
+      stdout: "De divergente som met 30 termen is 1.849797\n"
+  - testcases:
+    - stdin: '134'
+      stdout: "De divergente som met 32 termen is 1.865304\n"
+  - testcases:
+    - stdin: '176'
+      stdout: "De divergente som met 40 termen is 1.917404\n"
+  - testcases:
+    - stdin: '265'
+      stdout: "De divergente som met 56 termen is 1.991333\n"
+  - testcases:
+    - stdin: '268'
+      stdout: "De divergente som met 56 termen is 1.991333\n"
+  - testcases:
+    - stdin: '305'
+      stdout: "De divergente som met 62 termen is 2.012855\n"
+  - testcases:
+    - stdin: '306'
+      stdout: "De divergente som met 62 termen is 2.012855\n"
+  - testcases:
+    - stdin: '315'
+      stdout: "De divergente som met 65 termen is 2.022523\n"
+  - testcases:
+    - stdin: '329'
+      stdout: "De divergente som met 66 termen is 2.025678\n"
+  - testcases:
+    - stdin: '373'
+      stdout: "De divergente som met 74 termen is 2.048437\n"
+  - testcases:
+    - stdin: '379'
+      stdout: "De divergente som met 75 termen is 2.051076\n"
+  - testcases:
+    - stdin: '394'
+      stdout: "De divergente som met 77 termen is 2.056258\n"
+  - testcases:
+    - stdin: '396'
+      stdout: "De divergente som met 77 termen is 2.056258\n"
+  - testcases:
+    - stdin: '401'
+      stdout: "De divergente som met 79 termen is 2.06127\n"
+  - testcases:
+    - stdin: '471'
+      stdout: "De divergente som met 91 termen is 2.088528\n"
+  - testcases:
+    - stdin: '489'
+      stdout: "De divergente som met 93 termen is 2.092669\n"
