@@ -13,6 +13,15 @@
     - stdin: '3'
       stdout: "De primoriaal van 3 is 6\n"
   - testcases:
+    - stdin: '4'
+      stdout: "De primoriaal van 4 is 6\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De primoriaal van 5 is 30\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "De primoriaal van 6 is 30\n"
+  - testcases:
     - stdin: '7'
       stdout: "De primoriaal van 7 is 210\n"
   - testcases:
