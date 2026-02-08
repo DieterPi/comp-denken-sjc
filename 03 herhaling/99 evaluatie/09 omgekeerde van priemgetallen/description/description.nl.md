@@ -1,7 +1,7 @@
 In 1737 bewees wiskundig genie Leonhard Euler in zijn werk *'Variae observationes circa series infinitas'* dat onderstaande reeks divergent is
 
 $$
-\mathsf{\sum_{p \textsf{priem}} \dfrac{1}{p} = \dfrac{1}{2}+\dfrac{1}{3}+\dfrac{1}{5}+\dfrac{1}{7}+\dfrac{1}{11}+\ldots = \infty}
+\mathsf{\sum_{p \textsf{ is priem}} \dfrac{1}{p} = \dfrac{1}{2}+\dfrac{1}{3}+\dfrac{1}{5}+\dfrac{1}{7}+\dfrac{1}{11}+\ldots = \infty}
 $$
 
 ## Opgave
