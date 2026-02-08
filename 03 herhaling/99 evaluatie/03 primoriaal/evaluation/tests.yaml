@@ -28,6 +28,12 @@
     - stdin: '10'
       stdout: "De primoriaal van 10 is 210\n"
   - testcases:
+    - stdin: '11'
+      stdout: "De primoriaal van 11 is 2310\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "De primoriaal van 13 is 30030\n"
+  - testcases:
     - stdin: '14'
       stdout: "De primoriaal van 14 is 30030\n"
   - testcases:
