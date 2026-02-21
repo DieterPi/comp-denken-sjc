@@ -1,4 +1,4 @@
-De **digitale som **van een natuurlijk getal kan je bepalen door de som van de cijfers te blijven bepalen tot het getal uit één enkel cijfer bestaat.
+De **digitale som** van een natuurlijk getal kan je bepalen door de som van de cijfers te blijven bepalen tot het getal uit één enkel cijfer bestaat.
 
 Zo is de digitale som van 2026 gelijk aan 1, want 2 + 0 + 2 + 6 = 10 en 1 + 0 = 1.
 
