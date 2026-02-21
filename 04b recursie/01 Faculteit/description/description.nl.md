@@ -7,7 +7,7 @@ $$
 Per definitie geldt, indien $$\mathsf{n}$$ natuurlijk is:
 
 $$
-\mathsf{n! = n \cdot (n-1)\cdot (n-2)\cdot \ldots \cdot 2 \cdot 1 \qquad \text{waarbij } 0! = 1}
+\mathsf{n! = n \cdot (n-1)\cdot (n-2)\cdot \ldots \cdot 2 \cdot 1 \qquad \text{\textsf{waarbij} } 0! = 1}
 $$
 
 ## Gevraagd
