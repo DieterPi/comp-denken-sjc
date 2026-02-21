@@ -5,10 +5,11 @@ In de combinatoriek vormen de Catalan-getallen een rij van natuurlijke getallen 
 Deze getallen worden recursief gedefinieerd als:
 
 $$
-    \mathsf{C_{n+1} = \dfrac{2\cdot(2n+1)}{n+2} \cdot C_{n}, \qquad\text{\textsf{met}}\qquad C_0 = 1}
+    \mathsf{C_{n+1} = \dfrac{2\cdot(2n+1)}{n+2} \cdot C_{n} \qquad\text{\textsf{met}}\qquad C_0 = 1}
 $$
 
-Wat resulteert in:
+Wat resulteert in deze rij:
+
 $$
     \mathsf{1,\qquad 1,\qquad 2,\qquad 5,\qquad 14,\qquad 42,\qquad 132,\qquad 429,\qquad  \ldots}
 $$
@@ -19,12 +20,12 @@ Schrijf een **recursieve** functie `catalan(n)` die voor een natuurlijk getal n,
 
 #### Voorbeelden
 
-```
+```python
 >>> catalan(1)
 1
 ```
 
-```
+```python
 >>> catalan(6)
 132
 ```
