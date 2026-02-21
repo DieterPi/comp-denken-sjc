@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "28\n16"
+      stdout: "De grootste gemene deler van 28 en 16 is 4\n"
+  - testcases:
+    - stdin: "16\n28"
+      stdout: "De grootste gemene deler van 16 en 28 is 4\n"
+  - testcases:
+    - stdin: "1140\n900"
+      stdout: "De grootste gemene deler van 1140 en 900 is 60\n"
+  - testcases:
+    - stdin: "253\n759"
+      stdout: "De grootste gemene deler van 253 en 759 is 253\n"
+  - testcases:
+    - stdin: "50\n65"
+      stdout: "De grootste gemene deler van 50 en 65 is 5\n"
+  - testcases:
+    - stdin: "372\n752"
+      stdout: "De grootste gemene deler van 372 en 752 is 4\n"
+  - testcases:
+    - stdin: "752\n372"
+      stdout: "De grootste gemene deler van 752 en 372 is 4\n"
+  - testcases:
+    - stdin: "105\n252"
+      stdout: "De grootste gemene deler van 105 en 252 is 21\n"
+  - testcases:
+    - stdin: "1266\n1080"
+      stdout: "De grootste gemene deler van 1266 en 1080 is 6\n"
+  - testcases:
+    - stdin: "276\n330"
+      stdout: "De grootste gemene deler van 276 en 330 is 6\n"
+  - testcases:
+    - stdin: "73\n1037"
+      stdout: "De grootste gemene deler van 73 en 1037 is 1\n"
+  - testcases:
+    - stdin: "138\n282"
+      stdout: "De grootste gemene deler van 138 en 282 is 6\n"
+  - testcases:
+    - stdin: "480\n328"
+      stdout: "De grootste gemene deler van 480 en 328 is 8\n"
+  - testcases:
+    - stdin: "666\n1326"
+      stdout: "De grootste gemene deler van 666 en 1326 is 6\n"
+  - testcases:
+    - stdin: "864\n546"
+      stdout: "De grootste gemene deler van 864 en 546 is 6\n"
+  - testcases:
+    - stdin: "240\n1488"
+      stdout: "De grootste gemene deler van 240 en 1488 is 48\n"
+  - testcases:
+    - stdin: "1299\n835"
+      stdout: "De grootste gemene deler van 1299 en 835 is 1\n"
+  - testcases:
+    - stdin: "1462\n1429"
+      stdout: "De grootste gemene deler van 1462 en 1429 is 1\n"
+  - testcases:
+    - stdin: "1030\n710"
+      stdout: "De grootste gemene deler van 1030 en 710 is 10\n"
+  - testcases:
+    - stdin: "1388\n820"
+      stdout: "De grootste gemene deler van 1388 en 820 is 4\n"
+  - testcases:
+    - stdin: "902\n1353"
+      stdout: "De grootste gemene deler van 902 en 1353 is 451\n"
+  - testcases:
+    - stdin: "1176\n1398"
+      stdout: "De grootste gemene deler van 1176 en 1398 is 6\n"
+  - testcases:
+    - stdin: "1247\n725"
+      stdout: "De grootste gemene deler van 1247 en 725 is 29\n"
+  - testcases:
+    - stdin: "246\n86"
+      stdout: "De grootste gemene deler van 246 en 86 is 2\n"
+  - testcases:
+    - stdin: "735\n553"
+      stdout: "De grootste gemene deler van 735 en 553 is 7\n"
+  - testcases:
+    - stdin: "1335\n235"
+      stdout: "De grootste gemene deler van 1335 en 235 is 5\n"
+  - testcases:
+    - stdin: "1352\n240"
+      stdout: "De grootste gemene deler van 1352 en 240 is 8\n"
+  - testcases:
+    - stdin: "1092\n105"
+      stdout: "De grootste gemene deler van 1092 en 105 is 21\n"
+  - testcases:
+    - stdin: "1363\n29"
+      stdout: "De grootste gemene deler van 1363 en 29 is 29\n"
+  - testcases:
+    - stdin: "1062\n828"
+      stdout: "De grootste gemene deler van 1062 en 828 is 18\n"

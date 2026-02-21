@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Euclides (oefening)"
+      "nl": "Algoritme van Euclides"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "cqT2wvIy-EBedcvazsWnzIQhZkxj9Aced-Iuw5z9-inS3KdKJg2yRr5iYTaHDRHM",
