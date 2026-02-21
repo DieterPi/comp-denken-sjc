@@ -1,7 +1,7 @@
 Je kan een variant maken op de rij van Fibonacci, namelijk de rij van Tribonacci, door het volgende voorschrift te gebruiken:
 
 $$
-    \mathsf{u_n = u_{n-1} + u_{n-2} + u_{n-3}, \quad\text{\textsf{waarbij}} \qquad u_1 = 0, u_2 = 0, \text{ \textsf{en} } u_3 = 1}
+    \mathsf{u_n = u_{n-1} + u_{n-2} + u_{n-3}, \quad\text{\textsf{waarbij}} \qquad u_0 = 0, u_1 = 0, \text{ \textsf{en} } u_2 = 1}
 $$
 
 De rij begint dan als volgt:
@@ -15,12 +15,12 @@ Schrijf een programma dat een rangnummer `n` aan de gebruiker vraagt. Daarna ber
 
 #### Voorbeelden
 
-Bij invoer `3` verschijnt:
+Bij invoer `4` verschijnt:
 ```
-Het 3e getal is 1
+Het getal uit de rij van Tribonacci met rangnummer 4 is 2
 ```
 
-Bij invoer `9` verschijnt:
+Bij invoer `8` verschijnt:
 ```
-Het 9e getal is 24
+Het getal uit de rij van Tribonacci met rangnummer 8 is 24
 ```
