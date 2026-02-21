@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - expression: faculteit(2)
+      return: 2
+  - testcases:
+    - expression: faculteit(3)
+      return: 6
+  - testcases:
+    - expression: faculteit(4)
+      return: 24
+  - testcases:
+    - expression: faculteit(5)
+      return: 120
+  - testcases:
+    - expression: faculteit(6)
+      return: 720
+  - testcases:
+    - expression: faculteit(7)
+      return: 5040
+  - testcases:
+    - expression: faculteit(8)
+      return: 40320
+  - testcases:
+    - expression: faculteit(9)
+      return: 362880
+  - testcases:
+    - expression: faculteit(10)
+      return: 3628800
+  - testcases:
+    - expression: faculteit(11)
+      return: 39916800
+  - testcases:
+    - expression: faculteit(12)
+      return: 479001600
+  - testcases:
+    - expression: faculteit(13)
+      return: 6227020800
+  - testcases:
+    - expression: faculteit(14)
+      return: 87178291200
+  - testcases:
+    - expression: faculteit(15)
+      return: 1307674368000
+  - testcases:
+    - expression: faculteit(16)
+      return: 20922789888000
+  - testcases:
+    - expression: faculteit(17)
+      return: 355687428096000
+  - testcases:
+    - expression: faculteit(18)
+      return: 6402373705728000
+  - testcases:
+    - expression: faculteit(19)
+      return: 121645100408832000
+  - testcases:
+    - expression: faculteit(20)
+      return: 2432902008176640000

@@ -1,18 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Spiegelbeeld (oefening)"
+      "nl": "Faculteit"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Functies",
+    "Recursie"
   ],
-  "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "Duy-v3G7UrYzMP7FXYnXNY5MePSCu7gIADXHbF8GfpA3DA_Z8XPw5GxcxW76NiHh",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
