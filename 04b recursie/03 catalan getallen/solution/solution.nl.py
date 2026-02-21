@@ -1,11 +1,5 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import math
-
-def meetkundig_gemiddelde( a, b ):
-    mean = round( math.sqrt(a*b), 2)
-    return mean
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
+def catalan(n):
+    if n == 0:
+        return 1
+    else:
+        return (4 * n - 2) * catalan(n - 1) // (n + 1)

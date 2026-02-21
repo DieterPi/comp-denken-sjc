@@ -2,7 +2,7 @@ In de combinatoriek vormen de Catalan-getallen een rij van natuurlijke getallen 
 
 ![Eugène Catalan geschilderd door Émile Delperée.](media/catalan.jpeg "Eugène Catalan geschilderd door Émile Delperée."){:data-caption="Eugène Catalan geschilderd door Émile Delperée." width="25%"}
 
-Deze getallen worden recursief gedefinieerd als:
+Deze getallen kunnen recursief berekend worden via deze formule:
 
 $$
     \mathsf{C_{n+1} = \dfrac{2\cdot(2n+1)}{n+2} \cdot C_{n} \qquad\text{\textsf{met}}\qquad C_0 = 1}
