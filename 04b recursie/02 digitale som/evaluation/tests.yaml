@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: digitale_som(26)
+      return: 8
+  - testcases:
+    - expression: digitale_som(64)
+      return: 1
+  - testcases:
+    - expression: digitale_som(68)
+      return: 5
+  - testcases:
+    - expression: digitale_som(481)
+      return: 4
+  - testcases:
+    - expression: digitale_som(883)
+      return: 1
+  - testcases:
+    - expression: digitale_som(2026)
+      return: 1
+  - testcases:
+    - expression: digitale_som(4748)
+      return: 5
+  - testcases:
+    - expression: digitale_som(12345)
+      return: 6
+  - testcases:
+    - expression: digitale_som(23693)
+      return: 5
+  - testcases:
+    - expression: digitale_som(43494)
+      return: 6
+  - testcases:
+    - expression: digitale_som(2110370)
+      return: 5
+  - testcases:
+    - expression: digitale_som(9690786)
+      return: 9
+  - testcases:
+    - expression: digitale_som(39176282)
+      return: 2
+  - testcases:
+    - expression: digitale_som(83652279)
+      return: 6
+  - testcases:
+    - expression: digitale_som(700450154)
+      return: 8
+  - testcases:
+    - expression: digitale_som(806596633)
+      return: 1
+  - testcases:
+    - expression: digitale_som(931301004)
+      return: 3
+  - testcases:
+    - expression: digitale_som(2641321789)
+      return: 7
+  - testcases:
+    - expression: digitale_som(27706300319)
+      return: 2
+  - testcases:
+    - expression: digitale_som(145073917876)
+      return: 4
+  - testcases:
+    - expression: digitale_som(343126822002)
+      return: 6
+  - testcases:
+    - expression: digitale_som(629247202851)
+      return: 3
+  - testcases:
+    - expression: digitale_som(4085890655516)
+      return: 8
+  - testcases:
+    - expression: digitale_som(166549440354594)
+      return: 6
+  - testcases:
+    - expression: digitale_som(366324063454934)
+      return: 8

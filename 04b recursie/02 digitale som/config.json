@@ -1,18 +1,24 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Lichtjaar (oefening)"
+      "nl": "Digitale som"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "options": {
+      "linter": false
     }
   },
   "labels": [
-
+    "Python",
+    "Functies",
+    "Recursie"
   ],
-  "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "tpTI3ZZfXj75aQ9ZvgGuhFZ_zkYg2V6yvCZQafr_RUKNPm3FaZiyfKWM5b9eXiVf",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
