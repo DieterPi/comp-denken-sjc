@@ -1,0 +1,84 @@
+- tab: Feedback
+  config:
+    stdout:
+      # First try to compare text on stdout as float.
+      tryFloatingPoint: true
+      # When comparing floats, round to 2 decimals.
+      applyRounding: true
+      roundTo: 2
+  contexts:
+  - testcases:
+    - stdin: "2400\n1600"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 646.49\n"
+  - testcases:
+    - stdin: "3100\n300"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 612.42\n"
+  - testcases:
+    - stdin: "2436\n419"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 520.12\n"
+  - testcases:
+    - stdin: "4400\n100"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 797.46\n"
+  - testcases:
+    - stdin: "2208\n645"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 509.06\n"
+  - testcases:
+    - stdin: "2834\n354"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 576.27\n"
+  - testcases:
+    - stdin: "3173\n299"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 624.15\n"
+  - testcases:
+    - stdin: "2410\n235"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 491.7\n"
+  - testcases:
+    - stdin: "3825\n193"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 716.21\n"
+  - testcases:
+    - stdin: "3309\n324"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 648.63\n"
+  - testcases:
+    - stdin: "4016\n162"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 743.18\n"
+  - testcases:
+    - stdin: "3673\n298"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 703.74\n"
+  - testcases:
+    - stdin: "2323\n272"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 482.42\n"
+  - testcases:
+    - stdin: "3324\n274"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 645.41\n"
+  - testcases:
+    - stdin: "3554\n323"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 687.57\n"
+  - testcases:
+    - stdin: "4393\n96"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 795.79\n"
+  - testcases:
+    - stdin: "2557\n399"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 537.16\n"
+  - testcases:
+    - stdin: "2315\n349"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 491.24\n"
+  - testcases:
+    - stdin: "4014\n212"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 748.47\n"
+  - testcases:
+    - stdin: "2518\n588"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 552.09\n"
+  - testcases:
+    - stdin: "2042\n592"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 476.68\n"
+  - testcases:
+    - stdin: "2711\n227"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 539.58\n"
+  - testcases:
+    - stdin: "3604\n235"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 685.69\n"
+  - testcases:
+    - stdin: "2768\n430"
+      stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 574.26\n"
+  - testcases:
+    - stdin: "2948\n168"
+      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 570.35\n"

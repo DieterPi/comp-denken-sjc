@@ -1,17 +1,23 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Omgekeerde stelling van Pythagoras"
+      "nl": "Engie"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "options": {
+      "linter": false
+      }
+  },
   "labels": [
-
+    "Python",
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "Jep3UmDxUi47ydkvC29MnyzhsKSnTf9e2PxiDNFDugIdJ-R79mFXBCT7zkzDYXtI",
