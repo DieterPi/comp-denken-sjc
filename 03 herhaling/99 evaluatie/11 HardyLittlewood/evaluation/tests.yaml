@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '4'
+      stdout: "De benadering voor de tweelingsconstante met 1 factor bedraagt 0.75\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De benadering voor de tweelingsconstante met 1 factor bedraagt 0.75\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "De benadering voor de tweelingsconstante met 2 factoren bedraagt 0.703125\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "De benadering voor de tweelingsconstante met 4 factoren bedraagt 0.676757812\n"
+  - testcases:
+    - stdin: '44'
+      stdout: "De benadering voor de tweelingsconstante met 13 factoren bedraagt 0.663095653\n"
+  - testcases:
+    - stdin: '56'
+      stdout: "De benadering voor de tweelingsconstante met 15 factoren bedraagt 0.662537169\n"
+  - testcases:
+    - stdin: '67'
+      stdout: "De benadering voor de tweelingsconstante met 17 factoren bedraagt 0.662156236\n"
+  - testcases:
+    - stdin: '81'
+      stdout: "De benadering voor de tweelingsconstante met 21 factoren bedraagt 0.66163268\n"
+  - testcases:
+    - stdin: '122'
+      stdout: "De benadering voor de tweelingsconstante met 29 factoren bedraagt 0.661079142\n"
+  - testcases:
+    - stdin: '134'
+      stdout: "De benadering voor de tweelingsconstante met 31 factoren bedraagt 0.660998387\n"
+  - testcases:
+    - stdin: '176'
+      stdout: "De benadering voor de tweelingsconstante met 39 factoren bedraagt 0.660769742\n"
+  - testcases:
+    - stdin: '265'
+      stdout: "De benadering voor de tweelingsconstante met 55 factoren bedraagt 0.660538514\n"
+  - testcases:
+    - stdin: '268'
+      stdout: "De benadering voor de tweelingsconstante met 55 factoren bedraagt 0.660538514\n"
+  - testcases:
+    - stdin: '305'
+      stdout: "De benadering voor de tweelingsconstante met 61 factoren bedraagt 0.660487108\n"
+  - testcases:
+    - stdin: '306'
+      stdout: "De benadering voor de tweelingsconstante met 61 factoren bedraagt 0.660487108\n"
+  - testcases:
+    - stdin: '315'
+      stdout: "De benadering voor de tweelingsconstante met 64 factoren bedraagt 0.660466397\n"
+  - testcases:
+    - stdin: '329'
+      stdout: "De benadering voor de tweelingsconstante met 65 factoren bedraagt 0.660459782\n"
+  - testcases:
+    - stdin: '373'
+      stdout: "De benadering voor de tweelingsconstante met 72 factoren bedraagt 0.660421484\n"
+  - testcases:
+    - stdin: '379'
+      stdout: "De benadering voor de tweelingsconstante met 73 factoren bedraagt 0.660416711\n"
+  - testcases:
+    - stdin: '394'
+      stdout: "De benadering voor de tweelingsconstante met 76 factoren bedraagt 0.660403177\n"
+  - testcases:
+    - stdin: '396'
+      stdout: "De benadering voor de tweelingsconstante met 76 factoren bedraagt 0.660403177\n"
+  - testcases:
+    - stdin: '401'
+      stdout: "De benadering voor de tweelingsconstante met 77 factoren bedraagt 0.660398965\n"
+  - testcases:
+    - stdin: '435'
+      stdout: "De benadering voor de tweelingsconstante met 83 factoren bedraagt 0.660376237\n"
+  - testcases:
+    - stdin: '471'
+      stdout: "De benadering voor de tweelingsconstante met 90 factoren bedraagt 0.660353693\n"
+  - testcases:
+    - stdin: '489'
+      stdout: "De benadering voor de tweelingsconstante met 92 factoren bedraagt 0.660348007\n"

@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Samengestelde intrest"
+      "nl": "Hardy-Littlewood constante"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "for-lus",
+    "Begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "wNbcz9frPYI5DKEhx9kR-P6HPYX__ynbyravuvrA-cj_QG5xhUg9j6zC_b9qrmua",
