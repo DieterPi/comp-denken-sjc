@@ -1,0 +1,50 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "De benadering met 1 term bedraagt ongeveer 4.0\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "De benadering met 2 termen bedraagt ongeveer 2.666666667\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De benadering met 3 termen bedraagt ongeveer 3.466666667\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De benadering met 5 termen bedraagt ongeveer 3.33968254\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "De benadering met 10 termen bedraagt ongeveer 3.041839619\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "De benadering met 15 termen bedraagt ongeveer 3.208185652\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "De benadering met 25 termen bedraagt ongeveer 3.181576685\n"
+  - testcases:
+    - stdin: '50'
+      stdout: "De benadering met 50 termen bedraagt ongeveer 3.121594653\n"
+  - testcases:
+    - stdin: '100'
+      stdout: "De benadering met 100 termen bedraagt ongeveer 3.131592904\n"
+  - testcases:
+    - stdin: '500'
+      stdout: "De benadering met 500 termen bedraagt ongeveer 3.139592656\n"
+  - testcases:
+    - stdin: '1000'
+      stdout: "De benadering met 1000 termen bedraagt ongeveer 3.140592654\n"
+  - testcases:
+    - stdin: '5000'
+      stdout: "De benadering met 5000 termen bedraagt ongeveer 3.141392654\n"
+  - testcases:
+    - stdin: '10000'
+      stdout: "De benadering met 10000 termen bedraagt ongeveer 3.141492654\n"
+  - testcases:
+    - stdin: '100000'
+      stdout: "De benadering met 100000 termen bedraagt ongeveer 3.141582654\n"
+  - testcases:
+    - stdin: '1000000'
+      stdout: "De benadering met 1000000 termen bedraagt ongeveer 3.141591654\n"
+  - testcases:
+    - stdin: '10000000'
+      stdout: "De benadering met 10000000 termen bedraagt ongeveer 3.141592554\n"
