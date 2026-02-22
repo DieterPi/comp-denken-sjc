@@ -23,17 +23,17 @@ Zoals je in onderstaande voorbeelden merkt moeten er vrij veel termen berekend o
 
 Voor invoer `10` verschijnt:
 ```
-De benadering met 10 temen bedraagt ongeveer 3.041839619
+De benadering met 10 termen bedraagt ongeveer 3.041839619
 ```
 
 Voor invoer `100` verschijnt:
 ```
-De benadering met 100 temen bedraagt ongeveer 3.131592904
+De benadering met 100 termen bedraagt ongeveer 3.131592904
 ```
 
 Voor invoer `10000` verschijnt:
 ```
-De benadering met 10000 temen bedraagt ongeveer 3.141492654
+De benadering met 10000 termen bedraagt ongeveer 3.141492654
 ```
 
 {: .callout.callout-info}
