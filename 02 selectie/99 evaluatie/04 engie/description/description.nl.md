@@ -20,9 +20,9 @@ Er zijn heel wat mogelijke prijsformules, in februari 2024 kon je deze vaste for
 
 ## Opgave
 
-Schrijf een programma dat in volgorde naar de hoeveelheid verbruikte energie (in kWh) tijdens piekuren en daluren. Vervolgens bereken je de kostprijs van de twee formules. Rond de bedragen **meteen** af tot een getal met twee decimalen!
+Schrijf een programma dat **in volgorde** vraagt naar de hoeveelheid verbruikte energie (in kWh) tijdens piekuren en daluren. Vervolgens bereken je de kostprijs van beide formules. Rond de bedragen **meteen** af tot een getal met twee decimalen!
 
-Indien beide formules even duur zijn, kies dan voor het *EASY Vast* pakket.
+Indien de formules even duur zijn, kies dan voor het *EASY Vast* pakket.
 
 #### Voorbeelden
 
