@@ -2,7 +2,7 @@ Voor elektriciteit en gas kan je in België kiezen uit verschillende contracten 
 
 Afhankelijk van hoeveel energie een gezin verbruikt, kan het ene contract goedkoper zijn dan het andere.
 
-![Engie Electrabel, foto door De Tijd.](media/Engie.jepg "Engie Electrabel, foto door De Tijd."){:data-caption="Engie Electrabel, foto door De Tijd." width="45%"}
+![Engie Electrabel, foto door De Tijd.](media/Engie.jpeg "Engie Electrabel, foto door De Tijd."){:data-caption="Engie Electrabel, foto door De Tijd." width="45%"}
 
 Er zijn heel wat mogelijke prijsformules, in februari 2024 kon je deze vaste formules kiezen:
 
