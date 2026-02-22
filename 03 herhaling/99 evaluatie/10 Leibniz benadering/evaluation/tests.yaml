@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - stdin: '1'
-      stdout: "De benadering met 1 term bedraagt ongeveer 4.0\n"
+      stdout: "De benadering met 1 term bedraagt 4.0\n"
   - testcases:
     - stdin: '2'
       stdout: "De benadering met 2 termen bedraagt ongeveer 2.666666667\n"

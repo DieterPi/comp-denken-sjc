@@ -6,6 +6,6 @@ for i in range( aantal ):
 benadering = 4 * som
 
 if aantal != 1:
-    print(f"De benadering met {aantal} termen bedraagt ongeveer {round(benadering, 9)}")
+    print(f"De benadering met {aantal} termen bedraagt {round(benadering, 9)}")
 else:
     print(f"De benadering met 1 term bedraagt ongeveer {round(benadering, 9)}")
