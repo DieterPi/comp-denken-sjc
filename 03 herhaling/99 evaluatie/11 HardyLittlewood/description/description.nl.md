@@ -5,7 +5,7 @@
 Ze bewezen onder andere het bestaan van de tweelingconstante:
 
 $$
-    \mathsf{\prod_{p \text{\textsf{priem}} > 2} \left(1 - \dfrac{1}{(p-1)^2}\right) \approx 0,660161\ldots}
+    \mathsf{\prod_{p \text{\textsf{ priem}} > 2} \left(1 - \dfrac{1}{(p-1)^2}\right) \approx 0,660161\ldots}
 $$
 
 Het linkse deel stelt een product voor met p priem (maar groter dan 2), bijvoorbeeld met **vier** factoren:
