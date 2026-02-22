@@ -11,7 +11,7 @@ $$
 Het linkse deel stelt een product voor met p priem (maar groter dan 2), bijvoorbeeld met **vier** factoren:
 
 $$
-    \mathsf{\left(1-\dfrac{1}{({\color{BurntOrange}3}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{BurntOrange}5}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{BurntOrange}7}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{BurntOrange}11}-1)^2}\right)}
+    \mathsf{\left(1-\dfrac{1}{({\color{#F68512}3}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{#F68512}5}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{#F68512}7}-1)^2}\right)\cdot \left(1-\dfrac{1}{({\color{#F68512}11}-1)^2}\right)}
 $$
 
 ## Opgave
