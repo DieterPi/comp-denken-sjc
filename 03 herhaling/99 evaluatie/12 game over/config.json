@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Zoek het patroon (oefening)"
+      "nl": "Game Over 🕹️"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "for-lus",
+    "Begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "cUpzWYP6xH_EcbxZEyTePYR6NSCqVbKqkHrVXcG8ruPRTMiRzyYyKak8Hm8K8qMy",

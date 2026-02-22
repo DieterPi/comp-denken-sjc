@@ -1,0 +1,136 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '3'
+      stdout: "Nog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Nog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Nog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\n
+        Game Over\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Nog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\n
+        Nog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "Nog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\nNog 5 levens\n
+        Nog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "Nog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\n
+        Nog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame
+        Over\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Nog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\n
+        Nog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog
+        1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "Nog 12 levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\n
+        Nog 7 levens\nNog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog
+        2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "Nog 14 levens\nNog 13 levens\nNog 12 levens\nNog 11 levens\nNog 10
+        levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\nNog 5 levens\n
+        Nog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "Nog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12 levens\nNog 11
+        levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\n
+        Nog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame
+        Over\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "Nog 19 levens\nNog 18 levens\nNog 17 levens\nNog 16 levens\nNog 15
+        levens\nNog 14 levens\nNog 13 levens\nNog 12 levens\nNog 11 levens\nNog 10
+        levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\nNog 5 levens\n
+        Nog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "Nog 20 levens\nNog 19 levens\nNog 18 levens\nNog 17 levens\nNog 16
+        levens\nNog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12 levens\nNog 11
+        levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\n
+        Nog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame
+        Over\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "Nog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18 levens\nNog 17
+        levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12
+        levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\n
+        Nog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog
+        1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '26'
+      stdout: "Nog 26 levens\nNog 25 levens\nNog 24 levens\nNog 23 levens\nNog 22
+        levens\nNog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18 levens\nNog 17
+        levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12
+        levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\n
+        Nog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog
+        1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "Nog 27 levens\nNog 26 levens\nNog 25 levens\nNog 24 levens\nNog 23
+        levens\nNog 22 levens\nNog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18
+        levens\nNog 17 levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13
+        levens\nNog 12 levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\n
+        Nog 7 levens\nNog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog
+        2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '36'
+      stdout: "Nog 36 levens\nNog 35 levens\nNog 34 levens\nNog 33 levens\nNog 32
+        levens\nNog 31 levens\nNog 30 levens\nNog 29 levens\nNog 28 levens\nNog 27
+        levens\nNog 26 levens\nNog 25 levens\nNog 24 levens\nNog 23 levens\nNog 22
+        levens\nNog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18 levens\nNog 17
+        levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12
+        levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\n
+        Nog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog
+        1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '37'
+      stdout: "Nog 37 levens\nNog 36 levens\nNog 35 levens\nNog 34 levens\nNog 33
+        levens\nNog 32 levens\nNog 31 levens\nNog 30 levens\nNog 29 levens\nNog 28
+        levens\nNog 27 levens\nNog 26 levens\nNog 25 levens\nNog 24 levens\nNog 23
+        levens\nNog 22 levens\nNog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18
+        levens\nNog 17 levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13
+        levens\nNog 12 levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\n
+        Nog 7 levens\nNog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog
+        2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "Nog 42 levens\nNog 41 levens\nNog 40 levens\nNog 39 levens\nNog 38
+        levens\nNog 37 levens\nNog 36 levens\nNog 35 levens\nNog 34 levens\nNog 33
+        levens\nNog 32 levens\nNog 31 levens\nNog 30 levens\nNog 29 levens\nNog 28
+        levens\nNog 27 levens\nNog 26 levens\nNog 25 levens\nNog 24 levens\nNog 23
+        levens\nNog 22 levens\nNog 21 levens\nNog 20 levens\nNog 19 levens\nNog 18
+        levens\nNog 17 levens\nNog 16 levens\nNog 15 levens\nNog 14 levens\nNog 13
+        levens\nNog 12 levens\nNog 11 levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\n
+        Nog 7 levens\nNog 6 levens\nNog 5 levens\nNog 4 levens\nNog 3 levens\nNog
+        2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '43'
+      stdout: "Nog 43 levens\nNog 42 levens\nNog 41 levens\nNog 40 levens\nNog 39
+        levens\nNog 38 levens\nNog 37 levens\nNog 36 levens\nNog 35 levens\nNog 34
+        levens\nNog 33 levens\nNog 32 levens\nNog 31 levens\nNog 30 levens\nNog 29
+        levens\nNog 28 levens\nNog 27 levens\nNog 26 levens\nNog 25 levens\nNog 24
+        levens\nNog 23 levens\nNog 22 levens\nNog 21 levens\nNog 20 levens\nNog 19
+        levens\nNog 18 levens\nNog 17 levens\nNog 16 levens\nNog 15 levens\nNog 14
+        levens\nNog 13 levens\nNog 12 levens\nNog 11 levens\nNog 10 levens\nNog 9
+        levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\nNog 5 levens\nNog 4 levens\n
+        Nog 3 levens\nNog 2 levens\nNog 1 leven\nGame Over\n"
+  - testcases:
+    - stdin: '45'
+      stdout: "Nog 45 levens\nNog 44 levens\nNog 43 levens\nNog 42 levens\nNog 41
+        levens\nNog 40 levens\nNog 39 levens\nNog 38 levens\nNog 37 levens\nNog 36
+        levens\nNog 35 levens\nNog 34 levens\nNog 33 levens\nNog 32 levens\nNog 31
+        levens\nNog 30 levens\nNog 29 levens\nNog 28 levens\nNog 27 levens\nNog 26
+        levens\nNog 25 levens\nNog 24 levens\nNog 23 levens\nNog 22 levens\nNog 21
+        levens\nNog 20 levens\nNog 19 levens\nNog 18 levens\nNog 17 levens\nNog 16
+        levens\nNog 15 levens\nNog 14 levens\nNog 13 levens\nNog 12 levens\nNog 11
+        levens\nNog 10 levens\nNog 9 levens\nNog 8 levens\nNog 7 levens\nNog 6 levens\n
+        Nog 5 levens\nNog 4 levens\nNog 3 levens\nNog 2 levens\nNog 1 leven\nGame
+        Over\n"
