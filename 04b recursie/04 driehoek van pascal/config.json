@@ -1,17 +1,24 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "XOR"
+      "nl": "Driehoek van Pascal"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "options": {
+      "linter": false
     }
   },
   "labels": [
-
+    "Python",
+    "Functies",
+    "Recursie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "jhSVCpvN3fSS_tphfR5m3ijJu8nTwRJaVUJ_wya9SMZGEKJZqZrQIFp8PKrIAU7P",

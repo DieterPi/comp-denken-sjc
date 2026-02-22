@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: pascal(0, 0)
+      return: 1
+  - testcases:
+    - expression: pascal(1, 1)
+      return: 1
+  - testcases:
+    - expression: pascal(2, 1)
+      return: 2
+  - testcases:
+    - expression: pascal(3, 1)
+      return: 3
+  - testcases:
+    - expression: pascal(5, 2)
+      return: 10
+  - testcases:
+    - expression: pascal(5, 5)
+      return: 1
+  - testcases:
+    - expression: pascal(6, 4)
+      return: 15
+  - testcases:
+    - expression: pascal(6, 6)
+      return: 1
+  - testcases:
+    - expression: pascal(7, 4)
+      return: 35
+  - testcases:
+    - expression: pascal(8, 1)
+      return: 8
+  - testcases:
+    - expression: pascal(8, 8)
+      return: 1
+  - testcases:
+    - expression: pascal(9, 6)
+      return: 84
+  - testcases:
+    - expression: pascal(11, 0)
+      return: 1
+  - testcases:
+    - expression: pascal(13, 13)
+      return: 1
+  - testcases:
+    - expression: pascal(14, 2)
+      return: 91
+  - testcases:
+    - expression: pascal(14, 3)
+      return: 364
+  - testcases:
+    - expression: pascal(15, 1)
+      return: 15
+  - testcases:
+    - expression: pascal(16, 16)
+      return: 1
+  - testcases:
+    - expression: pascal(17, 4)
+      return: 2380
+  - testcases:
+    - expression: pascal(20, 18)
+      return: 190
+  - testcases:
+    - expression: pascal(23, 3)
+      return: 1771
+  - testcases:
+    - expression: pascal(23, 7)
+      return: 245157
+  - testcases:
+    - expression: pascal(24, 19)
+      return: 42504
+  - testcases:
+    - expression: pascal(26, 11)
+      return: 7726160
+  - testcases:
+    - expression: pascal(26, 20)
+      return: 230230
