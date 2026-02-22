@@ -1,11 +1,4 @@
 - tab: Feedback
-  config:
-    stdout:
-      # First try to compare text on stdout as float.
-      tryFloatingPoint: true
-      # When comparing floats, round to 2 decimals.
-      applyRounding: true
-      roundTo: 2
   contexts:
   - testcases:
     - stdin: "2400\n1600"
