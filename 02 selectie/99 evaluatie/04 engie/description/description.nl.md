@@ -15,13 +15,13 @@ Er zijn heel wat mogelijke prijsformules, in februari 2024 kon je deze vaste for
 - **EMPOWER Vast**
   
   met een vaste vergoeding van €85,00 per jaar
-  
+
   kostprijs in c€ per kWh: tijdens piekuren: 15,938 en tijdens daluren: 11,186
 
 ## Opgave
 
 Schrijf een programma dat in volgorde naar de hoeveelheid verbruikte energie (in kWh) tijdens piekuren en daluren. Vervolgens bereken je de kostprijs van de twee formules. Rond de bedragen af tot een getal met twee decimalen!
-24
+
 Indien beide formules even duur zijn, kies dan voor het *EASY Vast* pakket.
 
 #### Voorbeelden
