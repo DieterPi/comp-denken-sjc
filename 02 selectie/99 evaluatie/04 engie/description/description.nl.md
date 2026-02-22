@@ -2,7 +2,7 @@ Voor elektriciteit en gas kan je in België kiezen uit verschillende contracten 
 
 Afhankelijk van hoeveel energie een gezin verbruikt, kan het ene contract goedkoper zijn dan het andere.
 
-![Engie (electrabel), foto door De Tijd.](media/engie.jepg "Engie (electrabel), foto door De Tijd."){:data-caption="Engie (electrabel), foto door De Tijd." width="45%"}
+![Engie Electrabel, foto door De Tijd.](media/Engie.jepg "Engie Electrabel, foto door De Tijd."){:data-caption="Engie Electrabel, foto door De Tijd." width="45%"}
 
 Er zijn heel wat mogelijke prijsformules, in februari 2024 kon je deze vaste formules kiezen:
 
@@ -39,4 +39,4 @@ Jaarlijkse kostprijs: € 612.42
 
 {: .callout.callout-info}
 > #### Tip
-> c€ betekent eurocent, met andere woorden c€ 1 = € 0,01.
+> c€ betekent euro**cent**, met andere woorden: c€ 1 = € 0,01.
