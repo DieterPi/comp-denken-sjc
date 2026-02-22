@@ -11,7 +11,7 @@ $$
 Het linkse deel stelt een product voor met p priem (maar groter dan 2), bijvoorbeeld met **vier** factoren:
 
 $$
-    \mathsf{\left(1-\drac{1}{(3-1)^2}\right)\cdot \left(1-\drac{1}{(5-1)^2}\right)\cdot \left(1-\drac{1}{(7-1)^2}\right)\cdot \left(1-\drac{1}{(11-1)^2}\right)}
+    \mathsf{\left(1-\dfrac{1}{(3-1)^2}\right)\cdot \left(1-\dfrac{1}{(5-1)^2}\right)\cdot \left(1-\dfrac{1}{(7-1)^2}\right)\cdot \left(1-\dfrac{1}{(11-1)^2}\right)}
 $$
 
 ## Opgave
