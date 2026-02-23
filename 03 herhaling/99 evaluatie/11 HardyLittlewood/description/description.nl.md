@@ -2,7 +2,7 @@
 
 ![Hardy en Littlewood in New Court, Trinity College.](media/hardy-littlewood.jpg "Hardy en Littlewood in New Court, Trinity College."){:data-caption="Hardy en Littlewood in New Court, Trinity College." width="20%"}
 
-Ze bewezen onder andere het bestaan van de tweelingconstante:
+Ze bewezen onder andere het bestaan van de **tweelingconstante**:
 
 $$
     \mathsf{\prod_{{\color{#F68512}p} \text{\textsf{ priem}} > 2} \left(1 - \dfrac{1}{({\color{#F68512}p}-1)^2}\right) \approx 0,660161\ldots}
