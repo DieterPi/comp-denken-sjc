@@ -8,7 +8,7 @@ Schrijf een programma dat naar het aantal levens vraagt. Vervolgens tel je af to
 
 #### Voorbeeld
 
-Als de gebruiker 5 intikt, verschijnt er:
+Als de gebruiker `5` intikt, verschijnt er:
 
 ```
 Nog 5 levens
