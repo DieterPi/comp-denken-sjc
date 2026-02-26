@@ -4,7 +4,7 @@ Hieronder zie je de eerste vijf iteraties uit de constructie van deze fractaal.
 
 ![Animatie door Datumizer op Wikimedia Commons](media/Menger.gif "Animatie door Datumizer op Wikimedia Commons"){:data-caption="Animatie door Datumizer op Wikimedia Commons" width="400px"}
 
-In iedere stap wordt elk vierkant verdeeld in 9 kleinere vierkanten die toelaten om de kubussen uit elk vlak (**en** de kubus in het midden) te verwijderen. Het resultaat is een *sponsachtige* figuur.
+In iedere stap wordt elke kubus verdeeld in 27 gelijke kubussen, waarvan vervolgens de middelste kubus uit elk van de 6 zijvlakken **en** de kubus in het midden verwijderd worden. Het resultaat is een sponsachtige figuur.
 
 ## Opgave
 
