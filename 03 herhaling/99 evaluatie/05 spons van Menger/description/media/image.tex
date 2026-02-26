@@ -1,0 +1,104 @@
+\documentclass[dvipsnames, tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{matrix,shapes,fit,backgrounds}
+
+\tikzset{main/.style={color=black, line join=round}}
+
+\newcommand\mengersponge[1]{
+	\pgfmathsetmacro\level{int(#1 - 1)}
+	\ifnum \level = 0 \relax
+	\filldraw[Bittersweet!50!black,line width=0] (1, 1, 1) -- (1, 1, -1) -- (1, -1, -1) -- (1, -1, 1) -- cycle;
+	\filldraw[Bittersweet,line width=0] (1, 1, 1) -- (1, 1, -1) -- (-1, 1, -1) -- (-1, 1, 1) -- cycle;
+	\filldraw[Bittersweet!50,line width=0] (1, 1, 1) -- (1, -1, 1) -- (-1, -1, 1) -- (-1, 1, 1) -- cycle;
+	\else
+	\begin{scope}[scale=.3333333333]
+		\begin{scope}[shift={(-2, -2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(0, -2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, -2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, 0, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, 0, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, 2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(0, 2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, 2, -2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, -2, 0)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, -2, 0)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, 2, 0)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, 2, 0)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, -2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(0, -2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, -2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, 0, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, 0, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(-2, 2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(0, 2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+		\begin{scope}[shift={(2, 2, 2)}]
+			\mengersponge{\level}
+		\end{scope}
+	\end{scope}
+	\fi
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\mengersponge{1}
+	\end{tikzpicture}
+
+	\begin{tikzpicture}
+		\mengersponge{2}
+	\end{tikzpicture}
+
+	\begin{tikzpicture}
+		\mengersponge{3}
+	\end{tikzpicture}
+
+	\begin{tikzpicture}
+		\mengersponge{4}
+	\end{tikzpicture}
+
+	\begin{tikzpicture}
+		\mengersponge{5}
+	\end{tikzpicture}
+\end{document}

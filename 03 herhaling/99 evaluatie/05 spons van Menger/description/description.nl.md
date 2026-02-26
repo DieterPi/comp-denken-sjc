@@ -2,7 +2,7 @@ De spons van Menger is een voorbeeld van een driedimensionale fractaal. Deze fra
 
 Hieronder zie je de eerste vijf iteraties uit de constructie van deze fractaal.
 
-![Animatie door Datumizer op Wikimedia Commons](media/Menger.gif "Animatie door Datumizer op Wikimedia Commons"){:data-caption="Animatie door Datumizer op Wikimedia Commons" width="400px"}
+![Eerste vijf iteraties uit de Menger spons.](media/image.png "Eerste vijf iteraties uit de Menger spons."){:data-caption="Eerste vijf iteraties uit de Menger spons." width="327px"}
 
 In iedere stap wordt elke kubus verdeeld in 27 gelijke kubussen, waarvan vervolgens de middelste kubus uit elk van de 6 zijvlakken **en** de kubus in het midden verwijderd worden. Het resultaat is een sponsachtige figuur.
 
