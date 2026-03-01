@@ -1,17 +1,24 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Driehoeksongelijkheid"
+      "nl": "Lijnfractaal"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "options": {
+      "linter": false
     }
   },
   "labels": [
-
+    "Python",
+    "Functies",
+    "Recursie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "xrBNujBYJ3KbiAxSgNHIJdmMsJuu4adweiHYE9sDH42Z5iafS5RVV_zQanUN3DGV",
