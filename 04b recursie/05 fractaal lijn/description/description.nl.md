@@ -31,7 +31,7 @@ Gebruik hierbij `print("-" * i)` waarbij `i` het aantal streepjes voorstelt.
 ```
 
 ```python
->>> lijn(5)
+>>> lijn(4)
 -
 --
 -
