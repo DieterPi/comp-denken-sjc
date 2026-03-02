@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Bazel-probleem (oefening)"
+      "nl": "Ontbrekend getal"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "niQP-tD8vVwyAt7JHdeVFc9tKe39rMIC8XaIfg-FV4zf6vAP2qSrMkpqZEcW5gdG",
