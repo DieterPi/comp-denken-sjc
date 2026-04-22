@@ -3,10 +3,10 @@ Bedrijven in Australië kunnen de verminderde waarde van hun apparatuur aangeven
 Deze minwaarde kan men berekenen via onderstaande formule:
 
 $$
-\mathsf{\text{minwaarde } = \text{waarde vorig jaar } \cdot \dfrac{2}{\text{nuttige levensduur toestel}}}
+\mathsf{\text{\textsf{minwaarde} } = \text{\textsf{waarde vorig jaar} } \cdot \dfrac{2}{\text{\textsf{nuttige levensduur toestel}}}}
 $$
 
-Als er bijvoorbeeld een server van € 5 000 werd aangekocht met voorziene levensduur van 5 jaar, dan berekent men de minwaarde na één jaar via: $$\textsf{5000 \cdot \dfrac{2}{5}} = 2000$$. Het toestel is na één jaar dus nog € 3 000 waard.
+Als er bijvoorbeeld een server van € 5 000 werd aangekocht met voorziene levensduur van 5 jaar, dan berekent men de minwaarde na één jaar via: $\textsf{5000 \cdot \dfrac{2}{5}} = 2000$. Het toestel is na één jaar dus nog € 3 000 waard.
 
 ![Foto door Claudio Schwarz op Unsplash.](media/claudio-schwarz.jpg "Foto door Claudio Schwarz op Unsplash."){:data-caption="Foto door Claudio Schwarz op Unsplash." width="40%"}
 
