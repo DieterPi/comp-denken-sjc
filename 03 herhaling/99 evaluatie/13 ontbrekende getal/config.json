@@ -1,17 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "BPost"
+      "nl": "Ontbrekend getal"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling",
+    "Evaluatie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "KRmCJrGvPqSkfqXF_fVrtfMyiZ7bj4B_7BHpXhBAJdxHMhik-RGQSJFk4hexmjMt",

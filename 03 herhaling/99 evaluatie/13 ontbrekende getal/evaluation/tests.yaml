@@ -1,0 +1,181 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "3\n6\n5\n-1"
+      stdout: "Het getal 4 ontbreekt.\n"
+  - testcases:
+    - stdin: "3\n4\n5\n6\n-1"
+      stdout: "Het getal 7 ontbreekt.\n"
+  - testcases:
+    - stdin: "30\n28\n29\n31\n-1"
+      stdout: "Het getal 32 ontbreekt.\n"
+  - testcases:
+    - stdin: "8\n3\n7\n9\n10\n5\n4\n-1"
+      stdout: "Het getal 6 ontbreekt.\n"
+  - testcases:
+    - stdin: "23\n31\n28\n29\n26\n25\n27\n30\n32\n22\n21\n-1"
+      stdout: "Het getal 24 ontbreekt.\n"
+  - testcases:
+    - stdin: "21\n11\n13\n15\n22\n19\n23\n9\n17\n20\n16\n10\n18\n24\n14\n-1"
+      stdout: "Het getal 12 ontbreekt.\n"
+  - testcases:
+    - stdin: "71\n88\n84\n72\n82\n85\n90\n75\n83\n91\n73\n86\n78\n79\n77\n95\n76\n\
+        87\n80\n81\n93\n74\n94\n89\n-1"
+      stdout: "Het getal 92 ontbreekt.\n"
+  - testcases:
+    - stdin: "103\n117\n127\n99\n101\n106\n126\n120\n123\n119\n116\n108\n128\n122\n\
+        115\n125\n112\n130\n107\n109\n110\n102\n113\n114\n118\n129\n111\n105\n100\n\
+        104\n124\n-1"
+      stdout: "Het getal 121 ontbreekt.\n"
+  - testcases:
+    - stdin: "109\n126\n125\n124\n106\n114\n104\n129\n105\n112\n122\n102\n113\n121\n\
+        107\n101\n119\n123\n111\n118\n115\n100\n131\n120\n128\n110\n117\n116\n127\n\
+        108\n130\n99\n-1"
+      stdout: "Het getal 103 ontbreekt.\n"
+  - testcases:
+    - stdin: "62\n45\n75\n56\n44\n58\n38\n74\n47\n73\n41\n68\n43\n53\n72\n51\n66\n\
+        76\n57\n48\n63\n65\n50\n67\n59\n70\n64\n49\n71\n42\n52\n40\n69\n39\n55\n54\n\
+        46\n61\n-1"
+      stdout: "Het getal 60 ontbreekt.\n"
+  - testcases:
+    - stdin: "42\n66\n29\n62\n58\n36\n65\n45\n68\n37\n57\n54\n28\n40\n47\n48\n39\n\
+        59\n34\n56\n38\n44\n55\n30\n64\n31\n46\n51\n67\n63\n35\n60\n32\n53\n61\n49\n\
+        33\n41\n43\n52\n-1"
+      stdout: "Het getal 50 ontbreekt.\n"
+  - testcases:
+    - stdin: "28\n56\n41\n63\n47\n44\n48\n27\n45\n38\n26\n23\n66\n43\n39\n57\n42\n\
+        54\n34\n60\n62\n59\n61\n24\n53\n32\n29\n25\n21\n50\n52\n36\n22\n37\n51\n33\n\
+        35\n65\n31\n64\n49\n30\n40\n55\n58\n-1"
+      stdout: "Het getal 46 ontbreekt.\n"
+  - testcases:
+    - stdin: "68\n48\n69\n55\n49\n26\n65\n45\n27\n56\n42\n24\n71\n30\n43\n31\n44\n\
+        28\n23\n58\n61\n37\n32\n20\n54\n46\n72\n60\n33\n34\n64\n35\n38\n50\n21\n70\n\
+        40\n52\n51\n39\n36\n41\n66\n29\n62\n22\n57\n63\n25\n67\n47\n59\n-1"
+      stdout: "Het getal 53 ontbreekt.\n"
+  - testcases:
+    - stdin: "110\n138\n107\n103\n95\n127\n99\n123\n139\n128\n150\n134\n106\n132\n\
+        121\n147\n112\n142\n98\n115\n143\n129\n105\n120\n152\n119\n113\n140\n118\n\
+        124\n131\n141\n111\n149\n155\n148\n102\n96\n101\n154\n144\n97\n146\n114\n\
+        104\n100\n116\n133\n153\n137\n130\n126\n125\n135\n109\n136\n122\n108\n117\n\
+        151\n-1"
+      stdout: "Het getal 145 ontbreekt.\n"
+  - testcases:
+    - stdin: "127\n106\n95\n129\n132\n113\n96\n108\n122\n123\n86\n138\n97\n142\n100\n\
+        135\n136\n101\n145\n130\n126\n112\n141\n131\n103\n104\n85\n98\n140\n107\n\
+        109\n128\n91\n90\n133\n99\n111\n116\n105\n114\n125\n94\n120\n117\n93\n88\n\
+        121\n137\n115\n139\n92\n134\n118\n144\n89\n87\n102\n110\n124\n119\n-1"
+      stdout: "Het getal 143 ontbreekt.\n"
+  - testcases:
+    - stdin: "126\n80\n110\n135\n86\n127\n115\n90\n102\n79\n123\n118\n85\n139\n116\n\
+        122\n111\n93\n95\n87\n83\n81\n124\n141\n137\n82\n121\n138\n94\n134\n105\n\
+        89\n125\n130\n98\n106\n114\n140\n120\n112\n132\n107\n104\n91\n113\n109\n136\n\
+        119\n133\n100\n129\n97\n99\n92\n101\n84\n128\n96\n108\n131\n117\n103\n-1"
+      stdout: "Het getal 88 ontbreekt.\n"
+  - testcases:
+    - stdin: "121\n123\n137\n147\n140\n111\n132\n149\n92\n139\n104\n94\n109\n136\n\
+        125\n126\n148\n110\n143\n134\n97\n142\n88\n145\n131\n95\n96\n116\n150\n112\n\
+        135\n120\n108\n107\n130\n113\n154\n103\n114\n102\n86\n122\n127\n128\n153\n\
+        101\n152\n119\n99\n117\n118\n146\n151\n90\n141\n124\n100\n133\n138\n87\n98\n\
+        106\n89\n91\n129\n93\n115\n105\n-1"
+      stdout: "Het getal 144 ontbreekt.\n"
+  - testcases:
+    - stdin: "75\n73\n59\n87\n122\n65\n120\n77\n85\n90\n111\n119\n100\n86\n106\n97\n\
+        79\n80\n64\n116\n72\n78\n112\n81\n99\n60\n83\n118\n108\n76\n110\n101\n107\n\
+        61\n84\n71\n93\n103\n92\n58\n69\n63\n82\n57\n105\n74\n91\n123\n66\n96\n95\n\
+        104\n117\n56\n67\n94\n113\n68\n109\n62\n88\n70\n89\n98\n115\n102\n55\n114\n\
+        -1"
+      stdout: "Het getal 121 ontbreekt.\n"
+  - testcases:
+    - stdin: "126\n78\n123\n94\n117\n128\n140\n95\n121\n120\n143\n122\n111\n80\n105\n\
+        109\n136\n104\n139\n124\n112\n79\n129\n146\n144\n142\n137\n132\n96\n100\n\
+        138\n92\n82\n145\n110\n102\n83\n141\n113\n116\n125\n114\n97\n85\n127\n86\n\
+        87\n98\n131\n89\n101\n118\n115\n90\n119\n103\n93\n108\n107\n99\n134\n106\n\
+        133\n81\n88\n91\n84\n130\n-1"
+      stdout: "Het getal 135 ontbreekt.\n"
+  - testcases:
+    - stdin: "148\n125\n100\n121\n163\n119\n96\n141\n117\n123\n139\n103\n136\n116\n\
+        142\n134\n144\n140\n95\n104\n156\n115\n155\n107\n161\n97\n150\n137\n160\n\
+        113\n157\n110\n129\n105\n111\n122\n106\n112\n146\n149\n152\n130\n132\n145\n\
+        120\n124\n98\n151\n153\n138\n147\n99\n154\n158\n126\n108\n133\n135\n128\n\
+        101\n102\n143\n109\n131\n114\n162\n127\n118\n-1"
+      stdout: "Het getal 159 ontbreekt.\n"
+  - testcases:
+    - stdin: "25\n39\n82\n76\n14\n63\n31\n32\n67\n11\n70\n73\n18\n59\n71\n84\n64\n\
+        54\n66\n26\n28\n15\n53\n43\n48\n45\n34\n61\n69\n62\n74\n60\n50\n38\n65\n33\n\
+        21\n44\n75\n81\n20\n35\n16\n9\n23\n46\n19\n37\n72\n29\n47\n10\n41\n30\n52\n\
+        79\n42\n55\n68\n8\n36\n12\n77\n13\n27\n17\n57\n40\n22\n58\n24\n49\n83\n56\n\
+        80\n51\n-1"
+      stdout: "Het getal 78 ontbreekt.\n"
+  - testcases:
+    - stdin: "18\n40\n78\n53\n15\n32\n57\n39\n25\n77\n63\n19\n66\n55\n69\n81\n13\n\
+        47\n38\n68\n56\n20\n75\n62\n71\n48\n24\n7\n6\n27\n37\n21\n70\n36\n64\n43\n\
+        14\n45\n61\n52\n73\n74\n8\n79\n50\n11\n54\n42\n72\n29\n65\n34\n49\n12\n80\n\
+        58\n23\n22\n60\n51\n46\n41\n31\n33\n17\n82\n10\n44\n35\n59\n30\n67\n16\n28\n\
+        76\n9\n-1"
+      stdout: "Het getal 26 ontbreekt.\n"
+  - testcases:
+    - stdin: "40\n91\n36\n64\n33\n42\n54\n34\n38\n68\n76\n49\n75\n89\n65\n28\n51\n\
+        100\n63\n27\n94\n96\n103\n97\n30\n62\n82\n67\n84\n58\n56\n88\n53\n77\n26\n\
+        31\n70\n50\n90\n59\n93\n60\n83\n41\n52\n72\n57\n43\n73\n104\n29\n69\n61\n\
+        105\n87\n99\n79\n92\n66\n37\n55\n98\n85\n102\n45\n95\n80\n86\n74\n78\n39\n\
+        44\n46\n71\n101\n47\n48\n81\n32\n-1"
+      stdout: "Het getal 35 ontbreekt.\n"
+  - testcases:
+    - stdin: "104\n174\n133\n118\n141\n152\n122\n145\n131\n182\n146\n109\n153\n177\n\
+        164\n160\n112\n158\n171\n113\n124\n169\n103\n149\n180\n142\n168\n162\n126\n\
+        178\n106\n165\n115\n108\n148\n117\n175\n173\n181\n120\n139\n101\n144\n154\n\
+        116\n100\n166\n119\n172\n163\n125\n179\n140\n143\n159\n134\n121\n102\n155\n\
+        132\n135\n123\n157\n111\n170\n136\n167\n147\n128\n138\n161\n129\n137\n130\n\
+        156\n110\n151\n114\n105\n150\n127\n176\n-1"
+      stdout: "Het getal 107 ontbreekt.\n"
+  - testcases:
+    - stdin: "65\n36\n51\n71\n15\n45\n33\n99\n56\n88\n58\n41\n77\n101\n89\n83\n81\n\
+        79\n63\n108\n87\n25\n35\n16\n37\n75\n74\n42\n22\n27\n17\n61\n32\n67\n102\n\
+        64\n54\n86\n21\n100\n29\n53\n38\n70\n106\n52\n48\n72\n46\n40\n49\n66\n28\n\
+        98\n82\n95\n60\n26\n39\n97\n55\n68\n94\n50\n69\n19\n104\n23\n105\n31\n85\n\
+        91\n73\n93\n84\n76\n43\n62\n20\n78\n18\n59\n34\n30\n57\n24\n103\n107\n80\n\
+        92\n44\n90\n96\n-1"
+      stdout: "Het getal 47 ontbreekt.\n"
+  - testcases:
+    - stdin: "156\n104\n141\n107\n90\n168\n99\n131\n146\n109\n157\n122\n94\n119\n\
+        106\n112\n143\n86\n98\n118\n170\n117\n124\n134\n111\n93\n177\n165\n178\n126\n\
+        175\n102\n180\n147\n115\n113\n169\n152\n136\n140\n105\n103\n179\n89\n150\n\
+        163\n155\n139\n144\n135\n132\n166\n149\n116\n91\n127\n129\n108\n128\n100\n\
+        151\n172\n142\n154\n162\n138\n110\n97\n101\n121\n176\n133\n137\n125\n153\n\
+        167\n95\n159\n96\n114\n164\n92\n174\n148\n171\n123\n158\n87\n173\n130\n160\n\
+        145\n120\n161\n-1"
+      stdout: "Het getal 88 ontbreekt.\n"
+  - testcases:
+    - stdin: "21\n80\n19\n64\n17\n67\n77\n26\n53\n50\n100\n79\n63\n60\n25\n27\n91\n\
+        99\n102\n93\n39\n22\n59\n110\n45\n20\n104\n62\n48\n72\n37\n85\n81\n24\n86\n\
+        84\n65\n96\n18\n68\n49\n55\n33\n54\n74\n92\n40\n111\n30\n57\n69\n56\n71\n\
+        89\n43\n76\n83\n90\n31\n42\n101\n88\n70\n38\n109\n94\n108\n73\n87\n32\n29\n\
+        35\n103\n34\n46\n75\n28\n98\n36\n97\n105\n58\n78\n106\n16\n44\n51\n41\n23\n\
+        66\n95\n82\n52\n61\n107\n-1"
+      stdout: "Het getal 47 ontbreekt.\n"
+  - testcases:
+    - stdin: "70\n48\n58\n21\n25\n83\n65\n51\n100\n99\n41\n19\n39\n92\n38\n22\n50\n\
+        74\n53\n101\n62\n46\n56\n40\n77\n29\n10\n57\n12\n36\n75\n87\n32\n73\n45\n\
+        6\n98\n28\n23\n17\n9\n37\n54\n81\n7\n64\n42\n30\n72\n63\n60\n33\n88\n69\n\
+        84\n8\n31\n95\n96\n66\n59\n11\n27\n89\n97\n67\n52\n82\n13\n16\n47\n85\n18\n\
+        44\n78\n94\n91\n79\n26\n49\n90\n35\n14\n71\n68\n80\n34\n76\n61\n20\n55\n15\n\
+        86\n43\n24\n-1"
+      stdout: "Het getal 93 ontbreekt.\n"
+  - testcases:
+    - stdin: "76\n114\n128\n85\n103\n136\n152\n132\n101\n75\n105\n110\n96\n151\n68\n\
+        84\n82\n129\n122\n67\n124\n99\n139\n90\n78\n88\n130\n97\n95\n93\n83\n157\n\
+        117\n115\n69\n138\n118\n120\n121\n149\n155\n104\n106\n137\n72\n141\n146\n\
+        140\n119\n143\n102\n98\n156\n86\n116\n153\n74\n70\n154\n150\n147\n126\n100\n\
+        66\n107\n65\n127\n133\n111\n77\n87\n131\n160\n135\n148\n109\n123\n92\n71\n\
+        80\n94\n125\n144\n134\n81\n73\n145\n79\n158\n113\n108\n112\n159\n89\n142\n\
+        64\n-1"
+      stdout: "Het getal 91 ontbreekt.\n"
+  - testcases:
+    - stdin: "96\n142\n56\n74\n67\n102\n103\n154\n114\n94\n116\n110\n129\n118\n78\n\
+        125\n120\n131\n83\n128\n72\n63\n113\n68\n62\n82\n65\n107\n79\n139\n57\n122\n\
+        90\n89\n98\n97\n112\n134\n130\n87\n70\n115\n86\n111\n85\n101\n138\n66\n69\n\
+        117\n109\n127\n148\n76\n126\n73\n151\n105\n88\n77\n143\n123\n81\n146\n136\n\
+        121\n155\n106\n152\n137\n104\n108\n150\n124\n93\n100\n141\n149\n145\n132\n\
+        99\n95\n133\n71\n84\n119\n147\n153\n140\n80\n59\n64\n61\n135\n91\n92\n75\n\
+        60\n144\n-1"
+      stdout: "Het getal 58 ontbreekt.\n"
