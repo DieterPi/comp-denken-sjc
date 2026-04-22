@@ -55,102 +55,102 @@
   - testcases:
     - stdin: '171.0'
       stdout: "Na 30 resteert nog 85.5 kg.\nNa 60 resteert nog 42.8 kg.\nNa 90 resteert
-        nog 21.4 kg.\nNa 120 resteert nog 10.7 kg.\nNa 150 resteert nog 5.3 kg.\n
+        nog 21.4 kg.\nNa 120 resteert nog 10.7 kg.\nNa 150 resteert nog 5.3 kg.\n\
         Na 180 resteert nog 2.7 kg.\nNa 210 resteert nog 1.3 kg.\nNa 240 resteert
         nog 0.7 kg.\nNa 240 jaar kan deze zone veilig verklaard worden.\n"
   - testcases:
     - stdin: '231.4'
       stdout: "Na 30 resteert nog 115.7 kg.\nNa 60 resteert nog 57.9 kg.\nNa 90 resteert
-        nog 28.9 kg.\nNa 120 resteert nog 14.5 kg.\nNa 150 resteert nog 7.2 kg.\n
+        nog 28.9 kg.\nNa 120 resteert nog 14.5 kg.\nNa 150 resteert nog 7.2 kg.\n\
         Na 180 resteert nog 3.6 kg.\nNa 210 resteert nog 1.8 kg.\nNa 240 resteert
         nog 0.9 kg.\nNa 240 jaar kan deze zone veilig verklaard worden.\n"
   - testcases:
     - stdin: '249.8'
       stdout: "Na 30 resteert nog 124.9 kg.\nNa 60 resteert nog 62.5 kg.\nNa 90 resteert
-        nog 31.2 kg.\nNa 120 resteert nog 15.6 kg.\nNa 150 resteert nog 7.8 kg.\n
+        nog 31.2 kg.\nNa 120 resteert nog 15.6 kg.\nNa 150 resteert nog 7.8 kg.\n\
         Na 180 resteert nog 3.9 kg.\nNa 210 resteert nog 2.0 kg.\nNa 240 resteert
         nog 1.0 kg.\nNa 240 jaar kan deze zone veilig verklaard worden.\n"
   - testcases:
     - stdin: '272.9'
       stdout: "Na 30 resteert nog 136.4 kg.\nNa 60 resteert nog 68.2 kg.\nNa 90 resteert
-        nog 34.1 kg.\nNa 120 resteert nog 17.1 kg.\nNa 150 resteert nog 8.5 kg.\n
+        nog 34.1 kg.\nNa 120 resteert nog 17.1 kg.\nNa 150 resteert nog 8.5 kg.\n\
         Na 180 resteert nog 4.3 kg.\nNa 210 resteert nog 2.1 kg.\nNa 240 resteert
         nog 1.1 kg.\nNa 270 resteert nog 0.5 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '276.6'
       stdout: "Na 30 resteert nog 138.3 kg.\nNa 60 resteert nog 69.2 kg.\nNa 90 resteert
-        nog 34.6 kg.\nNa 120 resteert nog 17.3 kg.\nNa 150 resteert nog 8.6 kg.\n
+        nog 34.6 kg.\nNa 120 resteert nog 17.3 kg.\nNa 150 resteert nog 8.6 kg.\n\
         Na 180 resteert nog 4.3 kg.\nNa 210 resteert nog 2.2 kg.\nNa 240 resteert
         nog 1.1 kg.\nNa 270 resteert nog 0.5 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '295.3'
       stdout: "Na 30 resteert nog 147.7 kg.\nNa 60 resteert nog 73.8 kg.\nNa 90 resteert
-        nog 36.9 kg.\nNa 120 resteert nog 18.5 kg.\nNa 150 resteert nog 9.2 kg.\n
+        nog 36.9 kg.\nNa 120 resteert nog 18.5 kg.\nNa 150 resteert nog 9.2 kg.\n\
         Na 180 resteert nog 4.6 kg.\nNa 210 resteert nog 2.3 kg.\nNa 240 resteert
         nog 1.2 kg.\nNa 270 resteert nog 0.6 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '305.0'
       stdout: "Na 30 resteert nog 152.5 kg.\nNa 60 resteert nog 76.2 kg.\nNa 90 resteert
-        nog 38.1 kg.\nNa 120 resteert nog 19.1 kg.\nNa 150 resteert nog 9.5 kg.\n
+        nog 38.1 kg.\nNa 120 resteert nog 19.1 kg.\nNa 150 resteert nog 9.5 kg.\n\
         Na 180 resteert nog 4.8 kg.\nNa 210 resteert nog 2.4 kg.\nNa 240 resteert
         nog 1.2 kg.\nNa 270 resteert nog 0.6 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '318.4'
       stdout: "Na 30 resteert nog 159.2 kg.\nNa 60 resteert nog 79.6 kg.\nNa 90 resteert
-        nog 39.8 kg.\nNa 120 resteert nog 19.9 kg.\nNa 150 resteert nog 9.9 kg.\n
+        nog 39.8 kg.\nNa 120 resteert nog 19.9 kg.\nNa 150 resteert nog 9.9 kg.\n\
         Na 180 resteert nog 5.0 kg.\nNa 210 resteert nog 2.5 kg.\nNa 240 resteert
         nog 1.2 kg.\nNa 270 resteert nog 0.6 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '361.5'
       stdout: "Na 30 resteert nog 180.8 kg.\nNa 60 resteert nog 90.4 kg.\nNa 90 resteert
-        nog 45.2 kg.\nNa 120 resteert nog 22.6 kg.\nNa 150 resteert nog 11.3 kg.\n
+        nog 45.2 kg.\nNa 120 resteert nog 22.6 kg.\nNa 150 resteert nog 11.3 kg.\n\
         Na 180 resteert nog 5.6 kg.\nNa 210 resteert nog 2.8 kg.\nNa 240 resteert
         nog 1.4 kg.\nNa 270 resteert nog 0.7 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '361.9'
       stdout: "Na 30 resteert nog 180.9 kg.\nNa 60 resteert nog 90.5 kg.\nNa 90 resteert
-        nog 45.2 kg.\nNa 120 resteert nog 22.6 kg.\nNa 150 resteert nog 11.3 kg.\n
+        nog 45.2 kg.\nNa 120 resteert nog 22.6 kg.\nNa 150 resteert nog 11.3 kg.\n\
         Na 180 resteert nog 5.7 kg.\nNa 210 resteert nog 2.8 kg.\nNa 240 resteert
         nog 1.4 kg.\nNa 270 resteert nog 0.7 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '385.9'
       stdout: "Na 30 resteert nog 192.9 kg.\nNa 60 resteert nog 96.5 kg.\nNa 90 resteert
-        nog 48.2 kg.\nNa 120 resteert nog 24.1 kg.\nNa 150 resteert nog 12.1 kg.\n
+        nog 48.2 kg.\nNa 120 resteert nog 24.1 kg.\nNa 150 resteert nog 12.1 kg.\n\
         Na 180 resteert nog 6.0 kg.\nNa 210 resteert nog 3.0 kg.\nNa 240 resteert
         nog 1.5 kg.\nNa 270 resteert nog 0.8 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '420.1'
       stdout: "Na 30 resteert nog 210.1 kg.\nNa 60 resteert nog 105.0 kg.\nNa 90 resteert
-        nog 52.5 kg.\nNa 120 resteert nog 26.3 kg.\nNa 150 resteert nog 13.1 kg.\n
+        nog 52.5 kg.\nNa 120 resteert nog 26.3 kg.\nNa 150 resteert nog 13.1 kg.\n\
         Na 180 resteert nog 6.6 kg.\nNa 210 resteert nog 3.3 kg.\nNa 240 resteert
         nog 1.6 kg.\nNa 270 resteert nog 0.8 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '421.1'
       stdout: "Na 30 resteert nog 210.6 kg.\nNa 60 resteert nog 105.3 kg.\nNa 90 resteert
-        nog 52.6 kg.\nNa 120 resteert nog 26.3 kg.\nNa 150 resteert nog 13.2 kg.\n
+        nog 52.6 kg.\nNa 120 resteert nog 26.3 kg.\nNa 150 resteert nog 13.2 kg.\n\
         Na 180 resteert nog 6.6 kg.\nNa 210 resteert nog 3.3 kg.\nNa 240 resteert
         nog 1.6 kg.\nNa 270 resteert nog 0.8 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '456.0'
       stdout: "Na 30 resteert nog 228.0 kg.\nNa 60 resteert nog 114.0 kg.\nNa 90 resteert
-        nog 57.0 kg.\nNa 120 resteert nog 28.5 kg.\nNa 150 resteert nog 14.2 kg.\n
+        nog 57.0 kg.\nNa 120 resteert nog 28.5 kg.\nNa 150 resteert nog 14.2 kg.\n\
         Na 180 resteert nog 7.1 kg.\nNa 210 resteert nog 3.6 kg.\nNa 240 resteert
         nog 1.8 kg.\nNa 270 resteert nog 0.9 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
   - testcases:
     - stdin: '480.4'
       stdout: "Na 30 resteert nog 240.2 kg.\nNa 60 resteert nog 120.1 kg.\nNa 90 resteert
-        nog 60.0 kg.\nNa 120 resteert nog 30.0 kg.\nNa 150 resteert nog 15.0 kg.\n
+        nog 60.0 kg.\nNa 120 resteert nog 30.0 kg.\nNa 150 resteert nog 15.0 kg.\n\
         Na 180 resteert nog 7.5 kg.\nNa 210 resteert nog 3.8 kg.\nNa 240 resteert
         nog 1.9 kg.\nNa 270 resteert nog 0.9 kg.\nNa 270 jaar kan deze zone veilig
         verklaard worden.\n"
