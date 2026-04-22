@@ -1,0 +1,288 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "5000\n5"
+      stdout: "Na het 1 e jaar is de minwaarde: € 2000.0\nNa het 2 e jaar is de minwaarde:
+        € 1200.0\nNa het 3 e jaar is de minwaarde: € 720.0\nNa het 4 e jaar is de
+        minwaarde: € 432.0\nNa het 5 e jaar is de minwaarde: € 259.2\nNa het 6 e jaar
+        is de minwaarde: € 155.52\nNa het 7 e jaar is de minwaarde: € 93.31\nNa het
+        8 e jaar is de minwaarde: € 55.99\nNa het 9 e jaar is de minwaarde: € 33.59\n\
+        Na het 10 e jaar is de minwaarde: € 20.16\nNa het 11 e jaar is de minwaarde:
+        € 12.09\nNa het 12 e jaar is de minwaarde: € 7.26\nNa het 13 e jaar is de
+        minwaarde: € 4.35\nNa het 14 e jaar is de minwaarde: € 2.61\nNa het 15 e jaar
+        is de minwaarde: € 1.57\nNa het 16 e jaar is de minwaarde: € 0.94\nNa het
+        17 e jaar is de minwaarde: € 0.56\nNa 17 jaren is het product quasi waardeloos
+        geworden.\n"
+  - testcases:
+    - stdin: "100\n3"
+      stdout: "Na het 1 e jaar is de minwaarde: € 66.67\nNa het 2 e jaar is de minwaarde:
+        € 22.22\nNa het 3 e jaar is de minwaarde: € 7.41\nNa het 4 e jaar is de minwaarde:
+        € 2.47\nNa het 5 e jaar is de minwaarde: € 0.82\nNa 5 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "50\n2"
+      stdout: "Na het 1 e jaar is de minwaarde: € 50.0\nNa één jaar is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1940\n4"
+      stdout: "Na het 1 e jaar is de minwaarde: € 970.0\nNa het 2 e jaar is de minwaarde:
+        € 485.0\nNa het 3 e jaar is de minwaarde: € 242.5\nNa het 4 e jaar is de minwaarde:
+        € 121.25\nNa het 5 e jaar is de minwaarde: € 60.62\nNa het 6 e jaar is de
+        minwaarde: € 30.31\nNa het 7 e jaar is de minwaarde: € 15.16\nNa het 8 e jaar
+        is de minwaarde: € 7.58\nNa het 9 e jaar is de minwaarde: € 3.79\nNa het 10
+        e jaar is de minwaarde: € 1.89\nNa het 11 e jaar is de minwaarde: € 0.95\n\
+        Na 11 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1720\n6"
+      stdout: "Na het 1 e jaar is de minwaarde: € 573.33\nNa het 2 e jaar is de minwaarde:
+        € 382.22\nNa het 3 e jaar is de minwaarde: € 254.81\nNa het 4 e jaar is de
+        minwaarde: € 169.88\nNa het 5 e jaar is de minwaarde: € 113.25\nNa het 6 e
+        jaar is de minwaarde: € 75.5\nNa het 7 e jaar is de minwaarde: € 50.33\nNa
+        het 8 e jaar is de minwaarde: € 33.56\nNa het 9 e jaar is de minwaarde: €
+        22.37\nNa het 10 e jaar is de minwaarde: € 14.91\nNa het 11 e jaar is de minwaarde:
+        € 9.94\nNa het 12 e jaar is de minwaarde: € 6.63\nNa het 13 e jaar is de minwaarde:
+        € 4.42\nNa het 14 e jaar is de minwaarde: € 2.95\nNa het 15 e jaar is de minwaarde:
+        € 1.96\nNa het 16 e jaar is de minwaarde: € 1.31\nNa het 17 e jaar is de minwaarde:
+        € 0.87\nNa het 18 e jaar is de minwaarde: € 0.58\nNa het 19 e jaar is de minwaarde:
+        € 0.39\nNa 19 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "745\n4"
+      stdout: "Na het 1 e jaar is de minwaarde: € 372.5\nNa het 2 e jaar is de minwaarde:
+        € 186.25\nNa het 3 e jaar is de minwaarde: € 93.12\nNa het 4 e jaar is de
+        minwaarde: € 46.56\nNa het 5 e jaar is de minwaarde: € 23.28\nNa het 6 e jaar
+        is de minwaarde: € 11.64\nNa het 7 e jaar is de minwaarde: € 5.82\nNa het
+        8 e jaar is de minwaarde: € 2.91\nNa het 9 e jaar is de minwaarde: € 1.46\n\
+        Na het 10 e jaar is de minwaarde: € 0.73\nNa 10 jaren is het product quasi
+        waardeloos geworden.\n"
+  - testcases:
+    - stdin: "955\n4"
+      stdout: "Na het 1 e jaar is de minwaarde: € 477.5\nNa het 2 e jaar is de minwaarde:
+        € 238.75\nNa het 3 e jaar is de minwaarde: € 119.38\nNa het 4 e jaar is de
+        minwaarde: € 59.69\nNa het 5 e jaar is de minwaarde: € 29.84\nNa het 6 e jaar
+        is de minwaarde: € 14.92\nNa het 7 e jaar is de minwaarde: € 7.46\nNa het
+        8 e jaar is de minwaarde: € 3.73\nNa het 9 e jaar is de minwaarde: € 1.87\n\
+        Na het 10 e jaar is de minwaarde: € 0.93\nNa 10 jaren is het product quasi
+        waardeloos geworden.\n"
+  - testcases:
+    - stdin: "480\n8"
+      stdout: "Na het 1 e jaar is de minwaarde: € 120.0\nNa het 2 e jaar is de minwaarde:
+        € 90.0\nNa het 3 e jaar is de minwaarde: € 67.5\nNa het 4 e jaar is de minwaarde:
+        € 50.62\nNa het 5 e jaar is de minwaarde: € 37.97\nNa het 6 e jaar is de minwaarde:
+        € 28.48\nNa het 7 e jaar is de minwaarde: € 21.36\nNa het 8 e jaar is de minwaarde:
+        € 16.02\nNa het 9 e jaar is de minwaarde: € 12.01\nNa het 10 e jaar is de
+        minwaarde: € 9.01\nNa het 11 e jaar is de minwaarde: € 6.76\nNa het 12 e jaar
+        is de minwaarde: € 5.07\nNa het 13 e jaar is de minwaarde: € 3.8\nNa het 14
+        e jaar is de minwaarde: € 2.85\nNa het 15 e jaar is de minwaarde: € 2.14\n\
+        Na het 16 e jaar is de minwaarde: € 1.6\nNa het 17 e jaar is de minwaarde:
+        € 1.2\nNa het 18 e jaar is de minwaarde: € 0.9\nNa het 19 e jaar is de minwaarde:
+        € 0.68\nNa het 20 e jaar is de minwaarde: € 0.51\nNa het 21 e jaar is de minwaarde:
+        € 0.38\nNa het 22 e jaar is de minwaarde: € 0.29\nNa 22 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "160\n10"
+      stdout: "Na het 1 e jaar is de minwaarde: € 32.0\nNa het 2 e jaar is de minwaarde:
+        € 25.6\nNa het 3 e jaar is de minwaarde: € 20.48\nNa het 4 e jaar is de minwaarde:
+        € 16.38\nNa het 5 e jaar is de minwaarde: € 13.11\nNa het 6 e jaar is de minwaarde:
+        € 10.49\nNa het 7 e jaar is de minwaarde: € 8.39\nNa het 8 e jaar is de minwaarde:
+        € 6.71\nNa het 9 e jaar is de minwaarde: € 5.37\nNa het 10 e jaar is de minwaarde:
+        € 4.29\nNa het 11 e jaar is de minwaarde: € 3.44\nNa het 12 e jaar is de minwaarde:
+        € 2.75\nNa het 13 e jaar is de minwaarde: € 2.2\nNa het 14 e jaar is de minwaarde:
+        € 1.76\nNa het 15 e jaar is de minwaarde: € 1.41\nNa het 16 e jaar is de minwaarde:
+        € 1.13\nNa het 17 e jaar is de minwaarde: € 0.9\nNa het 18 e jaar is de minwaarde:
+        € 0.72\nNa het 19 e jaar is de minwaarde: € 0.58\nNa het 20 e jaar is de minwaarde:
+        € 0.46\nNa het 21 e jaar is de minwaarde: € 0.37\nNa het 22 e jaar is de minwaarde:
+        € 0.3\nNa het 23 e jaar is de minwaarde: € 0.24\nNa 23 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "200\n8"
+      stdout: "Na het 1 e jaar is de minwaarde: € 50.0\nNa het 2 e jaar is de minwaarde:
+        € 37.5\nNa het 3 e jaar is de minwaarde: € 28.12\nNa het 4 e jaar is de minwaarde:
+        € 21.09\nNa het 5 e jaar is de minwaarde: € 15.82\nNa het 6 e jaar is de minwaarde:
+        € 11.87\nNa het 7 e jaar is de minwaarde: € 8.9\nNa het 8 e jaar is de minwaarde:
+        € 6.67\nNa het 9 e jaar is de minwaarde: € 5.01\nNa het 10 e jaar is de minwaarde:
+        € 3.75\nNa het 11 e jaar is de minwaarde: € 2.82\nNa het 12 e jaar is de minwaarde:
+        € 2.11\nNa het 13 e jaar is de minwaarde: € 1.58\nNa het 14 e jaar is de minwaarde:
+        € 1.19\nNa het 15 e jaar is de minwaarde: € 0.89\nNa het 16 e jaar is de minwaarde:
+        € 0.67\nNa het 17 e jaar is de minwaarde: € 0.5\nNa het 18 e jaar is de minwaarde:
+        € 0.38\nNa het 19 e jaar is de minwaarde: € 0.28\nNa 19 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1945\n6"
+      stdout: "Na het 1 e jaar is de minwaarde: € 648.33\nNa het 2 e jaar is de minwaarde:
+        € 432.22\nNa het 3 e jaar is de minwaarde: € 288.15\nNa het 4 e jaar is de
+        minwaarde: € 192.1\nNa het 5 e jaar is de minwaarde: € 128.07\nNa het 6 e
+        jaar is de minwaarde: € 85.38\nNa het 7 e jaar is de minwaarde: € 56.92\n\
+        Na het 8 e jaar is de minwaarde: € 37.95\nNa het 9 e jaar is de minwaarde:
+        € 25.3\nNa het 10 e jaar is de minwaarde: € 16.86\nNa het 11 e jaar is de
+        minwaarde: € 11.24\nNa het 12 e jaar is de minwaarde: € 7.5\nNa het 13 e jaar
+        is de minwaarde: € 5.0\nNa het 14 e jaar is de minwaarde: € 3.33\nNa het 15
+        e jaar is de minwaarde: € 2.22\nNa het 16 e jaar is de minwaarde: € 1.48\n\
+        Na het 17 e jaar is de minwaarde: € 0.99\nNa het 18 e jaar is de minwaarde:
+        € 0.66\nNa het 19 e jaar is de minwaarde: € 0.44\nNa 19 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1335\n3"
+      stdout: "Na het 1 e jaar is de minwaarde: € 890.0\nNa het 2 e jaar is de minwaarde:
+        € 296.67\nNa het 3 e jaar is de minwaarde: € 98.89\nNa het 4 e jaar is de
+        minwaarde: € 32.96\nNa het 5 e jaar is de minwaarde: € 10.99\nNa het 6 e jaar
+        is de minwaarde: € 3.66\nNa het 7 e jaar is de minwaarde: € 1.22\nNa 7 jaren
+        is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1270\n6"
+      stdout: "Na het 1 e jaar is de minwaarde: € 423.33\nNa het 2 e jaar is de minwaarde:
+        € 282.22\nNa het 3 e jaar is de minwaarde: € 188.15\nNa het 4 e jaar is de
+        minwaarde: € 125.43\nNa het 5 e jaar is de minwaarde: € 83.62\nNa het 6 e
+        jaar is de minwaarde: € 55.75\nNa het 7 e jaar is de minwaarde: € 37.17\n\
+        Na het 8 e jaar is de minwaarde: € 24.78\nNa het 9 e jaar is de minwaarde:
+        € 16.52\nNa het 10 e jaar is de minwaarde: € 11.01\nNa het 11 e jaar is de
+        minwaarde: € 7.34\nNa het 12 e jaar is de minwaarde: € 4.89\nNa het 13 e jaar
+        is de minwaarde: € 3.26\nNa het 14 e jaar is de minwaarde: € 2.18\nNa het
+        15 e jaar is de minwaarde: € 1.45\nNa het 16 e jaar is de minwaarde: € 0.97\n\
+        Na het 17 e jaar is de minwaarde: € 0.64\nNa het 18 e jaar is de minwaarde:
+        € 0.43\nNa 18 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1500\n5"
+      stdout: "Na het 1 e jaar is de minwaarde: € 600.0\nNa het 2 e jaar is de minwaarde:
+        € 360.0\nNa het 3 e jaar is de minwaarde: € 216.0\nNa het 4 e jaar is de minwaarde:
+        € 129.6\nNa het 5 e jaar is de minwaarde: € 77.76\nNa het 6 e jaar is de minwaarde:
+        € 46.66\nNa het 7 e jaar is de minwaarde: € 27.99\nNa het 8 e jaar is de minwaarde:
+        € 16.8\nNa het 9 e jaar is de minwaarde: € 10.08\nNa het 10 e jaar is de minwaarde:
+        € 6.05\nNa het 11 e jaar is de minwaarde: € 3.63\nNa het 12 e jaar is de minwaarde:
+        € 2.18\nNa het 13 e jaar is de minwaarde: € 1.31\nNa het 14 e jaar is de minwaarde:
+        € 0.78\nNa het 15 e jaar is de minwaarde: € 0.47\nNa 15 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "750\n4"
+      stdout: "Na het 1 e jaar is de minwaarde: € 375.0\nNa het 2 e jaar is de minwaarde:
+        € 187.5\nNa het 3 e jaar is de minwaarde: € 93.75\nNa het 4 e jaar is de minwaarde:
+        € 46.88\nNa het 5 e jaar is de minwaarde: € 23.44\nNa het 6 e jaar is de minwaarde:
+        € 11.72\nNa het 7 e jaar is de minwaarde: € 5.86\nNa het 8 e jaar is de minwaarde:
+        € 2.93\nNa het 9 e jaar is de minwaarde: € 1.46\nNa het 10 e jaar is de minwaarde:
+        € 0.73\nNa 10 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1050\n3"
+      stdout: "Na het 1 e jaar is de minwaarde: € 700.0\nNa het 2 e jaar is de minwaarde:
+        € 233.33\nNa het 3 e jaar is de minwaarde: € 77.78\nNa het 4 e jaar is de
+        minwaarde: € 25.93\nNa het 5 e jaar is de minwaarde: € 8.64\nNa het 6 e jaar
+        is de minwaarde: € 2.88\nNa het 7 e jaar is de minwaarde: € 0.96\nNa 7 jaren
+        is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1195\n7"
+      stdout: "Na het 1 e jaar is de minwaarde: € 341.43\nNa het 2 e jaar is de minwaarde:
+        € 243.88\nNa het 3 e jaar is de minwaarde: € 174.2\nNa het 4 e jaar is de
+        minwaarde: € 124.43\nNa het 5 e jaar is de minwaarde: € 88.88\nNa het 6 e
+        jaar is de minwaarde: € 63.48\nNa het 7 e jaar is de minwaarde: € 45.35\n
+        Na het 8 e jaar is de minwaarde: € 32.39\nNa het 9 e jaar is de minwaarde:
+        € 23.14\nNa het 10 e jaar is de minwaarde: € 16.53\nNa het 11 e jaar is de
+        minwaarde: € 11.8\nNa het 12 e jaar is de minwaarde: € 8.43\nNa het 13 e jaar
+        is de minwaarde: € 6.02\nNa het 14 e jaar is de minwaarde: € 4.3\nNa het 15
+        e jaar is de minwaarde: € 3.07\nNa het 16 e jaar is de minwaarde: € 2.19\n\
+        Na het 17 e jaar is de minwaarde: € 1.57\nNa het 18 e jaar is de minwaarde:
+        € 1.12\nNa het 19 e jaar is de minwaarde: € 0.8\nNa het 20 e jaar is de minwaarde:
+        € 0.57\nNa het 21 e jaar is de minwaarde: € 0.41\nNa het 22 e jaar is de minwaarde:
+        € 0.29\nNa 22 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1530\n7"
+      stdout: "Na het 1 e jaar is de minwaarde: € 437.14\nNa het 2 e jaar is de minwaarde:
+        € 312.24\nNa het 3 e jaar is de minwaarde: € 223.03\nNa het 4 e jaar is de
+        minwaarde: € 159.31\nNa het 5 e jaar is de minwaarde: € 113.79\nNa het 6 e
+        jaar is de minwaarde: € 81.28\nNa het 7 e jaar is de minwaarde: € 58.06\n\
+        Na het 8 e jaar is de minwaarde: € 41.47\nNa het 9 e jaar is de minwaarde:
+        € 29.62\nNa het 10 e jaar is de minwaarde: € 21.16\nNa het 11 e jaar is de
+        minwaarde: € 15.11\nNa het 12 e jaar is de minwaarde: € 10.79\nNa het 13 e
+        jaar is de minwaarde: € 7.71\nNa het 14 e jaar is de minwaarde: € 5.51\nNa
+        het 15 e jaar is de minwaarde: € 3.93\nNa het 16 e jaar is de minwaarde: €
+        2.81\nNa het 17 e jaar is de minwaarde: € 2.01\nNa het 18 e jaar is de minwaarde:
+        € 1.43\nNa het 19 e jaar is de minwaarde: € 1.02\nNa het 20 e jaar is de minwaarde:
+        € 0.73\nNa het 21 e jaar is de minwaarde: € 0.52\nNa het 22 e jaar is de minwaarde:
+        € 0.37\nNa 22 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1075\n5"
+      stdout: "Na het 1 e jaar is de minwaarde: € 430.0\nNa het 2 e jaar is de minwaarde:
+        € 258.0\nNa het 3 e jaar is de minwaarde: € 154.8\nNa het 4 e jaar is de minwaarde:
+        € 92.88\nNa het 5 e jaar is de minwaarde: € 55.73\nNa het 6 e jaar is de minwaarde:
+        € 33.44\nNa het 7 e jaar is de minwaarde: € 20.06\nNa het 8 e jaar is de minwaarde:
+        € 12.04\nNa het 9 e jaar is de minwaarde: € 7.22\nNa het 10 e jaar is de minwaarde:
+        € 4.33\nNa het 11 e jaar is de minwaarde: € 2.6\nNa het 12 e jaar is de minwaarde:
+        € 1.56\nNa het 13 e jaar is de minwaarde: € 0.94\nNa het 14 e jaar is de minwaarde:
+        € 0.56\nNa 14 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1935\n3"
+      stdout: "Na het 1 e jaar is de minwaarde: € 1290.0\nNa het 2 e jaar is de minwaarde:
+        € 430.0\nNa het 3 e jaar is de minwaarde: € 143.33\nNa het 4 e jaar is de
+        minwaarde: € 47.78\nNa het 5 e jaar is de minwaarde: € 15.93\nNa het 6 e jaar
+        is de minwaarde: € 5.31\nNa het 7 e jaar is de minwaarde: € 1.77\nNa 7 jaren
+        is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "420\n6"
+      stdout: "Na het 1 e jaar is de minwaarde: € 140.0\nNa het 2 e jaar is de minwaarde:
+        € 93.33\nNa het 3 e jaar is de minwaarde: € 62.22\nNa het 4 e jaar is de minwaarde:
+        € 41.48\nNa het 5 e jaar is de minwaarde: € 27.65\nNa het 6 e jaar is de minwaarde:
+        € 18.44\nNa het 7 e jaar is de minwaarde: € 12.29\nNa het 8 e jaar is de minwaarde:
+        € 8.19\nNa het 9 e jaar is de minwaarde: € 5.46\nNa het 10 e jaar is de minwaarde:
+        € 3.64\nNa het 11 e jaar is de minwaarde: € 2.43\nNa het 12 e jaar is de minwaarde:
+        € 1.62\nNa het 13 e jaar is de minwaarde: € 1.08\nNa het 14 e jaar is de minwaarde:
+        € 0.72\nNa het 15 e jaar is de minwaarde: € 0.48\nNa 15 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "655\n9"
+      stdout: "Na het 1 e jaar is de minwaarde: € 145.56\nNa het 2 e jaar is de minwaarde:
+        € 113.21\nNa het 3 e jaar is de minwaarde: € 88.05\nNa het 4 e jaar is de
+        minwaarde: € 68.48\nNa het 5 e jaar is de minwaarde: € 53.27\nNa het 6 e jaar
+        is de minwaarde: € 41.43\nNa het 7 e jaar is de minwaarde: € 32.22\nNa het
+        8 e jaar is de minwaarde: € 25.06\nNa het 9 e jaar is de minwaarde: € 19.49\n\
+        Na het 10 e jaar is de minwaarde: € 15.16\nNa het 11 e jaar is de minwaarde:
+        € 11.79\nNa het 12 e jaar is de minwaarde: € 9.17\nNa het 13 e jaar is de
+        minwaarde: € 7.13\nNa het 14 e jaar is de minwaarde: € 5.55\nNa het 15 e jaar
+        is de minwaarde: € 4.32\nNa het 16 e jaar is de minwaarde: € 3.36\nNa het
+        17 e jaar is de minwaarde: € 2.61\nNa het 18 e jaar is de minwaarde: € 2.03\n\
+        Na het 19 e jaar is de minwaarde: € 1.58\nNa het 20 e jaar is de minwaarde:
+        € 1.23\nNa het 21 e jaar is de minwaarde: € 0.96\nNa het 22 e jaar is de minwaarde:
+        € 0.74\nNa het 23 e jaar is de minwaarde: € 0.58\nNa het 24 e jaar is de minwaarde:
+        € 0.45\nNa het 25 e jaar is de minwaarde: € 0.35\nNa het 26 e jaar is de minwaarde:
+        € 0.27\nNa 26 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1350\n5"
+      stdout: "Na het 1 e jaar is de minwaarde: € 540.0\nNa het 2 e jaar is de minwaarde:
+        € 324.0\nNa het 3 e jaar is de minwaarde: € 194.4\nNa het 4 e jaar is de minwaarde:
+        € 116.64\nNa het 5 e jaar is de minwaarde: € 69.98\nNa het 6 e jaar is de
+        minwaarde: € 41.99\nNa het 7 e jaar is de minwaarde: € 25.19\nNa het 8 e jaar
+        is de minwaarde: € 15.12\nNa het 9 e jaar is de minwaarde: € 9.07\nNa het
+        10 e jaar is de minwaarde: € 5.44\nNa het 11 e jaar is de minwaarde: € 3.27\n\
+        Na het 12 e jaar is de minwaarde: € 1.96\nNa het 13 e jaar is de minwaarde:
+        € 1.18\nNa het 14 e jaar is de minwaarde: € 0.71\nNa het 15 e jaar is de minwaarde:
+        € 0.42\nNa 15 jaren is het product quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "1435\n10"
+      stdout: "Na het 1 e jaar is de minwaarde: € 287.0\nNa het 2 e jaar is de minwaarde:
+        € 229.6\nNa het 3 e jaar is de minwaarde: € 183.68\nNa het 4 e jaar is de
+        minwaarde: € 146.94\nNa het 5 e jaar is de minwaarde: € 117.56\nNa het 6 e
+        jaar is de minwaarde: € 94.04\nNa het 7 e jaar is de minwaarde: € 75.24\n\
+        Na het 8 e jaar is de minwaarde: € 60.19\nNa het 9 e jaar is de minwaarde:
+        € 48.15\nNa het 10 e jaar is de minwaarde: € 38.52\nNa het 11 e jaar is de
+        minwaarde: € 30.82\nNa het 12 e jaar is de minwaarde: € 24.65\nNa het 13 e
+        jaar is de minwaarde: € 19.72\nNa het 14 e jaar is de minwaarde: € 15.78\n\
+        Na het 15 e jaar is de minwaarde: € 12.62\nNa het 16 e jaar is de minwaarde:
+        € 10.1\nNa het 17 e jaar is de minwaarde: € 8.08\nNa het 18 e jaar is de minwaarde:
+        € 6.46\nNa het 19 e jaar is de minwaarde: € 5.17\nNa het 20 e jaar is de minwaarde:
+        € 4.14\nNa het 21 e jaar is de minwaarde: € 3.31\nNa het 22 e jaar is de minwaarde:
+        € 2.65\nNa het 23 e jaar is de minwaarde: € 2.12\nNa het 24 e jaar is de minwaarde:
+        € 1.69\nNa het 25 e jaar is de minwaarde: € 1.36\nNa het 26 e jaar is de minwaarde:
+        € 1.08\nNa het 27 e jaar is de minwaarde: € 0.87\nNa het 28 e jaar is de minwaarde:
+        € 0.69\nNa het 29 e jaar is de minwaarde: € 0.56\nNa het 30 e jaar is de minwaarde:
+        € 0.44\nNa het 31 e jaar is de minwaarde: € 0.36\nNa het 32 e jaar is de minwaarde:
+        € 0.28\nNa het 33 e jaar is de minwaarde: € 0.23\nNa 33 jaren is het product
+        quasi waardeloos geworden.\n"
+  - testcases:
+    - stdin: "250\n8"
+      stdout: "Na het 1 e jaar is de minwaarde: € 62.5\nNa het 2 e jaar is de minwaarde:
+        € 46.88\nNa het 3 e jaar is de minwaarde: € 35.16\nNa het 4 e jaar is de minwaarde:
+        € 26.37\nNa het 5 e jaar is de minwaarde: € 19.78\nNa het 6 e jaar is de minwaarde:
+        € 14.83\nNa het 7 e jaar is de minwaarde: € 11.12\nNa het 8 e jaar is de minwaarde:
+        € 8.34\nNa het 9 e jaar is de minwaarde: € 6.26\nNa het 10 e jaar is de minwaarde:
+        € 4.69\nNa het 11 e jaar is de minwaarde: € 3.52\nNa het 12 e jaar is de minwaarde:
+        € 2.64\nNa het 13 e jaar is de minwaarde: € 1.98\nNa het 14 e jaar is de minwaarde:
+        € 1.48\nNa het 15 e jaar is de minwaarde: € 1.11\nNa het 16 e jaar is de minwaarde:
+        € 0.84\nNa het 17 e jaar is de minwaarde: € 0.63\nNa het 18 e jaar is de minwaarde:
+        € 0.47\nNa het 19 e jaar is de minwaarde: € 0.35\nNa het 20 e jaar is de minwaarde:
+        € 0.26\nNa 20 jaren is het product quasi waardeloos geworden.\n"
