@@ -18,6 +18,7 @@
     "Functies",
     "Recursie"
   ],
+  "access": "public",
   "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "tpTI3ZZfXj75aQ9ZvgGuhFZ_zkYg2V6yvCZQafr_RUKNPm3FaZiyfKWM5b9eXiVf",
