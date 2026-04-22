@@ -9,4 +9,4 @@ while massa >= 1:
 if i == 0:
     print("Deze zone is al veilig.")
 else:
-    print(f"Na {i*30} jaar kan deze zone veilig verklaar worden.")
+    print(f"Na {i*30} jaar kan deze zone veilig verklaard worden.")
