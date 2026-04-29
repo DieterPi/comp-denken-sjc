@@ -1,4 +1,4 @@
-## Functies
+### Functies
 In de vorige hoofdstukken heb je al verschillende functies gebruikt. Denk maar aan de in- en uitvoer functies `input()` en `print()`. In dit onderdeel ga je zelf functies schrijven. Waarom zou je zelf functies willen schrijven?
 
 -   Er is een bepaalde functionaliteit die je op **meerdere** plekken in je programma nodig hebt, dan kan je die beter in een aparte functie stoppen in plaats van de code telkens te kopiëren.
@@ -9,18 +9,13 @@ In de vorige hoofdstukken heb je al verschillende functies gebruikt. Denk maar a
 
 -   ...
 
-### Definitie
 ```python
 def <functienaam>(<parameter_lijst>) :
     <acties>
 ```
-
-{: .callout.callout-danger}
-> #### Opgelet
-> Zeer belangrijk in het aanmaken van een functie is de **indentatie**. Je merkt dat de acties in de functie naar rechts werden *opgeschoven* of *geïndenteerd*. Dat doe je gemakkelijk met behulp van de **tab** toets.
-
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
+#### Voorbeeld
 Uit de wetten van Newton volgt de volgende formule voor de valafstand d van een object gedurende een tijd t. Op aarde is de zwaarteveldsterkte g = 9,81 m/s².
 
 $$
@@ -41,7 +36,7 @@ Je merkt dat alle complexiteit in de functie bevat zit en de `print`-functie zee
 print("Als een object 3 seconden valt op de maan, dan legt het", valafstand(3, 1.625), "m af.")
 ```
 
-## Opgave
+### Opgave
 Beschouw onderstaande code, deze bevat een **foutje**. 
 
 Corrigeer deze code zodat als uitvoer verschijnt:
