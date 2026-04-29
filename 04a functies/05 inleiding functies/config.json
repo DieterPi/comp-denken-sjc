@@ -1,18 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "BlackJack (oefening)"
+      "nl": "Functies"
     }
   },
+ "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Functies"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "6iJKkhB3AzkGCVYx9pXg8IY3yWykxTSI4CwgamsnrUpGI49CrxamCHWxzftRXKur",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
