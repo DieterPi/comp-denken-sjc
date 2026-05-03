@@ -1,21 +1,22 @@
 {
   "type": "exercise",
+  "programming_language": "python",
   "description": {
     "names": {
-      "nl": "Geneste herhalingen"
+      "nl": "Variatiebreedte"
     }
   },
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options": {
-      "mode": "batch",
-      "allow_fallback": true
-    }
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling",
+    "Evaluatie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "e4HZem9MzsnFPT3_GYI_aFVKbeetvqrxiMW_T57p3v8uVrw2AQffiBikwejPwUwF",
