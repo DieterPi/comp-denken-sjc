@@ -15,6 +15,7 @@
     "Sequentie",
     "Modulo"
   ],
+  "access": "public",
   "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "8FmIzcWIxrMZ5f6aKftTZfcIgxIiax295v4UDd-FqPWkGwbJhKewzkMNWtcSCIH3",
