@@ -15,6 +15,7 @@
     "Sequentie",
     "import math"
   ],
+  "access": "public",
   "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "UhIBRF4TmePRgScVDdhpEu7qbEhZzJB-dmQuGADCxqR5_bucpfB2BsanEu7EMjqV",
