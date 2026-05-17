@@ -167,6 +167,14 @@
         file: "test.py"
         name: "check_function"
         data: "1"
+        arguments: [27.0]
+  - testcases:
+    - stdin: "28.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
         arguments: [28.0]
   - testcases:
     - stdin: "29.0"
