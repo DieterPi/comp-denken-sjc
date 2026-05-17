@@ -9,7 +9,10 @@
   "evaluation": {
     "handler": "tested",
     "test_suite": "tests.yaml",
-    "network_enabled": true
+    "network_enabled": true,
+      "options": {
+      "linter": false
+    }
   },
   "labels": [
     "Lijsten",
