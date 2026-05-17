@@ -1,10 +1,5 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdin: '15'
-      stdout: !oracle
-        oracle: "custom_check"
-        file: "test.py"
-        name: "check_function"
-        value: "1"
-        arguments: [15]
+    - stdin: 15
+      stdout: 10
