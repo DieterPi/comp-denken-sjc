@@ -16,8 +16,8 @@ Bij een invoer van `15.0` kan er verschijnen:
 De temperatuur 15.0 °C wordt bereikt na 16 uren.
 ```
 
-Bij een invoer van `34.0` kan er verschijnen:
+Bij een invoer van `40.0` kan er verschijnen:
 
 ```
-De temperatuur 34.0 °C wordt in de nabije toekomst niet bereikt.
+De temperatuur 40.0 °C wordt in de nabije toekomst niet bereikt.
 ```

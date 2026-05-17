@@ -23,6 +23,10 @@ for i in range(len(temperaturen)):
         aantal = i
 
 if aantal == -1:
-    print(f"De komende periode wordt het nooit {doel} °C.")
+    print(f"De temperatuur {doel} °C wordt in de nabije toekomst niet bereikt.")
+elif aantal == 0:
+    print(f"Om middernacht was het al {doel} °C.")
+elif aantal == 1:
+    print(f"De temperatuur {doel} °C wordt bereikt na 1 uur.")
 else:
-    print(f"Na {aantal} uur wordt het {doel} °C.")
+    print(f"De temperatuur {doel} °C wordt bereikt na {aantal} uren.")

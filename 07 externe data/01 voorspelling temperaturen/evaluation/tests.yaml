@@ -1,6 +1,70 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: "7.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [7.0]
+  - testcases:
+    - stdin: "8.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [8.0]
+  - testcases:
+    - stdin: "9.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [9.0]
+  - testcases:
+    - stdin: "10.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [10.0]
+  - testcases:
+    - stdin: "11.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [11.0]
+  - testcases:
+    - stdin: "12.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [12.0]
+  - testcases:
+    - stdin: "13.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [13.0]
+  - testcases:
+    - stdin: "14.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [14.0]
+  - testcases:
     - stdin: "15.0"
       stdout: !oracle
         oracle: "custom_check"
@@ -40,3 +104,91 @@
         name: "check_function"
         data: "1"
         arguments: [19.0]
+  - testcases:
+    - stdin: "20.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [20.0]
+  - testcases:
+    - stdin: "21.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [21.0]
+  - testcases:
+    - stdin: "22.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [22.0]
+  - testcases:
+    - stdin: "23.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [23.0]
+  - testcases:
+    - stdin: "24.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [24.0]
+  - testcases:
+    - stdin: "25.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [25.0]
+  - testcases:
+    - stdin: "26.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [26.0]
+  - testcases:
+    - stdin: "27.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [28.0]
+  - testcases:
+    - stdin: "29.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [29.0]
+  - testcases:
+    - stdin: "30.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [30.0]
+  - testcases:
+    - stdin: "40.0"
+      stdout: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        data: "1"
+        arguments: [40.0]
