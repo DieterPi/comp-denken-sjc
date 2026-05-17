@@ -14,13 +14,13 @@ def check_function(context: ConvertedOracleContext, doel) -> EvaluationResult:
     aantal = -1
     for i in range(len(temperaturen)):
         temp = temperaturen[i]
-        if temp >= doel and aantal == -1:
+        if temp >= doel[0] and aantal == -1:
             aantal = i
 
     if aantal == -1:
-        readable_expected = f"De komende periode wordt het nooit {doel} °C."
+        readable_expected = f"De komende periode wordt het nooit {doel[0]} °C."
     else:
-        readable_expected = f"Na {aantal} uur wordt het {doel} °C."
+        readable_expected = f"Na {aantal} uur wordt het {doel[0]} °C."
     ## END OF THE PROGRAM
     
     
