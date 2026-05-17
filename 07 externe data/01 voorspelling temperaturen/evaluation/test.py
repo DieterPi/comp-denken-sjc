@@ -24,7 +24,7 @@ def check_function(context: ConvertedOracleContext, doel) -> EvaluationResult:
     ## END OF THE PROGRAM
     
     
-    value = context.actual == readable_expected
+    value = context.actual.strip() == readable_expected.strip()
 
     obj = EvaluationResult(
         result = value,
