@@ -18,13 +18,13 @@ def check_function(context: ConvertedOracleContext, doel) -> EvaluationResult:
             aantal = i
 
     if aantal == -1:
-        print(f"De temperatuur {doel} °C wordt in de nabije toekomst niet bereikt.")
+        readable_expected = f"De temperatuur {doel} °C wordt in de nabije toekomst niet bereikt."
     elif aantal == 0:
-        print(f"Om middernacht was het al {doel} °C.")
+        readable_expected = f"Om middernacht was het al {doel} °C."
     elif aantal == 1:
-        print(f"De temperatuur {doel} °C wordt bereikt na 1 uur.")
+        readable_expected = f"De temperatuur {doel} °C wordt bereikt na 1 uur."
     else:
-        print(f"De temperatuur {doel} °C wordt bereikt na {aantal} uren.")
+        readable_expected = f"De temperatuur {doel} °C wordt bereikt na {aantal} uren."
     ## END OF THE PROGRAM
     
     
