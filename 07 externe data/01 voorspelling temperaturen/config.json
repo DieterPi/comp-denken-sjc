@@ -1,0 +1,24 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Temperaturen voorspellen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "network_enabled": true
+  },
+  "labels": [
+    "Lijsten",
+    "Externe gegevens"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "access": "public",
+  "internals": {
+    "token": "kyCTFTF6_cjvSDRvkpaSRJU8XZXHxCVXe8bFHbmwsKMZrGH855shP3A_gkCSu4rH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

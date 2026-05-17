@@ -1,0 +1,23 @@
+# Onderstaande code haalt een lijst op, waarin een voorspelling staat van de temperaturen gedurende de volgende uren in Aalst.
+import urllib.request
+req = urllib.request.Request("https://api.open-meteo.com/v1/forecast?latitude=50.9384&longitude=4.0334&hourly=temperature_2m", 
+                             headers={'User-Agent': 'Mozilla/5.0'})
+resp =  urllib.request.urlopen(req)
+data = eval(resp.read().decode().replace('false', 'False').replace('true', 'True'))
+
+temperaturen = data["hourly"]["temperature_2m"]
+# Deze bevat gegevens als [16.1, 17.2, 15.1, ..., 20.2]
+
+# Schrijf HIERONDER het gevraagde programma
+doel = float(input("Geef de doeltemperatuur op:"))
+
+aantal = -1
+for i in range(len(temperaturen)):
+    temp = temperaturen[i]
+    if temp >= doel and aantal == -1:
+        aantal = i
+
+if aantal == -1:
+    print(f"De komende periode wordt het nooit {doel} °C.")
+else:
+    print(f"Na {aantal} uur wordt het {doel} °C.")
