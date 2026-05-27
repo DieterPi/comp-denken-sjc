@@ -1,4 +1,4 @@
-In de combinatoriek vormen de Catalan-getallen een rij van natuurlijke getallen die voorkomen in diverse telproblemen. Ze zijn naar de Belgische wiskundige <a href="https://nl.wikipedia.org/wiki/Eug%C3%A8ne_Charles_Catalan" target="_blank">Eugène Catalan</a> genoemd.
+In de combinatoriek vormen de Catalan-getallen een rij van **natuurlijke getallen** die voorkomen in diverse telproblemen. Ze zijn naar de Belgische wiskundige <a href="https://nl.wikipedia.org/wiki/Eug%C3%A8ne_Charles_Catalan" target="_blank">Eugène Catalan</a> genoemd.
 
 ![Eugène Catalan geschilderd door Émile Delperée.](media/catalan.jpeg "Eugène Catalan geschilderd door Émile Delperée."){:data-caption="Eugène Catalan geschilderd door Émile Delperée." width="25%"}
 
@@ -29,3 +29,7 @@ Schrijf een **recursieve** functie `catalan(n)` die voor een natuurlijk getal n,
 >>> catalan(6)
 132
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Gezien Catalan getallen steeds natuurlijke getallen zijn, kan je de gehele deling gebruiken.
