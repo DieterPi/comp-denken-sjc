@@ -5,7 +5,7 @@ In de combinatoriek vormen de Catalan-getallen een rij van **natuurlijke getalle
 Deze getallen kunnen recursief berekend worden via deze formule:
 
 $$
-    \mathsf{C_{n+1} = \dfrac{2\cdot(2n+1)}{n+2} \cdot C_{n} \qquad\text{\textsf{met}}\qquad C_0 = 1}
+    \mathsf{C_{n+1} = C_{n} \cdot \dfrac{2\cdot(2n+1)}{n+2}  \qquad\text{\textsf{met}}\qquad C_0 = 1}
 $$
 
 Wat resulteert in deze rij:
