@@ -14,8 +14,8 @@ while getal != 0:
         aantal_priem += 1
 
 if aantal_priem == 0:
-    print(f"Er werden geen priemgetallen ingevoerd.")
+    print("Er werden geen priemgetallen ingevoerd.")
 elif aantal_priem == 1:
-    print(f"Er werd één priemgetal ingevoerd.")
+    print("Er werd één priemgetal ingevoerd.")
 else:
     print(f"Er werden {aantal_priem} priemgetallen ingevoerd.")
