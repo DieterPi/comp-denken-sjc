@@ -1,6 +1,8 @@
-getal = int(input("Geef een getal in: "))
+getal = -1
 aantal_priem = 0
-while getal != 0:   
+while getal != 0:
+    getal = int(input("Geef een getal in: "))
+    
     aantal_delers = 0
     i = 2
     while i < getal and aantal_delers == 0:
@@ -10,7 +12,6 @@ while getal != 0:
     
     if aantal_delers == 0 and getal >= 2:
         aantal_priem += 1
-    getal = int(input("Geef een getal in: "))
 
 if aantal_priem == 0:
     print("Er werden geen priemgetallen ingevoerd.")
