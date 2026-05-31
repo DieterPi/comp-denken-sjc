@@ -1,0 +1,21 @@
+getal = -1
+aantal_priem = 0
+while getal != 0:
+    getal = int(input("Geef een getal in: "))
+    
+    aantal_delers = 0
+    i = 2
+    while i < getal and aantal_delers == 0:
+        if getal % i == 0:
+            aantal_delers += 1
+        i += 1
+    
+    if aantal_delers == 0 and getal >= 2:
+        aantal_priem += 1
+
+if aantal_priem == 0:
+    print(f"Er werden geen priemgetallen ingevoerd.")
+elif aantal_priem == 1:
+    print(f"Er werd één priemgetal ingevoerd.")
+else:
+    print(f"Er werden {aantal_priem} priemgetallen ingevoerd.")

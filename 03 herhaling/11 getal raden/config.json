@@ -1,17 +1,21 @@
 {
   "type": "exercise",
+  "programming_language": "python",
   "description": {
     "names": {
-      "nl": "Hoger-Lager (oefening)"
+      "nl": "Aantal priemgetallen"
     }
   },
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.json"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "kyCTFTF6_cjvSDRvkpaSRJU8XZXHxCVXe8bFHbmwsKMZrGH855shP3A_gkCSu4rH",
