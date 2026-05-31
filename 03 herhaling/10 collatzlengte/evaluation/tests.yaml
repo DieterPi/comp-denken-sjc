@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "De Collatzlengte van 1 is 1\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De Collatzlengte van 3 is 8\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "De Collatzlengte van 4 is 3\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De Collatzlengte van 5 is 6\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "De Collatzlengte van 6 is 9\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "De Collatzlengte van 8 is 4\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "De Collatzlengte van 9 is 20\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "De Collatzlengte van 12 is 10\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "De Collatzlengte van 14 is 18\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "De Collatzlengte van 18 is 21\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "De Collatzlengte van 25 is 24\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "De Collatzlengte van 27 is 112\n"
+  - testcases:
+    - stdin: '33'
+      stdout: "De Collatzlengte van 33 is 27\n"
+  - testcases:
+    - stdin: '38'
+      stdout: "De Collatzlengte van 38 is 22\n"
+  - testcases:
+    - stdin: '45'
+      stdout: "De Collatzlengte van 45 is 17\n"
+  - testcases:
+    - stdin: '72'
+      stdout: "De Collatzlengte van 72 is 23\n"
+  - testcases:
+    - stdin: '87'
+      stdout: "De Collatzlengte van 87 is 31\n"
+  - testcases:
+    - stdin: '145'
+      stdout: "De Collatzlengte van 145 is 117\n"
+  - testcases:
+    - stdin: '156'
+      stdout: "De Collatzlengte van 156 is 37\n"
+  - testcases:
+    - stdin: '160'
+      stdout: "De Collatzlengte van 160 is 11\n"
+  - testcases:
+    - stdin: '179'
+      stdout: "De Collatzlengte van 179 is 32\n"
+  - testcases:
+    - stdin: '202'
+      stdout: "De Collatzlengte van 202 is 27\n"
+  - testcases:
+    - stdin: '230'
+      stdout: "De Collatzlengte van 230 is 35\n"
+  - testcases:
+    - stdin: '415'
+      stdout: "De Collatzlengte van 415 is 134\n"
+  - testcases:
+    - stdin: '566'
+      stdout: "De Collatzlengte van 566 is 62\n"
+  - testcases:
+    - stdin: '627'
+      stdout: "De Collatzlengte van 627 is 132\n"
+  - testcases:
+    - stdin: '703'
+      stdout: "De Collatzlengte van 703 is 171\n"
+  - testcases:
+    - stdin: '848'
+      stdout: "De Collatzlengte van 848 is 16\n"
+  - testcases:
+    - stdin: '950'
+      stdout: "De Collatzlengte van 950 is 29\n"
+  - testcases:
+    - stdin: '982'
+      stdout: "De Collatzlengte van 982 is 143\n"
