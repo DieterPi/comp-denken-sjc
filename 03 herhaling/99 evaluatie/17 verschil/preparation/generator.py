@@ -71,7 +71,7 @@ for test in cases:
             outputtxt += f"Jandoedel, je verliest een punt! Het correcte antwoord was {verschil}\n"
     
     if score == 1:
-        outputtxt += f"Je behaalde één punt.\n"
+        outputtxt += "Je behaalde één punt.\n"
     else:
         outputtxt += f"Je behaalde {score} punten.\n"
     

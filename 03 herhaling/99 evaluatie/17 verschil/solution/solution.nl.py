@@ -18,6 +18,6 @@ for _ in range(5):
 
 # Print de totaalscore van de gebruiker
 if score == 1:
-    print(f"Je behaalde één punt.")
+    print("Je behaalde één punt.")
 else:
     print(f"Je behaalde {score} punten.")
