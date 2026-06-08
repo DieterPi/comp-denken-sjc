@@ -47,7 +47,7 @@ for test in cases:
     outputtxt = ""
     inputtxt = ""
     numbers = []
-    for _ in range(ntests):
+    for _ in range(5):
         numbers.append( tuple(random.randint(10, 99) for _ in range(2)) )
     
     for nums in numbers:
