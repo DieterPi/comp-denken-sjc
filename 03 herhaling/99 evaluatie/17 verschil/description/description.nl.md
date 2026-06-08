@@ -1,15 +1,15 @@
-Help mevr. Eeman door een programma te schrijven dat leerlingen oefeningen laat op het bepalen van het verschil tussen twee getallen.
+Help mevr. Eeman door een programma te schrijven dat leerlingen oefeningen laat maken op het bepalen van het verschil tussen twee natuurlijke getallen.
 
 ![Foto door Annie Spratt op Unsplash.](media/annie-spratt.jpg "Foto door Annie Spratt op Unsplash."){:data-caption="Foto door Annie Spratt op Unsplash." width="40%"}
 
 ## Gevraagd
 
-- Schrijf een programma dat vijf verschillende, willekeurige, opgaven genereert;
-- Er worden telkens twee wilekeurige getallen van twee cijfers weergegeven, met andere woorden: van 10 tot en met 99;
-- Vraag de gebruiker vervolgens naar het verschil van het grootste en het kleinste getal;
-- Bij een correct antwoord krijgt de gebruiker een punt een een bemoedigende boodschap, bij een fout antwoord word deze afgestraft via een minpunt.
+- Schrijf een programma dat **vijf verschillende, willekeurige, opgaven** genereert;
+- Er worden telkens **twee** wilekeurige getallen van **twee cijfers** weergegeven, met andere woorden: van 10 tot en met 99;
+- Vraag de gebruiker vervolgens naar het **verschil van het grootste en het kleinste getal**;
+- Bij een correct antwoord krijgt de gebruiker een punt een een bemoedigende boodschap, bij een fout antwoord wordt deze afgestraft via een minpunt.
 
-Op het einde toon je het aantal punten.
+Op het einde toon je het aantal punten. (mogelijks negatief)
 
 ### Voorbeeld
 
