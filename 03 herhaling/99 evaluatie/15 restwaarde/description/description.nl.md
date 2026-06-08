@@ -14,7 +14,7 @@ Als er bijvoorbeeld een server van € 5 000 werd aangekocht met voorziene lev
 
 Schrijf een programma dat de originele aankoopprijs en de voorziene levensduur aan de gebruiker vraagt. Vervolgens bereken je na hoeveel jaar het toestel quasi waardeloos wordt, namelijk indien de waarde minder dan € 1 wordt.
 
-Geef na elk jaar weer hoeveel minwaarde aangegeven kan worden in de belastingsaangift. **Rond** bij alles **af** op twee decimalen.
+Geef na elk jaar weer hoeveel minwaarde aangegeven kan worden in de belastingsaangifte. **Rond** bij alles **af** op twee decimalen.
 
 #### Voorbeelden
 
