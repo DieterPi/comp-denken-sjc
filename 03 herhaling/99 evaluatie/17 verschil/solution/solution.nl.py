@@ -8,13 +8,16 @@ for _ in range(5):
     
     # Vraag de gebruiker naar het kwadraat van het getal
     antwoord = int(input("Bepaal het verschil van het grootste en kleinste getal: "))
-
-    if antwoord == abs(a - b):
+    verschil = abs(a-b)
+    if antwoord == verschil:
         print("Excellent! Dit levert een extra punt op.")
         score += 1
     else:
-        print(f"Jandoedel, je verliest een punt! Het correcte antwoord was {antwoord}")
+        print(f"Jandoedel, je verliest een punt! Het correcte antwoord was {verschil}")
         score -= 1
 
 # Print de totaalscore van de gebruiker
-print(f"Je behaalde {score} punten.")
+if score == 1:
+    print(f"Je behaalde één punt.")
+else:
+    print(f"Je behaalde {score} punten.")

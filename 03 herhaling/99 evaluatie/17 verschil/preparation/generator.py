@@ -69,8 +69,11 @@ for test in cases:
                 fout = verschil + 1
             inputtxt += str(fout)+"\n"
             outputtxt += f"Jandoedel, je verliest een punt! Het correcte antwoord was {verschil}\n"
-        
-    outputtxt += f"Je behaalde {score} punten.\n"
+    
+    if score == 1:
+        outputtxt += f"Je behaalde één punt.\n"
+    else:
+        outputtxt += f"Je behaalde {score} punten.\n"
     
     
     # generate test expression
