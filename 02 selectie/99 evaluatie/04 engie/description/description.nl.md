@@ -10,13 +10,13 @@ Er zijn heel wat mogelijke prijsformules, in februari 2024 kon je deze vaste for
 
   met een vaste vergoeding van €69,00 per jaar
 
-  kostprijs in c€ per kWh: tijdens piekuren: 16,257 en tijdens daluren: 13,150
+  kostprijs in c€ per kWh: tijdens piekuren: 16,25 en tijdens daluren: 13,15
 
 - **EMPOWER Vast**
   
   met een vaste vergoeding van €85,00 per jaar
 
-  kostprijs in c€ per kWh: tijdens piekuren: 15,938 en tijdens daluren: 11,186
+  kostprijs in c€ per kWh: tijdens piekuren: 15,95 en tijdens daluren: 11,15
 
 ## Opgave
 
@@ -29,14 +29,14 @@ Indien de formules even duur zijn, kies dan voor het *EASY Vast* pakket.
 Indien een gezin gedurende een jaar tijdens piekuren `2400` kWh en tijdens daluren `1600` kWh verbruikt, dan verschijnt er:
 ```
 EMPOWER Vast is de goedkoopste formule
-Jaarlijkse kostprijs: € 646.49
+Jaarlijkse kostprijs: € 646.2
 ```
 
 
 Indien een gezin gedurende een jaar tijdens piekuren `3100` kWh en tijdens daluren `300` kWh verbruikt, dan verschijnt er:
 ```
 EASY Vast is de goedkoopste formule
-Jaarlijkse kostprijs: € 612.42
+Jaarlijkse kostprijs: € 612.2
 ```
 
 {: .callout.callout-info}

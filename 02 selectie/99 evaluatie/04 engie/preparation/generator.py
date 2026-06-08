@@ -35,10 +35,10 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 25
-cases = [(2400,1600), (3100, 300), (2436,419), (4400,100) ]
+cases = [(2400,1600), (3100, 300), (3000,350), (4000,200) , (3500,275)]
 while len(cases) < ntests:
-    piek = random.randint(1800, 4500)
-    y = math.floor((16-0.00319 * piek) / 0.01964)
+    piek = random.randint(1800, 4000)
+    y = math.floor((16-0.0030 * piek) / 0.02)
     if random.randint(0,3) == 0:
         dal = y
     else:
