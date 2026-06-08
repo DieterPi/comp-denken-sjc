@@ -5,9 +5,9 @@ Help mevr. Eeman door een programma te schrijven dat leerlingen oefeningen laat 
 ## Gevraagd
 
 - Schrijf een programma dat **vijf verschillende, willekeurige, opgaven** genereert;
-- Er worden telkens **twee** wilekeurige getallen van **twee cijfers** weergegeven, met andere woorden: van 10 tot en met 99;
+- Er worden telkens **twee** willekeurige getallen van **twee cijfers** weergegeven, met andere woorden: van 10 tot en met 99;
 - Vraag de gebruiker vervolgens naar het **verschil van het grootste en het kleinste getal**;
-- Bij een correct antwoord krijgt de gebruiker een punt een een bemoedigende boodschap, bij een fout antwoord wordt deze afgestraft via een minpunt.
+- Bij een correct antwoord krijgt de gebruiker een punt en een bemoedigende boodschap, bij een fout antwoord wordt deze afgestraft via een minpunt.
 
 Op het einde toon je het aantal punten. (mogelijks negatief)
 
