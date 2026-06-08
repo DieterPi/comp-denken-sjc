@@ -1,0 +1,489 @@
+{
+  "tabs": [
+    {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(7247)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 7247 leidt tot het onderstaande (met als achtereenvolgende invoer 54 - 23 - 18 - 35 - 1 - 72 - 45 - 61 - 11 - 47 - 70 - 15 - 2 - 39 - 5 - 17 - 20 - 61 - 36 - 7)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "54\n23\n18\n35\n1\n72\n45\n61\n11\n47\n70\n15\n2\n39\n5\n17\n20\n61\n36\n7\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 86 en 32\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 62\nJandoedel, je verliest een punt! Het correcte antwoord was 42\nDe getallen zijn: 42 en 51\nJandoedel, je verliest een punt! Het correcte antwoord was 9\nDe getallen zijn: 57 en 92\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 82 en 83\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 24 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 27 en 72\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 13 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 75 en 94\nJandoedel, je verliest een punt! Het correcte antwoord was 19\nDe getallen zijn: 57 en 83\nJandoedel, je verliest een punt! Het correcte antwoord was 26\nDe getallen zijn: 32 en 72\nJandoedel, je verliest een punt! Het correcte antwoord was 40\nDe getallen zijn: 31 en 46\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 95\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 18 en 69\nJandoedel, je verliest een punt! Het correcte antwoord was 51\nDe getallen zijn: 51 en 46\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 80\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 36 en 16\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 13 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 27 en 63\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 27\nExcellent! Dit levert een extra punt op.\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(8884)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 8884 leidt tot het onderstaande (met als achtereenvolgende invoer 58 - 8 - 13 - 30 - 1 - 6 - 24 - 51 - 3 - 55 - 0 - 26 - 1 - 83 - 29 - 27 - 33 - 29 - 57 - 34)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "58\n8\n13\n30\n1\n6\n24\n51\n3\n55\n0\n26\n1\n83\n29\n27\n33\n29\n57\n34\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 93 en 35\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 19 en 33\nJandoedel, je verliest een punt! Het correcte antwoord was 14\nDe getallen zijn: 61 en 83\nJandoedel, je verliest een punt! Het correcte antwoord was 22\nDe getallen zijn: 59 en 39\nJandoedel, je verliest een punt! Het correcte antwoord was 20\nDe getallen zijn: 77 en 80\nJandoedel, je verliest een punt! Het correcte antwoord was 3\nDe getallen zijn: 45 en 51\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 18 en 42\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 87 en 58\nJandoedel, je verliest een punt! Het correcte antwoord was 29\nDe getallen zijn: 35 en 17\nJandoedel, je verliest een punt! Het correcte antwoord was 18\nDe getallen zijn: 84 en 31\nJandoedel, je verliest een punt! Het correcte antwoord was 53\nDe getallen zijn: 72 en 84\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 15 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 96 en 96\nJandoedel, je verliest een punt! Het correcte antwoord was 0\nDe getallen zijn: 75 en 13\nJandoedel, je verliest een punt! Het correcte antwoord was 62\nDe getallen zijn: 68 en 39\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 15 en 42\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 60 en 93\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 56 en 16\nJandoedel, je verliest een punt! Het correcte antwoord was 40\nDe getallen zijn: 70 en 18\nJandoedel, je verliest een punt! Het correcte antwoord was 52\nDe getallen zijn: 96 en 62\nExcellent! Dit levert een extra punt op.\nJe behaalde -4 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(9864)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 9864 leidt tot het onderstaande (met als achtereenvolgende invoer 48 - 35 - 45 - 39 - 16 - 46 - 11 - 35 - 64 - 5 - 39 - 34 - 22 - 24 - 1 - 51 - 6 - 2 - 41 - 28)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "48\n35\n45\n39\n16\n46\n11\n35\n64\n5\n39\n34\n22\n24\n1\n51\n6\n2\n41\n28\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 58 en 10\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 72 en 51\nJandoedel, je verliest een punt! Het correcte antwoord was 21\nDe getallen zijn: 73 en 28\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 83 en 44\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 49 en 68\nJandoedel, je verliest een punt! Het correcte antwoord was 19\nDe getallen zijn: 32 en 78\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 34 en 23\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 50 en 85\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 93 en 29\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 92\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 99 en 60\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 28 en 52\nJandoedel, je verliest een punt! Het correcte antwoord was 24\nDe getallen zijn: 65 en 43\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 73\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 77\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 78 en 27\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 39 en 33\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 71 en 61\nJandoedel, je verliest een punt! Het correcte antwoord was 10\nDe getallen zijn: 10 en 51\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 21 en 49\nExcellent! Dit levert een extra punt op.\nJe behaalde 12 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(6508)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 6508 leidt tot het onderstaande (met als achtereenvolgende invoer 28 - 30 - 3 - 22 - 36 - 2 - 68 - 45 - 68 - 56 - 18 - 82 - 3 - 16 - 4 - 9 - 100 - 3 - 3 - 12)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "28\n30\n3\n22\n36\n2\n68\n45\n68\n56\n18\n82\n3\n16\n4\n9\n100\n3\n3\n12\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 27 en 55\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 64 en 80\nJandoedel, je verliest een punt! Het correcte antwoord was 16\nDe getallen zijn: 22 en 19\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 86 en 64\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 49 en 85\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 36 en 38\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 12\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 69 en 24\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 87 en 19\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 24\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 63 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 14 en 61\nJandoedel, je verliest een punt! Het correcte antwoord was 47\nDe getallen zijn: 78 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 61 en 45\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 54 en 35\nJandoedel, je verliest een punt! Het correcte antwoord was 19\nDe getallen zijn: 51 en 60\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 31 en 85\nJandoedel, je verliest een punt! Het correcte antwoord was 54\nDe getallen zijn: 80 en 83\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 28 en 32\nJandoedel, je verliest een punt! Het correcte antwoord was 4\nDe getallen zijn: 66 en 72\nJandoedel, je verliest een punt! Het correcte antwoord was 6\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(4979)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 4979 leidt tot het onderstaande (met als achtereenvolgende invoer 6 - 14 - 21 - 31 - 65 - 9 - 27 - 1 - 2 - 27 - 9 - 60 - 32 - 3 - 24 - 11 - 4 - 57 - 50 - 81)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "6\n14\n21\n31\n65\n9\n27\n1\n2\n27\n9\n60\n32\n3\n24\n11\n4\n57\n50\n81\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 84 en 78\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 67 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 92 en 71\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 60\nJandoedel, je verliest een punt! Het correcte antwoord was 30\nDe getallen zijn: 94 en 29\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 36 en 27\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 40 en 13\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 58 en 65\nJandoedel, je verliest een punt! Het correcte antwoord was 7\nDe getallen zijn: 15 en 17\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 34 en 61\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 21 en 28\nJandoedel, je verliest een punt! Het correcte antwoord was 7\nDe getallen zijn: 37 en 97\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 79 en 47\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 15 en 19\nJandoedel, je verliest een punt! Het correcte antwoord was 4\nDe getallen zijn: 68 en 92\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 51 en 62\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 70 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 92 en 49\nJandoedel, je verliest een punt! Het correcte antwoord was 43\nDe getallen zijn: 82 en 51\nJandoedel, je verliest een punt! Het correcte antwoord was 31\nDe getallen zijn: 91 en 10\nExcellent! Dit levert een extra punt op.\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(7647)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 7647 leidt tot het onderstaande (met als achtereenvolgende invoer 29 - 35 - 18 - 36 - 42 - 24 - 36 - 4 - 111 - 8 - 33 - 66 - 35 - 23 - 0 - 28 - 94 - 45 - 30 - 68)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "29\n35\n18\n36\n42\n24\n36\n4\n111\n8\n33\n66\n35\n23\n0\n28\n94\n45\n30\n68\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 23 en 52\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 36 en 95\nJandoedel, je verliest een punt! Het correcte antwoord was 59\nDe getallen zijn: 62 en 44\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 11 en 47\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 96 en 24\nJandoedel, je verliest een punt! Het correcte antwoord was 72\nDe getallen zijn: 34 en 10\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 32\nJandoedel, je verliest een punt! Het correcte antwoord was 48\nDe getallen zijn: 16 en 24\nJandoedel, je verliest een punt! Het correcte antwoord was 8\nDe getallen zijn: 97 en 18\nJandoedel, je verliest een punt! Het correcte antwoord was 79\nDe getallen zijn: 34 en 26\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 12 en 45\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 98 en 32\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 65 en 13\nJandoedel, je verliest een punt! Het correcte antwoord was 52\nDe getallen zijn: 85 en 62\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 13 en 13\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 91 en 63\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 17 en 89\nJandoedel, je verliest een punt! Het correcte antwoord was 72\nDe getallen zijn: 45 en 90\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 56 en 26\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 99 en 31\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(6507)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 6507 leidt tot het onderstaande (met als achtereenvolgende invoer 14 - 54 - 11 - 8 - 53 - 27 - 43 - 14 - 9 - 13 - 13 - 20 - 17 - 13 - 83 - 35 - 9 - 58 - 3 - 57)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "14\n54\n11\n8\n53\n27\n43\n14\n9\n13\n13\n20\n17\n13\n83\n35\n9\n58\n3\n57\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 95 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 99 en 64\nJandoedel, je verliest een punt! Het correcte antwoord was 35\nDe getallen zijn: 32 en 43\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 70 en 61\nJandoedel, je verliest een punt! Het correcte antwoord was 9\nDe getallen zijn: 93 en 55\nJandoedel, je verliest een punt! Het correcte antwoord was 38\nDe getallen zijn: 28 en 55\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 38 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 66 en 51\nJandoedel, je verliest een punt! Het correcte antwoord was 15\nDe getallen zijn: 28 en 37\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 99\nJandoedel, je verliest een punt! Het correcte antwoord was 23\nDe getallen zijn: 94 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 91 en 71\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 31 en 48\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 67 en 80\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 13 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 94 en 73\nJandoedel, je verliest een punt! Het correcte antwoord was 21\nDe getallen zijn: 18 en 27\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 39\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 29 en 34\nJandoedel, je verliest een punt! Het correcte antwoord was 5\nDe getallen zijn: 39 en 96\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(8765)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 8765 leidt tot het onderstaande (met als achtereenvolgende invoer 55 - 32 - 13 - 6 - 0 - 17 - 2 - 4 - 2 - 35 - 20 - 7 - 20 - 78 - 15 - 28 - 8 - 33 - 15 - 54)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "55\n32\n13\n6\n0\n17\n2\n4\n2\n35\n20\n7\n20\n78\n15\n28\n8\n33\n15\n54\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 90 en 47\nJandoedel, je verliest een punt! Het correcte antwoord was 43\nDe getallen zijn: 55 en 23\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 43 en 52\nJandoedel, je verliest een punt! Het correcte antwoord was 9\nDe getallen zijn: 25 en 31\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 88\nJandoedel, je verliest een punt! Het correcte antwoord was 2\nDe getallen zijn: 52 en 35\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 29 en 27\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 94\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 49 en 51\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 95 en 60\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 51 en 31\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 79 en 71\nJandoedel, je verliest een punt! Het correcte antwoord was 8\nDe getallen zijn: 55 en 35\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 10 en 96\nJandoedel, je verliest een punt! Het correcte antwoord was 86\nDe getallen zijn: 48 en 70\nJandoedel, je verliest een punt! Het correcte antwoord was 22\nDe getallen zijn: 19 en 47\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 94 en 86\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 60 en 93\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 74 en 64\nJandoedel, je verliest een punt! Het correcte antwoord was 10\nDe getallen zijn: 98 en 44\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(5752)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 5752 leidt tot het onderstaande (met als achtereenvolgende invoer 20 - 47 - 34 - 17 - 7 - 37 - 24 - 21 - 1 - 50 - 6 - 54 - 67 - 72 - 76 - 7 - 4 - 47 - 16 - 48)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "20\n47\n34\n17\n7\n37\n24\n21\n1\n50\n6\n54\n67\n72\n76\n7\n4\n47\n16\n48\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 79 en 99\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 67 en 20\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 87 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 77\nJandoedel, je verliest een punt! Het correcte antwoord was 13\nDe getallen zijn: 70 en 62\nJandoedel, je verliest een punt! Het correcte antwoord was 8\nDe getallen zijn: 75 en 38\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 66\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 53 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 24 en 22\nJandoedel, je verliest een punt! Het correcte antwoord was 2\nDe getallen zijn: 22 en 72\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 42 en 84\nJandoedel, je verliest een punt! Het correcte antwoord was 42\nDe getallen zijn: 10 en 65\nJandoedel, je verliest een punt! Het correcte antwoord was 55\nDe getallen zijn: 50 en 89\nJandoedel, je verliest een punt! Het correcte antwoord was 39\nDe getallen zijn: 23 en 79\nJandoedel, je verliest een punt! Het correcte antwoord was 56\nDe getallen zijn: 86 en 10\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 61 en 68\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 23 en 27\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 89 en 42\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 56\nJandoedel, je verliest een punt! Het correcte antwoord was 24\nDe getallen zijn: 18 en 44\nJandoedel, je verliest een punt! Het correcte antwoord was 26\nJe behaalde 2 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(6548)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 6548 leidt tot het onderstaande (met als achtereenvolgende invoer 68 - 34 - 35 - 7 - 28 - 2 - 115 - 3 - 16 - 48 - 31 - 14 - 31 - 43 - 6 - 44 - 2 - 18 - 1 - 61)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "68\n34\n35\n7\n28\n2\n115\n3\n16\n48\n31\n14\n31\n43\n6\n44\n2\n18\n1\n61\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 12 en 80\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 83 en 49\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 58 en 93\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 74 en 67\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 50 en 78\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 97 en 78\nJandoedel, je verliest een punt! Het correcte antwoord was 19\nDe getallen zijn: 74 en 10\nJandoedel, je verliest een punt! Het correcte antwoord was 64\nDe getallen zijn: 95 en 64\nJandoedel, je verliest een punt! Het correcte antwoord was 31\nDe getallen zijn: 42 en 26\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 78 en 30\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 12 en 43\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 66 en 74\nJandoedel, je verliest een punt! Het correcte antwoord was 8\nDe getallen zijn: 30 en 61\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 74 en 31\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 48 en 39\nJandoedel, je verliest een punt! Het correcte antwoord was 9\nDe getallen zijn: 89 en 45\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 81\nJandoedel, je verliest een punt! Het correcte antwoord was 1\nDe getallen zijn: 62 en 29\nJandoedel, je verliest een punt! Het correcte antwoord was 33\nDe getallen zijn: 27 en 29\nJandoedel, je verliest een punt! Het correcte antwoord was 2\nDe getallen zijn: 24 en 85\nExcellent! Dit levert een extra punt op.\nJe behaalde 4 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(7225)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 7225 leidt tot het onderstaande (met als achtereenvolgende invoer 23 - 40 - 37 - 28 - 47 - 17 - 35 - 42 - 28 - 27 - 33 - 48 - 49 - 42 - 19 - 24 - 16 - 80 - 6 - 1)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "23\n40\n37\n28\n47\n17\n35\n42\n28\n27\n33\n48\n49\n42\n19\n24\n16\n80\n6\n1\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 96 en 73\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 34 en 88\nJandoedel, je verliest een punt! Het correcte antwoord was 54\nDe getallen zijn: 86 en 49\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 77 en 49\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 22 en 69\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 22 en 39\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 85\nJandoedel, je verliest een punt! Het correcte antwoord was 65\nDe getallen zijn: 97 en 55\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 89 en 71\nJandoedel, je verliest een punt! Het correcte antwoord was 18\nDe getallen zijn: 13 en 40\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 17 en 50\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 31 en 79\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 41 en 90\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 42 en 84\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 24 en 43\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 69 en 23\nJandoedel, je verliest een punt! Het correcte antwoord was 46\nDe getallen zijn: 28 en 12\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 10\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 27 en 21\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 11 en 34\nJandoedel, je verliest een punt! Het correcte antwoord was 23\nJe behaalde 10 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(8939)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 8939 leidt tot het onderstaande (met als achtereenvolgende invoer 31 - 14 - 9 - 26 - 19 - 35 - 31 - 29 - 73 - 13 - 1 - 42 - 54 - 76 - 20 - 68 - 67 - 39 - 36 - 16)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "31\n14\n9\n26\n19\n35\n31\n29\n73\n13\n1\n42\n54\n76\n20\n68\n67\n39\n36\n16\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 26 en 57\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 84 en 91\nJandoedel, je verliest een punt! Het correcte antwoord was 7\nDe getallen zijn: 40 en 52\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 76 en 50\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 88 en 69\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 63 en 87\nJandoedel, je verliest een punt! Het correcte antwoord was 24\nDe getallen zijn: 47 en 16\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 81 en 23\nJandoedel, je verliest een punt! Het correcte antwoord was 58\nDe getallen zijn: 47 en 99\nJandoedel, je verliest een punt! Het correcte antwoord was 52\nDe getallen zijn: 50 en 63\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 25 en 27\nJandoedel, je verliest een punt! Het correcte antwoord was 2\nDe getallen zijn: 25 en 69\nJandoedel, je verliest een punt! Het correcte antwoord was 44\nDe getallen zijn: 64 en 10\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 56 en 76\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 10 en 78\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 11 en 78\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 40 en 76\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 99 en 83\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(3404)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 3404 leidt tot het onderstaande (met als achtereenvolgende invoer 39 - 23 - 1 - 19 - 1 - 1 - 10 - 2 - 29 - 6 - 55 - 0 - 63 - 38 - 13 - 59 - 5 - 7 - 1 - 50)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "39\n23\n1\n19\n1\n1\n10\n2\n29\n6\n55\n0\n63\n38\n13\n59\n5\n7\n1\n50\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 60 en 21\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 73 en 50\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 58 en 57\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 60 en 79\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 45 en 78\nJandoedel, je verliest een punt! Het correcte antwoord was 33\nDe getallen zijn: 71 en 72\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 29 en 39\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 94 en 86\nJandoedel, je verliest een punt! Het correcte antwoord was 8\nDe getallen zijn: 82 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 47 en 37\nJandoedel, je verliest een punt! Het correcte antwoord was 10\nDe getallen zijn: 55 en 17\nJandoedel, je verliest een punt! Het correcte antwoord was 38\nDe getallen zijn: 47 en 56\nJandoedel, je verliest een punt! Het correcte antwoord was 9\nDe getallen zijn: 21 en 84\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 25 en 63\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 93\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 40 en 99\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 65 en 77\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 11 en 18\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 78 en 79\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 26\nExcellent! Dit levert een extra punt op.\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(9833)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 9833 leidt tot het onderstaande (met als achtereenvolgende invoer 27 - 24 - 31 - 9 - 28 - 46 - 32 - 41 - 31 - 22 - 23 - 10 - 42 - 9 - 42 - 62 - 12 - 40 - 28 - 48)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "27\n24\n31\n9\n28\n46\n32\n41\n31\n22\n23\n10\n42\n9\n42\n62\n12\n40\n28\n48\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 85 en 58\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 71 en 47\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 93 en 62\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 42 en 49\nJandoedel, je verliest een punt! Het correcte antwoord was 7\nDe getallen zijn: 43 en 12\nJandoedel, je verliest een punt! Het correcte antwoord was 31\nDe getallen zijn: 66 en 20\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 28 en 60\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 60\nJandoedel, je verliest een punt! Het correcte antwoord was 40\nDe getallen zijn: 59 en 28\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 51 en 73\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 98 en 72\nJandoedel, je verliest een punt! Het correcte antwoord was 26\nDe getallen zijn: 99 en 38\nJandoedel, je verliest een punt! Het correcte antwoord was 61\nDe getallen zijn: 56 en 98\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 48\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 34\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 14 en 76\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 24 en 88\nJandoedel, je verliest een punt! Het correcte antwoord was 64\nDe getallen zijn: 41 en 81\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 96 en 68\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 23 en 54\nJandoedel, je verliest een punt! Het correcte antwoord was 31\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(388)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 388 leidt tot het onderstaande (met als achtereenvolgende invoer 3 - 41 - 63 - 46 - 5 - 27 - 36 - 1 - 1 - 7 - 25 - 13 - 8 - 2 - 42 - 23 - 8 - 2 - 28 - 18)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "3\n41\n63\n46\n5\n27\n36\n1\n1\n7\n25\n13\n8\n2\n42\n23\n8\n2\n28\n18\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 57 en 54\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 56 en 97\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 33 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 20 en 66\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 40 en 35\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 40\nJandoedel, je verliest een punt! Het correcte antwoord was 17\nDe getallen zijn: 64 en 35\nJandoedel, je verliest een punt! Het correcte antwoord was 29\nDe getallen zijn: 91 en 92\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 19 en 18\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 35 en 28\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 49 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 46 en 21\nJandoedel, je verliest een punt! Het correcte antwoord was 25\nDe getallen zijn: 45 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 59\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 11 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 18 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 11 en 26\nJandoedel, je verliest een punt! Het correcte antwoord was 15\nDe getallen zijn: 43 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 56 en 25\nJandoedel, je verliest een punt! Het correcte antwoord was 31\nDe getallen zijn: 15 en 44\nJandoedel, je verliest een punt! Het correcte antwoord was 29\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(4446)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 4446 leidt tot het onderstaande (met als achtereenvolgende invoer 36 - 22 - 21 - 48 - 17 - 22 - 5 - 22 - 32 - 65 - 16 - 48 - 17 - 79 - 29 - 88 - 27 - 48 - 19 - 36)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "36\n22\n21\n48\n17\n22\n5\n22\n32\n65\n16\n48\n17\n79\n29\n88\n27\n48\n19\n36\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 48 en 24\nJandoedel, je verliest een punt! Het correcte antwoord was 24\nDe getallen zijn: 29 en 51\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 61 en 82\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 89 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 73 en 25\nJandoedel, je verliest een punt! Het correcte antwoord was 48\nDe getallen zijn: 37 en 58\nJandoedel, je verliest een punt! Het correcte antwoord was 21\nDe getallen zijn: 22 en 34\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 64 en 30\nJandoedel, je verliest een punt! Het correcte antwoord was 34\nDe getallen zijn: 70 en 38\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 11\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 39 en 23\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 34 en 82\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 17 en 80\nJandoedel, je verliest een punt! Het correcte antwoord was 63\nDe getallen zijn: 96 en 17\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 58 en 29\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 10 en 98\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 52 en 36\nJandoedel, je verliest een punt! Het correcte antwoord was 16\nDe getallen zijn: 79 en 31\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 60 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 70 en 34\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(3027)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 3027 leidt tot het onderstaande (met als achtereenvolgende invoer 103 - 49 - 8 - 5 - 38 - 38 - 10 - 7 - 35 - 14 - 82 - 12 - 2 - 23 - 18 - 67 - 82 - 55 - 17 - 28)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "103\n49\n8\n5\n38\n38\n10\n7\n35\n14\n82\n12\n2\n23\n18\n67\n82\n55\n17\n28\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 33 en 96\nJandoedel, je verliest een punt! Het correcte antwoord was 63\nDe getallen zijn: 64 en 15\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 25 en 33\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 71 en 66\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 61 en 24\nJandoedel, je verliest een punt! Het correcte antwoord was 37\nDe getallen zijn: 61 en 99\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 86\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 52 en 57\nJandoedel, je verliest een punt! Het correcte antwoord was 5\nDe getallen zijn: 29 en 64\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 94 en 80\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 34 en 97\nJandoedel, je verliest een punt! Het correcte antwoord was 63\nDe getallen zijn: 27 en 15\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 48 en 50\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 53\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 39\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 83 en 16\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 10 en 92\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 81 en 26\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 57 en 74\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 63 en 91\nExcellent! Dit levert een extra punt op.\nJe behaalde 12 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(430)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 430 leidt tot het onderstaande (met als achtereenvolgende invoer 50 - 14 - 8 - 5 - 15 - 1 - 21 - 1 - 19 - 11 - 19 - 4 - 34 - 52 - 65 - 27 - 63 - 10 - 119 - 3)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "50\n14\n8\n5\n15\n1\n21\n1\n19\n11\n19\n4\n34\n52\n65\n27\n63\n10\n119\n3\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 44 en 94\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 27 en 13\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 29 en 37\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 68 en 50\nJandoedel, je verliest een punt! Het correcte antwoord was 18\nDe getallen zijn: 49 en 34\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 19 en 34\nJandoedel, je verliest een punt! Het correcte antwoord was 15\nDe getallen zijn: 82 en 61\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 62 en 28\nJandoedel, je verliest een punt! Het correcte antwoord was 34\nDe getallen zijn: 37 en 18\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 52 en 41\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 65 en 46\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 36 en 32\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 31 en 48\nJandoedel, je verliest een punt! Het correcte antwoord was 17\nDe getallen zijn: 89 en 37\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 91 en 30\nJandoedel, je verliest een punt! Het correcte antwoord was 61\nDe getallen zijn: 66 en 93\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 80 en 17\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 81 en 69\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 13 en 94\nJandoedel, je verliest een punt! Het correcte antwoord was 81\nDe getallen zijn: 98 en 95\nExcellent! Dit levert een extra punt op.\nJe behaalde 6 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(2342)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 2342 leidt tot het onderstaande (met als achtereenvolgende invoer 45 - 64 - 15 - 46 - 5 - 21 - 7 - 30 - 12 - 9 - 35 - 42 - 44 - 8 - 54 - 37 - 36 - 39 - 1 - 3)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "45\n64\n15\n46\n5\n21\n7\n30\n12\n9\n35\n42\n44\n8\n54\n37\n36\n39\n1\n3\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 81 en 36\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 93 en 29\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 44 en 29\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 67 en 22\nJandoedel, je verliest een punt! Het correcte antwoord was 45\nDe getallen zijn: 50 en 55\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 37 en 58\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 91 en 84\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 42 en 12\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 94 en 80\nJandoedel, je verliest een punt! Het correcte antwoord was 14\nDe getallen zijn: 81 en 90\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 98 en 63\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 70 en 28\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 19 en 81\nJandoedel, je verliest een punt! Het correcte antwoord was 62\nDe getallen zijn: 64 en 15\nJandoedel, je verliest een punt! Het correcte antwoord was 49\nDe getallen zijn: 44 en 86\nJandoedel, je verliest een punt! Het correcte antwoord was 42\nDe getallen zijn: 29 en 66\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 51 en 15\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 18 en 57\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 95 en 94\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 91 en 39\nJandoedel, je verliest een punt! Het correcte antwoord was 52\nJe behaalde 8 punten.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(5147)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren met seed 5147 leidt tot het onderstaande (met als achtereenvolgende invoer 14 - 6 - 77 - 85 - 4 - 44 - 142 - 3 - 2 - 73 - 22 - 0 - 3 - 31 - 31 - 41 - 21 - 18 - 7 - 9)",
+              "input": {
+                "stdin": {
+                  "type": "text",
+                  "data": "14\n6\n77\n85\n4\n44\n142\n3\n2\n73\n22\n0\n3\n31\n31\n41\n21\n18\n7\n9\n"
+                }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "De getallen zijn: 81 en 67\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 42 en 38\nJandoedel, je verliest een punt! Het correcte antwoord was 4\nDe getallen zijn: 99 en 37\nJandoedel, je verliest een punt! Het correcte antwoord was 62\nDe getallen zijn: 98 en 13\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 92 en 96\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 63 en 19\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 13 en 90\nJandoedel, je verliest een punt! Het correcte antwoord was 77\nDe getallen zijn: 33 en 30\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 76 en 63\nJandoedel, je verliest een punt! Het correcte antwoord was 13\nDe getallen zijn: 98 en 25\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 67 en 35\nJandoedel, je verliest een punt! Het correcte antwoord was 32\nDe getallen zijn: 89 en 87\nJandoedel, je verliest een punt! Het correcte antwoord was 2\nDe getallen zijn: 80 en 68\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nDe getallen zijn: 56 en 87\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 66 en 49\nJandoedel, je verliest een punt! Het correcte antwoord was 17\nDe getallen zijn: 14 en 55\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 90 en 69\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 54 en 72\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 40 en 33\nExcellent! Dit levert een extra punt op.\nDe getallen zijn: 26 en 14\nJandoedel, je verliest een punt! Het correcte antwoord was 12\nJe behaalde 2 punten.\n"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

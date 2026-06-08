@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Geef het verschil"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Python",
+    "for-lus",
+    "Begrensde herhaling",
+    "import random"
+  ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
+  "access": "public",
+  "internals": {
+    "token": "W87WCcix_c6zSIpe_45mJ32WnQHxGf44rWrKQNEiAk5S8QHuTYdINM87Kdp2FD5Q",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
