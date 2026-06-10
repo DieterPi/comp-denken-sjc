@@ -1,6 +1,5 @@
 bovengrens = int(input("Geef een bovengrens (< 1000) in: "))
 
-print()
 aantal = 0
 for getal in range(100, bovengrens):
     H = getal // 100
