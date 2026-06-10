@@ -5,7 +5,7 @@
       stdout: "Er waren geen niet-isodigitale getallen kleiner dan 102\n"
   - testcases:
     - stdin: '103'
-      stdout: "102 is niet-isodigitaal\nEr was één niet-isodigitale getallen kleiner dan
+      stdout: "102 is niet-isodigitaal\nEr was één niet-isodigitaal getal kleiner dan
         103\n"
   - testcases:
     - stdin: '104'
@@ -16,7 +16,7 @@
       stdout: "102 is niet-isodigitaal\n103 is niet-isodigitaal\n104 is niet-isodigitaal\n\
         Er waren 3 niet-isodigitale getallen kleiner dan 105\n"
   - testcases:
-    - stdin: '103'
+    - stdin: '206'
       stdout: "102 is niet-isodigitaal\n103 is niet-isodigitaal\n104 is niet-isodigitaal\n\
         105 is niet-isodigitaal\n106 is niet-isodigitaal\n107 is niet-isodigitaal\n\
         108 is niet-isodigitaal\n109 is niet-isodigitaal\n120 is niet-isodigitaal\n\
