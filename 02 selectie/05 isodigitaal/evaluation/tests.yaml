@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '100'
+      stdout: "100 is isodigitaal.\n"
+  - testcases:
+    - stdin: '123'
+      stdout: "123 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '124'
+      stdout: "124 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '179'
+      stdout: "179 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '202'
+      stdout: "202 is isodigitaal.\n"
+  - testcases:
+    - stdin: '225'
+      stdout: "225 is isodigitaal.\n"
+  - testcases:
+    - stdin: '252'
+      stdout: "252 is isodigitaal.\n"
+  - testcases:
+    - stdin: '334'
+      stdout: "334 is isodigitaal.\n"
+  - testcases:
+    - stdin: '358'
+      stdout: "358 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '443'
+      stdout: "443 is isodigitaal.\n"
+  - testcases:
+    - stdin: '458'
+      stdout: "458 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '621'
+      stdout: "621 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '627'
+      stdout: "627 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '700'
+      stdout: "700 is isodigitaal.\n"
+  - testcases:
+    - stdin: '703'
+      stdout: "703 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '720'
+      stdout: "720 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '748'
+      stdout: "748 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '777'
+      stdout: "777 is isodigitaal.\n"
+  - testcases:
+    - stdin: '837'
+      stdout: "837 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '848'
+      stdout: "848 is isodigitaal.\n"
+  - testcases:
+    - stdin: '879'
+      stdout: "879 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '883'
+      stdout: "883 is isodigitaal.\n"
+  - testcases:
+    - stdin: '892'
+      stdout: "892 is niet isodigitaal.\n"
+  - testcases:
+    - stdin: '909'
+      stdout: "909 is isodigitaal.\n"
+  - testcases:
+    - stdin: '960'
+      stdout: "960 is niet isodigitaal.\n"
