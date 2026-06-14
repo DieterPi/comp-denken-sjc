@@ -1,4 +1,4 @@
-FizzBuzz is een bekend groepsspel waarbij spelers getallen van 1 tot een bepaald getal (vaak 100) doorlopen en ze getallen deelbaar door 3 vervangen door "Fizz", door 5 door "Buzz", en door beide door "FizzBuzz".
+FizzBuzz is een bekend groepsspel waarbij spelers getallen van 1 tot een bepaald getal (vaak 100) doorlopen en ze getallen deelbaar door 3 door “Fizz” vervangen en getallen deelbaar door 5 door “Buzz”. Is het getal zowel deelbaar door 3 als door 5, dan wordt het vervangen door “FizzBuzz”.
 
 ![Afbeelding gegenereerd door ChatGPT.](media/fizzbuzz.png "Afbeelding gegenereerd door ChatGPT."){:data-caption="Afbeelding gegenereerd door ChatGPT." width="35%"}
 
