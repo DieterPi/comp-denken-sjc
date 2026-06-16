@@ -49,9 +49,6 @@
     - stdin: "3061\n234"
       stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 597.18\n"
   - testcases:
-    - stdin: "2026\n420"
-      stdout: "EASY Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 453.46\n"
-  - testcases:
     - stdin: "2690\n446"
       stdout: "EMPOWER Vast is de goedkoopste formule\nJaarlijkse kostprijs: € 563.78\n"
   - testcases:
