@@ -39,3 +39,6 @@ Op het einde verschijnt bijvoorbeeld:
 Je behaalde 2 punten.
 ```
 
+{: .callout.callout-info}
+> #### Tip
+> Gebruik de functie `random.randint(a,b)` via de bibliotheek `import random`.
