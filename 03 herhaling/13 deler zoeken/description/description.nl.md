@@ -6,7 +6,7 @@ $$
 
 ## Opgave
 
-Schrijf een programma dat vier getallen aan de gebruiker vraagt (je mag er van uitgaan dat deze één gemeenschappelijke deler > 1 hebben) en vervolgens de gemeenschaplijke deler op het scherm weergeef.
+Schrijf een programma dat vier getallen aan de gebruiker vraagt (je mag ervan uitgaan dat deze één gemeenschappelijke deler > 1 hebben) en vervolgens de gemeenschaplijke deler op het scherm weergeef.
 
 
 #### Voorbeeld
