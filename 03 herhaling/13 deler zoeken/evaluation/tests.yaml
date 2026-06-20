@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "6\n10\n14\n4"
+      stdout: "De gemeenschappelijke deler is: 2\n"
+  - testcases:
+    - stdin: "15\n10\n20\n25"
+      stdout: "De gemeenschappelijke deler is: 5\n"
+  - testcases:
+    - stdin: "1178\n1581\n2015\n2387"
+      stdout: "De gemeenschappelijke deler is: 31\n"
+  - testcases:
+    - stdin: "47767\n88541\n22459\n4699"
+      stdout: "De gemeenschappelijke deler is: 37\n"
+  - testcases:
+    - stdin: "132479\n133027\n84529\n33017"
+      stdout: "De gemeenschappelijke deler is: 137\n"
+  - testcases:
+    - stdin: "367813\n57371\n347213\n156869"
+      stdout: "De gemeenschappelijke deler is: 103\n"
+  - testcases:
+    - stdin: "525703\n373481\n469373\n140039"
+      stdout: "De gemeenschappelijke deler is: 131\n"
+  - testcases:
+    - stdin: "334309\n87271\n681029\n411139"
+      stdout: "De gemeenschappelijke deler is: 197\n"
+  - testcases:
+    - stdin: "648421\n461827\n24797\n680753"
+      stdout: "De gemeenschappelijke deler is: 137\n"
+  - testcases:
+    - stdin: "992333\n368617\n428119\n265649"
+      stdout: "De gemeenschappelijke deler is: 211\n"
+  - testcases:
+    - stdin: "74227\n1831057\n215221\n98099"
+      stdout: "De gemeenschappelijke deler is: 373\n"
+  - testcases:
+    - stdin: "35909\n1109323\n945443\n296671"
+      stdout: "De gemeenschappelijke deler is: 241\n"
+  - testcases:
+    - stdin: "248467\n1022779\n661601\n799033"
+      stdout: "De gemeenschappelijke deler is: 419\n"
+  - testcases:
+    - stdin: "939173\n1107493\n342163\n1186919"
+      stdout: "De gemeenschappelijke deler is: 263\n"
+  - testcases:
+    - stdin: "573943\n599161\n1904893\n756073"
+      stdout: "De gemeenschappelijke deler is: 467\n"
+  - testcases:
+    - stdin: "1376119\n884347\n1054399\n878219"
+      stdout: "De gemeenschappelijke deler is: 383\n"
+  - testcases:
+    - stdin: "2299679\n1862831\n520673\n1011169"
+      stdout: "De gemeenschappelijke deler is: 479\n"
+  - testcases:
+    - stdin: "669533\n1877719\n1552973\n1808189"
+      stdout: "De gemeenschappelijke deler is: 409\n"
+  - testcases:
+    - stdin: "847753\n1925617\n2230271\n967207"
+      stdout: "De gemeenschappelijke deler is: 463\n"
+  - testcases:
+    - stdin: "1972843\n1181113\n1407983\n1925617"
+      stdout: "De gemeenschappelijke deler is: 463\n"

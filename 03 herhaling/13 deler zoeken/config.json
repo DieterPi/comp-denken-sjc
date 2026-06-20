@@ -1,17 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Rekenkundig en harmonisch gemiddelde (oefening)"
+      "nl": "Gemeenschappelijke deler"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling",
+    "Brute force"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "RdVWq7atWdqQJz7-sVaWvSVEahHSyWPfuk5h3nn2U3cWwxmjSQgSZFJ4AF3K6j33",
