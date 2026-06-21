@@ -64,7 +64,7 @@
         is 2 jaar en de vader is 32 jaar\n3 e keer: dochter is 3 jaar en de vader
         is 33 jaar\n4 e keer: dochter is 5 jaar en de vader is 35 jaar\n5 e keer:
         dochter is 6 jaar en de vader is 36 jaar\n6 e keer: dochter is 10 jaar en
-        de vader is 40 jaar\n7 e keer: dochter is 15 jaar en de vader is 45 jaar\n
+        de vader is 40 jaar\n7 e keer: dochter is 15 jaar en de vader is 45 jaar\n\
         8 e keer: dochter is 30 jaar en de vader is 60 jaar\nDit kwam 8 keer voor.\n"
   - testcases:
     - stdin: '32'
@@ -104,7 +104,7 @@
         is 2 jaar en de vader is 42 jaar\n3 e keer: dochter is 4 jaar en de vader
         is 44 jaar\n4 e keer: dochter is 5 jaar en de vader is 45 jaar\n5 e keer:
         dochter is 8 jaar en de vader is 48 jaar\n6 e keer: dochter is 10 jaar en
-        de vader is 50 jaar\n7 e keer: dochter is 20 jaar en de vader is 60 jaar\n
+        de vader is 50 jaar\n7 e keer: dochter is 20 jaar en de vader is 60 jaar\n\
         8 e keer: dochter is 40 jaar en de vader is 80 jaar\nDit kwam 8 keer voor.\n"
   - testcases:
     - stdin: '41'
