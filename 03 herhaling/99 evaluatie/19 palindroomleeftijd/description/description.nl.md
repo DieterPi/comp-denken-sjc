@@ -4,7 +4,7 @@ Ja zei mijn moeder, maar 33 jaar geleden was dat ook het geval.
 
 Inderdaad, dan was mijn broer 26 jaar en mijn moeder 62 jaar.
 
-![Foto door Picsea op Unsplash.](media/picsea.jpg "Foto door Picsea op Unsplash."){:data-caption="Foto door Picsea op Unsplash." width="40%"}
+![Foto door Richard Burlton op Unsplash.](media/richard-burlton.jpg "Foto door Richard Burlton op Unsplash."){:data-caption="Foto door Richard Burlton op Unsplash." width="40%"}
 
 Is dit toeval? Of komt dit vaker voor?
 
