@@ -42,7 +42,7 @@
     - stdin: "56\n65"
       stdout: "Dit jaar is de zoon 56 en de moeder 65 jaar.\n11 jaar geleden was de
         zoon 45 jaar en de moeder 54 jaar.\n22 jaar geleden was de zoon 34 jaar en
-        de moeder 43 jaar.\n33 jaar geleden was de zoon 23 jaar en de moeder 32 jaar.\n
+        de moeder 43 jaar.\n33 jaar geleden was de zoon 23 jaar en de moeder 32 jaar.\n\
         44 jaar geleden was de zoon 12 jaar en de moeder 21 jaar.\n"
   - testcases:
     - stdin: "47\n74"
@@ -89,7 +89,7 @@
     - stdin: "59\n95"
       stdout: "Dit jaar is de zoon 59 en de moeder 95 jaar.\n11 jaar geleden was de
         zoon 48 jaar en de moeder 84 jaar.\n22 jaar geleden was de zoon 37 jaar en
-        de moeder 73 jaar.\n33 jaar geleden was de zoon 26 jaar en de moeder 62 jaar.\n
+        de moeder 73 jaar.\n33 jaar geleden was de zoon 26 jaar en de moeder 62 jaar.\n\
         44 jaar geleden was de zoon 15 jaar en de moeder 51 jaar.\n"
   - testcases:
     - stdin: "59\n96"
