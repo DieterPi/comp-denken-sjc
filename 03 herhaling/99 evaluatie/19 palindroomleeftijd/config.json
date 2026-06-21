@@ -1,17 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Favoriete kleur (oefening)"
+      "nl": "Omgekeerde leeftijd"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "while-lus",
+    "Voorwaardelijke herhaling",
+    "Brute force"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "XpggAeY5cdDWQgWY9RaXhFIATeDVpHQG52_e6vZXzqDUnJKGHgCDHQPVdG8P3WEW",

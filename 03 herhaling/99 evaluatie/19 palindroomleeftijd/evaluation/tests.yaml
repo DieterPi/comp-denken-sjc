@@ -1,0 +1,96 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "24\n42"
+      stdout: "Dit jaar is de zoon 24 en de moeder 42 jaar.\n11 jaar geleden was de
+        zoon 13 jaar en de moeder 31 jaar.\n"
+  - testcases:
+    - stdin: "35\n53"
+      stdout: "Dit jaar is de zoon 35 en de moeder 53 jaar.\n11 jaar geleden was de
+        zoon 24 jaar en de moeder 42 jaar.\n22 jaar geleden was de zoon 13 jaar en
+        de moeder 31 jaar.\n"
+  - testcases:
+    - stdin: "42\n60"
+      stdout: "7 jaar geleden was de zoon 35 jaar en de moeder 53 jaar.\n18 jaar geleden
+        was de zoon 24 jaar en de moeder 42 jaar.\n29 jaar geleden was de zoon 13
+        jaar en de moeder 31 jaar.\n"
+  - testcases:
+    - stdin: "38\n65"
+      stdout: "2 jaar geleden was de zoon 36 jaar en de moeder 63 jaar.\n13 jaar geleden
+        was de zoon 25 jaar en de moeder 52 jaar.\n24 jaar geleden was de zoon 14
+        jaar en de moeder 41 jaar.\n"
+  - testcases:
+    - stdin: "42\n69"
+      stdout: "6 jaar geleden was de zoon 36 jaar en de moeder 63 jaar.\n17 jaar geleden
+        was de zoon 25 jaar en de moeder 52 jaar.\n28 jaar geleden was de zoon 14
+        jaar en de moeder 41 jaar.\n"
+  - testcases:
+    - stdin: "46\n65"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
+  - testcases:
+    - stdin: "37\n76"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
+  - testcases:
+    - stdin: "42\n76"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
+  - testcases:
+    - stdin: "42\n78"
+      stdout: "5 jaar geleden was de zoon 37 jaar en de moeder 73 jaar.\n16 jaar geleden
+        was de zoon 26 jaar en de moeder 62 jaar.\n27 jaar geleden was de zoon 15
+        jaar en de moeder 51 jaar.\n"
+  - testcases:
+    - stdin: "56\n65"
+      stdout: "Dit jaar is de zoon 56 en de moeder 65 jaar.\n11 jaar geleden was de
+        zoon 45 jaar en de moeder 54 jaar.\n22 jaar geleden was de zoon 34 jaar en
+        de moeder 43 jaar.\n33 jaar geleden was de zoon 23 jaar en de moeder 32 jaar.\n
+        44 jaar geleden was de zoon 12 jaar en de moeder 21 jaar.\n"
+  - testcases:
+    - stdin: "47\n74"
+      stdout: "Dit jaar is de zoon 47 en de moeder 74 jaar.\n11 jaar geleden was de
+        zoon 36 jaar en de moeder 63 jaar.\n22 jaar geleden was de zoon 25 jaar en
+        de moeder 52 jaar.\n33 jaar geleden was de zoon 14 jaar en de moeder 41 jaar.\n"
+  - testcases:
+    - stdin: "49\n76"
+      stdout: "2 jaar geleden was de zoon 47 jaar en de moeder 74 jaar.\n13 jaar geleden
+        was de zoon 36 jaar en de moeder 63 jaar.\n24 jaar geleden was de zoon 25
+        jaar en de moeder 52 jaar.\n35 jaar geleden was de zoon 14 jaar en de moeder
+        41 jaar.\n"
+  - testcases:
+    - stdin: "55\n82"
+      stdout: "8 jaar geleden was de zoon 47 jaar en de moeder 74 jaar.\n19 jaar geleden
+        was de zoon 36 jaar en de moeder 63 jaar.\n30 jaar geleden was de zoon 25
+        jaar en de moeder 52 jaar.\n41 jaar geleden was de zoon 14 jaar en de moeder
+        41 jaar.\n"
+  - testcases:
+    - stdin: "58\n79"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
+  - testcases:
+    - stdin: "51\n87"
+      stdout: "3 jaar geleden was de zoon 48 jaar en de moeder 84 jaar.\n14 jaar geleden
+        was de zoon 37 jaar en de moeder 73 jaar.\n25 jaar geleden was de zoon 26
+        jaar en de moeder 62 jaar.\n36 jaar geleden was de zoon 15 jaar en de moeder
+        51 jaar.\n"
+  - testcases:
+    - stdin: "57\n84"
+      stdout: "10 jaar geleden was de zoon 47 jaar en de moeder 74 jaar.\n21 jaar
+        geleden was de zoon 36 jaar en de moeder 63 jaar.\n32 jaar geleden was de
+        zoon 25 jaar en de moeder 52 jaar.\n43 jaar geleden was de zoon 14 jaar en
+        de moeder 41 jaar.\n"
+  - testcases:
+    - stdin: "55\n91"
+      stdout: "7 jaar geleden was de zoon 48 jaar en de moeder 84 jaar.\n18 jaar geleden
+        was de zoon 37 jaar en de moeder 73 jaar.\n29 jaar geleden was de zoon 26
+        jaar en de moeder 62 jaar.\n40 jaar geleden was de zoon 15 jaar en de moeder
+        51 jaar.\n"
+  - testcases:
+    - stdin: "58\n92"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
+  - testcases:
+    - stdin: "59\n95"
+      stdout: "Dit jaar is de zoon 59 en de moeder 95 jaar.\n11 jaar geleden was de
+        zoon 48 jaar en de moeder 84 jaar.\n22 jaar geleden was de zoon 37 jaar en
+        de moeder 73 jaar.\n33 jaar geleden was de zoon 26 jaar en de moeder 62 jaar.\n
+        44 jaar geleden was de zoon 15 jaar en de moeder 51 jaar.\n"
+  - testcases:
+    - stdin: "59\n96"
+      stdout: "De leeftijden waren nooit elkaars omgekeerde.\n"
