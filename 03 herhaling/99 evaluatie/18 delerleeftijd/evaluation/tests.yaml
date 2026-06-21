@@ -1,0 +1,123 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '17'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 18 jaar\n2 e keer: dochter
+        is 17 jaar en de vader is 34 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 19 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 20 jaar\n3 e keer: dochter is 3 jaar en de vader
+        is 21 jaar\n4 e keer: dochter is 6 jaar en de vader is 24 jaar\n5 e keer:
+        dochter is 9 jaar en de vader is 27 jaar\n6 e keer: dochter is 18 jaar en
+        de vader is 36 jaar\nDit kwam 6 keer voor.\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 20 jaar\n2 e keer: dochter
+        is 19 jaar en de vader is 38 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 21 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 22 jaar\n3 e keer: dochter is 4 jaar en de vader
+        is 24 jaar\n4 e keer: dochter is 5 jaar en de vader is 25 jaar\n5 e keer:
+        dochter is 10 jaar en de vader is 30 jaar\n6 e keer: dochter is 20 jaar en
+        de vader is 40 jaar\nDit kwam 6 keer voor.\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 22 jaar\n2 e keer: dochter
+        is 3 jaar en de vader is 24 jaar\n3 e keer: dochter is 7 jaar en de vader
+        is 28 jaar\n4 e keer: dochter is 21 jaar en de vader is 42 jaar\nDit kwam
+        4 keer voor.\n"
+  - testcases:
+    - stdin: '23'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 24 jaar\n2 e keer: dochter
+        is 23 jaar en de vader is 46 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '24'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 25 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 26 jaar\n3 e keer: dochter is 3 jaar en de vader
+        is 27 jaar\n4 e keer: dochter is 4 jaar en de vader is 28 jaar\n5 e keer:
+        dochter is 6 jaar en de vader is 30 jaar\n6 e keer: dochter is 8 jaar en de
+        vader is 32 jaar\n7 e keer: dochter is 12 jaar en de vader is 36 jaar\n8 e
+        keer: dochter is 24 jaar en de vader is 48 jaar\nDit kwam 8 keer voor.\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 26 jaar\n2 e keer: dochter
+        is 5 jaar en de vader is 30 jaar\n3 e keer: dochter is 25 jaar en de vader
+        is 50 jaar\nDit kwam 3 keer voor.\n"
+  - testcases:
+    - stdin: '27'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 28 jaar\n2 e keer: dochter
+        is 3 jaar en de vader is 30 jaar\n3 e keer: dochter is 9 jaar en de vader
+        is 36 jaar\n4 e keer: dochter is 27 jaar en de vader is 54 jaar\nDit kwam
+        4 keer voor.\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 29 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 30 jaar\n3 e keer: dochter is 4 jaar en de vader
+        is 32 jaar\n4 e keer: dochter is 7 jaar en de vader is 35 jaar\n5 e keer:
+        dochter is 14 jaar en de vader is 42 jaar\n6 e keer: dochter is 28 jaar en
+        de vader is 56 jaar\nDit kwam 6 keer voor.\n"
+  - testcases:
+    - stdin: '30'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 31 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 32 jaar\n3 e keer: dochter is 3 jaar en de vader
+        is 33 jaar\n4 e keer: dochter is 5 jaar en de vader is 35 jaar\n5 e keer:
+        dochter is 6 jaar en de vader is 36 jaar\n6 e keer: dochter is 10 jaar en
+        de vader is 40 jaar\n7 e keer: dochter is 15 jaar en de vader is 45 jaar\n
+        8 e keer: dochter is 30 jaar en de vader is 60 jaar\nDit kwam 8 keer voor.\n"
+  - testcases:
+    - stdin: '32'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 33 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 34 jaar\n3 e keer: dochter is 4 jaar en de vader
+        is 36 jaar\n4 e keer: dochter is 8 jaar en de vader is 40 jaar\n5 e keer:
+        dochter is 16 jaar en de vader is 48 jaar\n6 e keer: dochter is 32 jaar en
+        de vader is 64 jaar\nDit kwam 6 keer voor.\n"
+  - testcases:
+    - stdin: '33'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 34 jaar\n2 e keer: dochter
+        is 3 jaar en de vader is 36 jaar\n3 e keer: dochter is 11 jaar en de vader
+        is 44 jaar\n4 e keer: dochter is 33 jaar en de vader is 66 jaar\nDit kwam
+        4 keer voor.\n"
+  - testcases:
+    - stdin: '35'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 36 jaar\n2 e keer: dochter
+        is 5 jaar en de vader is 40 jaar\n3 e keer: dochter is 7 jaar en de vader
+        is 42 jaar\n4 e keer: dochter is 35 jaar en de vader is 70 jaar\nDit kwam
+        4 keer voor.\n"
+  - testcases:
+    - stdin: '36'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 37 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 38 jaar\n3 e keer: dochter is 3 jaar en de vader
+        is 39 jaar\n4 e keer: dochter is 4 jaar en de vader is 40 jaar\n5 e keer:
+        dochter is 6 jaar en de vader is 42 jaar\n6 e keer: dochter is 9 jaar en de
+        vader is 45 jaar\n7 e keer: dochter is 12 jaar en de vader is 48 jaar\n8 e
+        keer: dochter is 18 jaar en de vader is 54 jaar\n9 e keer: dochter is 36 jaar
+        en de vader is 72 jaar\nDit kwam 9 keer voor.\n"
+  - testcases:
+    - stdin: '37'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 38 jaar\n2 e keer: dochter
+        is 37 jaar en de vader is 74 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '40'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 41 jaar\n2 e keer: dochter
+        is 2 jaar en de vader is 42 jaar\n3 e keer: dochter is 4 jaar en de vader
+        is 44 jaar\n4 e keer: dochter is 5 jaar en de vader is 45 jaar\n5 e keer:
+        dochter is 8 jaar en de vader is 48 jaar\n6 e keer: dochter is 10 jaar en
+        de vader is 50 jaar\n7 e keer: dochter is 20 jaar en de vader is 60 jaar\n
+        8 e keer: dochter is 40 jaar en de vader is 80 jaar\nDit kwam 8 keer voor.\n"
+  - testcases:
+    - stdin: '41'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 42 jaar\n2 e keer: dochter
+        is 41 jaar en de vader is 82 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '43'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 44 jaar\n2 e keer: dochter
+        is 43 jaar en de vader is 86 jaar\nDit kwam 2 keer voor.\n"
+  - testcases:
+    - stdin: '45'
+      stdout: "1 e keer: dochter is 1 jaar en de vader is 46 jaar\n2 e keer: dochter
+        is 3 jaar en de vader is 48 jaar\n3 e keer: dochter is 5 jaar en de vader
+        is 50 jaar\n4 e keer: dochter is 9 jaar en de vader is 54 jaar\n5 e keer:
+        dochter is 15 jaar en de vader is 60 jaar\n6 e keer: dochter is 45 jaar en
+        de vader is 90 jaar\nDit kwam 6 keer voor.\n"
