@@ -1,8 +1,8 @@
 Mijn broer merkte onlangs op dat zijn leeftijd, 59, en die van mijn moeder, 95, als het ware omgekeerd waren.
 
-Ja zei mijn moeder, maar 33 jaar geleden was dat ook het geval.
+*Ja zei mijn moeder, maar 33 jaar geleden was dat ook het geval.*
 
-Inderdaad, dan was mijn broer 26 jaar en mijn moeder 62 jaar.
+Inderdaad! Dan was mijn broer 26 jaar en mijn moeder 62 jaar.
 
 ![Foto door Richard Burlton op Unsplash.](media/richard-burlton.jpg "Foto door Richard Burlton op Unsplash."){:data-caption="Foto door Richard Burlton op Unsplash." width="40%"}
 
