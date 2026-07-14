@@ -23,3 +23,7 @@ Bij invoer `209` verschijnt er
 ```
 209 staat op regel 8 plaats 4
 ```
+
+{: .callout.callout-info}
+> #### Bron
+> Nederlandse Wiskunde Olympiade 1998
