@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": " Grootste, kleinste en drievouden (oefening)"
+      "nl": "Merkwaardige eigenschap"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "for-lus",
+    "Begrensde herhaling",
+    "Brute force"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "cPf2SghjupAUm-e9BCSeIBJVINWvXJ9QDAWJKmVMy9w3-qPdTgv7Vw-4wKNBejZB",
