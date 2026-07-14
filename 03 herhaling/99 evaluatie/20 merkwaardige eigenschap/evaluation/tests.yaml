@@ -1,9 +1,9 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdout: "\nHet getal 19 heeft deze bijzondere eigenschap.\nHet getal 29 heeft
-        deze bijzondere eigenschap.\nHet getal 39 heeft deze bijzondere eigenschap.\n
+    - stdout: "Het getal 19 heeft deze bijzondere eigenschap.\nHet getal 29 heeft
+        deze bijzondere eigenschap.\nHet getal 39 heeft deze bijzondere eigenschap.\n\
         Het getal 49 heeft deze bijzondere eigenschap.\nHet getal 59 heeft deze bijzondere
         eigenschap.\nHet getal 69 heeft deze bijzondere eigenschap.\nHet getal 79
-        heeft deze bijzondere eigenschap.\nHet getal 89 heeft deze bijzondere eigenschap.\n
+        heeft deze bijzondere eigenschap.\nHet getal 89 heeft deze bijzondere eigenschap.\n\
         Het getal 99 heeft deze bijzondere eigenschap.\n"
