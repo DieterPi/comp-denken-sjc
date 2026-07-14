@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "1 staat op regel 1 plaats 1\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "5 staat op regel 2 plaats 1\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "9 staat op regel 2 plaats 2\n"
+  - testcases:
+    - stdin: '57'
+      stdout: "57 staat op regel 4 plaats 6\n"
+  - testcases:
+    - stdin: '101'
+      stdout: "101 staat op regel 6 plaats 1\n"
+  - testcases:
+    - stdin: '209'
+      stdout: "209 staat op regel 8 plaats 4\n"
+  - testcases:
+    - stdin: '321'
+      stdout: "321 staat op regel 9 plaats 17\n"
+  - testcases:
+    - stdin: '413'
+      stdout: "413 staat op regel 11 plaats 4\n"
+  - testcases:
+    - stdin: '505'
+      stdout: "505 staat op regel 12 plaats 6\n"
+  - testcases:
+    - stdin: '613'
+      stdout: "613 staat op regel 13 plaats 10\n"
+  - testcases:
+    - stdin: '941'
+      stdout: "941 staat op regel 16 plaats 11\n"
+  - testcases:
+    - stdin: '1037'
+      stdout: "1037 staat op regel 17 plaats 4\n"
+  - testcases:
+    - stdin: '1377'
+      stdout: "1377 staat op regel 19 plaats 21\n"
+  - testcases:
+    - stdin: '1437'
+      stdout: "1437 staat op regel 19 plaats 36\n"
+  - testcases:
+    - stdin: '2089'
+      stdout: "2089 staat op regel 23 plaats 39\n"
+  - testcases:
+    - stdin: '2113'
+      stdout: "2113 staat op regel 23 plaats 45\n"
+  - testcases:
+    - stdin: '2405'
+      stdout: "2405 staat op regel 25 plaats 26\n"
+  - testcases:
+    - stdin: '2417'
+      stdout: "2417 staat op regel 25 plaats 29\n"
+  - testcases:
+    - stdin: '2485'
+      stdout: "2485 staat op regel 25 plaats 46\n"
+  - testcases:
+    - stdin: '2597'
+      stdout: "2597 staat op regel 26 plaats 25\n"
+  - testcases:
+    - stdin: '2953'
+      stdout: "2953 staat op regel 28 plaats 10\n"
+  - testcases:
+    - stdin: '2997'
+      stdout: "2997 staat op regel 28 plaats 21\n"
+  - testcases:
+    - stdin: '3121'
+      stdout: "3121 staat op regel 28 plaats 52\n"
+  - testcases:
+    - stdin: '3137'
+      stdout: "3137 staat op regel 29 plaats 1\n"
+  - testcases:
+    - stdin: '3173'
+      stdout: "3173 staat op regel 29 plaats 10\n"
+  - testcases:
+    - stdin: '3445'
+      stdout: "3445 staat op regel 30 plaats 21\n"
+  - testcases:
+    - stdin: '3733'
+      stdout: "3733 staat op regel 31 plaats 34\n"
+  - testcases:
+    - stdin: '3877'
+      stdout: "3877 staat op regel 32 plaats 9\n"
+  - testcases:
+    - stdin: '3917'
+      stdout: "3917 staat op regel 32 plaats 19\n"
+  - testcases:
+    - stdin: '3937'
+      stdout: "3937 staat op regel 32 plaats 24\n"

@@ -1,18 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "De begrensde herhaling"
+      "nl": "Viervouden plus 1"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Gehele deling",
+    "import math"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "cpb8ZzDc7TXTpN4Yw64D-AwIzq7MAykxtT9BhpD5F57INh24ZBwTXQ76SeRThxTF",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
