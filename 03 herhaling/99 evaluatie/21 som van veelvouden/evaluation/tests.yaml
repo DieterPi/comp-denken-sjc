@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "De som van de veelvouden is 0\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De som van de veelvouden is 0\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "De som van de veelvouden is 8\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "De som van de veelvouden is 23\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "De som van de veelvouden is 408\n"
+  - testcases:
+    - stdin: '71'
+      stdout: "De som van de veelvouden is 1203\n"
+  - testcases:
+    - stdin: '124'
+      stdout: "De som van de veelvouden is 3543\n"
+  - testcases:
+    - stdin: '137'
+      stdout: "De som van de veelvouden is 4320\n"
+  - testcases:
+    - stdin: '170'
+      stdout: "De som van de veelvouden is 6603\n"
+  - testcases:
+    - stdin: '491'
+      stdout: "De som van de veelvouden is 56433\n"
+  - testcases:
+    - stdin: '838'
+      stdout: "De som van de veelvouden is 164220\n"
+  - testcases:
+    - stdin: '1000'
+      stdout: "De som van de veelvouden is 233168\n"
+  - testcases:
+    - stdin: '1666'
+      stdout: "De som van de veelvouden is 647685\n"
+  - testcases:
+    - stdin: '4621'
+      stdout: "De som van de veelvouden is 4982670\n"
+  - testcases:
+    - stdin: '5502'
+      stdout: "De som van de veelvouden is 7062918\n"
+  - testcases:
+    - stdin: '15780'
+      stdout: "De som van de veelvouden is 58094070\n"
+  - testcases:
+    - stdin: '26749'
+      stdout: "De som van de veelvouden is 166942293\n"
+  - testcases:
+    - stdin: '76731'
+      stdout: "De som van de veelvouden is 1373761133\n"
+  - testcases:
+    - stdin: '77542'
+      stdout: "De som van de veelvouden is 1402995839\n"
+  - testcases:
+    - stdin: '92980'
+      stdout: "De som van de veelvouden is 2017216598\n"

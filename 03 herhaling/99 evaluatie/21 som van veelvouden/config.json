@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Machtsverheffing  (oefening)"
+      "nl": "Som van veelvouden"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "for-lus",
+    "Begrensde herhaling",
+    "modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "GtAzPxt7_mDzFwKbJDsGUb6nx6D_B_HkCca_cbrvTyB7RfJS2Q8BWjxFy3jKb6P5",
