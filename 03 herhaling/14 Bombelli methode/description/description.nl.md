@@ -16,8 +16,8 @@ $$
 \mathsf{
 \begin{array}{rrcl}
 & x & = & 4+\dfrac{3}{4+x}\\
-\Leftrightarrow & x & = & 4 + \dfrac{3}{4 + 4 + \frac{3}{4+x}}\\
-\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{4+{\color{#0061A6}4+\frac{3}{4+x}}}}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{4 + {\color{#0061A6}4 + \frac{3}{4+x}}}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{4+4+\frac{3}{4+x}}}\\
 \Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{8+\frac{3}{4+\ldots}}}\\
 \end{array}}
 $$
@@ -36,12 +36,12 @@ zijn telkens nauwkeurigere benaderingen voor $$\mathsf{\sqrt{19}}$$.
 Schrijf een programma dat een natuurlijk getal en vervolgens het aantal kettingbreuken aan de gebruiker vraagt. Vervolgens bereken je de benadering voor deze hoeveelheidkettingbreuken. Rond steeds af op **zes decimalen**.
 
 #### Voorbeelden
-Voor de invoer van `19` en `3` verkrijg je:
+Bij de invoer `19` en `3` verkrijg je:
 ```
 De benadering met 3 kettingbreuken is 4.358929
 ```
 
-Opbouwen van `19` naar `0` km kan als volgt:
+Bij de invoer `19` en `0` verkrijg je:
 ```
 De benadering met 3 kettingbreuken is 4
 ```
