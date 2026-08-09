@@ -17,7 +17,7 @@ $$
 \begin{array}{rrcl}
 & x & = & 4+\dfrac{3}{4+x}\\
 \Leftrightarrow & x & = & 4 + \dfrac{3}{4 + 4 + \frac{3}{4+x}}\\
-\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{4+\color{BurntOrange}{4+\frac{3}{4+x}}}}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{4+{\color{#0061A6}4+\frac{3}{4+x}}}}\\
 \Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{8+\frac{3}{4+\ldots}}}\\
 \end{array}}
 $$
