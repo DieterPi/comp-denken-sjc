@@ -5,26 +5,26 @@ Stel dat we de $$\mathsf{x = \sqrt{19}}$$ willen uitrekenen, dan geldt sowieso d
 $$
 \mathsf{\begin{array}{rrcl}
 & x^2 - 4^2 & = & 3 \\
-\Leftrightarrow & (x-4) * (x+4) & = & 3\\
+\Leftrightarrow & (x-4) \cdot (x+4) & = & 3\\
 \Leftrightarrow & x- 4 & = & \dfrac{3}{x+4}\\
 \Leftrightarrow & x & = & 4+\dfrac{3}{x+4} = 4 + \dfrac{3}{4+x}\end{array}}
 $$
 
-En nu begint de pret, het is namelijk mogelijk om de $$\mathsf{x}$$ in de breuk te vervangen door het ganse rechterlid. Zodat
+En nu begint de pret 😎, het is namelijk mogelijk om de $$\mathsf{x}$$ in de breuk te vervangen door het ganse rechterlid. Zodat
 
 $$
 \mathsf{
-\begin{array}{rcl}
-x & = & 4+\dfrac{3}{4+x}\\
-x & = & 4 + \dfrac{3}{4 + 4 + \frac{3}{4+x}}\\
-x & = & 4 + \dfrac{3}{8+\frac{3}{4+4+\frac{3}{4+x}}}\\
-x & = & 4 + \dfrac{3}{8+\frac{3}{4+4+\frac{3}{4+\ldots}}}\\
+\begin{array}{rrcl}
+& x & = & 4+\dfrac{3}{4+x}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{4 + 4 + \frac{3}{4+x}}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{4+\color{BurntOrange}{4+\frac{3}{4+x}}}}\\
+\Leftrightarrow & x & = & 4 + \dfrac{3}{8+\frac{3}{8+\frac{3}{4+\ldots}}}\\
 \end{array}}
 $$
 
 hetgeen men een kettingbreuk noemt.
 
-Dit kan je gebruiken om $$\mathsf{\sqrt{19}}$$ te benaderen, door in het recherlid $$\mathsf{x}$$ te vervangen door 0, met andere woorden:
+Dit kan je gebruiken om $$\mathsf{\sqrt{19}}$$ te benaderen, door in het recherlid $$\mathsf{x}$$ te vervangen door zijn meest eenvoudige benadering: 4, met andere woorden:
 
 $$
 \mathsf{4, \qquad 4+\dfrac{3}{8}, \qquad 4+\dfrac{3}{8+\frac{3}{8}}, \qquad 4+\dfrac{3}{8+\frac{3}{8+\ldots}}}
