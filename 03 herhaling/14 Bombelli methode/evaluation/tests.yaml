@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "13\n7"
+      stdout: "De benadering met 7 kettingbreuken is 3.605551\n"
+  - testcases:
+    - stdin: "19\n0"
+      stdout: "De benadering met 0 kettingbreuken is 4\n"
+  - testcases:
+    - stdin: "19\n3"
+      stdout: "De benadering met 3 kettingbreuken is 4.358929\n"
+  - testcases:
+    - stdin: "19\n6"
+      stdout: "De benadering met 6 kettingbreuken is 4.358899\n"
+  - testcases:
+    - stdin: "21\n5"
+      stdout: "De benadering met 5 kettingbreuken is 4.582577\n"
+  - testcases:
+    - stdin: "23\n7"
+      stdout: "De benadering met 7 kettingbreuken is 4.795832\n"
+  - testcases:
+    - stdin: "25\n0"
+      stdout: "De benadering met 0 kettingbreuken is 5\n"
+  - testcases:
+    - stdin: "25\n6"
+      stdout: "De benadering met 6 kettingbreuken is 5.0\n"
+  - testcases:
+    - stdin: "36\n5"
+      stdout: "De benadering met 5 kettingbreuken is 6.0\n"
+  - testcases:
+    - stdin: "40\n5"
+      stdout: "De benadering met 5 kettingbreuken is 6.324555\n"
+  - testcases:
+    - stdin: "63\n2"
+      stdout: "De benadering met 2 kettingbreuken is 7.933333\n"
+  - testcases:
+    - stdin: "65\n3"
+      stdout: "De benadering met 3 kettingbreuken is 8.062258\n"
+  - testcases:
+    - stdin: "66\n4"
+      stdout: "De benadering met 4 kettingbreuken is 8.124038\n"
+  - testcases:
+    - stdin: "90\n8"
+      stdout: "De benadering met 8 kettingbreuken is 9.486833\n"
+  - testcases:
+    - stdin: "95\n0"
+      stdout: "De benadering met 0 kettingbreuken is 9\n"
+  - testcases:
+    - stdin: "112\n8"
+      stdout: "De benadering met 8 kettingbreuken is 10.583005\n"
+  - testcases:
+    - stdin: "114\n8"
+      stdout: "De benadering met 8 kettingbreuken is 10.677078\n"
+  - testcases:
+    - stdin: "118\n4"
+      stdout: "De benadering met 4 kettingbreuken is 10.862778\n"
+  - testcases:
+    - stdin: "158\n6"
+      stdout: "De benadering met 6 kettingbreuken is 12.569805\n"
+  - testcases:
+    - stdin: "207\n7"
+      stdout: "De benadering met 7 kettingbreuken is 14.387495\n"
+  - testcases:
+    - stdin: "248\n8"
+      stdout: "De benadering met 8 kettingbreuken is 15.748016\n"
+  - testcases:
+    - stdin: "264\n9"
+      stdout: "De benadering met 9 kettingbreuken is 16.248077\n"
+  - testcases:
+    - stdin: "287\n10"
+      stdout: "De benadering met 10 kettingbreuken is 16.941074\n"
+  - testcases:
+    - stdin: "325\n9"
+      stdout: "De benadering met 9 kettingbreuken is 18.027756\n"
+  - testcases:
+    - stdin: "369\n1"
+      stdout: "De benadering met 1 kettingbreuken is 19.210526\n"
+  - testcases:
+    - stdin: "370\n3"
+      stdout: "De benadering met 3 kettingbreuken is 19.235384\n"
+  - testcases:
+    - stdin: "375\n8"
+      stdout: "De benadering met 8 kettingbreuken is 19.364917\n"
+  - testcases:
+    - stdin: "397\n9"
+      stdout: "De benadering met 9 kettingbreuken is 19.924859\n"
+  - testcases:
+    - stdin: "444\n4"
+      stdout: "De benadering met 4 kettingbreuken is 21.071308\n"
+  - testcases:
+    - stdin: "485\n5"
+      stdout: "De benadering met 5 kettingbreuken is 22.022716\n"

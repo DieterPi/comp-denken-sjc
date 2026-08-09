@@ -1,17 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "10-procent regel (oefening)"
+      "nl": "Vierkantswortels benaderen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "for-lus",
+    "Begrensde herhaling",
+    "Numerieke wiskunde"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "cBa3swX5bjGp2TrXB6jKgV4BRSFg9XINdMaSQIG23AYMBetscmbs9crH_QGtf3tM",
