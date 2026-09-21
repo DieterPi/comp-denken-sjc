@@ -2,21 +2,19 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Matrixvermenigvuldiging (oefening)"
+      "nl": "Downloadsnelheid"
     }
   },
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "options":{
-      "mode": "batch",
-      "allow_fallback": true
-    }     
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "FpW_SBgqFhys73YfDMHQETFXqXg7KP5RuwepHIhIC5IeW8TgRjGVMP4qaZ6S29Is",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
