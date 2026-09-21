@@ -1,5 +1,6 @@
 {
   "type": "exercise",
+  "programming_language": "python",
   "description": {
     "names": {
       "nl": "Downloadsnelheid"
@@ -10,8 +11,7 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "Python",
-    "Sequentie"
+    "sequentie"
   ],
   "access": "public",
   "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
