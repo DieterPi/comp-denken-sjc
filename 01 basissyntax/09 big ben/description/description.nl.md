@@ -1,6 +1,6 @@
 ## Opgave
 
-Schrijf een programma dat aan een gebruik een aantal uur, minuten en seconden sinds middernacht vraagt. Hierbij is het aantal uur kleiner 12 uur.
+Schrijf een programma dat aan een gebruiker een aantal uur, minuten en seconden sinds middernacht vraagt. Hierbij is het aantal uur steeds kleiner 12 uur.
 
 Vervolgens berekent het programma de hoek (in **graden**) die de **uur**wijzer op de klok heeft afgelegd sinds middernacht. Rond het resultaat af op **5 cijfers** na de komma.
 
@@ -8,7 +8,7 @@ Vervolgens berekent het programma de hoek (in **graden**) die de **uur**wijzer o
 
 #### Voorbeelden
 
-Na exact `3` uur maakt de uurwijzer een hoek van 90°
+Na exact `3` uur `0` minuten en `0` seconden maakt de uurwijzer een hoek van 90 graden.
 ```
 90.0 graden
 ```
