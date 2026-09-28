@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "spooky\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "spoooooooky\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "spoooooooooky\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "spooooooooooooky\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "spoooooooooooooooky\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "spoooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "spoooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '32'
+      stdout: "spooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "spooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '65'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '65'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '75'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '75'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '77'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '81'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '92'
+      stdout: "spooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '93'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '97'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '97'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"
+  - testcases:
+    - stdin: '99'
+      stdout: "spoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooky\n"

@@ -1,18 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Getalsom"
+      "nl": "Halloween"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "sequentie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "5j-ubibC3zkxMFI-9KVHY22ySm22rDEcVA7YpfzS3a7k9DxkArSjkRBCeAFSMFd7",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
