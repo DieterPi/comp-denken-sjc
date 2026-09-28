@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2.51\n1.74\n66.55"
+      stdout: "Het grote object is ongeveer 96.0 m hoog.\n"
+  - testcases:
+    - stdin: "2.58\n2.0\n98.3"
+      stdout: "Het grote object is ongeveer 126.81 m hoog.\n"
+  - testcases:
+    - stdin: "1.88\n1.53\n97.1"
+      stdout: "Het grote object is ongeveer 119.31 m hoog.\n"
+  - testcases:
+    - stdin: "2.87\n1.14\n60.9"
+      stdout: "Het grote object is ongeveer 153.32 m hoog.\n"
+  - testcases:
+    - stdin: "1.72\n1.61\n65.9"
+      stdout: "Het grote object is ongeveer 70.4 m hoog.\n"
+  - testcases:
+    - stdin: "2.94\n1.96\n138.7"
+      stdout: "Het grote object is ongeveer 208.05 m hoog.\n"
+  - testcases:
+    - stdin: "2.76\n2.27\n111.2"
+      stdout: "Het grote object is ongeveer 135.2 m hoog.\n"
+  - testcases:
+    - stdin: "2.31\n1.6\n99.1"
+      stdout: "Het grote object is ongeveer 143.08 m hoog.\n"
+  - testcases:
+    - stdin: "1.88\n1.33\n76.0"
+      stdout: "Het grote object is ongeveer 107.43 m hoog.\n"
+  - testcases:
+    - stdin: "1.91\n1.76\n139.7"
+      stdout: "Het grote object is ongeveer 151.61 m hoog.\n"
+  - testcases:
+    - stdin: "2.07\n1.77\n79.7"
+      stdout: "Het grote object is ongeveer 93.21 m hoog.\n"
+  - testcases:
+    - stdin: "1.83\n1.45\n86.4"
+      stdout: "Het grote object is ongeveer 109.04 m hoog.\n"
+  - testcases:
+    - stdin: "2.82\n2.06\n144.1"
+      stdout: "Het grote object is ongeveer 197.26 m hoog.\n"
+  - testcases:
+    - stdin: "2.06\n1.24\n54.8"
+      stdout: "Het grote object is ongeveer 91.04 m hoog.\n"
+  - testcases:
+    - stdin: "1.72\n1.29\n92.7"
+      stdout: "Het grote object is ongeveer 123.6 m hoog.\n"
+  - testcases:
+    - stdin: "1.81\n1.23\n59.8"
+      stdout: "Het grote object is ongeveer 88.0 m hoog.\n"
+  - testcases:
+    - stdin: "2.09\n1.94\n113.6"
+      stdout: "Het grote object is ongeveer 122.38 m hoog.\n"
+  - testcases:
+    - stdin: "2.53\n1.99\n130.2"
+      stdout: "Het grote object is ongeveer 165.53 m hoog.\n"
+  - testcases:
+    - stdin: "2.11\n1.42\n96.7"
+      stdout: "Het grote object is ongeveer 143.69 m hoog.\n"
+  - testcases:
+    - stdin: "2.56\n1.47\n116.6"
+      stdout: "Het grote object is ongeveer 203.06 m hoog.\n"
