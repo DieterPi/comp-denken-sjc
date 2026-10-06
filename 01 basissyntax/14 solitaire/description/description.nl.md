@@ -12,7 +12,7 @@ Hieronder vind je voorbeelden van zo'n borden met 2, 3 en 4 knikkers in één zi
 
 ## Opgave
 
-Schrijf een programma dat aan de gebruiker het aantal knikkers in één zijde vraagt en daarna het totale aantal knikkers op het bord uitrekent. Je mag ervan uit gaan dat het aantal knikkers in één zijde steeds meer dan 1 is.
+Schrijf een programma dat aan de gebruiker het **aantal knikkers** in één zijde vraagt en daarna het totale aantal knikkers op het bord uitrekent. Je mag ervan uit gaan dat het aantal knikkers in één zijde steeds meer dan 1 is.
 
 #### Voorbeelden
 
@@ -22,7 +22,7 @@ Bij invoer `3` verschijnt er:
 Er zijn op dit bord 33 knikkers aanwezig.
 ```
 
-Bij invoer `3` verschijnt er:
+Bij invoer `4` verschijnt er:
 
 ```
 Er zijn op dit bord 64 knikkers aanwezig.
