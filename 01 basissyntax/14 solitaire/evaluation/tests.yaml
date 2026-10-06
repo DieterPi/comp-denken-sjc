@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "Er zijn op dit bord 12 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "Er zijn op dit bord 33 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Er zijn op dit bord 64 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Er zijn op dit bord 561 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "Er zijn op dit bord 924 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "Er zijn op dit bord 1377 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '21'
+      stdout: "Er zijn op dit bord 2121 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '31'
+      stdout: "Er zijn op dit bord 4681 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '34'
+      stdout: "Er zijn op dit bord 5644 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '44'
+      stdout: "Er zijn op dit bord 9504 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '67'
+      stdout: "Er zijn op dit bord 22177 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '67'
+      stdout: "Er zijn op dit bord 22177 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '77'
+      stdout: "Er zijn op dit bord 29337 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '77'
+      stdout: "Er zijn op dit bord 29337 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '79'
+      stdout: "Er zijn op dit bord 30889 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '83'
+      stdout: "Er zijn op dit bord 34113 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '94'
+      stdout: "Er zijn op dit bord 43804 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '95'
+      stdout: "Er zijn op dit bord 44745 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '99'
+      stdout: "Er zijn op dit bord 48609 knikkers aanwezig.\n"
+  - testcases:
+    - stdin: '99'
+      stdout: "Er zijn op dit bord 48609 knikkers aanwezig.\n"
