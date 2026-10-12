@@ -6,13 +6,9 @@ In de Engelse stijl van het spel passen er drie knikkers in één zijde van de k
 
 Hieronder vind je voorbeelden van zo'n borden met 2, 3 en 4 knikkers in één zijde.
 
-<div class="dodona-centered-group">
+![Aangepaste borden.](media/image.png "Aangepaste borden."){:data-caption="Aangepaste borden." .dodona-centered-group .light-only width="40%"}
 
-![Aangepaste borden.](media/image.png "Aangepaste borden."){:data-caption="Aangepaste borden." .light-only width="40%"}
-
-![Aangepaste borden.](media/image_dark.png "Aangepaste borden."){:data-caption="Aangepaste borden." .dark-only width="40%"}
-
-</div>
+![Aangepaste borden.](media/image_dark.png "Aangepaste borden."){:data-caption="Aangepaste borden." .dodona-centered-group .dark-only width="40%"}
 
 ## Opgave
 
