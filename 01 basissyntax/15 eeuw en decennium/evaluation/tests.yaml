@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '848'
+      stdout: "848 behoort tot het 5 e decennium van de 9 e eeuw.\n"
+  - testcases:
+    - stdin: '883'
+      stdout: "883 behoort tot het 9 e decennium van de 9 e eeuw.\n"
+  - testcases:
+    - stdin: '958'
+      stdout: "958 behoort tot het 6 e decennium van de 10 e eeuw.\n"
+  - testcases:
+    - stdin: '1004'
+      stdout: "1004 behoort tot het 1 e decennium van de 11 e eeuw.\n"
+  - testcases:
+    - stdin: '1051'
+      stdout: "1051 behoort tot het 6 e decennium van de 11 e eeuw.\n"
+  - testcases:
+    - stdin: '1105'
+      stdout: "1105 behoort tot het 1 e decennium van de 12 e eeuw.\n"
+  - testcases:
+    - stdin: '1260'
+      stdout: "1260 behoort tot het 6 e decennium van de 13 e eeuw.\n"
+  - testcases:
+    - stdin: '1268'
+      stdout: "1268 behoort tot het 7 e decennium van de 13 e eeuw.\n"
+  - testcases:
+    - stdin: '1317'
+      stdout: "1317 behoort tot het 2 e decennium van de 14 e eeuw.\n"
+  - testcases:
+    - stdin: '1486'
+      stdout: "1486 behoort tot het 9 e decennium van de 15 e eeuw.\n"
+  - testcases:
+    - stdin: '1516'
+      stdout: "1516 behoort tot het 2 e decennium van de 16 e eeuw.\n"
+  - testcases:
+    - stdin: '1554'
+      stdout: "1554 behoort tot het 6 e decennium van de 16 e eeuw.\n"
+  - testcases:
+    - stdin: '1788'
+      stdout: "1788 behoort tot het 9 e decennium van de 18 e eeuw.\n"
+  - testcases:
+    - stdin: '1812'
+      stdout: "1812 behoort tot het 2 e decennium van de 19 e eeuw.\n"
+  - testcases:
+    - stdin: '1842'
+      stdout: "1842 behoort tot het 5 e decennium van de 19 e eeuw.\n"
+  - testcases:
+    - stdin: '1855'
+      stdout: "1855 behoort tot het 6 e decennium van de 19 e eeuw.\n"
+  - testcases:
+    - stdin: '1900'
+      stdout: "1900 behoort tot het 10 e decennium van de 19 e eeuw.\n"
+  - testcases:
+    - stdin: '1901'
+      stdout: "1901 behoort tot het 1 e decennium van de 20 e eeuw.\n"
+  - testcases:
+    - stdin: '1908'
+      stdout: "1908 behoort tot het 1 e decennium van de 20 e eeuw.\n"
+  - testcases:
+    - stdin: '1950'
+      stdout: "1950 behoort tot het 5 e decennium van de 20 e eeuw.\n"
+  - testcases:
+    - stdin: '1999'
+      stdout: "1999 behoort tot het 10 e decennium van de 20 e eeuw.\n"
+  - testcases:
+    - stdin: '2000'
+      stdout: "2000 behoort tot het 10 e decennium van de 20 e eeuw.\n"
+  - testcases:
+    - stdin: '2001'
+      stdout: "2001 behoort tot het 1 e decennium van de 21 e eeuw.\n"
+  - testcases:
+    - stdin: '2001'
+      stdout: "2001 behoort tot het 1 e decennium van de 21 e eeuw.\n"
+  - testcases:
+    - stdin: '2006'
+      stdout: "2006 behoort tot het 1 e decennium van de 21 e eeuw.\n"
+  - testcases:
+    - stdin: '2041'
+      stdout: "2041 behoort tot het 5 e decennium van de 21 e eeuw.\n"
+  - testcases:
+    - stdin: '2096'
+      stdout: "2096 behoort tot het 10 e decennium van de 21 e eeuw.\n"
+  - testcases:
+    - stdin: '2275'
+      stdout: "2275 behoort tot het 8 e decennium van de 23 e eeuw.\n"
+  - testcases:
+    - stdin: '2276'
+      stdout: "2276 behoort tot het 8 e decennium van de 23 e eeuw.\n"
+  - testcases:
+    - stdin: '2296'
+      stdout: "2296 behoort tot het 10 e decennium van de 23 e eeuw.\n"

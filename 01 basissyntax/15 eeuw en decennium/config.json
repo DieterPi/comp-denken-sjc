@@ -1,18 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Wortelformule (oefening)"
+      "nl": "Eeuw en decennium"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "sequentie",
+    "modulo",
+    "gehele deling"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "vMdIxEmV5KgMxmJXxGrtTs-AN3fSIbzyk3EJy6EA5t5GWCrMDF9NZ9fzANej5yHW",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
