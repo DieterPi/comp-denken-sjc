@@ -12,17 +12,17 @@ Schrijf een programma dat een jaartal aan de gebruiker vraagt en vervolgens, vol
 Voor het jaartal `1901` verschijnt er:
 
 ```
-1901 behoort tot het 1 e decennium van de 20 e eeuw.
+1901 behoort tot het 1e decennium van de 20e eeuw.
 ```
 
 Voor het jaartal `1950` verschijnt er:
 
 ```
-1950 behoort tot het 5 e decennium van de 20 e eeuw.
+1950 behoort tot het 5e decennium van de 20e eeuw.
 ```
 
 Voor het jaartal `1900` verschijnt er:
 
 ```
-1900 behoort tot het 10 e decennium van de 19 e eeuw.
+1900 behoort tot het 10e decennium van de 19e eeuw.
 ```
