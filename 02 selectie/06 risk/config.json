@@ -1,17 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Tekstfuncties"
+      "nl": "Risk"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "gXKGtpC7p9hy-z-jXVNvI9rEnMMtWr787JWajmjq28cZ6efhH9-GrHjIBAunxfYG",
