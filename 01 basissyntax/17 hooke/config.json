@@ -1,18 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Vijfhoeksgetal"
+      "nl": "Wet van Hooke"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "sequentie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "dU-uUZq7HyIKW6-5DhVBtxTeWgj_6xwweuAmRwcnPSTTDSzxHrG9t52fnAt97FxC",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

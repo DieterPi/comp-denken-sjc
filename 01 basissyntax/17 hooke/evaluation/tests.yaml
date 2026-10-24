@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "0.4905\n2"
+      stdout: "De veerconstante bedraagt 24.52 N/m.\n"
+  - testcases:
+    - stdin: "3.6293\n41"
+      stdout: "De veerconstante bedraagt 8.85 N/m.\n"
+  - testcases:
+    - stdin: "2.9872\n49"
+      stdout: "De veerconstante bedraagt 6.1 N/m.\n"
+  - testcases:
+    - stdin: "1.3375\n39"
+      stdout: "De veerconstante bedraagt 3.43 N/m.\n"
+  - testcases:
+    - stdin: "2.625\n47"
+      stdout: "De veerconstante bedraagt 5.59 N/m.\n"
+  - testcases:
+    - stdin: "4.5641\n5"
+      stdout: "De veerconstante bedraagt 91.28 N/m.\n"
+  - testcases:
+    - stdin: "3.8509\n8"
+      stdout: "De veerconstante bedraagt 48.14 N/m.\n"
+  - testcases:
+    - stdin: "0.8302\n23"
+      stdout: "De veerconstante bedraagt 3.61 N/m.\n"
+  - testcases:
+    - stdin: "0.2151\n32"
+      stdout: "De veerconstante bedraagt 0.67 N/m.\n"
+  - testcases:
+    - stdin: "0.2992\n24"
+      stdout: "De veerconstante bedraagt 1.25 N/m.\n"
+  - testcases:
+    - stdin: "3.633\n15"
+      stdout: "De veerconstante bedraagt 24.22 N/m.\n"
+  - testcases:
+    - stdin: "2.4657\n3"
+      stdout: "De veerconstante bedraagt 82.19 N/m.\n"
+  - testcases:
+    - stdin: "2.3407\n36"
+      stdout: "De veerconstante bedraagt 6.5 N/m.\n"
+  - testcases:
+    - stdin: "0.7262\n5"
+      stdout: "De veerconstante bedraagt 14.52 N/m.\n"
+  - testcases:
+    - stdin: "1.9237\n28"
+      stdout: "De veerconstante bedraagt 6.87 N/m.\n"
+  - testcases:
+    - stdin: "4.3427\n36"
+      stdout: "De veerconstante bedraagt 12.06 N/m.\n"
+  - testcases:
+    - stdin: "4.1706\n20"
+      stdout: "De veerconstante bedraagt 20.85 N/m.\n"
+  - testcases:
+    - stdin: "1.9725\n46"
+      stdout: "De veerconstante bedraagt 4.29 N/m.\n"
+  - testcases:
+    - stdin: "0.3713\n16"
+      stdout: "De veerconstante bedraagt 2.32 N/m.\n"
+  - testcases:
+    - stdin: "1.1652\n35"
+      stdout: "De veerconstante bedraagt 3.33 N/m.\n"
