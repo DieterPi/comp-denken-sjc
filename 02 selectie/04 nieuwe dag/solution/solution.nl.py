@@ -18,5 +18,5 @@ elif (maand == 1 or maand == 3 or maand == 5 or maand == 7 or maand == 8 or maan
 else:
     dag += 1
 
-print()
+
 print("Morgen is het", dag, "/", maand, "/", jaar)
