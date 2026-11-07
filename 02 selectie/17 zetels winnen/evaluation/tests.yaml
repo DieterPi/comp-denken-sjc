@@ -35,7 +35,7 @@
       stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n"
   - testcases:
     - stdin: "60\n60"
-      stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n
+      stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n\
         De Republikeinen moeten minstens één zetel veroveren een meerderheid.\n"
   - testcases:
     - stdin: "61\n64"
