@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "Differentiequotiënt (oefening)"
+      "nl": "Richtingscoëfficiënt"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "cZ4CM6S-FZCpvHRaRQjBFUz2vzrDIp5q4DCJxSIKjTVRxU_zSeWnRU7XBMt2cHkV",
