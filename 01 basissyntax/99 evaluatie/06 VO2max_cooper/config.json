@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Coopertest"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "NHDQEKd7W8iMZB6-4_HMaRYsbadGifNwQQDB5E2c9ETSMzeWDH-BZuaJVz6Tkzms",

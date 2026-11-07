@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "125.5\n94.3"
+      stdout: "VO2max: 20.0\n"
+  - testcases:
+    - stdin: "126.9\n100.9"
+      stdout: "VO2max: 18.9\n"
+  - testcases:
+    - stdin: "132.1\n111.1"
+      stdout: "VO2max: 17.8\n"
+  - testcases:
+    - stdin: "155.8\n144.0"
+      stdout: "VO2max: 16.2\n"
+  - testcases:
+    - stdin: "156.8\n115.8"
+      stdout: "VO2max: 20.3\n"
+  - testcases:
+    - stdin: "164.8\n162.1"
+      stdout: "VO2max: 15.2\n"
+  - testcases:
+    - stdin: "169.0\n137.4"
+      stdout: "VO2max: 18.4\n"
+  - testcases:
+    - stdin: "176.4\n170.9"
+      stdout: "VO2max: 15.5\n"
+  - testcases:
+    - stdin: "178\n102.1"
+      stdout: "VO2max: 26.2\n"
+  - testcases:
+    - stdin: "178.9\n122.1"
+      stdout: "VO2max: 22.0\n"
+  - testcases:
+    - stdin: "180.5\n97.6"
+      stdout: "VO2max: 27.7\n"
+  - testcases:
+    - stdin: "180.8\n168.6"
+      stdout: "VO2max: 16.1\n"
+  - testcases:
+    - stdin: "180.9\n111.5"
+      stdout: "VO2max: 24.3\n"
+  - testcases:
+    - stdin: "197.7\n83.3"
+      stdout: "VO2max: 35.6\n"
+  - testcases:
+    - stdin: "201.0\n144.9"
+      stdout: "VO2max: 20.8\n"
+  - testcases:
+    - stdin: "201.5\n65.5"
+      stdout: "VO2max: 46.1\n"
+  - testcases:
+    - stdin: "207.5\n90.8"
+      stdout: "VO2max: 34.3\n"
+  - testcases:
+    - stdin: "214.5\n149.2"
+      stdout: "VO2max: 21.6\n"
+  - testcases:
+    - stdin: "217.5\n108.0"
+      stdout: "VO2max: 30.2\n"
+  - testcases:
+    - stdin: "217.8\n133.5"
+      stdout: "VO2max: 24.5\n"

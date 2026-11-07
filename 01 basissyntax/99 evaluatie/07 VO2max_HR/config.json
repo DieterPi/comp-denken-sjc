@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Hartslag"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Python",
+    "Sequentie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "PBiyy-EirnITaD-gxZh7kIHbfMKCpXUPcFY65EzjRWMTj5fxnZdUXHDd8mzDbUXm",
