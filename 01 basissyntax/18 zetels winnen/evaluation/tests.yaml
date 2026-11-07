@@ -1,0 +1,93 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n2"
+      stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "15\n7"
+      stdout: "De Republikeinen moeten minstens 5 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "29\n0"
+      stdout: "De Republikeinen moeten minstens 15 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "24\n6"
+      stdout: "De Republikeinen moeten minstens 10 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "8\n30"
+      stdout: "De Democraten moeten minstens 12 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "48\n1"
+      stdout: "De Republikeinen moeten minstens 24 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "40\n21"
+      stdout: "De Republikeinen moeten minstens 10 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "44\n42"
+      stdout: "De Republikeinen moeten minstens 2 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "45\n55"
+      stdout: "De Democraten moeten minstens 6 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "91\n13"
+      stdout: "De Republikeinen moeten minstens 40 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "59\n60"
+      stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "60\n60"
+      stdout: "De Democraten moeten minstens één zetel veroveren een meerderheid.\n
+        De Republikeinen moeten minstens één zetel veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "61\n64"
+      stdout: "De Democraten moeten minstens 2 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "64\n63"
+      stdout: "De Republikeinen moeten minstens één zetel veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "55\n79"
+      stdout: "De Democraten moeten minstens 13 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "17\n123"
+      stdout: "De Democraten moeten minstens 54 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "143\n7"
+      stdout: "De Republikeinen moeten minstens 69 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "97\n70"
+      stdout: "De Republikeinen moeten minstens 14 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "31\n150"
+      stdout: "De Democraten moeten minstens 60 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "184\n14"
+      stdout: "De Republikeinen moeten minstens 86 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "9\n191"
+      stdout: "De Democraten moeten minstens 92 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "221\n8"
+      stdout: "De Republikeinen moeten minstens 107 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "56\n188"
+      stdout: "De Democraten moeten minstens 67 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "89\n171"
+      stdout: "De Democraten moeten minstens 42 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "260\n13"
+      stdout: "De Republikeinen moeten minstens 124 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "233\n44"
+      stdout: "De Republikeinen moeten minstens 95 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "206\n80"
+      stdout: "De Republikeinen moeten minstens 64 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "22\n265"
+      stdout: "De Democraten moeten minstens 122 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "65\n225"
+      stdout: "De Democraten moeten minstens 81 zetels veroveren een meerderheid.\n"
+  - testcases:
+    - stdin: "221\n185"
+      stdout: "De Republikeinen moeten minstens 19 zetels veroveren een meerderheid.\n"

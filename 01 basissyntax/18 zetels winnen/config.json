@@ -1,18 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Suikergehalte fruit (oefening)"
+      "nl": "Zetels winnen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "sequentie"
   ],
   "access": "public",
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "internals": {
     "token": "MSq2eP_Edt_qvwsubd_vm32ufNSWfy7JgyMiZTUsHXbHe6979V8rNPm4bGydqDPb",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
