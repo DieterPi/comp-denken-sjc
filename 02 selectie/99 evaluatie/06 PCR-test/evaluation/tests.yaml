@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '5.7'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '7.3'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '9.5'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '11.9'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '12.6'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '13.1'
+      stdout: "Deze persoon is zeer sterk positief (superverspreider) besmet.\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "Deze persoon is sterk positief besmet.\n"
+  - testcases:
+    - stdin: '15.1'
+      stdout: "Deze persoon is sterk positief besmet.\n"
+  - testcases:
+    - stdin: '19.5'
+      stdout: "Deze persoon is sterk positief besmet.\n"
+  - testcases:
+    - stdin: '19.8'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '20.2'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '22.6'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '23.2'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '24.0'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '26.0'
+      stdout: "Deze persoon is gewoon positief besmet.\n"
+  - testcases:
+    - stdin: '26.6'
+      stdout: "Deze persoon is zwak positief besmet.\n"
+  - testcases:
+    - stdin: '28.1'
+      stdout: "Deze persoon is zwak positief besmet.\n"
+  - testcases:
+    - stdin: '30.2'
+      stdout: "Deze persoon is zwak positief besmet.\n"
+  - testcases:
+    - stdin: '32.3'
+      stdout: "Deze persoon is zwak positief besmet.\n"
+  - testcases:
+    - stdin: '33.8'
+      stdout: "Deze persoon is zwak positief besmet.\n"

@@ -13,14 +13,18 @@ Hoe minder cylci nodig zijn om de gezochte genen te kunnen detecteren hoe sterke
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
-Schrijf een functie `ct_treshold()` die als parameter een Ct-waarde neemt en als uitvoer de beschrijving afdrukt.
+Schrijf een programma die de Ct-waarde van een wisser aan de gebruiker vraagt en vervolgens de bijpassende beschrijving op het scherm afdrukt.
 
 #### Voorbeelden
+
+Bij invoer `15.0` verschijnt er:
+
 ```
->>> ct_treshold( 15 )
-sterk positief
+Deze persoon is sterk positief besmet.
 ```
+
+Bij invoer `20.2` verschijnt er:
+
 ```
->>> ct_treshold( 20.2 )
-gewoon positief
+Deze persoon is gewoon positief besmet.
 ```
