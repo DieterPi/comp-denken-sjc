@@ -1,6 +1,6 @@
 Bij de recente Amerikaanse verkiezingen spreekt men vaak over het 'veroveren van een zetel'. Politiek in Amerika wordt immers uitgevoerd in een twee partijen stelsel. Als de Democraten in de senaat over 45 zetels beschikken en de Republieken 55 zetels, dan moeten de Democraten minstens 6 zetels veroveren van de Republikeinen om een meerderheid te bekomen. Op dat moment beschikken ze immers over 51 zetels, tegenover de 48 zetels van de Republikeinen.
 
-![Amerikaanse senaat](media/United_states_Senate.png "Amerikaanse senaat" width="30%"}
+![Amerikaanse senaat](media/United_states_Senate.png "Amerikaanse senaat."){:data-caption="Amerikaanse senaat." width="40%"}
 
 Hetzelfde concept is geldig in het 'Huis van Afgevaardigden' (te vergelijken met de Belgische kamer van volksvertegenwoordigers).
 
