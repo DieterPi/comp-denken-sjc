@@ -3,7 +3,7 @@ Toen ik 30 jaar oud was kreeg ik een dochter. Drie jaar later viel me iets op, m
 ![Foto door Picsea op Unsplash.](media/picsea.jpg "Foto door Picsea op Unsplash."){:data-caption="Foto door Picsea op Unsplash." width="40%"}
 
 ## Opgave
-Schrijf een programma dat de leeftijd van de vader bij de geboorte van zijn dochter vraagt. Vervolges geef je, elk moment weer, waarop de leeftijd van de vader een geheel veelvoud is van de leeftijd van de dochter.
+Schrijf een programma dat de leeftijd van de vader bij de geboorte van zijn dochter vraagt. Vervolgens geef je, elk moment weer, waarop de leeftijd van de vader een geheel veelvoud is van de leeftijd van de dochter.
 
 Op het einde toon je hoe vaak deze situatie zich voordeed.
 
