@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Reuleaux"
+      "nl": "Androgynie-index"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-    "math"
+    "Selectie",
+    "import math"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "ZYAQcWPYn8Nk72j-mKfhqPBqTkmJ7yUfejKtGpvvFWYsJyup7X3EPtj2k7cT_QYR",
