@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "vrouw\n91\n61\n89"
+      stdout: "Androgynie-index: 0.68\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n83\n71\n128"
+      stdout: "Androgynie-index: 0.69\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n102\n66\n90"
+      stdout: "Androgynie-index: 0.69\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n81\n75\n146"
+      stdout: "Androgynie-index: 0.69\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n86\n82\n164"
+      stdout: "Androgynie-index: 0.69\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n91\n73\n120"
+      stdout: "Androgynie-index: 0.7\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n105\n70\n95"
+      stdout: "Androgynie-index: 0.7\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n92\n79\n135"
+      stdout: "Androgynie-index: 0.71\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n106\n82\n126"
+      stdout: "Androgynie-index: 0.71\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n84\n80\n151"
+      stdout: "Androgynie-index: 0.71\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n101\n78\n119"
+      stdout: "Androgynie-index: 0.71\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n103\n71\n94"
+      stdout: "Androgynie-index: 0.72\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n104\n84\n124"
+      stdout: "Androgynie-index: 0.74\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n87\n77\n124"
+      stdout: "Androgynie-index: 0.74\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n97\n79\n117"
+      stdout: "Androgynie-index: 0.74\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n96\n63\n74"
+      stdout: "Androgynie-index: 0.75\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n97\n78\n112"
+      stdout: "Androgynie-index: 0.75\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n104\n67\n77"
+      stdout: "Androgynie-index: 0.75\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n95\n67\n82"
+      stdout: "Androgynie-index: 0.76\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n105\n79\n103"
+      stdout: "Androgynie-index: 0.76\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n89\n71\n96"
+      stdout: "Androgynie-index: 0.77\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n101\n70\n80"
+      stdout: "Androgynie-index: 0.78\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n89\n67\n81"
+      stdout: "Androgynie-index: 0.79\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n103\n69\n74"
+      stdout: "Androgynie-index: 0.79\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n103\n79\n97"
+      stdout: "Androgynie-index: 0.79\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n95\n64\n67"
+      stdout: "Androgynie-index: 0.8\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n105\n82\n98"
+      stdout: "Androgynie-index: 0.81\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n100\n74\n81"
+      stdout: "Androgynie-index: 0.82\nJe komt in aanmerking als model\n"
+  - testcases:
+    - stdin: "vrouw\n98\n80\n95"
+      stdout: "Androgynie-index: 0.83\nJe komt niet in aanmerking als model\n"
+  - testcases:
+    - stdin: "man\n111\n91\n108"
+      stdout: "Androgynie-index: 0.83\nJe komt in aanmerking als model\n"
