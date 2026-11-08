@@ -2,9 +2,9 @@ Drie kangoeroes spelen in de savanne. Ze spelen op een getallenas en elke kangoe
 
 Help de kangoeroes zo lang mogelijk te spelen.
 
-![Afbeelding gegeneerd door ChatGPT 8-11-2026.](media/kangoeroe.png "Afbeelding gegeneerd door ChatGPT 8-11-2026."){:data-caption="Afbeelding gegeneerd door ChatGPT 8-11-2026." width="30%" .light-only}
+![Afbeelding gegeneerd door ChatGPT 8-11-2026.](media/kangoeroe.png "Afbeelding gegeneerd door ChatGPT 8-11-2026."){:data-caption="Afbeelding gegeneerd door ChatGPT 8-11-2026." width="60%" .light-only}
 
-![Afbeelding gegeneerd door ChatGPT 8-11-2026.](media/kangoeroe_dark.png "Afbeelding gegeneerd door ChatGPT 8-11-2026."){:data-caption="Afbeelding gegeneerd door ChatGPT 8-11-2026." width="30%" .dark-only}
+![Afbeelding gegeneerd door ChatGPT 8-11-2026.](media/kangoeroe_dark.png "Afbeelding gegeneerd door ChatGPT 8-11-2026."){:data-caption="Afbeelding gegeneerd door ChatGPT 8-11-2026." width="60%" .dark-only}
 
 In het bovenstaande geval kunnen ze maximaal drie sprongen uitvoeren. Bijvoorbeeld: kangoeroe 3 springt naar positie 8, kangoeroe 9 naar positie 6 en kangoeroe 5 naar positie 7.
 
