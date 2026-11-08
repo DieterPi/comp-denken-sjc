@@ -1,17 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Cilinder"
+      "nl": "Maak een groter getal"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Selectie",
+    "modulo",
+    "gehele deling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "Qb5YygWkUTqpBsTV9dfTUSdaGfMMzXg8zbgw6qSU98CHdERU9txyIRDiFSiyY2Vv",
