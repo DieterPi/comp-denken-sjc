@@ -1,17 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Remweg"
+      "nl": "Kangoeroesprongen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "RCasvtmTSYuUSW-77kiphNAGut7z_ScZuS8ItdBCYRQt5T2kg6CDRVuP4R9_auKf",

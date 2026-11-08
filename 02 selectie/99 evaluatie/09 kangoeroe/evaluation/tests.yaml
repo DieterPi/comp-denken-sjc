@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2\n3\n5"
+      stdout: "Er is één sprong mogelijk.\n"
+  - testcases:
+    - stdin: "3\n5\n9"
+      stdout: "Er zijn 3 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "24\n32\n49"
+      stdout: "Er zijn 16 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "9\n57\n60"
+      stdout: "Er zijn 47 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "29\n48\n55"
+      stdout: "Er zijn 18 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "29\n46\n63"
+      stdout: "Er zijn 16 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "45\n47\n48"
+      stdout: "Er is één sprong mogelijk.\n"
+  - testcases:
+    - stdin: "9\n60\n75"
+      stdout: "Er zijn 50 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "20\n65\n67"
+      stdout: "Er zijn 44 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "8\n56\n95"
+      stdout: "Er zijn 47 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "31\n58\n92"
+      stdout: "Er zijn 33 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "32\n60\n95"
+      stdout: "Er zijn 34 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "36\n79\n86"
+      stdout: "Er zijn 42 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "57\n67\n93"
+      stdout: "Er zijn 25 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "55\n73\n91"
+      stdout: "Er zijn 17 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "64\n67\n91"
+      stdout: "Er zijn 23 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "52\n84\n90"
+      stdout: "Er zijn 31 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "70\n72\n87"
+      stdout: "Er zijn 14 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "76\n84\n93"
+      stdout: "Er zijn 8 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "67\n97\n100"
+      stdout: "Er zijn 29 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "84\n90\n97"
+      stdout: "Er zijn 6 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "78\n95\n100"
+      stdout: "Er zijn 16 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "82\n92\n99"
+      stdout: "Er zijn 9 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "93\n95\n99"
+      stdout: "Er zijn 3 sprongen mogelijk.\n"
+  - testcases:
+    - stdin: "97\n98\n100"
+      stdout: "Er is één sprong mogelijk.\n"
