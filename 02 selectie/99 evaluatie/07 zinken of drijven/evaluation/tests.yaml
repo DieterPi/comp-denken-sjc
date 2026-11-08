@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "65\n426.6"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "85\n592.9"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "90\n706.7"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "60\n536.5"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "15\n135.3"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "95\n861.4"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "10\n91.6"
+      stdout: "Deze vloeistof drijft in water.\n"
+  - testcases:
+    - stdin: "20\n272"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "20\n298.6"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "55\n834.4"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "15\n254.6"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "45\n791.4"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "70\n1243.0"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "90\n1806.9"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "25\n529.8"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "65\n1514.8"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "45\n1092.2"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "40\n1017.1"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "95\n2464.1"
+      stdout: "Deze vloeistof zinkt in water.\n"
+  - testcases:
+    - stdin: "75\n2008.6"
+      stdout: "Deze vloeistof zinkt in water.\n"
