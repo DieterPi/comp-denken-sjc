@@ -1,4 +1,4 @@
-Je hebt zeker al gemerkt hoe olie blijft drijven op water. Aanvankelijk zal dit water er wat troebel uitzien, vol van kleine bellen olie, maar na een eindje merk je een duidelijke schifing. Olie komt steeds boven drijven.
+Je hebt zeker al gemerkt hoe olie blijft drijven op water. Aanvankelijk zal dit water er wat troebel uitzien, vol met kleine bellen olie, maar na een eindje merk je een duidelijke schifing. Olie komt steeds boven drijven.
 
 ![Olie drijft op water.](media/chatgpt-08-11-2026_olie.png "Olie drijft op water."){:data-caption="Olie drijft op water" width="50%"}
 
