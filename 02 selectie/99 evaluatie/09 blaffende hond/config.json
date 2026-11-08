@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Digitale klok"
+      "nl": "Blaffende hond"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
+    "Selectie",
     "modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "7tFYVfUedwSihtTNmNkMmJDRtb8sZ-Z7QvFvdTTB-3Nw8wrKx3BTTURsDm6X6-qf",
