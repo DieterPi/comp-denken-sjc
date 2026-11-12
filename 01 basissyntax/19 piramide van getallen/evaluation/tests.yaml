@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "1 staat in regel 1 op plaats 1\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "2 staat in regel 2 op plaats 1\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "3 staat in regel 2 op plaats 2\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "4 staat in regel 2 op plaats 3\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "6 staat in regel 3 op plaats 2\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "7 staat in regel 3 op plaats 3\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "8 staat in regel 3 op plaats 4\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "10 staat in regel 4 op plaats 1\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "11 staat in regel 4 op plaats 2\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "17 staat in regel 5 op plaats 1\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "28 staat in regel 6 op plaats 3\n"
+  - testcases:
+    - stdin: '41'
+      stdout: "41 staat in regel 7 op plaats 5\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "42 staat in regel 7 op plaats 6\n"
+  - testcases:
+    - stdin: '61'
+      stdout: "61 staat in regel 8 op plaats 12\n"
+  - testcases:
+    - stdin: '62'
+      stdout: "62 staat in regel 8 op plaats 13\n"
+  - testcases:
+    - stdin: '71'
+      stdout: "71 staat in regel 9 op plaats 7\n"
+  - testcases:
+    - stdin: '76'
+      stdout: "76 staat in regel 9 op plaats 12\n"
+  - testcases:
+    - stdin: '79'
+      stdout: "79 staat in regel 9 op plaats 15\n"
+  - testcases:
+    - stdin: '80'
+      stdout: "80 staat in regel 9 op plaats 16\n"
+  - testcases:
+    - stdin: '100'
+      stdout: "100 staat in regel 10 op plaats 19\n"
+  - testcases:
+    - stdin: '122'
+      stdout: "122 staat in regel 12 op plaats 1\n"
+  - testcases:
+    - stdin: '124'
+      stdout: "124 staat in regel 12 op plaats 3\n"
+  - testcases:
+    - stdin: '491'
+      stdout: "491 staat in regel 23 op plaats 7\n"
+  - testcases:
+    - stdin: '672'
+      stdout: "672 staat in regel 26 op plaats 47\n"
+  - testcases:
+    - stdin: '721'
+      stdout: "721 staat in regel 27 op plaats 45\n"
+  - testcases:
+    - stdin: '773'
+      stdout: "773 staat in regel 28 op plaats 44\n"
+  - testcases:
+    - stdin: '838'
+      stdout: "838 staat in regel 29 op plaats 54\n"
+  - testcases:
+    - stdin: '1666'
+      stdout: "1666 staat in regel 41 op plaats 66\n"
+  - testcases:
+    - stdin: '1968'
+      stdout: "1968 staat in regel 45 op plaats 32\n"
+  - testcases:
+    - stdin: '9026'
+      stdout: "9026 staat in regel 96 op plaats 1\n"

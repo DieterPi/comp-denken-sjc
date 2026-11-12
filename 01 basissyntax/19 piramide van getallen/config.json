@@ -1,17 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Chocoladerepen"
+      "nl": "Piramidevorm"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-    "modulo"
+    "import math"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "HNz2mvktu_Z-Kya_V6Bies_IzYFDWICWtF5g5MqaGy3MKGT7BqikeG8JNkdUN8Um",
