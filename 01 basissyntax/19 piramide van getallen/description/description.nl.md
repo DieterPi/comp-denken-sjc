@@ -1,4 +1,4 @@
-Stel schrijft de getallen 1, 2, 3, ... naast en onder elkaar in een piramidevorm als volgt:
+Men schrijft de getallen 1, 2, 3, ... naast en onder elkaar in een piramidevorm als volgt:
 
 ![Een schema met de natuurlijke getallen.](media/image.png "Een schema met de natuurlijke getallen."){:data-caption="Een schema met de natuurlijke getallen." .light-only height="240px"}
 
