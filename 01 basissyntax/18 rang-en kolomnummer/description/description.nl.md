@@ -1,8 +1,8 @@
 Stel dat men de natuurlijke getallen naast en onder elkaar noteert in een driehoekig schema als volgt:
 
-![Een schema met de natuurlijke getallen.](media/image.png "Een schema met de natuurlijke getallen."){:data-caption="Een schema met de natuurlijke getallen." .light-only height="200px"}
+![Een schema met de natuurlijke getallen.](media/image.png "Een schema met de natuurlijke getallen."){:data-caption="Een schema met de natuurlijke getallen." .light-only height="240px"}
 
-![Een schema met de natuurlijke getallen.](media/image_dark.png "Een schema met de natuurlijke getallen."){:data-caption="Een schema met de natuurlijke getallen." .dark-only height="200px"}
+![Een schema met de natuurlijke getallen.](media/image_dark.png "Een schema met de natuurlijke getallen."){:data-caption="Een schema met de natuurlijke getallen." .dark-only height="240px"}
 
 Dan stellen we vast dat **13** op de vierde regel voorkomt en dit op de derde plaats.
 
