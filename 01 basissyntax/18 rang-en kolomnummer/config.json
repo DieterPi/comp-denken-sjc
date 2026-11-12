@@ -1,17 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Blikseminslag"
+      "nl": "Rang- en kolomnummer"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "import math"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "fqtcTYh-GIv48uSvuWNj_pXIa_T6d59FEtpNF5u8Zk7_scvK3sMaGKJFw3SRVdXg",

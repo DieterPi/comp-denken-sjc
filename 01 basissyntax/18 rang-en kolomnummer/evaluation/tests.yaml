@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0'
+      stdout: "0 staat op regel 0 en kolom 0\n"
+  - testcases:
+    - stdin: '1'
+      stdout: "1 staat op regel 1 en kolom 0\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "3 staat op regel 2 en kolom 0\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "6 staat op regel 3 en kolom 0\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "7 staat op regel 3 en kolom 1\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "8 staat op regel 3 en kolom 2\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "9 staat op regel 3 en kolom 3\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "10 staat op regel 4 en kolom 0\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "13 staat op regel 4 en kolom 3\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "17 staat op regel 5 en kolom 2\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "18 staat op regel 5 en kolom 3\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "28 staat op regel 7 en kolom 0\n"
+  - testcases:
+    - stdin: '41'
+      stdout: "41 staat op regel 8 en kolom 5\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "42 staat op regel 8 en kolom 6\n"
+  - testcases:
+    - stdin: '61'
+      stdout: "61 staat op regel 10 en kolom 6\n"
+  - testcases:
+    - stdin: '64'
+      stdout: "64 staat op regel 10 en kolom 9\n"
+  - testcases:
+    - stdin: '71'
+      stdout: "71 staat op regel 11 en kolom 5\n"
+  - testcases:
+    - stdin: '76'
+      stdout: "76 staat op regel 11 en kolom 10\n"
+  - testcases:
+    - stdin: '79'
+      stdout: "79 staat op regel 12 en kolom 1\n"
+  - testcases:
+    - stdin: '80'
+      stdout: "80 staat op regel 12 en kolom 2\n"
+  - testcases:
+    - stdin: '100'
+      stdout: "100 staat op regel 13 en kolom 9\n"
+  - testcases:
+    - stdin: '124'
+      stdout: "124 staat op regel 15 en kolom 4\n"
+  - testcases:
+    - stdin: '491'
+      stdout: "491 staat op regel 30 en kolom 26\n"
+  - testcases:
+    - stdin: '672'
+      stdout: "672 staat op regel 36 en kolom 6\n"
+  - testcases:
+    - stdin: '721'
+      stdout: "721 staat op regel 37 en kolom 18\n"
+  - testcases:
+    - stdin: '773'
+      stdout: "773 staat op regel 38 en kolom 32\n"
+  - testcases:
+    - stdin: '838'
+      stdout: "838 staat op regel 40 en kolom 18\n"
+  - testcases:
+    - stdin: '1666'
+      stdout: "1666 staat op regel 57 en kolom 13\n"
+  - testcases:
+    - stdin: '1968'
+      stdout: "1968 staat op regel 62 en kolom 15\n"
+  - testcases:
+    - stdin: '9026'
+      stdout: "9026 staat op regel 133 en kolom 115\n"
