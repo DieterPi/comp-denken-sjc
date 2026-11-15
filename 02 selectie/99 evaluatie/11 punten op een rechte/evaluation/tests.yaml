@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15\n19\n4"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "15\n19\n10"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "98\n93\n13"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "20\n98\n43"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "6\n64\n58"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "70\n59\n62"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "24\n9\n33"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "36\n36\n72"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "32\n8\n92"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "23\n63\n40"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "19\n78\n48"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "91\n52\n19"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "51\n28\n85"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "89\n6\n83"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "53\n33\n20"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "41\n91\n39"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "84\n42\n70"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "92\n100\n91"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "67\n30\n37"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "36\n29\n92"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "51\n43\n94"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "13\n50\n63"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "17\n20\n26"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "37\n86\n92"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "6\n58\n52"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "62\n4\n58"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "74\n82\n38"
+      stdout: "A, B en C liggen niet op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "96\n31\n65"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "5\n72\n77"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
+  - testcases:
+    - stdin: "27\n18\n9"
+      stdout: "A, B en C liggen op eenzelfde rechte.\n"
