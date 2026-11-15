@@ -1,7 +1,7 @@
 ## Opgave
 Er werden drie punten, A, B en C gekozen in het vlak.
 
-Vraag nu aan de gebruiker naar de afstanden |AB|, |BC| en |AC|. Controleer nu met behulp van een bereking of deze punten collineair zijn.
+Vraag nu aan de gebruiker naar de afstanden ❘AB❘, ❘BC❘ en ❘AC❘. Controleer nu met behulp van een bereking of deze punten collineair zijn.
 
 #### Voorbeelden
 
