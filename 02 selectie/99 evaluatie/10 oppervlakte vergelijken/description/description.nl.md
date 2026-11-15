@@ -5,7 +5,7 @@ Geven zijn een rechthoek met afmetingen x en 2x en een vierkant met als zijde x 
 ![Rechthoek en vierkant.](media/image_dark.png "Rechthoek en vierkant."){:data-caption="Rechthoek en vierkant." height="150px" .dark-only}
 
 ## Opgave
-Vraag aan de gebruiker de lengte van de onbekende x en bereken vervolgens welke oppervlakte het grootst is. Toon deze oppervlakte ook op het scherm. Indien de oppervlaktn even groot zijn, kies dan voor het vierkant.
+Vraag aan de gebruiker de lengte van de onbekende x en bereken vervolgens welke oppervlakte het grootst is. Toon deze oppervlakte ook op het scherm. Indien de oppervlakten even groot zijn, kies dan voor het vierkant.
 
 Rond de oppervlakte af op twee decimalen.
 
