@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Tienden (oefening)"
+      "nl": "Hoogste score bepalen"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "for-lus",
+    "Begrensde herhaling"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "RVq_JXBpZkR5zvEJXjwXEKyYUEyjYYK8HkBIGyEsX7z-6iAj5wXixf9IIIkiQQQe",
