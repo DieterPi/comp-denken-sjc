@@ -1,17 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Temperatuurafwijking (oefening)"
+      "nl": "Grootste oppervlakte"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "Selectie"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "SKs8VgN-bGrAgh3Uvjq-Jv2DA2IT4agaGx39JbtT9qhpD3TjcaPuCmvPx5xitgEH",

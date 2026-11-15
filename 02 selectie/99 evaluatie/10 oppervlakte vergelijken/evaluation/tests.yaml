@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0.24'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        1.54\n"
+  - testcases:
+    - stdin: '0.56'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        2.43\n"
+  - testcases:
+    - stdin: '0.98'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        3.92\n"
+  - testcases:
+    - stdin: '1.43'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        5.9\n"
+  - testcases:
+    - stdin: '1.45'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        6.0\n"
+  - testcases:
+    - stdin: '1.59'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        6.71\n"
+  - testcases:
+    - stdin: '1.61'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        6.81\n"
+  - testcases:
+    - stdin: '2.08'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        9.49\n"
+  - testcases:
+    - stdin: '2.3'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        10.89\n"
+  - testcases:
+    - stdin: '2.41'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        11.63\n"
+  - testcases:
+    - stdin: '2.4142135'
+      stdout: "Het vierkant heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        11.66\n"
+  - testcases:
+    - stdin: '2.8'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        15.68\n"
+  - testcases:
+    - stdin: '3.02'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        18.24\n"
+  - testcases:
+    - stdin: '3.29'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        21.65\n"
+  - testcases:
+    - stdin: '3.34'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        22.31\n"
+  - testcases:
+    - stdin: '3.56'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        25.35\n"
+  - testcases:
+    - stdin: '3.68'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        27.08\n"
+  - testcases:
+    - stdin: '3.83'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        29.34\n"
+  - testcases:
+    - stdin: '4.35'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        37.84\n"
+  - testcases:
+    - stdin: '4.64'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        43.06\n"
+  - testcases:
+    - stdin: '5.05'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        51.0\n"
+  - testcases:
+    - stdin: '5.06'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        51.21\n"
+  - testcases:
+    - stdin: '5.4'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        58.32\n"
+  - testcases:
+    - stdin: '5.48'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        60.06\n"
+  - testcases:
+    - stdin: '5.77'
+      stdout: "De rechthoek heeft de grootste oppervlakte.\nDeze oppervlakte bedraagt:
+        66.59\n"
