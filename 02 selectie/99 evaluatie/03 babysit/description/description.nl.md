@@ -1,8 +1,9 @@
 Een babysit hanteert de volgende tarieven:
 
-- Het normale uurtarief is €6
-- De minimumvergoeding is €10
-- Als de babysit later dan 22u moet blijven, dan komt er een *nacht*vergoeding van €30 **bij**.
+- Het normale uurtarief is € 6,
+- als de babysit tot 22 uur of later moet blijven, dan komt er een *nacht*vergoeding van €30 **bij**.
+
+De babysit hanteert daarnaast een minimumvergoeding van € 10.
 
 Het uurtarief wordt **per begonnen** uur aangerekend.
 
@@ -15,7 +16,7 @@ Vervolgens bereken je de vergoeding volgens bovenstaande regels. Je mag er van u
 
 #### Voorbeelden
 
-Stel dat een babysit om `16`.`30` u begint en mag stoppen om `19`.`10`u. Dan heeft deze babysit in het totaal 2.40 uren gewerkt maar worden 3 uren aangerekend. Er verschijnt dus:
+Stel dat een babysit om `16`.`30` u begint en mag stoppen om `19`.`10`u. Dan heeft deze babysit in het totaal 2 uren en 40 minuten gewerkt maar wordener 3 uren aangerekend. Er verschijnt dus:
 
 ```
 Vergoeding: € 18

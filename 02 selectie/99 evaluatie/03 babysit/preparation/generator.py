@@ -34,7 +34,7 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 30
-cases = [(16,30,19,10), (18,30,19,20), (16,30,23,00) ]
+cases = [(16,30,19,10), (18,30,19,20), (16,30,23,00), (21,0,22,0)]
 while len(cases) < ntests:
     a = random.randint(13,23)
     b = random.randint(0, 11) * 5
