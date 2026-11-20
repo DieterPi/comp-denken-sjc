@@ -16,7 +16,7 @@ Aantal tegels in de breedte: 4
 Er zijn dus minimaal 24 tegels nodig.
 ```
 
-Indien de vloer `2.4` m op `1.8` m meet en de tegels een zijde van `0.6` cm hebben, dan verschijnt er:
+Indien de vloer `2.4` m op `1.8` m meet en de tegels een zijde van `0.6` m hebben, dan verschijnt er:
 ```
 Aantal tegels in de lengte: 4
 Aantal tegels in de breedte: 3
