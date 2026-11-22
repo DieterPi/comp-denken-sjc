@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "144\n6"
+      stdout: "6 is echte deler van 144\n"
+  - testcases:
+    - stdin: "144\n25"
+      stdout: "25 is geen echte deler van 144\n"
+  - testcases:
+    - stdin: "5\n5"
+      stdout: "5 is geen echte deler van 5\n"
+  - testcases:
+    - stdin: "5\n1"
+      stdout: "1 is geen echte deler van 5\n"
+  - testcases:
+    - stdin: "10\n4"
+      stdout: "4 is geen echte deler van 10\n"
+  - testcases:
+    - stdin: "86877\n582"
+      stdout: "582 is geen echte deler van 86877\n"
+  - testcases:
+    - stdin: "54\n44"
+      stdout: "44 is geen echte deler van 54\n"
+  - testcases:
+    - stdin: "838\n836"
+      stdout: "836 is geen echte deler van 838\n"
+  - testcases:
+    - stdin: "8\n1"
+      stdout: "1 is geen echte deler van 8\n"
+  - testcases:
+    - stdin: "6\n1"
+      stdout: "1 is geen echte deler van 6\n"
+  - testcases:
+    - stdin: "92980\n4649"
+      stdout: "4649 is echte deler van 92980\n"
+  - testcases:
+    - stdin: "17\n1"
+      stdout: "1 is geen echte deler van 17\n"
+  - testcases:
+    - stdin: "62929\n1"
+      stdout: "1 is geen echte deler van 62929\n"
+  - testcases:
+    - stdin: "86457\n3"
+      stdout: "3 is echte deler van 86457\n"
+  - testcases:
+    - stdin: "721\n1"
+      stdout: "1 is geen echte deler van 721\n"
+  - testcases:
+    - stdin: "3367\n37"
+      stdout: "37 is echte deler van 3367\n"
+  - testcases:
+    - stdin: "76\n76"
+      stdout: "76 is geen echte deler van 76\n"
+  - testcases:
+    - stdin: "18\n2"
+      stdout: "2 is echte deler van 18\n"
+  - testcases:
+    - stdin: "70728\n2522"
+      stdout: "2522 is geen echte deler van 70728\n"
+  - testcases:
+    - stdin: "5171\n5171"
+      stdout: "5171 is geen echte deler van 5171\n"
+  - testcases:
+    - stdin: "838\n415"
+      stdout: "415 is geen echte deler van 838\n"
+  - testcases:
+    - stdin: "9\n1"
+      stdout: "1 is geen echte deler van 9\n"
+  - testcases:
+    - stdin: "92\n92"
+      stdout: "92 is geen echte deler van 92\n"
+  - testcases:
+    - stdin: "61853\n5"
+      stdout: "5 is geen echte deler van 61853\n"
+  - testcases:
+    - stdin: "99\n98"
+      stdout: "98 is geen echte deler van 99\n"
+  - testcases:
+    - stdin: "6482\n926"
+      stdout: "926 is echte deler van 6482\n"
+  - testcases:
+    - stdin: "72\n5"
+      stdout: "5 is geen echte deler van 72\n"
+  - testcases:
+    - stdin: "35\n1"
+      stdout: "1 is geen echte deler van 35\n"
+  - testcases:
+    - stdin: "67\n1"
+      stdout: "1 is geen echte deler van 67\n"
+  - testcases:
+    - stdin: "32\n8"
+      stdout: "8 is echte deler van 32\n"
