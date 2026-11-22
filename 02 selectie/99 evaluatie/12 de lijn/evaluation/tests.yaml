@@ -14,8 +14,8 @@
         0 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '7'
-      stdout: "Totale kostprijs: € 22\nHierbij koop je 0 keer een ticket van € 3 en
-        1 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 21\nHierbij koop je 7 keer een ticket van € 3 en
+        0 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '8'
       stdout: "Totale kostprijs: € 22\nHierbij koop je 0 keer een ticket van € 3 en
@@ -34,69 +34,69 @@
         1 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '15'
-      stdout: "Totale kostprijs: € 44\nHierbij koop je 0 keer een ticket van € 3 en
-        2 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 37\nHierbij koop je 5 keer een ticket van € 3 en
+        1 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '17'
-      stdout: "Totale kostprijs: € 44\nHierbij koop je 0 keer een ticket van € 3 en
-        2 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 43\nHierbij koop je 7 keer een ticket van € 3 en
+        1 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '22'
-      stdout: "Totale kostprijs: € 66\nHierbij koop je 0 keer een ticket van € 3 en
-        3 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 50\nHierbij koop je 2 keer een ticket van € 3 en
+        2 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '23'
-      stdout: "Totale kostprijs: € 66\nHierbij koop je 0 keer een ticket van € 3 en
-        3 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 53\nHierbij koop je 3 keer een ticket van € 3 en
+        2 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '24'
+      stdout: "Totale kostprijs: € 56\nHierbij koop je 4 keer een ticket van € 3 en
+        2 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '30'
       stdout: "Totale kostprijs: € 66\nHierbij koop je 0 keer een ticket van € 3 en
         3 keer een ticket van € 22.\n"
   - testcases:
-    - stdin: '30'
-      stdout: "Totale kostprijs: € 88\nHierbij koop je 0 keer een ticket van € 3 en
-        4 keer een ticket van € 22.\n"
-  - testcases:
     - stdin: '31'
-      stdout: "Totale kostprijs: € 88\nHierbij koop je 0 keer een ticket van € 3 en
-        4 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 69\nHierbij koop je 1 keer een ticket van € 3 en
+        3 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '32'
-      stdout: "Totale kostprijs: € 88\nHierbij koop je 0 keer een ticket van € 3 en
-        4 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 72\nHierbij koop je 2 keer een ticket van € 3 en
+        3 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '33'
+      stdout: "Totale kostprijs: € 75\nHierbij koop je 3 keer een ticket van € 3 en
+        3 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '35'
+      stdout: "Totale kostprijs: € 81\nHierbij koop je 5 keer een ticket van € 3 en
+        3 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '36'
+      stdout: "Totale kostprijs: € 84\nHierbij koop je 6 keer een ticket van € 3 en
+        3 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '38'
       stdout: "Totale kostprijs: € 88\nHierbij koop je 0 keer een ticket van € 3 en
         4 keer een ticket van € 22.\n"
   - testcases:
-    - stdin: '35'
-      stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
-        en 5 keer een ticket van € 22.\n"
-  - testcases:
-    - stdin: '36'
-      stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
-        en 5 keer een ticket van € 22.\n"
-  - testcases:
-    - stdin: '38'
-      stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
-        en 5 keer een ticket van € 22.\n"
-  - testcases:
     - stdin: '39'
-      stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
-        en 5 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 88\nHierbij koop je 0 keer een ticket van € 3 en
+        4 keer een ticket van € 22.\n"
   - testcases:
     - stdin: '41'
+      stdout: "Totale kostprijs: € 91\nHierbij koop je 1 keer een ticket van € 3 en
+        4 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '47'
+      stdout: "Totale kostprijs: € 109\nHierbij koop je 7 keer een ticket van € 3
+        en 4 keer een ticket van € 22.\n"
+  - testcases:
+    - stdin: '49'
       stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
         en 5 keer een ticket van € 22.\n"
   - testcases:
-    - stdin: '47'
-      stdout: "Totale kostprijs: € 132\nHierbij koop je 0 keer een ticket van € 3
-        en 6 keer een ticket van € 22.\n"
-  - testcases:
-    - stdin: '49'
-      stdout: "Totale kostprijs: € 154\nHierbij koop je 0 keer een ticket van € 3
-        en 7 keer een ticket van € 22.\n"
-  - testcases:
     - stdin: '50'
-      stdout: "Totale kostprijs: € 154\nHierbij koop je 0 keer een ticket van € 3
-        en 7 keer een ticket van € 22.\n"
+      stdout: "Totale kostprijs: € 110\nHierbij koop je 0 keer een ticket van € 3
+        en 5 keer een ticket van € 22.\n"
