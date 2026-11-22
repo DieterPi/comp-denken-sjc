@@ -1,17 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "doctest"
-  },
   "description": {
     "names": {
-      "nl": "IBU (oefening)"
+      "nl": "Deelbaar?"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "selectie",
+    "modulo"
   ],
+  "contact": "Dieter V <dieter.vanderfaeillie@sjcaalst.be>",
   "access": "public",
   "internals": {
     "token": "8WrzEYkWzG9WiRFr7c4uVt-9T7MMnWsRRKaWA9mIsvt9pN9KQfYpavKQPCkgnyVI",

@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "144\n6"
+      stdout: "144 is deelbaar door 6\n"
+  - testcases:
+    - stdin: "144\n25"
+      stdout: "144 is niet deelbaar door 25\n"
+  - testcases:
+    - stdin: "5\n5"
+      stdout: "5 is deelbaar door 5\n"
+  - testcases:
+    - stdin: "5\n1"
+      stdout: "5 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "10\n4"
+      stdout: "10 is niet deelbaar door 4\n"
+  - testcases:
+    - stdin: "86877\n582"
+      stdout: "86877 is niet deelbaar door 582\n"
+  - testcases:
+    - stdin: "54\n44"
+      stdout: "54 is niet deelbaar door 44\n"
+  - testcases:
+    - stdin: "838\n836"
+      stdout: "838 is niet deelbaar door 836\n"
+  - testcases:
+    - stdin: "8\n1"
+      stdout: "8 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "6\n1"
+      stdout: "6 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "92980\n4649"
+      stdout: "92980 is deelbaar door 4649\n"
+  - testcases:
+    - stdin: "17\n1"
+      stdout: "17 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "62929\n1"
+      stdout: "62929 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "86457\n3"
+      stdout: "86457 is deelbaar door 3\n"
+  - testcases:
+    - stdin: "721\n1"
+      stdout: "721 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "3367\n37"
+      stdout: "3367 is deelbaar door 37\n"
+  - testcases:
+    - stdin: "76\n76"
+      stdout: "76 is deelbaar door 76\n"
+  - testcases:
+    - stdin: "18\n2"
+      stdout: "18 is deelbaar door 2\n"
+  - testcases:
+    - stdin: "70728\n2522"
+      stdout: "70728 is niet deelbaar door 2522\n"
+  - testcases:
+    - stdin: "5171\n5171"
+      stdout: "5171 is deelbaar door 5171\n"
+  - testcases:
+    - stdin: "838\n415"
+      stdout: "838 is niet deelbaar door 415\n"
+  - testcases:
+    - stdin: "9\n1"
+      stdout: "9 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "92\n92"
+      stdout: "92 is deelbaar door 92\n"
+  - testcases:
+    - stdin: "61853\n5"
+      stdout: "61853 is niet deelbaar door 5\n"
+  - testcases:
+    - stdin: "99\n98"
+      stdout: "99 is niet deelbaar door 98\n"
+  - testcases:
+    - stdin: "6482\n926"
+      stdout: "6482 is deelbaar door 926\n"
+  - testcases:
+    - stdin: "72\n5"
+      stdout: "72 is niet deelbaar door 5\n"
+  - testcases:
+    - stdin: "35\n1"
+      stdout: "35 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "67\n1"
+      stdout: "67 is deelbaar door 1\n"
+  - testcases:
+    - stdin: "32\n8"
+      stdout: "32 is deelbaar door 8\n"
