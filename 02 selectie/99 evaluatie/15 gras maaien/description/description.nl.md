@@ -1,13 +1,12 @@
-Mirko is op jacht naar een huis dat een tuin heeft. Deze tuin is sowieso rechthoekig van vorm, opgebouwd uit `n` rijen en `m` kolommen. Om het gras in deze tuin te maaien moet hij over elk veldje minstens één keer gaan, en hij kan met zijn grasmaaier steeds vooruit gaan of 90° draaien. Hij blijft bij het maaien van het gras steeds in zijn eigen tuin. 
+Mirko is op zoek naar een huis met een rechthoekige tuin, bestaande uit een rooster van `n` rijen en `m` kolommen. Om het volledige grasveld te maaien, moet hij met zijn grasmaaier minstens één keer over elk vakje rijden, zonder de tuin te verlaten.
 
-Hij kan starten vanaf elk veldje aan de rand van de tuin en beweegt dan naar het Noorden, Oosten, Zuiden of Westen. Omdat draaien met de grasmaaier lastig is, wil hij zo weinig mogelijk moeten draaien.
+Hij mag starten op een willekeurig vakje aan de rand van de tuin, gericht naar het noorden, oosten, zuiden of westen. Tijdens het maaien kan hij enkel rechtdoor rijden of een bocht van 90° maken. Omdat draaien lastig is, wil hij zo **weinig mogelijk bochten** nemen.
 
 Als je de afmetingen van de tuin kent, hoeveel keer moet Mirko dan draaien? Bij een tuin van `3` rijen en `4` kolommen is een optimale maairoute bijvoorbeeld de volgende:
 
 ![Afbeelding gegenereerd door Gemini 24-11-2026.](media/gras.png "Afbeelding gegenereerd door Gemini 24-11-2026."){:data-caption="Afbeelding gegenereerd door Gemini 24-11-2026." height="200px"}
 
-Hierbij draait Mirko zijn grasmaaier vier keer.
-
+Hierbij draait Mirko zijn grasmaaier **vier keer**.
 
 ## Opgave
 Schrijf een programma dat vraagt naar het aantal rijen en het aantal kolommen en vervolgens het minimale aantal keer dat Mirko moet draaien op het scherm weergeeft.
