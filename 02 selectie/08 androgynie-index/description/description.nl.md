@@ -27,8 +27,8 @@ Androgynie-index: 0.83
 Je komt in aanmerking als model.
 ```
 
-Voor Marilyn Monroe van het biologische geslacht `"vrouw"` en met de maten `91`, `61` en `89` verschijnt er:
+Voor Marilyn Monroe van het biologische geslacht `"vrouw"` en met de maten `105`, `70` en `95` verschijnt er:
 ```
-Androgynie-index: 0.68
-Je komt niet in aanmerking als model.
+Androgynie-index: 0.7
+Je komt in niet aanmerking als model.
 ```
