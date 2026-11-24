@@ -9,7 +9,7 @@ $$
 $$
 
 ## Opgave
-Schrijf een programma dat de massa van het kind en de dosis voor een volwassene vraagt en vervolgens de kinderdosis afgerond op 1 cijfers na de komma op het scherm afdrukt.
+Schrijf een programma dat de massa van het kind (in kg) en de dosis voor een volwassene (in mg) vraagt en vervolgens de kinderdosis afgerond op 1 cijfer na de komma op het scherm afdrukt.
 
 #### Voorbeeld
 Voor een kind van `13` kg en een dosis van `30` mg verschijnt er dat de kinderdosis 5,7 mg bedraagt.
