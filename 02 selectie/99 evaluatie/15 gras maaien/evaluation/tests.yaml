@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "3\n4"
+      stdout: "Mikro moet zijn grasmaaier 4 keer draaien.\n"
+  - testcases:
+    - stdin: "5\n8"
+      stdout: "Mikro moet zijn grasmaaier 8 keer draaien.\n"
+  - testcases:
+    - stdin: "4\n3"
+      stdout: "Mikro moet zijn grasmaaier 4 keer draaien.\n"
+  - testcases:
+    - stdin: "6\n4"
+      stdout: "Mikro moet zijn grasmaaier 6 keer draaien.\n"
+  - testcases:
+    - stdin: "4\n6"
+      stdout: "Mikro moet zijn grasmaaier 6 keer draaien.\n"
+  - testcases:
+    - stdin: "3\n3"
+      stdout: "Mikro moet zijn grasmaaier 4 keer draaien.\n"
+  - testcases:
+    - stdin: "10\n42"
+      stdout: "Mikro moet zijn grasmaaier 18 keer draaien.\n"
+  - testcases:
+    - stdin: "6\n3"
+      stdout: "Mikro moet zijn grasmaaier 4 keer draaien.\n"
+  - testcases:
+    - stdin: "124\n1666"
+      stdout: "Mikro moet zijn grasmaaier 246 keer draaien.\n"
+  - testcases:
+    - stdin: "838\n71"
+      stdout: "Mikro moet zijn grasmaaier 140 keer draaien.\n"
+  - testcases:
+    - stdin: "8\n80"
+      stdout: "Mikro moet zijn grasmaaier 14 keer draaien.\n"
+  - testcases:
+    - stdin: "42\n6"
+      stdout: "Mikro moet zijn grasmaaier 10 keer draaien.\n"
+  - testcases:
+    - stdin: "7\n672"
+      stdout: "Mikro moet zijn grasmaaier 12 keer draaien.\n"
+  - testcases:
+    - stdin: "491\n17"
+      stdout: "Mikro moet zijn grasmaaier 32 keer draaien.\n"
+  - testcases:
+    - stdin: "41\n79"
+      stdout: "Mikro moet zijn grasmaaier 80 keer draaien.\n"
+  - testcases:
+    - stdin: "9026\n76"
+      stdout: "Mikro moet zijn grasmaaier 150 keer draaien.\n"
+  - testcases:
+    - stdin: "1968\n721"
+      stdout: "Mikro moet zijn grasmaaier 1440 keer draaien.\n"
+  - testcases:
+    - stdin: "28\n8"
+      stdout: "Mikro moet zijn grasmaaier 14 keer draaien.\n"
+  - testcases:
+    - stdin: "61\n100"
+      stdout: "Mikro moet zijn grasmaaier 120 keer draaien.\n"
+  - testcases:
+    - stdin: "76\n773"
+      stdout: "Mikro moet zijn grasmaaier 150 keer draaien.\n"
+  - testcases:
+    - stdin: "18\n4764"
+      stdout: "Mikro moet zijn grasmaaier 34 keer draaien.\n"
+  - testcases:
+    - stdin: "1670\n750"
+      stdout: "Mikro moet zijn grasmaaier 1498 keer draaien.\n"
+  - testcases:
+    - stdin: "7713\n483"
+      stdout: "Mikro moet zijn grasmaaier 964 keer draaien.\n"
+  - testcases:
+    - stdin: "823\n838"
+      stdout: "Mikro moet zijn grasmaaier 1644 keer draaien.\n"
+  - testcases:
+    - stdin: "50\n2817"
+      stdout: "Mikro moet zijn grasmaaier 98 keer draaien.\n"
