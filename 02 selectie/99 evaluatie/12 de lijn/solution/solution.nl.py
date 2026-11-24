@@ -1,8 +1,8 @@
 aantal = int(input("Geef het aantal ritten in:"))
 
 aantal22 = aantal // 10
-aantal3 = aantal - aantal22 * 10
-if aantal3 * 3 > 22:
+aantal3 = aantal % 10
+if aantal3 > 7:
     aantal3 = 0
     aantal22 = aantal22 + 1
 
