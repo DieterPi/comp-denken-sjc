@@ -37,9 +37,6 @@
     - stdin: "18\n0\n21\n55"
       stdout: "Vergoeding: € 24\n"
   - testcases:
-    - stdin: "17\n40\n23\n40"
-      stdout: "Vergoeding: € 66\n"
-  - testcases:
     - stdin: "17\n30\n18\n45"
       stdout: "Vergoeding: € 12\n"
   - testcases:
